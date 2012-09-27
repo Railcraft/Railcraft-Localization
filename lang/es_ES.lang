@@ -16,7 +16,6 @@ cube.brick.infernal=Ladrillo Infernal
 cube.concrete.block=Bloque de Concreto
 cube.crushed.obsidian=Obsidian triturado
 cube.steel.block=Bloque de Acero
-cube.world.anchor=Ancla de Mundo
 
 detector.advanced=Detector - Avanzado
 detector.animal=Detector - Animal
@@ -97,20 +96,11 @@ liquid.steam=Vapor
 
 machine.alpha.blast.furnace=Ladrillo de Horno de Explosion
 machine.alpha.coke.oven=Ladrillo para Horno de Coke
-machine.alpha.dispenser.cart=Dispenser de Carros
-machine.alpha.dispenser.train=Dispenser de Trenes
 machine.alpha.feed.station=Estacion de Alimentacion
-machine.alpha.loader.energy=Cargador de Energia
-machine.alpha.loader.item=Cargador de Objetos
-machine.alpha.loader.item.advanced=Cargador de Objetos Av.
-machine.alpha.loader.liquid=Cargador de Liquidos
 machine.alpha.rock.crusher=Trituradora de Rocas
 machine.alpha.rolling.machine=Maquina de Laminacion
 machine.alpha.tank.water=Revestimiento de Tanque de Agua
-machine.alpha.unloader.energy=Descargador de Energia
-machine.alpha.unloader.item=Cargador de Items
-machine.alpha.unloader.item.advanced=Descargador de Items Av.
-machine.alpha.unloader.liquid=Descargador de Liquidos
+machine.alpha.world.anchor=Ancla de Mundo
 
 machine.beta.boiler.firebox.liquid=Caldera de Combustion para Liquidos
 machine.beta.boiler.firebox.solid=Caldera de Combustion

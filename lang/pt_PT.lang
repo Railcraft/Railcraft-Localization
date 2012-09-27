@@ -16,7 +16,6 @@ cube.brick.infernal=Tijolo Infernal
 cube.concrete.block=Bloco de Betão
 cube.crushed.obsidian=Obsidiana Esmagada
 cube.steel.block=Bloco de Aço
-cube.world.anchor=Ancorador 
 
 detector.advanced=Detector - Avançado
 detector.age=Detector - Adulto
@@ -100,6 +99,7 @@ machine.alpha.feed.station=Estação de Alimentação
 machine.alpha.rock.crusher=Esmagador de pedras
 machine.alpha.rolling.machine=Máquina de Enrolar
 machine.alpha.tank.water=Bloco de Tanque de Água
+machine.alpha.world.anchor=Ancorador 
 
 machine.beta.boiler.firebox.liquid=Caldeira de LÍquidos 
 machine.beta.boiler.firebox.solid=Caldeira

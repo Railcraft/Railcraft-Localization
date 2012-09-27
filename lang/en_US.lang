@@ -104,6 +104,7 @@ machine.alpha.feed.station=Feed Station
 machine.alpha.rock.crusher=Rock Crusher
 machine.alpha.rolling.machine=Rolling Machine
 machine.alpha.tank.water=Water Tank Siding
+machine.alpha.world.anchor=World Anchor
 
 machine.beta.boiler.firebox.liquid=Liquid Fired Boiler Firebox
 machine.beta.boiler.firebox.solid=Boiler Firebox
