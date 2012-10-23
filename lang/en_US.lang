@@ -92,6 +92,9 @@ gui.tank.iron=Iron Tank
 gui.tank.water=Water Tank
 gui.ticks=ticks
 gui.track.embarking.radius=Radius
+gui.turbine=Steam Turbine
+gui.turbine.output=Output: %d%%
+gui.turbine.rotor=Rotor:
 
 ic2.upgrade.lapotron=Lapotron Loader Upgrade
 
@@ -109,6 +112,7 @@ machine.alpha.feed.station=Feed Station
 machine.alpha.rock.crusher=Rock Crusher
 machine.alpha.rolling.machine=Rolling Machine
 machine.alpha.tank.water=Water Tank Siding
+machine.alpha.turbine=Steam Turbine Housing
 machine.alpha.world.anchor=World Anchor
 
 machine.beta.anchor.sentinel=Anchor Sentinel
@@ -143,6 +147,7 @@ part.circuit.controller=Controller Circuit
 part.circuit.receiver=Receiver Circuit
 part.gear.gold.plate=Gold-Plate Gear
 part.gear.iron=Iron Gear
+part.gear.steel=Steel Gear
 part.ingot.steel=Steel Ingot
 part.plate.iron=Iron Plate
 part.plate.steel=Steel Plate
@@ -158,6 +163,9 @@ part.rebar=Rebar
 part.signal.lamp=Signal Lamp
 part.tie.stone=Stone Tie
 part.tie.wood=Wooden Tie
+part.turbine.blade=Turbine Blade
+part.turbine.disk=Turbine Disk
+part.turbine.rotor=Turbine Rotor
 
 post.metal=Metal Post
 post.metal.black=Black Metal Post
