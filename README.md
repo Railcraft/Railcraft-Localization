@@ -22,9 +22,7 @@ Inheritance:
 	<li>en_GB</li>
 	<li>de_DE</li>
 	<li>pt_PT
-		<ul>
-			<li>pt_BR</li>
-		</ul>
+		<ul><li>pt_BR</li></ul>
 	</li>
 	<li>es_ES
 		<ul>
