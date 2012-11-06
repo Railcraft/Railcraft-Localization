@@ -1,3 +1,5 @@
+# Parent Language: en_US
+
 cart.anchor=Вагонетка с "Мировым якорем"
 cart.basic=Вагонетка
 cart.batbox=Вагонетка с бат-боксом
@@ -159,16 +161,15 @@ part.signal.lamp=Сигнальная лампа
 part.tie.stone=Каменная шпала
 part.tie.wood=Деревянная шпала
 
-post.metal=Металлический столб
 post.metal.black=Черный металлический столб
 post.metal.blue=Синий металлический столб
 post.metal.brown=Коричневый металлический столб
 post.metal.cyan=Бирюзовый металлический столб
+post.metal.gray=Серый металлический столб
 post.metal.green=Зеленый металлический столб
-post.metal.grey=Серый металлический столб
 post.metal.light.blue=Светло-синий металлический столб
-post.metal.light.green=Светло-зеленый металлический столб
-post.metal.light.grey=Светло-серый металлический столб
+post.metal.light.gray=Светло-серый металлический столб
+post.metal.lime=Светло-зеленый металлический столб
 post.metal.magenta=Пурпурный металлический столб
 post.metal.orange=Оранжевый металлический столб
 post.metal.pink=Розовый металлический столб
@@ -176,6 +177,7 @@ post.metal.purple=Фиолетовый металлический столб
 post.metal.red=Красный металлический столб
 post.metal.white=Белый металлический столб
 post.metal.yellow=Желтый металлический столб
+post.metal=Металлический столб
 post.stone=Каменный столб
 post.wood=Деревянный столб
 

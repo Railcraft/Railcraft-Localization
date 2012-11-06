@@ -1,3 +1,5 @@
+# Parent Language: en_US
+
 cart.anchor=アンカー付きトロッコ
 cart.basic=トロッコ
 cart.batbox=バットボックス付きトロッコ
@@ -168,16 +170,15 @@ part.turbine.blade=タービンの羽根
 part.turbine.disk=タービンディスク
 part.turbine.rotor=タービンローター
 
-post.metal=金属の支柱
 post.metal.black=黒色の金属支柱
 post.metal.blue=青色の金属支柱
 post.metal.brown=茶色の金属支柱
 post.metal.cyan=水色の金属支柱
+post.metal.gray=灰色の金属支柱
 post.metal.green=緑色の金属支柱
-post.metal.grey=灰色の金属支柱
 post.metal.light.blue=空色の金属支柱
-post.metal.light.green=黄緑色の金属支柱
-post.metal.light.grey=薄灰色の金属支柱
+post.metal.light.gray=薄灰色の金属支柱
+post.metal.lime=黄緑色の金属支柱
 post.metal.magenta=赤紫色の金属支柱
 post.metal.orange=橙色の金属支柱
 post.metal.pink=桃色の金属支柱
@@ -185,6 +186,7 @@ post.metal.purple=紫色の金属支柱
 post.metal.red=赤色の金属支柱
 post.metal.white=白色の金属支柱
 post.metal.yellow=黄色の金属支柱
+post.metal=金属の支柱
 post.stone=石の支柱
 post.wood=木の支柱
 

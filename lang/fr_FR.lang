@@ -1,3 +1,5 @@
+# Parent Language: en_US
+
 cart.anchor=Wagonnet avec ancre
 cart.basic=Wagonnet
 cart.batbox=Wagonnet avec Batbox
@@ -167,16 +169,15 @@ part.turbine.blade=Pales de turbine
 part.turbine.disk=Disque de turbine
 part.turbine.rotor=Turbine à rotor
 
-post.metal=Poteau métallique
 post.metal.black=Poteau métallique noir
 post.metal.blue=Poteau métallique bleu
 post.metal.brown=Poteau métallique brun
 post.metal.cyan=Poteau métallique cyan
+post.metal.gray=Poteau métallique gris
 post.metal.green=Poteau métallique vert
-post.metal.grey=Poteau métallique gris
 post.metal.light.blue=Poteau métallique bleu clair
-post.metal.light.green=Poteau métallique vert clair
-post.metal.light.grey=Poteau métallique gris clair
+post.metal.light.gray=Poteau métallique gris clair
+post.metal.lime=Poteau métallique vert clair
 post.metal.magenta=Poteau métallique magenta
 post.metal.orange=Poteau métallique orange
 post.metal.pink=Poteau métallique rose
@@ -184,6 +185,7 @@ post.metal.purple=Poteau métallique violet
 post.metal.red=Poteau métallique rouge
 post.metal.white=Poteau métallique blanc
 post.metal.yellow=Poteau métallique jaune
+post.metal=Poteau métallique
 post.stone=Poteau de pierre
 post.wood=Poteau de bois
 

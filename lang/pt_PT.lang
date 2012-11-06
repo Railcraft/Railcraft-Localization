@@ -1,3 +1,5 @@
+# Parent Language: en_US
+
 cart.anchor=Vagão Ancorador
 cart.basic=Vagão
 cart.batbox=Vagão com Batbox
@@ -167,16 +169,15 @@ part.turbine.blade=Lâmina para Turbina
 part.turbine.disk=Disco para Turbina
 part.turbine.rotor=Rotor para Turbina
 
-post.metal=Poste de Metal
 post.metal.black=Poste de Metal Preto
 post.metal.blue=Poste de Metal Azul
 post.metal.brown=Poste de Metal Castanho
 post.metal.cyan=Poste de Metal Ciano
+post.metal.gray=Poste de Metal Cinzento
 post.metal.green=Poste de Metal Verde
-post.metal.grey=Poste de Metal Cinzento
 post.metal.light.blue=Poste de Metal Azul Claro
-post.metal.light.green=Poste de Metal Verde Claro
-post.metal.light.grey=Poste de Metal Cinzento Claro
+post.metal.light.gray=Poste de Metal Cinzento Claro
+post.metal.lime=Poste de Metal Verde Claro
 post.metal.magenta=Poste de Metal Magenta
 post.metal.orange=Poste de Metal Laranja
 post.metal.pink=Poste de Metal Cor-de-Rosa
@@ -184,6 +185,7 @@ post.metal.purple=Poste de Metal Púrpura
 post.metal.red=Poste de Metal Vermelho
 post.metal.white=Poste de Metal Branco
 post.metal.yellow=Poste de Metal Amarelo
+post.metal=Poste de Metal
 post.stone=Poste em Pedra
 post.wood=Poste em Madeira
 

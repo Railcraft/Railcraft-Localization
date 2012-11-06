@@ -1,3 +1,5 @@
+# Parent Language: en_US
+
 cart.anchor=Carro Ancla
 cart.basic=Carro Minero
 cart.batbox=Carro Bateria
@@ -146,16 +148,15 @@ part.signal.lamp=Lampara de Señal
 part.tie.stone=Amarre de Piedra
 part.tie.wood=Amarre de Madera
 
-post.metal=Poste de Metal
 post.metal.black=Poste de Metal Negro
 post.metal.blue=Poste de Metal Azul
 post.metal.brown=Poste de Metal Marron
 post.metal.cyan=Poste de Metal Cian
+post.metal.gray=Poste de Metal Gris
 post.metal.green=Poste de Metal Verde
-post.metal.grey=Poste de Metal Gris
 post.metal.light.blue=Poste de Metal Celeste
-post.metal.light.green=Poste de luz de metal verde
-post.metal.light.grey=Poste de Metal Gris Claro
+post.metal.light.gray=Poste de Metal Gris Claro
+post.metal.lime=Poste de luz de metal verde
 post.metal.magenta=Poste de Metal Magenta
 post.metal.orange=Poste de Metal Naranja
 post.metal.pink=Poste de Metal Rosa
@@ -163,6 +164,7 @@ post.metal.purple=Poste de Metal Violeta
 post.metal.red=Poste de Metal Rojo
 post.metal.white=Poste de Metal Blanco
 post.metal.yellow=Poste de Metal Amarillo
+post.metal=Poste de Metal
 post.stone=Poste de Piedra
 post.wood=Poste de Madera
 

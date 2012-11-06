@@ -1,3 +1,5 @@
+# Parent Language: en_US
+
 cart.anchor=Ankerwaggon
 cart.basic=Minenwaggon
 cart.batbox=Batboxwaggon
@@ -150,16 +152,15 @@ part.tie.wood=Holzschwelle
 structure.block.concrete=Veralteter Betonblock
 structure.box.controller=Signalsteuerkasten
 structure.box.receiver=Signalempfängerkasten
-structure.post.metal=Metalpfosten
 structure.post.metal.black=Schwarzer Metallpfosten
 structure.post.metal.blue=Blauer Metallpfosten
 structure.post.metal.brown=Brauner Metallpfosten
 structure.post.metal.cyan=Türkiser Metallpfosten
+structure.post.metal.gray=Grauer Metallpfosten
 structure.post.metal.green=Grüner Metallpfosten
-structure.post.metal.grey=Grauer Metallpfosten
 structure.post.metal.light.blue=Hellblauer Metallpfosten
-structure.post.metal.light.green=Hellgrüner Metallpfosten
-structure.post.metal.light.grey=Hellgrauer Metallpfosten
+structure.post.metal.light.gray=Hellgrauer Metallpfosten
+structure.post.metal.lime=Hellgrüner Metallpfosten
 structure.post.metal.magenta=Magentafarbener Metallpfosten
 structure.post.metal.orange=Orangener Metallpfosten
 structure.post.metal.pink=Pinker Metallpfosten
@@ -167,8 +168,10 @@ structure.post.metal.purple=Purpurfarbener Metallpfosten
 structure.post.metal.red=Roter Metallpfosten
 structure.post.metal.white=Weißer Metallpfosten
 structure.post.metal.yellow=Gelber Metallpfosten
+structure.post.metal=Metalpfosten
 structure.post.stone=Steinpfosten
 structure.post.wood=Holzpfosten
+
 structure.signal.block=Blocksignal
 structure.signal.block.dual=Doppelkopf-Blocksignal
 structure.signal.distant=Entferntes Signal

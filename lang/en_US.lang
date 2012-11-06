@@ -1,3 +1,5 @@
+# Root Language
+
 cart.anchor=Anchor Cart
 cart.basic=Minecart
 cart.batbox=Batbox Cart
@@ -49,7 +51,11 @@ gates.action.sendcart=Send Cart
 gates.trigger.cart=Has Cart
 gates.trigger.engine=Engine Stage
 gates.trigger.fuel=Low Fuel
+gates.trigger.maintenance=Needs Maintenance
 gates.trigger.work=Has Work
+gates.trigger.temp.cold=Cold
+gates.trigger.temp.warm=Warm
+gates.trigger.temp.hot=Hot
 
 gui.anchor.pair.fail.alignment=is not axis aligned with that
 gui.anchor.pair.fail.distance=is too far to pair with that
@@ -168,16 +174,15 @@ part.turbine.blade=Turbine Blade
 part.turbine.disk=Turbine Disk
 part.turbine.rotor=Turbine Rotor
 
-post.metal=Metal Post
 post.metal.black=Black Metal Post
 post.metal.blue=Blue Metal Post
 post.metal.brown=Brown Metal Post
 post.metal.cyan=Cyan Metal Post
+post.metal.gray=Gray Metal Post
 post.metal.green=Green Metal Post
-post.metal.grey=Grey Metal Post
 post.metal.light.blue=Light Blue Metal Post
-post.metal.light.green=Light Green Metal Post
-post.metal.light.grey=Light Grey Metal Post
+post.metal.light.gray=Light Gray Metal Post
+post.metal.lime=Lime Metal Post
 post.metal.magenta=Magenta Metal Post
 post.metal.orange=Orange Metal Post
 post.metal.pink=Pink Metal Post
@@ -185,6 +190,7 @@ post.metal.purple=Purple Metal Post
 post.metal.red=Red Metal Post
 post.metal.white=White Metal Post
 post.metal.yellow=Yellow Metal Post
+post.metal=Metal Post
 post.stone=Stone Post
 post.wood=Wooden Post
 

@@ -1,3 +1,4 @@
+# Parent Language: pt_PT
 # Translated by Cassiobsk8
 
 cart.anchor=Vagão Ancorador
@@ -150,26 +151,6 @@ part.rebar=Reforço
 part.signal.lamp=Sinaleira
 part.tie.stone=Travessa em Pedra
 part.tie.wood=Travessa em madeira
-
-post.metal=Poste de Metal
-post.metal.black=Poste de Metal Preto
-post.metal.blue=Poste de Metal Azul
-post.metal.brown=Poste de Metal Castanho
-post.metal.cyan=Poste de Metal Ciano
-post.metal.green=Poste de Metal Verde
-post.metal.grey=Poste de Metal Cinzento
-post.metal.light.blue=Light Blue Poste de Metal Azul Claro
-post.metal.light.green=Light Green Poste de Metal Verde Claro
-post.metal.light.grey=Light Grey Poste de Metal Cinzento Claro
-post.metal.magenta=Poste de Metal Magenta
-post.metal.orange=Poste de Metal Laranja
-post.metal.pink=Poste de Metal Cor-de-Rosa
-post.metal.purple=Poste de Metal Púrpura
-post.metal.red=Poste de Metal Vermelho
-post.metal.white=Poste de Metal Branco
-post.metal.yellow=Poste de Metal Amarelo
-post.stone=Poste em Pedra
-post.wood=Poste em Madeira
 
 structure.block.concrete=Bloco de Concreto (Obsoleto)
 structure.box.controller=Caixa de controle de sinal
