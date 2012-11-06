@@ -18,15 +18,15 @@ See en_GB for an example of changing just a couple tags and inheriting the rest.
 
 Inheritance:
 - en_US
--- en_GB
--- de_DE
--- pt_PT
---- pt_BR
--- es_ES
---- es_AR
---- es_MX
---- es_UY
---- es_VE
--- ru_RU
--- fr_FR
--- ja_JP
+- - en_GB
+- - de_DE
+- - pt_PT
+- - - pt_BR
+- - es_ES
+- - - es_AR
+- - - es_MX
+- - - es_UY
+- - - es_VE
+- - ru_RU
+- - fr_FR
+- - ja_JP
