@@ -21,18 +21,8 @@ Inheritance:
 	<ul>
 	<li>en_GB</li>
 	<li>de_DE</li>
-	<li>pt_PT
-		<ul><li>pt_BR</li></ul>
-	</li>
-	<li>es_ES
-		<ul>
-			<li>es_AR</li>
-			<li>es_MX</li>
-			<li>es_UY</li>
-			<li>es_VE</li>	
-		</ul>
-	</li>
-	<li>ru_RU</li>
+	<li>pt_PT<ul><li>pt_BR</li></ul></li>
+	<li>es_ES<ul><li>es_AR</li><li>es_MX</li><li>es_UY</li><li>es_VE</li></ul></li><li>ru_RU</li>
 	<li>fr_FR</li>
 	<li>ja_JP</li>
 	</ul>
