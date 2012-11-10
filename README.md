@@ -16,7 +16,7 @@ Please be aware that the inheritance tree does not represent reality, and is sim
 
 See en_GB for an example of changing just a couple tags and inheriting the rest.
 
-Inheritance:
+Inheritance Tree:
 <ul><li>en_US
 	<ul>
 	<li>en_GB</li>
