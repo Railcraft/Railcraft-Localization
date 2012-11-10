@@ -14,16 +14,19 @@ When adding language variants from the same family, keep in mind that tags are i
 
 Please be aware that the inheritance tree does not represent reality, and is simply a construct to simplify translations.
 
-See en_GB for an example of changing just a couple tags and inheriting the rest.
+See [en_GB](https://github.com/CovertJaguar/Railcraft-Localization/blob/master/lang/en_GB.lang) for an example of changing just a couple tags and inheriting the rest.
 
 Inheritance Tree:
-<ul><li>en_US
-	<ul>
-	<li>en_GB</li>
-	<li>de_DE</li>
-	<li>pt_PT<ul><li>pt_BR</li></ul></li>
-	<li>es_ES<ul><li>es_AR</li><li>es_MX</li><li>es_UY</li><li>es_VE</li></ul></li><li>ru_RU</li>
-	<li>fr_FR</li>
-	<li>ja_JP</li>
-	</ul>
-</li></ul>
+- en_US
+ - en_GB
+ - de_DE
+ - pt_PT
+     - pt_BR
+ - es_ES
+     - es_AR
+     - es_MX
+     - es_UY
+     - es_VE
+ - ru_RU
+ - fr_FR
+ - ja_JP
