@@ -1,5 +1,10 @@
 # Root Language
 
+armor.steel.helmet=Steel Helmet
+armor.steel.plate=Steel Chestplate
+armor.steel.legs=Steel Leggings
+armor.steel.boots=Steel Boots
+
 cart.anchor=Anchor Cart
 cart.basic=Minecart
 cart.batbox=Batbox Cart
