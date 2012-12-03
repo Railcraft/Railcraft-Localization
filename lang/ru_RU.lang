@@ -114,7 +114,7 @@ machine.alpha.tank.water=Обшивка водонапорной башни
 machine.alpha.world.anchor=Мировой якорь
 
 machine.beta.anchor.sentinel=Мировой страж
-machine.beta.boiler.firebox.liquid=Жидкотопливаня камера сгорания
+machine.beta.boiler.firebox.liquid=Жидкотопливная камера сгорания
 machine.beta.boiler.firebox.solid=Твердотопливная камера сгорания
 machine.beta.boiler.tank.pressure.high=Котел высокого давления
 machine.beta.boiler.tank.pressure.low=Котел низкого давления
