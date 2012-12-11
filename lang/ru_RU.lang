@@ -1,5 +1,10 @@
 # Parent Language: en_US
 
+armor.steel.helmet=Стальной шлем
+armor.steel.plate=Стальная кираса
+armor.steel.legs=Стальные поножи
+armor.steel.boots=Стальные ботинки
+
 cart.anchor=Вагонетка с "Мировым якорем"
 cart.basic=Вагонетка
 cart.batbox=Вагонетка с бат-боксом
@@ -8,6 +13,7 @@ cart.chest=Вагонетка с сундуком
 cart.furnace=Вагонетка с двигателем
 cart.mfe=Вагонетка с МФЭ
 cart.mfsu=Вагонетка с ЭХО
+cart.pumpkin=Вагонетка с тыквой
 cart.tank=Вагонетка с цистерной
 cart.tnt=Вагонетка с динамитом
 cart.track.relayer=Переукладчик путей
@@ -160,6 +166,9 @@ part.rebar=Арматура
 part.signal.lamp=Сигнальная лампа
 part.tie.stone=Каменная шпала
 part.tie.wood=Деревянная шпала
+part.turbine.blade=Лопатка турбины
+part.turbine.disk=Диск турбины
+part.turbine.rotor=Ротор турбины
 
 post.metal.black=Черный металлический столб
 post.metal.blue=Синий металлический столб
@@ -180,6 +189,14 @@ post.metal.yellow=Желтый металлический столб
 post.metal=Металлический столб
 post.stone=Каменный столб
 post.wood=Деревянный столб
+
+signal.block.signal.dual=Спаренный сигнальный блок
+signal.block.signal=Сигнальный блок
+signal.box.controller=Контроллёр сигнала
+signal.box.receiver=Приёмник сигнала
+signal.distant=Удаленный сигналоприемный блок
+signal.switch.lever=Стрелочный рычаг
+signal.switch.motor=Стрелочный мотор
 
 structure.block.concrete=Блок железо-бетона
 structure.box.controller=Контроллер сигнала
