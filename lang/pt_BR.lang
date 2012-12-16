@@ -84,7 +84,6 @@ gui.liquid.capacity=Capacidade
 gui.liquid.loader.empty=Manter Vazio
 gui.liquid.loader.fill=Encher
 gui.liquid.unloader.empty=Vazio
-gui.owner.placedby=foi colocado por
 gui.tank.iron=Tanque de Ferro
 gui.tank.water=Tanque de Água
 gui.ticks=ticks
@@ -151,15 +150,6 @@ part.rebar=Reforço
 part.signal.lamp=Sinaleira
 part.tie.stone=Travessa em Pedra
 part.tie.wood=Travessa em madeira
-
-structure.block.concrete=Bloco de Concreto (Obsoleto)
-structure.box.controller=Caixa de controle de sinal
-structure.box.receiver=Caixa de recepção de sinal
-structure.signal.block=Bloco de Sinal
-structure.signal.block.dual=Bloco de Sinal Duplo
-structure.signal.distant=Sinal Distanciado
-structure.switch.lever=Interruptor de alavanca
-structure.switch.motor=Interruptor motorizada
 
 tool.bore.head.diamond=Cabeça da Broca de Diamante
 tool.bore.head.iron=Cabeça da Broca de Ferro

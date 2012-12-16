@@ -1,13 +1,21 @@
 # Parent Language: en_US
 
+armor.steel.helmet=Стальной шлем
+armor.steel.plate=Стальная кираса
+armor.steel.legs=Стальные поножи
+armor.steel.boots=Стальные ботинки
+
 cart.anchor=Вагонетка с "Мировым якорем"
 cart.basic=Вагонетка
 cart.batbox=Вагонетка с бат-боксом
 cart.bore=Проходческий щит
 cart.chest=Вагонетка с сундуком
 cart.furnace=Вагонетка с двигателем
+cart.gift=Вагонетка с подарком
+cart.loco.steam=Паровой локомотив
 cart.mfe=Вагонетка с МФЭ
 cart.mfsu=Вагонетка с ЭХО
+cart.pumpkin=Вагонетка с тыквой
 cart.tank=Вагонетка с цистерной
 cart.tnt=Вагонетка с динамитом
 cart.track.relayer=Переукладчик путей
@@ -52,10 +60,6 @@ gates.trigger.engine=Состояние двигателя
 gates.trigger.fuel=Мало топлива
 gates.trigger.work=Есть работа
 
-gui.anchor.pair.fail.alignment=Не выровнены по оси
-gui.anchor.pair.fail.distance=Слишком далеко для соединения
-gui.anchor.pair.start=Подключение...
-gui.anchor.pair.success=Подключено.
 gui.blast.furnace=Доменная печь
 gui.steam.boiler=Паровой котел
 gui.bore.ballast=Балласт
@@ -89,7 +93,6 @@ gui.liquid.capacity=Емкость
 gui.liquid.loader.empty=Опустошить
 gui.liquid.loader.fill=Заполнить
 gui.liquid.unloader.empty=Пустая
-gui.owner.placedby=Установлено
 gui.tank.iron=Резервуар
 gui.tank.water=Водонапорная башня
 gui.ticks=Тики
@@ -114,7 +117,7 @@ machine.alpha.tank.water=Обшивка водонапорной башни
 machine.alpha.world.anchor=Мировой якорь
 
 machine.beta.anchor.sentinel=Мировой страж
-machine.beta.boiler.firebox.liquid=Жидкотопливная камера сгорания
+machine.beta.boiler.firebox.liquid=Жидкотопливаня камера сгорания
 machine.beta.boiler.firebox.solid=Твердотопливная камера сгорания
 machine.beta.boiler.tank.pressure.high=Котел высокого давления
 machine.beta.boiler.tank.pressure.low=Котел низкого давления
@@ -160,6 +163,9 @@ part.rebar=Арматура
 part.signal.lamp=Сигнальная лампа
 part.tie.stone=Каменная шпала
 part.tie.wood=Деревянная шпала
+part.turbine.blade=Лопатка турбины
+part.turbine.disk=Диск турбины
+part.turbine.rotor=Ротор турбины
 
 post.metal.black=Черный металлический столб
 post.metal.blue=Синий металлический столб
@@ -181,14 +187,13 @@ post.metal=Металлический столб
 post.stone=Каменный столб
 post.wood=Деревянный столб
 
-structure.block.concrete=Блок железо-бетона
-structure.box.controller=Контроллер сигнала
-structure.box.receiver=Приемник сигнала
-structure.signal.block=Сигнальный блок
-structure.signal.block.dual=Спаренный сигнальный блок
-structure.signal.distant=Удаленный сигналоприемный блок
-structure.switch.lever=Стрелочный рычаг
-structure.switch.motor=Стрелочный электромотор
+signal.block.signal.dual=Спаренный сигнальный блок
+signal.block.signal=Сигнальный блок
+signal.box.controller=Контроллёр сигнала
+signal.box.receiver=Приёмник сигнала
+signal.distant=Удаленный сигналоприемный блок
+signal.switch.lever=Стрелочный рычаг
+signal.switch.motor=Стрелочный мотор
 
 tool.bore.head.diamond=Алмазная головка
 tool.bore.head.iron=Железная головка

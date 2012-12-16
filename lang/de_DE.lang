@@ -172,11 +172,11 @@ structure.post.metal=Metalpfosten
 structure.post.stone=Steinpfosten
 structure.post.wood=Holzpfosten
 
-structure.signal.block=Blocksignal
-structure.signal.block.dual=Doppelkopf-Blocksignal
-structure.signal.distant=Entferntes Signal
-structure.switch.lever=Manueller Stellantrieb
-structure.switch.motor=Motorisierter Stellantrieb
+signal.block.signal=Blocksignal
+signal.block.signal.dual=Doppelkopf-Blocksignal
+signal.distant=Entferntes Signal
+signal.switch.lever=Manueller Stellantrieb
+signal.switch.motor=Motorisierter Stellantrieb
 
 tool.bore.head.diamond=Diamantbohrkopf
 tool.bore.head.iron=Eisenbohrkopf
