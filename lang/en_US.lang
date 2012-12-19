@@ -1,5 +1,7 @@
 # Root Language
 
+armor.goggles=Trackman's Goggles
+
 armor.steel.helmet=Steel Helmet
 armor.steel.plate=Steel Chestplate
 armor.steel.legs=Steel Leggings
@@ -70,6 +72,8 @@ gui.anchor.pair.start=%s pairing was initiated
 gui.anchor.pair.success=%s was successfully paired
 gui.anchor.fuel=Ender Pearls
 gui.anchor.fuel.remaining=%.2f hours
+gui.aura.enable=%s Aura On
+gui.aura.disable=%s Aura Off
 gui.blast.furnace=Blast Furnace
 gui.steam.boiler=Steam Boiler
 gui.bore.ballast=Ballast
@@ -95,6 +99,11 @@ gui.feed.station.feed=Feed
 gui.filter=Filter
 gui.filters=Filters
 gui.filters.carts=Carts
+gui.goggles.aura.anchor=Anchor
+gui.goggles.aura.none=None
+gui.goggles.aura.tuning=Tuning
+gui.goggles.mode=Current Aura: %s
+gui.goggles.tip=Use from hotbar to change Auras
 gui.item.loader.buffer=Buffer
 gui.item.loader.excess=E
 gui.item.loader.stock=S
