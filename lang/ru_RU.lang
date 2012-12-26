@@ -1,5 +1,7 @@
 # Parent Language: en_US
 
+armor.goggles=Очки обходчика путей
+
 armor.steel.helmet=Стальной шлем
 armor.steel.plate=Стальная кираса
 armor.steel.legs=Стальные поножи
@@ -60,6 +62,10 @@ gates.trigger.engine=Состояние двигателя
 gates.trigger.fuel=Мало топлива
 gates.trigger.work=Есть работа
 
+gui.anchor.fuel=Жемчуги Эндера
+gui.anchor.fuel.remaining=%.2f часов
+gui.aura.enable=Аура "%s" включена
+gui.aura.disable=Аура "%s" выключена
 gui.blast.furnace=Доменная печь
 gui.steam.boiler=Паровой котел
 gui.bore.ballast=Балласт
@@ -84,6 +90,11 @@ gui.energy.loader.fill=Заполнить
 gui.filter=Фильтр
 gui.filters=Фильтры
 gui.filters.carts=Вагонетки
+gui.goggles.aura.anchor=Якорь
+gui.goggles.aura.none=Ничего	
+gui.goggles.aura.tuning=Связка
+gui.goggles.mode=Текущая аура: %s
+gui.goggles.tip=Используйте из быстрого инвентаря для смены аур
 gui.item.loader.buffer=Буфер
 gui.item.loader.excess=E
 gui.item.loader.stock=S
@@ -226,6 +237,7 @@ track.holding=Удерживающий путь
 track.holding.train=Удерживающий поезд путь
 track.junction=Крестовой путь
 track.launcher=Пусковой путь
+track.lockdown=Блокирующий путь
 track.oneway=Однонаправленный путь
 track.powered=Ускоряющий путь
 track.priming=Воспламеняющий путь
