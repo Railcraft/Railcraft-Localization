@@ -25,6 +25,7 @@ cart.undercutter=Undercutter Cart
 cart.work=Work Cart
 
 cube.brick.infernal=Infernal Brick
+cube.brick.sandy=Sandy Brick
 cube.concrete.block=Block of Concrete
 cube.crushed.obsidian=Crushed Obsidian
 cube.steel.block=Block of Steel
@@ -93,6 +94,7 @@ gui.detector.item.empty=Empty
 gui.detector.item.exactly=Exactly
 gui.detector.item.filtered=Filtered
 gui.detector.item.full=Full
+gui.detector.item.not_empty=Not Empty
 gui.energy.loader.empty=Hold Empty
 gui.energy.loader.fill=Top Off
 gui.feed.station.feed=Feed
