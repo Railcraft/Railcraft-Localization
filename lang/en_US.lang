@@ -8,6 +8,7 @@ armor.steel.legs=Steel Leggings
 armor.steel.boots=Steel Boots
 
 cart.anchor=Anchor Cart
+cart.anchor.personal=Personal Anchor Cart
 cart.basic=Minecart
 cart.batbox=Batbox Cart
 cart.bore=Tunnel Bore
@@ -142,6 +143,7 @@ liquid.steam=Steam
 machine.alpha.blast.furnace=Blast Furnace Brick
 machine.alpha.coke.oven=Coke Oven Brick
 machine.alpha.feed.station=Feed Station
+machine.alpha.personal.anchor=Personal Anchor
 machine.alpha.rock.crusher=Rock Crusher
 machine.alpha.rolling.machine=Rolling Machine
 machine.alpha.tank.water=Water Tank Siding
