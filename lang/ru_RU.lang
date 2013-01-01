@@ -25,6 +25,7 @@ cart.undercutter=Врубовая машина
 cart.work=Вагонетка с верстаком
 
 cube.brick.infernal=Пламенный кирпич
+cube.brick.sandy=Песчаный кирпич
 cube.concrete.block=Бетонный блок
 cube.crushed.obsidian=Сыпучий обсидиан
 cube.steel.block=Стальной блок
@@ -85,6 +86,7 @@ gui.detector.item.empty=Пустой инвентарь
 gui.detector.item.exactly=Точное количество
 gui.detector.item.filtered=Фильтр
 gui.detector.item.full=Полный инвентарь
+gui.detector.item.not_empty=Не пусто
 gui.energy.loader.empty=Опустошить
 gui.energy.loader.fill=Заполнить
 gui.filter=Фильтр
