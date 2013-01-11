@@ -2,10 +2,15 @@
 
 armor.goggles=Trackman's Goggles
 
+armor.overalls=Engineer's Overalls
+
 armor.steel.helmet=Steel Helmet
 armor.steel.plate=Steel Chestplate
 armor.steel.legs=Steel Leggings
 armor.steel.boots=Steel Boots
+
+backpack.trackman.t1=Trackman's Backpack
+backpack.trackman.t2=Woven Trackman's Backpack
 
 cart.anchor=Anchor Cart
 cart.anchor.personal=Personal Anchor Cart
@@ -31,6 +36,12 @@ cube.concrete.block=Block of Concrete
 cube.crushed.obsidian=Crushed Obsidian
 cube.steel.block=Block of Steel
 cube.world.anchor=World Anchor
+
+damage.train.1=%s got hit by a train
+damage.train.2=%s was playing on the tracks
+damage.train.3=%s played chicken with a train, the train won
+damage.train.4=%s caught the wrong train
+damage.train.5=%s bought a one-way ticket to the afterlife
 
 detector.advanced=Detector - Advanced
 detector.age=Detector - Age
@@ -96,6 +107,10 @@ gui.detector.item.exactly=Exactly
 gui.detector.item.filtered=Filtered
 gui.detector.item.full=Full
 gui.detector.item.not_empty=Not Empty
+gui.detector.villager.any=Any
+gui.detector.villager.equals=Equals
+gui.detector.villager.none=None
+gui.detector.villager.not=Not
 gui.energy.loader.empty=Hold Empty
 gui.energy.loader.fill=Top Off
 gui.feed.station.feed=Feed
@@ -116,6 +131,9 @@ gui.liquid.capacity=Capacity
 gui.liquid.loader.empty=Hold Empty
 gui.liquid.loader.fill=Top Off
 gui.liquid.unloader.empty=Empty
+gui.locomotive.mode.idle=Idle
+gui.locomotive.mode.running=Running
+gui.locomotive.mode.shutdown=Shutdown
 gui.mag.glass.placedby=%1$s was placed by %2$s
 gui.tank.iron=Iron Tank
 gui.tank.water=Water Tank
@@ -135,6 +153,7 @@ ic2.upgrade.lapotron=Lapotron Loader Upgrade
 liquid.creosote.bottle=Creosote Bottle
 liquid.creosote.bucket=Creosote Bucket
 liquid.creosote.can=Creosote Can
+liquid.creosote.cell=Creosote Cell
 liquid.creosote.liquid=Creosote Oil
 liquid.creosote.refactory=Creosote Capsule
 liquid.creosote.wax=Creosote Capsule
@@ -172,6 +191,9 @@ machine.gamma.unloader.energy=Energy Unloader
 machine.gamma.unloader.item.advanced=Adv. Item Unloader
 machine.gamma.unloader.item=Item Unloader
 machine.gamma.unloader.liquid=Liquid Unloader
+
+nugget.iron=Iron Nugget
+nugget.steel=Steel Nugget
 
 obsolete=Obsolete
 
@@ -284,3 +306,18 @@ track.standard=Track
 track.suspended=Suspended Track
 track.switch=Switch Track
 track.wye=Wye Track
+
+wall.brick=Brick Wall
+wall.concrete=Concrete Wall
+wall.ice=Ice Wall
+wall.infernal=Infernal Brick Wall
+wall.nether.brick=Nether Brick Wall
+wall.sandstone.chiseled=Chiseled Sandstone Wall
+wall.sandstone.smooth=Smooth Sandstone Wall
+wall.sandstone=Sandstone Wall
+wall.sandy=Sandy Brick Wall
+wall.snow=Snow Wall
+wall.stone.brick.chiseled=Chiseled Stone Brick Wall
+wall.stone.brick.cracked=Cracked Stone Brick Wall
+wall.stone.brick.mossy=Mossy Stone Brick Wall
+wall.stone.brick=Stone Brick Wall
