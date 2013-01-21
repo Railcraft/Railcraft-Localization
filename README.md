@@ -40,3 +40,5 @@ Inheritance Tree:
  - ru_RU
  - fr_FR
  - ja_JP
+ - it_IT
+ - zh_CN
