@@ -10,7 +10,7 @@ Notepad++ is the recommend text editor for editing language files because it is 
 Other editors may not save files in the correct format (Notepad, Wordpad, etc...do not).
 
 ### Java Formatting Tags
-You may notice some translation entries have strange characters such as "%2$s". These are Java Formatting Tags. They will be replaced with another variable at run time. They can be used to reorder or format messages and the like.
+You may notice some translation entries have strange characters such as "%s" or "%2$s". These are Java Formatting Tags. They will be replaced with another variable at run time. They can be used to reorder or format messages and the like.
 
 More information can be found [here](http://docs.oracle.com/javase/6/docs/api/java/util/Formatter.html).
 
