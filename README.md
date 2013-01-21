@@ -15,9 +15,9 @@ You may notice some translation entries have strange characters such as "%2$s". 
 More information can be found [here](http://docs.oracle.com/javase/6/docs/api/java/util/Formatter.html).
 
 ### Minecraft Formatting Tags
-You may also notice some stuff like "\u00a7o". These are Minecraft Formatting Tags and are generally used to set the text color and italicize/bold pieces of text.
+You may also notice some stuff like "§r" or "§5". These are Minecraft Formatting Tags and are generally used to set the text color and italicize/bold pieces of text.
 
-More information can be found [here](http://www.minecraftwiki.net/wiki/Formatting_codes). Note that § = \u00a7, but please use \u00a7 in the language files.
+More information can be found [here](http://www.minecraftwiki.net/wiki/Formatting_codes).
 
 ### Inheritance
 When adding language variants from the same family, keep in mind that tags are inherited from the parent language. This should save you a bit of work if parent/child use the same translation.
