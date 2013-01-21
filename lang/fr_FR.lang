@@ -1,13 +1,20 @@
 # Parent Language: en_US
+# Translated by robin4002
 
 armor.goggles=Lunettes de l'agent de voie
+
+armor.overalls=Combinaison de l'ingénieur
 
 armor.steel.helmet=Casque en acier
 armor.steel.plate=Plastron en acier
 armor.steel.legs=Jambières en acier
 armor.steel.boots=Bottes en acier
 
+backpack.trackman.t1=Sac à dos de l'agent de voie 
+backpack.trackman.t2=Sac à dos tissé de l'agent de voie
+
 cart.anchor=Wagonnet avec ancre
+cart.anchor.personal=Wagonnet avec ancre personnel
 cart.basic=Wagonnet
 cart.batbox=Wagonnet avec Batbox
 cart.bore=Tunnelier
@@ -24,11 +31,35 @@ cart.track.relayer=Wagonnet changeur de rail
 cart.undercutter=Wagonnet changeur de bloc
 cart.work=Wagonnet de travail
 
+color.black=Noir
+color.blue=Bleu
+color.brown=Brun
+color.cyan=Cyan
+color.gray=Gris
+color.green=Vert
+color.light.blue=Bleu clair
+color.light.gray=Gris clair
+color.lime=Vert clair
+color.magenta=Magenta
+color.orange=Orange
+color.pink=Rose
+color.purple=Violet
+color.red=Rouge
+color.white=Blanc
+color.yellow=Jaune
+
 cube.brick.infernal=Brique infernal
+cube.brick.sandy=brique sableuse
 cube.concrete.block=Bloc de béton
 cube.crushed.obsidian=Obsidienne broyé
 cube.steel.block=Bloc d'acier
 cube.world.anchor=Ancre du monde
+
+damage.train.1=%s a été frappé par un train
+damage.train.2=%s jouait sur les pistes
+damage.train.3=%s jouait à la poule avec un train, le train a remporté
+damage.train.4=%s a prit le mauvais train
+damage.train.5=%s a acheté un billet aller simple pour l'au-delà
 
 detector.advanced=Détecteur - avencé
 detector.age=Détecteur - âge
@@ -39,6 +70,7 @@ detector.empty=Détecteur - vide
 detector.energy=Détecteur - energy
 detector.explosive=Détecteur - explosive
 detector.item=Détecteur - article
+detector.locomotive=Détecteur - Locomotive
 detector.mob=Détecteur - mob
 detector.player=Détecteur - joueur
 detector.powered=Détecteur - propulsé
@@ -93,6 +125,13 @@ gui.detector.item.empty=Vide
 gui.detector.item.exactly=Exactement
 gui.detector.item.filtered=Filtré
 gui.detector.item.full=Plein
+gui.detector.item.not_empty=Non vide
+gui.detector.loco.primary=Couleur primaire
+gui.detector.loco.secondary=Couleur secondaire
+gui.detector.villager.any=Tout
+gui.detector.villager.equals=Égale
+gui.detector.villager.none=Aucun
+gui.detector.villager.not=Sans
 gui.energy.loader.empty=Maintenir vide
 gui.energy.loader.fill=Haut désactivé
 gui.feed.station.feed=Nourriture
@@ -113,6 +152,12 @@ gui.liquid.capacity=Capacité
 gui.liquid.loader.empty=Maintenir vide
 gui.liquid.loader.fill=Haut désactivé
 gui.liquid.unloader.empty=vide
+gui.locomotive.mode.idle=Idle
+gui.locomotive.mode.running=Fonctionne
+gui.locomotive.mode.shutdown=Arrêté
+gui.locomotive.tooltip.primary=§oCouleur primaire:§r %s
+gui.locomotive.tooltip.secondary=§oCouleur secondaire:§r %s
+gui.locomotive.tooltip.whistle=§oHauteur du sifflet:§r %s
 gui.mag.glass.placedby=%1$s a été placé par %2$s
 gui.tank.iron=Réservoir de fer
 gui.tank.water=Réservoir d'eau
@@ -129,9 +174,12 @@ gui.turbine.rotor=Rotor:
 
 ic2.upgrade.lapotron=Mise à niveau d'énergie lapotron
 
+item.synthetic=synthétique
+
 liquid.creosote.bottle=Bouteille de créosote
 liquid.creosote.bucket=Seau de créosote
 liquid.creosote.can=Cannette de créosote
+liquid.creosote.cell=Cellule de créosote
 liquid.creosote.liquid=Huile de créosote
 liquid.creosote.refactory=Capsule de créosote
 liquid.creosote.wax=Capsule de créosote
@@ -140,6 +188,7 @@ liquid.steam=Vapeur
 machine.alpha.blast.furnace=Brique de haut fourneau
 machine.alpha.coke.oven=Brique de four à coke
 machine.alpha.feed.station=Station à nourriture
+machine.alpha.personal.anchor=Ancre personnelle
 machine.alpha.rock.crusher=Concasseur
 machine.alpha.rolling.machine=Machine à roulage
 machine.alpha.tank.water=Revêtement de réservoir d'eau
@@ -168,6 +217,9 @@ machine.gamma.unloader.energy=Déchargeur d'énergie
 machine.gamma.unloader.item.advanced=Déchargeur d'article avancé
 machine.gamma.unloader.item=Déchargeur d'article
 machine.gamma.unloader.liquid=Déchargeur de liquide
+
+nugget.iron=Pépite de fer
+nugget.steel=Pépite d'acier
 
 obsolete=obsolète
 
@@ -258,6 +310,7 @@ track.holding.train=Rail de maintien pour train
 track.junction=Rail de croisement
 track.launcher=Rail lanceur
 track.lockdown=Rail de verrouillage
+track.lockdown.train=Rail de verrouillage pour train
 track.oneway=Rail à sens unique
 track.powered=Rail booster
 track.priming=Rail d'amorçage
@@ -279,4 +332,21 @@ track.speed.wye=Rail d'intersection H.S
 track.standard=Rail
 track.suspended=Rail suspendu
 track.switch=Rail d'aiguillage
+track.whistle=Rail siffleuse
 track.wye=Rail d'intersection
+
+wall.brick=Mur de briques
+wall.concrete=Mur de Béton
+wall.ice=Mur de glace
+wall.infernal=Mur de brique infernal
+wall.nether.brick=Mur de brique du tréfonds
+wall.obsidian=Mur d'obsidienne
+wall.sandstone.chiseled=Mur de grès sculpté
+wall.sandstone.smooth=Mur de grès poli
+wall.sandstone=Mur de grès
+wall.sandy=Mur de brique sableuse
+wall.snow=Mur de neige
+wall.stone.brick.chiseled=Mur de pierre sculpté
+wall.stone.brick.cracked=Mur de pierre taillées craquelées
+wall.stone.brick.mossy=Mur de pierre taillées moussues
+wall.stone.brick=Mur de pierre taillées
