@@ -9,8 +9,11 @@ armor.steel.plate=Steel Chestplate
 armor.steel.legs=Steel Leggings
 armor.steel.boots=Steel Boots
 
+backpack.iceman.t1=Iceman's Backpack
+backpack.iceman.t2=Woven Iceman's Backpack
 backpack.trackman.t1=Trackman's Backpack
 backpack.trackman.t2=Woven Trackman's Backpack
+backpack.tooltip=Designed by Railcraft, Inc.
 
 cart.anchor=Anchor Cart
 cart.anchor.personal=Personal Anchor Cart
@@ -310,6 +313,7 @@ track.junction=Junction Track
 track.launcher=Launcher Track
 track.lockdown=Lockdown Track
 track.lockdown.train=Train Lockdown Track
+track.locomotive=Locomotive Track
 track.oneway=One-Way Track
 track.powered=Booster Track
 track.priming=Priming Track
