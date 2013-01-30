@@ -57,7 +57,7 @@ cube.world.anchor=Ancre du monde
 
 damage.train.1=%s a été frappé par un train
 damage.train.2=%s jouait sur les pistes
-damage.train.3=%s jouait à la poule avec un train, le train a remporté
+damage.train.3=%s jouait à saute mouton avec un train, le train a remporté
 damage.train.4=%s a prit le mauvais train
 damage.train.5=%s a acheté un billet aller simple pour l'au-delà
 
