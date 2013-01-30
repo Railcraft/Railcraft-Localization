@@ -57,6 +57,12 @@ cube.crushed.obsidian=Crushed Obsidian
 cube.steel.block=Block of Steel
 cube.world.anchor=World Anchor
 
+damage.bore.1=%s got in the way of progress
+damage.bore.2=%s tried to stop the Bore
+damage.bore.3=%s was crushed by the Bore
+damage.bore.4=%s thought he could do better than John Henry
+damage.bore.5=%s got stuck between a rock and a hard place
+
 damage.train.1=%s got hit by a train
 damage.train.2=%s was playing on the tracks
 damage.train.3=%s played chicken with a train, the train won
@@ -226,6 +232,7 @@ nugget.steel=Steel Nugget
 obsolete=Obsolete
 
 ore.saltpeter=Saltpeter Ore
+ore.saltpeter.gen=Saltpeter Ore Spawner
 ore.sulfur=Sulfur Ore
 
 part.circuit.controller=Controller Circuit
