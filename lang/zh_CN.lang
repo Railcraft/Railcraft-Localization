@@ -11,8 +11,11 @@ armor.steel.plate=钢胸甲
 armor.steel.legs=钢护腿
 armor.steel.boots=钢靴子
 
+backpack.iceman.t1=冰原旅者的背包
+backpack.iceman.t2=编织的冰原旅者的背包
 backpack.trackman.t1=铁路工背包
 backpack.trackman.t2=编织的铁路工背包
+backpack.tooltip=Railcraft,Inc出品，必属精品。
 
 cart.anchor=世界锚车
 cart.anchor.personal=私用锚车
@@ -32,12 +35,35 @@ cart.track.relayer=轨道替换车
 cart.undercutter=路基替换车
 cart.work=工作台车
 
+color.black=黑色
+color.blue=蓝色
+color.brown=棕色
+color.cyan=青色
+color.gray=灰色
+color.green=绿色
+color.light.blue=浅蓝色
+color.light.gray=浅灰色
+color.lime=柠檬色
+color.magenta=品红色
+color.orange=桔色
+color.pink=粉色
+color.purple=紫色
+color.red=红色
+color.white=白色
+color.yellow=黄色
+
 cube.brick.infernal=地狱砖
 cube.brick.sandy=沙砖
 cube.concrete.block=混凝土块
 cube.crushed.obsidian=碎黑曜石
 cube.steel.block=钢块
 cube.world.anchor=世界锚
+
+damage.bore.1=%s阻碍了前进的道路。
+damage.bore.2=%s试图螳臂当车。
+damage.bore.3=%s被碾碎了。
+damage.bore.4=%s认为自己比约翰·亨利还厉害。
+damage.bore.5=%s陷入了进退维谷的境地。
 
 damage.train.1=%s被列车撞了。
 damage.train.2=%s在轨道上玩耍。
@@ -54,6 +80,7 @@ detector.empty=传感器-空
 detector.energy=传感器-能量
 detector.explosive=传感器-爆炸
 detector.item=传感器-物品
+detector.locomotive=传感器-火车头
 detector.mob=传感器-生物
 detector.player=传感器-玩家
 detector.powered=传感器-红石信号
@@ -109,6 +136,8 @@ gui.detector.item.exactly=精确
 gui.detector.item.filtered=过滤
 gui.detector.item.full=满
 gui.detector.item.not_empty=非空
+gui.detector.loco.primary=原色
+gui.detector.loco.secondary=二次色
 gui.detector.villager.any=任意
 gui.detector.villager.equals=是
 gui.detector.villager.none=无
@@ -133,6 +162,9 @@ gui.liquid.capacity=容量
 gui.liquid.loader.empty=空
 gui.liquid.loader.fill=结束
 gui.liquid.unloader.empty=空
+gui.locomotive.tooltip.primary=§o原色:§r %s
+gui.locomotive.tooltip.secondary=§o二次色:§r %s
+gui.locomotive.tooltip.whistle=§o鸣笛音高:§r %s
 gui.locomotive.mode.idle=空闲
 gui.locomotive.mode.running=运行
 gui.locomotive.mode.shutdown=停机
@@ -151,6 +183,8 @@ gui.turbine.output=输出:%d%%
 gui.turbine.rotor=转子:
 
 ic2.upgrade.lapotron=兰波顿卸载升级插件
+
+item.synthetic=Synthetic
 
 liquid.creosote.bottle=木馏油瓶
 liquid.creosote.bucket=木馏油桶
@@ -171,7 +205,7 @@ machine.alpha.tank.water=蓄水器壁板
 machine.alpha.turbine=蒸汽涡轮机壳
 machine.alpha.world.anchor=世界锚
 
-machine.beta.anchor.sentinel=Anchor Sentinel
+machine.beta.anchor.sentinel=守卫之锚
 machine.beta.boiler.firebox.liquid=液态燃料燃烧室
 machine.beta.boiler.firebox.solid=固态燃料燃烧室
 machine.beta.boiler.tank.pressure.high=高压锅炉
@@ -185,12 +219,10 @@ machine.beta.tank.iron.wall=铁质蓄水器壁板
 
 machine.gamma.dispenser.cart=矿车分车站
 machine.gamma.dispenser.train=列车分车站
-
 machine.gamma.loader.energy=能量装载机
 machine.gamma.loader.item.advanced=高级物品装载机
 machine.gamma.loader.item=物品装载机
 machine.gamma.loader.liquid=液体装载机
-
 machine.gamma.unloader.energy=能量卸载机
 machine.gamma.unloader.item.advanced=高级物品卸载机
 machine.gamma.unloader.item=物品卸载机
@@ -202,6 +234,7 @@ nugget.steel=钢粒
 obsolete=废弃
 
 ore.saltpeter=硝石
+ore.saltpeter.gen=硝石刷新器
 ore.sulfur=硫磺
 
 part.circuit.controller=控制器电路
@@ -288,6 +321,8 @@ track.holding.train=列车扣留轨道
 track.junction=交接轨道
 track.launcher=发车轨道
 track.lockdown=封锁轨道
+track.lockdown.train=列车封锁轨道
+track.locomotive=火车头轨道
 track.oneway=单向轨道
 track.powered=推进轨道
 track.priming=引爆轨道
@@ -309,6 +344,7 @@ track.speed.wye=高速追踪轨道
 track.standard=轨道
 track.suspended=悬浮轨道
 track.switch=开关轨道
+track.whistle=鸣笛轨道
 track.wye=Y型轨道
 
 wall.brick=砖墙
@@ -316,6 +352,7 @@ wall.concrete=混凝土墙
 wall.ice=冰墙
 wall.infernal=地狱砖墙
 wall.nether.brick=下界砖墙
+wall.obsidian=黑曜石墙
 wall.sandstone.chiseled=錾制沙石墙
 wall.sandstone.smooth=光滑沙石墙
 wall.sandstone=沙石墙
