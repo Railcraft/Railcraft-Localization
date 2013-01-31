@@ -65,7 +65,7 @@ damage.bore.5=%s got stuck between a rock and a hard place
 
 damage.train.1=%s got hit by a train
 damage.train.2=%s was playing on the tracks
-damage.train.3=%s played chicken with a train, the train won
+damage.train.3=%s played chicken with a train; the train won
 damage.train.4=%s caught the wrong train
 damage.train.5=%s bought a one-way ticket to the afterlife
 
@@ -299,6 +299,7 @@ tool.steel.pickaxe=Steel Pickaxe
 tool.steel.shovel=Steel Shovel
 tool.steel.sword=Steel Sword
 tool.surveyor=Signal Block Surveyor
+tool.whistle.tuner=Whistle Tuner
 
 track.boarding=Boarding Track
 track.boarding.train=Train Boarding Track
@@ -318,6 +319,7 @@ track.holding=Holding Track
 track.holding.train=Train Holding Track
 track.junction=Junction Track
 track.launcher=Launcher Track
+track.limiter=Limiter Track
 track.lockdown=Lockdown Track
 track.lockdown.train=Train Lockdown Track
 track.locomotive=Locomotive Track
