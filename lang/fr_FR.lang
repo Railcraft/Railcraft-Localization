@@ -1,5 +1,5 @@
 # Parent Language: en_US
-# Translated by robin4002
+# Translated by robin4002 and kevin_68
 
 armor.goggles=Lunettes de l'agent de voie
 
@@ -10,8 +10,11 @@ armor.steel.plate=Plastron en acier
 armor.steel.legs=Jambières en acier
 armor.steel.boots=Bottes en acier
 
+backpack.iceman.t1=Sac à dos glacière
+backpack.iceman.t2=Sac à dos tissé glacière
 backpack.trackman.t1=Sac à dos de l'agent de voie 
 backpack.trackman.t2=Sac à dos tissé de l'agent de voie
+backpack.tooltip=Conçu par Railcraft Inc.
 
 cart.anchor=Wagonnet avec ancre
 cart.anchor.personal=Wagonnet avec ancre personnel
@@ -49,32 +52,38 @@ color.white=Blanc
 color.yellow=Jaune
 
 cube.brick.infernal=Brique infernal
-cube.brick.sandy=brique sableuse
+cube.brick.sandy=Brique sableuse
 cube.concrete.block=Bloc de béton
 cube.crushed.obsidian=Obsidienne broyé
 cube.steel.block=Bloc d'acier
 cube.world.anchor=Ancre du monde
 
+damage.bore.1=%s était sur le chemin du progrès
+damage.bore.2=%s a essayé d'arrêter le tunnelier
+damage.bore.3=%s a été écrasé par le tunnelier
+damage.bore.4=%s pensait qu'il pouvait faire mieux que John Henry
+damage.bore.5=%s est resté coincé entre le marteau et l'enclume
+
 damage.train.1=%s a été frappé par un train
-damage.train.2=%s jouait sur les pistes
+damage.train.2=%s jouait sur les rails
 damage.train.3=%s jouait à saute mouton avec un train, le train a remporté
 damage.train.4=%s a prit le mauvais train
-damage.train.5=%s a acheté un billet aller simple pour l'au-delà
+damage.train.5=%s a acheté un aller simple pour l'au-delà
 
-detector.advanced=Détecteur - avencé
+detector.advanced=Détecteur - avancé
 detector.age=Détecteur - âge
 detector.animal=Détecteur - animaux
 detector.any=Détecteur - tout
 detector.cart=Détecteur - wagonnet
 detector.empty=Détecteur - vide
-detector.energy=Détecteur - energy
-detector.explosive=Détecteur - explosive
-detector.item=Détecteur - article
-detector.locomotive=Détecteur - Locomotive
+detector.energy=Détecteur - énergie
+detector.explosive=Détecteur - explosif
+detector.item=Détecteur - objet
+detector.locomotive=Détecteur - locomotive
 detector.mob=Détecteur - mob
 detector.player=Détecteur - joueur
 detector.powered=Détecteur - propulsé
-detector.sheep=Détecteur - moutons
+detector.sheep=Détecteur - mouton
 detector.tank=Détecteur - réservoir
 detector.train=Détecteur - train
 detector.villager=Détecteur - villageois
@@ -86,8 +95,8 @@ dust.sulfur=Soufre
 
 fuel.coke=Coke de Charbon
 
-gates.action.pause=Pause de travail
-gates.action.sendcart=Envoyer des wagonnets
+gates.action.pause=En pause
+gates.action.sendcart=Envoi de wagonnets
 
 gates.trigger.cart=Possède un wagonnet
 gates.trigger.engine=Etape du moteur
@@ -152,7 +161,7 @@ gui.liquid.capacity=Capacité
 gui.liquid.loader.empty=Maintenir vide
 gui.liquid.loader.fill=Haut désactivé
 gui.liquid.unloader.empty=vide
-gui.locomotive.mode.idle=Idle
+gui.locomotive.mode.idle=Inactif
 gui.locomotive.mode.running=Fonctionne
 gui.locomotive.mode.shutdown=Arrêté
 gui.locomotive.tooltip.primary=§oCouleur primaire:§r %s
@@ -169,7 +178,7 @@ gui.tuner.success=%1$s jumelé avec succès à %2$s
 gui.tuner.abandon.chunk=Le contrôleur n'est pas sur un Chunk chargé, jumelage abandonné
 gui.tuner.abandon.gone=Le contrôleur n'existe plus, jumelage abandonné
 gui.turbine=Turbine à vapeur
-gui.turbine.output=Output: %d%%
+gui.turbine.output=Sortie: %d%%
 gui.turbine.rotor=Rotor:
 
 ic2.upgrade.lapotron=Mise à niveau d'énergie lapotron
@@ -195,14 +204,14 @@ machine.alpha.tank.water=Revêtement de réservoir d'eau
 machine.alpha.turbine=Emplacement pour turbine à vapeur
 machine.alpha.world.anchor=Ancre du monde
 
-machine.beta.anchor.sentinel=Ancre Sentinel
+machine.beta.anchor.sentinel=Ancre sentinel
 machine.beta.boiler.firebox.liquid=Chambre à combustible liquide
 machine.beta.boiler.firebox.solid=Chambre à combustible solide 
 machine.beta.boiler.tank.pressure.high=Chaudière à haute pression
 machine.beta.boiler.tank.pressure.low=Chaudière à basse pression
-machine.beta.engine.steam.high=Machine à vapeur industrielle
-machine.beta.engine.steam.hobby=Machine à vapeur amateuse
-machine.beta.engine.steam.low=Machine à vapeur commercial
+machine.beta.engine.steam.high=Moteur à vapeur industrielle
+machine.beta.engine.steam.hobby=Moteur à vapeur amateuse
+machine.beta.engine.steam.low=Moteur à vapeur commercial
 machine.beta.tank.iron.gauge=Jaugeur de réservoir en fer
 machine.beta.tank.iron.valve=Valve de réservoir en fer
 machine.beta.tank.iron.wall=Mur de réservoir en fer
@@ -224,6 +233,7 @@ nugget.steel=Pépite d'acier
 obsolete=obsolète
 
 ore.saltpeter=Minerai de salpêtre
+ore.saltpeter.gen=Générateur de minerai de salpêtre
 ore.sulfur=Minerai de souffre
 
 part.circuit.controller=Circuit contrôleur
@@ -235,7 +245,7 @@ part.ingot.steel=Lingot d'acier
 part.plate.iron=Plaque de fer
 part.plate.steel=Plaque d'acier
 part.plate.tin=Plaque d'étain
-part.rail.advanced=Rail avancée
+part.rail.advanced=Rail avancé
 part.rail.reinforced=Rail renforcé
 part.rail.speed=Rail H.S
 part.rail.standard=Rail standard
@@ -271,7 +281,7 @@ post.stone=Poteau de pierre
 post.wood=Poteau de bois
 
 signal.box.controller=Boîte de contrôle de signal
-signal.box.receiver=Boîte recepteuse de signal
+signal.box.receiver=Boîte de réception de signal
 signal.block.signal=Bloc de signal
 signal.block.signal.dual=Bloc de signal à double tête
 signal.distant=Signaux distant
@@ -283,7 +293,7 @@ tool.bore.head.iron=Tête de forage en fer
 tool.bore.head.steel=Tête de forage en acier
 tool.crowbar=Pied de biche
 tool.magnifying.glass=Loupe
-tool.signal.tuner=Signal de tunel
+tool.signal.tuner=Signal de tunnel
 tool.steel.axe=Hache en acier
 tool.steel.hoe=Houe en acier
 tool.steel.pickaxe=Pioche en acier
@@ -311,14 +321,15 @@ track.junction=Rail de croisement
 track.launcher=Rail lanceur
 track.lockdown=Rail de verrouillage
 track.lockdown.train=Rail de verrouillage pour train
+track.locomotive=Rail pour locomotive
 track.oneway=Rail à sens unique
 track.powered=Rail booster
 track.priming=Rail d'amorçage
-track.reinforced=Rail renforcée
-track.reinforced.boost=Rail booster renforcée
-track.reinforced.junction=Rail de croisement renforcée
-track.reinforced.switch=Rail d'aiguillage renforcée
-track.reinforced.wye=Rail d'intersection renforcée
+track.reinforced=Rail renforcé
+track.reinforced.boost=Rail booster renforcé
+track.reinforced.junction=Rail de croisement renforcé
+track.reinforced.switch=Rail d'aiguillage renforcé
+track.reinforced.wye=Rail d'intersection renforcé
 track.slow=Rail en bois
 track.slow.boost=Rail boosters en bois
 track.slow.junction=Rail de croisement en bois
@@ -332,7 +343,7 @@ track.speed.wye=Rail d'intersection H.S
 track.standard=Rail
 track.suspended=Rail suspendu
 track.switch=Rail d'aiguillage
-track.whistle=Rail siffleuse
+track.whistle=Rail siffleur
 track.wye=Rail d'intersection
 
 wall.brick=Mur de briques
