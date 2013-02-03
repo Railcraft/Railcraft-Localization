@@ -1,17 +1,30 @@
 # Parent Language: en_US
 # translated by Frantisek_Markov
 
+armor.goggles=Occhaili del Ferroviere
+
+armor.overalls=Tuta dell'Ingegnere
+
 armor.steel.helmet=Elmo d'acciaio
 armor.steel.plate=Corazza d'acciaio
 armor.steel.legs=Cosciali d'acciaio
 armor.steel.boots=Gambali d'acciaio
 
+backpack.iceman.t1=Zaino dello Spazzaneve
+backpack.iceman.t2=Zaino dello Spazzaneve Tessuto
+backpack.trackman.t1=Zaino del Ferroviere
+backpack.trackman.t2=Zaino del Ferroviere Tessuto
+backpack.tooltip=Progettato da Railcraft, Inc.
+
 cart.anchor=Minecart con ancora
+cart.anchor.personal=Minecart con ancora personale
 cart.basic=Minecart
 cart.batbox=Minecart con accumulatore
 cart.bore=Scavatrice
 cart.chest=Minecart con cassa
 cart.furnace=Minecart con fornace
+cart.gift=Minecart Regalo
+cart.loco.steam=Locomotiva a Vapore
 cart.mfe=Minecart MFE
 cart.mfsu=Minecart MFSU
 cart.pumpkin=Minecart con zucca
@@ -21,11 +34,41 @@ cart.track.relayer=Minecart scambia-binari
 cart.undercutter=Minecart cambia-blocco
 cart.work=Minecart da lavoro
 
+color.black=Nero
+color.blue=Blu
+color.brown=Marrone
+color.cyan=Ciano
+color.gray=Grigio
+color.green=Verdo
+color.light.blue=Blu Chiaro
+color.light.gray=Grigio Chiaro
+color.lime=Color Lime
+color.magenta=Magenta
+color.orange=Arancione
+color.pink=Rosa
+color.purple=Viola
+color.red=Rosso
+color.white=Bianco
+color.yellow=Giallo
+
 cube.brick.infernal=Mattone infernale
+cube.brick.sandy=Mattone Sabbioso
 cube.concrete.block=Blocco di cemento
 cube.crushed.obsidian=Ossidiana distrutta
 cube.steel.block=Blocco d'acciaio
 cube.world.anchor=Ancora del mondo
+
+damage.bore.1=%s è andato nella via del progresso
+damage.bore.2=%s ha provato a fermare la Scavatrice
+damage.bore.3=%s è stato distrutto dalla Scavatrice
+damage.bore.4=%s ha pensato di poter essere meglio di John Henry
+damage.bore.5=%s si è bloccato tra le roccie e un posto duro
+
+damage.train.1=%s è stato colpito da un treno
+damage.train.2=%s stava giocando sui binari
+damage.train.3=%s ha giocato al pollo con un treno; il treno ha vinto
+damage.train.4=%s ha preso il treno sbagliato
+damage.train.5=%s ha comprato un biglietto di sola andata all'Aldilà
 
 detector.advanced=Detector - Avanzato
 detector.age=Detector - Età
@@ -37,12 +80,13 @@ detector.energy=Detector - Energia
 detector.explosive=Detector - Esplosivo
 detector.item=Detector - Oggetto
 detector.mob=Detector - Mob
+detector.locomotive=Detector - Locomotiva
 detector.player=Detector - Giocatore
 detector.powered=Detector - Potenziato
 detector.sheep=Detector - Pecore
 detector.tank=Detector - Tanica
 detector.train=Detector - Treno
-detector.villager=Detector - Villeggianti
+detector.villager=Detector - Paesani
 
 dust.charcoal=Polvere di carbonella
 dust.obsidian=Polvere di ossidiana
@@ -53,6 +97,7 @@ fuel.coke=Carbone da carburante
 
 gates.action.pause=Pausa lavoro
 gates.action.sendcart=Invia Minecart
+
 gates.trigger.cart=Possiede un Minecart
 gates.trigger.engine=Stato del motore
 gates.trigger.fuel=Carburante quasi esaurito
@@ -62,6 +107,14 @@ gates.trigger.temp.cold=Freddo
 gates.trigger.temp.warm=Tiepido
 gates.trigger.temp.hot=Caldo
 
+gui.anchor.pair.fail.alignment=%1$s non è allineato all'asse con quel %2$s
+gui.anchor.pair.fail.distance=%1$s è torppo lontano per essere accoppiato con quel %2$s
+gui.anchor.pair.start=%s accoppiamento iniziato
+gui.anchor.pair.success=%s è stato accoppiato con successo
+gui.anchor.fuel=Perle Ender
+gui.anchor.fuel.remaining=%.2f ore
+gui.aura.enable=%s Aura Attiva
+gui.aura.disable=%s Aura Disattiva
 gui.blast.furnace=Alto forno
 gui.steam.boiler=Bollitore a  vapore
 gui.bore.ballast=Massicciata
@@ -81,11 +134,24 @@ gui.detector.item.empty=Vuoto
 gui.detector.item.exactly=Esattamente
 gui.detector.item.filtered=Filtrato
 gui.detector.item.full=Pieno
+gui.detector.item.not_empty=Non Vuoto
+gui.detector.loco.primary=Colore Primario
+gui.detector.loco.secondary=Colore secondario
+gui.detector.villager.any=Qualunque
+gui.detector.villager.equals=Equivale
+gui.detector.villager.none=Nessuno
+gui.detector.villager.not=No
 gui.energy.loader.empty=Mantenere vuoto
 gui.energy.loader.fill=Riempito
+gui.feed.station.feed=Nutrimento
 gui.filter=Filtro
 gui.filters=Filtri
 gui.filters.carts=Minecarts
+gui.goggles.aura.anchor=Ancore
+gui.goggles.aura.none=Nessuno
+gui.goggles.aura.tuning=Collegamenti
+gui.goggles.mode=Aura corrente: %s
+gui.goggles.tip=Utilizza mentre è in mano per cambiare aura
 gui.item.loader.buffer=Buffer
 gui.item.loader.excess=E
 gui.item.loader.stock=S
@@ -95,10 +161,22 @@ gui.liquid.capacity=Capacità
 gui.liquid.loader.empty=Mantenere vuoto
 gui.liquid.loader.fill=Riempito
 gui.liquid.unloader.empty=Vuoto
+gui.locomotive.mode.idle=Inattivo
+gui.locomotive.mode.running=In movimento
+gui.locomotive.mode.shutdown=Spento
+gui.locomotive.tooltip.primary=§oColore Primario:§r %s
+gui.locomotive.tooltip.secondary=§oColore Secondario:§r %s
+gui.locomotive.tooltip.whistle=§oTono del fischio:§r %s
+gui.mag.glass.placedby=%1$s è stato piazzato da %2$s
 gui.tank.iron=Tanica di ferro
 gui.tank.water=Tanica d'acqua
 gui.ticks=ticks
 gui.track.embarking.radius=Raggio
+gui.tuner.start=Iniziato l'accoppiamento %s con un Ricevitore
+gui.tuner.stop=Fermato l'accoppiamento %s con un Ricevitore
+gui.tuner.success=%1$s accoppiato con successo con %2$s
+gui.tuner.abandon.chunk=Il Controller non è in Chunk attualmente caricato, abbandono l'accoppiamento
+gui.tuner.abandon.gone=Il Controller non esiste più, abbandono l'accoppiamento
 gui.turbine=Turbina a vapore
 gui.turbine.output=Uscita: %d%%
 gui.turbine.rotor=Rotore:
