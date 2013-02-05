@@ -1,5 +1,5 @@
 # Parent Language: en_US
-# translated by Frantisek_Markov
+# translated by Frantisek_Markov and pazzoeo
 
 armor.goggles=Occhaili del Ferroviere
 
@@ -183,9 +183,12 @@ gui.turbine.rotor=Rotore:
 
 ic2.upgrade.lapotron=Aggiornamento lapotron
 
+item.synthetic=Sintetico
+
 liquid.creosote.bottle=Bottiglia di creosoto
 liquid.creosote.bucket=Secchio di creosoto
 liquid.creosote.can=Tanica di creosoto
+liquid.creosote.cell=Cella di creosoto
 liquid.creosote.liquid=Olio di creosoto
 liquid.creosote.refactory=Capsula di creosoto
 liquid.creosote.wax=Capsula di creosoto
@@ -194,6 +197,7 @@ liquid.steam=Vapore
 machine.alpha.blast.furnace=Mattone dell'alto forno
 machine.alpha.coke.oven=Mattone del forno per carburante
 machine.alpha.feed.station=Stazione di ristoro
+machine.alpha.personal.anchor=Ancora Personale
 machine.alpha.rock.crusher=Trita-rocce
 machine.alpha.rolling.machine=Macchinario di rollaggio
 machine.alpha.tank.water=Rivestimento per la tanica dell'acqua
@@ -223,10 +227,14 @@ machine.gamma.unloader.item.advanced=Scaricatore d'oggetti avanzato
 machine.gamma.unloader.item=Scaricatore d'oggetti
 machine.gamma.unloader.liquid=Scaricatore di liquidi
 
+nugget.iron=Pepita di Ferro
+nugget.steel=Pepita di Acciaio
+
 obsolete=Obsoleto
 
-ore.saltpeter=Minerale salnitro
-ore.sulfur=Minerale zolfo
+ore.saltpeter=Minerale di salnitro
+ore.saltpeter.gen=Spawner del Minerale di salnitro
+ore.sulfur=Minerale di zolfo
 
 part.circuit.controller=Circuito di controllo
 part.circuit.receiver=Circuito ricevente
@@ -292,6 +300,7 @@ tool.steel.pickaxe=Piccone d'acciaio
 tool.steel.shovel=Vanga d'acciaio
 tool.steel.sword=Spada d'acciaio
 tool.surveyor=Blocco ispettore del segnale
+tool.whistle.tuner=Sintonizzatore del Fischio
 
 track.boarding=Rotaia di posteggio
 track.boarding.train=Rotaia di posteggio per treni
@@ -310,6 +319,10 @@ track.gated.oneway=Rotaia d'uscita a senso unico
 track.holding=Rotaia di stazionamento
 track.holding.train=Rotaia di stazionamento per treni
 track.junction=Rotaia di unione
+track.limiter=Rotaia Limitatrice
+track.lockdown=Rotaia Mantenitrice
+track.lockdown.train=Rotaia Mantenitrice per Treni
+track.locomotive=Rotaia per Locomotive
 track.launcher=Rotaia di lancio
 track.oneway=Rotaia a senso unico
 track.powered=Rotaia booster
@@ -332,4 +345,21 @@ track.speed.wye=Rotaia a stella ad alta velocità
 track.standard=Rotaia
 track.suspended=Rotaia sospesa
 track.switch=Rotaia di scambio
+track.whistle=Rotaia per il fischio
 track.wye=Rotaia a stella
+
+wall.brick=Muretto di Mattoni
+wall.concrete=Muretto di Cemento
+wall.ice=Muretto di Ghiaccio
+wall.infernal=Muretto di Mattone Infernale
+wall.nether.brick=Muretto di Mattoni del Nether
+wall.obsidian=Muretto di Ossidiana
+wall.sandstone.chiseled=Muretto di Arenaria Cesellata
+wall.sandstone.smooth=Muretto di Arenaria Levigata
+wall.sandstone=Muretto di Arenaria
+wall.sandy=Muretto di Mattone Sabbioso
+wall.snow=Muretto di Neve
+wall.stone.brick.chiseled=Muretto di Mattoni di Pietra Cesellati
+wall.stone.brick.cracked=Muretto di Mattoni di Pietra Crepati
+wall.stone.brick.mossy=Muretto di Mattoni di Pietra Muschiosi
+wall.stone.brick=Muretto di Mattoni di Pietra
