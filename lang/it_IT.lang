@@ -220,13 +220,13 @@ liquid.steam=Vapore
 machine.alpha.blast.furnace=Mattone dell'alto forno
 machine.alpha.coke.oven=Mattone del forno per carburante
 machine.alpha.feed.station=Mangiatoia
-machine.alpha.personal.anchor=Ancora Personale
+machine.alpha.anchor.personal=Ancora Personale
 machine.alpha.rock.crusher=Trita-rocce
 machine.alpha.rolling.machine=Macchinario di rollaggio
 machine.alpha.steam.oven=Forno a Vapore
 machine.alpha.tank.water=Rivestimento per la tanica dell'acqua
 machine.alpha.turbine=Alloggio per la turbina a vapore
-machine.alpha.world.anchor=Ancora del mondo
+machine.alpha.anchor.world=Ancora del mondo
 
 machine.beta.anchor.sentinel=Ancora sentinella
 machine.beta.boiler.firebox.liquid=Camera a combustibile liquido

@@ -105,7 +105,7 @@ machine.alpha.feed.station=Estação de Alimentação
 machine.alpha.rock.crusher=Esmagador de pedras
 machine.alpha.rolling.machine=Bancada de Trilhos
 machine.alpha.tank.water=Madeira do tanque de água
-machine.alpha.world.anchor=Ancorador
+machine.alpha.anchor.world=Ancorador
 
 machine.beta.boiler.firebox.liquid=Caldeira de Liquidos
 machine.beta.boiler.firebox.solid=Caldeira

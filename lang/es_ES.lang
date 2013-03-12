@@ -144,7 +144,7 @@ machine.alpha.rock.crusher=Trituradora de Rocas
 machine.alpha.rolling.machine=Máquina de Laminación
 machine.alpha.tank.water=Revestimiento de Tanque de Agua
 machine.alpha.turbine=Cubierta para Turbina a Vapor
-machine.alpha.world.anchor=Ancla de Mundo
+machine.alpha.anchor.world=Ancla de Mundo
 
 machine.beta.anchor.sentinel=Ancla Centinela
 machine.beta.boiler.firebox.liquid=Caldera de Combustión para Líquidos

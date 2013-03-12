@@ -197,12 +197,12 @@ liquid.steam=Vapeur
 machine.alpha.blast.furnace=Brique de haut fourneau
 machine.alpha.coke.oven=Brique de four à coke
 machine.alpha.feed.station=Station à nourriture
-machine.alpha.personal.anchor=Ancre personnelle
+machine.alpha.anchor.personal=Ancre personnelle
 machine.alpha.rock.crusher=Concasseur
 machine.alpha.rolling.machine=Machine à roulage
 machine.alpha.tank.water=Revêtement de réservoir d'eau
 machine.alpha.turbine=Emplacement pour turbine à vapeur
-machine.alpha.world.anchor=Ancre du monde
+machine.alpha.anchor.world=Ancre du monde
 
 machine.beta.anchor.sentinel=Ancre sentinel
 machine.beta.boiler.firebox.liquid=Chambre à combustible liquide

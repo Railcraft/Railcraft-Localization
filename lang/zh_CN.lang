@@ -227,16 +227,16 @@ liquid.creosote.refactory=木馏油胶囊
 liquid.creosote.wax=木馏油胶囊
 liquid.steam=蒸汽
 
+machine.alpha.anchor.personal=私用锚
+machine.alpha.anchor.world=世界锚
 machine.alpha.blast.furnace=高炉砖
 machine.alpha.coke.oven=焦炉砖
 machine.alpha.feed.station=饲育站
-machine.alpha.personal.anchor=私用锚
 machine.alpha.rock.crusher=碎石机
 machine.alpha.rolling.machine=辊压机
 machine.alpha.steam.oven=蒸汽炉
 machine.alpha.tank.water=蓄水器壁板
 machine.alpha.turbine=蒸汽涡轮机壳
-machine.alpha.world.anchor=世界锚
 
 machine.beta.anchor.sentinel=拱卫之锚
 machine.beta.boiler.firebox.liquid=液态燃料燃烧室

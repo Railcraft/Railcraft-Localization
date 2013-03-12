@@ -207,12 +207,12 @@ liquid.steam=蒸汽
 machine.alpha.blast.furnace=高爐磚
 machine.alpha.coke.oven=焦爐磚
 machine.alpha.feed.station=飼育站
-machine.alpha.personal.anchor=私用錨
+machine.alpha.anchor.personal=私用錨
 machine.alpha.rock.crusher=碎石機
 machine.alpha.rolling.machine=輥壓機
 machine.alpha.tank.water=蓄水器壁板
 machine.alpha.turbine=蒸汽渦輪機殼
-machine.alpha.world.anchor=世界錨
+machine.alpha.anchor.world=世界錨
 
 machine.beta.anchor.sentinel=拱衛之錨
 machine.beta.boiler.firebox.liquid=液態燃料燃燒室

@@ -197,12 +197,12 @@ liquid.steam=Para Wodna
 machine.alpha.blast.furnace=Cegła Pieca Hutniczego
 machine.alpha.coke.oven=Cegła Pieca Koksowniczego
 machine.alpha.feed.station=Karmnik
-machine.alpha.personal.anchor=Osobista Kotwica
+machine.alpha.anchor.personal=Osobista Kotwica
 machine.alpha.rock.crusher=Zgniatarka Skał
 machine.alpha.rolling.machine=Maszyna do Walcowania
 machine.alpha.tank.water=Deski Zbiornika Wody
 machine.alpha.turbine=Obudowa Turbiny Parowej
-machine.alpha.world.anchor=Kotwica Swiata
+machine.alpha.anchor.world=Kotwica Swiata
 
 machine.beta.anchor.sentinel=Słup Kotwica
 machine.beta.boiler.firebox.liquid=Palenisko Na Płyn

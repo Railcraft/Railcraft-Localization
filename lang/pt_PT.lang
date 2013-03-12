@@ -110,7 +110,7 @@ machine.alpha.rock.crusher=Esmagador de Pedras
 machine.alpha.rolling.machine=Máquina de Enrolar
 machine.alpha.tank.water=Bloco de Tanque de Água
 machine.alpha.turbine=Central da Turbina a Vapor
-machine.alpha.world.anchor=Ancorador
+machine.alpha.anchor.world=Ancorador
 
 machine.beta.anchor.sentinel=Ancorador Sentinela
 machine.beta.boiler.firebox.liquid=Caldeira de Líquidos

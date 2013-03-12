@@ -127,7 +127,7 @@ machine.alpha.feed.station=Станция кормления
 machine.alpha.rock.crusher=Дробитель
 machine.alpha.rolling.machine=Прокатный стан
 machine.alpha.tank.water=Обшивка водонапорной башни
-machine.alpha.world.anchor=Мировой якорь
+machine.alpha.anchor.world=Мировой якорь
 
 machine.beta.anchor.sentinel=Мировой страж
 machine.beta.boiler.firebox.liquid=Жидкотопливаня камера сгорания

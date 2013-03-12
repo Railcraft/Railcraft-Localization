@@ -186,12 +186,12 @@ liquid.steam=Stoom
 machine.alpha.blast.furnace=Hoogoven Bakstenen
 machine.alpha.coke.oven=Cokesoven Bakstenen
 machine.alpha.feed.station=Voedingsstation
-machine.alpha.personal.anchor=Persoonlijke wereldanker
+machine.alpha.anchor.personal=Persoonlijke wereldanker
 machine.alpha.rock.crusher=Stenen Pers
 machine.alpha.rolling.machine=Rollermachine
 machine.alpha.tank.water=Watertank Versterking
 machine.alpha.turbine=Stoomturbine Compartiment
-machine.alpha.world.anchor=Wereldanker
+machine.alpha.anchor.world=Wereldanker
 
 machine.beta.anchor.sentinel=Wereldanker Bewaker
 machine.beta.boiler.firebox.liquid=Vloeistof Gedreven Boiler

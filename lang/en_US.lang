@@ -226,16 +226,17 @@ liquid.creosote.refactory=Creosote Capsule
 liquid.creosote.wax=Creosote Capsule
 liquid.steam=Steam
 
+machine.alpha.anchor.admin=Admin Anchor
+machine.alpha.anchor.personal=Personal Anchor
+machine.alpha.anchor.world=World Anchor
 machine.alpha.blast.furnace=Blast Furnace Brick
 machine.alpha.coke.oven=Coke Oven Brick
 machine.alpha.feed.station=Feed Station
-machine.alpha.personal.anchor=Personal Anchor
 machine.alpha.rock.crusher=Rock Crusher
 machine.alpha.rolling.machine=Rolling Machine
 machine.alpha.steam.oven=Steam Oven
 machine.alpha.tank.water=Water Tank Siding
 machine.alpha.turbine=Steam Turbine Housing
-machine.alpha.world.anchor=World Anchor
 
 machine.beta.anchor.sentinel=Anchor Sentinel
 machine.beta.boiler.firebox.liquid=Liquid Fueled Firebox

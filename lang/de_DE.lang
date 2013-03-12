@@ -203,12 +203,12 @@ liquid.steam=Dampf
 machine.alpha.blast.furnace=Hochofenziegel
 machine.alpha.coke.oven=Kokerei
 machine.alpha.feed.station=Futterstation
-machine.alpha.personal.anchor=persönlicher Anker
+machine.alpha.anchor.personal=persönlicher Anker
 machine.alpha.rock.crusher=Steinzertrümmerer
 machine.alpha.rolling.machine=Walzmaschine
 machine.alpha.tank.water=Wassertankverkleidung
 machine.alpha.turbine=Dampfturbienen Gehäuse
-machine.alpha.world.anchor=Weltanker
+machine.alpha.anchor.world=Weltanker
 
 machine.beta.anchor.sentinel=Anker Wächter
 machine.beta.boiler.firebox.liquid=Flüssigkeiten-Heizkessel
