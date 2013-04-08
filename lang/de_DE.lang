@@ -50,9 +50,9 @@ color.yellow=Gelb
 
 cube.brick.infernal=Verfluchter Ziegel
 cube.brick.sandy=Sandsteinziegel
-cube.concrete.block=Betonblock
+cube.concrete=Betonblock
 cube.crushed.obsidian=Obsidian Kies
-cube.steel.block=Stahlblock
+cube.steel=Stahlblock
 cube.world.anchor=Weltanker
 
 damage.bore.1=%s war dem Fortschritt im Weg
@@ -187,6 +187,8 @@ gui.turbine=Dampfturbiene
 gui.turbine.output=Leistung: %d%%
 gui.turbine.rotor=Rotor:
 
+ingot.steel=Stahlbarren
+
 item.synthetic=synthetisch
 
 ic2.upgrade.lapotron=Lapotron-Ladeupgrade
@@ -248,7 +250,6 @@ part.circuit.signal=Signalstromkreis
 part.gear.gold.plate=Vergoldetes Zahnrad
 part.gear.iron=Eisenzahnrad
 part.gear.steel=Stahlzahnrad
-part.ingot.steel=Stahlbarren
 part.plate.iron=Eisenplatte
 part.plate.steel=Stahlplatte
 part.plate.tin=Zinnplatte

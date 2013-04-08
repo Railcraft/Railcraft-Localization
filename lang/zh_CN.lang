@@ -54,9 +54,9 @@ color.yellow=黄色
 
 cube.brick.infernal=地狱砖
 cube.brick.sandy=沙砖
-cube.concrete.block=混凝土块
+cube.concrete=混凝土块
 cube.crushed.obsidian=碎黑曜石
-cube.steel.block=钢块
+cube.steel=钢块
 cube.world.anchor=世界锚
 
 damage.bore.1=%s阻碍了前进的道路。
@@ -216,6 +216,8 @@ gui.turbine.rotor=转子:
 
 ic2.upgrade.lapotron=兰波顿卸载升级插件
 
+ingot.steel=钢锭
+
 item.synthetic=Synthetic
 
 liquid.creosote.bottle=木馏油瓶
@@ -277,7 +279,7 @@ part.circuit.signal=信号电路
 part.gear.gold.plate=金板齿轮
 part.gear.iron=铁齿轮
 part.gear.steel=钢齿轮
-part.ingot.steel=钢锭
+ingot.steel=钢锭
 part.plate.iron=铁板
 part.plate.steel=钢板
 part.plate.tin=锡板

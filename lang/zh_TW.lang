@@ -54,9 +54,9 @@ color.yellow=黃色
 
 cube.brick.infernal=煉獄磚
 cube.brick.sandy=砂磚
-cube.concrete.block=混凝土
+cube.concrete=混凝土
 cube.crushed.obsidian=碎裂黑耀石
-cube.steel.block=鋼鐵磚
+cube.steel=鋼鐵磚
 cube.world.anchor=世界錨
 
 damage.bore.1=%s阻礙了前進的道路。
@@ -193,6 +193,8 @@ gui.turbine.rotor=轉子:
 
 ic2.upgrade.lapotron=蘭波頓卸載升級插件
 
+ingot.steel=鋼錠
+
 item.synthetic=Synthetic
 
 liquid.creosote.bottle=木餾油瓶
@@ -251,7 +253,6 @@ part.circuit.receiver=接收器電路
 part.gear.gold.plate=金板齒輪
 part.gear.iron=鐵齒輪
 part.gear.steel=鋼齒輪
-part.ingot.steel=鋼錠
 part.plate.iron=鐵板
 part.plate.steel=鋼板
 part.plate.tin=錫板

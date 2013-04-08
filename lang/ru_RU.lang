@@ -52,9 +52,9 @@ color.yellow=Жёлтый
 
 cube.brick.infernal=Пламенный кирпич
 cube.brick.sandy=Песчаный кирпич
-cube.concrete.block=Бетонный блок
+cube.concrete=Бетонный блок
 cube.crushed.obsidian=Сыпучий обсидиан
-cube.steel.block=Стальной блок
+cube.steel=Стальной блок
 cube.world.anchor=Мировой якорь
 
 damage.bore.1=%s Встал на пути прогресса
@@ -215,6 +215,8 @@ gui.turbine.rotor=Ротор:
 
 ic2.upgrade.lapotron=Лапотроновый апгрейд энергоемкости
 
+ingot.steel=Стальной слиток
+
 item.synthetic=Синтетика
 
 liquid.creosote.bottle=Бутылка с креозотовым маслом
@@ -277,7 +279,6 @@ part.circuit.signal=Сигнальная схема
 part.gear.gold.plate=Золотая шестерня
 part.gear.iron=Железная шестерня 
 part.gear.steel=Стальная шестерня
-part.ingot.steel=Стальной слиток
 part.plate.iron=Железная пластина
 part.plate.steel=Стальная пластина
 part.plate.tin=Оловянная пластина

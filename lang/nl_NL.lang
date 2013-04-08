@@ -49,9 +49,9 @@ color.yellow=Geel
 
 cube.brick.infernal=Helse Steen
 cube.brick.sandy=Zanderige Steen
-cube.concrete.block=Betonblok
+cube.concrete=Betonblok
 cube.crushed.obsidian=Samengedrukte Obsidiaan
-cube.steel.block=Stalen Blok
+cube.steel=Stalen Blok
 cube.world.anchor=Wereldanker
 
 damage.train.1=%s is door een trein overreden
@@ -172,6 +172,8 @@ gui.turbine.rotor=Rotor:
 
 ic2.upgrade.lapotron=Lapotron Lader Upgrade
 
+ingot.steel=Stalen Staaf
+
 item.synthetic=Synthetisch
 
 liquid.creosote.bottle=Creosootolie Fles
@@ -229,7 +231,6 @@ part.circuit.receiver=Schakeling - Ontvanger
 part.gear.gold.plate=Vergulden Tandwiel
 part.gear.iron=IJzeren Tandwiel
 part.gear.steel=Stalen Tandwiel
-part.ingot.steel=Stalen Staaf
 part.plate.iron=IJzeren Bord
 part.plate.steel=Stalen Bord
 part.plate.tin=Tinnen Bord

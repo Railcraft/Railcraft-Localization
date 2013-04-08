@@ -15,9 +15,9 @@ cart.undercutter=Vagão Substituidor de Terreno
 cart.work=Vagão de Trabalho
 
 cube.brick.infernal=Tijolo Infernal
-cube.concrete.block=Bloco de Betão
+cube.concrete=Bloco de Betão
 cube.crushed.obsidian=Obsidiana Esmagada
-cube.steel.block=Bloco de Aço
+cube.steel=Bloco de Aço
 cube.world.anchor=Ancorador
 
 detector.advanced=Detector - Avançado
@@ -95,6 +95,8 @@ gui.turbine.rotor=Rotor:
 
 ic2.upgrade.lapotron=Lapotron Loader Upgrade
 
+ingot.steel=Barra de Aço
+
 liquid.creosote.bottle=Garrafa de Creosoto
 liquid.creosote.bucket=Balde de Creosoto
 liquid.creosote.can=Frasco de Creosoto
@@ -145,7 +147,6 @@ part.circuit.receiver=Circuito Receptor
 part.gear.gold.plate=Engrenagem de Chapa de Ouro
 part.gear.iron=Engrenagem de Ferro
 part.gear.steel=Engrenagem de Aço
-part.ingot.steel=Barra de Aço
 part.plate.iron=Chapa de Ferro
 part.plate.steel=Chapa de Aço
 part.plate.tin=Chapa de Estanho

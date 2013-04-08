@@ -53,9 +53,9 @@ color.yellow=Żółty
 
 cube.brick.infernal=Piekielne Cegly
 cube.brick.sandy=Piaskowe Cegly
-cube.concrete.block=Beton
+cube.concrete=Beton
 cube.crushed.obsidian=Rozdrobniony Obsydian
-cube.steel.block=Blok Stali
+cube.steel=Blok Stali
 cube.world.anchor=Kotwica Świata
 
 damage.bore.1=%s wszedł w drogę postępowi
@@ -183,6 +183,8 @@ gui.turbine.rotor=Wirnik:
 
 ic2.upgrade.lapotron=Lapotroniczne Ulepszenie Ładowarki 
 
+ingot.steel=Sztabka Stali
+
 item.synthetic=Syntetyczny
 
 liquid.creosote.bottle=Butelka Kreozotu
@@ -241,7 +243,6 @@ part.circuit.receiver=Obwód Odbiornika
 part.gear.gold.plate=Zębatka Powlekana Zlotem
 part.gear.iron=Żelazna Zębatka
 part.gear.steel=Stalowa Zębatka
-part.ingot.steel=Sztabka Stali
 part.plate.iron=Blacha Żelaza
 part.plate.steel=Blacha Stali
 part.plate.tin=Blacha Cyny

@@ -16,6 +16,7 @@ backpack.trackman.t2=Woven Trackman's Backpack
 backpack.tooltip=Designed by Railcraft, Inc.
 
 cart.anchor=Anchor Cart
+cart.anchor.admin=Admin Anchor Cart
 cart.anchor.personal=Personal Anchor Cart
 cart.basic=Minecart
 cart.batbox=Batbox Cart
@@ -29,6 +30,7 @@ cart.mfsu=MFSU Cart
 cart.pumpkin=Pumpkin Cart
 cart.tank=Tank Cart
 cart.tnt=TNT Cart
+cart.tnt.wood=Wooden TNT Cart
 cart.track.relayer=Track Relayer Cart
 cart.undercutter=Undercutter Cart
 cart.work=Work Cart
@@ -52,9 +54,9 @@ color.yellow=Yellow
 
 cube.brick.infernal=Infernal Brick
 cube.brick.sandy=Sandy Brick
-cube.concrete.block=Block of Concrete
+cube.concrete=Block of Concrete
 cube.crushed.obsidian=Crushed Obsidian
-cube.steel.block=Block of Steel
+cube.steel=Block of Steel
 cube.world.anchor=World Anchor
 
 damage.bore.1=%s got in the way of progress
@@ -215,6 +217,8 @@ gui.turbine.rotor=Rotor:
 
 ic2.upgrade.lapotron=Lapotron Loader Upgrade
 
+ingot.steel=Steel Ingot
+
 item.synthetic=Synthetic
 
 liquid.creosote.bottle=Creosote Bottle
@@ -234,6 +238,7 @@ machine.alpha.coke.oven=Coke Oven Brick
 machine.alpha.feed.station=Feed Station
 machine.alpha.rock.crusher=Rock Crusher
 machine.alpha.rolling.machine=Rolling Machine
+machine.alpha.smoker=Smoker
 machine.alpha.steam.oven=Steam Oven
 machine.alpha.tank.water=Water Tank Siding
 machine.alpha.turbine=Steam Turbine Housing
@@ -277,7 +282,6 @@ part.circuit.signal=Signal Circuit
 part.gear.gold.plate=Gold-Plate Gear
 part.gear.iron=Iron Gear
 part.gear.steel=Steel Gear
-part.ingot.steel=Steel Ingot
 part.plate.iron=Iron Plate
 part.plate.steel=Steel Plate
 part.plate.tin=Tin Plate
@@ -326,6 +330,12 @@ signal.distant=Distant Signal
 signal.distant.dual=Dual-Head Distant Signal
 signal.switch.lever=Switch Lever
 signal.switch.motor=Switch Motor
+
+stair.concrete=Concrete Stairs
+stair.ice=Ice Stairs
+stair.infernal=Infernal Brick Stairs
+stair.sandy=Sandy Brick Stairs
+stair.snow=Snow Stairs
 
 tool.bore.head.diamond=Diamond Bore Head
 tool.bore.head.iron=Iron Bore Head
@@ -393,6 +403,8 @@ wall.ice=Ice Wall
 wall.infernal=Infernal Brick Wall
 wall.nether.brick=Nether Brick Wall
 wall.obsidian=Obsidian Wall
+wall.quartz=Quartz Wall
+wall.quartz.chiseled=Chiseled Quartz Wall
 wall.sandstone.chiseled=Chiseled Sandstone Wall
 wall.sandstone.smooth=Smooth Sandstone Wall
 wall.sandstone=Sandstone Wall

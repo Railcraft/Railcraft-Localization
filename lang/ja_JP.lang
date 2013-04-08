@@ -16,9 +16,9 @@ cart.undercutter=道床交換トロッコ
 cart.work=作業台付きトロッコ
 
 cube.brick.infernal=地獄レンガ
-cube.concrete.block=コンクリートブロック
+cube.concrete=コンクリートブロック
 cube.crushed.obsidian=砕けた黒曜石
-cube.steel.block=鋼鉄ブロック
+cube.steel=鋼鉄ブロック
 cube.world.anchor=ワールドアンカー
 
 detector.advanced=発展型検出器
@@ -96,6 +96,8 @@ gui.turbine.rotor=ローター:
 
 ic2.upgrade.lapotron=ラポトロンローダーアップグレード
 
+ingot.steel=鋼鉄インゴット
+
 liquid.creosote.bottle=クレオソート入り瓶
 liquid.creosote.bucket=クレオソート入りバケツ
 liquid.creosote.can=クレオソート入り缶
@@ -146,7 +148,6 @@ part.circuit.receiver=受信回路
 part.gear.gold.plate=金張りの歯車
 part.gear.iron=鉄の歯車
 part.gear.steel=鋼鉄の歯車
-part.ingot.steel=鋼鉄インゴット
 part.plate.iron=鉄板
 part.plate.steel=鋼板
 part.plate.tin=スズ板

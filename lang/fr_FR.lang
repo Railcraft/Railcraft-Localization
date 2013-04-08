@@ -53,9 +53,9 @@ color.yellow=Jaune
 
 cube.brick.infernal=Brique infernal
 cube.brick.sandy=Brique sableuse
-cube.concrete.block=Bloc de béton
+cube.concrete=Bloc de béton
 cube.crushed.obsidian=Obsidienne broyé
-cube.steel.block=Bloc d'acier
+cube.steel=Bloc d'acier
 cube.world.anchor=Ancre du monde
 
 damage.bore.1=%s était sur le chemin du progrès
@@ -183,6 +183,8 @@ gui.turbine.rotor=Rotor:
 
 ic2.upgrade.lapotron=Mise à niveau d'énergie lapotron
 
+ingot.steel=Lingot d'acier
+
 item.synthetic=synthétique
 
 liquid.creosote.bottle=Bouteille de créosote
@@ -241,7 +243,6 @@ part.circuit.receiver=Circuit récepteur
 part.gear.gold.plate=Engrenage en plaque d'or
 part.gear.iron=Engrenage en fer
 part.gear.steel=Engrenage en acier
-part.ingot.steel=Lingot d'acier
 part.plate.iron=Plaque de fer
 part.plate.steel=Plaque d'acier
 part.plate.tin=Plaque d'étain
