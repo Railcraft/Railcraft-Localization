@@ -4,12 +4,12 @@
 
 armor.goggles=鐵路工護目鏡
 
-armor.overalls=工程師背帶褲
+armor.overalls=鐵路工制服
 
-armor.steel.helmet=鋼頭盔
-armor.steel.plate=鋼胸甲
-armor.steel.legs=鋼護腿
-armor.steel.boots=鋼靴子
+armor.steel.helmet=鋼鐵頭盔
+armor.steel.plate=鋼鐵胸甲
+armor.steel.legs=鋼鐵護腿
+armor.steel.boots=鋼鐵靴子
 
 backpack.iceman.t1=冰原旅者背包
 backpack.iceman.t2=編織的冰原旅者背包
@@ -52,11 +52,11 @@ color.red=紅色
 color.white=白色
 color.yellow=黃色
 
-cube.brick.infernal=地獄磚
-cube.brick.sandy=沙磚
-cube.concrete.block=混凝土塊
-cube.crushed.obsidian=碎黑曜石
-cube.steel.block=鋼塊
+cube.brick.infernal=煉獄磚
+cube.brick.sandy=砂磚
+cube.concrete.block=混凝土
+cube.crushed.obsidian=碎裂黑耀石
+cube.steel.block=鋼鐵磚
 cube.world.anchor=世界錨
 
 damage.bore.1=%s阻礙了前進的道路。
@@ -65,36 +65,36 @@ damage.bore.3=%s被碾碎了。
 damage.bore.4=%s認爲自己比約翰·亨利還厲害。
 damage.bore.5=%s陷入了進退維谷的境地。
 
-damage.train.1=%s被列車撞了。
-damage.train.2=%s在軌道上玩耍。
-damage.train.3=%s在軌道上和列車單挑,列車贏了。
-damage.train.4=%s上錯車了。
-damage.train.5=%s買了一張通向來生的單程票。
+damage.train.1=%s被火車撞飛了
+damage.train.2=%s在鐵軌上玩耍
+damage.train.3=%s和火車單挑，火車贏了
+damage.train.4=%s上錯車了
+damage.train.5=%s買了一張到來世的單程票
 
-detector.advanced=傳感器-高級
-detector.age=傳感器-年齡
-detector.animal=傳感器-動物
-detector.any=傳感器-任意
-detector.cart=傳感器-礦車
-detector.empty=傳感器-空
-detector.energy=傳感器-能量
-detector.explosive=傳感器-爆炸
-detector.item=傳感器-物品
-detector.locomotive=傳感器-火車頭
-detector.mob=傳感器-生物
-detector.player=傳感器-玩家
-detector.powered=傳感器-紅石信號
-detector.sheep=傳感器-羊
-detector.tank=傳感器-蓄水槽
-detector.train=傳感器-列車
-detector.villager=傳感器-村民
+detector.advanced=偵測器-進階
+detector.age=偵測器-年齡
+detector.animal=偵測器-動物
+detector.any=偵測器-任何
+detector.cart=偵測器-礦車
+detector.empty=偵測器-空車
+detector.energy=偵測器-能量
+detector.explosive=偵測器-TNT
+detector.item=偵測器-物品
+detector.locomotive=偵測器-火車頭
+detector.mob=偵測器-生物
+detector.player=偵測器-玩家
+detector.powered=偵測器-紅石信號
+detector.sheep=偵測器-羊
+detector.tank=偵測器-蓄水
+detector.train=偵測器-列車
+detector.villager=偵測器-村民
 
-dust.charcoal=木炭粉
-dust.obsidian=黑曜石粉
+dust.charcoal=木碳粉
+dust.obsidian=黑耀粉
 dust.saltpeter=硝石
 dust.sulfur=硫磺
 
-fuel.coke=煤焦
+fuel.coke=焦炭
 
 gates.action.pause=暫停
 gates.action.sendcart=發車
