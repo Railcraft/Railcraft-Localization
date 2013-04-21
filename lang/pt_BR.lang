@@ -3,12 +3,12 @@
 
 cart.anchor=Vagão Âncora
 cart.basic=Vagão
-cart.batbox=Vagão Batbox
+cart.energy.batbox=Vagão Batbox
 cart.bore=Tunelador
 cart.chest=Vagão com Bau
 cart.furnace=Vagão Fornalha
-cart.mfe=Vagão MFE
-cart.mfsu=Vagão MFSU
+cart.energy.mfe=Vagão MFE
+cart.energy.mfsu=Vagão MFSU
 cart.tank=Vagão Tanque
 cart.tnt=Vagão com TNT
 cart.track.relayer=Vagão substituidor de trilho

@@ -2,12 +2,12 @@
 
 cart.anchor=アンカー付きトロッコ
 cart.basic=トロッコ
-cart.batbox=バットボックス付きトロッコ
+cart.energy.batbox=バットボックス付きトロッコ
 cart.bore=トンネル掘削車
 cart.chest=チェスト付きトロッコ
 cart.furnace=かまど付きトロッコ
-cart.mfe=MFE付きトロッコ
-cart.mfsu=MFSU付きトロッコ
+cart.energy.mfe=MFE付きトロッコ
+cart.energy.mfsu=MFSU付きトロッコ
 cart.pumpkin=かぼちゃのトロッコ
 cart.tank=タンク付きトロッコ
 cart.tnt=TNTトロッコ

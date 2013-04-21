@@ -9,14 +9,14 @@ armor.steel.boots=Botas de Acero
 
 cart.anchor=Carro Ancla
 cart.basic=Carro Minero
-cart.batbox=Carro Batería
+cart.energy.batbox=Carro Batería
 cart.bore=Agujereadora de Túneles
 cart.chest=Carro con Cofre
 cart.furnace=Carro Horno
 cart.gift=Carro de Regalos
 cart.loco.steam=Locomotora a Vapor
-cart.mfe=Carro MFE
-cart.mfsu=Carro MFSU
+cart.energy.mfe=Carro MFE
+cart.energy.mfsu=Carro MFSU
 cart.pumpkin=Carro de Calabaza
 cart.tank=Carro Tanque
 cart.tnt=Carro de TNT

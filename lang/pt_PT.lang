@@ -2,12 +2,12 @@
 
 cart.anchor=Vagão Ancorador
 cart.basic=Vagão
-cart.batbox=Vagão com Batbox
+cart.energy.batbox=Vagão com Batbox
 cart.bore=Tuneladora
 cart.chest=Vagão com Baú
 cart.furnace=Vagão com Fornalha
-cart.mfe=Vagão com MFE 
-cart.mfsu=Vagão com MFSU
+cart.energy.mfe=Vagão com MFE 
+cart.energy.mfsu=Vagão com MFSU
 cart.tank=Vagão com Tanque
 cart.tnt=Vagão com TNT
 cart.track.relayer=Vagão Substituidor de Carris
