@@ -42,3 +42,4 @@ Inheritance Tree:
  - ja_JP
  - it_IT
  - zh_CN
+ - no_NO
