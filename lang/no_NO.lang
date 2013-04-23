@@ -59,14 +59,14 @@ cube.steel=Stålblokk
 cube.world.anchor=Verdens anker
 
 damage.bore.1=%s kom i veien for fremskritt
-damage.bore.2=%s kjempet mot borekronen, og tapte
+damage.bore.2=%s kjempet mot borekronen, men tapte.
 damage.bore.3=%s ble knust av borehodet.
 damage.bore.4=%s trodde han kunne gjøre bedre en john henry.
 damage.bore.5=%s satt seg fast mellom en stein og et hardt sted.
 
 damage.train.1=%s ble truffet av toget.
 damage.train.2=%s lekte på togskinnene.
-damage.train.3=%s lekte kylling med toget,  toget vant.
+damage.train.3=%s lekte med toget,  toget vant.
 damage.train.4=%s fanget feil tog.
 damage.train.5=%s kjøpte en enveisbillet til det hinsidige
 
@@ -157,7 +157,7 @@ gui.goggles.aura.anchor=Anker
 gui.goggles.aura.none=Ingen
 gui.goggles.aura.tuning=Instilling
 gui.goggles.mode=Valgt Aura: %s
-gui.goggles.tip=Bruk fra hotbaren for og velge aura
+gui.goggles.tip=Bruk fra hotbaren for å velge aura
 gui.item.loader.buffer=Buffer
 gui.item.loader.excess=E
 gui.item.loader.stock=L
@@ -187,22 +187,21 @@ gui.surveyor.wrong=Ikke gyldig signal.
 gui.switch.motor.action=Slå på Aspekt
 gui.tank.iron=Jern Tank
 gui.tank.water=Vann Tank
-gui.ticks=ticks
 gui.tip.blast.furnace=Multi-Blokk: 3x4x3 (hul)
 gui.tip.boiler.firebox.liquid=Multi-Blokk: Variabel størrelse
 gui.tip.boiler.firebox.solid=Multi-Blokk: Variabel størrelse
 gui.tip.boiler.tank.pressure.high=Multi-Blokk: Variabel størrelse
 gui.tip.boiler.tank.pressure.low=Multi-Blokk: Variabel størrelse
 gui.tip.chest.void=Sletter ting
-gui.tip.coke.oven=Multi-Blokk: 3x3x3 (Hul)
+gui.tip.coke.oven=MultiBlokk: 3x3x3 (Hul)
 gui.tip.crowbar.link=§ohøyreklikk mens du kryper for og sammenkoble vognene.
-gui.tip.rock.crusher=Multi-Blokk: 3x2x2
-gui.tip.steam.oven=Multi-Blokk: 2x2x2
-gui.tip.tank.iron.gauge=Multi-Blokk: Variabel størrelse
-gui.tip.tank.iron.valve=Multi-Blokk: Variabel størrelse
-gui.tip.tank.iron.wall=Multi-Blokk: Variabel størrelse
-gui.tip.tank.water=Multi-Blokk: 3x3x3 (Hul)
-gui.tip.turbine=Multi-Blokk: 3x2x2
+gui.tip.rock.crusher=MultiBlokk: 3x2x2
+gui.tip.steam.oven=MultiBlokk: 2x2x2
+gui.tip.tank.iron.gauge=MultiBlokk: Variabel størrelse
+gui.tip.tank.iron.valve=MultiBlokk: Variabel størrelse
+gui.tip.tank.iron.wall=Multi-: Variabel størrelse
+gui.tip.tank.water=MultiBlokk: 3x3x3 (Hul)
+gui.tip.turbine=MultiBlokk: 3x2x2
 gui.track.embarking.radius=Radius
 gui.track.priming.fuse=Fuse = %d ticks
 gui.tuner.start=Startet sammenkobling av %s til en mottaker.
@@ -257,13 +256,13 @@ machine.beta.tank.iron.wall=Jerntanksvegg
 
 machine.gamma.dispenser.cart=Vogn dispenser
 machine.gamma.dispenser.train=Tog Dispenser
-machine.gamma.loader.energy=Energi Lastemaskin
-machine.gamma.loader.item.advanced=Avansert Ting Laster
-machine.gamma.loader.item=Ting lastemaskin
+machine.gamma.loader.energy=Energi Lader
+machine.gamma.loader.item.advanced=Avansert gjenstandslaster
+machine.gamma.loader.item=Gjenstandslastemaskin
 machine.gamma.loader.liquid=Væske pumpemaskin (pålastning)
-machine.gamma.unloader.energy=Energi Avlastemaskin
-machine.gamma.unloader.item.advanced=Avansert ting avlaster
-machine.gamma.unloader.item=Ting avlastemaskin
+machine.gamma.unloader.energy=Energi tømmer
+machine.gamma.unloader.item.advanced=Avansert gjenstandsavlaster
+machine.gamma.unloader.item=Gjenstandsavlaster
 machine.gamma.unloader.liquid=væske pumpemaskin (avlastning)
 
 nugget.iron=Jern pellet
@@ -332,7 +331,7 @@ signal.switch.motor=Bryter Motor
 
 stair.concrete=Betong trapper
 stair.ice=Istrapper
-stair.infernal=Infernalnalske mursteinstrapper
+stair.infernal=Infernalske mursteinstrapper
 stair.sandy=Sandete mursteinstrapper
 stair.snow=Snøtrapper
 
