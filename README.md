@@ -9,13 +9,15 @@ Notepad++ is the recommend text editor for editing language files because it is 
 
 Other editors may not save files in the correct format (Notepad, Wordpad, etc...do not).
 
+While editing a language file, you can simply drop it in the ".minecraft/config/railcraft/lang" and the game will load it automatically, overriding any existing translations.
+
 ### Java Formatting Tags
 You may notice some translation entries have strange characters such as "%s" or "%2$s". These are Java Formatting Tags. They will be replaced with another variable at run time. They can be used to reorder or format messages and the like.
 
 More information can be found [here](http://docs.oracle.com/javase/6/docs/api/java/util/Formatter.html).
 
 ### Minecraft Formatting Tags
-You may also notice some stuff like "§r" or "§5". These are Minecraft Formatting Tags and are generally used to set the text color and italicize/bold pieces of text.
+You may also notice some stuff like "ï¿½r" or "ï¿½5". These are Minecraft Formatting Tags and are generally used to set the text color and italicize/bold pieces of text.
 
 More information can be found [here](http://www.minecraftwiki.net/wiki/Formatting_codes).
 
