@@ -21,11 +21,11 @@ brick.abyssal.fitted=Стенной камень бездны
 brick.abyssal.ornate=Резной камень бездны
 brick.abyssal.etched=Гравированный камень бездны
 
-brick.bleachedbone.brick=Кирпич отбеленный костью
-brick.bleachedbone.block=Блок отбеленный костью
-brick.bleachedbone.fitted=Стенной камень отбеленный костью
-brick.bleachedbone.ornate=Резной камень отбеленный костью
-brick.bleachedbone.etched=Гравированный камень отбеленный костью
+brick.bleachedbone.brick=Кирпич (отбеленный костью)
+brick.bleachedbone.block=Блок (отбеленный костью)
+brick.bleachedbone.fitted=Стенной камень (отбеленный костью)
+brick.bleachedbone.ornate=Резной камень (отбеленный костью)
+brick.bleachedbone.etched=Гравированный камень (отбеленный костью)
 
 brick.bloodstained.brick=Кровавый кирпич
 brick.bloodstained.block=Кровавый блок
@@ -104,16 +104,16 @@ cube.crushed.obsidian=Сыпучий обсидиан
 cube.steel=Стальной блок
 
 damage.bore.1=%s Встал на пути прогресса
-damage.bore.2=%s Попытлся остановить бур
+damage.bore.2=%s Попытался остановить бур
 damage.bore.3=%s Был измельчён буром
 damage.bore.4=%s Думал, что он может сделать лучше, чем Джон Генри
 damage.bore.5=%s Застрял между молотом и наковальней
 
 damage.train.1=%s Попал под поезд
 damage.train.2=%s Играл на рельсах
-damage.train.3=%s Играла курица с поездом, поезд выйграл
+damage.train.3=%s Играла курица с поездом, поезд выиграл
 damage.train.4=%s Поймал не тот поезд
-damage.train.5=%s купил билет в один конец
+damage.train.5=%s Купил билет в один конец
 
 detector.advanced=Детектор - Продвинутый
 detector.age=Детектор - Взрослый
