@@ -1,6 +1,7 @@
 # zh_CN
 # Translated by crafteverywhere
 # Parent Language: zh_TW
+# Fixed by DoraJDJ
 
 armor.goggles=铁路工护目镜
 
@@ -65,19 +66,19 @@ cart.anchor.personal=私用锚车
 cart.basic=矿车
 cart.energy.batbox=储电车
 cart.bore=隧道盾构车
-cart.chest=箱子车
-cart.furnace=熔炉车
-cart.gift=礼物车
+cart.chest=存储矿车
+cart.furnace=熔炉矿车
+cart.gift=礼物矿车
 cart.loco.steam=蒸汽机车
-cart.energy.mfe=MFE储电车
-cart.energy.mfsu=MFSU储电车
-cart.pumpkin=南瓜车
-cart.tank=蓄水槽车
-cart.tnt=TNT车
+cart.energy.mfe=MFE储电矿车
+cart.energy.mfsu=MFSU储电矿车
+cart.pumpkin=南瓜矿车
+cart.tank=蓄水槽矿车
+cart.tnt=TNT矿车
 cart.tnt.wood=木质TNT矿车
-cart.track.relayer=轨道替换车
-cart.undercutter=路基替换车
-cart.work=工作台车
+cart.track.relayer=轨道替换矿车
+cart.undercutter=路基替换矿车
+cart.work=工作台车矿车
 
 color.black=黑色
 color.blue=蓝色
@@ -329,6 +330,9 @@ machine.beta.engine.steam.low=商用蒸汽引擎
 machine.beta.tank.iron.gauge=铁质蓄水器量计
 machine.beta.tank.iron.valve=铁质蓄水器阀门
 machine.beta.tank.iron.wall=铁质蓄水器壁板
+machine.beta.tank.steel.gauge=钢制蓄水器量表
+machine.beta.tank.steel.valve=钢制蓄水器阀门
+machine.beta.tank.steel.wall=钢制蓄水器壁板
 
 machine.gamma.dispenser.cart=矿车分车站
 machine.gamma.dispenser.train=列车分车站
