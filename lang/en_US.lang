@@ -15,6 +15,8 @@ backpack.trackman.t1=Trackman's Backpack
 backpack.trackman.t2=Woven Trackman's Backpack
 backpack.tooltip=Designed by Railcraft, Inc.
 
+block.hidden=Residual Heat
+
 brick.abyssal.brick=Abyssal Brick
 brick.abyssal.block=Abyssal Block
 brick.abyssal.fitted=Fitted Abyssal Stone
@@ -200,6 +202,18 @@ gui.detector.item.full=Full
 gui.detector.item.not_empty=Not Empty
 gui.detector.loco.primary=Primary Color
 gui.detector.loco.secondary=Secondary Color
+gui.detector.tank.tip.void=Match any amount
+gui.detector.tank.tip.empty=Match empty tanks
+gui.detector.tank.tip.not.empty=Match non-empty tanks
+gui.detector.tank.tip.full=Match full tanks
+gui.detector.tank.tip.quarter=Match more than quarter full tanks
+gui.detector.tank.tip.half=Match more than half full tanks
+gui.detector.tank.tip.most=Match more than 3/4th full tanks
+gui.detector.tank.tip.less.than.quarter=Match less than quarter full tanks
+gui.detector.tank.tip.less.than.half=Match less than half full tanks
+gui.detector.tank.tip.less.than.most=Match less than 3/4th full tanks
+gui.detector.tank.tip.less.than.full=Match less than full tanks
+gui.detector.tank.tip.analog=Emit Analog Redstone\n based on amount in tank
 gui.detector.villager.any=Any
 gui.detector.villager.equals=Equals
 gui.detector.villager.none=None
@@ -226,6 +240,14 @@ gui.item.loader.immediate=Immediate
 gui.item.loader.manual=Manual
 gui.item.loader.stock=Stock
 gui.item.loader.transfer=Transfer
+gui.item.loader.all.tip=Move all matching items
+gui.item.loader.complete.tip=Emit Redstone when complete
+gui.item.loader.excess.tip=Keep the items in the filter\n move the rest
+gui.item.loader.partial.tip=Emit Redstone if no items were\n moved and cart is not empty
+gui.item.loader.immediate.tip=Emit Redstone if no items\n were moved
+gui.item.loader.manual.tip=Never emit Redstone
+gui.item.loader.stock.tip=Moved items until the\n destination matches filter
+gui.item.loader.transfer.tip=Move exactly as many\n items as are in the filter
 gui.liquid.capacity=Capacity
 gui.liquid.loader.empty=Hold Empty
 gui.liquid.loader.fill=Force Full
@@ -296,6 +318,11 @@ ic2.upgrade.lapotron=Lapotron Loader Upgrade
 ingot.steel=Steel Ingot
 
 item.synthetic=Synthetic
+
+keybind.loco.faster=Locomotive Faster Key
+keybind.loco.slower=Locomotive Slower Key
+keybind.loco.mode=Locomotive Mode Key
+keybind.loco.whistle=Locomotive Whistle Key
 
 liquid.creosote.bottle=Creosote Bottle
 liquid.creosote.bucket=Creosote Bucket
@@ -408,7 +435,12 @@ routing.logic.unrecognized.keyword=Unrecognized Keyword
 routing.slot.label=Routing Table
 routing.table.editor=Last edited by %s
 routing.table.manual.title=Routing Manual
-routing.table.manual.page1=The Routing Table when placed in a Routing Detector or Switch will define a set of rules that are used to match against any passing Locomotive. These rules are define using a simple logic syntax that allows you to create rules as simple or complex as you like. The syntax is a Prefix Notation script, the Operators are followed by the Operands.
+routing.table.manual.page1=The Routing Table when placed in a Routing Detector or Switch will define a set of rules that are used to match against any passing Locomotive. These rules are define using a simple logic syntax that allows you to create rules as simple or complex as you like. The syntax is a Prefix Notation script, the Operators are followed by the Operands. Only one keyword is allowed per line. If no Operator is specified, OR is assumed. Routing Tables can be copied by placing two or more in a crafting grid.
+routing.table.manual.page2=Operator Keywords:\n   AND - Two Operands, both must be true.\n   OR - Two Operands, one must be true.\n   NOT - Invert the following Operand.
+routing.table.manual.page3=Condition Keywords:\n   Dest=<string>\n      If the Locomotive's Destination\n      string starts with this string,\n      the condition is true.\n   Owner=<username>\n      True if the Locomotive belongs\n      to this person. 
+routing.table.manual.page4=Condition Keywords:\n   Color=<primary>,<secondary>\n      True if the Locomotive's primary\n      and secondary colors match.\n      Accepts "Any" as a wildcard.\n      Colors: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White 
+routing.table.manual.page5=Example Script:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+routing.table.manual.page6=Result:\n   The script on the previous page will\n   match a Locomotive with a destination\n   of "TheFarLands/Milliways",\n   or that is painted black and red,\n   or that has a destination of\n   "SecretHideout/OceanEntrance",\n   but only if its not owned by RichardG.
 routing.table.name=Name
 routing.table=Routing Table
 routing.ticket.gold=Golden Railway Ticket
@@ -421,8 +453,10 @@ routing.ticket.tip.dest=Destination:
 routing.ticket.tip.issuer=Issuer:
 routing.ticket.title=Golden Ticket
 routing.ticket=Railway Ticket
+routing.track.slot.label=Ticket
+routing.track.tip.slot=Insert Golden Ticket
 routing.tip.slot=Insert Routing Table
-routing.type.private.tip=Will only route\n Locomotives that belong to\n {owner}.
+routing.type.private.tip=Will only route\n Locomotives\n that belong to\n {owner}.
 routing.type.private=Private Railway
 routing.type.public.tip=Will route any Locomotive.
 routing.type.public=Public Railway
@@ -437,6 +471,7 @@ signal.distant=Distant Signal
 signal.distant.dual=Dual-Head Distant Signal
 signal.switch.lever=Switch Lever
 signal.switch.motor=Switch Motor
+signal.switch.routing=Routing Switch Motor
 
 slab.abyssal.brick=Abyssal Brick Slab
 slab.abyssal.fitted=Fitted Abyssal Stone Slab
@@ -540,6 +575,7 @@ track.reinforced.boost=Reinforced Booster Track
 track.reinforced.junction=Reinforced Junction Track
 track.reinforced.switch=Reinforced Switch Track
 track.reinforced.wye=Reinforced Wye Track
+track.routing=Routing Track
 track.slow=Wooden Track
 track.slow.boost=Wooden Booster Track
 track.slow.junction=Wooden Junction Track
