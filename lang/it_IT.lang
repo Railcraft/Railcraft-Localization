@@ -16,20 +16,64 @@ backpack.trackman.t1=Zaino del Ferroviere
 backpack.trackman.t2=Zaino del Ferroviere Tessuto
 backpack.tooltip=Progettato da Railcraft, Inc.
 
+brick.abyssal.brick=Mattone abissale
+brick.abyssal.block=Blocco abissale
+brick.abyssal.fitted=Pietra abissale da muro
+brick.abyssal.ornate=Pietra abissale ornata
+brick.abyssal.etched=Pietra abissale incisa
+
+brick.bleachedbone.brick=Mattone d'osso scolorito
+brick.bleachedbone.block=Blocco d'osso scolorito
+brick.bleachedbone.fitted=Pietra d'osso scolorito da muro
+brick.bleachedbone.ornate=Pietra d'osso scolorito ornata
+brick.bleachedbone.etched=Pietra d'osso scolorito incisa
+
+brick.bloodstained.brick=Mattone macchiato di sangue
+brick.bloodstained.block=Blocco macchiato di sangue
+brick.bloodstained.fitted=Pietra macchiata di sangue da muro
+brick.bloodstained.ornate=Pietra macchiata di sangue ornata
+brick.bloodstained.etched=Pietra macchiata di sangue incisa
+
+brick.frostbound.brick=Mattone legato al gelo
+brick.frostbound.block=Blocco legatao al gelo
+brick.frostbound.fitted=Pietra legata al gelo da muro
+brick.frostbound.ornate=Pietra legata al gelo ornata
+brick.frostbound.etched=Pietra legata al gelo incisa
+
+brick.infernal.brick=Mattone infernale
+brick.infernal.block=Blocco infernale
+brick.infernal.fitted=Pietra infernale da muro
+brick.infernal.ornate=Pietra infernale ornata
+brick.infernal.etched=Pietra infernale incisa
+
+brick.quarried.brick=Mattone cavo
+brick.quarried.block=Blocco cavo
+brick.quarried.fitted=Pietra cava da muro
+brick.quarried.ornate=Pietra cava ornata
+brick.quarried.etched=Pietra cava incisa
+
+brick.sandy.brick=Mattone sabbioso
+brick.sandy.block=Blocco sabbioso
+brick.sandy.fitted=Pietra sabbiosa da muro
+brick.sandy.ornate=Pietra sabbiosa ornata
+brick.sandy.etched=Pietra sabbiosa incisa
+
 cart.anchor=Minecart con ancora
+cart.anchor.admin=Minecart con ancora dell' amministratore
 cart.anchor.personal=Minecart con ancora personale
 cart.basic=Minecart
-cart.energy.batbox=Minecart con accumulatore
 cart.bore=Scavatrice
 cart.chest=Minecart con cassa
 cart.furnace=Minecart con fornace
+cart.energy.batbox=Minecart con Batbox
+cart.energy.mfe=Minecart con MFE
+cart.energy.mfsu=Minecart con MFSU
 cart.gift=Minecart Regalo
 cart.loco.steam=Locomotiva a Vapore
-cart.energy.mfe=Minecart.energy.mfe
-cart.energy.mfsu=Minecart.energy.mfsu
 cart.pumpkin=Minecart con zucca
 cart.tank=Minecart con tanica
 cart.tnt=Minecart con TNT
+cart.tnt.wood=Minecart di legno con TNT
 cart.track.relayer=Minecart scambia-binari
 cart.undercutter=Minecart cambia-blocco
 cart.work=Minecart da lavoro
@@ -51,12 +95,14 @@ color.red=Rosso
 color.white=Bianco
 color.yellow=Giallo
 
-cube.brick.infernal=Mattone infernale
-cube.brick.sandy=Mattone Sabbioso
+cube.stone.abyssal=Pierta abissale
+cube.stone.quarried=Pietra cava
+cube.brick.infernal=Mattone infernale infernale (OBSOLETO)
+cube.brick.sandy=Mattone sabbioso (OBSOLETO)
+cube.coke=Blocco di carbone da carburante
 cube.concrete=Blocco di cemento
 cube.crushed.obsidian=Ossidiana distrutta
 cube.steel=Blocco d'acciaio
-cube.world.anchor=Ancora del mondo
 
 damage.bore.1=%s è andato nella via del progresso
 damage.bore.2=%s ha provato a fermare la Scavatrice
@@ -83,6 +129,7 @@ detector.mob=Detector - Mob
 detector.locomotive=Detector - Locomotiva
 detector.player=Detector - Giocatore
 detector.powered=Detector - Potenziato
+detector.routing=Detector - 
 detector.sheep=Detector - Pecore
 detector.tank=Detector - Tanica
 detector.train=Detector - Treno
