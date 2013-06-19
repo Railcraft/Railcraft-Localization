@@ -17,6 +17,8 @@ backpack.trackman.t1=铁路工背包
 backpack.trackman.t2=编织的铁路工背包
 backpack.tooltip=Railcraft,Inc出品，必属精品。
 
+block.hidden=残余热量
+
 brick.abyssal.brick=深渊砖
 brick.abyssal.block=深渊方块
 brick.abyssal.fitted=匀称深渊方块
@@ -201,6 +203,18 @@ gui.detector.item.full=满
 gui.detector.item.not_empty=非空
 gui.detector.loco.primary=车身颜色
 gui.detector.loco.secondary=底盘颜色
+gui.detector.tank.tip.void=匹配任意数量
+gui.detector.tank.tip.empty=匹配空蓄水槽
+gui.detector.tank.tip.not.empty=匹配非空蓄水槽
+gui.detector.tank.tip.full=匹配满蓄水槽
+gui.detector.tank.tip.quarter=匹配超过1/4量蓄水槽
+gui.detector.tank.tip.half=匹配超过一半量蓄水槽
+gui.detector.tank.tip.most=匹配超过3/4量蓄水槽
+gui.detector.tank.tip.less.than.quarter=匹配少于1/4量蓄水槽
+gui.detector.tank.tip.less.than.half=匹配少于一半量蓄水槽
+gui.detector.tank.tip.less.than.most=匹配少于3/4量蓄水槽
+gui.detector.tank.tip.less.than.full=匹配非满蓄水槽
+gui.detector.tank.tip.analog=基于蓄水槽液体量/n发出模拟红石信号
 gui.detector.villager.any=任意
 gui.detector.villager.equals=是
 gui.detector.villager.none=无
@@ -229,6 +243,14 @@ gui.item.loader.immediate=没货发车
 gui.item.loader.manual=手动
 gui.item.loader.stock=达到
 gui.item.loader.transfer=转移
+gui.item.loader.all.tip=移动所有匹配物品
+gui.item.loader.complete.tip=完成后发出红石信号
+gui.item.loader.excess.tip=保持过滤设置物品\n移动其余物品
+gui.item.loader.partial.tip=如果车子非空且无物品被移动\n则发出红石信号
+gui.item.loader.immediate.tip=如果无物品被移动\n则发出红石信号
+gui.item.loader.manual.tip=从不发出红石信号
+gui.item.loader.stock.tip=移动物品直到\n目标容器符合过滤设定
+gui.item.loader.transfer.tip=尽可能移动\n过滤设定中数量的物品
 gui.liquid.capacity=容量
 gui.liquid.loader.empty=空
 gui.liquid.loader.fill=结束
@@ -299,6 +321,11 @@ ic2.upgrade.lapotron=兰波顿装载升级插件
 ingot.steel=钢锭
 
 item.synthetic=人造
+
+keybind.loco.faster=机车加速
+keybind.loco.slower=机车减速
+keybind.loco.mode=机车模式切换
+keybind.loco.whistle=机车鸣笛
 
 liquid.creosote.bottle=木馏油瓶
 liquid.creosote.bucket=木馏油桶
@@ -409,8 +436,12 @@ routing.logic.unrecognized.keyword=未识别关键字
 routing.slot.label=Routing Table
 routing.table.editor=由%s最后编辑
 routing.table.manual.title=手动导航
-routing.table.manual.page1=放置在路由传感器或者转辙器里的列车时刻表定义了一系列规则，并会匹配经过的机车。路由表的逻辑语法允许你创建一些简单或者更复杂的规则：通常格式是操作码加操作数。
-routing.table.name=名称
+routing.table.manual.page1=放置在路由传感器或者转辙器里的列车时刻表定义了一系列规则，并会匹配经过的机车。路由表的逻辑语法允许你创建一些简单或者更复杂的规则：通常格式是操作码加操作数。The Routing Table when placed in a Routing Detector or Switch will define a set of rules that are used to match against any passing Locomotive. These rules are define using a simple logic syntax that allows you to create rules as simple or complex as you like. The syntax is a Prefix Notation script, the Operators are followed by the Operands. Only one keyword is allowed per line. If no Operator is specified, OR is assumed. Routing Tables can be copied by placing two or more in a crafting grid.
+routing.table.manual.page2=Operator Keywords:\n   AND - Two Operands, both must be true.\n   OR - Two Operands, one must be true.\n   NOT - Invert the following Operand.
+routing.table.manual.page3=Condition Keywords:\n   Dest=<string>\n      If the Locomotive's Destination\n      string starts with this string,\n      the condition is true.\n   Owner=<username>\n      True if the Locomotive belongs\n      to this person. 
+routing.table.manual.page4=Condition Keywords:\n   Color=<primary>,<secondary>\n      True if the Locomotive's primary\n      and secondary colors match.\n      Accepts "Any" as a wildcard.\n      Colors: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White 
+routing.table.manual.page5=Example Script:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+routing.table.manual.page6=Result:\n   The script on the previous page will\n   match a Locomotive with a destination\n   of "TheFarLands/Milliways",\n   or that is painted black and red,\n   or that has a destination of\n   "SecretHideout/OceanEntrance",\n   but only if its not owned by RichardG.
 routing.table=列车时刻表
 routing.ticket.gold=黄金车票
 routing.ticket.line1=该车票已经作废
@@ -427,6 +458,8 @@ routing.type.private=私人铁路
 routing.type.public.tip=将导航任意列车。
 routing.type.public=共用铁路
 routing.ticket=车票
+routing.track.slot.label=车票
+routing.track.tip.slot=插入黄金车票
 
 signal.block.signal.dual=双头信号箱
 signal.block.signal=信号箱
@@ -438,6 +471,7 @@ signal.distant=远程信号
 signal.distant.dual=双头远程信号
 signal.switch.lever=转辙拉杆
 signal.switch.motor=转辙马达
+signal.switch.routing=路由转辙马达
 
 slab.abyssal.brick=深渊砖台阶
 slab.abyssal.fitted=均称深渊台阶
@@ -541,6 +575,7 @@ track.reinforced.boost=强化推进轨道
 track.reinforced.junction=强化交接轨道
 track.reinforced.switch=强化转辙轨道
 track.reinforced.wye=强化Y型轨道
+track.routing=路由轨道
 track.slow=木质轨道
 track.slow.boost=木质推进轨道
 track.slow.junction=木质交接轨道
