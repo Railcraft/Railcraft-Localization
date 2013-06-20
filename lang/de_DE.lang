@@ -440,14 +440,14 @@ routing.table.manual.page2=Operator-Wörter:\n   AND - Zwei Operanden, beide mü
 routing.table.manual.page3=Bedingungswörter:\n   Dest=<string>\n      Wenn das eingetragene Ziel der\n      Lokomotive mit diesem String startet,\n      ist die Bedingung wahr.\n   Owner=<username>\n      Wahr, wenn die Lokomotive\n      dieser Person gehört. 
 routing.table.manual.page4=Bedingungswörter:\n   Color=<primary>,<secondary>\n      Wahr, wenn die primäre und sekundäre\n       Farbe der Lokomotive passen.\n      Akzeptiert "Any" als eine Wildcard.\n      Farben: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White 
 routing.table.manual.page5=Beispielskript:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-routing.table.manual.page6=Result:\n   Das Skript auf der vorherigen Seite wird\n   zu einer Lokomotive passen, die das Ziel\n   "TheFarLands/Milliways" hat\n   oder schwarz und rot gefärbt ist\n   oder das Ziel\n   "SecretHideout/OceanEntrance" hat,\n   aber nur, wenn sie nicht RichardG gehört.
+routing.table.manual.page6=Ergebnis:\n   Das Skript auf der vorherigen Seite wird\n   zu einer Lokomotive passen, die das Ziel\n   "TheFarLands/Milliways" hat\n   oder schwarz und rot gefärbt ist\n   oder das Ziel\n   "SecretHideout/OceanEntrance" hat,\n   aber nur, wenn sie nicht RichardG gehört.
 routing.table.name=Name
 routing.table=Streckenplan
 routing.ticket.gold=Goldenes Ticket
 routing.ticket.line1=Dieses Ticket ist gültig
 routing.ticket.line2=für das folgende Ziel:
 routing.ticket.manual.title=Über das goldene Ticket
-routing.ticket.manual=Das Goldene Ticket ist ein unbegrenztes Ticket, welches verwendet werden kann, um mit einer Öffentliche Bahn oder einem Zug im Besitz des Ausstellers zu reisen. Es kann auch mit Papier kombiniert werden, um einzelne Tickets herzustellen.
+routing.ticket.manual=Das goldene Ticket ist ein unbegrenztes Ticket, welches verwendet werden kann, um mit einer öffentliche Bahn oder einem Zug im Besitz des Ausstellers zu reisen. Es kann auch mit Papier kombiniert werden, um einzelne Tickets herzustellen.
 routing.ticket.tip.blank=Leeres Ticket
 routing.ticket.tip.dest=Ziel:
 routing.ticket.tip.issuer=Aussteller:
@@ -459,7 +459,7 @@ routing.tip.slot=Streckenplan einfügen
 routing.type.private.tip=Wird nur Lokomotiven\n steuern, die zu\n {owner} gehören.
 routing.type.private=Privates Gleis
 routing.type.public.tip=Kann von jedem Zug benutzt werden.
-routing.type.public=Öffentliches Gleis
+routing.type.public=öffentliches Gleis
 
 signal.block.signal.dual=Doppelkopf-Blocksignal
 signal.block.signal=Blocksignal
