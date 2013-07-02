@@ -17,7 +17,7 @@ backpack.trackman.t1=鐵路工背包
 backpack.trackman.t2=編織的鐵路工背包
 backpack.tooltip=Railcraft公司出品，必屬精品。
 
-block.hidden=Residual Heat
+block.hidden=殘留熱量
 
 brick.abyssal.brick=深淵磚
 brick.abyssal.block=深淵方塊
@@ -75,8 +75,8 @@ cart.gift=禮物車
 cart.loco.steam=蒸氣機車
 cart.pumpkin=南瓜車
 cart.tank=蓄水車
-cart.tnt=TNT車
-cart.tnt.wood=木製TNT車
+cart.tnt=TNT礦車
+cart.tnt.wood=木製TNT礦車
 cart.track.relayer=鐵軌施工車
 cart.undercutter=地板施工車
 cart.work=工作車
@@ -148,12 +148,12 @@ fuel.coke=焦炭
 gates.action.pause=暫停
 gates.action.sendcart=發車
 
-gates.trigger.aspect.green=綠燈
+gates.trigger.aspect.green=綠色信號
 gates.trigger.aspect.off=號誌關閉
-gates.trigger.aspect.red.blink=閃紅燈
-gates.trigger.aspect.red=紅燈
-gates.trigger.aspect.yellow.blink=閃黃燈
-gates.trigger.aspect.yellow=黃燈
+gates.trigger.aspect.red.blink=閃紅信號
+gates.trigger.aspect.red=紅色信號
+gates.trigger.aspect.yellow.blink=閃黃信號
+gates.trigger.aspect.yellow=黃色信號
 gates.trigger.cart=有礦車
 gates.trigger.engine.blue=引擎等級
 gates.trigger.engine.green=引擎等級
@@ -321,10 +321,10 @@ ingot.steel=鋼錠
 
 item.synthetic=人造
 
-keybind.loco.faster=Locomotive Faster Key
-keybind.loco.slower=Locomotive Slower Key
-keybind.loco.mode=Locomotive Mode Key
-keybind.loco.whistle=Locomotive Whistle Key
+keybind.loco.faster=機車加速
+keybind.loco.slower=機車減速
+keybind.loco.mode=機車模式
+keybind.loco.whistle=汽笛
 
 liquid.creosote.bottle=木餾油瓶
 liquid.creosote.bucket=木餾油桶
@@ -437,12 +437,12 @@ routing.logic.unrecognized.keyword=未知的關鍵字
 routing.slot.label=路由表
 routing.table.editor=最後編輯: %s 
 routing.table.manual.title=路由手冊
-routing.table.manual.page1=當路由表放在路由偵測器或路由轉轍器裡時，他會制定出一組規則，可用來偵測任何經過的火車頭是否符合那組規定。\n要制定這些規則，只需要使用簡單的邏輯語法，讓你可以隨你的喜好創造出複雜或簡單的規定。這個語法遵從前序表示法，運算子跟在運算元後面。每行中只允許有一個關鍵字。如果沒有指定運算子，就會假設是OR。\n\n要複製路由表可以在合成格中放兩個或更多個一起合成。
+routing.table.manual.page1=當路由表被放在路由偵測器或路由轉轍器裡面，他將會定義出一組規則，可以用來偵測任何經過的火車頭是否符合那組規定。\n只要使用簡單的邏輯語法就可以制定規則，讓你可以隨你的喜好創造出複雜或簡單的規定。 這個語法遵從前序表示法，運算子跟在運算元後面。每行中只允許有一個關鍵字。如果沒有指定運算子，就會假設是OR。\n如果要複製路由表，可以將多個路由表放入合成欄中合成
 routing.table.manual.page2=運算子關鍵字:\n   AND – 兩個變數值都為「真」\n   OR – 兩個變數中只有一個為「真」\n   NOT – 反轉下列輸出的值。\n         例:「真」→「假」、「假」→「真」
-routing.table.manual.page3=條件關鍵字:\n   Dest=<字串>\n      如果字串和火車頭的目的地\n      相同，則該條件為「真」\n   Owner=<玩家>\n      如果火車頭屬於該玩家的話，\n      條件為「真」 
-routing.table.manual.page4=條件關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身及底盤\n      顏色和指定顏色各個相同\n      條件就為「真」\n      可使用”Any”指定所有的顏色\n      顏色: Black(黑), Red(紅), Green(綠), Brown(褐), \n      Blue(藍),Purple(紫), Cyan(青), LightGray(淺灰),\n      Gray(灰), Pink(粉紅), Lime(萊姆),Yellow(黃), \n      LightBlue(淺藍), Magenta(桃紅), Orange(橘), \n      White(白)
-routing.table.manual.page5=編寫示範:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-routing.table.manual.page6=導致結果: \n   在上一頁的示範將會過濾目的地\n   為"TheFarLands/Milliways"，\n   或是漆成黑色和紅色的火車頭\n   並且同時過濾目的地是\n   "SecretHideout/OceanEntrance"\n   但不被RichardG 所擁有的火車頭 
+routing.table.manual.page3=狀況關鍵字:\n   Dest=<字串>\n      如果字串和火車頭的目的地\n      相同，則該條件為「真」\n   Owner=<玩家>\n      如果火車頭屬於該玩家的話，\n      條件為「真」 
+routing.table.manual.page4=狀況關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身及底盤\n      顏色和指定顏色各個相同\n      條件就為「真」\n      可使用”Any”指定所有的顏色\n      顏色: Black(黑), Red(紅), Green(綠), Brown(褐), \n      Blue(藍),Purple(紫), Cyan(青), LightGray(淺灰),\n      Gray(灰), Pink(粉紅), Lime(萊姆),Yellow(黃), \n      LightBlue(淺藍), Magenta(桃紅), Orange(橘), \n      White(白)
+routing.table.manual.page5=示範:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+routing.table.manual.page6=說明:\n   在上一頁的示範中\n   將會過濾目的地是"TheFarLands/Milliways"\n   或被漆成黑色和紅色的火車頭\n   且過濾以"SecretHideout/OceanEntrance"為目的地\n   或是不屬於RichardG的火車頭 
 routing.table.name=命名
 routing.table=路由表
 routing.ticket.gold=金色火車票
