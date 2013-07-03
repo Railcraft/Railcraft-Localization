@@ -2,7 +2,7 @@
 
 armor.goggles=Schienenwart-Fernglass
 
-armor.overalls=Ingeneur-Overall
+armor.overalls=Ingenieur-Overall
 
 armor.steel.helmet=Stahlhelm
 armor.steel.plate=Stahlrüstung
@@ -542,32 +542,32 @@ tool.steel.pickaxe=Stahlspitzhacke
 tool.steel.shovel=Stahlschaufel
 tool.steel.sword=Stahlschwert
 tool.surveyor=Signalblockvermesser
-tool.whistle.tuner=Pfeifen-Tuner
+tool.whistle.tuner=Pfeifenstimmer
 
 track.activator=Activatorschiene
 track.boarding=Einstiegsschiene
 track.boarding.train=Zugeinstiegsschiene
-track.buffer.stop=Endpufferschiene
+track.buffer.stop=Prellbock
 track.control=Steuerschiene
 track.coupler=Kopplungsschiene
 track.decoupler=Entkopplungsschiene
 track.detector=Detektorschiene
-track.detector.direction=Einwegdetektorschiene
+track.detector.direction=Fahrtrichtungsdetektorschiene
 track.disembarking=Auswurfschiene
 track.disposal=Entsorgungsschiene
 track.elevator=Aufzugschiene
 track.embarking=Aufnahmeschiene
 track.gated=Torschiene
-track.gated.oneway=Einweg Torschiene
+track.gated.oneway=Fahrtrichtungstorschiene
 track.holding=Halteschiene
 track.holding.train=Zughalteschiene
 track.junction=Schienenkreuz
 track.launcher=Katapultschiene
 track.limiter=Geschw. Begrenzer
-track.lockdown=Verriegelung
-track.lockdown.train=Zug-Verriegelung
-track.locomotive=Lokomotive
-track.oneway=Einwegschiene
+track.lockdown=Halteschiene
+track.lockdown.train=Zughalteschiene
+track.locomotive=Lokomotivsteuerschiene
+track.oneway=Fahrtrichtungsschiene
 track.powered=Boosterschiene
 track.priming=Zündschiene
 track.reinforced=Verstärkte Schiene
