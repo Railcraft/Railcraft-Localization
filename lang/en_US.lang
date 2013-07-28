@@ -165,6 +165,8 @@ gates.trigger.temp.cold=Cold
 gates.trigger.temp.warm=Warm
 gates.trigger.temp.hot=Hot
 
+glass=Strengthened Glass
+
 gui.anchor.pair.fail.alignment=%1$s is not axis aligned with that %2$s
 gui.anchor.pair.fail.distance=%1$s is too far to pair with that %2$s
 gui.anchor.pair.start=%s pairing was initiated
@@ -343,6 +345,8 @@ machine.alpha.rock.crusher=Rock Crusher
 machine.alpha.rolling.machine=Rolling Machine
 machine.alpha.smoker=Smoker
 machine.alpha.steam.oven=Steam Oven
+machine.alpha.steam.trap=Manual Steam Trap
+machine.alpha.steam.trap.auto=Automated Steam Trap
 machine.alpha.tank.water=Water Tank Siding
 machine.alpha.turbine=Steam Turbine Housing
 
