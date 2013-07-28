@@ -165,6 +165,8 @@ gates.trigger.temp.cold=Kalt
 gates.trigger.temp.warm=Warm
 gates.trigger.temp.hot=Heiß
 
+glass=Gestärktes Glas
+
 gui.anchor.pair.fail.alignment=%1$s ist nicht mit %2$s in der gleichen Richtung
 gui.anchor.pair.fail.distance=%1$s ist zu weit weg, um mit %2$s gekoppelt zu werden
 gui.anchor.pair.start=%s Kopplung eingeleitet
@@ -343,6 +345,8 @@ machine.alpha.rock.crusher=Steinmühle
 machine.alpha.rolling.machine=Walzmaschine
 machine.alpha.smoker=Schornstein
 machine.alpha.steam.oven=Dampfkessel
+machine.alpha.steam.trap=Manuelle Dampf-Falle
+machine.alpha.steam.trap.auto=Automatische Dampf-Falle
 machine.alpha.tank.water=Wassertankwand
 machine.alpha.turbine=Dampfturbienen Gehäuse
 
