@@ -113,6 +113,12 @@ damage.bore.3=%s被碾碎了。
 damage.bore.4=%s认为自己比约翰·亨利还厉害。
 damage.bore.5=%s陷入了进退维谷的境地。
 
+damage.steam.1=%s被蒸熟了,鲜美多汁。
+damage.steam.2=%s没像他吹牛说的那样免疫高温伤害! 
+damage.steam.3=%s发现了蒸汽烫伤会有多么的痛苦!
+damage.steam.4=%s出了工业事故。
+damage.steam.5=%s可能踩到了不该踩的东西。
+
 damage.train.1=%s被列车撞了。
 damage.train.2=%s在轨道上玩耍。
 damage.train.3=%s在轨道上和列车单挑,列车赢了。
@@ -166,6 +172,8 @@ gates.trigger.work=工作
 gates.trigger.temp.cold=冷
 gates.trigger.temp.warm=暖
 gates.trigger.temp.hot=热
+
+glass=强化玻璃
 
 gui.anchor.pair.fail.alignment=%1$s与%2$s不匹配
 gui.anchor.pair.fail.distance=%1$s与%2$s距离过远，无法配对
@@ -221,6 +229,12 @@ gui.detector.villager.none=无
 gui.detector.villager.not=否
 gui.energy.loader.empty=空
 gui.energy.loader.fill=强制装满
+gui.liquid.loader.immediate=空载发车
+gui.liquid.loader.manual=手动
+gui.liquid.loader.empty.tip=驻留空车
+gui.liquid.loader.fill.tip=驻车直到完全载满
+gui.liquid.loader.immediate.tip=如果没有液体被移动\n则发出红石信号
+gui.liquid.loader.manual.tip=从不发出红石
 gui.feed.station.feed=饲育
 gui.filter=过滤
 gui.filters=过滤
@@ -255,6 +269,11 @@ gui.liquid.capacity=容量
 gui.liquid.loader.empty=空
 gui.liquid.loader.fill=结束
 gui.liquid.unloader.empty=空
+gui.liquid.unloader.immediate=直接发车
+gui.liquid.unloader.manual=手动
+gui.liquid.unloader.empty.tip=驻车直到完全卸载
+gui.liquid.unloader.immediate.tip=如果没有液体被移动\n则发出红石信号
+gui.liquid.unloader.manual.tip=从不发出红石信号
 gui.locomotive.mode.idle=空闲
 gui.locomotive.mode.running=运行
 gui.locomotive.mode.shutdown=停机
@@ -346,6 +365,8 @@ machine.alpha.rock.crusher=碎石机
 machine.alpha.rolling.machine=辊压机
 machine.alpha.smoker=发烟器
 machine.alpha.steam.oven=蒸汽炉
+machine.alpha.steam.trap=手动蒸汽陷阱
+machine.alpha.steam.trap.auto=自动蒸汽陷阱
 machine.alpha.tank.water=蓄水器壁板
 machine.alpha.turbine=蒸汽涡轮机壳
 
@@ -438,12 +459,12 @@ routing.logic.unrecognized.keyword=未识别关键字
 routing.slot.label=路由表
 routing.table.editor=由%s最后编辑
 routing.table.manual.title=手动导航
-routing.table.manual.page1=放置在路由表或者转辙器里的列车时刻表定义了一系列规则，并会匹配经过的机车。路由表的逻辑语法允许你创建一些简单或者更复杂的规则：通常格式是指令加参数。一行只允许一个关键字。若没有指明指令，默认将使用OR指令。路由表可以通过像地图一样在合成台里被复制。
-routing.table.manual.page2=指令关键字：\n   AND - 有两个参数，两个必须都为真，则输出真。\n   OR - 有两个参数，两个中有一个为真，则输出真。\n   NOT - 将参数取反。
-routing.table.manual.page3=环境关键字：\n   Dest=<字符串>\n      若火车头的目的地\n      以这个字符串开头，\n      那么为真.\n   Owner=<用户名>\n      若火车属于此人\n      那么为真. 
-routing.table.manual.page4=环境关键字：\n   Color=<主色>,<负色>\n      若火车主色与负色\n      和要求相符则为真.\n      允许使用通配符“Any”.\n      颜色有（请键入英文）： Black, Red, Green, Brown, \n      Blue,Purple, Cyan, LightGray, Gray, Pink,\n       Lime,Yellow, LightBlue, Magenta, Orange, \n White 
+routing.table.manual.page1=放置在路由表或者转辙器里的列车时刻表定义了一系列规则,并会匹配经过的机车。路由表的逻辑语法允许你创建一些简单或者更复杂的规则：通常格式是指令加参数。一行只允许一个关键字。若没有指明指令,默认将使用OR指令。路由表可以通过像地图一样在合成台里被复制。
+routing.table.manual.page2=指令关键字：\n   AND - 有两个参数,两个必须都为真,则输出真。\n   OR - 有两个参数,两个中有一个为真,则输出真。\n   NOT - 将参数取反。
+routing.table.manual.page3=环境关键字：\n   Dest=<字符串>\n      若火车头的目的地\n      以这个字符串开头,\n      那么为真。\n   Owner=<用户名>\n      若火车属于此人\n      那么为真。 \n\n   名称=<entityname>\n      如果匹配车的名字\n      那么为真。
+routing.table.manual.page4=环境关键字：\n   Color=<车身色>,<底盘色>\n      若火车车身色与底盘色\n      和要求相符则为真。\n      允许使用通配符“Any”。\n      颜色有(请键入英文): Black, Red, Green, Brown, \n      Blue,Purple, Cyan, LightGray, Gray, Pink,\n       Lime,Yellow, LightBlue, Magenta, Orange, \n White 
 routing.table.manual.page5=示例：\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-routing.table.manual.page6=Result:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或主色为黑，负色为红，\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头。
+routing.table.manual.page6=Result:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身色为黑,底盘色为红,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头。
 routing.table.name=名称
 routing.table=列车时刻表
 routing.ticket.gold=黄金车票
@@ -550,6 +571,7 @@ tool.whistle.tuner=鸣笛调谐器
 track.activator=激活轨道
 track.boarding=寄宿轨道
 track.boarding.train=列车寄宿轨道
+track.boarding.train.tip=并非用于装载机!
 track.buffer.stop=缓停轨道
 track.control=控制轨道
 track.coupler=耦合轨道
@@ -564,11 +586,13 @@ track.gated=门控轨道
 track.gated.oneway=单向门控轨道
 track.holding=扣留轨道
 track.holding.train=列车扣留轨道
+track.holding.train.tip=并非用于装载机!
 track.junction=交接轨道
 track.launcher=发射轨道
 track.limiter=机车限速轨道
 track.lockdown=封锁轨道
 track.lockdown.train=列车封锁轨道
+track.lockdown.train.tip=并非用于装载机!
 track.locomotive=机车调整轨道
 track.oneway=单向轨道
 track.powered=推进轨道
