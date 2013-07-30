@@ -355,7 +355,7 @@ fluid.creosote.can=Creosote Can
 fluid.creosote.cell=Creosote Cell
 fluid.creosote.refactory=Creosote Capsule
 fluid.creosote.wax=Creosote Capsule
-fluid.steam.bottle=Creosote Capsule
+fluid.steam.bottle=Steam Bottle
 
 machine.alpha.anchor.admin=Admin Anchor
 machine.alpha.anchor.personal=Personal Anchor
