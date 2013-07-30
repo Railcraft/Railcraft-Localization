@@ -222,14 +222,14 @@ ingot.steel=Čelična Poluga
 
 item.synthetic=Syntetički
 
-liquid.creosote.bottle=Boca Kreozota
-liquid.creosote.bucket=Kanta Kreozota
-liquid.creosote.can=Limenka Kreozota
-liquid.creosote.cell=Ćelija Kreozota
-liquid.creosote.liquid=Kreozotno Ulje
-liquid.creosote.refactory=Kapsula Kreozota
-liquid.creosote.wax=Kapsula Kreozota
-liquid.steam=Para
+fluid.creosote.bottle=Boca Kreozota
+fluid.creosote.bucket=Kanta Kreozota
+fluid.creosote.can=Limenka Kreozota
+fluid.creosote.cell=Ćelija Kreozota
+fluid.creosote=Kreozotno Ulje
+fluid.creosote.refactory=Kapsula Kreozota
+fluid.creosote.wax=Kapsula Kreozota
+fluid.steam=Para
 
 machine.alpha.anchor.admin=Adminovo Sidro
 machine.alpha.anchor.personal=Osobno Sidro

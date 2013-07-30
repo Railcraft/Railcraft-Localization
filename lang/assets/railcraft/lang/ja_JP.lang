@@ -98,13 +98,13 @@ ic2.upgrade.lapotron=ラポトロンローダーアップグレード
 
 ingot.steel=鋼鉄インゴット
 
-liquid.creosote.bottle=クレオソート入り瓶
-liquid.creosote.bucket=クレオソート入りバケツ
-liquid.creosote.can=クレオソート入り缶
-liquid.creosote.liquid=クレオソート
-liquid.creosote.refactory=クレオソート入りカプセル
-liquid.creosote.wax=クレオソート入りカプセル
-liquid.steam=蒸気
+fluid.creosote.bottle=クレオソート入り瓶
+fluid.creosote.bucket=クレオソート入りバケツ
+fluid.creosote.can=クレオソート入り缶
+fluid.creosote=クレオソート
+fluid.creosote.refactory=クレオソート入りカプセル
+fluid.creosote.wax=クレオソート入りカプセル
+fluid.steam=蒸気
 
 machine.alpha.blast.furnace=高炉用レンガ
 machine.alpha.coke.oven=コークス炉用レンガ

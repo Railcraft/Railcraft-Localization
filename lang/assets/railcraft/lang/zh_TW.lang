@@ -345,14 +345,14 @@ keybind.loco.slower=機車減速
 keybind.loco.mode=機車狀態
 keybind.loco.whistle=汽笛
 
-liquid.creosote.bottle=木餾油瓶
-liquid.creosote.bucket=木餾油桶
-liquid.creosote.can=木餾油罐
-liquid.creosote.cell=木餾油單元罐
-liquid.creosote.liquid=木餾油
-liquid.creosote.refactory=木餾油膠囊
-liquid.creosote.wax=木餾油膠囊
-liquid.steam=蒸氣
+fluid.creosote.bottle=木餾油瓶
+fluid.creosote.bucket=木餾油桶
+fluid.creosote.can=木餾油罐
+fluid.creosote.cell=木餾油單元罐
+fluid.creosote=木餾油
+fluid.creosote.refactory=木餾油膠囊
+fluid.creosote.wax=木餾油膠囊
+fluid.steam=蒸氣
 
 machine.alpha.anchor.admin=管理錨
 machine.alpha.anchor.personal=個人錨

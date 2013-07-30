@@ -15,6 +15,9 @@ backpack.trackman.t1=Trackman's Backpack
 backpack.trackman.t2=Woven Trackman's Backpack
 backpack.tooltip=Designed by Railcraft, Inc.
 
+block.fluid.creosote=Creosote
+block.fluid.steam=Steam
+
 block.hidden=Residual Heat
 
 brick.abyssal.brick=Abyssal Brick
@@ -343,14 +346,16 @@ keybind.loco.slower=Locomotive Slower Key
 keybind.loco.mode=Locomotive Mode Key
 keybind.loco.whistle=Locomotive Whistle Key
 
-liquid.creosote.bottle=Creosote Bottle
-liquid.creosote.bucket=Creosote Bucket
-liquid.creosote.can=Creosote Can
-liquid.creosote.cell=Creosote Cell
-liquid.creosote.liquid=Creosote Oil
-liquid.creosote.refactory=Creosote Capsule
-liquid.creosote.wax=Creosote Capsule
-liquid.steam=Steam
+fluid.creosote=Creosote Oil
+fluid.steam=Steam
+
+fluid.creosote.bottle=Creosote Bottle
+fluid.creosote.bucket=Creosote Bucket
+fluid.creosote.can=Creosote Can
+fluid.creosote.cell=Creosote Cell
+fluid.creosote.refactory=Creosote Capsule
+fluid.creosote.wax=Creosote Capsule
+fluid.steam.bottle=Creosote Capsule
 
 machine.alpha.anchor.admin=Admin Anchor
 machine.alpha.anchor.personal=Personal Anchor

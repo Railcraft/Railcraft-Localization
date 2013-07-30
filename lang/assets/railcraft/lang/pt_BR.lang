@@ -93,13 +93,13 @@ ic2.upgrade.lapotron=Upgrade de carga Laptrônica
 
 ingot.steel=Barra de Aço
 
-liquid.creosote.bottle=Garrafa de Creosoto
-liquid.creosote.bucket=Balde de Creosoto
-liquid.creosote.can=Lata de Creosoto
-liquid.creosote.liquid=Creosoto
-liquid.creosote.refactory=Cápsula Refractória de Creosoto
-liquid.creosote.wax=Cápsula de Cera de Creosoto
-liquid.steam=Vapor
+fluid.creosote.bottle=Garrafa de Creosoto
+fluid.creosote.bucket=Balde de Creosoto
+fluid.creosote.can=Lata de Creosoto
+fluid.creosote=Creosoto
+fluid.creosote.refactory=Cápsula Refractória de Creosoto
+fluid.creosote.wax=Cápsula de Cera de Creosoto
+fluid.steam=Vapor
 
 machine.alpha.blast.furnace=Tijolo de Forno Infernal
 machine.alpha.coke.oven=Tijolo de Forno de Coca

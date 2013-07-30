@@ -324,14 +324,14 @@ keybind.loco.slower=기관차 감속 키
 keybind.loco.mode=기관차 모드 키
 keybind.loco.whistle=기관차 기적 키
 
-liquid.creosote.bottle=크레오소트 병
-liquid.creosote.bucket=크레오소트 양동이
-liquid.creosote.can=크레오소트 캔
-liquid.creosote.cell=크레오소트 셀
-liquid.creosote.liquid=크레오소트
-liquid.creosote.refactory=크레오소트 캡슐
-liquid.creosote.wax=크레오소트 캡슐
-liquid.steam=증기
+fluid.creosote.bottle=크레오소트 병
+fluid.creosote.bucket=크레오소트 양동이
+fluid.creosote.can=크레오소트 캔
+fluid.creosote.cell=크레오소트 셀
+fluid.creosote=크레오소트
+fluid.creosote.refactory=크레오소트 캡슐
+fluid.creosote.wax=크레오소트 캡슐
+fluid.steam=증기
 
 machine.alpha.anchor.admin=관리자 앵커
 machine.alpha.anchor.personal=개인 앵커

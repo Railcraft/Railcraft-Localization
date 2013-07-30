@@ -187,14 +187,14 @@ ingot.steel=Sztabka Stali
 
 item.synthetic=Syntetyczny
 
-liquid.creosote.bottle=Butelka Kreozotu
-liquid.creosote.bucket=Wiadro Kreozotu
-liquid.creosote.can=Puszka Kreozotu
-liquid.creosote.cell=Pojemnik z Kreozotem
-liquid.creosote.liquid=Kreozot
-liquid.creosote.refactory=Kapsuła z Kreozotem
-liquid.creosote.wax=Kapsuła z Kreozotem
-liquid.steam=Para Wodna
+fluid.creosote.bottle=Butelka Kreozotu
+fluid.creosote.bucket=Wiadro Kreozotu
+fluid.creosote.can=Puszka Kreozotu
+fluid.creosote.cell=Pojemnik z Kreozotem
+fluid.creosote=Kreozot
+fluid.creosote.refactory=Kapsuła z Kreozotem
+fluid.creosote.wax=Kapsuła z Kreozotem
+fluid.steam=Para Wodna
 
 machine.alpha.blast.furnace=Cegła Pieca Hutniczego
 machine.alpha.coke.oven=Cegła Pieca Koksowniczego

@@ -176,14 +176,14 @@ ingot.steel=Stalen Staaf
 
 item.synthetic=Synthetisch
 
-liquid.creosote.bottle=Creosootolie Fles
-liquid.creosote.bucket=Creosootolie Emmer
-liquid.creosote.can=Creosootolie Blikje
-liquid.creosote.cell=Creosootolie Cel
-liquid.creosote.liquid=Creosootolie 
-liquid.creosote.refactory=Creosootolie Capsule
-liquid.creosote.wax=Creosootolie Capsule
-liquid.steam=Stoom
+fluid.creosote.bottle=Creosootolie Fles
+fluid.creosote.bucket=Creosootolie Emmer
+fluid.creosote.can=Creosootolie Blikje
+fluid.creosote.cell=Creosootolie Cel
+fluid.creosote=Creosootolie 
+fluid.creosote.refactory=Creosootolie Capsule
+fluid.creosote.wax=Creosootolie Capsule
+fluid.steam=Stoom
 
 machine.alpha.blast.furnace=Hoogoven Bakstenen
 machine.alpha.coke.oven=Cokesoven Bakstenen

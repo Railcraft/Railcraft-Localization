@@ -222,14 +222,14 @@ ingot.steel=Lingot d'acier
 
 item.synthetic=synthétique
 
-liquid.creosote.bottle=Bouteille de créosote
-liquid.creosote.bucket=Seau de créosote
-liquid.creosote.can=Cannette de créosote
-liquid.creosote.cell=Cellule de créosote
-liquid.creosote.liquid=Huile de créosote
-liquid.creosote.refactory=Capsule de créosote
-liquid.creosote.wax=Capsule de créosote
-liquid.steam=Vapeur
+fluid.creosote.bottle=Bouteille de créosote
+fluid.creosote.bucket=Seau de créosote
+fluid.creosote.can=Cannette de créosote
+fluid.creosote.cell=Cellule de créosote
+fluid.creosote=Huile de créosote
+fluid.creosote.refactory=Capsule de créosote
+fluid.creosote.wax=Capsule de créosote
+fluid.steam=Vapeur
 
 machine.alpha.blast.furnace=Brique de haut fourneau
 machine.alpha.coke.oven=Brique de four à coke

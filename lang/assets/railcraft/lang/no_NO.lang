@@ -219,14 +219,14 @@ ingot.steel=Stålbar
 
 item.synthetic=Syntetisk
 
-liquid.creosote.bottle=Kreosot flaske
-liquid.creosote.bucket=Kreosot bøtte
-liquid.creosote.can=Kreosot kanne
-liquid.creosote.cell=Kreosot celle
-liquid.creosote.liquid=Kreosot Olje
-liquid.creosote.refactory=Kreosot Kapsel
-liquid.creosote.wax=Kreosot Kapsel
-liquid.steam=Damp
+fluid.creosote.bottle=Kreosot flaske
+fluid.creosote.bucket=Kreosot bøtte
+fluid.creosote.can=Kreosot kanne
+fluid.creosote.cell=Kreosot celle
+fluid.creosote=Kreosot Olje
+fluid.creosote.refactory=Kreosot Kapsel
+fluid.creosote.wax=Kreosot Kapsel
+fluid.steam=Damp
 
 machine.alpha.anchor.admin=Admin Anker
 machine.alpha.anchor.personal=Personlig Anker

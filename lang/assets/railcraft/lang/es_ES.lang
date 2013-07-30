@@ -131,13 +131,13 @@ ic2.upgrade.lapotron=Mejora de Cargador de Lapotron
 
 ingot.steel=Lingote de Acero
 
-liquid.creosote.bottle=Botella de Creosote
-liquid.creosote.bucket=Balde de Creosota
-liquid.creosote.can=Lata de Creosota
-liquid.creosote.liquid=Aceite de Creosota
-liquid.creosote.refactory=Cápsula de Creosota
-liquid.creosote.wax=Cápsula de Creosota
-liquid.steam=Vapor
+fluid.creosote.bottle=Botella de Creosote
+fluid.creosote.bucket=Balde de Creosota
+fluid.creosote.can=Lata de Creosota
+fluid.creosote=Aceite de Creosota
+fluid.creosote.refactory=Cápsula de Creosota
+fluid.creosote.wax=Cápsula de Creosota
+fluid.steam=Vapor
 
 machine.alpha.blast.furnace=Ladrillo de Alto Horno
 machine.alpha.coke.oven=Ladrillo para Horno de Coque

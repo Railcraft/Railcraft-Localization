@@ -343,14 +343,14 @@ keybind.loco.slower=Lokomotive Langsamer-Taste
 keybind.loco.mode=Lokomotive Modus-Taste
 keybind.loco.whistle=Lokomotive Pfeife-Taste
 
-liquid.creosote.bottle=Teerölflasche
-liquid.creosote.bucket=Teeröleimer
-liquid.creosote.can=Teerölkanister
-liquid.creosote.cell=Teerölzelle
-liquid.creosote.liquid=Teeröl
-liquid.creosote.refactory=Teerölkapsel
-liquid.creosote.wax=Teerölkapsel
-liquid.steam=Dampf
+fluid.creosote.bottle=Teerölflasche
+fluid.creosote.bucket=Teeröleimer
+fluid.creosote.can=Teerölkanister
+fluid.creosote.cell=Teerölzelle
+fluid.creosote=Teeröl
+fluid.creosote.refactory=Teerölkapsel
+fluid.creosote.wax=Teerölkapsel
+fluid.steam=Dampf
 
 machine.alpha.anchor.admin=Admin Anker
 machine.alpha.anchor.personal=Persönlicher Anker

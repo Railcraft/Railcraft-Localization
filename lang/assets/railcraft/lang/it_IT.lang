@@ -325,14 +325,14 @@ keybind.loco.slower=Chiave più lenta per Locomotiva
 keybind.loco.mode=Chiave modalità per Locomotiva
 keybind.loco.whistle=Chiave del fischio per Locomotiva 
 
-liquid.creosote.bottle=Bottiglia di creosoto
-liquid.creosote.bucket=Secchio di creosoto
-liquid.creosote.can=Tanica di creosoto
-liquid.creosote.cell=Cella di creosoto
-liquid.creosote.liquid=Olio di creosoto
-liquid.creosote.refactory=Capsula di creosoto
-liquid.creosote.wax=Capsula di creosoto
-liquid.steam=Vapore
+fluid.creosote.bottle=Bottiglia di creosoto
+fluid.creosote.bucket=Secchio di creosoto
+fluid.creosote.can=Tanica di creosoto
+fluid.creosote.cell=Cella di creosoto
+fluid.creosote=Olio di creosoto
+fluid.creosote.refactory=Capsula di creosoto
+fluid.creosote.wax=Capsula di creosoto
+fluid.steam=Vapore
 
 machine.alpha.anchor.admin=Ancora dell'amministratore
 machine.alpha.anchor.personal=Ancora personale
