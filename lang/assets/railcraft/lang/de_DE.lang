@@ -15,6 +15,9 @@ backpack.trackman.t1=Schienenwart-Rucksack
 backpack.trackman.t2=Gewebter Schienenwart-Rucksack
 backpack.tooltip=Designed by Railcraft, Inc.
 
+block.fluid.creosote=Teeröl
+block.fluid.steam=Dampf
+
 block.hidden=Restliche Hitze
 
 brick.abyssal.brick=Abyss-Ziegel
@@ -343,14 +346,16 @@ keybind.loco.slower=Lokomotive Langsamer-Taste
 keybind.loco.mode=Lokomotive Modus-Taste
 keybind.loco.whistle=Lokomotive Pfeife-Taste
 
+fluid.creosote=Teeröl
+fluid.steam=Dampf
+
 fluid.creosote.bottle=Teerölflasche
 fluid.creosote.bucket=Teeröleimer
 fluid.creosote.can=Teerölkanister
 fluid.creosote.cell=Teerölzelle
-fluid.creosote=Teeröl
 fluid.creosote.refactory=Teerölkapsel
 fluid.creosote.wax=Teerölkapsel
-fluid.steam=Dampf
+fluid.steam.bottle=Teerölkapsel
 
 machine.alpha.anchor.admin=Admin Anker
 machine.alpha.anchor.personal=Persönlicher Anker
