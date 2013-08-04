@@ -344,7 +344,7 @@ item.synthetic=synthetisch
 keybind.loco.faster=Lokomotive Schneller-Taste
 keybind.loco.slower=Lokomotive Langsamer-Taste
 keybind.loco.mode=Lokomotive Modus-Taste
-keybind.loco.whistle=Lokomotive Pfeife-Taste
+keybind.loco.whistle=Lokomotive Pfeifen-Taste
 
 fluid.creosote=Teeröl
 fluid.steam=Dampf
@@ -355,9 +355,9 @@ fluid.creosote.can=Teerölkanister
 fluid.creosote.cell=Teerölzelle
 fluid.creosote.refactory=Teerölkapsel
 fluid.creosote.wax=Teerölkapsel
-fluid.steam.bottle=Teerölkapsel
+fluid.steam.bottle=Dampfflasche
 
-machine.alpha.anchor.admin=Admin Anker
+machine.alpha.anchor.admin=Admin-Anker
 machine.alpha.anchor.personal=Persönlicher Anker
 machine.alpha.anchor.world=Weltanker
 machine.alpha.blast.furnace=Hochofenziegel
