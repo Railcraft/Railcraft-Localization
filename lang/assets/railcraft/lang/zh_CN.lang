@@ -346,17 +346,19 @@ keybind.loco.slower=机车减速
 keybind.loco.mode=机车模式切换
 keybind.loco.whistle=机车鸣笛
 
+fluid.creosote=木馏油
+fluid.steam=蒸汽
+
 fluid.creosote.bottle=木馏油瓶
 fluid.creosote.bucket=木馏油桶
 fluid.creosote.can=木馏油罐
-fluid.creosote.cell=木馏油元件
-fluid.creosote=木馏油
+fluid.creosote.cell=木馏油单元
 fluid.creosote.refactory=木馏油胶囊
 fluid.creosote.wax=木馏油胶囊
-fluid.steam=蒸汽
+fluid.steam.bottle=蒸汽瓶
 
 machine.alpha.anchor.admin=管理员锚
-machine.alpha.anchor.personal=私用锚
+machine.alpha.anchor.personal=个人锚
 machine.alpha.anchor.world=世界锚
 machine.alpha.blast.furnace=高炉砖
 machine.alpha.coke.oven=焦炉砖
