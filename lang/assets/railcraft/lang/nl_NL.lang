@@ -6,7 +6,7 @@ armor.overalls=Ingenieurs Overall
 
 armor.steel.helmet=Stalen Helm
 armor.steel.plate=Stalen Borstplaat
-armor.steel.legs=Stalen Knieplaten
+armor.steel.legs=Stalen Beenstukken
 armor.steel.boots=Stalen Schoenen
 
 backpack.trackman.t1=Spoormans Rugzak
@@ -38,7 +38,7 @@ color.gray=Grijs
 color.green=Groen
 color.light.blue=Lichtblauw
 color.light.gray=Lichtgrijs
-color.lime=Limoen
+color.lime=Lichtgroen
 color.magenta=Magenta
 color.orange=Oranje
 color.pink=Roze
@@ -116,7 +116,7 @@ gui.cart.track.relayer.pattern=Patroon
 gui.cart.track.relayer.stock=Reserve
 gui.cart.undercutter.pattern=Patroon
 gui.cart.undercutter.stock=Reserve
-gui.coke.oven=Cokesoven
+gui.coke.oven=Cokeoven
 gui.detector.item.anything=Alles
 gui.detector.item.at_least=Minstens
 gui.detector.item.at_most=Maximum
@@ -185,10 +185,10 @@ fluid.creosote.refactory=Creosootolie Capsule
 fluid.creosote.wax=Creosootolie Capsule
 fluid.steam=Stoom
 
-machine.alpha.blast.furnace=Hoogoven Bakstenen
-machine.alpha.coke.oven=Cokesoven Bakstenen
+machine.alpha.blast.furnace=Bakstenen Hoogoven
+machine.alpha.coke.oven=Bakstenen Cokesoven
 machine.alpha.feed.station=Voedingsstation
-machine.alpha.anchor.personal=Persoonlijke wereldanker
+machine.alpha.anchor.personal=Persoonlijk wereldanker
 machine.alpha.rock.crusher=Stenen Pers
 machine.alpha.rolling.machine=Rollermachine
 machine.alpha.tank.water=Watertank Versterking
@@ -198,12 +198,12 @@ machine.alpha.anchor.world=Wereldanker
 machine.beta.anchor.sentinel=Wereldanker Bewaker
 machine.beta.boiler.firebox.liquid=Vloeistof Gedreven Boiler
 machine.beta.boiler.firebox.solid=Brandstof Gedreven Boiler
-machine.beta.boiler.tank.pressure.high=Hoge Druk Ketel
-machine.beta.boiler.tank.pressure.low=Lage Druk Ketel
+machine.beta.boiler.tank.pressure.high=Hoge Druk Boiler
+machine.beta.boiler.tank.pressure.low=Lage Druk Boiler
 machine.beta.engine.steam.high=Industriele Stoommachine
-machine.beta.engine.steam.hobby=Amateuristisch Stoommachine
+machine.beta.engine.steam.hobby=Amateuristische Stoommachine
 machine.beta.engine.steam.low=Commerciele Stoommachine
-machine.beta.tank.iron.gauge=IJzeren Tank Peiler
+machine.beta.tank.iron.gauge=IJzeren Tank Raam
 machine.beta.tank.iron.valve=IJzeren Tank Ventiel
 machine.beta.tank.iron.wall=IJzeren Tank Wand
 
@@ -218,8 +218,8 @@ machine.gamma.unloader.item.advanced=Geav. Itemlosser
 machine.gamma.unloader.item=Item losser
 machine.gamma.unloader.liquid=Vloeistoflosser
 
-nugget.iron=IJzeren klomp
-nugget.steel=Stalen klomp
+nugget.iron=IJzeren klompje
+nugget.steel=Stalen klompje
 
 obsolete=Verouderd
 
