@@ -1,1 +1,664 @@
 # Parent Language: es_ES
+
+armor.goggles=Gafas de Ferroviario
+armor.overalls=Mono de Ingeniero Ferroviario
+armor.steel.helmet=Casco de Acero
+armor.steel.plate=Chaleco de Acero
+armor.steel.legs=Pantalones de Acero
+armor.steel.boots=Botas de Acero
+
+backpack.iceman.t1=Mochila de Heladero
+backpack.iceman.t2=Mochila Tejida de Heladero
+backpack.trackman.t1=Mochila de Guardavía
+backpack.trackman.t2=Mochila Tejida de Guardavía
+backpack.tooltip=Diseñado por Railcraft, Inc.
+
+block.fluid.creosote=Creosota
+block.fluid.steam=Vapor
+block.hidden=Calor Residual
+
+brick.abyssal.brick=Ladrillo Abisal
+brick.abyssal.block=Bloque Abisal
+brick.abyssal.fitted=Piedra Abisal Encajada
+brick.abyssal.ornate=Piedra Abisal Adornada
+brick.abyssal.etched=Piedra Abisal Grabada
+brick.abyssal.cobble=Roca Abisal
+
+brick.bleachedbone.brick=Ladrillo de Hueso Blanqueado
+brick.bleachedbone.block=Bloque de Hueso Blanqueado
+brick.bleachedbone.fitted=Hueso Blanqueado Encajado
+brick.bleachedbone.ornate=Hueso Blanqueado Adornado
+brick.bleachedbone.etched=Hueso Blanqueado Grabado
+brick.bleachedbone.cobble=Roca de Hueso Blanqueado
+
+brick.bloodstained.brick=Ladrillo Sangriento
+brick.bloodstained.block=Bloque Sangriento
+brick.bloodstained.fitted=Piedra Sangrienta Encajada
+brick.bloodstained.ornate=Piedra Sangrienta Adornada
+brick.bloodstained.etched=Piedra Sangrienta Grabada
+brick.bloodstained.cobble=Roca Sangrienta
+
+brick.frostbound.brick=Ladrillo de Piedra Escarcha
+brick.frostbound.block=Bloque de Piedra Escarcha
+brick.frostbound.fitted=Piedra Escarcha Encajada
+brick.frostbound.ornate=Piedra Escarcha Adornada
+brick.frostbound.etched=Piedra Escarcha Grabada
+brick.frostbound.cobble=Roca Escarcha
+
+brick.infernal.brick=Ladrillo Infernal
+brick.infernal.block=Bloque Infernal
+brick.infernal.fitted=Piedra Infernal Encajada
+brick.infernal.ornate=Piedra Infernal Adornada
+brick.infernal.etched=Piedra Infernal Grabada
+brick.infernal.cobble=Roca Infernal
+
+brick.quarried.brick=Ladrillo de Cantera
+brick.quarried.block=Bloque de Cantera
+brick.quarried.fitted=Piedra de Cantera Encajada
+brick.quarried.ornate=Piedra de Cantera Adornada
+brick.quarried.etched=Piedra de Cantera Grabada
+brick.quarried.cobble=Roca de Cantera
+
+brick.sandy.brick=Ladrillo Arenoso
+brick.sandy.block=Bloque Arenoso
+brick.sandy.fitted=Piedra Arenosa Encajada
+brick.sandy.ornate=Piedra Arenosa Adornada
+brick.sandy.etched=Piedra Arenosa Grabada
+brick.sandy.cobble=Roca Arenosa
+
+cart.anchor=Vagón Ancla
+cart.basic=Vagón Minero
+cart.energy.batbox=Vagón Batería
+cart.bore=Tuneladora
+cart.chest=Vagón con Cofre
+cart.furnace=Vagón Horno
+cart.gift=Vagón de Regalos
+cart.loco.steam=Locomotora a Vapor
+cart.energy.mfe=Vagón MFE
+cart.energy.mfsu=Vagón MFSU
+cart.pumpkin=Vagón de Calabaza
+cart.tank=Vagón Tanque
+cart.tnt=Vagón de TNT
+cart.track.relayer=Vagón Conmutador de Vías
+cart.undercutter=Vagón Reemplazador
+cart.work=Vagón de Trabajo
+
+color.black=Negro
+color.blue=Azul
+color.brown=Marrón
+color.cyan=Cian
+color.gray=Gris
+color.green=Verde
+color.light.blue=Azul Claro
+color.light.gray=Gris Claro
+color.lime=Lima
+color.magenta=Magenta
+color.orange=Naranja
+color.pink=Rosa
+color.purple=Morado
+color.red=Rojo
+color.white=Blanco
+color.yellow=Amarillo
+
+
+cube.stone.abyssal=Piedra Abisal
+cube.stone.quarried=Piedra de Cantera
+cube.brick.infernal=Piedra Infernal (Obsoleto)
+cube.brick.sandy=Ladrillo Arenoso (Obsoleto)
+cube.coke=Bloque de Carbón Coke
+cube.concrete=Bloque de Concreto
+cube.crushed.obsidian=Obsidiana Triturada
+cube.steel=Bloque de Acero
+
+damage.bore.1=%s se interpuso en la vía del progreso.
+damage.bore.2=%s intentó detener la Tuneladora.
+damage.bore.3=%s fue aplastado por la Tuneladora.
+damage.bore.4=%s ahora forma parte de la decoración del túnel.
+damage.bore.5=%s quedó atorado entre una roca y un lugar duro.
+
+damage.steam.1=%s quedó bien cocido.
+damage.steam.2=%s no es inmune a las altas temperaturas, a pesar de pensar lo contrario.
+damage.steam.3=%s descubrió que tan doloroso puede ser el Vapor.
+damage.steam.4=%s tuvo un accidente industrial.
+damage.steam.5=%s probablemente no debió estar ahí.
+
+damage.train.1=%s fue arrollado por un tren.
+damage.train.2=%s estaba jugando en las vías.
+damage.train.3=%s jugó gallina con el tren; el tren ganó.
+damage.train.4=%s debería aprender a tomar el tren.
+damage.train.5=%s compró un ticket de ida al más allá.
+
+detector.advanced=Detector - Avanzado
+detector.age=Detector - Edad
+detector.animal=Detector - Animal
+detector.any=Detector - Cualquiera
+detector.cart=Detector - Vagón
+detector.empty=Detector - Vacío
+detector.energy=Detector - Energía
+detector.explosive=Detector - Explosivo
+detector.item=Detector - Objeto
+detector.locomotive=Detector - Locomotora
+detector.mob=Detector - Mob
+detector.player=Detector - Jugador
+detector.powered=Detector - Tiene poder
+detector.routing=Detector - Enrutamiento
+detector.sheep=Detector - Oveja
+detector.tank=Detector - Tanque
+detector.train=Detector - Tren
+detector.villager=Detector - Aldeano
+
+dust.charcoal=Polvo de Carbón
+dust.obsidian=Polvo de Obsidiana
+dust.saltpeter=Salitre
+dust.sulfur=Sulfuro
+
+fuel.coke=Carbón Coque
+
+gates.action.pause=Pausar Trabajo
+gates.action.sendcart=Enviar Carro
+
+gates.trigger.aspect.green=Aspecto Verde
+gates.trigger.aspect.off=Aspecto Apagado
+gates.trigger.aspect.red.blink=Aspecto Parpadear Rojo
+gates.trigger.aspect.red=Aspecto Rojo
+gates.trigger.aspect.yellow.blink=Aspecto Parpadear Amarillo
+gates.trigger.aspect.yellow=Aspecto Amarillo
+gates.trigger.cart=Tiene Vagón
+gates.trigger.engine.blue=Etapa del Motor
+gates.trigger.engine.green=Etapa del Motor
+gates.trigger.engine.yellow=Etapa del Motor
+gates.trigger.engine.orange=Etapa del Motor
+gates.trigger.engine.red=Etapa del Motor
+gates.trigger.fuel=Poco Combustible
+gates.trigger.maintenance=Necesita Mantenimiento
+gates.trigger.work=Tiene Trabajo
+gates.trigger.temp.cold=Frío
+gates.trigger.temp.warm=Tibio
+gates.trigger.temp.hot=Caliente
+
+gui.anchor.pair.fail.alignment=%1$s no está alineado en el eje con ese %2$s
+gui.anchor.pair.fail.distance=%1$s esta muy lejos para vincular con ese %2$s
+gui.anchor.pair.start=Conexión Iniciada
+gui.anchor.pair.success=Conexión Exitosa
+gui.anchor.fuel=Perlas de Ender
+gui.anchor.fuel.remaining=%.2f horas
+gui.aura.enable=%s Aura Encendida
+gui.aura.disable=%s Aura Apagada
+gui.blast.furnace=Alto Horno
+gui.steam.boiler=Caldera de Vapor
+gui.bore.ballast=Lastre
+gui.bore.fuel=Combustible
+gui.bore.head=Cabeza
+gui.bore.track=Vía
+gui.box.aspect.action=Emitir Redstone en Aspecto
+gui.box.capacitor.duration=Emitir Redstone por %d segundos
+gui.box.controller.aspect.default=Aspecto por Defecto: 
+gui.box.controller.aspect.redstone=Aspecto Redstone:
+gui.cart.tnt.fuse=Mecha
+gui.cart.track.relayer.pattern=Patrón
+gui.cart.track.relayer.stock=Provisiones
+gui.cart.undercutter.pattern=Patrones
+gui.cart.undercutter.sides=Lados
+gui.cart.undercutter.stock=Provisiones
+gui.cart.undercutter.under=Debajo
+gui.coke.oven=Horno de Coque
+gui.detector.item.analog=Analógico
+gui.detector.item.anything=Cualquier Cosa
+gui.detector.item.at_least=Al menos
+gui.detector.item.at_most=Como Máximo
+gui.detector.item.empty=Vacío
+gui.detector.item.exactly=Exactamente
+gui.detector.item.filtered=Filtrado
+gui.detector.item.full=Lleno
+gui.detector.item.not_empty=No Vacío
+gui.detector.loco.primary=Color Primario
+gui.detector.loco.secondary=Color Secundario
+gui.detector.tank.tip.void=Igualar cualquier cantidad
+gui.detector.tank.tip.empty=Igualar tanques vacíos
+gui.detector.tank.tip.not.empty=Igualar tanques no-vacíos
+gui.detector.tank.tip.full=Igualar tanques llenos
+gui.detector.tank.tip.quarter=Igualar tanques con más 1/4 
+gui.detector.tank.tip.half=Igualar tanques con más de la mitad
+gui.detector.tank.tip.most=Igualar tanques con más de 3/4
+gui.detector.tank.tip.less.than.quarter=Igualar tanques con menos de 1/4
+gui.detector.tank.tip.less.than.half=Igualar tanques con menos de la mitad
+gui.detector.tank.tip.less.than.most=Igualar tanques con menos de 3/4
+gui.detector.tank.tip.less.than.full=Igualar tanques con menos de la máxima capacidad
+gui.detector.tank.tip.analog=Emitir señal analógica de redstone\n basado en la cantidad del tanque
+gui.detector.villager.any=Cualquiera
+gui.detector.villager.equals=Igual A
+gui.detector.villager.none=Ninguno
+gui.detector.villager.not=No
+gui.energy.loader.empty=Mantener Vacío
+gui.energy.loader.fill=Completo
+gui.feed.station.feed=Alimentar
+gui.filter=Filtro
+gui.filters=Filtros
+gui.filters.carts=Vagones
+gui.goggles.aura.anchor=Ancla
+gui.goggles.aura.none=Ninguna
+gui.goggles.aura.tracking=Siguiendo
+gui.goggles.aura.tuning=Sintonización
+gui.goggles.mode=Aura Actual: %s
+gui.goggles.tip=Usar desde la barra de acceso rápido para cambiar Auras
+gui.help=Ayuda
+gui.item.loader.all=Todo
+gui.item.loader.buffer=Buffer
+gui.item.loader.complete=Completo
+gui.item.loader.excess=Exceso
+gui.item.loader.partial=Parcial
+gui.item.loader.immediate=Inmediato
+gui.item.loader.manual=Manual
+gui.item.loader.stock=Provisión
+gui.item.loader.transfer=Transferir
+gui.item.loader.all.tip=Mover todos los items que igualen
+gui.item.loader.complete.tip=Emitir Redstone al completar
+gui.item.loader.excess.tip=Mantener los items en el filtro\n mover el resto
+gui.item.loader.partial.tip=Emitir Redstone si no se movieron items\n y el vagón no está vacío
+gui.item.loader.immediate.tip=Emitir Redstone si no\n se movieron items
+gui.item.loader.manual.tip=Nunca emitir Redstone
+gui.item.loader.stock.tip=Mover items hasta que\n el destino iguale al filtro
+gui.item.loader.transfer.tip=Mover exactamente tantos items\n como los hay en el filtro
+gui.liquid.capacity=Capacidad
+gui.liquid.loader.empty=Mantener Vacío
+gui.liquid.loader.fill=Llenar
+gui.liquid.loader.immediate=Inmediato
+gui.liquid.loader.manual=Manual
+gui.liquid.loader.empty.tip=Mantener vagones vacíos
+gui.liquid.loader.fill.tip=Mantener vagones hasta que se llenen
+gui.liquid.loader.immediate.tip=Emitir Redstone si\n no se movió líquido.
+gui.liquid.loader.manual.tip=Nunca emitir Redstone
+gui.liquid.unloader.empty=Vacío
+gui.liquid.unloader.immediate=Inmediato
+gui.liquid.unloader.manual=Manual
+gui.liquid.unloader.empty.tip=Mantener vagones hasta\n que se vacíen
+gui.liquid.unloader.immediate.tip=Emitir Redstone si \n no se movió líquido
+gui.liquid.unloader.manual.tip=Nunca emitir Redstone
+gui.locomotive.mode.idle=Parado
+gui.locomotive.mode.running=Activado
+gui.locomotive.mode.shutdown=Apagagado
+gui.locomotive.tip.button.running=Hace que la Locomotora se mueva.
+gui.locomotive.tip.button.idle=Reduce el uso de combustible\n pero mantiene la temperatura\n Si el tren es mantenido quieto por una vía,\n se comporta como Parado.
+gui.locomotive.tip.button.shutdown=Apaga la Locomotora.\n Interrumpe el movimiento\n y comienza el enfriamiento.\n Esto puede tomar algo de tiempo.
+gui.locomotive.tip.button.locked=Ésta Locomotora está bloqueada por \n {owner}.\n Solo aceptará Tickets \n creados por él(ella) o un OP.
+gui.locomotive.tip.button.unlocked=Click para bloquear Locomotora.\n Una vez bloqueada, solo\n aceptará Tickets\n creados por tí o un OP.
+gui.locomotive.tip.slot.ticket=Inserte Ticket
+gui.locomotive.tip.item.owner=§oDueño:§r %s
+gui.locomotive.tip.item.primary=§oColor Primario:§r %s
+gui.locomotive.tip.item.secondary=§oColor Secundario:§r %s
+gui.locomotive.tip.item.whistle=§oTono del Silbato:§r %s
+gui.mag.glass.placedby=%1$s fue colocado por %2$s
+gui.tip.button.lock.locked=El dispositivo está bloqueado por\n {owner}.\n Solo el dueño un Op\n pueden manipularlo.
+gui.tip.button.lock.unlocked=Click para bloquear el dispositivo.\n Una vez bloqueado, solamente\n tú o un Op pueden acceder a él.
+gui.tip.button.lock.notowner=No eres el dueño\n de éste dispositivo.\n Pertenece a\n {owner}.
+gui.rolling.machine.tip.craft=§e§o-click para crear-
+gui.steam.oven=Horno de Vapor
+gui.surveyor.abandon=Inspección de Bloque de Señal abandonada.
+gui.surveyor.begin=Empezando Inspección de Bloque de Señal
+gui.surveyor.invalid=Bloque de Señal no es válida.
+gui.surveyor.lost=La Primera Señal ya no es válida, abandonando Inspección.
+gui.surveyor.success=Definición de Bloque de Señal exitosa
+gui.surveyor.track=No se encontraron vías cerca de %s
+gui.surveyor.unloaded=La Primera Señal no está en un Chunk cargado.
+gui.surveyor.wrong=No es un Bloque de Señal válido.
+gui.switch.motor.action=Switch on Aspect
+gui.tank.iron=Tanque de Hierro
+gui.tank.steel=Tanque de Acero
+gui.tank.water=Tanque de Agua
+gui.ticks=Ticks
+gui.tip.blast.furnace=Multi-Bloque: 3x4x3 (Hueca)
+gui.tip.boiler.firebox.liquid=Multi-Bloque: Tamaño Variable, Capa de Abajo\n Dimensiones: 1x1, 2x2, 3x3
+gui.tip.boiler.firebox.solid=Multi-Bloque: Tamaño Variable, Capa de Abajo\n Dimensiones: 1x1, 2x2, 3x3
+gui.tip.boiler.tank.pressure.high=Multi-Block: Tamaño Variable, Sobre la Caldera\n Dimensiones: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3
+gui.tip.boiler.tank.pressure.low=Multi-Block: Tamaño Variable, Sobre la Caldera\n Dimensiones: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3
+gui.tip.chest.void=Borra objetos
+gui.tip.coke.oven=Multi-Bloque: 3x3x3 (Hueco)
+gui.tip.crowbar.link=§oClick derecho mientras te agachas para unir vagones
+gui.tip.rock.crusher=Multi-Bloque: 3x2x2
+gui.tip.steam.oven=Multi-Bloque: 2x2x2
+gui.tip.tank.iron.gauge=Multi-Bloque: Tamaño Variable, Hueco\n Alturas: 4, 5, 6, 7, 8\n Diámetros: 3, 5, 7, 9
+gui.tip.tank.iron.valve=Multi-Bloque: Debe estar en las dos \n capas inferiores para extraer líquido.
+gui.tip.tank.iron.wall=Multi-Bloque: Tamaño Variable, Hueco\n Alturas: 4, 5, 6, 7, 8\n Diámetros: 3, 5, 7, 9
+gui.tip.tank.steel.gauge=Multi-Bloque: Tamaño Variable, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+gui.tip.tank.steel.valve=Multi-Bloque: Debe estar en las dos \n capas inferiores para extraer líquido.
+gui.tip.tank.steel.wall=Multi-Bloque: Tamaño Variable, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+gui.tip.tank.water=Multi-Bloque: 3x3x3 (Hueco)
+gui.tip.turbine=Multi-Bloque: 3x2x2
+gui.track.embarking.radius=Radio
+gui.tuner.start=Comenzando vínculo %s con un Receptor
+gui.tuner.stop=Finalizando vínculo %s con un Receptor
+gui.tuner.success=%1$s vinculado exitosamente con %2$s
+gui.tuner.abandon.chunk=El controlador no está en un Chunk cargado, abandonando el vínculo
+gui.tuner.abandon.gone=Controlador ya no existe, vínculo abandonado
+gui.turbine=Turbina de Vapor
+gui.turbine.output=Salida: %d%%
+gui.turbine.rotor=Rotor:
+
+ic2.upgrade.lapotron=Mejora Lapotrónica del Cargador
+
+ingot.steel=Lingote de Acero
+
+item.synthetic=Sintético
+
+keybind.loco.faster=Tecla de Locomotora: Más Rápido
+keybind.loco.slower=Tecla de Locomotora: Más Lento
+keybind.loco.mode=Tecla de Locomotora: Modo
+keybind.loco.whistle=Tecla de Locomotora: Silbato
+
+fluid.creosote.bottle=Botella de Creosota
+fluid.creosote.bucket=Tobo de Creosota
+fluid.creosote.can=Lata de Creosota
+fluid.creosote=Aceite de Creosota
+fluid.creosote.refactory=Cápsula de Creosota
+fluid.creosote.wax=Cápsula de Creosota
+fluid.steam.bottle=Botella de Vapor
+fluid.steam=Vapor
+
+machine.alpha.anchor.admin=Ancla de Administrador
+machine.alpha.anchor.personal=Ancla Personal
+machine.alpha.anchor.world=Ancla de Mundo
+machine.alpha.blast.furnace=Ladrillo de Alto Horno
+machine.alpha.coke.oven=Ladrillo para Horno de Coque
+machine.alpha.feed.station=Estación de Alimentación
+machine.alpha.rock.crusher=Trituradora de Rocas
+machine.alpha.rolling.machine=Máquina de Laminación
+machine.alpha.smoker=Humeador
+machine.alpha.tank.water=Revestimiento de Tanque de Agua
+machine.alpha.turbine=Cubierta para Turbina a Vapor
+machine.alpha.steam.oven=Horno de Vapor
+machine.alpha.steam.trap=Trampa de Vapor Manual
+machine.alpha.steam.trap.auto=Trampa de Vapor Automática
+machine.alpha.tank.water=Tanque de Agua
+
+machine.beta.anchor.sentinel=Ancla Centinela
+machine.beta.boiler.firebox.liquid=Caldera de Combustión para Líquidos
+machine.beta.boiler.firebox.solid=Caldera de Combustión
+machine.beta.boiler.tank.pressure.higdh=Placa de Caldera de Alta Presión
+machine.beta.boiler.tank.pressure.low=Placa de Caldera de Baja Presión
+machine.beta.chest.void=Cofre de Vacío
+machine.beta.engine.steam.high=Motor Industrial a Vapor
+machine.beta.engine.steam.hobby=Motor a Vapor de Aficionado
+machine.beta.engine.steam.low=Motor Comercial a Vapor
+machine.beta.tank.iron.gauge=Indicador de Tanque de Hierro
+machine.beta.tank.iron.valve=Válvula de  Tanque de Hierro
+machine.beta.tank.iron.wall=Pared de Tanque de Hierro
+machine.beta.tank.steel.gauge=Indicador de Tanque de Acero
+machine.beta.tank.steel.valve=Válvula de Tanque de Acero
+machine.beta.tank.steel.wall=Pared de Tanque de Acero
+
+machine.gamma.dispenser.cart=Dispensador de Vagones
+machine.gamma.dispenser.train=Dispensador de Trenes
+machine.gamma.loader.energy=Cargador de Energía
+machine.gamma.loader.item.advanced=Cargador Av. Objetos
+machine.gamma.loader.item=Cargador de Objetos
+machine.gamma.loader.liquid=Cargador de Líquidos
+machine.gamma.unloader.energy=Descargador de Energía
+machine.gamma.unloader.item.advanced=Descargador Av. de Objetos
+machine.gamma.unloader.item=Descargador de Objetos
+machine.gamma.unloader.liquid=Descargador de Líquidos
+
+
+nugget.iron=Pepita de Hierro
+nugget.steel=Pepita de Acero
+
+obsolete=Obsoleto
+
+ore.dark.diamond=Mineral Oscuro de Diamante 
+ore.dark.emerald=Mineral Oscuro de Esmeralda
+ore.dark.lapis=Mineral Oscuro de Lapislázuli
+ore.saltpeter=Mineral de Salitre
+ore.sulfur=Mineral de Azufre
+
+part.circuit.controller=Circuito de Control
+part.circuit.receiver=Circuito Receptor
+part.gear.gold.plate=Engranaje de Chapa de Oro
+part.gear.iron=Engranaje de Hierro
+part.gear.steel=Engranaje de Acero
+part.plate.iron=Placa de Hierro
+part.plate.steel=Placa de Acero
+part.plate.tin=Placa de Estaño
+part.rail.advanced=Riel Avanzado
+part.rail.reinforced=Riel Reforzado
+part.rail.speed=Riel A.V.
+part.rail.standard=Riel Estándar
+part.rail.wood=Riel de Madera
+part.railbed.stone=Base de Piedra para Rieles
+part.railbed.wood=Base de Madera para Rieles
+part.rebar=Barras de Refuerzo
+part.signal.lamp=Lámpara de Señal
+part.tie.stone=Amarre de Piedra
+part.tie.wood=Amarre de Madera
+part.turbine.blade=Cuchillas para Turbina
+part.turbine.disk=Disco para Turbina
+part.turbine.rotor=Rotor para Turbina
+
+post.metal.black=Poste de Metal Negro
+post.metal.blue=Poste de Metal Azul
+post.metal.brown=Poste de Metal Marrón
+post.metal.cyan=Poste de Metal Cian
+post.metal.gray=Poste de Metal Gris
+post.metal.green=Poste de Metal Verde
+post.metal.light.blue=Poste de Metal Celeste
+post.metal.light.gray=Poste de Metal Gris Claro
+post.metal.lime=Poste de Metal Lima
+post.metal.magenta=Poste de Metal Magenta
+post.metal.orange=Poste de Metal Naranja
+post.metal.pink=Poste de Metal Rosa
+post.metal.purple=Poste de Metal Violeta
+post.metal.red=Poste de Metal Rojo
+post.metal.white=Poste de Metal Blanco
+post.metal.yellow=Poste de Metal Amarillo
+post.metal=Poste de Metal
+post.stone=Poste de Piedra
+post.wood=Poste de Madera
+
+routing.logic.blank=Mesa en Blanco
+routing.logic.insufficient.operands=Operandos Insuficientes
+routing.logic.unrecognized.keyword=Palabra Clave no reconocida.
+routing.slot.label=Tabla de Enrutamiento
+routing.table.editor=Última edición por %s
+routing.table.manual.title=Manual de Enrutamiento
+routing.table.manual.page1=La Tabla de Enrutamiento, cuando se coloca en un Detector de Enrutamiento o Suiche, definirá una serie de reglas que se usarán para comparar cualquier Locomotara que pase.Estas reglas se definen utilizando una simple sintaxis lógica que permite crear reglas de la complejidad que prefieras.La sintaxis es  un script de Notación por Prefijos, los Operadores van antes de los Operandos. Solo se permite una palabra clave por línea.Si no se especifica un Operador, se asume OR.Puedes copiar las Tablas de Enrutamiento colocando dos o más en una Mesa de Trabajo.
+routing.table.manual.page2=Palabras Clave de Operador:\n   AND - Dos Operandos, ambos deben ser ciertos.\n   OR - Dos Operandos, uno debe ser cierto.\n   NOT - Invertir el siguiente Operando.
+routing.table.manual.page3=Condicionales:\n   Dest=<string>\n      Si el nombre del Destino de la Locomotora\n      comienza con la cadena "string",\n      la condición es verdadera.\n   Owner=<username>\n      Es verdadera si la Locomotora\n      pertenece a ésta persona.\n   Name=<entityname>\n      Verdadero si el vagón\n      es igual a éste nombre.
+routing.table.manual.page4=Condicionales:\n   Color=<primary>,<secondary>\n      Verdadero si los colores primario\n      y secundario corresponden.\n      Acepta "Cualquiera" como comodín.\n      Colores: Negro, Rojo, Verde, Marrón, Azul,\n      Morado, Cian, Gris Claro, Gris, Rosa, Lima,\n      Amarillo, Azul Claro, Magenta, Naranja, Blanco
+routing.table.manual.page5=Ejemplo:\n   Dest=TheFarLands\n   Color=Negro,Rojo\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+routing.table.manual.page6=Resultado:\n   El script en la página previa\n   igualará a una Locomotora con el destino\n   "TheFarLands/Milliways",\n   o que esté pintada de Rojo y Negro\n   o que tenga el destino\n   "SecretHideout/OceanEntrance",\n   pero solamente si el dueño no es RichardG.
+routing.table.name=Nombre
+routing.table=Tabla de Enrutamiento
+routing.ticket.gold=Ticket Dorado de Ferrocarril
+routing.ticket.line1=Éste ticket es válido
+routing.ticket.line2=para los siguientes destinos:
+routing.ticket.manual.title=Acerca del Ticket Dorado
+routing.ticket.manual=El Ticket Dorado es un Ticket de uso ilimitado que puede utilizarse en cualquier ferrocarril público o propiedad del dueño del Ticket. Se puede combinar con papel para hacer Tickets de un solo uso.
+routing.ticket.tip.blank=Ticket en Blanco
+routing.ticket.tip.dest=Destino:
+routing.ticket.tip.issuer=Emisor:
+routing.ticket.title=Ticket Dorado
+routing.ticket=Ticket de Ferrocarril
+routing.track.slot.label=Ticket
+routing.track.tip.slot=Inserte Ticket Dorado
+routing.tip.slot=Inserte Tabla de Enrutamiento
+routing.type.private.tip=Solo enrutará\n Locomotoras\n que pertenezcan a\n {owner}.
+routing.type.private=Ferrocarril Privado
+routing.type.public.tip=Enrutará cualquier Locomotora.
+routing.type.public=Ferrocarril Público.
+
+signal.block.signal.dual=Bloque de Señal Doble-Cabeza
+signal.block.signal=Bloque de Señal
+signal.box.controller=Caja Controladora de Señales
+signal.box.receiver=Caja Receptora de Señal
+signal.distant=Señal Distante
+signal.switch.lever=Palanca Conmutadora
+signal.switch.motor=Motor Conmutador
+
+slab.abyssal.brick=Losa de Ladrillo Abisal
+slab.abyssal.fitted=Losa de Piedra Abisal Encajada
+slab.abyssal.block=Losa de Piedra Abisal
+slab.abyssal.cobble=Losa de Roca Abisal
+
+slab.bleachedbone.brick=Losa de Ladrillo de Hueso Blanqueado
+slab.bleachedbone.fitted=Losa de Hueso Blanqueado Encajado
+slab.bleachedbone.block=Losa de Hueso Blanqueado
+slab.bleachedbone.cobble=Losa de Roca de Hueso Blanqueado
+
+slab.bloodstained.brick=Losa de Ladrillo Sangriento
+slab.bloodstained.fitted=Losa de Piedra Sangrienta Encajada
+slab.bloodstained.block=Losa de Piedra Sangrienta
+slab.bloodstained.cobble=Losa de Roca Sangrienta
+
+slab.concrete=Losa de Concreto
+slab.diamond=Losa de Diamante
+
+slab.frostbound.brick=Losa de Ladrillo Escarcha
+slab.frostbound.fitted=Losa de Piedra Escarcha Encajada
+slab.frostbound.block=Losa de Piedra Escarcha
+slab.frostbound.cobble=Losa de Roca Escarcha
+
+slab.gold=Losa de Oro
+slab.ice=Losa de Hielo
+
+slab.infernal.brick=Losa de Ladrillo Infernal
+slab.infernal.fitted=Losa de Piedra Infernal Encajada
+slab.infernal.block=Losa de Piedra Infernal
+slab.infernal.cobble=Losa de Roca Infernal
+
+slab.iron=Losa de Hierro
+
+slab.quarried.brick=Losa de Ladrillo de Cantera
+slab.quarried.fitted=Losa de Piedra de Cantera Encajada
+slab.quarried.block=Losa de Piedra de Cantera
+slab.quarried.cobble=Losa de Roca de Cantera
+
+slab.sandy.brick=Losa de Ladrillo Arenoso
+slab.sandy.fitted=Losa de Piedra Arenosa Encajada
+slab.sandy.block=Losa de Piedra Arenosa
+slab.sandy.cobble=Losa de Roca Arenosa
+
+slab.snow=Losa de Nieve
+
+stair.abyssal.brick=Escaleras de Ladrillo Abisal
+stair.abyssal.fitted=Escaleras de Piedra Abisal Encajada
+stair.abyssal.block=Escaleras de Piedra Abisal
+stair.abyssal.cobble=Escaleras de Roca Abisal
+
+stair.bleachedbone.brick=Escaleras de Ladrillo de Hueso Blanqueado
+stair.bleachedbone.fitted=Escaleras de Hueso Blanqueado Encajado
+stair.bleachedbone.block=Escaleras de Hueso Blanqueado
+stair.bleachedbone.cobble=Escaleras de Roca de Hueso Blanqueado
+
+stair.bloodstained.brick=Escaleras de Ladrillo Sangriento
+stair.bloodstained.fitted=Escaleras de Piedra Sangrienta Encajada
+stair.bloodstained.block=Escaleras de Piedra Sangrienta
+stair.bloodstained.cobble=Escaleras de Roca Sangrienta
+
+stair.concrete=Escaleras de Concreto
+stair.diamond=Escaleras de Diamante
+
+stair.frostbound.brick=Escaleras de Ladrillo Escarcha
+stair.frostbound.fitted=Escaleras de Piedra Escarcha Encajada
+stair.frostbound.block=Escaleras de Piedra Escarcha
+stair.frostbound.cobble=Escaleras de Roca Escarcha
+
+stair.gold=Escaleras de Oro
+stair.ice=Escaleras de Hielo
+
+stair.infernal.brick=Escaleras de Ladrillo Infernal
+stair.infernal.fitted=Escaleras de Piedra Infernal Encajada
+stair.infernal.block=Escaleras de Piedra Infernal
+stair.infernal.cobble=Escaleras de Roca Infernal
+
+stair.iron=Escaleras de Hierro
+
+stair.quarried.brick=Escaleras de Ladrillo de Cantera
+stair.quarried.fitted=Escaleras de Piedra de Cantera Encajada
+stair.quarried.block=Escaleras de Piedra de Cantera
+stair.quarried.cobble=Escaleras de Roca de Cantera
+
+stair.sandy.brick=Escaleras de Ladrillo Arenoso
+stair.sandy.fitted=Escaleras de Piedra Arenosa Encajada
+stair.sandy.block=Escaleras de Piedra Arenosa
+stair.sandy.cobble=Escaleras de Roca Arenosa
+
+stair.snow=Escaleras de Nieve
+
+tool.bore.head.diamond=Cabezal de Diamante de Tuneladora
+tool.bore.head.iron=Cabezal de Hierro de Tuneladora
+tool.bore.head.steel=Cabezal de Acero de Tuneladora
+tool.crowbar=Palanca
+tool.magnifying.glass=Lupa
+tool.signal.tuner=Sintonizador de Señal
+tool.steel.axe=Hacha de Acero
+tool.steel.hoe=Azada de Acero
+tool.steel.pickaxe=Pico de Acero
+tool.steel.shovel=Pala de Acero
+tool.steel.sword=Espada de Acero
+tool.surveyor=Inspector de Señales Bloqueadas
+
+track.boarding=Vía de Estacionamiento
+track.boarding.train=Vía de Estacionamiento para Trenes
+track.buffer.stop=Vía de Parada Buffer
+track.control=Vía de Control
+track.coupler=Vía de Acoplamiento
+track.decoupler=Vía de Desacoplamiento
+track.detector=Vía Detectora
+track.detector.direction=Vía Detectora de Dirección
+track.disembarking=Vía de Desembarque
+track.disposal=Vía de Desecho
+track.elevator=Vía Elevadora
+track.embarking=Vía de Embarco
+track.gated=Vía Compuerta
+track.gated.oneway=Vía Compuerta de una Dirección
+track.holding=Vía de Retención
+track.holding.train=Vía de Retención para Trenes
+track.junction=Vía de Unión
+track.launcher=Vía de Lanzamiento
+track.lockdown=Bloqueo de Vía
+track.oneway=Vía de una Dirección
+track.powered=Vía Energizada
+track.priming=Vía de Ignición
+track.reinforced=Vía reforzada
+track.reinforced.boost=Vía Reforzada de Aceleración
+track.reinforced.junction=Vía Reforzada de Unión
+track.reinforced.switch=Vía Reforzada de Cambio
+track.reinforced.wye=Cruce de Vías Reforzado
+track.slow=Vía de Madera
+track.slow.boost=Vía de Madera con Empuje
+track.slow.junction=Vía de Madera para Unión
+track.slow.switch=Vía de Madera Conmutadora
+track.slow.wye=Cruce de Vías de Madera
+track.speed=Vía de A.V.
+track.speed.boost=Vía de A.V. con Empuje
+track.speed.switch=Vía de A.V. Conmutadora
+track.speed.transition=Vía de A.V. de Transición
+track.speed.wye=Cruce de Vías de A.V
+track.standard=Vía
+track.suspended=Vía Suspendida
+track.switch=Vía Conmutadora
+track.wye=Cruce de Vías
+
+wall.abyssal.brick=Pared de Ladrillo Abisal
+wall.bleachedbone.brick=Pared de Ladrillo de Hueso Blanqueado
+wall.bloodstained.brick=Pared de Ladrillo Sangriento
+wall.brick=Pared de Ladrillo
+wall.concrete=Pared de Concreto
+wall.diamond=Pared de Diamante
+wall.frost.bound.brick=PAred de Ladrillo Escarcha
+wall.gold=Pared de Oro
+wall.ice=Pared de Hielo
+wall.infernal.brick=Pared de Ladrillo Infernal
+wall.iron=Pared de Hierro
+wall.nether.brick=Pared de Ladrillo de Nether
+wall.obsidian=Pared de Obsidiana
+wall.quarried.brick=PAred de Ladrillo de Cantera
+wall.quartz=Pared de Cuarzo
+wall.quartz.chiseled=Pared de Cuarzo Cincelado
+wall.sandstone.chiseled=Pared de Gres Cincelada
+wall.sandstone.smooth=Pared de Gres Suave
+wall.sandstone=Pared de Gres
+wall.sandy.brick=PAred de Ladrillo Arenoso
+wall.snow=Pared de Nieve
+wall.stone.brick.chiseled=Pared de LAdrillo de Piedra Cincelado
+wall.stone.brick.cracked=Pared de Ladrillo de Piedra Roto
+wall.stone.brick.mossy=Pared de Ladrillo de Piedra Mohoso
+wall.stone.brick=Pared de Ladrillo de Piedra
