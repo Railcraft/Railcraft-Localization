@@ -1,5 +1,5 @@
 # zh_TW
-# Translated by crafteverywhere
+# Translated by crafteverywhere,misssalad612
 # Parent Language: en_US
 
 armor.goggles=鐵路工護目鏡
@@ -57,12 +57,12 @@ brick.infernal.ornate=華麗煉獄磚
 brick.infernal.etched=融蝕煉獄磚
 brick.infernal.cobble=煉獄鵝卵石
 
-brick.quarried.brick=挖掘磚塊
-brick.quarried.block=挖掘方塊
-brick.quarried.fitted=挖掘石磚
-brick.quarried.ornate=華麗挖掘磚
-brick.quarried.etched=融蝕挖掘磚
-brick.quarried.cobble=挖掘鵝卵石
+brick.quarried.brick=石料磚塊
+brick.quarried.block=石料方塊
+brick.quarried.fitted=石料石磚
+brick.quarried.ornate=華麗石料磚
+brick.quarried.etched=融蝕石料磚
+brick.quarried.cobble=石料鵝卵石
 
 brick.sandy.brick=砂磚
 brick.sandy.block=砂石方塊
@@ -109,7 +109,7 @@ color.white=白色
 color.yellow=黃色
 
 cube.stone.abyssal=深淵石
-cube.stone.quarried=挖掘石
+cube.stone.quarried=石料
 cube.brick.infernal=煉獄磚(廢棄)
 cube.brick.sandy=砂磚(廢棄)
 cube.coke=焦炭磚
@@ -473,7 +473,7 @@ routing.table.manual.title=路由手冊
 routing.table.manual.page1=當路由表被放在路由偵測器或路由轉轍器裡面，他將會定義出一組規則，可以用來偵測任何經過的火車頭是否符合那組規定。\n只要使用簡單的邏輯語法就可以制定規則，讓你可以隨你的喜好創造出複雜或簡單的規定。 這個語法遵從前序表示法，運算子跟在運算元後面。每行中只允許有一個關鍵字。如果沒有指定運算子，就會假設是OR。\n如果要複製路由表，可以將多個路由表放入合成欄中合成
 routing.table.manual.page2=運算子關鍵字:\n   AND – 兩個變數值都為「真」\n   OR – 兩個變數中只有一個為「真」\n   NOT – 反轉下列輸出的值。\n         例:「真」→「假」、「假」→「真」
 routing.table.manual.page3=狀況關鍵字:\n   Dest=<字串>\n      如果字串和火車頭的目的地\n      相同，則該條件為「真」\n   Owner=<玩家>\n      如果火車頭屬於該玩家的話，\n      條件為「真」 \n   Name=<實體名稱>\n      如果實體名稱和礦車的名稱\n      相同,就為「真」
-routing.table.manual.page4=狀況關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身及底盤\n      顏色和指定顏色各個相同\n      條件就為「真」\n      可使用”Any”指定所有的顏色\n      顏色: Black(黑), Red(紅), Green(綠), Brown(褐), \n      Blue(藍),Purple(紫), Cyan(青), LightGray(淺灰),\n      Gray(灰), Pink(粉紅), Lime(萊姆),Yellow(黃), \n      LightBlue(淺藍), Magenta(桃紅), Orange(橘), \n      White(白)
+routing.table.manual.page4=狀況關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身、底盤顏色與\n      指定顏色相符,條件為「真」\n      可用”Any”指定所有顏色\n      顏色: Black(黑), LightGray(淺灰), Gray(灰), Red(紅),\n      Brown(褐), Blue(藍), Purple(紫), Cyan(青), Green(綠),\n      Pink(粉紅), Lime(萊姆), Yellow(黃), LightBlue(淺藍),\n      Magenta(桃紅), Orange(橘), White(白)\n   NeedsRefuel=<true/false>\n      如果火車頭缺水或沒\n      燃料，便使其改道
 routing.table.manual.page5=示範:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
 routing.table.manual.page6=說明:\n   在上一頁的示範中\n   將會過濾目的地是"TheFarLands/Milliways"\n   或被漆成黑色和紅色的火車頭\n   且過濾以"SecretHideout/OceanEntrance"為目的地\n   或是不屬於RichardG的火車頭 
 routing.table.name=命名
@@ -533,10 +533,10 @@ slab.infernal.fitted=煉獄石磚板
 slab.infernal.block=煉獄半磚
 slab.infernal.cobble=煉獄卵石板
 slab.iron=鐵半磚
-slab.quarried.brick=挖掘磚板
-slab.quarried.fitted=挖掘石磚板
-slab.quarried.block=挖掘半磚
-slab.quarried.cobble=挖掘卵石板
+slab.quarried.brick=石料磚板
+slab.quarried.fitted=石料石磚板
+slab.quarried.block=石料半磚
+slab.quarried.cobble=石料卵石板
 slab.sandy.brick=砂磚板
 slab.sandy.fitted=砂石磚板
 slab.sandy.block=砂石板
@@ -568,10 +568,10 @@ stair.infernal.fitted=煉獄石磚階梯
 stair.infernal.block=煉獄階梯
 stair.infernal.cobble=煉獄卵石階梯
 stair.iron=鐵階梯
-stair.quarried.brick=挖掘磚階梯
-stair.quarried.fitted=挖掘石磚階梯
-stair.quarried.block=挖掘階梯
-stair.quarried.cobble=挖掘卵石階梯
+stair.quarried.brick=石料磚階梯
+stair.quarried.fitted=石料石磚階梯
+stair.quarried.block=石料階梯
+stair.quarried.cobble=石料卵石階梯
 stair.sandy.brick=砂磚階梯
 stair.sandy.fitted=砂石磚階梯
 stair.sandy.block=砂石階梯
@@ -594,7 +594,7 @@ tool.steel.sword=鋼鐵劍
 tool.surveyor=號誌測量器
 tool.whistle.tuner=汽笛調音器
 
-track.activator=激活鐵軌
+track.activator=觸發鐵軌
 track.boarding=發車鐵軌
 track.boarding.train=列車發車軌
 track.boarding.train.tip=不適用於裝載機!
@@ -658,7 +658,7 @@ wall.infernal.brick=煉獄磚牆
 wall.iron=鐵牆
 wall.nether.brick=地獄磚牆
 wall.obsidian=黑耀石牆
-wall.quarried.brick=挖掘磚牆
+wall.quarried.brick=石料磚牆
 wall.quartz=石英牆
 wall.quartz.chiseled=浮雕石英牆
 wall.sandstone.chiseled=鑿製砂岩牆
