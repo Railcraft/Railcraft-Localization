@@ -471,9 +471,9 @@ routing.table.manual.title=手动导航
 routing.table.manual.page1=放置在路由表或者转辙器里的列车时刻表定义了一系列规则,并会匹配经过的机车。路由表的逻辑语法允许你创建一些简单或者更复杂的规则：通常格式是指令加参数。一行只允许一个关键字。若没有指明指令,默认将使用OR指令。路由表可以通过像地图一样在合成台里被复制。
 routing.table.manual.page2=指令关键字：\n   AND - 有两个参数,两个必须都为真,则输出真。\n   OR - 有两个参数,两个中有一个为真,则输出真。\n   NOT - 将参数取反。
 routing.table.manual.page3=环境关键字：\n   Dest=<字符串>\n      若火车头的目的地\n      以这个字符串开头,\n      那么为真。\n   Owner=<用户名>\n      若火车属于此人\n      那么为真。 \n\n   名称=<entityname>\n      如果匹配车的名字\n      那么为真。
-routing.table.manual.page4=环境关键字：\n   Color=<车身色>,<底盘色>\n      若火车车身色与底盘色\n      和要求相符则为真。\n      允许使用通配符“Any”。\n      颜色有(请键入英文): Black, Red, Green, Brown, \n      Blue,Purple, Cyan, LightGray, Gray, Pink,\n       Lime,Yellow, LightBlue, Magenta, Orange, \n White 
-routing.table.manual.page5=示例：\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-routing.table.manual.page6=Result:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身色为黑,底盘色为红,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头。
+routing.table.manual.page4=环境关键字：\n   Color=<车身色>,<底盘色>\n      若火车车身色与底盘色\n      和要求相符则为真。\n      允许使用通配符“Any”。\n      颜色有(请键入英文): Black(黑), Red(红), Green(绿), Brown(棕), \n      Blue(蓝),Purple(紫), Cyan(青), LightGray(浅灰), Gray(灰), Pink(粉),\n       Lime(柠檬),Yellow(黄), LightBlue(浅蓝), Magenta(品红), Orange(橙), \n White(白)  NeedsRefuel=<true/false>\n      如果机车缺乏燃料或者\n      水，那么就转向它。
+routing.table.manual.page5=示例：\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n      "Dest=null" 会匹配没有\n      目的地的矿车。\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+routing.table.manual.page6=结果:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身色为黑,底盘色为红,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头。
 routing.table.name=名称
 routing.table=列车时刻表
 routing.ticket.gold=黄金车票
