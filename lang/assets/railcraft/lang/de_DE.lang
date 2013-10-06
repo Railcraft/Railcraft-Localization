@@ -18,6 +18,8 @@ backpack.tooltip=Designed by Railcraft, Inc.
 block.fluid.creosote=Teeröl
 block.fluid.steam=Dampf
 
+block.firestone.recharge=Wiederaufladender Flammstein
+
 block.hidden=Restliche Hitze
 
 brick.abyssal.brick=Abyss-Ziegel
@@ -166,6 +168,14 @@ dust.saltpeter=Salpeter
 dust.sulfur=Schwefel
 
 emblem=Emblem
+
+firestone.cut=Geschliffener Flammstein
+firestone.cut.tip=Beruhige seine außer Kontrolle\n geratenen Energien...
+firestone.raw=Roher Flammstein
+firestone.raw.tip=Er regt sich in deiner Hand,\n du kannst es in der dir\n nahen Luft fühlen...
+firestone.refined=Raffinierter Flammstein
+firestone.refined.tip.empty=Seine Energien kontrolliert;\n er könnte nützlich sein,\n wenn du ihn wieder aufladen könntest...
+firestone.refined.tip.charged=Gefüllt mit Energie;\n du brauchst nur deinen\n Willen anstrengen, um\n massive Hitze freizulassen...
 
 fuel.coke=Koks
 
@@ -435,6 +445,8 @@ obsolete=Veraltet
 ore.dark.diamond=Dunkles Diamanterz
 ore.dark.emerald=Dunkles Smaragderz
 ore.dark.lapis=Dunkles Lapis-Lazuli-Erz
+ore.firestone=Flammsteinerz
+ore.firestone.tip=Brennt alles außer Fleisch,\n du kannst fühlen, wie sich die Luft\n um dich verändert, wenn du es hältst...
 ore.saltpeter=Salpetererz
 ore.saltpeter.gen=Salpetererz-Spawner
 ore.sulfur=Schwefelerz
@@ -494,8 +506,9 @@ routing.table.manual.page1=Der Streckenplan, wenn in einem Richtungsdetektor ode
 routing.table.manual.page2=Operator-Wörter:\n   AND - Zwei Operanden, beide müssen wahr sein.\n   OR - Zwei Operanden, einer muss wahr sein.\n   NOT - Kehrt den folgenden Operanden um.
 routing.table.manual.page3=Bedingungswörter:\n   Dest=<string>\n      Wenn das eingetragene Ziel der\n      Lokomotive mit diesem String startet,\n      ist die Bedingung wahr.\n      "Dest=null" wird Wagen ohne\n      Ziel entsprechen.\n   Owner=<Spielername>\n      Wahr, wenn die Lokomotive\n      dieser Person gehört.\n   Name=<entityname>\n      Wahr, wenn <entityname> dem Namen\n des Wagens entspricht.
 routing.table.manual.page4=Bedingungswörter:\n   Color=<primary>,<secondary>\n      Wahr, wenn die primäre und sekundäre\n       Farbe der Lokomotive passen.\n      Akzeptiert "Any" als eine Wildcard.\n      Farben: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White\n   NeedsRefuel=<true/false>\n      Wenn die Lokomotive wenig Treibstoff\n      oder Wasser hat, wird das sie umleiten.
-routing.table.manual.page5=Beispielskript:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-routing.table.manual.page6=Ergebnis:\n   Das Skript auf der vorherigen Seite wird\n   zu einer Lokomotive passen, die das Ziel\n   "TheFarLands/Milliways" hat\n   oder schwarz und rot gefärbt ist\n   oder das Ziel\n   "SecretHideout/OceanEntrance" hat,\n   aber nur, wenn sie nicht RichardG gehört.
+routing.table.manual.page5=Bedingungswörter:\n   Redstone=<true/false>\n      Wahr, wenn der routende Block\n      ein Redstone-Signal bekommt.
+routing.table.manual.page6=Beispielskript:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+routing.table.manual.page7=Ergebnis:\n   Das Skript auf der vorherigen Seite wird\n   zu einer Lokomotive passen, die das Ziel\n   "TheFarLands/Milliways" hat\n   oder schwarz und rot gefärbt ist\n   oder das Ziel\n   "SecretHideout/OceanEntrance" hat,\n   aber nur, wenn sie nicht RichardG gehört.
 routing.table.name=Name
 routing.table=Streckenplan
 routing.ticket.gold=Goldenes Ticket
@@ -628,7 +641,7 @@ track.buffer.stop=Prellbock
 track.buffer.stop.tip=Die Endstation
 track.control=Steuerschiene
 track.coupler=Kopplungsschiene
-track.coupler.tip=Verbindet passierende Waggons miteinander
+track.coupler.tip=Koppelt/Entkoppelt passierende Waggons\n Nutze Brecheisen, um Modus zu wechseln
 track.decoupler=Entkopplungsschiene
 track.decoupler.tip=Entkoppelt passierende Waggons voneinander
 track.detector=Detektorschiene
