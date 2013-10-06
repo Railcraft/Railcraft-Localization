@@ -18,6 +18,8 @@ backpack.tooltip=Designed by Railcraft, Inc.
 block.fluid.creosote=Creosote
 block.fluid.steam=Steam
 
+block.firestone.recharge=Recharging Firestone
+
 block.hidden=Residual Heat
 
 brick.abyssal.brick=Abyssal Brick
@@ -166,6 +168,14 @@ dust.saltpeter=Saltpeter
 dust.sulfur=Sulfur
 
 emblem=Emblem
+
+firestone.cut=Cut Firestone
+firestone.cut.tip=Still its energies\n rage out of control...
+firestone.raw=Raw Firestone
+firestone.raw.tip=It quickens in your hands,\n you can feel it in the\n very air around you...
+firestone.refined=Refined Firestone
+firestone.refined.tip.empty=Its energies controlled,\n it could be useful\n if you could recharge it...
+firestone.refined.tip.charged=Filled with energy,\n you need only exert\n your will on it to\n release blistering heat...
 
 fuel.coke=Coal Coke
 
@@ -435,6 +445,8 @@ obsolete=Obsolete
 ore.dark.diamond=Dark Diamond Ore
 ore.dark.emerald=Dark Emerald Ore
 ore.dark.lapis=Dark Lapis Lazuli Ore
+ore.firestone=Firestone Ore
+ore.firestone.tip=Burning everything except flesh,\n you can feel the air change\n around you as you hold it...
 ore.saltpeter=Saltpeter Ore
 ore.saltpeter.gen=Saltpeter Ore Spawner
 ore.sulfur=Sulfur Ore
