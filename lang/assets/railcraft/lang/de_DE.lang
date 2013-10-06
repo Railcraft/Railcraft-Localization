@@ -182,12 +182,12 @@ fuel.coke=Koks
 gates.action.pause=Arbeit pausieren
 gates.action.sendcart=Waggon schicken
 
-gates.trigger.aspect.green=grünes Signal
+gates.trigger.aspect.green=Grünes Signal
 gates.trigger.aspect.off=Signal ausgeschaltet
 gates.trigger.aspect.red.blink=Signal rot blinkend
-gates.trigger.aspect.red=rotes Signal
+gates.trigger.aspect.red=Rotes Signal
 gates.trigger.aspect.yellow.blink=Signal gelb blinkend
-gates.trigger.aspect.yellow=gelbes Signal
+gates.trigger.aspect.yellow=Gelbes Signal
 gates.trigger.cart=Hat Waggon
 gates.trigger.engine.blue=Motorträger blau
 gates.trigger.engine.green=Motorträger grün
