@@ -171,6 +171,9 @@ dust.sulfur=Sulfur
 
 emblem=Emblem
 
+firestone.cracked=Cracked Firestone
+firestone.cracked.tip.empty=Damaged, but it\n could still be useful\n if you could recharge it...
+firestone.cracked.tip.charged=Leaking heat,\n it can still be used\n if you are careful...
 firestone.cut=Cut Firestone
 firestone.cut.tip=Still its energies\n rage out of control...
 firestone.raw=Raw Firestone
@@ -328,7 +331,7 @@ gui.locomotive.tip.item.secondary=§oSecondary Color:§r %s
 gui.locomotive.tip.item.whistle=§oWhistle Pitch:§r %s
 gui.mag.glass.placedby=%1$s was placed by %2$s
 gui.tip.button.lock.locked=This device is locked to\n {owner}.\n Only the owner or an Op\n can manipulate it.
-gui.tip.button.lock.unlocked=Click to lock device.\n Once locked, it can\n only be accessed by\n the by you or an Op.
+gui.tip.button.lock.unlocked=Click to lock device.\n Once locked, it can\n only be accessed by\n you or an Op.
 gui.tip.button.lock.notowner=You are not the\n owner of this device.\n It belongs to\n {owner}.
 gui.rolling.machine.tip.craft=§e§o-click to craft-
 gui.steam.oven=Steam Oven
@@ -536,6 +539,7 @@ signal.block.signal=Block Signal
 signal.box.block.relay=Signal Block Relay Box
 signal.box.capacitor=Signal Capacitor Box
 signal.box.controller=Signal Controller Box
+signal.box.sequencer=Signal Sequencer Box
 signal.box.receiver=Signal Receiver Box
 signal.distant=Distant Signal
 signal.distant.dual=Dual-Head Distant Signal
@@ -618,6 +622,11 @@ stair.sandy.fitted=Fitted Sandy Stone Stairs
 stair.sandy.block=Sandy Block Stairs
 stair.sandy.cobble=Sandy Cobble Stairs
 stair.snow=Snow Stairs
+
+thaumcraft.research.category.RAILCRAFT=Traheremagy
+thaumcraft.research.RC_Crowbar.name=Thaumium Crowbar
+thaumcraft.research.RC_Crowbar.text=[RC] I think you dropped this...
+thaumcraft.research.RC_Crowbar.page.1=By substituting Thaumiam for Steel and imbuing it with a touch of Order, you have discovered how to create a Crowbar that is far more receptive to magic.
 
 tool.bore.head.diamond=Diamond Bore Head
 tool.bore.head.iron=Iron Bore Head
