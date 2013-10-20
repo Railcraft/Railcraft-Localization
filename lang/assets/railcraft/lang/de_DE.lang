@@ -171,6 +171,9 @@ dust.sulfur=Schwefel
 
 emblem=Emblem
 
+firestone.cracked=Rissiger Flammstein
+firestone.cracked.tip.empty=Beschädigt, aber er\n könnte noch immer nützlich sein,\n wenn du ihn wiederaufladen könntest...
+firestone.cracked.tip.charged=Hitze verlierend,\n kann er noch immer genutzt werden,\n wenn du vorsichtig bist...
 firestone.cut=Geschliffener Flammstein
 firestone.cut.tip=Beruhige seine außer Kontrolle\n geratenen Energien...
 firestone.raw=Roher Flammstein
@@ -316,10 +319,10 @@ gui.locomotive.mode.idle=Ruhemodus
 gui.locomotive.mode.running=Fahrt
 gui.locomotive.mode.shutdown=Abschalten
 gui.locomotive.tip.button.running=Startet die Abfahrt der Lokomotive.
-gui.locomotive.tip.button.idle=Lokomotive verbraucht Kraftstoff\n behält aber die aktuelle Temperatur,\n Wenn der Zug auf einer Schiene angehalten wird.
+gui.locomotive.tip.button.idle=Lokomotive verbraucht Kraftstoff,\n behält aber die aktuelle Temperatur,\n wenn der Zug auf einer Schiene angehalten wird.
 gui.locomotive.tip.button.shutdown=Schaltet die Lokomotive aus.\n Stoppt alle Bewegungen und\n beginnt den Abkühlprozess.\n Dies kann einge Zeit dauern.
-gui.locomotive.tip.button.locked=Dieser Wagon ist reserviert für\n {owner}.\n Es wird ein gültiges Ticket benötigt,\n welches von ihm oder einem Op ausgestellt wurde.
-gui.locomotive.tip.button.unlocked=Klicken zum sperren der Lokomotive.\n Es kann dann nur mit einem \n gültigen Ticket ausgestellt\n von Dir oder einem Op benutzt werden.
+gui.locomotive.tip.button.locked=Dieses Gerät wurde gesperrt von\n {owner}.\n Es wird ein gültiges Ticket benötigt,\n welches von ihm oder einem Op ausgestellt wurde.
+gui.locomotive.tip.button.unlocked=Klicken zum Sperren des Geräts.\n Es kann dann nur mit einem \n gültigen Ticket ausgestellt\n von Dir oder einem Op benutzt werden.
 gui.locomotive.tip.slot.ticket=Ticket einf§gen
 gui.locomotive.tip.item.emblem=§oEmblem:§r %s
 gui.locomotive.tip.item.owner=§oEigentümer:§r %s
@@ -533,10 +536,11 @@ routing.type.public=Öffentliches Gleis
 
 signal.block.signal.dual=Doppelkopf-Blocksignal
 signal.block.signal=Blocksignal
-signal.box.block.relay=Signalrelais
-signal.box.capacitor=Signal-Kondensator
-signal.box.controller=Signalsteuerung
-signal.box.receiver=Signalempfänger
+signal.box.block.relay=Signalrelaisbox
+signal.box.capacitor=Signalkondensatorbox
+signal.box.controller=Signalsteuerungsbox
+signal.box.sequencer=Signalsequenzerbox
+signal.box.receiver=Signalempfängerbox
 signal.distant=Entferntes Signal
 signal.distant.dual=entferntes Doppelkopf-Blocksignal
 signal.switch.lever=Manueller Stellantrieb
@@ -618,6 +622,11 @@ stair.sandy.fitted=Gemeißelte Sandsteintreppe
 stair.sandy.block=Sand-Block-Treppe
 stair.sandy.cobble=Sand-Pflastersteintreppe
 stair.snow=Schneetreppe
+
+thaumcraft.research.category.RAILCRAFT=Traheremagie
+thaumcraft.research.RC_Crowbar.name=Thaumiumbrecheisen
+thaumcraft.research.RC_Crowbar.text=[RC] Ich glaube, du hast das hier verloren...
+thaumcraft.research.RC_Crowbar.page.1=Indem du Stahl durch Thaumium ersetzt und ein wenig Order einflößt, hast du entdeckt, wie man ein Brecheisen kreiert, das deutlich empfänglicher für Magie ist.
 
 tool.bore.head.diamond=Diamantbohrkopf
 tool.bore.head.iron=Eisenbohrkopf
