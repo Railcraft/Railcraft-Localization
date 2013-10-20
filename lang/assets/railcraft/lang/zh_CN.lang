@@ -15,7 +15,7 @@ backpack.iceman.t1=冰原旅者背包
 backpack.iceman.t2=编织的冰原旅者背包
 backpack.trackman.t1=铁路工背包
 backpack.trackman.t2=编织的铁路工背包
-backpack.tooltip=Railcraft,Inc出品，必属精品。
+backpack.tooltip=Railcraft,Inc出品,必属精品.
 
 block.hidden=残余热量
 
@@ -122,23 +122,23 @@ cube.crushed.obsidian=碎黑曜石
 cube.crushed.obsidian.tip=阻止生物生成
 cube.steel=钢块
 
-damage.bore.1=%s阻碍了前进的道路。
-damage.bore.2=%s试图螳臂当车。
-damage.bore.3=%s被碾碎了。
-damage.bore.4=%s认为自己比约翰·亨利还厉害。
-damage.bore.5=%s陷入了进退维谷的境地。
+damage.bore.1=%s阻碍了前进的道路.
+damage.bore.2=%s试图螳臂当车.
+damage.bore.3=%s被碾碎了.
+damage.bore.4=%s认为自己比约翰·亨利还厉害.
+damage.bore.5=%s陷入了进退维谷的境地.
 
-damage.steam.1=%s被蒸熟了,鲜美多汁。
+damage.steam.1=%s被蒸熟了,鲜美多汁.
 damage.steam.2=%s没像他吹牛说的那样免疫高温伤害! 
 damage.steam.3=%s发现了蒸汽烫伤会有多么的痛苦!
-damage.steam.4=%s出了工业事故。
-damage.steam.5=%s可能踩到了不该踩的东西。
+damage.steam.4=%s出了工业事故.
+damage.steam.5=%s可能踩到了不该踩的东西.
 
-damage.train.1=%s被列车撞了。
-damage.train.2=%s在轨道上玩耍。
-damage.train.3=%s在轨道上和列车单挑,列车赢了。
-damage.train.4=%s上错车了。
-damage.train.5=%s买了一张通向来生的单程票。
+damage.train.1=%s被列车撞了.
+damage.train.2=%s在轨道上玩耍.
+damage.train.3=%s在轨道上和列车单挑,列车赢了.
+damage.train.4=%s上错车了.
+damage.train.5=%s买了一张通向来生的单程票.
 
 detector.advanced=传感器-高级
 detector.age=传感器-年龄
@@ -163,6 +163,17 @@ dust.charcoal=木炭粉
 dust.obsidian=黑曜石粉
 dust.saltpeter=硝石
 dust.sulfur=硫磺
+
+firestone.cracked=碎裂火石
+firestone.cracked.tip.empty=碎裂状,但\n如果你能够对其充能\n那它就依然很有用...
+firestone.cracked.tip.charged=能量在外泄,\n小心操作的话\n它就依然很有用...
+firestone.cut=切割火石
+firestone.cut.tip=它的能量\n常常脱离控制...
+firestone.raw=天然火石
+firestone.raw.tip=放在掌心,\n你能感觉到四下里\n弥漫着它的能量...
+firestone.refined=精炼火石
+firestone.refined.tip.empty=它的能量是可控的,\n如果能进行再充能\n那就更有用了...
+firestone.refined.tip.charged=充满了能量,\n你只需施加意志力\n来释放热量...
 
 fuel.coke=焦煤
 
@@ -191,7 +202,7 @@ gates.trigger.temp.hot=热
 glass=强化玻璃
 
 gui.anchor.pair.fail.alignment=%1$s与%2$s不匹配
-gui.anchor.pair.fail.distance=%1$s与%2$s距离过远，无法配对
+gui.anchor.pair.fail.distance=%1$s与%2$s距离过远,无法配对
 gui.anchor.pair.start=%s配对开始
 gui.anchor.pair.success=%s已经成功配对
 gui.anchor.fuel=末影珍珠
@@ -306,22 +317,22 @@ gui.locomotive.tip.item.owner=§o主人:§r %s
 gui.locomotive.tip.item.primary=§o车身颜色:§r %s
 gui.locomotive.tip.item.secondary=§o底盘颜色:§r %s
 gui.locomotive.tip.item.whistle=§o鸣笛音高:§r %s
-gui.locomotive.tip.button.running=运行列车。
-gui.locomotive.tip.button.idle=机车会持续消耗燃料\n来保持热量。\n如果列车停驻于轨道上,\n它将处于空闲状态。
-gui.locomotive.tip.button.shutdown=关闭机车。\n 暂停一切运动，且\n开始进行冷却。\n这个过程会花一点时间。
-gui.locomotive.tip.button.locked=该车已经被\n{owner}绑定，\n 它只接受op或者绑定人的\n车票。
-gui.locomotive.tip.button.unlocked=点击来绑定列车。\n绑定后，它只接受op或者\n你的车票。
+gui.locomotive.tip.button.running=运行列车.
+gui.locomotive.tip.button.idle=机车会持续消耗燃料\n来保持热量.\n如果列车停驻于轨道上,\n它将处于空闲状态.
+gui.locomotive.tip.button.shutdown=关闭机车.\n 暂停一切运动,且\n开始进行冷却.\n这个过程会花一点时间.
+gui.locomotive.tip.button.locked=该车已经被\n{owner}绑定,\n 它只接受op或者绑定人的\n车票.
+gui.locomotive.tip.button.unlocked=点击来绑定列车.\n绑定后,它只接受op或者\n你的车票.
 gui.locomotive.tip.slot.ticket=插入车票
-gui.mag.glass.placedby=%1$s被%2$s放置于此。
-gui.tip.button.lock.locked=该设备被\n{owner}绑定，\n它只接受其拥有者或op的操作。
-gui.tip.button.lock.unlocked=点击来绑定设备。\n绑定后，它只接受你或者op的操作。 
-gui.tip.button.lock.notowner=你不是这台设备\n的主人。它属于{owner}。
+gui.mag.glass.placedby=%1$s被%2$s放置于此.
+gui.tip.button.lock.locked=该设备被\n{owner}绑定,\n它只接受其拥有者或op的操作.
+gui.tip.button.lock.unlocked=点击来绑定设备.\n绑定后,它只接受你或者op的操作. 
+gui.tip.button.lock.notowner=你不是这台设备\n的主人.它属于{owner}.
 gui.rolling.machine.tip.craft=§e§o-点击以合成-
 gui.steam.oven=蒸汽炉
 gui.surveyor.abandon=信号勘测中止
 gui.surveyor.begin=信号勘测开始
 gui.surveyor.invalid=信号盒无效
-gui.surveyor.lost=第一个信号已不再存在，信号勘测中止
+gui.surveyor.lost=第一个信号已不再存在,信号勘测中止
 gui.surveyor.success=成功定义信号盒
 gui.surveyor.track=没有与%s比邻的轨道  
 gui.surveyor.unloaded=第一个信号不在游戏加载区域内
@@ -331,22 +342,22 @@ gui.tank.iron=铁质蓄水槽
 gui.tank.steel=钢制蓄水槽
 gui.tank.water=蓄水槽
 gui.ticks=ticks
-gui.tip.blast.furnace=多方块结构:3x4x3(中空)	
-gui.tip.boiler.firebox.liquid=多方块结构:尺寸可变\n底座规格可选:1x1, 2x2, 3x3  	
-gui.tip.boiler.firebox.solid=多方块结构:尺寸可变\n底座规格可选:1x1, 2x2, 3x3	
-gui.tip.boiler.tank.pressure.high=多方块结构:尺寸可变\n燃烧室规格可选:1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3  	
+gui.tip.blast.furnace=多方块结构:3x4x3(中空)        
+gui.tip.boiler.firebox.liquid=多方块结构:尺寸可变\n底座规格可选:1x1, 2x2, 3x3          
+gui.tip.boiler.firebox.solid=多方块结构:尺寸可变\n底座规格可选:1x1, 2x2, 3x3        
+gui.tip.boiler.tank.pressure.high=多方块结构:尺寸可变\n燃烧室规格可选:1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3          
 gui.tip.boiler.tank.pressure.low=多方块结构:尺寸可变\n燃烧室规格可选:1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3
 gui.tip.chest.void=销毁物品
 gui.tip.coke.oven=多方块结构:3x3x3(中空)
 gui.tip.crowbar.link=§o潜行时右键可链接车厢
-gui.tip.rock.crusher=多方块结构:3x2x2	
-gui.tip.steam.oven=多方块结构:2x2x2	
-gui.tip.tank.iron.gauge=多方块结构:尺寸可变\n必须在底部两层输出液体。  
-gui.tip.tank.iron.valve=多方块结构:尺寸可变，中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9   
-gui.tip.tank.iron.wall=多方块结构:尺寸可变，中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
-gui.tip.tank.steel.gauge=多方块结构:尺寸可变\n必须在底部两层输出液体。
-gui.tip.tank.steel.valve=多方块结构:尺寸可变，中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
-gui.tip.tank.steel.wall=多方块结构:尺寸可变，中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+gui.tip.rock.crusher=多方块结构:3x2x2        
+gui.tip.steam.oven=多方块结构:2x2x2        
+gui.tip.tank.iron.gauge=多方块结构:尺寸可变\n必须在底部两层输出液体.  
+gui.tip.tank.iron.valve=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9   
+gui.tip.tank.iron.wall=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+gui.tip.tank.steel.gauge=多方块结构:尺寸可变\n必须在底部两层输出液体.
+gui.tip.tank.steel.valve=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+gui.tip.tank.steel.wall=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
 gui.tip.tank.water=多方块结构:3x3x3(中空)
 gui.tip.turbine=多方块结构:3x2x2
 gui.track.embarking.radius=半径
@@ -371,8 +382,12 @@ keybind.loco.slower=机车减速
 keybind.loco.mode=机车模式切换
 keybind.loco.whistle=机车鸣笛
 
+block.anvil=钢砧
+
 fluid.creosote=木馏油
 fluid.steam=蒸汽
+
+block.firestone.recharge=再充能火石
 
 fluid.creosote.bottle=木馏油瓶
 fluid.creosote.bucket=木馏油桶
@@ -430,9 +445,11 @@ nugget.steel=钢粒
 
 obsolete=废弃
 
-ore.dark.diamond=暗黑钻石矿
-ore.dark.emerald=暗黑绿宝石矿
-ore.dark.lapis=暗黑青金石矿
+ore.dark.diamond=暗黑钻石矿石
+ore.dark.emerald=暗黑绿宝石矿石
+ore.dark.lapis=暗黑青金石矿石
+ore.firestone=火石矿石
+ore.firestone.tip=会烧毁除了腐肉外的所有东西,\n拿着它的时候,\n周围的空气都灼热起来...
 ore.saltpeter=硝石
 ore.saltpeter.gen=硝石刷新器
 ore.sulfur=硫磺
@@ -488,19 +505,20 @@ routing.logic.unrecognized.keyword=未识别关键字
 routing.slot.label=路由表
 routing.table.editor=由%s最后编辑
 routing.table.manual.title=手动导航
-routing.table.manual.page1=放置在路由表或者转辙器里的列车时刻表定义了一系列规则,并会匹配经过的机车。路由表的逻辑语法允许你创建一些简单或者更复杂的规则：通常格式是指令加参数。一行只允许一个关键字。若没有指明指令,默认将使用OR指令。路由表可以通过像地图一样在合成台里被复制。
-routing.table.manual.page2=指令关键字：\n   AND - 有两个参数,两个必须都为真,则输出真。\n   OR - 有两个参数,两个中有一个为真,则输出真。\n   NOT - 将参数取反。
-routing.table.manual.page3=环境关键字：\n   Dest=<字符串>\n      若火车头的目的地\n      以这个字符串开头,\n      那么为真。\n   Owner=<用户名>\n      若火车属于此人\n      那么为真。 \n\n   名称=<entityname>\n      如果匹配车的名字\n      那么为真。
-routing.table.manual.page4=环境关键字：\n   Color=<车身色>,<底盘色>\n      若火车车身色与底盘色\n      和要求相符则为真。\n      允许使用通配符“Any”。\n      颜色有(请键入英文): Black(黑), Red(红), Green(绿), Brown(棕), \n      Blue(蓝),Purple(紫), Cyan(青), LightGray(浅灰), Gray(灰), Pink(粉),\n       Lime(柠檬),Yellow(黄), LightBlue(浅蓝), Magenta(品红), Orange(橙), \n White(白)  NeedsRefuel=<true/false>\n      如果机车缺乏燃料或者\n      水，那么就转向它。
-routing.table.manual.page5=示例：\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n      "Dest=null" 会匹配没有\n      目的地的矿车。\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-routing.table.manual.page6=结果:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身色为黑,底盘色为红,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头。
+routing.table.manual.page1=放置在路由表或者转辙器里的列车时刻表定义了一系列规则,并会匹配经过的机车.路由表的逻辑语法允许你创建一些简单或者更复杂的规则：通常格式是指令加参数.一行只允许一个关键字.若没有指明指令,默认将使用OR指令.路由表可以通过像地图一样在合成台里被复制.
+routing.table.manual.page2=指令关键字：\n   AND - 有两个参数,两个必须都为真,则输出真.\n   OR - 有两个参数,两个中有一个为真,则输出真.\n   NOT - 将参数取反.
+routing.table.manual.page3=环境关键字：\n   Dest=<字符串>\n      若火车头的目的地\n      以这个字符串开头,\n      那么为真.\n   Owner=<用户名>\n      若火车属于此人\n      那么为真. \n\n   名称=<entityname>\n      如果匹配车的名字\n      那么为真.
+routing.table.manual.page4=环境关键字：\n   Color=<车身色>,<底盘色>\n      若火车车身色与底盘色\n      和要求相符则为真.\n      允许使用通配符“Any”.\n      颜色有(请键入英文): Black(黑), Red(红), Green(绿), Brown(棕), \n      Blue(蓝),Purple(紫), Cyan(青), LightGray(浅灰), Gray(灰), Pink(粉),\n       Lime(柠檬),Yellow(黄), LightBlue(浅蓝), Magenta(品红), Orange(橙), \n White(白)  NeedsRefuel=<true/false>\n      如果机车缺乏燃料或者\n      水,那么就转向它.
+routing.table.manual.page5=条件关键词:\n   Redstone=<true/false>\n      当路由方块被红石充能时\n      为真.
+routing.table.manual.page6=示例：\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n      "Dest=null" 会匹配没有\n      目的地的矿车.\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+routing.table.manual.page7=结果:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身色为黑,底盘色为红,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头.
 routing.table.name=名称
 routing.table=列车时刻表
 routing.ticket.gold=黄金车票
 routing.ticket.line1=该车票已经作废
 routing.ticket.line2=前往以下目的地:
 routing.ticket.manual.title=关于黄金车票
-routing.ticket.manual=黄金车票是一种在任何共有/私人列车上都可以无限使用的车票，还可以用它拓印纸张来制造一次性车票。
+routing.ticket.manual=黄金车票是一种在任何共有/私人列车上都可以无限使用的车票,还可以用它拓印纸张来制造一次性车票.
 routing.ticket.tip.blank=空白车票
 routing.ticket.tip.dest=空白车票
 routing.ticket.tip.issuer=发行人：
@@ -509,17 +527,18 @@ routing.ticket=火车票
 routing.track.slot.label=车票
 routing.track.tip.slot=插入黄金车票
 routing.tip.slot=插入列车时刻表
-routing.type.private.tip=将只导航e\n属于{owner}的列车。
+routing.type.private.tip=将只导航e\n属于{owner}的列车.
 routing.type.private=私人铁路
-routing.type.public.tip=将导航任意列车。
+routing.type.public.tip=将导航任意列车.
 routing.type.public=共用铁路
 
-signal.block.signal.dual=双头信号箱
-signal.block.signal=信号箱
+signal.block.signal.dual=双头信号盒
+signal.block.signal=信号盒
 signal.box.block.relay=信号中继盒
-signal.box.capacitor=信号计数器
-signal.box.controller=信号控制箱
-signal.box.receiver=信号接收箱
+signal.box.capacitor=信号计数盒
+signal.box.controller=信号控制盒
+signal.box.sequencer=信号同步盒
+signal.box.receiver=信号接收盒
 signal.distant=远程信号
 signal.distant.dual=双头远程信号
 signal.switch.lever=转辙拉杆
@@ -595,6 +614,11 @@ stair.sandy.fitted=匀称沙石楼梯
 stair.sandy.block=沙石楼梯
 stair.snow=雪楼梯
 
+thaumcraft.research.category.RAILCRAFT=奥法铁道工
+thaumcraft.research.RC_Crowbar.name=神秘撬棍
+thaumcraft.research.RC_Crowbar.text=[RC] 我想你东西掉了...
+thaumcraft.research.RC_Crowbar.page.1=使用神秘锭来代替钢材并灌注秩序的魔力,你终于研究出如何制作一种对魔力更加亲和的撬棍.
+
 tool.bore.head.diamond=钻石钻头
 tool.bore.head.iron=铁钻头
 tool.bore.head.steel=钢钻头
@@ -619,7 +643,7 @@ track.buffer.stop=缓停轨道
 track.buffer.stop.tip=用于轨道尽头
 track.control=控制轨道
 track.coupler=耦合轨道
-track.coupler.tip=将经过的车厢连接
+track.coupler.tip=将经过的车厢连接/分离\n使用撬棍切换模式
 track.decoupler=去耦轨道
 track.decoupler.tip=接触经过车厢间的连接
 track.detector=感应轨道
