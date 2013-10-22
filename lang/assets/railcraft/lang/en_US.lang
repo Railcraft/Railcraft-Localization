@@ -539,6 +539,7 @@ signal.block.signal=Block Signal
 signal.box.block.relay=Signal Block Relay Box
 signal.box.capacitor=Signal Capacitor Box
 signal.box.controller=Signal Controller Box
+signal.box.interlock=Signal Interlock Box
 signal.box.sequencer=Signal Sequencer Box
 signal.box.receiver=Signal Receiver Box
 signal.distant=Distant Signal
