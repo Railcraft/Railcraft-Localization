@@ -17,10 +17,12 @@ backpack.trackman.t1=鐵路工背包
 backpack.trackman.t2=編織的鐵路工背包
 backpack.tooltip=Railcraft公司出品，必屬精品
 
+block.anvil=鋼鐵砧
+
 block.fluid.creosote=雜酚油
 block.fluid.steam=蒸氣
 
-block.firestone.recharge=在儲存能量的火石
+block.firestone.recharge=儲存能量的火石
 
 block.hidden=剩餘熱量
 
@@ -86,6 +88,7 @@ cart.basic=礦車
 cart.bore=隧道挖掘機
 cart.chest=運輸礦車
 cart.energy.batbox=Bat儲電車
+cart.energy.cesu=CESU儲電車
 cart.energy.mfe=MFE儲電車
 cart.energy.mfsu=MFSU儲電車
 cart.furnace=動力礦車
@@ -123,6 +126,7 @@ cube.brick.sandy=砂磚(廢棄)
 cube.coke=焦炭磚
 cube.coke.tip=57,600個燃料單位
 cube.concrete=混凝土塊
+cube.creosote=雜酚油木塊
 cube.crushed.obsidian=碎裂黑曜石
 cube.crushed.obsidian.tip=防止怪物生成
 cube.steel=鋼鐵磚
@@ -135,7 +139,7 @@ damage.bore.5=%s 陷入了進退維谷的境地
 
 damage.steam.1=%s 被煮熟了，變得美味又多汁
 damage.steam.2=%s 不能對高溫免疫，儘管他主張可以
-damage.steam.3=%s 已經知道蒸氣可以引起多大的傷害
+damage.steam.3=%s 已經知道蒸氣可以引起多大傷害
 damage.steam.4=%s 發生了工業意外
 damage.steam.5=%s 不該一直站在那裡
 
@@ -171,12 +175,15 @@ dust.sulfur=硫磺
 
 emblem=標誌
 
-firestone.cut=切割過的火石
-firestone.cut.tip=它的能量過於強大，無法控制...
+firestone.cracked=破裂的火石
+firestone.cracked.tip.empty=已損壞\n若重新補充能量\n它仍然會是有用的...
+firestone.cracked.tip.charged=滲出微量的熱能\n如果你夠小心\n它還是可以使用...
+firestone.cut=切割過的火石  
+firestone.cut.tip=能量過於強大，無法控制...
 firestone.raw=火石原石
 firestone.raw.tip=它在你的手中甦醒\n你可以感覺到他的氣息...
 firestone.refined=精煉火石 
-firestone.refined.tip.empty=它的能量已受控制\n重新補充就會非常實用...
+firestone.refined.tip.empty=能量已受控制\n重新補充就會非常實用...
 firestone.refined.tip.charged=充滿著能量\n只需要使用你的意志\n讓他放出熾熱...
 
 fuel.coke=焦炭
@@ -262,8 +269,8 @@ gui.energy.loader.empty=只留空車
 gui.energy.loader.fill=強制裝滿
 gui.engrave=雕刻
 gui.engrave.entercode=輸入解鎖密碼:
-gui.engrave.getmore1=拜訪以下的連結
-gui.engrave.getmore2=找到更多的解鎖密碼!
+gui.engrave.getmore1=拜訪以下連結
+gui.engrave.getmore2=找到更多解鎖密碼!
 gui.engrave.openunlock=解鎖標誌
 gui.engrave.unlock=解鎖!
 gui.engrave.unlock.exists=已存在!
@@ -536,6 +543,8 @@ signal.block.signal=號誌區塊燈
 signal.box.block.relay=號誌中繼箱
 signal.box.capacitor=號誌電容箱
 signal.box.controller=號誌控制箱
+signal.box.interlock=號誌連鎖箱
+signal.box.sequencer=號誌定序箱
 signal.box.receiver=號誌接收箱
 signal.distant=遠端號誌燈
 signal.distant.dual=雙頭遠端號誌燈
@@ -619,11 +628,17 @@ stair.sandy.block=砂石階梯
 stair.sandy.cobble=砂石碎石階梯
 stair.snow=雪階梯
 
+thaumcraft.research.category.RAILCRAFT=Traheremagy
+thaumcraft.research.RC_Crowbar.name=Thaumium Crowbar
+thaumcraft.research.RC_Crowbar.text=[RC] I think you dropped this...
+thaumcraft.research.RC_Crowbar.page.1=By substituting Thaumium for Steel and imbuing it with a touch of Order, you have discovered how to create a Crowbar that is far more receptive to magic.
+
 tool.bore.head.diamond=鑽石鑽頭
 tool.bore.head.iron=鐵製鑽頭
 tool.bore.head.steel=鋼鐵鑽頭
-tool.crowbar=鐵撬
-tool.crowbar.reinforced=強化鐵撬
+tool.crowbar=鐵橇
+tool.crowbar.magic=Thaumium鐵橇
+tool.crowbar.reinforced=強化鐵橇
 tool.magnifying.glass=放大鏡
 tool.signal.tuner=信號調頻器
 tool.steel.axe=鋼鐵斧
