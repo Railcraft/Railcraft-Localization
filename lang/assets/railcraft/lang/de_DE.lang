@@ -392,6 +392,8 @@ keybind.loco.whistle=Lokomotive Pfeifen-Taste
 
 fluid.creosote=Teeröl
 fluid.steam=Dampf
+fluid.tile.lava=Lava
+fluid.tile.water=Wasser
 
 fluid.creosote.bottle=Teerölflasche
 fluid.creosote.bucket=Teeröleimer
