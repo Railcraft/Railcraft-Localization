@@ -184,6 +184,17 @@ firestone.refined=Refined Firestone
 firestone.refined.tip.empty=Its energies controlled,\n it could be useful\n if you could recharge it...
 firestone.refined.tip.charged=Filled with energy,\n you need only exert\n your will on it to\n release blistering heat...
 
+fluid.creosote=Creosote Oil
+fluid.steam=Steam
+
+fluid.creosote.bottle=Creosote Bottle
+fluid.creosote.bucket=Creosote Bucket
+fluid.creosote.can=Creosote Can
+fluid.creosote.cell=Creosote Cell
+fluid.creosote.refactory=Creosote Capsule
+fluid.creosote.wax=Creosote Capsule
+fluid.steam.bottle=Steam Bottle
+
 fuel.coke=Coal Coke
 
 gates.action.pause=Pause Work
@@ -353,11 +364,14 @@ gui.ticks=ticks
 gui.tip.blast.furnace=Multi-Block: 3x4x3 (Hollow)
 gui.tip.boiler.firebox.liquid=Multi-Block: Variable Size, Bottom Layer\n Dimensions: 1x1, 2x2, 3x3
 gui.tip.boiler.firebox.solid=Multi-Block: Variable Size, Bottom Layer\n Dimensions: 1x1, 2x2, 3x3
-gui.tip.boiler.tank.pressure.high=Multi-Block: Variable Size, Above Firebox\n Dimensions: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3
-gui.tip.boiler.tank.pressure.low=Multi-Block: Variable Size, Above Firebox\n Dimensions: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3
+gui.tip.boiler.tank.pressure.high=Multi-Block: Variable Size, Above Firebox\n Dimensions: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Produces 10 mB of Steam per tick
+gui.tip.boiler.tank.pressure.low=Multi-Block: Variable Size, Above Firebox\n Dimensions: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Produces 20 mB of Steam per tick
 gui.tip.chest.void=Deletes Items
 gui.tip.coke.oven=Multi-Block: 3x3x3 (Hollow)
 gui.tip.crowbar.link=§oright click while sneaking to link carts
+gui.tip.engine.steam.high=Produces 8 MJ/t\n Uses 40 mB of Steam per tick
+gui.tip.engine.steam.hobby=Produces 2 MJ/t\n Uses 10 mB of Steam per tick
+gui.tip.engine.steam.low=Produces 4 MJ/t\n Uses 20 mB of Steam per tick
 gui.tip.rock.crusher=Multi-Block: 3x2x2
 gui.tip.steam.oven=Multi-Block: 2x2x2
 gui.tip.tank.iron.gauge=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
@@ -390,16 +404,14 @@ keybind.loco.slower=Locomotive Slower Key
 keybind.loco.mode=Locomotive Mode Key
 keybind.loco.whistle=Locomotive Whistle Key
 
-fluid.creosote=Creosote Oil
-fluid.steam=Steam
-
-fluid.creosote.bottle=Creosote Bottle
-fluid.creosote.bucket=Creosote Bucket
-fluid.creosote.can=Creosote Can
-fluid.creosote.cell=Creosote Cell
-fluid.creosote.refactory=Creosote Capsule
-fluid.creosote.wax=Creosote Capsule
-fluid.steam.bottle=Steam Bottle
+stonelamp.abyssal=Abyssal Stone Lamp
+stonelamp.bleachedbone=Bleached Bone Stone Lamp
+stonelamp.bloodstained=Bloodstained Stone Lamp
+stonelamp.frostbound=Frostbound Stone Lamp
+stonelamp.infernal=Infernal Stone Lamp
+stonelamp.nether=Nether Stone Lamp
+stonelamp.quarried=Quarried Stone Lamp
+stonelamp.sandy=Sandy Stone Lamp
 
 machine.alpha.anchor.admin=Admin Anchor
 machine.alpha.anchor.personal=Personal Anchor
@@ -563,6 +575,7 @@ slab.bloodstained.fitted=Fitted Blood Stained Stone Slab
 slab.bloodstained.block=Blood Stained Block Slab
 slab.bloodstained.cobble=Blood Stained Cobble Slab
 slab.concrete=Concrete Slab
+slab.creosote=Creosote Block Slab
 slab.diamond=Diamond Slab
 slab.frostbound.brick=Frost Bound Brick Slab
 slab.frostbound.fitted=Fitted Frost Bound Stone Slab
@@ -601,6 +614,7 @@ stair.bloodstained.fitted=Fitted Blood Stained Stone Stairs
 stair.bloodstained.block=Blood Stained Block Stairs
 stair.bloodstained.cobble=Blood Stained Cobble Stairs
 stair.concrete=Concrete Stairs
+stair.creosote=Creosote Block Stairs
 stair.diamond=Diamond Stairs
 stair.frostbound.brick=Frost Bound Brick Stairs
 stair.frostbound.fitted=Fitted Frost Bound Stone Stairs
