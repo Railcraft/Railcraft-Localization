@@ -404,15 +404,6 @@ keybind.loco.slower=Locomotive Slower Key
 keybind.loco.mode=Locomotive Mode Key
 keybind.loco.whistle=Locomotive Whistle Key
 
-stonelamp.abyssal=Abyssal Stone Lamp
-stonelamp.bleachedbone=Bleached Bone Stone Lamp
-stonelamp.bloodstained=Bloodstained Stone Lamp
-stonelamp.frostbound=Frostbound Stone Lamp
-stonelamp.infernal=Infernal Stone Lamp
-stonelamp.nether=Nether Stone Lamp
-stonelamp.quarried=Quarried Stone Lamp
-stonelamp.sandy=Sandy Stone Lamp
-
 machine.alpha.anchor.admin=Admin Anchor
 machine.alpha.anchor.personal=Personal Anchor
 machine.alpha.anchor.world=World Anchor
@@ -518,6 +509,7 @@ post.wood=Wooden Post
 routing.logic.blank=Blank Table
 routing.logic.insufficient.operands=Insufficient Operands
 routing.logic.unrecognized.keyword=Unrecognized Keyword
+routing.logic.malformed.syntax=Malformed Syntax
 routing.slot.label=Routing Table
 routing.table.editor=Last edited by %s
 routing.table.manual.title=Routing Manual
@@ -639,6 +631,17 @@ stair.sandy.fitted=Fitted Sandy Stone Stairs
 stair.sandy.block=Sandy Block Stairs
 stair.sandy.cobble=Sandy Cobble Stairs
 stair.snow=Snow Stairs
+
+stonelamp.abyssal=Abyssal Stone Lamp
+stonelamp.bleachedbone=Bleached Bone Stone Lamp
+stonelamp.bloodstained=Bloodstained Stone Lamp
+stonelamp.frostbound=Frostbound Stone Lamp
+stonelamp.infernal=Infernal Stone Lamp
+stonelamp.nether=Nether Stone Lamp
+stonelamp.quarried=Quarried Stone Lamp
+stonelamp.sandstone=Sandstone Lamp
+stonelamp.sandy=Sandy Stone Lamp
+stonelamp.stone=Stone Lamp
 
 thaumcraft.research.category.RAILCRAFT=Traheremagy
 thaumcraft.research.RC_Crowbar.name=Thaumium Crowbar
