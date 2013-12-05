@@ -404,15 +404,6 @@ keybind.loco.slower=Lokomotive Langsamer-Taste
 keybind.loco.mode=Lokomotive Modus-Taste
 keybind.loco.whistle=Lokomotive Pfeifen-Taste
 
-stonelamp.abyssal=Abyss-Steinlampe
-stonelamp.bleachedbone=Gebleichte Knochen-Steinlampe
-stonelamp.bloodstained=Bloodstained Steinlampe
-stonelamp.frostbound=Frostige Steinlampe
-stonelamp.infernal=Höllische Steinlampe
-stonelamp.nether=Nether-Steinlampe
-stonelamp.quarried=Brüchige Steinlampe
-stonelamp.sandy=Sandige Steinlampe
-
 machine.alpha.anchor.admin=Admin-Anker
 machine.alpha.anchor.personal=Persönlicher Anker
 machine.alpha.anchor.world=Weltanker
@@ -518,6 +509,7 @@ post.wood=Holzpfosten
 routing.logic.blank=Leerer Fahrplan
 routing.logic.insufficient.operands=Zu wenig Operanden
 routing.logic.unrecognized.keyword=Unbekanntes Schlüsselwort
+routing.logic.malformed.syntax=Fehlerhafte Syntax
 routing.slot.label=Fahrplan
 routing.table.editor=Zuletzt bearbeitet von %s
 routing.table.manual.title=Streckenplan
@@ -639,6 +631,17 @@ stair.sandy.fitted=Gemeißelte Sandsteintreppe
 stair.sandy.block=Sand-Blocktreppe
 stair.sandy.cobble=Sand-Pflastersteintreppe
 stair.snow=Schneetreppe
+
+stonelamp.abyssal=Abyss-Steinlampe
+stonelamp.bleachedbone=Gebleichte Knochen-Steinlampe
+stonelamp.bloodstained=Bloodstained Steinlampe
+stonelamp.frostbound=Frostige Steinlampe
+stonelamp.infernal=Höllische Steinlampe
+stonelamp.nether=Nether-Steinlampe
+stonelamp.quarried=Brüchige Steinlampe
+stonelamp.sandstone=Sandsteinlampe
+stonelamp.sandy=Sandige Steinlampe
+stonelamp.stone=Steinlampe
 
 thaumcraft.research.category.RAILCRAFT=Traheremagie
 thaumcraft.research.RC_Crowbar.name=Thaumiumbrecheisen
