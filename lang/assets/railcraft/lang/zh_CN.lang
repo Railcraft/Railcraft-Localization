@@ -406,15 +406,6 @@ keybind.loco.slower=机车减速
 keybind.loco.mode=机车模式切换
 keybind.loco.whistle=机车鸣笛
 
-stonelamp.abyssal=深渊石灯
-stonelamp.bleachedbone=白骨石灯
-stonelamp.bloodstained=污血石灯
-stonelamp.frostbound=霜冻石灯
-stonelamp.infernal=地狱石灯
-stonelamp.nether=下界石灯
-stonelamp.quarried=采掘石灯
-stonelamp.sandy=砂岩石灯
-
 machine.alpha.anchor.admin=管理员锚
 machine.alpha.anchor.personal=个人锚
 machine.alpha.anchor.world=世界锚
@@ -520,6 +511,7 @@ post.wood=木质桩
 routing.logic.blank=空白列车时刻表
 routing.logic.insufficient.operands=无效操作数
 routing.logic.unrecognized.keyword=未识别关键字
+routing.logic.malformed.syntax=不符规范语法
 routing.slot.label=路由表
 routing.table.editor=由%s最后编辑
 routing.table.manual.title=手动导航
@@ -641,6 +633,15 @@ stair.sandy.fitted=匀称沙岩楼梯
 stair.sandy.block=沙岩楼梯
 stair.sandy.cobble=砂岩圆石楼梯
 stair.snow=雪楼梯
+
+stonelamp.abyssal=深渊石灯
+stonelamp.bleachedbone=白骨石灯
+stonelamp.bloodstained=污血石灯
+stonelamp.frostbound=霜冻石灯
+stonelamp.infernal=地狱石灯
+stonelamp.nether=下界石灯
+stonelamp.quarried=采掘石灯
+stonelamp.sandy=砂岩石灯
 
 thaumcraft.research.category.RAILCRAFT=神秘铁道工
 thaumcraft.research.RC_Crowbar.name=奥法撬棍
