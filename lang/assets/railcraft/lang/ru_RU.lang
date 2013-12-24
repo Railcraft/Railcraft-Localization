@@ -20,7 +20,7 @@ block.anvil=Стальная наковальня
 block.fluid.creosote=Креозот
 block.fluid.steam=Пар
 
-block.firestone.recharge=Recharging Firestone
+block.firestone.recharge=Заряжающийся огненный камень
 
 block.hidden=Остаточное тепло
 
@@ -124,7 +124,7 @@ cube.brick.sandy=Песчаный кирпич (устаревший)
 cube.coke=Блок коксового угля
 cube.coke.tip=57,600 топливных единиц
 cube.concrete=Бетонный блок
-cube.creosote=Блок древесного креозота
+cube.creosote=Блок пропитанного креозотом дерева
 cube.crushed.obsidian=Сыпучий обсидиан
 cube.crushed.obsidian.tip=Предотвращает порождение мобов
 cube.steel=Стальной блок
@@ -174,7 +174,7 @@ dust.sulfur=Сера
 emblem=Эмблема
 
 firestone.cracked=Потресканный огненный камень
-firestone.cracked.tip.empty=Повреждённый, но он\n всё ещё может быть полезным,\n если бы вы могли зарядить его...
+firestone.cracked.tip.empty=Повреждённый, он\n всё ещё может быть полезным,\n если бы вы могли зарядить его...
 firestone.cracked.tip.charged=Теряет тепло,\n он всё ещё может быть использован,\n если вы осторожны...
 firestone.cut=Разрезанный огненный камень
 firestone.cut.tip=Тем не менее это энергия,\n вышедшая из под контроля...
@@ -485,7 +485,7 @@ part.turbine.blade=Лопатка турбины
 part.turbine.disk=Диск турбины
 part.turbine.rotor=Ротор турбины
 
-post.emblem=Эмблемный столб
+post.emblem=Столб с эмблемой
 post.metal.black=Чёрный металлический столб
 post.metal.blue=Синий металлический столб
 post.metal.brown=Коричневый металлический столб
@@ -711,7 +711,7 @@ track.reinforced.junction=Укреплённый крестовой путь
 track.reinforced.switch=Укреплённый стрелочный путь
 track.reinforced.wye=Укреплённый треугольно-стрелочный путь
 track.routing=Маршрутный путь
-track.routing.tip=Устанавливает локомотивы, проходящие по билетам
+track.routing.tip=Задает место назначения проходящего Локомотива\n по загруженному билету
 track.slow=Деревянный путь
 track.slow.boost=Деревянный ускоряющий путь
 track.slow.junction=Деревянный крестовой путь
