@@ -506,6 +506,26 @@ post.metal=Metal Post
 post.stone=Stone Post
 post.wood=Wooden Post
 
+post.metal.platform.black=Black Metal Platform
+post.metal.platform.blue=Blue Metal Platform
+post.metal.platform.brown=Brown Metal Platform
+post.metal.platform.cyan=Cyan Metal Platform
+post.metal.platform.gray=Gray Metal Platform
+post.metal.platform.green=Green Metal Platform
+post.metal.platform.light.blue=Light Blue Metal Platform
+post.metal.platform.light.gray=Light Gray Metal Platform
+post.metal.platform.lime=Lime Metal Platform
+post.metal.platform.magenta=Magenta Metal Platform
+post.metal.platform.orange=Orange Metal Platform
+post.metal.platform.pink=Pink Metal Platform
+post.metal.platform.purple=Purple Metal Platform
+post.metal.platform.red=Red Metal Platform
+post.metal.platform.white=White Metal Platform
+post.metal.platform.yellow=Yellow Metal Platform
+post.metal.platform=Metal Platform
+post.stone.platform=Stone Platform
+post.wood.platform=Wooden Platform
+
 routing.logic.blank=Blank Table
 routing.logic.insufficient.operands=Insufficient Operands
 routing.logic.unrecognized.keyword=Unrecognized Keyword
