@@ -340,6 +340,8 @@ gui.locomotive.tip.button.locked=This cart is locked to\n {owner}.\n It will onl
 gui.locomotive.tip.button.unlocked=Click to lock Locomotive.\n Once locked, it will\n only accept Tickets\n issued by you or an Op.
 gui.locomotive.tip.slot.ticket=Insert Ticket
 gui.locomotive.tip.item.emblem=§oEmblem:§r %s
+gui.locomotive.tip.item.model=§oModel:§r %s
+gui.locomotive.tip.item.model.default=Default Model
 gui.locomotive.tip.item.owner=§oOwner:§r %s
 gui.locomotive.tip.item.primary=§oPrimary Color:§r %s
 gui.locomotive.tip.item.secondary=§oSecondary Color:§r %s
@@ -405,6 +407,9 @@ keybind.loco.faster=Locomotive Faster Key
 keybind.loco.slower=Locomotive Slower Key
 keybind.loco.mode=Locomotive Mode Key
 keybind.loco.whistle=Locomotive Whistle Key
+
+locomotive.model.steam.solid.default=Default Solid
+locomotive.model.steam.magic.default=Default Magic
 
 machine.alpha.anchor.admin=Admin Anchor
 machine.alpha.anchor.personal=Personal Anchor
