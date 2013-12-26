@@ -506,6 +506,26 @@ post.metal=Metallpfosten
 post.stone=Steinpfosten
 post.wood=Holzpfosten
 
+post.metal.platform.black=Schwarze Metallplattform
+post.metal.platform.blue=Blaue Metallplattform
+post.metal.platform.brown=Braune Metallplattform
+post.metal.platform.cyan=Türkise Metallplattform
+post.metal.platform.gray=Graue Metallplattform
+post.metal.platform.green=Grüne Metallplattform
+post.metal.platform.light.blue=Hellblaue Metallplattform
+post.metal.platform.light.gray=Hellgraue Metallplattform
+post.metal.platform.lime=Hellgrüne Metallplattform
+post.metal.platform.magenta=Magentafarbene Metallplattform
+post.metal.platform.orange=Orange Metallplattform
+post.metal.platform.pink=Pinke Metallplattform
+post.metal.platform.purple=Violette Metallplattform
+post.metal.platform.red=Rote Metallplattform
+post.metal.platform.white=Weiße Metallplattform
+post.metal.platform.yellow=Gelbe Metallplattform
+post.metal.platform=Metallplattform
+post.stone.platform=Steinplattform
+post.wood.platform=Hölzerne Plattform
+
 routing.logic.blank=Leerer Fahrplan
 routing.logic.insufficient.operands=Zu wenig Operanden
 routing.logic.unrecognized.keyword=Unbekanntes Schlüsselwort
