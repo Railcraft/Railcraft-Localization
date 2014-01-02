@@ -508,6 +508,26 @@ post.metal=金属桩
 post.stone=石质桩
 post.wood=木质桩
 
+post.metal.platform.black=黑色金属平台
+post.metal.platform.blue=蓝色金属平台
+post.metal.platform.brown=棕色金属平台
+post.metal.platform.cyan=青色金属平台
+post.metal.platform.gray=灰色金属平台
+post.metal.platform.green=绿色金属平台
+post.metal.platform.light.blue=浅蓝色金属平台
+post.metal.platform.light.gray=浅灰色金属平台
+post.metal.platform.lime=柠檬色金属平台
+post.metal.platform.magenta=品红色金属平台
+post.metal.platform.orange=橙色金属平台
+post.metal.platform.pink=粉色金属平台
+post.metal.platform.purple=紫色金属平台
+post.metal.platform.red=红色金属平台
+post.metal.platform.white=白色金属平台
+post.metal.platform.yellow=黄色金属平台
+post.metal.platform=金属平台
+post.stone.platform=石头平台
+post.wood.platform=木头平台
+
 routing.logic.blank=空白列车时刻表
 routing.logic.insufficient.operands=无效操作数
 routing.logic.unrecognized.keyword=未识别关键字
