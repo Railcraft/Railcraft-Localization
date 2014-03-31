@@ -110,7 +110,7 @@ color.gray=灰色
 color.green=綠色
 color.light.blue=淺藍色
 color.light.gray=淺灰色
-color.lime=萊姆綠
+color.lime=黃綠色
 color.magenta=洋紅色
 color.orange=橘色
 color.pink=粉紅色
@@ -496,8 +496,8 @@ post.metal.gray=灰色金屬支柱
 post.metal.green=綠色金屬支柱
 post.metal.light.blue=淺藍色金屬支柱
 post.metal.light.gray=淺灰色金屬支柱
-post.metal.lime=萊姆色金屬支柱
-post.metal.magenta=桃紅色金屬支柱
+post.metal.lime=黃綠色金屬支柱
+post.metal.magenta=洋紅色金屬支柱
 post.metal.orange=橘色金屬支柱
 post.metal.pink=粉紅色金屬支柱
 post.metal.purple=紫色金屬支柱
@@ -507,6 +507,26 @@ post.metal.yellow=黃色金屬支柱
 post.metal=金屬支柱
 post.stone=混凝土支柱
 post.wood=木製支柱
+
+post.metal.platform.black=黑色金屬平臺
+post.metal.platform.blue=藍色金屬平臺
+post.metal.platform.brown=棕色金屬平臺
+post.metal.platform.cyan=青色金屬平臺
+post.metal.platform.gray=灰色金屬平臺
+post.metal.platform.green=綠色金屬平臺
+post.metal.platform.light.blue=淺藍金屬平臺
+post.metal.platform.light.gray=淺灰金屬平臺
+post.metal.platform.lime=黃綠金屬平臺
+post.metal.platform.magenta=洋紅金屬平臺
+post.metal.platform.orange=橘色金屬平臺
+post.metal.platform.pink=粉紅金屬平臺
+post.metal.platform.purple=紫色金屬平臺
+post.metal.platform.red=紅色金屬平臺
+post.metal.platform.white=白色金屬平臺
+post.metal.platform.yellow=黃色金屬平臺
+post.metal.platform=金屬平臺
+post.stone.platform=混凝土平臺
+post.wood.platform=木製平臺
 
 routing.logic.blank=空白的路由表
 routing.logic.insufficient.operands=運算元不足
@@ -518,7 +538,7 @@ routing.table.manual.title=路由手冊
 routing.table.manual.page1=當路由表被放在路由偵測器或路由轉轍器裡面，他將會定義出一組規則，可以用來偵測任何經過的火車頭是否符合那組規定。\n只要使用簡單的邏輯語法就可以制定規則，讓你可以隨你的喜好創造出複雜或簡單的規定。 這個語法遵從前序表示法，運算子跟在運算元後面。每行中只允許有一個關鍵字。如果沒有指定運算子，就會假設是OR。\n如果要複製路由表，可以將多個路由表放入合成欄中合成
 routing.table.manual.page2=運算子關鍵字:\n   AND – 兩個變數值都為「真」\n   OR – 兩個變數中只有一個為「真」\n   NOT – 反轉下列輸出的值。\n         例:「真」→「假」、「假」→「真」
 routing.table.manual.page3=狀況關鍵字:\n   Dest=<字串>\n      如果字串和火車頭的目的地相符\n      就會判定為「真」\n      "Dest=null"將會偵測沒有\n      目的地的火車頭\n   Owner=<玩家>\n      如果火車頭屬於該玩家的話,\n      會判定為「真」\n   Name=<實體名稱>\n      當實體名稱和礦車的名稱相同\n      就為「真」
-routing.table.manual.page4=狀況關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身、底盤顏色與\n      指定顏色相符,該狀況為「真」\n      可用”Any”指定所有顏色\n      顏色: Black(黑), LightGray(淺灰), Gray(灰), Red(紅),\n      Brown(褐), Blue(藍), Purple(紫), Cyan(青), Green(綠),\n      Pink(粉紅), Lime(萊姆), Yellow(黃), LightBlue(淺藍),\n      Magenta(桃紅), Orange(橘), White(白)\n   NeedsRefuel=<true/false>\n      當火車頭缺水或沒有燃料\n      便會使其改道
+routing.table.manual.page4=狀況關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身、底盤顏色與\n      指定顏色相符,該狀況為「真」\n      可用”Any”指定所有顏色\n      顏色: Black(黑), LightGray(淺灰), Gray(灰), Red(紅),\n      Brown(褐), Blue(藍), Purple(紫), Cyan(青), Green(綠),\n      Pink(粉紅), Lime(黃綠), Yellow(黃), LightBlue(淺藍),\n      Magenta(洋紅), Orange(橘), White(白)\n   NeedsRefuel=<true/false>\n      當火車頭缺水或沒有燃料\n      便會使其改道
 routing.table.manual.page5=狀況關鍵字:\n   Redstone=<true/false>\n      如果路由類方塊被紅石充能\n      就判定為「真」
 routing.table.manual.page6=示範:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
 routing.table.manual.page7=說明:\n   在上一頁的示範中\n   將會過濾目的地是"TheFarLands/Milliways"\n   或被漆成黑色和紅色的火車頭\n   且過濾以"SecretHideout/OceanEntrance"為目的地\n   或是不屬於RichardG的火車頭 
