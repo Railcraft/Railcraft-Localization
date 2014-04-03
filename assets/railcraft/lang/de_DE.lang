@@ -9,6 +9,8 @@ armor.steel.plate=Stahlrüstung
 armor.steel.legs=Stahlhose
 armor.steel.boots=Stahlschuhe
 
+backpack.apothecary.t1=Apotheker-Rucksack
+backpack.apothecary.t2=Gewebter Apotheker-Rucksack
 backpack.iceman.t1=Arktischer Rucksack
 backpack.iceman.t2=Gewebter arktischer Rucksack
 backpack.trackman.t1=Schienenwart-Rucksack
@@ -91,7 +93,7 @@ cart.energy.mfe=MFE-Waggon
 cart.energy.mfsu=MFSU-Waggon
 cart.furnace=Triebwagen
 cart.gift=Geschenkwagen
-cart.loco.steam=Dampflokomotive
+cart.loco.steam.solid=Dampflokomotive
 cart.pumpkin=Kürbiswagen
 cart.tank=Tankwaggon
 cart.tnt=TNT-Waggon
@@ -338,6 +340,8 @@ gui.locomotive.tip.button.locked=Dieses Gerät wurde gesperrt von\n {owner}.\n E
 gui.locomotive.tip.button.unlocked=Klicken zum Sperren des Geräts.\n Es kann dann nur mit einem \n gültigen Ticket ausgestellt\n von Dir oder einem Op benutzt werden.
 gui.locomotive.tip.slot.ticket=Ticket einf§gen
 gui.locomotive.tip.item.emblem=§oEmblem:§r %s
+gui.locomotive.tip.item.model=§oModell:§r %s
+gui.locomotive.tip.item.model.default=Standardmodell
 gui.locomotive.tip.item.owner=§oEigentümer:§r %s
 gui.locomotive.tip.item.primary=§oPrimärfarbe:§r %s
 gui.locomotive.tip.item.secondary=§oSekundärfarbe:§r %s
@@ -404,6 +408,9 @@ keybind.loco.slower=Lokomotive Langsamer-Taste
 keybind.loco.mode=Lokomotive Modus-Taste
 keybind.loco.whistle=Lokomotive Pfeifen-Taste
 
+locomotive.model.steam.solid.default=Standard Feststoff
+locomotive.model.steam.magic.default=Standard Magisch
+
 machine.alpha.anchor.admin=Admin-Anker
 machine.alpha.anchor.personal=Persönlicher Anker
 machine.alpha.anchor.world=Weltanker
@@ -446,6 +453,11 @@ machine.gamma.unloader.energy=Energieentlader
 machine.gamma.unloader.item=Itementlader
 machine.gamma.unloader.item.advanced=Erw. Itementlader
 machine.gamma.unloader.liquid=Flüssigkeitsentlader
+
+multiblock.valid=Struktur ist gültig
+multiblock.invalid.pattern=Entspricht nicht dem Muster: %s
+multiblock.invalid.entity=Lebewesen im Weg: %s
+multiblock.unknown.unloaded=Ein Teil der Struktur ist nicht geladen: %s
 
 nugget.iron=Eisen-Nugget
 nugget.steel=Stahl-Nugget
