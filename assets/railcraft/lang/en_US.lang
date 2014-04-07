@@ -403,6 +403,9 @@ ingot.steel=Steel Ingot
 
 item.synthetic=Synthetic
 
+keybind.aura.anchor=Railcraft Anchor Aura
+keybind.aura.tuning=Railcraft Tuning Aura
+
 keybind.loco.faster=Locomotive Faster Key
 keybind.loco.slower=Locomotive Slower Key
 keybind.loco.mode=Locomotive Mode Key
