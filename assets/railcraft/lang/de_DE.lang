@@ -403,6 +403,9 @@ ingot.steel=Stahlbarren
 
 item.synthetic=synthetisch
 
+keybind.aura.anchor=Railcraft Anker-Aura
+keybind.aura.tuning=Railcraft Tuning-Aura
+
 keybind.loco.faster=Lokomotive Schneller-Taste
 keybind.loco.slower=Lokomotive Langsamer-Taste
 keybind.loco.mode=Lokomotive Modus-Taste
