@@ -403,13 +403,13 @@ ingot.steel=Steel Ingot
 
 item.synthetic=Synthetic
 
-keybind.aura.anchor=Railcraft Anchor Aura
-keybind.aura.tuning=Railcraft Tuning Aura
+keybind.aura.anchor=Anchor Aura
+keybind.aura.tuning=Tuning Aura
 
-keybind.loco.faster=Locomotive Faster Key
-keybind.loco.slower=Locomotive Slower Key
-keybind.loco.mode=Locomotive Mode Key
-keybind.loco.whistle=Locomotive Whistle Key
+keybind.loco.faster=Locomotive Faster
+keybind.loco.slower=Locomotive Slower
+keybind.loco.mode=Locomotive Mode
+keybind.loco.whistle=Locomotive Whistle
 
 locomotive.model.steam.solid.default=Default Solid
 locomotive.model.steam.magic.default=Default Magic
