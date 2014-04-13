@@ -388,6 +388,7 @@ gui.tip.tank.water=Multi-Block: 3x3x3 (Hollow)
 gui.tip.turbine=Multi-Block: 3x2x2
 gui.track.embarking.radius=Radius
 gui.track.priming.fuse=Fuse = %d ticks
+gui.trade.station.dice.tip=Random Trade
 gui.tuner.start=Started pairing %s with a Receiver
 gui.tuner.stop=Stopped pairing %s with a Receiver
 gui.tuner.success=%1$s successfully paired with %2$s
@@ -428,6 +429,7 @@ machine.alpha.steam.oven=Steam Oven
 machine.alpha.steam.trap=Manual Steam Trap
 machine.alpha.steam.trap.auto=Automated Steam Trap
 machine.alpha.tank.water=Water Tank Siding
+machine.alpha.trade.station=Trade Station
 machine.alpha.turbine=Steam Turbine Housing
 
 machine.beta.anchor.sentinel=Anchor Sentinel
