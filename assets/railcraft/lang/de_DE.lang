@@ -434,7 +434,7 @@ machine.alpha.steam.trap=Manuelle Dampf-Falle
 machine.alpha.steam.trap.auto=Automatische Dampf-Falle
 machine.alpha.tank.water=Wassertankwand
 machine.alpha.trade.station=Handelsstation
-machine.alpha.turbine=Dampfturbienengehäuse
+machine.alpha.turbine=Dampfturbinengehäuse
 
 machine.beta.anchor.sentinel=Anker-Markierung
 machine.beta.boiler.firebox.liquid=Öl-Dampfkessel-Feuerbüchse
