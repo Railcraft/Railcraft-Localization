@@ -1,13 +1,13 @@
 # Parent Language: en_US
 
-armor.goggles=Schienenwart-Fernglass
+armor.goggles=Schienenwartbrille
 
-armor.overalls=Ingenieur-Overall
+armor.overalls=Ingenieurs-Overall
 
 armor.steel.helmet=Stahlhelm
-armor.steel.plate=Stahlrüstung
-armor.steel.legs=Stahlhose
-armor.steel.boots=Stahlschuhe
+armor.steel.plate=Stahlbrustpanzer
+armor.steel.legs=Stahlbeinschutz
+armor.steel.boots=Stahlstiefel
 
 backpack.apothecary.t1=Apotheker-Rucksack
 backpack.apothecary.t2=Gewebter Apotheker-Rucksack
