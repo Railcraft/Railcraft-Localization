@@ -19,7 +19,7 @@ backpack.tooltip=Railcraft,Inc出品,必属精品.
 
 block.anvil=钢砧
 
-block.fluid.creosote=木榴油
+block.fluid.creosote=木馏油
 block.fluid.steam=蒸汽
 
 block.firestone.recharge=再充能火石
@@ -126,7 +126,7 @@ cube.brick.sandy=沙岩砖块(废弃)
 cube.coke=焦煤方块
 cube.coke.tip=57,600燃料单位
 cube.concrete=混凝土块
-cube.creosote=木榴油木方块
+cube.creosote=木馏油木方块
 cube.crushed.obsidian=碎黑曜石
 cube.crushed.obsidian.tip=阻止生物生成
 cube.steel=钢块
@@ -186,15 +186,15 @@ firestone.refined=精炼火石
 firestone.refined.tip.empty=它的能量是可控的,\n如果能进行再充能\n那就更有用了...
 firestone.refined.tip.charged=充满了能量,\n你只需施加意志力\n来释放热量...
 
-fluid.creosote=木榴油
+fluid.creosote=木馏油
 fluid.steam=蒸汽
 
-fluid.creosote.bottle=木榴油瓶
-fluid.creosote.bucket=木榴油桶
-fluid.creosote.can=木榴油罐
-fluid.creosote.cell=木榴油单元
-fluid.creosote.refactory=木榴油胶囊
-fluid.creosote.wax=木榴油胶囊
+fluid.creosote.bottle=木馏油瓶
+fluid.creosote.bucket=木馏油桶
+fluid.creosote.can=木馏油罐
+fluid.creosote.cell=木馏油瓶
+fluid.creosote.refactory=木馏油防火胶囊
+fluid.creosote.wax=木馏油蜡胶囊
 fluid.steam.bottle=蒸汽瓶
 
 fuel.coke=焦煤
@@ -386,6 +386,7 @@ gui.tip.tank.water=多方块结构:3x3x3(中空)
 gui.tip.turbine=多方块结构:3x2x2
 gui.track.embarking.radius=半径
 gui.track.priming.fuse=Fuse = %d ticks
+gui.trade.station.dice.tip=随机的交易组合
 gui.tuner.start=开始配对%s到接收器
 gui.tuner.stop=停止配对%s到接收器
 gui.tuner.success=%1$s成功与%2$s配对
@@ -420,6 +421,7 @@ machine.alpha.steam.oven=蒸汽炉
 machine.alpha.steam.trap=手动蒸汽陷阱
 machine.alpha.steam.trap.auto=自动蒸汽陷阱
 machine.alpha.tank.water=蓄水器壁板
+machine.alpha.trade.station=交易站
 machine.alpha.turbine=蒸汽涡轮机壳
 
 machine.beta.anchor.sentinel=拱卫之锚
