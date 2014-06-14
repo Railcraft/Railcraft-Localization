@@ -411,7 +411,9 @@ gui.turbine.rotor=Rotor:
 
 ic2.upgrade.lapotron=Lapotron Loader Upgrade
 
+ingot.copper=Copper Ingot
 ingot.steel=Steel Ingot
+ingot.tin=Tin Ingot
 
 item.synthetic=Synthetic
 
@@ -475,8 +477,10 @@ multiblock.invalid.pattern=Does not match pattern: %s
 multiblock.invalid.entity=Entity in the way: %s
 multiblock.unknown.unloaded=Part of the structure is not loaded: %s
 
+nugget.copper=Copper Nugget
 nugget.iron=Iron Nugget
 nugget.steel=Steel Nugget
+nugget.tin=Tin Nugget
 
 obsolete=Obsolete
 
@@ -485,6 +489,10 @@ ore.dark.emerald=Dark Emerald Ore
 ore.dark.lapis=Dark Lapis Lazuli Ore
 ore.firestone=Firestone Ore
 ore.firestone.tip=Burning everything except flesh,\n you can feel the air change\n around you as you hold it...
+ore.poor.copper=Poor Copper Ore
+ore.poor.gold=Poor Gold Ore
+ore.poor.iron=Poor Iron Ore
+ore.poor.tin=Poor Tin Ore
 ore.saltpeter=Saltpeter Ore
 ore.saltpeter.gen=Saltpeter Ore Spawner
 ore.sulfur=Sulfur Ore
