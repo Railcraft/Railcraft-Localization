@@ -88,10 +88,10 @@ cart.basic=Вагонетка
 cart.bore=Проходческий щит
 cart.chest=Вагонетка с сундуком
 cart.energy.batbox=Вагонетка с бат-боксом
-cart.energy.cesu=Вагонетка с МЭСН
+cart.energy.cesu=Вагонетка с ЦЭСУ
 cart.energy.mfe=Вагонетка с МФЭ
 cart.energy.mfsu=Вагонетка с МФСУ
-cart.furnace=Вагонетка с двигателем
+cart.furnace=Вагонетка с печкой
 cart.gift=Вагонетка с подарком
 cart.loco.steam=Паровой локомотив
 cart.pumpkin=Вагонетка с тыквой
@@ -409,9 +409,11 @@ gui.turbine=Паровая турбина
 gui.turbine.output=Выход: %d%%
 gui.turbine.rotor=Ротор:
 
-ic2.upgrade.lapotron=Лапотроновое улучшение энергоемкости
+ic2.upgrade.lapotron=Лапотроновое улучшение энергоёмкости
 
+ingot.copper=Медный слиток
 ingot.steel=Стальной слиток
+ingot.tin=Оловянный слиток
 
 item.synthetic=Синтетика
 
@@ -475,8 +477,10 @@ multiblock.invalid.pattern=Не соответствует шаблону: %s
 multiblock.invalid.entity=Сущность на пути: %s
 multiblock.unknown.unloaded=Часть структуры не загружена: %s
 
-nugget.iron=Кусочек железа
-nugget.steel=Кусочек стали
+nugget.copper=Медный самородок
+nugget.iron=Железный самородок
+nugget.steel=Стальной самородок
+nugget.tin=Оловянный самородок
 
 obsolete=Устаревший
 
@@ -485,6 +489,10 @@ ore.dark.emerald=Тёмная изумрудная руда
 ore.dark.lapis=Тёмная лазуритовая руда
 ore.firestone=Руда огненного камня
 ore.firestone.tip=Поджигает всё, кроме плоти,\n Вы можете чувствовать изменение воздуха\n вокруг себя, когда держите это...
+ore.poor.copper=Низкосортная медная руда
+ore.poor.gold=Низкосортная золотая руда
+ore.poor.iron=Низкосортная железная руда
+ore.poor.tin=Низкосортная оловянная руда
 ore.saltpeter=Селитровая руда
 ore.saltpeter.gen=Генератор селитровой руды
 ore.sulfur=Серная руда
