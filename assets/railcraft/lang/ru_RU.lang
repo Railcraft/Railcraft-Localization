@@ -88,10 +88,10 @@ cart.basic=Вагонетка
 cart.bore=Проходческий щит
 cart.chest=Вагонетка с сундуком
 cart.energy.batbox=Вагонетка с бат-боксом
-cart.energy.cesu=Вагонетка с МЭСН
+cart.energy.cesu=Вагонетка с ЦЭСУ
 cart.energy.mfe=Вагонетка с МФЭ
 cart.energy.mfsu=Вагонетка с МФСУ
-cart.furnace=Вагонетка с двигателем
+cart.furnace=Вагонетка с печкой
 cart.gift=Вагонетка с подарком
 cart.loco.steam=Паровой локомотив
 cart.pumpkin=Вагонетка с тыквой
@@ -475,8 +475,8 @@ multiblock.invalid.pattern=Не соответствует шаблону: %s
 multiblock.invalid.entity=Сущность на пути: %s
 multiblock.unknown.unloaded=Часть структуры не загружена: %s
 
-nugget.iron=Кусочек железа
-nugget.steel=Кусочек стали
+nugget.iron=Железный самородок
+nugget.steel=Стальной самородок
 
 obsolete=Устаревший
 
@@ -815,3 +815,23 @@ wall.stone.brick.chiseled=Стена из резного кирпича
 wall.stone.brick.cracked=Стена из потресканного кирпича
 wall.stone.brick.mossy=Стена из замшелого кирпича
 wall.stone.brick=Стена из каменного кирпича
+
+entity.Railcraft.railcraft.cart.anchor.name=Вагонетка с мировым якорем
+entity.Railcraft.railcraft.cart.anchor.admin.name=Вагонетка с якорем администратора
+entity.Railcraft.railcraft.cart.anchor.personal.name=Вагонетка с персональным якорем
+entity.Railcraft.railcraft.cart.basic.name=Вагонетка
+entity.Railcraft.railcraft.cart.bore.name=Проходческий щит
+entity.Railcraft.railcraft.cart.chest.name=Вагонетка с сундуком
+entity.Railcraft.railcraft.cart.energy.batbox.name=Вагонетка с бат-боксом
+entity.Railcraft.railcraft.cart.energy.cesu.name=Вагонетка с ЦЭСУ
+entity.Railcraft.railcraft.cart.energy.mfe.name=Вагонетка с МФЭ
+entity.Railcraft.railcraft.cart.furnace.name=Вагонетка с печкой
+entity.Railcraft.railcraft.cart.gift.name=Вагонетка с подарком
+entity.Railcraft.railcraft.cart.loco.steam.name=Паровой локомотив
+entity.Railcraft.railcraft.cart.pumpkin.name=Вагонетка с тыквой
+entity.Railcraft.railcraft.cart.tank.name=Вагонетка с цистерной
+entity.Railcraft.railcraft.cart.tnt.name=Вагонетка с динамитом
+entity.Railcraft.railcraft.cart.tnt.wood.name=Деревянная вагонетка с динамитом
+entity.Railcraft.railcraft.cart.track.relayer.name=Переукладчик путей
+entity.Railcraft.railcraft.cart.undercutter.name=Врубовая машина
+entity.Railcraft.railcraft.cart.work.name=Вагонетка с верстаком
