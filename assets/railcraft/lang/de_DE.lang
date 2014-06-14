@@ -411,7 +411,9 @@ gui.turbine.rotor=Rotor:
 
 ic2.upgrade.lapotron=Lapotron-Ladeupgrade
 
+ingot.copper=Kupferbarren
 ingot.steel=Stahlbarren
+ingot.tin=Zinnbarren
 
 item.synthetic=synthetisch
 
@@ -475,8 +477,10 @@ multiblock.invalid.pattern=Entspricht nicht dem Muster: %s
 multiblock.invalid.entity=Lebewesen im Weg: %s
 multiblock.unknown.unloaded=Ein Teil der Struktur ist nicht geladen: %s
 
-nugget.iron=Eisen-Nugget
-nugget.steel=Stahl-Nugget
+nugget.copper=Kupfernugget
+nugget.iron=Eisennugget
+nugget.steel=Stahlnugget
+nugget.tin=Zinnnugget
 
 obsolete=Veraltet
 
@@ -485,6 +489,10 @@ ore.dark.emerald=Dunkles Smaragderz
 ore.dark.lapis=Dunkles Lapis-Lazuli-Erz
 ore.firestone=Flammsteinerz
 ore.firestone.tip=Brennt alles außer Fleisch,\n du kannst fühlen, wie sich die Luft\n um dich verändert, wenn du es hältst...
+ore.poor.copper=Minderes Kupfererz
+ore.poor.gold=Minderes Golderz
+ore.poor.iron=Minderes Eisenerz
+ore.poor.tin=Minderes Zinnerz
 ore.saltpeter=Salpetererz
 ore.saltpeter.gen=Salpetererz-Spawner
 ore.sulfur=Schwefelerz
