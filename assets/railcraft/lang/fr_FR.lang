@@ -1,5 +1,5 @@
 # Parent Language: en_US
-# Translated by robin4002 and kevin_68
+# Translated by robin4002,kevin_68 And update by Linyor (addition of 147 lines)
 armor.goggles=Lunettes de l'agent de voie
 
 armor.overalls=Combinaison de l'ingénieur
@@ -9,85 +9,98 @@ armor.steel.plate=Plastron en acier
 armor.steel.legs=Jambières en acier
 armor.steel.boots=Bottes en acier
 
+backpack.apothecary.t1=Sac à dos de l'apothicaire
+backpack.apothecary.t2=Sac à dos Tissé de l'apothicaire
 backpack.iceman.t1=Sac à dos glacière
 backpack.iceman.t2=Sac à dos tissé glacière
 backpack.trackman.t1=Sac à dos de l'agent de voie 
 backpack.trackman.t2=Sac à dos tissé de l'agent de voie
 backpack.tooltip=Conçu par Railcraft Inc.
 
+block.anvil=Enclume en acier
+
 block.fluid.creosote=Créosote
 block.fluid.steam=Vapeur
+
+block.firestone.recharge=Rechargement pierre de feu
 
 block.hidden=Chaleur résiduelle
 
 brick.abyssal.brick=Brique abyssale
 brick.abyssal.block=Bloc abyssale
 brick.abyssal.fitted=Roche abyssale adaptée
-brick.abyssal.ornate=Roche abyssale ornée
+brick.abyssal.ornate=Roche abyssale taillée
 brick.abyssal.etched=Roche abyssale gravée
 brick.abyssal.cobble=Pierre abyssale
 
 brick.bleachedbone.brick=Brique blanchi d'os
 brick.bleachedbone.block=Bloc blanchi d'os
 brick.bleachedbone.fitted=Roche blanchi d'os adaptée
-brick.bleachedbone.ornate=Roche blanchi d'os ornée
+brick.bleachedbone.ornate=Roche blanchi d'os taillée
 brick.bleachedbone.etched=Roche blanchi d'os gravée
 brick.bleachedbone.cobble=Pierre blanchi d'os
 
 brick.bloodstained.brick=Brique colorée de sang
 brick.bloodstained.block=Bloc coloré de sang
 brick.bloodstained.fitted=Roche colorée de sang adaptée
-brick.bloodstained.ornate=Roche colorée de sang ornée
+brick.bloodstained.ornate=Roche colorée de sang taillée
 brick.bloodstained.etched=Roche colorée de sang gravée
 brick.bloodstained.cobble=Pierre colorée de sang
 
 brick.frostbound.brick=Brique de givre consolidée
 brick.frostbound.block=Bloc de givre consolidé
 brick.frostbound.fitted=Roche de givre consolidée adaptée
-brick.frostbound.ornate=Roche de givre consolidée ornée
+brick.frostbound.ornate=Roche de givre consolidée taillée
 brick.frostbound.etched=Roche de givre consolidée gravée
 brick.frostbound.cobble=Pierre de givre consolidée
 
 brick.infernal.brick=Brique infernale
 brick.infernal.block=Bloc infernal
 brick.infernal.fitted=Roche infernale adaptée
-brick.infernal.ornate=Roche infernale ornée
+brick.infernal.ornate=Roche infernale taillée
 brick.infernal.etched=Roche infernale gravée
 brick.infernal.cobble=Pierre infernale
+
+brick.nether.block=Bloc du Nether
+brick.nether.fitted=Pierre adaptée du Nether
+brick.nether.ornate=Pierre ornés du Nether
+brick.nether.etched=Pierre gravé du Nether
+brick.nether.cobble=Pierre du Nether
 
 brick.quarried.brick=Brique extraite
 brick.quarried.block=Bloc extrait
 brick.quarried.fitted=Roche extraite adaptée
-brick.quarried.ornate=Roche extraite ornée
+brick.quarried.ornate=Roche extraite taillée
 brick.quarried.etched=Roche extraite gravée
 brick.quarried.cobble=Pierre extraite
 
 brick.sandy.brick=Brique de sable
 brick.sandy.block=Bloc sablé
 brick.sandy.fitted=Roche sablée adaptée
-brick.sandy.ornate=Roche sablée ornée
-brick.sandy.cobble=Pierre sablé
+brick.sandy.ornate=Roche sablée taillée
 brick.sandy.etched=Roche sablée gravée
+brick.sandy.cobble=Pierre sablé
 
 cart.anchor=Wagonnet avec ancre
 cart.anchor.admin=Wagonnet avec ancre d'admin
 cart.anchor.personal=Wagonnet avec ancre personnelle
 cart.basic=Wagonnet
-cart.energy.batbox=Wagonnet avec Batbox
 cart.bore=Tunnelier
 cart.chest=Wagonnet de stockage
-cart.furnace=Wagonnet motorisé
-cart.gift=Wagonnet cadeau
-cart.loco.steam=Locomotive à vapeur
+cart.energy.batbox=Wagonnet avec Batbox
+cart.energy.cesu=Wagonnet CESU
 cart.energy.mfe=Wagonnet MFE
 cart.energy.mfsu=Wagonnet MFSU
+cart.furnace=Wagonnet motorisé
+cart.gift=Wagonnet cadeau
+cart.loco.steam.solid=Locomotive à vapeur
 cart.pumpkin=Wagonnet avec citrouille
 cart.tank=Wagonnet avec réservoir
 cart.tnt=Wagonnet TNT
 cart.tnt.wood=Wagonnet TNT en bois
-cart.track.relayer=Wagonnet changeur de rail
+cart.track.relayer=Wagonnet changeur de rail 
 cart.undercutter=Wagonnet changeur de bloc
-cart.work=Wagonnet de travail
+cart.work=Wagonnet atelier
 
 color.black=Noir
 color.blue=Bleu
@@ -111,8 +124,11 @@ cube.stone.quarried=Pierre extraite
 cube.brick.infernal=Brique infernale (Obsolète)
 cube.brick.sandy=Brique de sable (Obsolète)
 cube.coke=Bloc de coke de charbon
+cube.coke.tip=57600 unités de combustible
 cube.concrete=Bloc de béton
+cube.creosote=Créosote de bloc en bois
 cube.crushed.obsidian=Obsidienne broyé
+cube.crushed.obsidian.tip=Empêche le spawn des mobs
 cube.steel=Bloc d'acier
 
 damage.bore.1=%s était sur le chemin du progrès
@@ -146,7 +162,7 @@ detector.locomotive=Détecteur - locomotive
 detector.mob=Détecteur - mob
 detector.player=Détecteur - joueur
 detector.powered=Détecteur - propulsé
-detector.routing=Detector - routage
+detector.routing=Détecteur - routage
 detector.sheep=Détecteur - mouton
 detector.tank=Détecteur - réservoir
 detector.train=Détecteur - train
@@ -156,6 +172,30 @@ dust.charcoal=Poudre de charbon de bois
 dust.obsidian=Poudre d'obsidienne
 dust.saltpeter=Salpêtre
 dust.sulfur=Soufre
+
+emblem=Emblème
+
+firestone.cracked=Pierre de feu fissuré
+firestone.cracked.tip.empty=Endommagé, mais il\n pourrait encore être utile\n si vous pouviez le recharger ...
+firestone.cracked.tip.charged=Fuite de chaleur,\n il peut encore être utilisé\n si vous êtes prudent ...
+firestone.cut=Pierre de feu coupée
+firestone.cut.tip=Energie importante,\n hors de contrôle...
+firestone.raw=Pierre de feu brut
+firestone.raw.tip=Il accélère dans vos mains,\n vous pouvez le sentir dans\n l'air autour de vous ...
+firestone.refined=Pierre de feu raffiné
+firestone.refined.tip.empty=Energies contrôlées,\n il pourrait être utile si\n vous pouviez le recharger ...
+firestone.refined.tip.charged=Rempli d'énergie,\n il vous suffit d'exercer\n votre volonté pour\n libérer la chaleur torride...
+
+fluid.creosote=Huile de créosote
+fluid.steam=Vapeur
+
+fluid.creosote.bottle=Bouteille de créosote
+fluid.creosote.bucket=Seau de créosote
+fluid.creosote.can=Bidon de créosote
+fluid.creosote.cell=Cellule de créosote
+fluid.creosote.refactory=Capsule de créosote
+fluid.creosote.wax=Capsule de créosote
+fluid.steam.bottle=Bouteille à vapeur
 
 fuel.coke=Coke de Charbon
 
@@ -177,7 +217,7 @@ gates.trigger.engine.red=Moteur rouge
 gates.trigger.fuel=Niveau de carburant bas
 gates.trigger.maintenance=Besoins d'une maintenance
 gates.trigger.work=A du travail
-gates.trigger.temp.cold=Froit
+gates.trigger.temp.cold=Froid
 gates.trigger.temp.warm=Chaud
 gates.trigger.temp.hot=Brûlant
 
@@ -238,6 +278,15 @@ gui.detector.villager.none=Aucun
 gui.detector.villager.not=Sans
 gui.energy.loader.empty=Maintenir vide
 gui.energy.loader.fill=Haut désactivé
+gui.engrave=Graver
+gui.engrave.entercode=Entrez le code de déverrouillage:
+gui.engrave.getmore1=Visitez les liens ci-dessous
+gui.engrave.getmore2=pour trouver plus de codes de déverrouillage!
+gui.engrave.openunlock=Débloquez emblèmes
+gui.engrave.unlock=Débloquez!
+gui.engrave.unlock.exists=Dupliquer!
+gui.engrave.unlock.fail=Echec!
+gui.engrave.unlock.success=Succès!
 gui.feed.station.feed=Nourriture
 gui.filter=Filtre
 gui.filters=Filtres
@@ -266,6 +315,10 @@ gui.item.loader.immediate.tip=Émettre un signal de redstone si aucuns items\n n
 gui.item.loader.manual.tip=Ne jamais émettre un signal de redstone
 gui.item.loader.stock.tip=Déplace les items jusqu'à ce qu'ils soient\n placés dans le filtre correspondant
 gui.item.loader.transfer.tip=Déplace exactement autant d'item\n que dans le filtre
+gui.link.broken=Lien brisé
+gui.link.created=Lien crée
+gui.link.failed=Lien échoué
+gui.link.started=Lien en route
 gui.liquid.capacity=Capacité
 gui.liquid.loader.empty=Cale vide
 gui.liquid.loader.fill=Plein
@@ -290,6 +343,9 @@ gui.locomotive.tip.button.shutdown=Arrête la locomotive.\n Arrête tout mouveme
 gui.locomotive.tip.button.locked=Cette locomotive est vérroillé par\n {owner}\n Il n'accepte que les tickets
 gui.locomotive.tip.button.unlocked=Click to lock Locomotive.\n Once locked, it will\n only accept Tickets\n issued by you or an Op.
 gui.locomotive.tip.slot.ticket=Insérez un ticket
+gui.locomotive.tip.item.emblem=§oEmblème:§r %s
+gui.locomotive.tip.item.model=§oModèle:§r %s
+gui.locomotive.tip.item.model.default=Modèle par défaut
 gui.locomotive.tip.item.owner=§oPropriétaire:§r %s
 gui.locomotive.tip.item.primary=§oCouleur primaire:§r %s
 gui.locomotive.tip.item.secondary=§oCouleur secondaire:§r %s
@@ -312,7 +368,7 @@ gui.switch.motor.action=S'enclenche sur la couleur
 gui.tank.iron=Réservoir de fer
 gui.tank.steel=Réservoir d'acier
 gui.tank.water=Réservoir d'eau
-gui.ticks=ticks
+gui.ticks=tics
 gui.tip.blast.furnace=Multi-Bloc: 3x4x3 (creux)
 gui.tip.boiler.firebox.liquid=Multi-Bloc: Taille variable
 gui.tip.boiler.firebox.solid=Multi-Bloc: Taille variable
@@ -321,6 +377,9 @@ gui.tip.boiler.tank.pressure.low=Multi-Bloc: Taille variable
 gui.tip.chest.void=Supprime les items
 gui.tip.coke.oven=Multi-Bloc: 3x3x3 (creux)
 gui.tip.crowbar.link=§oClic droit en s'accoupissant pour lier les wagonnets
+gui.tip.engine.steam.high=Produit 8 MJ/t\n Utilise 40 mB de vapeur par tic
+gui.tip.engine.steam.hobby=Produit 2 MJ/t\n Utilise 10 mB de vapeur par tic
+gui.tip.engine.steam.low=Produit 4 MJ/t\n Utilise 20 mB de vapeur par tic
 gui.tip.rock.crusher=Multi-Bloc: 3x2x2
 gui.tip.steam.oven=Multi-Bloc: 2x2x2
 gui.tip.tank.iron.gauge=Multi-Bloc: Taille variable, creux\n hauteur: 4, 5, 6, 7, 8\n diamètres: 3, 5, 7, 9
@@ -332,7 +391,15 @@ gui.tip.tank.steel.wall=Multi-Bloc: Taille variable, creux\n hauteur: 4, 5, 6, 7
 gui.tip.tank.water=Multi-Bloc: 3x3x3 (creux)
 gui.tip.turbine=Multi-Bloc: 3x2x2
 gui.track.embarking.radius=Rayon
-gui.track.priming.fuse=Fusible = %d ticks
+gui.track.locking.change=Changer de %s Mode
+gui.track.locking.mode.lockdown=Verrouillez
+gui.track.locking.mode.lockdown.train=Verrouillez train
+gui.track.locking.mode.holding=Retenir
+gui.track.locking.mode.holding.train=Train retenu
+gui.track.locking.mode.boarding=Embarquement
+gui.track.locking.mode.boarding.train=Embarquement train
+gui.track.priming.fuse=Fusible = %d tics
+gui.trade.station.dice.tip=Commerce aléatoire
 gui.tuner.start=Commencer le jumelage de %s avec un récepteur
 gui.tuner.stop=Arrêté le jumelage de %s avec un récepteur
 gui.tuner.success=%1$s jumelé avec succès à %2$s
@@ -348,27 +415,23 @@ ingot.steel=Lingot d'acier
 
 item.synthetic=Synthétique
 
+keybind.aura.anchor=Ancre aura
+keybind.aura.tuning=Réglage aura
+
 keybind.loco.faster=Clé locomotive rapide
 keybind.loco.slower=Clé locomotive lente
 keybind.loco.mode=Clé mode de locomotive
 keybind.loco.whistle=Clé sifflet de locomotive
 
-fluid.creosote=Huile de créosote
-fluid.steam=Vapeur
-
-fluid.creosote.bottle=Bouteille de créosote
-fluid.creosote.bucket=Seau de créosote
-fluid.creosote.can=Cannette de créosote
-fluid.creosote.cell=Cellule de créosote
-fluid.creosote.refactory=Capsule de créosote
-fluid.creosote.wax=Capsule de créosote
-fluid.steam.bottle=Bouteille de vapeur
+locomotive.model.steam.solid.default=Défaut Solide
+locomotive.model.steam.magic.default=Défaut Magique
 
 machine.alpha.anchor.admin=Ancre des administrateur
 machine.alpha.anchor.personal=Ancre personnelle
 machine.alpha.anchor.world=Ancre mondiale
 machine.alpha.blast.furnace=Brique de haut fourneau
 machine.alpha.coke.oven=Brique de four à coke
+machine.alpha.engraving.bench=Gravure banquette
 machine.alpha.feed.station=Station à nourriture
 machine.alpha.rock.crusher=Concasseur de roche
 machine.alpha.rolling.machine=Machine à roulage
@@ -377,6 +440,7 @@ machine.alpha.steam.oven=Four à vapeur
 machine.alpha.steam.trap=Purgeur de vapeur manuel
 machine.alpha.steam.trap.auto=Purgeur de vapeur automatique
 machine.alpha.tank.water=Revêtement de réservoir d'eau
+machine.alpha.trade.station=Station de commerce
 machine.alpha.turbine=Emplacement pour turbine à vapeur
 
 machine.beta.anchor.sentinel=Ancre sentinel
@@ -406,6 +470,11 @@ machine.gamma.unloader.item.advanced=Déchargeur d'article avancé
 machine.gamma.unloader.item=Déchargeur d'article
 machine.gamma.unloader.liquid=Déchargeur de liquide
 
+multiblock.valid=La structure est valide
+multiblock.invalid.pattern=Ne correspond pas au modèle: %s
+multiblock.invalid.entity=Entité de la manière: %s
+multiblock.unknown.unloaded=Une partie de la structure n'est pas chargé: %s
+
 nugget.iron=Pépite de fer
 nugget.steel=Pépite d'acier
 
@@ -414,6 +483,8 @@ obsolete=obsolète
 ore.dark.diamond=Minerai noir de diamant
 ore.dark.emerald=Minerai noir d'émeraude
 ore.dark.lapis=Minerai noir de lapis lazuli
+ore.firestone=Minerai de pierre de feu
+ore.firestone.tip=Brûle tout sauf la chair,\n vous pouvez sentir le changement de l'air\n autour de vous comme vous la tenez ...
 ore.saltpeter=Minerai de salpêtre
 ore.saltpeter.gen=Générateur de minerai de salpêtre
 ore.sulfur=Minerai de souffre
@@ -442,6 +513,7 @@ part.turbine.blade=Pales de turbine
 part.turbine.disk=Disque de turbine
 part.turbine.rotor=Turbine à rotor
 
+post.emblem=Poste emblème
 post.metal.black=Poteau métallique noir
 post.metal.blue=Poteau métallique bleu
 post.metal.brown=Poteau métallique brun
@@ -462,18 +534,40 @@ post.metal=Poteau métallique
 post.stone=Poteau de pierre
 post.wood=Poteau de bois
 
+post.metal.platform.black=Plate-forme en métal noir
+post.metal.platform.blue=Plate-forme en métal bleu
+post.metal.platform.brown=Plate-forme en métal marron
+post.metal.platform.cyan=Plate-forme en métal cyan
+post.metal.platform.gray=Plate-forme en métal gris
+post.metal.platform.green=Plate-forme en métal vert
+post.metal.platform.light.blue=Plate-forme en métal bleu clair
+post.metal.platform.light.gray=Plate-forme en métal gris clair
+post.metal.platform.lime=Plate-forme en métal vert citron
+post.metal.platform.magenta=Plate-forme en métal magenta
+post.metal.platform.orange=Plate-forme en métal orange
+post.metal.platform.pink=Plate-forme en métal rose
+post.metal.platform.purple=Plate-forme en métal violet
+post.metal.platform.red=Plate-forme en métal rouge
+post.metal.platform.white=Plate-forme en métal blanc
+post.metal.platform.yellow=Plate-forme en métal jaune
+post.metal.platform=Plate-forme en métal
+post.stone.platform=Plate-forme en pierre
+post.wood.platform=Plate-forme en bois
+
 routing.logic.blank=Tableau blanc
 routing.logic.insufficient.operands=Opérandes insuffisant
 routing.logic.unrecognized.keyword=Mot non reconnu
+routing.logic.malformed.syntax=Syntaxe malformé
 routing.slot.label=Table de routage
 routing.table.editor=Dernière édition par %s
 routing.table.manual.title=Manuel de routage
-routing.table.manual.page1=Le Manuel de routage, placé sur un Détecteur de routage ou sur un Moteur changeur de routage, définira les règles qui seront utilisée pour correspondre à la Locomotive en route. Ces règles utilisent une syntaxe simple et logique, vous permettant de créer des règles rudimentaires ou complexes, selon vos souhaits. La syntaxe est un script de Notation de Préfixe, les Opérateurs sont suivis par les Opérandes. Seulement un mot-clé est autorisé par ligne. Si aucun Opérateur n'est spécifié, OU est assumé. Les Manuels de routage peuvent être dupliqués en plaçant deux ou plus dans un Atelier.
-routing.table.manual.page2=Mots-Clés Opérateur:\n   AND - Deux Opérandes, les Deux doivent être VRAIS.\n   OR - Deux Opérandes, l'un des deux doit être VRAI.\n   NOT - Inverse l'Opérande suivant.
-routing.table.manual.page3=Mots-Clés de Condition:\n   Dest=string>\n   Si la série de Destination\n      de la Locomotive commence par cette série,\n      la condition est VRAI\n   Admin=pseudo>\n   VRAI si la Locomotive appartient\n      à cette personne.\n     Nom=entityname>\n   VRAI s'il correspond au nom du Wagonnet\n.
-routing.table.manual.page4=Mots-Clés de Condition:\n   Couleur=<primaire>,<secondaire>\n      VRAI si les couleurs prim.\n      et second. correspondent.\n      Accepte "tous" les Tickets.\n      Couleurs: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White\n   Carburant nécessaire=<true/false>\n      Si la Locomotive est faible en Carburant\n      ou l'Eau le detournera.
-routing.table.manual.page5=Exemple de Script:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-routing.table.manual.page6=Interprétation:\n   Le script de la page précédente correspondra\n   à une Locomotive ayant comme destination\n   "TheFarLands/Milliways",\n   ou s'il est peint en Noir et Rouge,\n   ou ayant comme destination\n   "SecretHideout/OceanEntrance",\n   mais seulement s'il n'appartient pas à RichardG.
+routing.table.manual.page1=La table de routage lorsqu'elle est placée dans un détecteur de routage ou interrupteur va définir un ensemble de règles qui sont utilisés pour faire correspondre à toute locomotive passant. Ces règles sont définit en utilisant une syntaxe simple logique qui vous permet de créer des règles aussi simples ou complexes que vous le souhaitez. La syntaxe est un script de préfixe de notation, les opérateurs sont suivies par les opérandes. Un seul mot-clé par ligne est autorisée. Si aucun opérateur n'est précisé, OU est supposé. Les tables de routage peuvent être copiés en n'en plaçant deux ou plus dans une grille d'artisanat (Atelier).
+routing.table.manual.page2=Mots clés des opérateurs:\n   AND - Deux opérandes, les deux doivent être vrai.\n   OR - Deux opérandes, au moin une doit être vrai.\n   NOT - Inversez l'Opérande suivante.
+routing.table.manual.page3=Condition mots-clés:\n   Dest=<string>\n      Si la chaîne de destination de la locomotive\n      commence par cette chaîne,\n      la condition est vraie.\n   Owner=<username>\n      Vrai si la locomotive appartient\n      à cette personne.\n   Name=<entityname>\n      Vrai si il correspond au \n      nom du wagonnet.
+routing.table.manual.page4=Condition mots-clés:\n   Color=<primary>,<secondary>\n      Vrai si les couleurs primaires et secondaires\n      de la locomotive correspondent.\n      Couleurs: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White\n   NeedsRefuel=<true/false>\n      Si la locomotive est faible en essence\n      ou en eau, elle sera dérivée.
+routing.table.manual.page5=Exemple de script:\n   Dest=TerresLointaines\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=CachetteSecrete/EntréOcean
+routing.table.manual.page6=résultat:\n   Le script de la précédente page\n   correspond à la destination d'une locomotive\n   de "TerresLointaines/Milliways",\n   ou qui est peint en noir et rouge,\n   ou qui a une destination de\n   "CachetteSecrete/EntréOcean",\n   mais seulement si elle n'est pas détenue par RichardG.
+
 routing.table.name=Nom
 routing.table=Table de routage
 routing.ticket.gold=Ticket d'or de chemin de fer
@@ -494,12 +588,14 @@ routing.type.private=Chemin de fer privé
 routing.type.public.tip=Acheminera une locomotive.
 routing.type.public=Chemin de fer publique
 
-signal.box.controller=Boîte de contrôle de signal
-signal.box.receiver=Boîte de réception de signal
+signal.block.signal.dual=Bloc de signal à double tête
+signal.block.signal=Bloc de signal
 signal.box.block.relay=Boîte relais de signal
 signal.box.capacitor=Boîte condensatrice de signal
-signal.block.signal=Bloc de signal
-signal.block.signal.dual=Bloc de signal à double tête
+signal.box.controller=Boîte de contrôle de signal
+signal.box.interlock=Boîte de signal de verrouillage
+signal.box.sequencer=Boîte de signal séquenceur
+signal.box.receiver=Boîte de réception de signal
 signal.distant=Récepteur de dignal éloigné
 signal.distant.dual=Récepteur de signal à double tête
 signal.switch.lever=Levier changeur
@@ -519,6 +615,7 @@ slab.bloodstained.fitted=Dalle de roche colorée de sang adaptée
 slab.bloodstained.block=Dalle de bloc coloré de sang
 slab.bloodstained.cobble=Dalle de pierre colorée de sang
 slab.concrete=Dalle de béton
+slab.creosote=Dalle de créosote
 slab.diamond=Dalle de diamant
 slab.frostbound.brick=Dalle de brique de givre consolidée
 slab.frostbound.fitted=Dalle de roche de givre consolidée adaptée
@@ -531,6 +628,10 @@ slab.infernal.fitted=Dalle de roche infernale adaptée
 slab.infernal.block=Dalle de bloc infernal
 slab.infernal.cobble=Dalle de pierre infernale
 slab.iron=Dalle de fer
+slab.nether.fitted=Dalle en pierre adaptée du Nether
+slab.nether.block=Dalle en bloc du Nether
+slab.nether.cobble=Dalle en pierre du Nether
+slab.obsidian=Dalle en obsidienne
 slab.quarried.brick=Dalle de brique extraite
 slab.quarried.fitted=Dalle de roche extraite adaptée
 slab.quarried.block=Dalle de bloc extrait
@@ -538,7 +639,7 @@ slab.quarried.cobble=Dalle de pierre extraite
 slab.sandy.brick=Dalle de brique de sable
 slab.sandy.fitted=Dalle de roche sablée adaptée
 slab.sandy.block=Dalle de bloc sablé
-slab.sandy.etched=Dalle de roche sablée gravée
+slab.sandy.cobble=Dalle de roche sablée
 slab.snow=Dalle de neige
 
 stair.abyssal.brick=Escalier de brique abyssale
@@ -554,6 +655,7 @@ stair.bloodstained.fitted=Escalier de roche colorée de sang adaptée
 stair.bloodstained.block=Escalier de bloc coloré de sang
 stair.bloodstained.cobble=Escalier de pierre colorée de sang
 stair.concrete=Escalier de béton
+stair.creosote=Escalier en bloc de créosote
 stair.diamond=Escalier de diamant
 stair.frostbound.brick=Escalier de brique de givre consolidée
 stair.frostbound.fitted=Escalier de roche de givre consolidée adaptée
@@ -566,6 +668,10 @@ stair.infernal.fitted=Escalier de roche infernale adaptée
 stair.infernal.block=Escalier de bloc infernale
 stair.infernal.cobble=Escalier de pierre infernale
 stair.iron=Escalier de fer
+stair.nether.fitted=Escalier en pierre adaptée du Nether
+stair.nether.block=Escalier en bloc du Nether
+stair.nether.cobble=Escalier en pierre du Nether
+stair.obsidian=Escalier en obsidienne
 stair.quarried.brick=Escalier de brique extraite
 stair.quarried.fitted=Escalier de roche extraite adaptée
 stair.quarried.block=Escalier de bloc extrait
@@ -573,13 +679,30 @@ stair.quarried.cobble=Escalier de pierre extraite
 stair.sandy.brick=Escalier de brique de sable
 stair.sandy.fitted=Escalier de roche sablée adaptée
 stair.sandy.block=Escalier de bloc sablé
-stair.sandy.etched=Escalier de roche sablée gravée
+stair.sandy.cobble=Escalier en roche sablée
 stair.snow=Escalier de neige
+
+stonelamp.abyssal=Lampe en pierre abyssal
+stonelamp.bleachedbone=Lampe en pierre blanchi à l'os
+stonelamp.bloodstained=Lampe en pierre colorée de sang
+stonelamp.frostbound=Lampe en pierre de givre consolidée
+stonelamp.infernal=Lampe en pierre infernale
+stonelamp.nether=Lampe en pierre du Nether
+stonelamp.quarried=Lampe en pierre extraite
+stonelamp.sandstone=Lampe en grès
+stonelamp.sandy=Lampe en roche sablée
+stonelamp.stone=Lampe en pierre
+
+thaumcraft.research.category.RAILCRAFT=Traheremagy
+thaumcraft.research.RC_Crowbar.name=pied de biche en Thaumium
+thaumcraft.research.RC_Crowbar.text=[RC] Je pense que vous l'avez laissé tomber...
+thaumcraft.research.RC_Crowbar.page.1=En substituant le Thaumium de l'acier, vous avez découvert comment créer un pied de biche qui est beaucoup plus réceptifs à la magie.
 
 tool.bore.head.diamond=Tête de forage en diamant
 tool.bore.head.iron=Tête de forage en fer
 tool.bore.head.steel=Tête de forage en acier
 tool.crowbar=Pied de biche
+tool.crowbar.magic=Pied de biche en Thaumium
 tool.crowbar.reinforced=Pied de biche renforcée
 tool.magnifying.glass=Loupe
 tool.signal.tuner=Signal de tunnel
@@ -594,53 +717,77 @@ tool.whistle.tuner=Accordeur de sifflet
 
 track.activator=Rails activateur
 track.boarding=Rails directionnel
+track.boarding.tip=Remplacé par verrouillage des voies
 track.boarding.train=Rails directionnel pour train
 track.boarding.train.tip=Ne pas utiliser avec les chargeurs !
 track.buffer.stop=Rails d'arrêt
+track.buffer.stop.tip=Fin de la ligne\n§o§9- Frapper avec le pied de biche pour changer de direction -
 track.control=Rails de contrôle
+track.control.tip=Applique un petit coup de pouce omnidirectionnel\n§o§9- Frapper avec le pied de biche pour changer de direction -\n§o§c- Appliquer de la Redstone pour changer de direction -
 track.coupler=Rails coupleuse
+track.coupler.tip=Couples/Découples les wagonnets passant\n§o§9- Frapper avec le pied de biche pour changer de mode -\n§o§c- Appliquer de la Redstone pour activer -
 track.decoupler=Rails découpleuse
 track.detector=Rails de détection
 track.detector.direction=Rails détecteur de direction
+track.detector.direction.tip=Emet de la Redstone quand un wagonnet\n passe dans la direction indiquée\n§o§9- Frapper avec le pied de biche pour changer de direction -
 track.disembarking=Rails de débarquement
+track.disembarking.tip=Désarçonné les entités dans le sens de la flèche\n§o§9- Frapper avec le pied de biche pour changer de direction -\n§o§c- Appliquer de la Redstone pour activer -
 track.disposal=Rails d'élimination
+track.disposal.tip=Suspend la voie\n Désarçonné les entités
 track.elevator=Rails ascenseur
 track.embarking=Rails d'embarquement
+track.embarking.tip=Charge les entités dans des wagonnet\n§o§9- Frapper avec le pied de biche pour modifier la portée -\n§o§c- Appliquer de la Redstone pour activer -
 track.gated=Rails fermés
+track.gated.tip=C'est une porte\n§o§c- Appliquer de la Redstone pour ouvrir -
 track.gated.oneway=Rails à sens unique fermé
+track.gated.oneway.tip=C'est une barrière à sens unique\n§o§c- Appliquer de la Redstone pour ouvrir -
 track.holding=Rails de maintien
+track.holding.tip=Remplacé par verrouillage des voies
 track.holding.train=Rails de maintien pour train
 track.holding.train.tip=Ne pas utiliser avec les chargeurs !
 track.junction=Rails de croisement
 track.launcher=Rails lanceur
+track.launcher.tip=Produit des wagonnet volant\n§o§c- Appliquer de la Redstone pour activer -
 track.limiter=Rails limiteur
+track.limiter.tip=Règle la vitesse de passage des locomotives\n§o§9- Frapper avec le pied de biche pour changer de mode -\n§o§c- Appliquer de la Redstone pour activer -
 track.lockdown=Rails de verrouillage
+track.lockdown.tip=Remplacé par verrouillage des voies
 track.lockdown.train=Rails de verrouillage pour train
 track.lockdown.train.tip=Ne pas utiliser avec les chargeurs !
+track.locking=Verrouillage des voies
+track.locking.tip=Arrête et bloque le wagonnet\n§o§9- Frapper avec le pied de biche pour changer de mode -\n§o§c- Appliquer de la Redstone pour activer -
 track.locomotive=Rails pour locomotive
+track.locomotive.tip=Démarre/Stop les locomotives\n§o§9- Frapper avec le pied de biche pour changer de mode -\n§o§c- Appliquer de la Redstone pour activer -
 track.oneway=Rails à sens unique
+track.oneway.tip=Les wagonnets passent seulement dans le sens de la flèche\n§o§9- Frapper avec le pied de biche pour changer de direction -
 track.powered=Rails booster
 track.priming=Rails d'amorçage
+track.priming.tip=Allume les wagonnets à TNT\n Fusible réglable\n§o§9- Frapper avec le pied de biche pour changer le fusible -\n§o§c- Appliquer de la Redstone pour activer -
 track.reinforced=Rails renforcés
+track.reinforced.tip=25% plus rapide que la voie normale\n Résistants aux explosions
 track.reinforced.boost=Rails booster renforcé
 track.reinforced.junction=Rails de croisement renforcé
 track.reinforced.switch=Rails d'aiguillage renforcé
 track.reinforced.wye=Rails d'intersection renforcé
 track.routing=Rails routeur
+track.routing.tip=Définit le ticket d'une locomotive passant\n§o§9- Frapper avec le pied de biche pour changer le ticket -
 track.slow=Rails en bois
 track.slow.boost=Rails boosters en bois
 track.slow.junction=Rails de croisement en bois
 track.slow.switch=Rails d'aiguillage en bois
 track.slow.wye=Rails d'intersection en bois
 track.speed=Rails H.V
+track.speed.tip=§9Dangereux\n §rPlus de deux fois plus vite qu'une voie normale\n Nécessite Boosters/Transitions pour atteindre la vitesse\n Ne peut pas faire les virages à haute vitesse
 track.speed.boost=Rails boosters H.V
 track.speed.switch=Rails d'aiguillage H.V
 track.speed.transition=Rails de croisement H.V
 track.speed.wye=Rails d'intersection H.V
 track.standard=Rails
 track.suspended=Rails suspendu
+track.suspended.tip=Ne nécessite pas de support en-dessous\n Peut traverser les trous
 track.switch=Rails d'aiguillage
 track.whistle=Rails siffleur
+track.whistle.tip=Les locomotives passant dessus produiront un sifflement\n§o§c- Appliquer de la Redstone pour activer -
 track.wye=Rails d'intersection
 
 wall.abyssal.brick=Mur de brique abyssale
@@ -662,7 +809,7 @@ wall.quartz.chiseled=Mur de quartz gravé
 wall.sandstone.chiseled=Mur de grès sculpté
 wall.sandstone.smooth=Mur de grès poli
 wall.sandstone=Mur de grès
-wall.sandy=Mur de brique sableuse
+wall.sandy.brick=Mur de brique sablé
 wall.snow=Mur de neige
 wall.stone.brick.chiseled=Mur de pierre sculpté
 wall.stone.brick.cracked=Mur de pierre taillées craquelées
