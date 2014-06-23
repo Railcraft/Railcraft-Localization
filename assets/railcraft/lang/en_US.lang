@@ -93,6 +93,7 @@ cart.energy.mfe=MFE Cart
 cart.energy.mfsu=MFSU Cart
 cart.furnace=Furnace Cart
 cart.gift=Gift Cart
+cart.loco.electric=Electric Locomotive
 cart.loco.steam.solid=Steam Locomotive
 cart.pumpkin=Pumpkin Cart
 cart.tank=Tank Cart
@@ -425,8 +426,9 @@ keybind.loco.slower=Locomotive Slower
 keybind.loco.mode=Locomotive Mode
 keybind.loco.whistle=Locomotive Whistle
 
-locomotive.model.steam.solid.default=Default Solid
-locomotive.model.steam.magic.default=Default Magic
+locomotive.model.electric.default=Standard Electric
+locomotive.model.steam.solid.default=Standard Solid
+locomotive.model.steam.magic.default=Standard Magic
 
 machine.alpha.anchor.admin=Admin Anchor
 machine.alpha.anchor.personal=Personal Anchor
