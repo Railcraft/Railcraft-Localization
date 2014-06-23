@@ -93,6 +93,7 @@ cart.energy.mfe=MFE-Waggon
 cart.energy.mfsu=MFSU-Waggon
 cart.furnace=Triebwagen
 cart.gift=Geschenkwagen
+cart.loco.electric=Elektrische Lokomotive
 cart.loco.steam.solid=Dampflokomotive
 cart.pumpkin=Kürbiswagen
 cart.tank=Tankwaggon
@@ -425,6 +426,7 @@ keybind.loco.slower=Lokomotive Langsamer
 keybind.loco.mode=Lokomotive Modus
 keybind.loco.whistle=Lokomotive Pfeife
 
+locomotive.model.electric.default=Standard Elektrisch
 locomotive.model.steam.solid.default=Standard Feststoff
 locomotive.model.steam.magic.default=Standard Magisch
 
