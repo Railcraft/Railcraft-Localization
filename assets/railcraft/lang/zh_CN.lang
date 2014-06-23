@@ -15,11 +15,11 @@ backpack.iceman.t1=冰原旅者背包
 backpack.iceman.t2=编织的冰原旅者背包
 backpack.trackman.t1=铁路工背包
 backpack.trackman.t2=编织的铁路工背包
-backpack.tooltip=Railcraft,Inc出品,必属精品.
+backpack.tooltip=Railcraft.Inc出品,必属精品。
 
 block.anvil=钢砧
 
-block.fluid.creosote=木榴油
+block.fluid.creosote=木馏油
 block.fluid.steam=蒸汽
 
 block.firestone.recharge=再充能火石
@@ -126,7 +126,7 @@ cube.brick.sandy=沙岩砖块(废弃)
 cube.coke=焦煤方块
 cube.coke.tip=57,600燃料单位
 cube.concrete=混凝土块
-cube.creosote=木榴油木方块
+cube.creosote=木馏油木方块
 cube.crushed.obsidian=碎黑曜石
 cube.crushed.obsidian.tip=阻止生物生成
 cube.steel=钢块
@@ -186,15 +186,15 @@ firestone.refined=精炼火石
 firestone.refined.tip.empty=它的能量是可控的,\n如果能进行再充能\n那就更有用了...
 firestone.refined.tip.charged=充满了能量,\n你只需施加意志力\n来释放热量...
 
-fluid.creosote=木榴油
+fluid.creosote=木馏油
 fluid.steam=蒸汽
 
-fluid.creosote.bottle=木榴油瓶
-fluid.creosote.bucket=木榴油桶
-fluid.creosote.can=木榴油罐
-fluid.creosote.cell=木榴油单元
-fluid.creosote.refactory=木榴油胶囊
-fluid.creosote.wax=木榴油胶囊
+fluid.creosote.bottle=木馏油瓶
+fluid.creosote.bucket=木馏油桶
+fluid.creosote.can=木馏油罐
+fluid.creosote.cell=木馏油单元
+fluid.creosote.refactory=木馏油耐火胶囊
+fluid.creosote.wax=木馏油蜡胶囊
 fluid.steam.bottle=蒸汽瓶
 
 fuel.coke=焦煤
@@ -343,6 +343,13 @@ gui.locomotive.tip.button.idle=机车会持续消耗燃料\n来保持热量.\n�
 gui.locomotive.tip.button.shutdown=关闭机车.\n 暂停一切运动,且\n开始进行冷却.\n这个过程会花一点时间.
 gui.locomotive.tip.button.locked=该车已经被\n{owner}绑定,\n 它只接受op或者绑定人的\n车票.
 gui.locomotive.tip.button.unlocked=点击来绑定列车.\n绑定后,它只接受op或者\n你的车票.
+gui.locomotive.tip.item.emblem=§o徽章:§r %s
+gui.locomotive.tip.item.model=§o模板:§r %s
+gui.locomotive.tip.item.model.default=默认模板
+gui.locomotive.tip.item.owner=§o主人:§r %s
+gui.locomotive.tip.item.primary=§o初级颜色:§r %s
+gui.locomotive.tip.item.secondary=§o二级颜色:§r %s
+gui.locomotive.tip.item.whistle=§o鸣笛音高:§r %s
 gui.locomotive.tip.slot.ticket=插入车票
 gui.mag.glass.placedby=%1$s被%2$s放置于此.
 gui.tip.button.lock.locked=该设备被\n{owner}绑定,\n它只接受其拥有者或op的操作.
@@ -386,6 +393,7 @@ gui.tip.tank.water=多方块结构:3x3x3(中空)
 gui.tip.turbine=多方块结构:3x2x2
 gui.track.embarking.radius=半径
 gui.track.priming.fuse=Fuse = %d ticks
+gui.trade.station.dice.tip=随机的交易组合
 gui.tuner.start=开始配对%s到接收器
 gui.tuner.stop=停止配对%s到接收器
 gui.tuner.success=%1$s成功与%2$s配对
@@ -397,14 +405,23 @@ gui.turbine.rotor=转子:
 
 ic2.upgrade.lapotron=兰波顿装载升级插件
 
+ingot.copper=铜锭
 ingot.steel=钢锭
+ingot.tin=锡锭
 
 item.synthetic=人造
+
+keybind.aura.anchor=锚光环
+keybind.aura.tuning=调谐光环
 
 keybind.loco.faster=机车加速
 keybind.loco.slower=机车减速
 keybind.loco.mode=机车模式切换
 keybind.loco.whistle=机车鸣笛
+
+locomotive.model.electric.default=标准电力
+locomotive.model.steam.solid.default=标准固体燃料
+locomotive.model.steam.magic.default=标准魔法
 
 machine.alpha.anchor.admin=管理员锚
 machine.alpha.anchor.personal=个人锚
@@ -420,6 +437,7 @@ machine.alpha.steam.oven=蒸汽炉
 machine.alpha.steam.trap=手动蒸汽陷阱
 machine.alpha.steam.trap.auto=自动蒸汽陷阱
 machine.alpha.tank.water=蓄水器壁板
+machine.alpha.trade.station=交易站
 machine.alpha.turbine=蒸汽涡轮机壳
 
 machine.beta.anchor.sentinel=拱卫之锚
@@ -589,7 +607,7 @@ slab.bloodstained.fitted=均称污血台阶
 slab.bloodstained.block=污血台阶
 slab.bloodstained.cobble=污血圆石台阶
 slab.concrete=混凝土台阶
-slab.creosote=木榴油方块台阶
+slab.creosote=木馏油方块台阶
 slab.diamond=钻石台阶
 slab.frostbound.brick=霜冻砖台阶
 slab.frostbound.fitted=匀称霜冻台阶
@@ -628,7 +646,7 @@ stair.bloodstained.fitted=匀称污血楼梯
 stair.bloodstained.block=污血楼梯
 stair.bloodstained.cobble=污血圆石楼梯
 stair.concrete=混凝土楼梯
-stair.creosote=木榴油方块楼梯
+stair.creosote=木馏油方块楼梯
 stair.diamond=钻石楼梯
 stair.frostbound.brick=霜冻砖楼梯
 stair.frostbound.fitted=匀称霜冻楼梯
