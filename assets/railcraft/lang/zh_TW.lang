@@ -95,6 +95,7 @@ cart.energy.mfe=MFE儲電車
 cart.energy.mfsu=MFSU儲電車
 cart.furnace=動力礦車
 cart.gift=禮物車
+cart.loco.electric=電力機車
 cart.loco.steam.solid=蒸氣機車
 cart.pumpkin=南瓜車
 cart.tank=蓄水車
@@ -401,6 +402,7 @@ gui.track.locking.mode.holding.train=列車臨停
 gui.track.locking.mode.boarding=發車
 gui.track.locking.mode.boarding.train=列車發車
 gui.track.priming.fuse=點燃秒數 = %d ticks
+gui.trade.station.dice.tip=隨機的交易
 gui.tuner.start=開始 %s 與接收器的配對
 gui.tuner.stop=停止 %s 與接收器的配對
 gui.tuner.success=%1$s 與 %2$s 配對成功
@@ -412,7 +414,9 @@ gui.turbine.rotor=轉子:
 
 ic2.upgrade.lapotron=容量升級晶片
 
+ingot.copper=銅錠
 ingot.steel=鋼錠
+ingot.tin=錫錠
 
 item.synthetic=人造
 
@@ -424,8 +428,9 @@ keybind.loco.slower=機車減速
 keybind.loco.mode=機車狀態切換
 keybind.loco.whistle=機車汽笛
 
-locomotive.model.steam.solid.default=Default Solid
-locomotive.model.steam.magic.default=Default Magic
+locomotive.model.electric.default=Standard Electric
+locomotive.model.steam.solid.default=Standard Solid
+locomotive.model.steam.magic.default=Standard Magic
 
 machine.alpha.anchor.admin=管理錨
 machine.alpha.anchor.personal=私人錨
@@ -476,8 +481,10 @@ multiblock.invalid.pattern=不符合格式： %s
 multiblock.invalid.entity=Entity in the way: %s
 multiblock.unknown.unloaded=結構未被完整讀取： %s
 
+nugget.copper=銅粒
 nugget.iron=鐵粒
 nugget.steel=鋼粒
+nugget.tin=錫粒
 
 obsolete=廢棄
 
@@ -485,7 +492,11 @@ ore.dark.diamond=暗淡鑽石礦
 ore.dark.emerald=暗淡綠寶石礦
 ore.dark.lapis=暗淡青金石礦
 ore.firestone=火石礦
-ore.firestone.tip=點燃生物以外的一切事物\n帶著他，會感覺到附近方塊產生變化...
+ore.firestone.tip=燒毀生物以外的一切事物\n帶著他，會感覺到附近方塊產生變化...
+ore.poor.copper=貧銅礦
+ore.poor.gold=貧金礦
+ore.poor.iron=貧鐵礦
+ore.poor.tin=貧錫礦
 ore.saltpeter=硝石礦
 ore.saltpeter.gen=硝石礦生塊磚
 ore.sulfur=硫磺礦
