@@ -343,6 +343,7 @@ gui.locomotive.tip.button.idle=Locomotive reduces fuel\n usage, but retains its 
 gui.locomotive.tip.button.shutdown=Shuts off the Locomotive.\n Halts all movement and\n begins the cool-down process.\n This can take some time.
 gui.locomotive.tip.button.locked=This cart is locked to\n {owner}.\n It will only accept Tickets\n issued by them or an Op.
 gui.locomotive.tip.button.unlocked=Click to lock Locomotive.\n Once locked, it will\n only accept Tickets\n issued by you or an Op.
+gui.locomotive.tip.button.private=This cart is private to\n {owner}.\n It can only be controlled\n by them or an Op.
 gui.locomotive.tip.slot.ticket=Insert Ticket
 gui.locomotive.tip.item.emblem=§oEmblem:§r %s
 gui.locomotive.tip.item.model=§oModel:§r %s
