@@ -343,6 +343,7 @@ gui.locomotive.tip.button.idle=Локомотив снижает\n расход 
 gui.locomotive.tip.button.shutdown=Отключает локомотив.\n Останавливает движение и\n начинает процесс охлаждения.\n Это может занять некоторое время.
 gui.locomotive.tip.button.locked=Эта вагонетка закрыта\n {owner}.\n Она будет принимать только билеты\n выпущенные Вами или Оператором.
 gui.locomotive.tip.button.unlocked=Нажмите, чтобы заблокировать локомотив.\n После закрытия, он будет\n принимать только билеты\n выпущенные Вами или Оператором.
+gui.locomotive.tip.button.private=Эта вагонетка принадлежит\n {owner}.\n Она может управляться только\n им или Оператором.
 gui.locomotive.tip.slot.ticket=Вставьте билет
 gui.locomotive.tip.item.emblem=§oЭмблема:§r %s
 gui.locomotive.tip.item.model=§oМодель:§r %s
