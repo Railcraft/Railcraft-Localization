@@ -343,6 +343,7 @@ gui.locomotive.tip.button.idle=Lokomotive verbraucht Kraftstoff,\n behält aber 
 gui.locomotive.tip.button.shutdown=Schaltet die Lokomotive aus.\n Stoppt alle Bewegungen und\n beginnt den Abkühlprozess.\n Dies kann einge Zeit dauern.
 gui.locomotive.tip.button.locked=Dieses Gerät wurde gesperrt von\n {owner}.\n Es wird ein gültiges Ticket benötigt,\n welches von ihm oder einem Op ausgestellt wurde.
 gui.locomotive.tip.button.unlocked=Klicken zum Sperren des Geräts.\n Es kann dann nur mit einem \n gültigen Ticket ausgestellt\n von Dir oder einem Op benutzt werden.
+gui.locomotive.tip.button.private=Dieser Waggon ist privat für\n {owner}.\n Er kann nur von dieser Person\n oder einem Op kontrolliert werden.
 gui.locomotive.tip.slot.ticket=Ticket einf§gen
 gui.locomotive.tip.item.emblem=§oEmblem:§r %s
 gui.locomotive.tip.item.model=§oModell:§r %s
