@@ -1,5 +1,5 @@
 # Parent Language: en_US
 
-dust.sulfur=Sulphur
+item.railcraft.dust.sulfur.name=Sulphur
 
-ore.sulfur=Sulphur Ore
+tile.railcraft.ore.sulfur.name=Sulphur Ore
