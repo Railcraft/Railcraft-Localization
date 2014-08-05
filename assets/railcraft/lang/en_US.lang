@@ -260,6 +260,7 @@ railcraft.gui.detector.tank.tip.most=Match more than 3/4th full tanks
 railcraft.gui.detector.tank.tip.not.empty=Match non-empty tanks
 railcraft.gui.detector.tank.tip.quarter=Match more than quarter full tanks
 railcraft.gui.detector.tank.tip.void=Match any amount
+railcraft.gui.detector.train.size=Train Size = %d
 railcraft.gui.detector.villager.any=Any
 railcraft.gui.detector.villager.equals=Equals
 railcraft.gui.detector.villager.none=None
@@ -292,6 +293,8 @@ railcraft.gui.goggles.mode=Current Aura: %s
 railcraft.gui.goggles.tip=Use from hotbar to change Auras
 
 railcraft.gui.help=Help
+
+railcraft.gui.ic2.energy.rate=Rate: %.2f
 
 railcraft.gui.item.loader.all.tip=Move all matching items
 railcraft.gui.item.loader.all=All
@@ -459,6 +462,8 @@ tile.goldenRail.name=Booster Track
 tile.rail.name=Track
 
 tile.railcraft.anvil.intact.name=Steel Anvil
+tile.railcraft.anvil.slightlyDamaged.name=Slightly Damaged Anvil
+tile.railcraft.anvil.veryDamaged.name=Very Damaged Anvil
 
 tile.railcraft.brick.abyssal.block.name=Abyssal Block
 tile.railcraft.brick.abyssal.brick.name=Abyssal Brick
