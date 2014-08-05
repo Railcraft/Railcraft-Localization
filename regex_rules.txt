@@ -68,3 +68,4 @@
 -s[^gates] -r[railcraft.gates]
 -s[^locomotive.(.*)=] -r[railcraft.locomotive.\1.name=]
 -s[^obsolete=(.*)] -r[]
+-s[^item.railcraft.crowbar.tip=] -r[item.railcraft.tool.crowbar.tip=]

@@ -19,3 +19,6 @@ Todo:
 	Item Detector Tool Tips
 	Animal Detector Localization/Rewrite
 	Mob Detector Localization/Rewrite
+
+Notes:
+	Language inheritance system is gone. I'm not really aware of a simple way to reimplement it in the framework of the vanilla localization library. Child languages will require their own files for the moment.
