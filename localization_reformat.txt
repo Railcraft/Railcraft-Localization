@@ -5,9 +5,9 @@ Options File:
 	regex_rules.txt
 
 Command Line:
-	rxrepl -f .\en_US.lang -a -m line --options ..\..\..\regex_rules.txt --no-backup
+	rxrepl -f .\en_US.lang -a -m line -e utf8 --output-encoding utf8 --no-bom --options ..\..\..\regex_rules.txt --no-backup
 	- OR -
-	rxrepl -D . -I *.lang -a -m line --options ..\..\..\regex_rules.txt --no-backup
+	>rxrepl -D . -I *.lang -a -m line -e utf8 --output-encoding utf8 --no-bom --options ..\..\..\regex_rules.txt --no-backup
 
 New Tags:
 	railcraft.gui.ic2.energy.rate=Rate: %.2f
