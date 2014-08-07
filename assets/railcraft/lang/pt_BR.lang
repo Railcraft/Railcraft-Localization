@@ -1,8 +1,8 @@
 # Parent Language: pt_PT
 # Translated by Cassiobsk8
 
-item.railcraft.cart.anchor.name=Vagão ÿncora
-entity.Railcraft.cart.anchor.name=Vagão ÿncora
+item.railcraft.cart.anchor.name=Vagão Âncora
+entity.Railcraft.cart.anchor.name=Vagão Âncora
 item.railcraft.cart.basic.name=Vagão
 entity.Railcraft.cart.basic.name=Vagão
 item.railcraft.cart.energy.batbox.name=Vagão Batbox
@@ -120,7 +120,7 @@ tile.railcraft.machine.alpha.feed.station.name=Estação de Alimentação
 tile.railcraft.machine.alpha.rock.crusher.name=Esmagador de Pedras
 tile.railcraft.machine.alpha.rolling.machine.name=Máquina Roladora
 tile.railcraft.machine.alpha.tank.water.name=Parede do Tanque de Água
-tile.railcraft.machine.alpha.anchor.world.name=ÿncora Mundial
+tile.railcraft.machine.alpha.anchor.world.name=Âncora Mundial
 
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Forno para Liquidos
 tile.railcraft.machine.beta.boiler.firebox.solid.name=Forno para Sólidos
@@ -190,12 +190,12 @@ tile.railcraft.track.disposal.name=Trilho de Disposição
 tile.railcraft.track.elevator.name=Trilho Elevador
 tile.railcraft.track.embarking.name=Trilho de Embarque
 tile.railcraft.track.gated.name=Trilho com Portão
-tile.railcraft.track.gated.oneway.name=Trilho com Portão Via-ÿnica 
+tile.railcraft.track.gated.oneway.name=Trilho com Portão Via-Única 
 tile.railcraft.track.holding.name=Trilho de Frenagem
 tile.railcraft.track.holding.train.name=Trilho de Frenagem de Trens
 tile.railcraft.track.junction.name=Trilho de Cruzamento
 tile.railcraft.track.launcher.name=Trilho Catapulta
-tile.railcraft.track.oneway.name=Trilho Mão-ÿnica
+tile.railcraft.track.oneway.name=Trilho Mão-Única
 tile.goldenRail.name=Trilho de Aceleração
 tile.railcraft.track.priming.name=Trilho de Acionamento
 tile.railcraft.track.reinforced.name=Trilho Reforçado
