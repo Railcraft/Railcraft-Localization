@@ -1,0 +1,24 @@
+Program Used:
+	https://sites.google.com/site/regexreplace/
+
+Options File:
+	regex_rules.txt
+
+Command Line:
+	rxrepl -f .\en_US.lang -a -m line -e utf8 --output-encoding utf8 --no-bom --options ..\..\..\regex_rules.txt --no-backup
+	- OR -
+	>rxrepl -D . -I *.lang -a -m line -e utf8 --output-encoding utf8 --no-bom --options ..\..\..\regex_rules.txt --no-backup
+
+New Tags:
+	railcraft.gui.ic2.energy.rate=Rate: %.2f
+	railcraft.gui.detector.train.size=Train Size = %d
+	tile.railcraft.anvil.slightlyDamaged.name=Slightly Damaged Anvil
+	tile.railcraft.anvil.veryDamaged.name=Very Damaged Anvil
+
+Todo:
+	Item Detector Tool Tips
+	Animal Detector Localization/Rewrite
+	Mob Detector Localization/Rewrite
+
+Notes:
+	Language inheritance system is gone. I'm not really aware of a simple way to reimplement it in the framework of the vanilla localization library. Child languages will require their own files for the moment.
