@@ -249,6 +249,14 @@ railcraft.gui.anchor.pair.fail.alignment=@1$s ist nicht mit @2$s in der gleichen
 railcraft.gui.anchor.pair.fail.distance=@1$s ist zu weit weg, um mit @2$s gekoppelt zu werden
 railcraft.gui.anchor.pair.start=@s Kopplung eingeleitet
 railcraft.gui.anchor.pair.success=@s wurde erfolgreich gekoppelt
+
+railcraft.gui.aspect.green.name=Grün
+railcraft.gui.aspect.blink.yellow.name=Gelb blinkend
+railcraft.gui.aspect.yellow.name=Gelb
+railcraft.gui.aspect.blink.red.name=Rot blinkend
+railcraft.gui.aspect.red.name=Rot
+railcraft.gui.aspect.off.name=Aus
+
 railcraft.gui.anchor.fuel=Enderperlen
 railcraft.gui.anchor.fuel.remaining=@.2f Stunden
 railcraft.gui.aura.enable=@s Signal An
