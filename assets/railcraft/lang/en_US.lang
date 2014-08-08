@@ -212,12 +212,12 @@ railcraft.gui.anchor.pair.fail.distance=@1$s is too far to pair with that @2$s
 railcraft.gui.anchor.pair.start=@s pairing was initiated
 railcraft.gui.anchor.pair.success=@s was successfully paired
 
-railcraft.gui.aspect.green.name=Green
-railcraft.gui.aspect.blink.yellow.name=Blink Yellow
-railcraft.gui.aspect.yellow.name=Yellow
 railcraft.gui.aspect.blink.red.name=Blink Red
-railcraft.gui.aspect.red.name=Red
+railcraft.gui.aspect.blink.yellow.name=Blink Yellow
+railcraft.gui.aspect.green.name=Green
 railcraft.gui.aspect.off.name=Off
+railcraft.gui.aspect.red.name=Red
+railcraft.gui.aspect.yellow.name=Yellow
 
 railcraft.gui.aura.disable=@s Aura Off
 railcraft.gui.aura.enable=@s Aura On
