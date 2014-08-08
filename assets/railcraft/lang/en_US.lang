@@ -215,7 +215,7 @@ railcraft.gui.anchor.pair.success=@s was successfully paired
 railcraft.gui.aspect.green.name=Green
 railcraft.gui.aspect.blink.yellow.name=Blink Yellow
 railcraft.gui.aspect.yellow.name=Yellow
-railcraft.gui.aspect.blink.yellow.name=Blink Yellow
+railcraft.gui.aspect.blink.red.name=Blink Red
 railcraft.gui.aspect.red.name=Red
 railcraft.gui.aspect.off.name=Off
 
