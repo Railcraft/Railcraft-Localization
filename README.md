@@ -12,7 +12,7 @@ Other editors may not save files in the correct format (Notepad, Wordpad, etc...
 While editing a language file, you can simply drop it in the ".minecraft/config/railcraft/lang" folder and the game will load it automatically, overriding any existing translations.
 
 ### Java Formatting Tags
-You may notice some translation entries have strange characters such as "%s" or "%2$s". These are Java Formatting Tags. They will be replaced with another variable at run time. They can be used to reorder or format messages and the like.
+You may notice some translation entries have strange characters such as "@s" or "@2$s". These are identical to Java Formatting Tags, but with '@' replacing '%' for technical reasons. They will be replaced with another variable at run time. They can be used to reorder or format messages and the like.
 
 More information can be found [here](http://docs.oracle.com/javase/6/docs/api/java/util/Formatter.html).
 

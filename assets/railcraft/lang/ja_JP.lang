@@ -105,7 +105,7 @@ railcraft.gui.tank.water=水タンク
 railcraft.gui.ticks=ticks
 railcraft.gui.track.embarking.radius=半径
 railcraft.gui.turbine=蒸気タービン
-railcraft.gui.turbine.output=出力: %d%%
+railcraft.gui.turbine.output=出力: @d@@
 railcraft.gui.turbine.rotor=ローター:
 
 item.railcraft.upgrade.lapotron=ラポトロンローダーアップグレード

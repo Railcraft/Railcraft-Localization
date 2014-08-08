@@ -165,23 +165,23 @@ railcraft.color.red=Red
 railcraft.color.white=White
 railcraft.color.yellow=Yellow
 
-railcraft.damage.bore.1=%s got in the way of progress
-railcraft.damage.bore.2=%s tried to stop the Bore
-railcraft.damage.bore.3=%s was crushed by the Bore
-railcraft.damage.bore.4=%s thought he could do better than John Henry
-railcraft.damage.bore.5=%s got stuck between a rock and a hard place
+railcraft.damage.bore.1=@s got in the way of progress
+railcraft.damage.bore.2=@s tried to stop the Bore
+railcraft.damage.bore.3=@s was crushed by the Bore
+railcraft.damage.bore.4=@s thought he could do better than John Henry
+railcraft.damage.bore.5=@s got stuck between a rock and a hard place
 
-railcraft.damage.steam.1=%s got cooked, nice and juicy
-railcraft.damage.steam.2=%s is not immune to high temperatures, despite claims to the contrary
-railcraft.damage.steam.3=%s discovered how painful Steam can be
-railcraft.damage.steam.4=%s had an industrial accident
-railcraft.damage.steam.5=%s probably shouldn't have stepped there
+railcraft.damage.steam.1=@s got cooked, nice and juicy
+railcraft.damage.steam.2=@s is not immune to high temperatures, despite claims to the contrary
+railcraft.damage.steam.3=@s discovered how painful Steam can be
+railcraft.damage.steam.4=@s had an industrial accident
+railcraft.damage.steam.5=@s probably shouldn't have stepped there
 
-railcraft.damage.train.1=%s got hit by a train
-railcraft.damage.train.2=%s was playing on the tracks
-railcraft.damage.train.3=%s played chicken with a train; the train won
-railcraft.damage.train.4=%s caught the wrong train
-railcraft.damage.train.5=%s bought a one-way ticket to the afterlife
+railcraft.damage.train.1=@s got hit by a train
+railcraft.damage.train.2=@s was playing on the tracks
+railcraft.damage.train.3=@s played chicken with a train; the train won
+railcraft.damage.train.4=@s caught the wrong train
+railcraft.damage.train.5=@s bought a one-way ticket to the afterlife
 
 railcraft.gates.action.pause=Pause Work
 railcraft.gates.action.sendcart=Send Cart
@@ -205,15 +205,22 @@ railcraft.gates.trigger.temp.hot=Hot
 railcraft.gates.trigger.temp.warm=Warm
 railcraft.gates.trigger.work=Has Work
 
-railcraft.gui.anchor.fuel.remaining=%.2f hours
+railcraft.gui.anchor.fuel.remaining=@.2f hours
 railcraft.gui.anchor.fuel=Ender Pearls
-railcraft.gui.anchor.pair.fail.alignment=%1$s is not axis aligned with that %2$s
-railcraft.gui.anchor.pair.fail.distance=%1$s is too far to pair with that %2$s
-railcraft.gui.anchor.pair.start=%s pairing was initiated
-railcraft.gui.anchor.pair.success=%s was successfully paired
+railcraft.gui.anchor.pair.fail.alignment=@1$s is not axis aligned with that @2$s
+railcraft.gui.anchor.pair.fail.distance=@1$s is too far to pair with that @2$s
+railcraft.gui.anchor.pair.start=@s pairing was initiated
+railcraft.gui.anchor.pair.success=@s was successfully paired
 
-railcraft.gui.aura.disable=%s Aura Off
-railcraft.gui.aura.enable=%s Aura On
+railcraft.gui.aspect.green.name=Green
+railcraft.gui.aspect.blink.yellow.name=Blink Yellow
+railcraft.gui.aspect.yellow.name=Yellow
+railcraft.gui.aspect.blink.yellow.name=Blink Yellow
+railcraft.gui.aspect.red.name=Red
+railcraft.gui.aspect.off.name=Off
+
+railcraft.gui.aura.disable=@s Aura Off
+railcraft.gui.aura.enable=@s Aura On
 
 railcraft.gui.blast.furnace=Blast Furnace
 
@@ -223,7 +230,7 @@ railcraft.gui.bore.head=Head
 railcraft.gui.bore.track=Track
 
 railcraft.gui.box.aspect.action=Emit Redstone on Aspect
-railcraft.gui.box.capacitor.duration=Emit Redstone for %d seconds
+railcraft.gui.box.capacitor.duration=Emit Redstone for @d seconds
 railcraft.gui.box.controller.aspect.default=Default Aspect:
 railcraft.gui.box.controller.aspect.redstone=Redstone Aspect:
 
@@ -260,7 +267,7 @@ railcraft.gui.detector.tank.tip.most=Match more than 3/4th full tanks
 railcraft.gui.detector.tank.tip.not.empty=Match non-empty tanks
 railcraft.gui.detector.tank.tip.quarter=Match more than quarter full tanks
 railcraft.gui.detector.tank.tip.void=Match any amount
-railcraft.gui.detector.train.size=Train Size = %d
+railcraft.gui.detector.train.size=Train Size = @d
 railcraft.gui.detector.villager.any=Any
 railcraft.gui.detector.villager.equals=Equals
 railcraft.gui.detector.villager.none=None
@@ -289,12 +296,12 @@ railcraft.gui.goggles.aura.anchor=Anchor
 railcraft.gui.goggles.aura.none=None
 railcraft.gui.goggles.aura.tracking=Tracking
 railcraft.gui.goggles.aura.tuning=Tuning
-railcraft.gui.goggles.mode=Current Aura: %s
+railcraft.gui.goggles.mode=Current Aura: @s
 railcraft.gui.goggles.tip=Use from hotbar to change Auras
 
 railcraft.gui.help=Help
 
-railcraft.gui.ic2.energy.rate=Rate: %.2f
+railcraft.gui.ic2.energy.rate=Rate: @.2f
 
 railcraft.gui.item.loader.all.tip=Move all matching items
 railcraft.gui.item.loader.all=All
@@ -344,16 +351,16 @@ railcraft.gui.locomotive.tip.button.private=This cart is private to\n {owner}.\n
 railcraft.gui.locomotive.tip.button.running=Makes the Locomotive move.
 railcraft.gui.locomotive.tip.button.shutdown=Shuts off the Locomotive.\n Halts all movement and\n begins the cool-down process.\n This can take some time.
 railcraft.gui.locomotive.tip.button.unlocked=Click to lock Locomotive.\n Once locked, it will\n only accept Tickets\n issued by you or an Op.
-railcraft.gui.locomotive.tip.item.emblem=§oEmblem:§r %s
+railcraft.gui.locomotive.tip.item.emblem=§oEmblem:§r @s
 railcraft.gui.locomotive.tip.item.model.default=Default Model
-railcraft.gui.locomotive.tip.item.model=§oModel:§r %s
-railcraft.gui.locomotive.tip.item.owner=§oOwner:§r %s
-railcraft.gui.locomotive.tip.item.primary=§oPrimary Color:§r %s
-railcraft.gui.locomotive.tip.item.secondary=§oSecondary Color:§r %s
-railcraft.gui.locomotive.tip.item.whistle=§oWhistle Pitch:§r %s
+railcraft.gui.locomotive.tip.item.model=§oModel:§r @s
+railcraft.gui.locomotive.tip.item.owner=§oOwner:§r @s
+railcraft.gui.locomotive.tip.item.primary=§oPrimary Color:§r @s
+railcraft.gui.locomotive.tip.item.secondary=§oSecondary Color:§r @s
+railcraft.gui.locomotive.tip.item.whistle=§oWhistle Pitch:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Insert Ticket
 
-railcraft.gui.mag.glass.placedby=%1$s was placed by %2$s
+railcraft.gui.mag.glass.placedby=@1$s was placed by @2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-click to craft-
 
@@ -362,7 +369,7 @@ railcraft.gui.routing.logic.insufficient.operands=Insufficient Operands
 railcraft.gui.routing.logic.malformed.syntax=Malformed Syntax
 railcraft.gui.routing.logic.unrecognized.keyword=Unrecognized Keyword
 railcraft.gui.routing.slot.label=Routing Table
-railcraft.gui.routing.table.editor=Last edited by %s
+railcraft.gui.routing.table.editor=Last edited by @s
 railcraft.gui.routing.table.manual.page1=The Routing Table when placed in a Routing Detector or Switch will define a set of rules that are used to match against any passing Locomotive. These rules are define using a simple logic syntax that allows you to create rules as simple or complex as you like. The syntax is a Prefix Notation script, the Operators are followed by the Operands. Only one keyword is allowed per line. If no Operator is specified, OR is assumed. Routing Tables can be copied by placing two or more in a crafting grid.
 railcraft.gui.routing.table.manual.page2=Operator Keywords:\n   AND - Two Operands, both must be true.\n   OR - Two Operands, one must be true.\n   NOT - Invert the following Operand.
 railcraft.gui.routing.table.manual.page3=Condition Keywords:\n   Dest=<string>\n      If the Locomotive's Destination\n      string starts with this string,\n      the condition is true.\n      "Dest=null" will match carts\n      with no destination.\n   Owner=<username>\n      True if the Locomotive belongs\n      to this person.\n   Name=<entityname>\n      True if it matches the\n      Minecart's name.
@@ -396,7 +403,7 @@ railcraft.gui.surveyor.begin=Beginning Signal Block Survey
 railcraft.gui.surveyor.invalid=Signal Block is not valid
 railcraft.gui.surveyor.lost=First Signal no longer exists, abandoning Survey
 railcraft.gui.surveyor.success=Successfully defined Signal Block
-railcraft.gui.surveyor.track=No track found near %s
+railcraft.gui.surveyor.track=No track found near @s
 railcraft.gui.surveyor.unloaded=First Signal is not in a loaded Chunk
 railcraft.gui.surveyor.wrong=Not a valid Block Signal
 
@@ -413,24 +420,24 @@ railcraft.gui.tip.button.lock.notowner=You are not the\n owner of this device.\n
 railcraft.gui.tip.button.lock.unlocked=Click to lock device.\n Once locked, it can\n only be accessed by\n you or an Op.
 
 railcraft.gui.track.embarking.radius=Radius
-railcraft.gui.track.locking.change=Changed to %s Mode
+railcraft.gui.track.locking.change=Changed to @s Mode
 railcraft.gui.track.locking.mode.boarding.train=Train Boarding
 railcraft.gui.track.locking.mode.boarding=Boarding
 railcraft.gui.track.locking.mode.holding.train=Train Holding
 railcraft.gui.track.locking.mode.holding=Holding
 railcraft.gui.track.locking.mode.lockdown.train=Train Lockdown
 railcraft.gui.track.locking.mode.lockdown=Lockdown
-railcraft.gui.track.priming.fuse=Fuse = %d ticks
+railcraft.gui.track.priming.fuse=Fuse = @d ticks
 
 railcraft.gui.trade.station.dice.tip=Random Trade
 
 railcraft.gui.tuner.abandon.chunk=Controller is not in a loaded Chunk, abandoning pairing
 railcraft.gui.tuner.abandon.gone=Controller no longer exists, abandoning pairing
-railcraft.gui.tuner.start=Started pairing %s with a Receiver
-railcraft.gui.tuner.stop=Stopped pairing %s with a Receiver
-railcraft.gui.tuner.success=%1$s successfully paired with %2$s
+railcraft.gui.tuner.start=Started pairing @s with a Receiver
+railcraft.gui.tuner.stop=Stopped pairing @s with a Receiver
+railcraft.gui.tuner.success=@1$s successfully paired with @2$s
 
-railcraft.gui.turbine.output=Output: %d%%
+railcraft.gui.turbine.output=Output: @d@@
 railcraft.gui.turbine.rotor=Rotor:
 railcraft.gui.turbine=Steam Turbine
 
@@ -446,9 +453,9 @@ railcraft.locomotive.model.electric.default.name=Standard Electric
 railcraft.locomotive.model.steam.magic.default.name=Standard Magic
 railcraft.locomotive.model.steam.solid.default.name=Standard Solid
 
-railcraft.multiblock.state.invalid.entity=Entity in the way: %s
-railcraft.multiblock.state.invalid.pattern=Does not match pattern: %s
-railcraft.multiblock.state.unknown.unloaded=Part of the structure is not loaded: %s
+railcraft.multiblock.state.invalid.entity=Entity in the way: @s
+railcraft.multiblock.state.invalid.pattern=Does not match pattern: @s
+railcraft.multiblock.state.unknown.unloaded=Part of the structure is not loaded: @s
 railcraft.multiblock.state.valid=Structure is valid
 
 tc.research.category.RAILCRAFT=Traheremagy
@@ -830,7 +837,7 @@ tile.railcraft.track.reinforced.boost.name=Reinforced Booster Track
 tile.railcraft.track.reinforced.junction.name=Reinforced Junction Track
 tile.railcraft.track.reinforced.name=Reinforced Track
 tile.railcraft.track.reinforced.switch.name=Reinforced Switch Track
-tile.railcraft.track.reinforced.tip=25% faster than normal track\n Explosion resistant
+tile.railcraft.track.reinforced.tip=25@ faster than normal track\n Explosion resistant
 tile.railcraft.track.reinforced.wye.name=Reinforced Wye Track
 tile.railcraft.track.routing.name=Routing Track
 tile.railcraft.track.routing.tip=Sets a passing Locomotive's Ticket\n§o§9- Hit with Crowbar to change ticket -
