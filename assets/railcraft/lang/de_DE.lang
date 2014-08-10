@@ -528,6 +528,7 @@ tile.railcraft.ore.saltpeter.name=Salpetererz
 tile.railcraft.worldlogic.name=Salpetererz-Spawner
 tile.railcraft.ore.sulfur.name=Schwefelerz
 
+item.railcraft.part.bleached.clay.name=Gebleichter Lehm
 item.railcraft.part.circuit.controller.name=Steuerschaltung
 item.railcraft.part.circuit.receiver.name=Empfängerschaltung
 item.railcraft.part.circuit.signal.name=Signalstromkreis
