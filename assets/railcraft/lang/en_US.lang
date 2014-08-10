@@ -101,6 +101,7 @@ item.railcraft.nugget.iron.name=Iron Nugget
 item.railcraft.nugget.steel.name=Steel Nugget
 item.railcraft.nugget.tin.name=Tin Nugget
 
+item.railcraft.part.bleached.clay.name=Bleached Clay
 item.railcraft.part.circuit.controller.name=Controller Circuit
 item.railcraft.part.circuit.receiver.name=Receiver Circuit
 item.railcraft.part.circuit.signal.name=Signal Circuit
