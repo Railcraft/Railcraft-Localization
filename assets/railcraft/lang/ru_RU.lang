@@ -34,7 +34,7 @@ item.railcraft.backpack.apothecary.t1.name=Рюкзак фармацевта
 item.railcraft.backpack.apothecary.t2.name=Тканный рюкзак фармацевта
 item.railcraft.backpack.iceman.t1.name=Рюкзак альпиниста
 item.railcraft.backpack.iceman.t2.name=Тканый рюкзак альпиниста
-item.railcraft.backpack.tooltip.name=Дизайн Railcraft, Inc.
+item.railcraft.backpack.tip=Дизайн Railcraft, Inc.
 item.railcraft.backpack.trackman.t1.name=Рюкзак обходчика путей
 item.railcraft.backpack.trackman.t2.name=Тканый рюкзак обходчика путей
 

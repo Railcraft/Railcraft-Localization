@@ -15,7 +15,7 @@ item.railcraft.backpack.iceman.t1.name=冰原旅者背包
 item.railcraft.backpack.iceman.t2.name=编织的冰原旅者背包
 item.railcraft.backpack.trackman.t1.name=铁路工背包
 item.railcraft.backpack.trackman.t2.name=编织的铁路工背包
-item.railcraft.backpack.tooltip.name=Railcraft.Inc出品,必属精品.
+item.railcraft.backpack.tip=Railcraft.Inc出品,必属精品.
 
 tile.railcraft.anvil.intact.name=钢砧
 

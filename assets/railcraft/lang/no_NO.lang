@@ -15,7 +15,7 @@ item.railcraft.backpack.iceman.t1.name=Arktisk ryggsekk
 item.railcraft.backpack.iceman.t2.name=Sammensydd arktisk ryggsekk
 item.railcraft.backpack.trackman.t1.name=Togarbeiderens ryggsekk
 item.railcraft.backpack.trackman.t2.name=Sammensydd togarbeider ryggsekk
-item.railcraft.backpack.tooltip.name=Designet av Railcraft, Inc.
+item.railcraft.backpack.tip=Designet av Railcraft, Inc.
 
 tile.railcraft.anvil.intact.name=Steel Anvil
 

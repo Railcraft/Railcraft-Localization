@@ -34,7 +34,7 @@ item.railcraft.backpack.apothecary.t1.name=Apotheker-Rucksack
 item.railcraft.backpack.apothecary.t2.name=Gewebter Apotheker-Rucksack
 item.railcraft.backpack.iceman.t1.name=Arktischer Rucksack
 item.railcraft.backpack.iceman.t2.name=Gewebter arktischer Rucksack
-item.railcraft.backpack.tooltip.name=Designed by Railcraft, Inc.
+item.railcraft.backpack.tip=Designed by Railcraft, Inc.
 item.railcraft.backpack.trackman.t1.name=Schienenwart-Rucksack
 item.railcraft.backpack.trackman.t2.name=Gewebter Schienenwart-Rucksack
 

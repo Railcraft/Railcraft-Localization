@@ -13,7 +13,7 @@ item.railcraft.backpack.iceman.t1.name=아이스맨 배낭
 item.railcraft.backpack.iceman.t2.name=손상된 아이스맨 배낭
 item.railcraft.backpack.trackman.t1.name=선로공 배낭
 item.railcraft.backpack.trackman.t2.name=손상된 선로공 배낭
-item.railcraft.backpack.tooltip.name=Railcraft, Inc. 에서 디자인
+item.railcraft.backpack.tip=Railcraft, Inc. 에서 디자인
 
 tile.railcraft.residual.heat.name=잔열
 

@@ -14,7 +14,7 @@ item.railcraft.backpack.iceman.t1.name=Ledenjakov Ranac
 item.railcraft.backpack.iceman.t2.name=Tkani Ledenjakov Ranac
 item.railcraft.backpack.trackman.t1.name=Železnički Ranac
 item.railcraft.backpack.trackman.t2.name=Tkani Železnički Ranac
-item.railcraft.backpack.tooltip.name=Dizajnirano od strane Railcraft, d.o.o.
+item.railcraft.backpack.tip=Dizajnirano od strane Railcraft, d.o.o.
 
 item.railcraft.cart.anchor.name=Vagon sa Sidrom
 entity.Railcraft.cart.anchor.name=Vagon sa Sidrom

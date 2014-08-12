@@ -14,7 +14,7 @@ item.railcraft.backpack.iceman.t1.name=Plecak Człowieka Lodu
 item.railcraft.backpack.iceman.t2.name=Tkany Plecak Człowieka Lodu
 item.railcraft.backpack.trackman.t1.name=Plecak Kolejarza
 item.railcraft.backpack.trackman.t2.name=Tkany Plecak Kolejarza
-item.railcraft.backpack.tooltip.name=Designed by Railcraft, Inc.
+item.railcraft.backpack.tip=Designed by Railcraft, Inc.
 
 item.railcraft.cart.anchor.name=Wagon Kotwica
 entity.Railcraft.cart.anchor.name=Wagon Kotwica
