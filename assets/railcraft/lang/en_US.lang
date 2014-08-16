@@ -136,6 +136,7 @@ item.railcraft.tool.crowbar.reinforced.name=Reinforced Crowbar
 item.railcraft.tool.crowbar.tip=§oright click while sneaking to link carts
 item.railcraft.tool.magnifying.glass.name=Magnifying Glass
 item.railcraft.tool.signal.tuner.name=Signal Tuner
+item.railcraft.tool.signal.tuner.tip=Links Controllers to Receivers
 item.railcraft.tool.steel.axe.name=Steel Axe
 item.railcraft.tool.steel.hoe.name=Steel Hoe
 item.railcraft.tool.steel.pickaxe.name=Steel Pickaxe
@@ -143,6 +144,7 @@ item.railcraft.tool.steel.shears.name=Steel Shears
 item.railcraft.tool.steel.shovel.name=Steel Shovel
 item.railcraft.tool.steel.sword.name=Steel Sword
 item.railcraft.tool.surveyor.name=Signal Block Surveyor
+item.railcraft.tool.surveyor.tip=Links Signals into Signal Blocks
 item.railcraft.tool.whistle.tuner.name=Whistle Tuner
 
 item.railcraft.upgrade.lapotron=Lapotron Loader Upgrade
