@@ -136,6 +136,7 @@ item.railcraft.tool.crowbar.reinforced.name=Verstärktes Brecheisen
 item.railcraft.tool.crowbar.tip=§oRechtsklicke schleichend, um Waggons zu verbinden
 item.railcraft.tool.magnifying.glass.name=Lupe
 item.railcraft.tool.signal.tuner.name=Abstimmgerät
+item.railcraft.tool.signal.tuner.tip=Verbindet Signalsender und -empfänger
 item.railcraft.tool.steel.axe.name=Stahlaxt
 item.railcraft.tool.steel.hoe.name=Stahlsense
 item.railcraft.tool.steel.pickaxe.name=Stahlspitzhacke
@@ -143,6 +144,7 @@ item.railcraft.tool.steel.shears.name=Stahlschere
 item.railcraft.tool.steel.shovel.name=Stahlschaufel
 item.railcraft.tool.steel.sword.name=Stahlschwert
 item.railcraft.tool.surveyor.name=Signalblockvermesser
+item.railcraft.tool.surveyor.tip=Verbindet Signale zu Signalblöcken
 item.railcraft.tool.whistle.tuner.name=Pfeifenstimmer
 
 item.railcraft.upgrade.lapotron=Lapotron-Ladeupgrade
