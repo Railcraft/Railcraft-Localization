@@ -136,6 +136,7 @@ item.railcraft.tool.crowbar.reinforced.name=Армированная монти�
 item.railcraft.tool.crowbar.tip=§oНажмите ПКМ, держа Shift, чтобы соединить вагонетки
 item.railcraft.tool.magnifying.glass.name=Лупа
 item.railcraft.tool.signal.tuner.name=Настройщик сигнала
+item.railcraft.tool.signal.tuner.tip=Соединяет контроллеры с приёмниками
 item.railcraft.tool.steel.axe.name=Стальной топор
 item.railcraft.tool.steel.hoe.name=Стальная мотыга
 item.railcraft.tool.steel.pickaxe.name=Стальная кирка
@@ -143,6 +144,7 @@ item.railcraft.tool.steel.shears.name=Стальные ножницы
 item.railcraft.tool.steel.shovel.name=Стальная лопата
 item.railcraft.tool.steel.sword.name=Стальной меч
 item.railcraft.tool.surveyor.name=Блок сигнальной привязки
+item.railcraft.tool.surveyor.tip=Соединяет сигналы в сигнальные блоки
 item.railcraft.tool.whistle.tuner.name=Настройщик свистка
 
 item.railcraft.upgrade.lapotron=Лапотроновое улучшение энергоёмкости
