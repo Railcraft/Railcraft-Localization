@@ -134,6 +134,7 @@ item.railcraft.tool.crowbar.magic.name=Thaumium Crowbar
 item.railcraft.tool.crowbar.name=Crowbar
 item.railcraft.tool.crowbar.reinforced.name=Reinforced Crowbar
 item.railcraft.tool.crowbar.tip=§oright click while sneaking to link carts
+item.railcraft.tool.electric.meter.name=Electric Meter
 item.railcraft.tool.magnifying.glass.name=Magnifying Glass
 item.railcraft.tool.signal.tuner.name=Signal Tuner
 item.railcraft.tool.signal.tuner.tip=Links Controllers to Receivers
@@ -275,6 +276,8 @@ railcraft.gui.detector.villager.any=Any
 railcraft.gui.detector.villager.equals=Equals
 railcraft.gui.detector.villager.none=None
 railcraft.gui.detector.villager.not=Not
+
+railcraft.gui.electric.meter.charge=Charge = @.2f / @.2f
 
 railcraft.gui.energy.loader.empty=Hold Empty
 railcraft.gui.energy.loader.fill=Top Off
@@ -620,6 +623,8 @@ tile.railcraft.machine.beta.tank.steel.valve.name=Steel Tank Valve
 tile.railcraft.machine.beta.tank.steel.valve.tip=Multi-Block: Must be in bottom\n two layers to output liquid.
 tile.railcraft.machine.beta.tank.steel.wall.name=Steel Tank Wall
 tile.railcraft.machine.beta.tank.steel.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+
+tile.railcraft.machine.epsilon.electric.feeder.name=Electric Feeder Unit
 
 tile.railcraft.machine.gamma.dispenser.cart.name=Cart Dispenser
 tile.railcraft.machine.gamma.dispenser.train.name=Train Dispenser
