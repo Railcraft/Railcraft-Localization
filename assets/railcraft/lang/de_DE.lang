@@ -134,7 +134,7 @@ item.railcraft.tool.crowbar.name=Brecheisen
 item.railcraft.tool.crowbar.magic.name=Thaumiumbrecheisen
 item.railcraft.tool.crowbar.reinforced.name=Verstärktes Brecheisen
 item.railcraft.tool.crowbar.tip=§oRechtsklicke schleichend, um Waggons zu verbinden
-item.railcraft.tool.electric.meter.name=Electrisches Messgerät
+item.railcraft.tool.electric.meter.name=Elektrisches Messgerät
 item.railcraft.tool.magnifying.glass.name=Lupe
 item.railcraft.tool.signal.tuner.name=Abstimmgerät
 item.railcraft.tool.signal.tuner.tip=Verbindet Signalsender und -empfänger
@@ -624,7 +624,7 @@ tile.railcraft.machine.beta.tank.steel.valve.tip=Multiblock: muss in die unteren
 tile.railcraft.machine.beta.tank.steel.wall.name=Stahltankwand
 tile.railcraft.machine.beta.tank.steel.wall.tip=Multiblock: variable Größe, Hohlraum\n Höhen: 4, 5, 6, 7, 8\n Abmessungen: 3, 5, 7, 9
 
-tile.railcraft.machine.epsilon.electric.feeder.name=Electrische Feeder-Einheit
+tile.railcraft.machine.epsilon.electric.feeder.name=Elektrische Feeder-Einheit
 
 tile.railcraft.machine.gamma.dispenser.cart.name=Waggonspender
 tile.railcraft.machine.gamma.dispenser.train.name=Zugspender
