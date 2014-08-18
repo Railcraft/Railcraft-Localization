@@ -134,6 +134,7 @@ item.railcraft.tool.crowbar.magic.name=Таум-монтировка
 item.railcraft.tool.crowbar.name=Монтировка
 item.railcraft.tool.crowbar.reinforced.name=Армированная монтировка
 item.railcraft.tool.crowbar.tip=§oНажмите ПКМ, держа Shift, чтобы соединить вагонетки
+item.railcraft.tool.electric.meter.name=Электросчётчик
 item.railcraft.tool.magnifying.glass.name=Лупа
 item.railcraft.tool.signal.tuner.name=Настройщик сигнала
 item.railcraft.tool.signal.tuner.tip=Соединяет контроллеры с приёмниками
@@ -275,6 +276,8 @@ railcraft.gui.detector.villager.any=Любой
 railcraft.gui.detector.villager.equals=Равно
 railcraft.gui.detector.villager.none=Никто
 railcraft.gui.detector.villager.not=Нет
+
+railcraft.gui.electric.meter.charge=Заряд = @.2f / @.2f
 
 railcraft.gui.energy.loader.empty=Пустые
 railcraft.gui.energy.loader.fill=Заполнить
@@ -621,6 +624,8 @@ tile.railcraft.machine.beta.tank.steel.valve.tip=Мульти-блок: Долж
 tile.railcraft.machine.beta.tank.steel.wall.name=Обшивка стального резервуара
 tile.railcraft.machine.beta.tank.steel.wall.tip=Мульти-блок: Переменный размер, полый\n Высоты: 4, 5, 6, 7, 8\n Диаметры: 3, 5, 7, 9
 
+tile.railcraft.machine.epsilon.electric.feeder.name=Электрическое питающее устройство
+
 tile.railcraft.machine.gamma.dispenser.cart.name=Раздатчик вагонеток
 tile.railcraft.machine.gamma.dispenser.train.name=Раздатчик поездов
 tile.railcraft.machine.gamma.loader.energy.name=Загрузчик электроэнергии
@@ -808,6 +813,10 @@ tile.railcraft.track.disembarking.name=Высаживающий путь
 tile.railcraft.track.disembarking.tip=Высаживает едущих существ по направлению стрелки\n§o§9- Ударьте монтировкой, чтобы изменить направление -\n§o§c- Примените красный камень, чтобы активировать -
 tile.railcraft.track.disposal.name=Сбрасывающий путь
 tile.railcraft.track.disposal.tip=Приостанавливающий путь\n Высаживает едущих существ
+tile.railcraft.track.electric.name=Электрический путь
+tile.railcraft.track.electric.junction.name=Электрический крестовой путь
+tile.railcraft.track.electric.switch.name=Электрический стрелочный путь
+tile.railcraft.track.electric.wye.name=Электрический треугольно-стрелочный путь
 tile.railcraft.track.elevator.name=Подымающий путь
 tile.railcraft.track.embarking.name=Сажающий путь
 tile.railcraft.track.embarking.tip=Грузит существ в вагонетки\n§o§9- Ударьте монтировкой, чтобы изменить радиус -\n§o§c- Примените красный камень, чтобы активировать -
