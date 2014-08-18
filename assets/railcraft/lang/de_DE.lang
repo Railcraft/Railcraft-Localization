@@ -134,6 +134,7 @@ item.railcraft.tool.crowbar.name=Brecheisen
 item.railcraft.tool.crowbar.magic.name=Thaumiumbrecheisen
 item.railcraft.tool.crowbar.reinforced.name=Verstärktes Brecheisen
 item.railcraft.tool.crowbar.tip=§oRechtsklicke schleichend, um Waggons zu verbinden
+item.railcraft.tool.electric.meter.name=Electrisches Messgerät
 item.railcraft.tool.magnifying.glass.name=Lupe
 item.railcraft.tool.signal.tuner.name=Abstimmgerät
 item.railcraft.tool.signal.tuner.tip=Verbindet Signalsender und -empfänger
@@ -275,6 +276,8 @@ railcraft.gui.detector.villager.any=Egal
 railcraft.gui.detector.villager.equals=Gleich
 railcraft.gui.detector.villager.none=Nichts
 railcraft.gui.detector.villager.not=Nicht
+
+railcraft.gui.electric.meter.charge=Ladung = @.2f / @.2f
 
 railcraft.gui.energy.loader.empty=Halte Leer
 railcraft.gui.energy.loader.fill=Lade voll
@@ -621,6 +624,8 @@ tile.railcraft.machine.beta.tank.steel.valve.tip=Multiblock: muss in die unteren
 tile.railcraft.machine.beta.tank.steel.wall.name=Stahltankwand
 tile.railcraft.machine.beta.tank.steel.wall.tip=Multiblock: variable Größe, Hohlraum\n Höhen: 4, 5, 6, 7, 8\n Abmessungen: 3, 5, 7, 9
 
+tile.railcraft.machine.epsilon.electric.feeder.name=Electrische Feeder-Einheit
+
 tile.railcraft.machine.gamma.dispenser.cart.name=Waggonspender
 tile.railcraft.machine.gamma.dispenser.train.name=Zugspender
 tile.railcraft.machine.gamma.loader.energy.name=Energielader
@@ -808,6 +813,10 @@ tile.railcraft.track.disembarking.name=Auswurfschiene
 tile.railcraft.track.disembarking.tip=Wirft fahrende Lebewesen aus dem Waggon, in Richtung des Pfeils\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.disposal.name=Entsorgungsschiene
 tile.railcraft.track.disposal.tip=Hängende Schiene\n Wirft fahrende Lebewesen raus
+tile.railcraft.track.electric.name=Elektrische Schiene
+tile.railcraft.track.electric.junction.name=Elektrisches Schienenkreuz
+tile.railcraft.track.electric.switch.name=Elektrische Weiche
+tile.railcraft.track.electric.wye.name=Elektrische T-Weiche
 tile.railcraft.track.elevator.name=Aufzugschiene
 tile.railcraft.track.embarking.name=Aufnahmeschiene
 tile.railcraft.track.embarking.tip=Lädt Lebewesen in Waggons hinein\n§o§9- Verändere die Reichweite mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
