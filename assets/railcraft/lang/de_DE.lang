@@ -105,6 +105,7 @@ item.railcraft.part.bleached.clay.name=Gebleichter Lehm
 item.railcraft.part.circuit.controller.name=Steuerschaltung
 item.railcraft.part.circuit.receiver.name=Empfängerschaltung
 item.railcraft.part.circuit.signal.name=Signalstromkreis
+item.railcraft.part.gear.bushing.name=Zinn-Zahnradbuchse
 item.railcraft.part.gear.gold.plate.name=Vergoldetes Zahnrad
 item.railcraft.part.gear.iron.name=Eisenzahnrad
 item.railcraft.part.gear.steel.name=Stahlzahnrad
