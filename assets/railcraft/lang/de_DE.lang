@@ -113,6 +113,7 @@ item.railcraft.part.plate.iron.name=Eisenplatte
 item.railcraft.part.plate.steel.name=Stahlplatte
 item.railcraft.part.plate.tin.name=Zinnplatte
 item.railcraft.part.rail.advanced.name=Erw. Schiene
+item.railcraft.part.rail.electric.name=Elektrische Schiene
 item.railcraft.part.rail.reinforced.name=Verstärkte Schiene
 item.railcraft.part.rail.speed.name=Hochgeschw. Schiene
 item.railcraft.part.rail.standard.name=Normale Schiene
