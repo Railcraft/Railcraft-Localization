@@ -25,6 +25,7 @@ fluid.steam=Steam
 
 item.railcraft.armor.goggles.name=Trackman's Goggles
 item.railcraft.armor.overalls.name=Engineer's Overalls
+item.railcraft.armor.overalls.tip=Protection against the\n dangers of track-working
 item.railcraft.armor.steel.boots.name=Steel Boots
 item.railcraft.armor.steel.helmet.name=Steel Helmet
 item.railcraft.armor.steel.legs.name=Steel Leggings
@@ -182,6 +183,12 @@ railcraft.damage.steam.2=@s is not immune to high temperatures, despite claims t
 railcraft.damage.steam.3=@s discovered how painful Steam can be
 railcraft.damage.steam.4=@s had an industrial accident
 railcraft.damage.steam.5=@s probably shouldn't have stepped there
+
+railcraft.damage.track.electric.1=@s pissed on an electrified track
+railcraft.damage.track.electric.2=@s discovered the meaning of "High Voltage"
+railcraft.damage.track.electric.3=@s was enlightened to wonders of electrification
+railcraft.damage.track.electric.4=@s tripped on the third rail
+railcraft.damage.track.electric.5=@s made a shocking revelation
 
 railcraft.damage.train.1=@s got hit by a train
 railcraft.damage.train.2=@s was playing on the tracks
@@ -353,11 +360,13 @@ railcraft.gui.liquid.unloader.manual=Manual
 railcraft.gui.locomotive.mode.idle=Idle
 railcraft.gui.locomotive.mode.running=Running
 railcraft.gui.locomotive.mode.shutdown=Shutdown
-railcraft.gui.locomotive.tip.button.idle=Locomotive reduces fuel\n usage, but retains its heat.\n If the train is held by a track,\n it behaves as if Idle.
+railcraft.gui.locomotive.electric.tip.button.mode.running=Makes the Locomotive move.
+railcraft.gui.locomotive.electric.tip.button.mode.shutdown=Stops the locomotive.
+railcraft.gui.locomotive.steam.tip.button.mode.idle=Locomotive reduces fuel\n usage, but retains its heat.\n If the train is held by a track,\n it behaves as if Idle.
+railcraft.gui.locomotive.steam.tip.button.mode.running=Makes the Locomotive move.
+railcraft.gui.locomotive.steam.tip.button.mode.shutdown=Shuts off the Locomotive.\n Halts all movement and\n begins the cool-down process.\n This can take some time.
 railcraft.gui.locomotive.tip.button.locked=This cart is locked to\n {owner}.\n It will only accept Tickets\n issued by them or an Op.
 railcraft.gui.locomotive.tip.button.private=This cart is private to\n {owner}.\n It can only be controlled\n by them or an Op.
-railcraft.gui.locomotive.tip.button.running=Makes the Locomotive move.
-railcraft.gui.locomotive.tip.button.shutdown=Shuts off the Locomotive.\n Halts all movement and\n begins the cool-down process.\n This can take some time.
 railcraft.gui.locomotive.tip.button.unlocked=Click to lock Locomotive.\n Once locked, it will\n only accept Tickets\n issued by you or an Op.
 railcraft.gui.locomotive.tip.item.emblem=§oEmblem:§r @s
 railcraft.gui.locomotive.tip.item.model.default=Default Model
