@@ -29,6 +29,7 @@ fluid.steam=蒸汽
 
 item.railcraft.armor.goggles.name=铁路工护目镜
 item.railcraft.armor.overalls.name=工程师背带裤
+item.railcraft.armor.overalls.tip=能够防护轨道工作中\n可能遇到的伤害
 item.railcraft.armor.steel.boots.name=钢靴子
 item.railcraft.armor.steel.helmet.name=钢头盔
 item.railcraft.armor.steel.legs.name=钢护腿
@@ -186,6 +187,12 @@ railcraft.damage.steam.2=@s没像他吹牛说的那样免疫高温伤害!
 railcraft.damage.steam.3=@s发现了蒸汽烫伤会有多么的痛苦!
 railcraft.damage.steam.4=@s出了工业事故.
 railcraft.damage.steam.5=@s可能踩到了不该踩的东西.
+
+railcraft.damage.track.electric.1=@s在电轨上小便.
+railcraft.damage.track.electric.2=@s发现了“高压电”的真谛.
+railcraft.damage.track.electric.3=@s顿悟了电之所以为奇迹.
+railcraft.damage.track.electric.4=@s迷失于第三轨道.
+railcraft.damage.track.electric.5=@s深受震动.(英文双关:即死于电击)
 
 railcraft.damage.train.1=@s被列车撞了.
 railcraft.damage.train.2=@s在轨道上玩耍.
@@ -357,11 +364,13 @@ railcraft.gui.liquid.unloader.manual=手动
 railcraft.gui.locomotive.mode.idle=空闲
 railcraft.gui.locomotive.mode.running=运行
 railcraft.gui.locomotive.mode.shutdown=停机
+railcraft.gui.locomotive.electric.tip.button.mode.running=运行电车.
+railcraft.gui.locomotive.electric.tip.button.mode.shutdown=关闭电车.
 railcraft.gui.locomotive.steam.tip.button.mode.idle=机车会持续消耗燃料\n来保持热量.\n如果列车停驻于轨道上,\n它将处于空闲状态.
-railcraft.gui.locomotive.tip.button.locked=该车已经被\n{owner}绑定,\n 它只接受op或者绑定人的\n车票.
-railcraft.gui.locomotive.tip.button.private=该车为{owner}私人所有.\n 仅受op或它的主人控制.
 railcraft.gui.locomotive.steam.tip.button.mode.running=运行列车.
 railcraft.gui.locomotive.steam.tip.button.mode.shutdown=关闭机车.\n 暂停一切运动,且\n开始进行冷却.\n这个过程会花一点时间.
+railcraft.gui.locomotive.tip.button.locked=该车已经被\n{owner}绑定,\n 它只接受op或者绑定人的\n车票.
+railcraft.gui.locomotive.tip.button.private=该车为{owner}私人所有.\n 仅受op或它的主人控制.
 railcraft.gui.locomotive.tip.button.unlocked=点击来绑定列车.\n绑定后,它只接受op或者\n你的车票.
 railcraft.gui.locomotive.tip.item.emblem=§o徽章:§r @s
 railcraft.gui.locomotive.tip.item.model.default=默认模板
