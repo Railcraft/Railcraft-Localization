@@ -94,11 +94,13 @@ item.railcraft.fluid.steam.bottle.name=Steam Bottle
 item.railcraft.fuel.coke.name=Coal Coke
 
 item.railcraft.ingot.copper.name=Copper Ingot
+item.railcraft.ingot.lead.name=Lead Ingot
 item.railcraft.ingot.steel.name=Steel Ingot
 item.railcraft.ingot.tin.name=Tin Ingot
 
 item.railcraft.nugget.copper.name=Copper Nugget
 item.railcraft.nugget.iron.name=Iron Nugget
+item.railcraft.nugget.lead.name=Lead Nugget
 item.railcraft.nugget.steel.name=Steel Nugget
 item.railcraft.nugget.tin.name=Tin Nugget
 
@@ -286,7 +288,7 @@ railcraft.gui.detector.villager.equals=Equals
 railcraft.gui.detector.villager.none=None
 railcraft.gui.detector.villager.not=Not
 
-railcraft.gui.electric.meter.charge=Charge = @.2f / @.2f
+railcraft.gui.electric.meter.charge=Charge = @.2f / @.2f, Losses = @.2f per tick
 
 railcraft.gui.energy.loader.empty=Hold Empty
 railcraft.gui.energy.loader.fill=Top Off
@@ -549,12 +551,15 @@ tile.railcraft.cube.brick.sandy.name=Sandy Brick (Obsolete)
 tile.railcraft.cube.coke.name=Block of Coal Coke
 tile.railcraft.cube.coke.tip=57,600 Fuel Units
 tile.railcraft.cube.concrete.name=Block of Concrete
+tile.railcraft.cube.copper.name=Block of Copper
 tile.railcraft.cube.creosote.name=Creosote Wood Block
 tile.railcraft.cube.crushed.obsidian.name=Crushed Obsidian
 tile.railcraft.cube.crushed.obsidian.tip=Prevents Mob Spawns
+tile.railcraft.cube.lead.name=Block of Lead
 tile.railcraft.cube.steel.name=Block of Steel
 tile.railcraft.cube.stone.abyssal.name=Abyssal Stone
 tile.railcraft.cube.stone.quarried.name=Quarried Stone
+tile.railcraft.cube.tin.name=Block of Tin
 
 tile.railcraft.detector.advanced.name=Detector - Advanced
 tile.railcraft.detector.age.name=Detector - Age
@@ -614,6 +619,8 @@ tile.railcraft.machine.beta.boiler.tank.pressure.high.name=High Pressure Boiler 
 tile.railcraft.machine.beta.boiler.tank.pressure.high.tip=Multi-Block: Variable Size, Above Firebox\n Dimensions: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Produces 20 mB of Steam per tick
 tile.railcraft.machine.beta.boiler.tank.pressure.low.name=Low Pressure Boiler Tank
 tile.railcraft.machine.beta.boiler.tank.pressure.low.tip=Multi-Block: Variable Size, Above Firebox\n Dimensions: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Produces 10 mB of Steam per tick
+tile.railcraft.machine.beta.chest.metals.name=Metals Chest
+tile.railcraft.machine.beta.chest.metals.tip=Condenses Metals to Blocks
 tile.railcraft.machine.beta.chest.void.name=Void Chest
 tile.railcraft.machine.beta.chest.void.tip=Deletes Items
 tile.railcraft.machine.beta.engine.steam.high.name=Industrial Steam Engine
@@ -634,6 +641,9 @@ tile.railcraft.machine.beta.tank.steel.valve.name=Steel Tank Valve
 tile.railcraft.machine.beta.tank.steel.valve.tip=Multi-Block: Must be in bottom\n two layers to output liquid.
 tile.railcraft.machine.beta.tank.steel.wall.name=Steel Tank Wall
 tile.railcraft.machine.beta.tank.steel.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+
+tile.railcraft.machine.delta.wire.name=Electric Shunting Wire
+tile.railcraft.machine.delta.wire.tip=Connect Electric Track across gaps\n Place under track
 
 tile.railcraft.machine.epsilon.electric.feeder.name=Electric Feeder Unit
 
