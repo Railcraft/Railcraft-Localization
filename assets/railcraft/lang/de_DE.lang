@@ -25,6 +25,7 @@ fluid.steam=Dampf
 
 item.railcraft.armor.goggles.name=Schienenwartbrille
 item.railcraft.armor.overalls.name=Ingenieurs-Overall
+item.railcraft.armor.overalls.tip=Schützt zuverlässig gegen\n die Gefahren der Schienenarbeit
 item.railcraft.armor.steel.boots.name=Stahlstiefel
 item.railcraft.armor.steel.helmet.name=Stahlhelm
 item.railcraft.armor.steel.legs.name=Stahlbeinschutz
@@ -182,6 +183,12 @@ railcraft.damage.steam.2=@s ist nicht immun gegen hohe Temperaturen, entgegen Be
 railcraft.damage.steam.3=@s hat entdeckt, wie schmerzhaft Dampf sein kann
 railcraft.damage.steam.4=@s hatte einen Betriebsunfall
 railcraft.damage.steam.5=@s hätte da wahrscheinlich nicht hintreten sollen.
+
+railcraft.damage.track.electric.1=@s hat auf ein elektrisches Gleis gepinkelt
+railcraft.damage.track.electric.2=@s entdeckte die Bedeutung des Wortes "Hochspannung"
+railcraft.damage.track.electric.3=@s wurde über die Wunder der Elektrifizierung aufgeklärt
+railcraft.damage.track.electric.4=@s stolperte über eine Stromschiene
+railcraft.damage.track.electric.5=@s machte eine schockierende Enthüllung
 
 railcraft.damage.train.1=@s wurde von einem Zug erfasst
 railcraft.damage.train.2=@s hat auf den Gleisen gespielt
@@ -353,11 +360,13 @@ railcraft.gui.liquid.unloader.manual=Manuell
 railcraft.gui.locomotive.mode.idle=Bereit
 railcraft.gui.locomotive.mode.running=Fahrt
 railcraft.gui.locomotive.mode.shutdown=Abschalten
-railcraft.gui.locomotive.steam.tip.button.mode.idle=Lokomotive verbraucht Kraftstoff,\n behält aber die aktuelle Temperatur,\n wenn der Zug auf einer Schiene angehalten wird.
+railcraft.gui.locomotive.electric.tip.button.mode.running=Lässt die Lokomotive abfahren.
+railcraft.gui.locomotive.electric.tip.button.mode.shutdown=Stoppt die Lokomotive.
+railcraft.gui.locomotive.steam.tip.button.mode.idle=Lokomotive reduziert Kraftstoffverbrauch,\n behält aber die aktuelle Temperatur bei.\n Wenn der Zug von einer Schiene angehalten wird,\n verhält er sich wie in diesem Modus.
+railcraft.gui.locomotive.steam.tip.button.mode.running=Lässt die Lokomotive abfahren.
+railcraft.gui.locomotive.steam.tip.button.mode.shutdown=Schaltet die Lokomotive aus.\n Stoppt jegliche Bewegung und\n beginnt den Abkühlprozess.\n Dies kann einge Zeit dauern.
 railcraft.gui.locomotive.tip.button.locked=Dieses Gerät wurde gesperrt von\n {owner}.\n Es wird ein gültiges Ticket benötigt,\n welches von ihm oder einem Op ausgestellt wurde.
 railcraft.gui.locomotive.tip.button.private=Dieser Waggon ist privat für\n {owner}.\n Er kann nur von dieser Person\n oder einem Op kontrolliert werden.
-railcraft.gui.locomotive.steam.tip.button.mode.running=Startet die Abfahrt der Lokomotive.
-railcraft.gui.locomotive.steam.tip.button.mode.shutdown=Schaltet die Lokomotive aus.\n Stoppt alle Bewegungen und\n beginnt den Abkühlprozess.\n Dies kann einge Zeit dauern.
 railcraft.gui.locomotive.tip.button.unlocked=Klicken zum Sperren des Geräts.\n Es kann dann nur mit einem \n gültigen Ticket ausgestellt\n von Dir oder einem Op benutzt werden.
 railcraft.gui.locomotive.tip.item.emblem=§oEmblem:§r @s
 railcraft.gui.locomotive.tip.item.model.default=Standardmodell
