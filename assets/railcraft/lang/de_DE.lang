@@ -94,11 +94,13 @@ item.railcraft.fluid.steam.bottle.name=Dampfflasche
 item.railcraft.fuel.coke.name=Koks
 
 item.railcraft.ingot.copper.name=Kupferbarren
+item.railcraft.ingot.lead.name=Bleibarren
 item.railcraft.ingot.steel.name=Stahlbarren
 item.railcraft.ingot.tin.name=Zinnbarren
 
 item.railcraft.nugget.copper.name=Kupfernugget
 item.railcraft.nugget.iron.name=Eisennugget
+item.railcraft.nugget.lead.name=Bleinugget
 item.railcraft.nugget.steel.name=Stahlnugget
 item.railcraft.nugget.tin.name=Zinnnugget
 
@@ -286,7 +288,7 @@ railcraft.gui.detector.villager.equals=Gleich
 railcraft.gui.detector.villager.none=Nichts
 railcraft.gui.detector.villager.not=Nicht
 
-railcraft.gui.electric.meter.charge=Ladung = @.2f / @.2f
+railcraft.gui.electric.meter.charge=Ladung = @.2f / @.2f, Verlust = @.2f pro tick
 
 railcraft.gui.energy.loader.empty=Halte Leer
 railcraft.gui.energy.loader.fill=Lade voll
@@ -549,12 +551,15 @@ tile.railcraft.cube.brick.sandy.name=Sandsteinziegel (veraltet)
 tile.railcraft.cube.coke.name=Koksblock
 tile.railcraft.cube.coke.tip=57,600 Brennstoffeinheiten
 tile.railcraft.cube.concrete.name=Betonblock
+tile.railcraft.cube.copper.name=Kupferblock
 tile.railcraft.cube.creosote.name=Teerölholzblock
 tile.railcraft.cube.crushed.obsidian.name=Obsidiankies
 tile.railcraft.cube.crushed.obsidian.tip=Verhindert Mob-Spawns
+tile.railcraft.cube.lead.name=Bleiblock
 tile.railcraft.cube.steel.name=Stahlblock
 tile.railcraft.cube.stone.abyssal.name=Abyss-Stein
 tile.railcraft.cube.stone.quarried.name=Brüchiger Stein
+tile.railcraft.cube.tin.name=Zinnblock
 
 tile.railcraft.detector.advanced.name=Detektor - Fortgeschritten
 tile.railcraft.detector.age.name=Detektor - Zeit
@@ -614,6 +619,8 @@ tile.railcraft.machine.beta.boiler.tank.pressure.high.name=Hochdruck-Dampfkessel
 tile.railcraft.machine.beta.boiler.tank.pressure.high.tip=Multiblock: variable Größe, über Brennkammern\n Abmessung: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Produziert 20 mB Dampf pro tick
 tile.railcraft.machine.beta.boiler.tank.pressure.low.name=Niederdruck-Dampfkesseltank
 tile.railcraft.machine.beta.boiler.tank.pressure.low.tip=Multiblock: variable Größe, über Brennkammern\n Abmessung: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Produziert 10 mB Dampf pro tick
+tile.railcraft.machine.beta.chest.metals.name=Metalltruhe
+tile.railcraft.machine.beta.chest.metals.tip=Presst Metall zu Blöcken
 tile.railcraft.machine.beta.chest.void.name=Truhe der Leere
 tile.railcraft.machine.beta.chest.void.tip=Zerstört Gegenstände
 tile.railcraft.machine.beta.engine.steam.high.name=Industriedampfmaschine
@@ -634,6 +641,9 @@ tile.railcraft.machine.beta.tank.steel.valve.name=Stahltankventil
 tile.railcraft.machine.beta.tank.steel.valve.tip=Multiblock: muss in die unteren beiden Ebenen\n zur Ausgabe der Flüssigkeit.
 tile.railcraft.machine.beta.tank.steel.wall.name=Stahltankwand
 tile.railcraft.machine.beta.tank.steel.wall.tip=Multiblock: variable Größe, Hohlraum\n Höhen: 4, 5, 6, 7, 8\n Abmessungen: 3, 5, 7, 9
+
+tile.railcraft.machine.delta.wire.name=Electrisches Rangierkabel
+tile.railcraft.machine.delta.wire.tip=Verbindet Elektrische Schienen über Lücken\n Platziere unterhalb der Schienen
 
 tile.railcraft.machine.epsilon.electric.feeder.name=Elektrische Feeder-Einheit
 
