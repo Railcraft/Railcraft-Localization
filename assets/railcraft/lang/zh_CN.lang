@@ -98,11 +98,13 @@ item.railcraft.fluid.steam.bottle.name=蒸汽瓶
 item.railcraft.fuel.coke.name=焦煤
 
 item.railcraft.ingot.copper.name=铜锭
+item.railcraft.ingot.lead.name=铅锭
 item.railcraft.ingot.steel.name=钢锭
 item.railcraft.ingot.tin.name=锡锭
 
 item.railcraft.nugget.copper.name=铜粒
 item.railcraft.nugget.iron.name=铁粒
+item.railcraft.nugget.lead.name=铅粒
 item.railcraft.nugget.steel.name=钢粒
 item.railcraft.nugget.tin.name=锡粒
 
@@ -553,12 +555,15 @@ tile.railcraft.cube.brick.sandy.name=沙岩砖块(废弃)
 tile.railcraft.cube.coke.name=焦煤方块
 tile.railcraft.cube.coke.tip=57,600燃料单位
 tile.railcraft.cube.concrete.name=混凝土块
+tile.railcraft.cube.copper.name=铜块
 tile.railcraft.cube.creosote.name=木馏油木方块
 tile.railcraft.cube.crushed.obsidian.name=碎黑曜石
 tile.railcraft.cube.crushed.obsidian.tip=阻止生物生成
+tile.railcraft.cube.lead.name=铅块
 tile.railcraft.cube.steel.name=钢块
 tile.railcraft.cube.stone.abyssal.name=深渊砖块
 tile.railcraft.cube.stone.quarried.name=采掘砖块
+tile.railcraft.cube.tin.name=锡块
 
 tile.railcraft.detector.advanced.name=传感器-高级
 tile.railcraft.detector.age.name=传感器-年龄
@@ -607,7 +612,7 @@ tile.railcraft.machine.alpha.tank.water.name=蓄水器壁板
 tile.railcraft.machine.alpha.tank.water.tip=多方块结构:3x3x3(中空)
 tile.railcraft.machine.alpha.trade.station.name=贸易站
 tile.railcraft.machine.alpha.turbine.name=蒸汽涡轮机壳
-tile.railcraft.machine.alpha.turbine.tip=多方块结构:3x2x2
+tile.railcraft.machine.alpha.turbine.tip=多方块结构:3x2x2\n用蒸汽发电\n从底部输出水\n需要一个涡轮机转子
 
 tile.railcraft.machine.beta.anchor.sentinel.name=拱卫之锚
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=液态燃料燃烧室
@@ -618,6 +623,8 @@ tile.railcraft.machine.beta.boiler.tank.pressure.high.name=高压锅炉
 tile.railcraft.machine.beta.boiler.tank.pressure.high.tip=多方块结构:尺寸可变\n燃烧室规格可选:1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n 每tick产生10mB蒸汽       
 tile.railcraft.machine.beta.boiler.tank.pressure.low.name=低压锅炉
 tile.railcraft.machine.beta.boiler.tank.pressure.low.tip=多方块结构:尺寸可变\n燃烧室规格可选:1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n 每tick产生20mB蒸汽
+tile.railcraft.machine.beta.chest.metals.name=金属箱子
+tile.railcraft.machine.beta.chest.metals.tip=将金属浓缩成方块
 tile.railcraft.machine.beta.chest.void.name=虚空箱子
 tile.railcraft.machine.beta.chest.void.tip=销毁物品
 tile.railcraft.machine.beta.engine.steam.high.name=工业蒸汽引擎
@@ -638,6 +645,9 @@ tile.railcraft.machine.beta.tank.steel.valve.name=钢质蓄水器阀门
 tile.railcraft.machine.beta.tank.steel.valve.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
 tile.railcraft.machine.beta.tank.steel.wall.name=钢质蓄水器壁板
 tile.railcraft.machine.beta.tank.steel.wall.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+
+tile.railcraft.machine.delta.wire.name=电动转辙线缆
+tile.railcraft.machine.delta.wire.tip=从间隙中连接电轨\n放置在轨道下面
 
 tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元
 
@@ -660,6 +670,7 @@ tile.railcraft.ore.firestone.tip.name=会烧毁除了腐肉外的所有东西,\n
 tile.railcraft.ore.poor.copper.name=贫铜矿石
 tile.railcraft.ore.poor.gold.name=贫金矿石
 tile.railcraft.ore.poor.iron.name=贫铁矿石
+tile.railcraft.ore.poor.lead.name=贫铅矿石
 tile.railcraft.ore.poor.tin.name=贫锡矿石
 tile.railcraft.ore.saltpeter.name=硝石
 tile.railcraft.ore.sulfur.name=硫磺
