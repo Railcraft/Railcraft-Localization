@@ -292,7 +292,7 @@ railcraft.gui.detector.villager.equals=是
 railcraft.gui.detector.villager.none=无
 railcraft.gui.detector.villager.not=否
 
-railcraft.gui.electric.meter.charge=电量=@.2f/@.2f
+railcraft.gui.electric.meter.charge=电量=@.2f/@.2f,损耗=@.2f/tick
 
 railcraft.gui.energy.loader.empty=空
 railcraft.gui.energy.loader.fill=强制装满
