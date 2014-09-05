@@ -25,6 +25,7 @@ fluid.steam=Dampf
 
 item.railcraft.armor.goggles.name=Schienenwartbrille
 item.railcraft.armor.overalls.name=Ingenieurs-Overall
+item.railcraft.armor.overalls.tip=Schützt zuverlässig gegen\n die Gefahren der Schienenarbeit
 item.railcraft.armor.steel.boots.name=Stahlstiefel
 item.railcraft.armor.steel.helmet.name=Stahlhelm
 item.railcraft.armor.steel.legs.name=Stahlbeinschutz
@@ -93,11 +94,13 @@ item.railcraft.fluid.steam.bottle.name=Dampfflasche
 item.railcraft.fuel.coke.name=Koks
 
 item.railcraft.ingot.copper.name=Kupferbarren
+item.railcraft.ingot.lead.name=Bleibarren
 item.railcraft.ingot.steel.name=Stahlbarren
 item.railcraft.ingot.tin.name=Zinnbarren
 
 item.railcraft.nugget.copper.name=Kupfernugget
 item.railcraft.nugget.iron.name=Eisennugget
+item.railcraft.nugget.lead.name=Bleinugget
 item.railcraft.nugget.steel.name=Stahlnugget
 item.railcraft.nugget.tin.name=Zinnnugget
 
@@ -182,6 +185,12 @@ railcraft.damage.steam.2=@s ist nicht immun gegen hohe Temperaturen, entgegen Be
 railcraft.damage.steam.3=@s hat entdeckt, wie schmerzhaft Dampf sein kann
 railcraft.damage.steam.4=@s hatte einen Betriebsunfall
 railcraft.damage.steam.5=@s hätte da wahrscheinlich nicht hintreten sollen.
+
+railcraft.damage.track.electric.1=@s hat auf ein elektrisches Gleis gepinkelt
+railcraft.damage.track.electric.2=@s entdeckte die Bedeutung des Wortes "Hochspannung"
+railcraft.damage.track.electric.3=@s wurde über die Wunder der Elektrifizierung aufgeklärt
+railcraft.damage.track.electric.4=@s stolperte über eine Stromschiene
+railcraft.damage.track.electric.5=@s machte eine schockierende Enthüllung
 
 railcraft.damage.train.1=@s wurde von einem Zug erfasst
 railcraft.damage.train.2=@s hat auf den Gleisen gespielt
@@ -279,7 +288,7 @@ railcraft.gui.detector.villager.equals=Gleich
 railcraft.gui.detector.villager.none=Nichts
 railcraft.gui.detector.villager.not=Nicht
 
-railcraft.gui.electric.meter.charge=Ladung = @.2f / @.2f
+railcraft.gui.electric.meter.charge=Ladung = @.2f / @.2f, Verlust = @.2f pro tick
 
 railcraft.gui.energy.loader.empty=Halte Leer
 railcraft.gui.energy.loader.fill=Lade voll
@@ -353,11 +362,13 @@ railcraft.gui.liquid.unloader.manual=Manuell
 railcraft.gui.locomotive.mode.idle=Bereit
 railcraft.gui.locomotive.mode.running=Fahrt
 railcraft.gui.locomotive.mode.shutdown=Abschalten
-railcraft.gui.locomotive.tip.button.idle=Lokomotive verbraucht Kraftstoff,\n behält aber die aktuelle Temperatur,\n wenn der Zug auf einer Schiene angehalten wird.
+railcraft.gui.locomotive.electric.tip.button.mode.running=Lässt die Lokomotive abfahren.
+railcraft.gui.locomotive.electric.tip.button.mode.shutdown=Stoppt die Lokomotive.
+railcraft.gui.locomotive.steam.tip.button.mode.idle=Lokomotive reduziert Kraftstoffverbrauch,\n behält aber die aktuelle Temperatur bei.\n Wenn der Zug von einer Schiene angehalten wird,\n verhält er sich wie in diesem Modus.
+railcraft.gui.locomotive.steam.tip.button.mode.running=Lässt die Lokomotive abfahren.
+railcraft.gui.locomotive.steam.tip.button.mode.shutdown=Schaltet die Lokomotive aus.\n Stoppt jegliche Bewegung und\n beginnt den Abkühlprozess.\n Dies kann einge Zeit dauern.
 railcraft.gui.locomotive.tip.button.locked=Dieses Gerät wurde gesperrt von\n {owner}.\n Es wird ein gültiges Ticket benötigt,\n welches von ihm oder einem Op ausgestellt wurde.
 railcraft.gui.locomotive.tip.button.private=Dieser Waggon ist privat für\n {owner}.\n Er kann nur von dieser Person\n oder einem Op kontrolliert werden.
-railcraft.gui.locomotive.tip.button.running=Startet die Abfahrt der Lokomotive.
-railcraft.gui.locomotive.tip.button.shutdown=Schaltet die Lokomotive aus.\n Stoppt alle Bewegungen und\n beginnt den Abkühlprozess.\n Dies kann einge Zeit dauern.
 railcraft.gui.locomotive.tip.button.unlocked=Klicken zum Sperren des Geräts.\n Es kann dann nur mit einem \n gültigen Ticket ausgestellt\n von Dir oder einem Op benutzt werden.
 railcraft.gui.locomotive.tip.item.emblem=§oEmblem:§r @s
 railcraft.gui.locomotive.tip.item.model.default=Standardmodell
@@ -540,12 +551,15 @@ tile.railcraft.cube.brick.sandy.name=Sandsteinziegel (veraltet)
 tile.railcraft.cube.coke.name=Koksblock
 tile.railcraft.cube.coke.tip=57,600 Brennstoffeinheiten
 tile.railcraft.cube.concrete.name=Betonblock
+tile.railcraft.cube.copper.name=Kupferblock
 tile.railcraft.cube.creosote.name=Teerölholzblock
 tile.railcraft.cube.crushed.obsidian.name=Obsidiankies
 tile.railcraft.cube.crushed.obsidian.tip=Verhindert Mob-Spawns
+tile.railcraft.cube.lead.name=Bleiblock
 tile.railcraft.cube.steel.name=Stahlblock
 tile.railcraft.cube.stone.abyssal.name=Abyss-Stein
 tile.railcraft.cube.stone.quarried.name=Brüchiger Stein
+tile.railcraft.cube.tin.name=Zinnblock
 
 tile.railcraft.detector.advanced.name=Detektor - Fortgeschritten
 tile.railcraft.detector.age.name=Detektor - Zeit
@@ -594,7 +608,7 @@ tile.railcraft.machine.alpha.tank.water.name=Wassertankwand
 tile.railcraft.machine.alpha.tank.water.tip=Multiblock: 3x3x3 (Hohlraum)
 tile.railcraft.machine.alpha.trade.station.name=Handelsstation
 tile.railcraft.machine.alpha.turbine.name=Dampfturbinengehäuse
-tile.railcraft.machine.alpha.turbine.tip=Multiblock: 3x2x2
+tile.railcraft.machine.alpha.turbine.tip=Multiblock: 3x2x2\n Generiert Elektrizität aus Dampf\nGibt unten Wasser ab\n Benötigt einen Turbinenrotor
 
 tile.railcraft.machine.beta.anchor.sentinel.name=Anker-Markierung
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Öl-Dampfkessel-Feuerbüchse
@@ -605,6 +619,8 @@ tile.railcraft.machine.beta.boiler.tank.pressure.high.name=Hochdruck-Dampfkessel
 tile.railcraft.machine.beta.boiler.tank.pressure.high.tip=Multiblock: variable Größe, über Brennkammern\n Abmessung: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Produziert 20 mB Dampf pro tick
 tile.railcraft.machine.beta.boiler.tank.pressure.low.name=Niederdruck-Dampfkesseltank
 tile.railcraft.machine.beta.boiler.tank.pressure.low.tip=Multiblock: variable Größe, über Brennkammern\n Abmessung: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Produziert 10 mB Dampf pro tick
+tile.railcraft.machine.beta.chest.metals.name=Metalltruhe
+tile.railcraft.machine.beta.chest.metals.tip=Presst Metall zu Blöcken
 tile.railcraft.machine.beta.chest.void.name=Truhe der Leere
 tile.railcraft.machine.beta.chest.void.tip=Zerstört Gegenstände
 tile.railcraft.machine.beta.engine.steam.high.name=Industriedampfmaschine
@@ -625,6 +641,9 @@ tile.railcraft.machine.beta.tank.steel.valve.name=Stahltankventil
 tile.railcraft.machine.beta.tank.steel.valve.tip=Multiblock: muss in die unteren beiden Ebenen\n zur Ausgabe der Flüssigkeit.
 tile.railcraft.machine.beta.tank.steel.wall.name=Stahltankwand
 tile.railcraft.machine.beta.tank.steel.wall.tip=Multiblock: variable Größe, Hohlraum\n Höhen: 4, 5, 6, 7, 8\n Abmessungen: 3, 5, 7, 9
+
+tile.railcraft.machine.delta.wire.name=Electrisches Rangierkabel
+tile.railcraft.machine.delta.wire.tip=Verbindet Elektrische Schienen über Lücken\n Platziere unterhalb der Schienen
 
 tile.railcraft.machine.epsilon.electric.feeder.name=Elektrische Feeder-Einheit
 
@@ -647,6 +666,7 @@ tile.railcraft.ore.firestone.tip.name=Brennt alles außer Fleisch,\n du kannst f
 tile.railcraft.ore.poor.copper.name=Minderes Kupfererz
 tile.railcraft.ore.poor.gold.name=Minderes Golderz
 tile.railcraft.ore.poor.iron.name=Minderes Eisenerz
+tile.railcraft.ore.poor.lead.name=Minderes Bleierz
 tile.railcraft.ore.poor.tin.name=Minderes Zinnerz
 tile.railcraft.ore.saltpeter.name=Salpetererz
 tile.railcraft.ore.sulfur.name=Schwefelerz

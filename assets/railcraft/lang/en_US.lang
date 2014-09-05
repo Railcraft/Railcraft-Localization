@@ -25,6 +25,7 @@ fluid.steam=Steam
 
 item.railcraft.armor.goggles.name=Trackman's Goggles
 item.railcraft.armor.overalls.name=Engineer's Overalls
+item.railcraft.armor.overalls.tip=Protection against the\n dangers of track-working
 item.railcraft.armor.steel.boots.name=Steel Boots
 item.railcraft.armor.steel.helmet.name=Steel Helmet
 item.railcraft.armor.steel.legs.name=Steel Leggings
@@ -93,11 +94,13 @@ item.railcraft.fluid.steam.bottle.name=Steam Bottle
 item.railcraft.fuel.coke.name=Coal Coke
 
 item.railcraft.ingot.copper.name=Copper Ingot
+item.railcraft.ingot.lead.name=Lead Ingot
 item.railcraft.ingot.steel.name=Steel Ingot
 item.railcraft.ingot.tin.name=Tin Ingot
 
 item.railcraft.nugget.copper.name=Copper Nugget
 item.railcraft.nugget.iron.name=Iron Nugget
+item.railcraft.nugget.lead.name=Lead Nugget
 item.railcraft.nugget.steel.name=Steel Nugget
 item.railcraft.nugget.tin.name=Tin Nugget
 
@@ -182,6 +185,12 @@ railcraft.damage.steam.2=@s is not immune to high temperatures, despite claims t
 railcraft.damage.steam.3=@s discovered how painful Steam can be
 railcraft.damage.steam.4=@s had an industrial accident
 railcraft.damage.steam.5=@s probably shouldn't have stepped there
+
+railcraft.damage.track.electric.1=@s pissed on an electrified track
+railcraft.damage.track.electric.2=@s discovered the meaning of "High Voltage"
+railcraft.damage.track.electric.3=@s was enlightened to wonders of electrification
+railcraft.damage.track.electric.4=@s tripped on the third rail
+railcraft.damage.track.electric.5=@s made a shocking revelation
 
 railcraft.damage.train.1=@s got hit by a train
 railcraft.damage.train.2=@s was playing on the tracks
@@ -279,7 +288,7 @@ railcraft.gui.detector.villager.equals=Equals
 railcraft.gui.detector.villager.none=None
 railcraft.gui.detector.villager.not=Not
 
-railcraft.gui.electric.meter.charge=Charge = @.2f / @.2f
+railcraft.gui.electric.meter.charge=Charge = @.2f / @.2f, Losses = @.2f per tick
 
 railcraft.gui.energy.loader.empty=Hold Empty
 railcraft.gui.energy.loader.fill=Top Off
@@ -353,11 +362,13 @@ railcraft.gui.liquid.unloader.manual=Manual
 railcraft.gui.locomotive.mode.idle=Idle
 railcraft.gui.locomotive.mode.running=Running
 railcraft.gui.locomotive.mode.shutdown=Shutdown
-railcraft.gui.locomotive.tip.button.idle=Locomotive reduces fuel\n usage, but retains its heat.\n If the train is held by a track,\n it behaves as if Idle.
+railcraft.gui.locomotive.electric.tip.button.mode.running=Makes the Locomotive move.
+railcraft.gui.locomotive.electric.tip.button.mode.shutdown=Stops the locomotive.
+railcraft.gui.locomotive.steam.tip.button.mode.idle=Locomotive reduces fuel\n usage, but retains its heat.\n If the train is held by a track,\n it behaves as if Idle.
+railcraft.gui.locomotive.steam.tip.button.mode.running=Makes the Locomotive move.
+railcraft.gui.locomotive.steam.tip.button.mode.shutdown=Shuts off the Locomotive.\n Halts all movement and\n begins the cool-down process.\n This can take some time.
 railcraft.gui.locomotive.tip.button.locked=This cart is locked to\n {owner}.\n It will only accept Tickets\n issued by them or an Op.
 railcraft.gui.locomotive.tip.button.private=This cart is private to\n {owner}.\n It can only be controlled\n by them or an Op.
-railcraft.gui.locomotive.tip.button.running=Makes the Locomotive move.
-railcraft.gui.locomotive.tip.button.shutdown=Shuts off the Locomotive.\n Halts all movement and\n begins the cool-down process.\n This can take some time.
 railcraft.gui.locomotive.tip.button.unlocked=Click to lock Locomotive.\n Once locked, it will\n only accept Tickets\n issued by you or an Op.
 railcraft.gui.locomotive.tip.item.emblem=§oEmblem:§r @s
 railcraft.gui.locomotive.tip.item.model.default=Default Model
@@ -540,12 +551,15 @@ tile.railcraft.cube.brick.sandy.name=Sandy Brick (Obsolete)
 tile.railcraft.cube.coke.name=Block of Coal Coke
 tile.railcraft.cube.coke.tip=57,600 Fuel Units
 tile.railcraft.cube.concrete.name=Block of Concrete
+tile.railcraft.cube.copper.name=Block of Copper
 tile.railcraft.cube.creosote.name=Creosote Wood Block
 tile.railcraft.cube.crushed.obsidian.name=Crushed Obsidian
 tile.railcraft.cube.crushed.obsidian.tip=Prevents Mob Spawns
+tile.railcraft.cube.lead.name=Block of Lead
 tile.railcraft.cube.steel.name=Block of Steel
 tile.railcraft.cube.stone.abyssal.name=Abyssal Stone
 tile.railcraft.cube.stone.quarried.name=Quarried Stone
+tile.railcraft.cube.tin.name=Block of Tin
 
 tile.railcraft.detector.advanced.name=Detector - Advanced
 tile.railcraft.detector.age.name=Detector - Age
@@ -594,7 +608,7 @@ tile.railcraft.machine.alpha.tank.water.name=Water Tank Siding
 tile.railcraft.machine.alpha.tank.water.tip=Multi-Block: 3x3x3 (Hollow)
 tile.railcraft.machine.alpha.trade.station.name=Trade Station
 tile.railcraft.machine.alpha.turbine.name=Steam Turbine Housing
-tile.railcraft.machine.alpha.turbine.tip=Multi-Block: 3x2x2
+tile.railcraft.machine.alpha.turbine.tip=Multi-Block: 3x2x2\n Generates Electricity from Steam\nOutputs water to the bottom\n Requires a Turbine Rotor
 
 tile.railcraft.machine.beta.anchor.sentinel.name=Anchor Sentinel
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Liquid Fueled Boiler Firebox
@@ -605,6 +619,8 @@ tile.railcraft.machine.beta.boiler.tank.pressure.high.name=High Pressure Boiler 
 tile.railcraft.machine.beta.boiler.tank.pressure.high.tip=Multi-Block: Variable Size, Above Firebox\n Dimensions: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Produces 20 mB of Steam per tick
 tile.railcraft.machine.beta.boiler.tank.pressure.low.name=Low Pressure Boiler Tank
 tile.railcraft.machine.beta.boiler.tank.pressure.low.tip=Multi-Block: Variable Size, Above Firebox\n Dimensions: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Produces 10 mB of Steam per tick
+tile.railcraft.machine.beta.chest.metals.name=Metals Chest
+tile.railcraft.machine.beta.chest.metals.tip=Condenses Metals to Blocks
 tile.railcraft.machine.beta.chest.void.name=Void Chest
 tile.railcraft.machine.beta.chest.void.tip=Deletes Items
 tile.railcraft.machine.beta.engine.steam.high.name=Industrial Steam Engine
@@ -625,6 +641,9 @@ tile.railcraft.machine.beta.tank.steel.valve.name=Steel Tank Valve
 tile.railcraft.machine.beta.tank.steel.valve.tip=Multi-Block: Must be in bottom\n two layers to output liquid.
 tile.railcraft.machine.beta.tank.steel.wall.name=Steel Tank Wall
 tile.railcraft.machine.beta.tank.steel.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+
+tile.railcraft.machine.delta.wire.name=Electric Shunting Wire
+tile.railcraft.machine.delta.wire.tip=Connect Electric Track across gaps\n Place under track
 
 tile.railcraft.machine.epsilon.electric.feeder.name=Electric Feeder Unit
 
@@ -647,6 +666,7 @@ tile.railcraft.ore.firestone.tip.name=Burning everything except flesh,\n you can
 tile.railcraft.ore.poor.copper.name=Poor Copper Ore
 tile.railcraft.ore.poor.gold.name=Poor Gold Ore
 tile.railcraft.ore.poor.iron.name=Poor Iron Ore
+tile.railcraft.ore.poor.lead.name=Poor Lead Ore
 tile.railcraft.ore.poor.tin.name=Poor Tin Ore
 tile.railcraft.ore.saltpeter.name=Saltpeter Ore
 tile.railcraft.ore.sulfur.name=Sulfur Ore
