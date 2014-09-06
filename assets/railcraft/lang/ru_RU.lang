@@ -94,11 +94,13 @@ item.railcraft.fluid.steam.bottle.name=Бутылка пара
 item.railcraft.fuel.coke.name=Коксовый уголь
 
 item.railcraft.ingot.copper.name=Медный слиток
+item.railcraft.ingot.lead.name=Свинцовый слиток
 item.railcraft.ingot.steel.name=Стальной слиток
 item.railcraft.ingot.tin.name=Оловянный слиток
 
 item.railcraft.nugget.copper.name=Медный самородок
 item.railcraft.nugget.iron.name=Железный самородок
+item.railcraft.nugget.lead.name=Свинцовый самородок
 item.railcraft.nugget.steel.name=Стальной самородок
 item.railcraft.nugget.tin.name=Оловянный самородок
 
@@ -286,7 +288,7 @@ railcraft.gui.detector.villager.equals=Равно
 railcraft.gui.detector.villager.none=Никто
 railcraft.gui.detector.villager.not=Нет
 
-railcraft.gui.electric.meter.charge=Заряд = @.2f / @.2f
+railcraft.gui.electric.meter.charge=Заряд = @.2f / @.2f, Потери = @.2f за тик
 
 railcraft.gui.energy.loader.empty=Пустые
 railcraft.gui.energy.loader.fill=Заполнить
@@ -549,12 +551,15 @@ tile.railcraft.cube.brick.sandy.name=Песчаный кирпич (устаре
 tile.railcraft.cube.coke.name=Блок коксового угля
 tile.railcraft.cube.coke.tip=57,600 топливных единиц
 tile.railcraft.cube.concrete.name=Бетонный блок
+tile.railcraft.cube.copper.name=Медный блок
 tile.railcraft.cube.creosote.name=Блок пропитанной креозотом древесины
 tile.railcraft.cube.crushed.obsidian.name=Сыпучий обсидиан
-tile.railcraft.cube.crushed.obsidian.tip=Предотвращает порождение мобов
+tile.railcraft.cube.crushed.obsidian.tip=Предотвращает появление мобов
+tile.railcraft.cube.lead.name=Свинцовый блок
 tile.railcraft.cube.steel.name=Стальной блок
 tile.railcraft.cube.stone.abyssal.name=Камень бездны
 tile.railcraft.cube.stone.quarried.name=Карьерный камень
+tile.railcraft.cube.tin.name=Оловянный блок
 
 tile.railcraft.detector.advanced.name=Детектор - Продвинутый
 tile.railcraft.detector.age.name=Детектор - Взрослый
@@ -603,7 +608,7 @@ tile.railcraft.machine.alpha.tank.water.name=Обшивка водонапорн
 tile.railcraft.machine.alpha.tank.water.tip=Мульти-блок: 3x3x3 (Полый)
 tile.railcraft.machine.alpha.trade.station.name=Торговая станция
 tile.railcraft.machine.alpha.turbine.name=Корпус паровой турбины
-tile.railcraft.machine.alpha.turbine.tip=Мульти-блок: 3x2x2
+tile.railcraft.machine.alpha.turbine.tip=Мульти-блок: 3x2x2\n Генерирует электричество из пара\nВыводит воду вниз\n Требуется ротор турбины
 
 tile.railcraft.machine.beta.anchor.sentinel.name=Мировой страж
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Жидкотопливная камера сгорания
@@ -614,6 +619,8 @@ tile.railcraft.machine.beta.boiler.tank.pressure.high.name=Котёл высок
 tile.railcraft.machine.beta.boiler.tank.pressure.high.tip=Мульти-блок: Переменный размер, над топкой\n Размеры: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Производит 20 мВ пара за такт
 tile.railcraft.machine.beta.boiler.tank.pressure.low.name=Котёл низкого давления
 tile.railcraft.machine.beta.boiler.tank.pressure.low.tip=Мульти-блок: Переменный размер, над топкой\n Размеры: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Производит 10 мВ пара за такт
+tile.railcraft.machine.beta.chest.metals.name=Сундук для металлов
+tile.railcraft.machine.beta.chest.metals.tip=Конденсирует металлы в блоки
 tile.railcraft.machine.beta.chest.void.name=Пустотный сундук
 tile.railcraft.machine.beta.chest.void.tip=Удаление предметов
 tile.railcraft.machine.beta.engine.steam.high.name=Промышленный паровой двигатель
@@ -634,6 +641,9 @@ tile.railcraft.machine.beta.tank.steel.valve.name=Клапан стальног�
 tile.railcraft.machine.beta.tank.steel.valve.tip=Мульти-блок: Должен быть в двух нижних слоях \n блоков резервуара для вывода жидкости.
 tile.railcraft.machine.beta.tank.steel.wall.name=Обшивка стального резервуара
 tile.railcraft.machine.beta.tank.steel.wall.tip=Мульти-блок: Переменный размер, полый\n Высоты: 4, 5, 6, 7, 8\n Диаметры: 3, 5, 7, 9
+
+tile.railcraft.machine.delta.wire.name=Электрический шунтирующий провод
+tile.railcraft.machine.delta.wire.tip=Соединяет электрический путь через разрывы\n Проведите под путём
 
 tile.railcraft.machine.epsilon.electric.feeder.name=Электрическое питающее устройство
 
@@ -656,6 +666,7 @@ tile.railcraft.ore.firestone.tip.name=Поджигает всё, кроме пл
 tile.railcraft.ore.poor.copper.name=Низкосортная медная руда
 tile.railcraft.ore.poor.gold.name=Низкосортная золотая руда
 tile.railcraft.ore.poor.iron.name=Низкосортная железная руда
+tile.railcraft.ore.poor.lead.name=Низкосортная свинцовая руда
 tile.railcraft.ore.poor.tin.name=Низкосортная оловянная руда
 tile.railcraft.ore.saltpeter.name=Селитровая руда
 tile.railcraft.ore.sulfur.name=Серная руда
