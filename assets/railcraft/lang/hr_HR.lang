@@ -232,7 +232,7 @@ railcraft.gui.tuner.success=@1$s uspješno povezan s @2$s
 railcraft.gui.tuner.abandon.chunk=Kontroler nije u učitanom Chunku, obustavljam spajanje
 railcraft.gui.tuner.abandon.gone=Kontroler više ne postoji, obustavljam spajanje
 railcraft.gui.turbine=Parna Turbina
-railcraft.gui.turbine.output=Izlaz: @d@@
+railcraft.gui.turbine.output=Izlaz: @d%%
 railcraft.gui.turbine.rotor=Rotor:
 
 item.railcraft.upgrade.lapotron=Nadogradnja za Lapotronski Utovarivač

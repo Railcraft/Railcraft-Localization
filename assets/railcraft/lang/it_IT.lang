@@ -330,7 +330,7 @@ railcraft.gui.tuner.success=@1$s accoppiato con successo con @2$s
 railcraft.gui.tuner.abandon.chunk=Il Controller non è in Chunk attualmente caricato, abbandono la sincronizzazione
 railcraft.gui.tuner.abandon.gone=Il Controller non esiste più, abbandono la sincronizzazione
 railcraft.gui.turbine=Turbina a vapore
-railcraft.gui.turbine.output=Uscita: @d@@
+railcraft.gui.turbine.output=Uscita: @d%%
 railcraft.gui.turbine.rotor=Rotore:
 
 item.railcraft.upgrade.lapotron=Aggiornamento lapotron

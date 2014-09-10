@@ -456,7 +456,7 @@ railcraft.gui.tuner.start=Начато соединение @s с приёмни
 railcraft.gui.tuner.stop=Остановлено соединение @s с приёмником
 railcraft.gui.tuner.success=@1$s Успешно соединено с @2$s
 
-railcraft.gui.turbine.output=Выход: @d@@
+railcraft.gui.turbine.output=Выход: @d%%
 railcraft.gui.turbine.rotor=Ротор:
 railcraft.gui.turbine=Паровая турбина
 

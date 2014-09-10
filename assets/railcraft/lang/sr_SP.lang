@@ -237,7 +237,7 @@ railcraft.gui.tuner.success=@1$s uspesno vezan za @2$s
 railcraft.gui.tuner.abandon.chunk=Kontroler nije u učitanom čanku, napuštam vezu
 railcraft.gui.tuner.abandon.gone=Kontroler više ne postoji, napušatm vezu
 railcraft.gui.turbine=Parna Turbina
-railcraft.gui.turbine.output=Izlaz: @d@@
+railcraft.gui.turbine.output=Izlaz: @d%%
 railcraft.gui.turbine.rotor=Rotor:
 
 item.railcraft.upgrade.lapotron=Lapotron Poboljšanje za Utorivač

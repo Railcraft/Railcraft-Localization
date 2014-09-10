@@ -456,7 +456,7 @@ railcraft.gui.tuner.start=@s: Starte Verbindung mit einem Empfänger
 railcraft.gui.tuner.stop=@s: Stoppe Verbindung mit einem Empfänger
 railcraft.gui.tuner.success=@1$s erfolgreich verbunden mit @2$s
 
-railcraft.gui.turbine.output=Leistung: @d%
+railcraft.gui.turbine.output=Leistung: @d%%
 railcraft.gui.turbine.rotor=Rotor:
 railcraft.gui.turbine=Dampfturbine
 

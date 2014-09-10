@@ -414,7 +414,7 @@ railcraft.gui.tuner.success=@1$s ble koblet til @2$s
 railcraft.gui.tuner.abandon.chunk= Kontrolleren er ikke innlastet, avbryter tilkobling
 railcraft.gui.tuner.abandon.gone=Kontrolleren finnes ikke lengre, avbryter tilkobling
 railcraft.gui.turbine=Dampturbin
-railcraft.gui.turbine.output=Ut: @d@@
+railcraft.gui.turbine.output=Ut: @d%%
 railcraft.gui.turbine.rotor=Rotor:
 
 item.railcraft.upgrade.lapotron=Lapotron Laster oppgradering

@@ -448,7 +448,7 @@ railcraft.gui.tuner.start=Empezó a emparejar @s con un Receptor
 railcraft.gui.tuner.stop=Dejó de emparejar @s con un Receptor
 railcraft.gui.tuner.success=@1$s apareado exitosamente con @2$s
 
-railcraft.gui.turbine.output=Salida: @d@@
+railcraft.gui.turbine.output=Salida: @d%%
 railcraft.gui.turbine.rotor=Rotor:
 railcraft.gui.turbine=Turbina a Vapor
 

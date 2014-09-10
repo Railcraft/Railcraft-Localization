@@ -426,7 +426,7 @@ railcraft.gui.tuner.success=@1$s jumelé avec succès à @2$s
 railcraft.gui.tuner.abandon.chunk=Le contrôleur n'est pas sur un Chunk chargé, jumelage abandonné
 railcraft.gui.tuner.abandon.gone=Le contrôleur n'existe plus, jumelage abandonné
 railcraft.gui.turbine=Turbine à vapeur
-railcraft.gui.turbine.output=Sortie: @d@@
+railcraft.gui.turbine.output=Sortie: @d%%
 railcraft.gui.turbine.rotor=Rotor:
 
 item.railcraft.upgrade.lapotron=Mise à niveau d'énergie lapotron

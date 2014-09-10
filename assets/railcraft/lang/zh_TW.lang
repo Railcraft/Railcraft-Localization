@@ -430,7 +430,7 @@ railcraft.gui.tuner.success=@1$s 與 @2$s 配對成功
 railcraft.gui.tuner.abandon.chunk=控制器未被讀取，配對失敗
 railcraft.gui.tuner.abandon.gone=控制器不存在，配對失敗
 railcraft.gui.turbine=蒸氣渦輪機
-railcraft.gui.turbine.output=輸出: @d@@
+railcraft.gui.turbine.output=輸出: @d%%
 railcraft.gui.turbine.rotor=轉子:
 
 item.railcraft.upgrade.lapotron=容量升級晶片

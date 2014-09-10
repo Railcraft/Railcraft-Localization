@@ -195,7 +195,7 @@ railcraft.gui.tuner.success=@1$s pomyślnie połączono z @2$s
 railcraft.gui.tuner.abandon.chunk=Kontroler nie jest w załadowanym Chunku, porzucam łączenie
 railcraft.gui.tuner.abandon.gone=Kontroler już nie istnieje, porzucam łączenie
 railcraft.gui.turbine=Turbina Parowa
-railcraft.gui.turbine.output=Wydajność: @d@@
+railcraft.gui.turbine.output=Wydajność: @d%%
 railcraft.gui.turbine.rotor=Wirnik:
 
 item.railcraft.upgrade.lapotron=Lapotroniczne Ulepszenie Ładowarki 

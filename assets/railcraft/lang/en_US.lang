@@ -456,7 +456,7 @@ railcraft.gui.tuner.start=Started pairing @s with a Receiver
 railcraft.gui.tuner.stop=Stopped pairing @s with a Receiver
 railcraft.gui.tuner.success=@1$s successfully paired with @2$s
 
-railcraft.gui.turbine.output=Output: @d@@
+railcraft.gui.turbine.output=Output: @d%%
 railcraft.gui.turbine.rotor=Rotor:
 railcraft.gui.turbine=Steam Turbine
 

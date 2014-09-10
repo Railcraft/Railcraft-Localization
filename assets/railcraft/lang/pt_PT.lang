@@ -103,7 +103,7 @@ railcraft.gui.tank.water=Tanque de Água
 railcraft.gui.ticks=ticks
 railcraft.gui.track.embarking.radius=Raio
 railcraft.gui.turbine=Turbina a Vapor
-railcraft.gui.turbine.output=Saída: @d@@
+railcraft.gui.turbine.output=Saída: @d%%
 railcraft.gui.turbine.rotor=Rotor:
 
 item.railcraft.upgrade.lapotron=Lapotron Loader Upgrade

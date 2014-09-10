@@ -460,7 +460,7 @@ railcraft.gui.tuner.start=开始配对@s到接收器
 railcraft.gui.tuner.stop=停止配对@s到接收器
 railcraft.gui.tuner.success=@1$s成功与@2$s配对
 
-railcraft.gui.turbine.output=输出:@d@@
+railcraft.gui.turbine.output=输出:@d%%
 railcraft.gui.turbine.rotor=转子:
 railcraft.gui.turbine=蒸汽涡轮机
 
