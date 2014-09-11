@@ -292,6 +292,7 @@ railcraft.gui.electric.meter.charge=Charge = @.2f / @.2f, Losses = @.2f per tick
 
 railcraft.gui.energy.loader.empty=Hold Empty
 railcraft.gui.energy.loader.fill=Top Off
+railcraft.gui.energy.unloader.wait=Wait till Empty
 
 railcraft.gui.engrave.entercode=Enter Unlock Code:
 railcraft.gui.engrave.getmore1=Visit the links below
@@ -318,7 +319,7 @@ railcraft.gui.goggles.tip=Use from hotbar to change Auras
 
 railcraft.gui.help=Help
 
-railcraft.gui.ic2.energy.rate=Rate: @.2f
+railcraft.gui.ic2.energy.rate=Rate: @d EU
 
 railcraft.gui.item.loader.all.tip=Move all matching items
 railcraft.gui.item.loader.all=All
@@ -876,29 +877,36 @@ tile.railcraft.track.oneway.tip=Carts can only pass\n in the direction of the ar
 tile.railcraft.track.priming.name=Priming Track
 tile.railcraft.track.priming.tip=Ignites TNT Carts\n Adjustable Fuse\n§o§9- Hit with Crowbar to change fuse -\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.reinforced.boost.name=Reinforced Booster Track
-tile.railcraft.track.reinforced.boost.tip=25% faster than normal track\n Explosion resistant\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.reinforced.boost.tip=125% of the speed of normal track\n Explosion resistant\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.reinforced.junction.name=Reinforced Junction Track
-tile.railcraft.track.reinforced.junction.tip=25% faster than normal track\n Explosion resistant
+tile.railcraft.track.reinforced.junction.tip=125% of the speed of normal track\n Explosion resistant
 tile.railcraft.track.reinforced.name=Reinforced Track
+tile.railcraft.track.reinforced.tip=125% of the speed of normal track\n Explosion resistant
 tile.railcraft.track.reinforced.switch.name=Reinforced Switch Track
-tile.railcraft.track.reinforced.switch.tip=25% faster than normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
-tile.railcraft.track.reinforced.tip=25% faster than normal track\n Explosion resistant
+tile.railcraft.track.reinforced.switch.tip=125% of the speed of normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.reinforced.wye.name=Reinforced Wye Track
-tile.railcraft.track.reinforced.wye.tip=25% faster than normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.reinforced.wye.tip=125% of the speed of normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.routing.name=Routing Track
 tile.railcraft.track.routing.tip=Sets a passing Locomotive's Ticket\n§o§9- Hit with Crowbar to change ticket -
 tile.railcraft.track.slow.boost.name=Wooden Booster Track
 tile.railcraft.track.slow.junction.name=Wooden Junction Track
+tile.railcraft.track.slow.junction.tip=30% of the speed of normal track
 tile.railcraft.track.slow.name=Wooden Track
+tile.railcraft.track.slow.tip=30% of the speed of normal track 
 tile.railcraft.track.slow.switch.name=Wooden Switch Track
+tile.railcraft.track.slow.switch.tip=30% of the speed of normal track\n §o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.slow.wye.name=Wooden Wye Track
+tile.railcraft.track.slow.wye.tip=30% of the speed of normal track\n §o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.speed.boost.name=H.S. Booster Track
+tile.railcraft.track.speed.boost.tip=§9Dangerous\n §rMore that twice as fast as normal track\n Maintains High Speed\n§o§c- Apply Redstone to boost -
 tile.railcraft.track.speed.name=H.S. Track
+tile.railcraft.track.speed.tip=§9Dangerous\n §rMore that twice as fast as normal track\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
 tile.railcraft.track.speed.switch.name=H.S. Switch Track
 tile.railcraft.track.speed.switch.tip=§9Dangerous\n Do not attempt to diverge at High Speed\n §o§c- Requires Switch Motor/Lever to switch -
-tile.railcraft.track.speed.tip=§9Dangerous\n §rMore that twice as fast as normal track\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
 tile.railcraft.track.speed.transition.name=H.S. Transition Track
+tile.railcraft.track.speed.transition.tip=§9Dangerous\n §rMore that twice as fast as normal track\n Transitions to/from High Speed\n§o§c- Apply Redstone to boost -
 tile.railcraft.track.speed.wye.name=H.S. Wye Track
+tile.railcraft.track.speed.wye.tip=§9Dangerous\n Do not attempt to traverse at High Speed\n §o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.suspended.name=Suspended Track
 tile.railcraft.track.suspended.tip=Does not require support below\n Can cross gaps
 tile.railcraft.track.switch.name=Switch Track

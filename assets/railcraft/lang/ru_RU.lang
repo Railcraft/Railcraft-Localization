@@ -318,7 +318,7 @@ railcraft.gui.goggles.tip=Используйте панель быстрого �
 
 railcraft.gui.help=Помощь
 
-railcraft.gui.ic2.energy.rate=Коэффициент: @.2f
+railcraft.gui.ic2.energy.rate=Коэффициент: @d EU
 
 railcraft.gui.item.loader.all.tip=Переместить все подходящие предметы
 railcraft.gui.item.loader.all=Все

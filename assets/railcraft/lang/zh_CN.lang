@@ -322,7 +322,7 @@ railcraft.gui.goggles.tip=手持护目镜使用右键来变更监视类型
 
 railcraft.gui.help=帮助
 
-railcraft.gui.ic2.energy.rate=速率: @.2f
+railcraft.gui.ic2.energy.rate=速率: @d EU
 
 railcraft.gui.item.loader.all.tip=移动所有匹配物品
 railcraft.gui.item.loader.all=全部

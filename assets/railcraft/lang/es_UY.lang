@@ -312,7 +312,7 @@ railcraft.gui.goggles.tip=Usar desde la barra de acceso rápido para cambiar Aur
 
 railcraft.gui.help=Ayuda
 
-railcraft.gui.ic2.energy.rate=Tarifa: @.2f
+railcraft.gui.ic2.energy.rate=Tarifa: @d EU
 
 railcraft.gui.item.loader.all.tip=Mover todos los objetos que coincidan
 railcraft.gui.item.loader.all=Todo

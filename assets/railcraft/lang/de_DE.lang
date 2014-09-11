@@ -318,7 +318,7 @@ railcraft.gui.goggles.tip=Verwende von der Hotbar aus, um Sichtbares zu ändern
 
 railcraft.gui.help=Hilfe
 
-railcraft.gui.ic2.energy.rate=Rate: @.2f
+railcraft.gui.ic2.energy.rate=Rate: @d EU
 
 railcraft.gui.item.loader.all.tip=Bewege alle passenden Gegenstände
 railcraft.gui.item.loader.all=Alle
