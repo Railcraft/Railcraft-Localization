@@ -585,6 +585,9 @@ tile.railcraft.firestone.recharge.name=Recharging Firestone
 tile.railcraft.fluid.creosote.name=Creosote
 tile.railcraft.fluid.steam.name=Steam
 
+tile.railcraft.frame.name=Wire Support Frame
+tile.railcraft.frame.tip=Use to place Track on Shunting Wire
+
 tile.railcraft.glass.name=Strengthened Glass
 
 tile.railcraft.machine.alpha.anchor.admin.name=Admin Anchor
@@ -643,7 +646,7 @@ tile.railcraft.machine.beta.tank.steel.wall.name=Steel Tank Wall
 tile.railcraft.machine.beta.tank.steel.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
 
 tile.railcraft.machine.delta.wire.name=Electric Shunting Wire
-tile.railcraft.machine.delta.wire.tip=Connect Electric Track across gaps\n Place under track
+tile.railcraft.machine.delta.wire.tip=Connect Electric Track across gaps\n Place under Track using Wire Support Frames
 
 tile.railcraft.machine.epsilon.electric.feeder.name=Electric Feeder Unit
 
@@ -836,10 +839,15 @@ tile.railcraft.track.disembarking.tip=Dismounts riding Entities in direction of 
 tile.railcraft.track.disposal.name=Disposal Track
 tile.railcraft.track.disposal.tip=Suspended track\n Dismounts riding Entities
 tile.railcraft.track.electric.name=Electric Track
+tile.railcraft.track.electric.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps
 tile.railcraft.track.electric.junction.name=Electric Junction Track
+tile.railcraft.track.electric.junction.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps
 tile.railcraft.track.electric.switch.name=Electric Switch Track
+tile.railcraft.track.electric.switch.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps\\n§o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.electric.wye.name=Electric Wye Track
+tile.railcraft.track.electric.wye.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps\n§o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.elevator.name=Elevator Track
+tile.railcraft.track.elevator.tip=Allows vertical Minecart movement\n§o§c- Apply Redstone at top to go up -
 tile.railcraft.track.embarking.name=Embarking Track
 tile.railcraft.track.embarking.tip=Loads entities into Carts\n§o§9- Hit with Crowbar to change range -\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.gated.name=Gated Track
@@ -868,11 +876,15 @@ tile.railcraft.track.oneway.tip=Carts can only pass\n in the direction of the ar
 tile.railcraft.track.priming.name=Priming Track
 tile.railcraft.track.priming.tip=Ignites TNT Carts\n Adjustable Fuse\n§o§9- Hit with Crowbar to change fuse -\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.reinforced.boost.name=Reinforced Booster Track
+tile.railcraft.track.reinforced.boost.tip=25% faster than normal track\n Explosion resistant\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.reinforced.junction.name=Reinforced Junction Track
+tile.railcraft.track.reinforced.junction.tip=25% faster than normal track\n Explosion resistant
 tile.railcraft.track.reinforced.name=Reinforced Track
 tile.railcraft.track.reinforced.switch.name=Reinforced Switch Track
+tile.railcraft.track.reinforced.switch.tip=25% faster than normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.reinforced.tip=25% faster than normal track\n Explosion resistant
 tile.railcraft.track.reinforced.wye.name=Reinforced Wye Track
+tile.railcraft.track.reinforced.wye.tip=25% faster than normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.routing.name=Routing Track
 tile.railcraft.track.routing.tip=Sets a passing Locomotive's Ticket\n§o§9- Hit with Crowbar to change ticket -
 tile.railcraft.track.slow.boost.name=Wooden Booster Track
@@ -883,15 +895,18 @@ tile.railcraft.track.slow.wye.name=Wooden Wye Track
 tile.railcraft.track.speed.boost.name=H.S. Booster Track
 tile.railcraft.track.speed.name=H.S. Track
 tile.railcraft.track.speed.switch.name=H.S. Switch Track
+tile.railcraft.track.speed.switch.tip=§9Dangerous\n Do not attempt to diverge at High Speed\n §o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.speed.tip=§9Dangerous\n §rMore that twice as fast as normal track\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
 tile.railcraft.track.speed.transition.name=H.S. Transition Track
 tile.railcraft.track.speed.wye.name=H.S. Wye Track
 tile.railcraft.track.suspended.name=Suspended Track
 tile.railcraft.track.suspended.tip=Does not require support below\n Can cross gaps
 tile.railcraft.track.switch.name=Switch Track
+tile.railcraft.track.switch.tip=§o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.whistle.name=Whistle Track
 tile.railcraft.track.whistle.tip=Passing Locomotives\n will blow their Whistle\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.wye.name=Wye Track
+tile.railcraft.track.wye.tip=§o§c- Requires Switch Motor/Lever to switch -
 
 tile.railcraft.wall.abyssal.brick.name=Abyssal Brick Wall
 tile.railcraft.wall.bleachedbone.brick.name=Bleached Bone Brick Wall
