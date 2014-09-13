@@ -296,7 +296,7 @@ railcraft.gui.electric.meter.charge=电量=@.2f/@.2f,损耗=@.2f/tick
 
 railcraft.gui.energy.loader.empty=空
 railcraft.gui.energy.loader.fill=强制装满
-railcraft.gui.energy.unloader.wait=等到空
+railcraft.gui.energy.unloader.wait=等待直至全空
 
 railcraft.gui.engrave.entercode=输入解锁密码:
 railcraft.gui.engrave.getmore1=访问以下链接
