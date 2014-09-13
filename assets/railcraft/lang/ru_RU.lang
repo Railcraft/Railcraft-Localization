@@ -478,7 +478,7 @@ railcraft.multiblock.state.invalid.pattern=Не соответствует ша�
 railcraft.multiblock.state.unknown.unloaded=Часть структуры не загружена: @s
 railcraft.multiblock.state.valid=Структура верна
 
-tc.research.category.RAILCRAFT=Traheremagy
+tc.research_category.RAILCRAFT=Traheremagy
 thaumcraft.research.RC_Crowbar.name=Таум-монтировка
 thaumcraft.research.RC_Crowbar.page.1=Соединяя таум-металл со сталью и наполняя его аспектом порядка, Вы обнаружили как можно создать монтировку, которая будет гораздо более восприимчивой к магии.
 thaumcraft.research.RC_Crowbar.text=[RC] Я думаю, Вы уронили её...

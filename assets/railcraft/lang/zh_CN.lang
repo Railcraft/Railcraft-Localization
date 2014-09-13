@@ -482,7 +482,7 @@ railcraft.multiblock.state.invalid.pattern=未能匹配模版: @s
 railcraft.multiblock.state.unknown.unloaded=结构的一部分未能加载: @s
 railcraft.multiblock.state.valid=结构无效
 
-tc.research.category.RAILCRAFT=神秘铁道工
+tc.research_category.RAILCRAFT=神秘铁道工
 thaumcraft.research.RC_Crowbar.name=奥法撬棍
 thaumcraft.research.RC_Crowbar.page.1=使用神秘锭代替钢材,并灌注以秩序魔力,你终于研究出如何制作对魔力更加亲和的撬棍.
 thaumcraft.research.RC_Crowbar.text=[RC] 我想你东西掉了...

@@ -469,7 +469,7 @@ railcraft.multiblock.state.invalid.pattern=No coincide con patrón: @s
 railcraft.multiblock.state.unknown.unloaded=Parte de la estructura no está cargada: @s
 railcraft.multiblock.state.valid=La estructura es válida
 
-tc.research.category.RAILCRAFT=Traheremagy
+tc.research_category.RAILCRAFT=Traheremagy
 thaumcraft.research.RC_Crowbar.name=Palanca de Thaumium
 thaumcraft.research.RC_Crowbar.page.1=Por la sustitución Thaumium por el acero e impregnandolo con un toque de Orden, ha descubierto cómo crear una palanca que es mucho más receptiva a la magia.
 thaumcraft.research.RC_Crowbar.text=[RC] Creo que se le cayó esto...

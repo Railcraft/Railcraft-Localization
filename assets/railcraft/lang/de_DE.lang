@@ -478,7 +478,7 @@ railcraft.multiblock.state.invalid.pattern=Entspricht nicht dem Muster: @s
 railcraft.multiblock.state.unknown.unloaded=Ein Teil der Struktur ist nicht geladen: @s
 railcraft.multiblock.state.valid=Struktur ist gültig
 
-tc.research.category.RAILCRAFT=Traheremagie
+tc.research_category.RAILCRAFT=Traheremagie
 thaumcraft.research.RC_Crowbar.name=Thaumiumbrecheisen
 thaumcraft.research.RC_Crowbar.page.1=Indem du Stahl durch Thaumium ersetzt und ein wenig Order einflößt, hast du entdeckt, wie man ein Brecheisen kreiert, das deutlich empfänglicher für Magie ist.
 thaumcraft.research.RC_Crowbar.text=[RC] Ich glaube, du hast das hier verloren...

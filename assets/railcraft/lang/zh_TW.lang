@@ -725,7 +725,7 @@ tile.railcraft.stonelamp.sandstone.name=砂岩石燈
 tile.railcraft.stonelamp.sandy.name=砂石製燈
 tile.railcraft.stonelamp.stone.name=石燈
 
-tc.research.category.RAILCRAFT=Traheremagy
+tc.research_category.RAILCRAFT=Traheremagy
 thaumcraft.research.RC_Crowbar.name=Thaumium Crowbar
 thaumcraft.research.RC_Crowbar.text=[RC] I think you dropped this...
 thaumcraft.research.RC_Crowbar.page.1=By substituting Thaumium for Steel and imbuing it with a touch of Order, you have discovered how to create a Crowbar that is far more receptive to magic.

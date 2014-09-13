@@ -712,7 +712,7 @@ tile.railcraft.stonelamp.sandstone.name=Lampe en grès
 tile.railcraft.stonelamp.sandy.name=Lampe en roche sablée
 tile.railcraft.stonelamp.stone.name=Lampe en pierre
 
-tc.research.category.RAILCRAFT=Traheremagy
+tc.research_category.RAILCRAFT=Traheremagy
 thaumcraft.research.RC_Crowbar.name=pied de biche en Thaumium
 thaumcraft.research.RC_Crowbar.text=[RC] Je pense que vous l'avez laissé tomber...
 thaumcraft.research.RC_Crowbar.page.1=En substituant le Thaumium de l'acier, vous avez découvert comment créer un pied de biche qui est beaucoup plus réceptifs à la magie.
