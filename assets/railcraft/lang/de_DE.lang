@@ -292,6 +292,7 @@ railcraft.gui.electric.meter.charge=Ladung = @.2f / @.2f, Verlust = @.2f pro tic
 
 railcraft.gui.energy.loader.empty=Halte Leer
 railcraft.gui.energy.loader.fill=Lade voll
+railcraft.gui.energy.unloader.wait=Warte bis leer
 
 railcraft.gui.engrave.entercode=Gib Entriegelungscode ein:
 railcraft.gui.engrave.getmore1=Besuche die Links unten,
@@ -585,6 +586,9 @@ tile.railcraft.firestone.recharge.name=Wiederaufladender Flammstein
 tile.railcraft.fluid.creosote.name=Teeröl
 tile.railcraft.fluid.steam.name=Dampf
 
+tile.railcraft.frame.name=Kabelstützrahmen
+tile.railcraft.frame.tip=Verwende es, um Schienen auf Rangierkabeln zu platzieren
+
 tile.railcraft.glass.name=Gestärktes Glas
 
 tile.railcraft.machine.alpha.anchor.admin.name=Admin-Anker
@@ -642,8 +646,8 @@ tile.railcraft.machine.beta.tank.steel.valve.tip=Multiblock: muss in die unteren
 tile.railcraft.machine.beta.tank.steel.wall.name=Stahltankwand
 tile.railcraft.machine.beta.tank.steel.wall.tip=Multiblock: variable Größe, Hohlraum\n Höhen: 4, 5, 6, 7, 8\n Abmessungen: 3, 5, 7, 9
 
-tile.railcraft.machine.delta.wire.name=Electrisches Rangierkabel
-tile.railcraft.machine.delta.wire.tip=Verbindet Elektrische Schienen über Lücken\n Platziere unterhalb der Schienen
+tile.railcraft.machine.delta.wire.name=Elektrisches Rangierkabel
+tile.railcraft.machine.delta.wire.tip=Verbindet Elektrische Schienen über Lücken\n Platziere unterhalb von Schienen,\n die Kabelstützrahmen verwenden
 
 tile.railcraft.machine.epsilon.electric.feeder.name=Elektrische Feeder-Einheit
 
@@ -836,10 +840,15 @@ tile.railcraft.track.disembarking.tip=Wirft fahrende Lebewesen aus dem Waggon, i
 tile.railcraft.track.disposal.name=Entsorgungsschiene
 tile.railcraft.track.disposal.tip=Hängende Schiene\n Wirft fahrende Lebewesen raus
 tile.railcraft.track.electric.name=Elektrische Schiene
+tile.railcraft.track.electric.tip=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
 tile.railcraft.track.electric.junction.name=Elektrisches Schienenkreuz
+tile.railcraft.track.electric.junction.tip=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
 tile.railcraft.track.electric.switch.name=Elektrische Weiche
+tile.railcraft.track.electric.switch.tip=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken\n§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.electric.wye.name=Elektrische T-Weiche
+tile.railcraft.track.electric.wye.tip=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken\n§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.elevator.name=Aufzugschiene
+tile.railcraft.track.elevator.tip=Ermöglicht vertikale Waggonbewegung\n§o§c- Um nach oben zu fahren, gib Redstone-Signal an der Oberkante -
 tile.railcraft.track.embarking.name=Aufnahmeschiene
 tile.railcraft.track.embarking.tip=Lädt Lebewesen in Waggons hinein\n§o§9- Verändere die Reichweite mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.gated.name=Torschiene
@@ -867,31 +876,45 @@ tile.railcraft.track.oneway.name=Einwegschiene
 tile.railcraft.track.oneway.tip=Waggons können nur\n in Pfeilrichtung passieren\n§o§9- Verändere die Richtung mit einem Brecheisen -
 tile.railcraft.track.priming.name=Zündschiene
 tile.railcraft.track.priming.tip=Entzündet TNT-Waggons\n Verstellbare Zünddauer\n§o§9- Verändere die Zündzeit mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
-tile.railcraft.track.reinforced.name=Verstärkte Schiene
-tile.railcraft.track.reinforced.tip=25% schneller als normale Schiene\n Explosionsresistent
 tile.railcraft.track.reinforced.boost.name=Verstärkte Boosterschiene
+tile.railcraft.track.reinforced.boost.tip=125% der Geschwindigkeit normaler Schienen\n Explosionsresistent\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.reinforced.junction.name=Verstärktes Schienenkreuz
+tile.railcraft.track.reinforced.junction.tip=125% der Geschwindigkeit normaler Schienen\n Explosionsresistent
+tile.railcraft.track.reinforced.name=Verstärkte Schiene
+tile.railcraft.track.reinforced.tip=125% der Geschwindigkeit normaler Schienen\n Explosionsresistent
 tile.railcraft.track.reinforced.switch.name=Verstärkte Weiche
+tile.railcraft.track.reinforced.switch.tip=125% der Geschwindigkeit normaler Schienen\n Explosionsresistent\n§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.reinforced.wye.name=Verstärkte T-Weiche
+tile.railcraft.track.reinforced.wye.tip=125% der Geschwindigkeit normaler Schienen\n Explosionsresistent\n§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.routing.name=Routenschiene
 tile.railcraft.track.routing.tip=Verstellt das Ticket einer passierenden Lokomotive\n§o§9- Verändere das Ticket mit einem Brecheisen -
 tile.railcraft.track.slow.boost.name=Hölzerne Boosterschiene
 tile.railcraft.track.slow.junction.name=Hölzernes Schienenkreuz
+tile.railcraft.track.slow.junction.tip=30% der Geschwindigkeit normaler Schienen
 tile.railcraft.track.slow.name=Holzschiene
+tile.railcraft.track.slow.tip=30% der Geschwindigkeit normaler Schienen
 tile.railcraft.track.slow.switch.name=Hölzerne Weiche
+tile.railcraft.track.slow.switch.tip=30% der Geschwindigkeit normaler Schienen\n §o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.slow.wye.name=Hölzerne T-Weiche
+tile.railcraft.track.slow.wye.tip=30% der Geschwindigkeit normaler Schienen\n §o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.speed.boost.name=Hochgeschw. Boosterschiene
-tile.railcraft.track.speed.name=Hochgeschw. Schiene
-tile.railcraft.track.speed.switch.name=Hochgeschw. Weiche
-tile.railcraft.track.speed.tip=§9Gefährlich\n §rMehr als doppelt so schnell wie normale Schiene\n Erfordert Booster-/Übergangsschiene, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich
-tile.railcraft.track.speed.transition.name=Hochgeschw. Übergangsschiene
-tile.railcraft.track.speed.wye.name=Hochgeschw. T-Weiche
+tile.railcraft.track.speed.boost.tip=§9Gefährlich\n §rMehr als doppelt so schnell wie normale Schienen\n Hält Hochgeschwindigkeit aufrecht\n§o§c- Aktiviere mit einem Redstone-Signal -
+tile.railcraft.track.speed.name=Hochgeschw.-Schiene
+tile.railcraft.track.speed.tip=§9Gefährlich\n §rMehr als doppelt so schnell wie normale Schienen\n Erfordert Booster-/Übergangsschiene, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich
+tile.railcraft.track.speed.switch.name=Hochgeschw.-Weiche
+tile.railcraft.track.speed.switch.tip=§9Gefährlich\n Versuche nicht, bei Hochgeschwindigkeit abzuweichen\n §o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
+tile.railcraft.track.speed.transition.name=Hochgeschw.-Übergangsschiene
+tile.railcraft.track.speed.transition.tip=§9Gefährlich\n §rMehr als doppelt so schnell wie normale Schienen\n Sorgt für Übergang von/zu Hochgeschwindigkeit\n§o§c- Aktiviere mit einem Redstone-Signal -
+tile.railcraft.track.speed.wye.name=Hochgeschw.-T-Weiche
+tile.railcraft.track.speed.wye.tip=§9Gefährlich\n Versuche nicht, bei Hochgeschwindigkeit abzuweichen\n §o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.suspended.name=Hängende Schiene
 tile.railcraft.track.suspended.tip=Benötigt keine Stütze von unterhalb\n Kann Lücken überqueren
 tile.railcraft.track.switch.name=Weiche
+tile.railcraft.track.switch.tip=§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.whistle.name=Pfeifschiene
 tile.railcraft.track.whistle.tip=Passierende Lokomotiven werden pfeifen\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.wye.name=T-Weiche
+tile.railcraft.track.wye.tip=§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 
 tile.railcraft.wall.abyssal.brick.name=Abyss-Ziegelmauer
 tile.railcraft.wall.bleachedbone.brick.name=Gebleichte Knochen-Ziegelmauer
