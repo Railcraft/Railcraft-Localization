@@ -296,6 +296,7 @@ railcraft.gui.electric.meter.charge=电量=@.2f/@.2f,损耗=@.2f/tick
 
 railcraft.gui.energy.loader.empty=空
 railcraft.gui.energy.loader.fill=强制装满
+railcraft.gui.energy.unloader.wait=等到空
 
 railcraft.gui.engrave.entercode=输入解锁密码:
 railcraft.gui.engrave.getmore1=访问以下链接
@@ -885,9 +886,10 @@ tile.railcraft.track.reinforced.junction.name=强化交接轨道
 tile.railcraft.track.reinforced.junction.tip=速度为普通轨道的125%\n防爆
 tile.railcraft.track.reinforced.name=强化轨道
 tile.railcraft.track.reinforced.switch.name=强化转辙轨道
-+tile.railcraft.track.reinforced.switch.tip=速度为普通轨道的125%\n防爆\n§o§c- 需要转辙马达/开关来进行转辙 -
+tile.railcraft.track.reinforced.switch.tip=速度为普通轨道的125%\n防爆\n§o§c- 需要转辙马达/开关来进行转辙 -
 tile.railcraft.track.reinforced.tip=速度为普通轨道的125%\n防爆
 tile.railcraft.track.reinforced.wye.name=强化Y型轨道
+tile.railcraft.track.reinforced.wye.tip=速度为普通轨道的125%\n防爆\n§o§c- 需要转辙马达/开关来进行转辙 -
 tile.railcraft.track.routing.name=路由轨道
 tile.railcraft.track.routing.tip=设置经过机车的车票
 tile.railcraft.track.slow.boost.name=木质推进轨道
