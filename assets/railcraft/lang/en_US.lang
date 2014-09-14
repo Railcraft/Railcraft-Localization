@@ -650,6 +650,7 @@ tile.railcraft.machine.delta.wire.name=Electric Shunting Wire
 tile.railcraft.machine.delta.wire.tip=Connect Electric Track across gaps\n Place under Track using Wire Support Frames
 
 tile.railcraft.machine.epsilon.electric.feeder.name=Electric Feeder Unit
+tile.railcraft.machine.epsilon.electric.feeder.tip=Converts IndustrialCraft power to Railcraft Power
 
 tile.railcraft.machine.gamma.dispenser.cart.name=Cart Dispenser
 tile.railcraft.machine.gamma.dispenser.train.name=Train Dispenser
