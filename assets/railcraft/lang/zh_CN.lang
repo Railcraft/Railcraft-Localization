@@ -465,6 +465,8 @@ railcraft.gui.turbine.output=输出:@d%%
 railcraft.gui.turbine.rotor=转子:
 railcraft.gui.turbine=蒸汽涡轮机
 
+railcraft.gui.update.message=Railcraft有更新
+
 railcraft.keybind.aura.anchor=锚光环
 railcraft.keybind.aura.tuning=调谐光环
 
@@ -654,6 +656,7 @@ tile.railcraft.machine.delta.wire.name=电力分路线缆
 tile.railcraft.machine.delta.wire.tip=跨距连接电轨\n配合线缆支撑框架可放置于轨道下方
 
 tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元
+tile.railcraft.machine.epsilon.electric.feeder.tip=将工业MOD电能转化为铁路MOD电能
 
 tile.railcraft.machine.gamma.dispenser.cart.name=矿车分车站
 tile.railcraft.machine.gamma.dispenser.train.name=列车分车站
@@ -874,7 +877,7 @@ tile.railcraft.track.lockdown.train.name=列车封锁轨道
 tile.railcraft.track.lockdown.train.tip=已被封锁轨道取代!
 tile.railcraft.track.locking.name=封锁轨道
 tile.railcraft.track.locking.tip=发动或驻留机车
-tile.railcraft.track.locomotive.name=机车调整轨道\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
+tile.railcraft.track.locomotive.name=机车调整轨道
 tile.railcraft.track.locomotive.tip=发动或停止机车\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
 tile.railcraft.track.oneway.name=单向轨道
 tile.railcraft.track.oneway.tip=只允许矿车通向箭头标定方向\n§o§9- 通过撬棍敲击来变向 -
