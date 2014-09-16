@@ -650,6 +650,7 @@ tile.railcraft.machine.delta.wire.name=Elektrisches Rangierkabel
 tile.railcraft.machine.delta.wire.tip=Verbindet Elektrische Schienen über Lücken\n Platziere unterhalb von Schienen,\n die Kabelstützrahmen verwenden
 
 tile.railcraft.machine.epsilon.electric.feeder.name=Elektrische Feeder-Einheit
+tile.railcraft.machine.epsilon.electric.feeder.tip=Wandelt IndustrialCraft- in Railcraft-Energie um
 
 tile.railcraft.machine.gamma.dispenser.cart.name=Waggonspender
 tile.railcraft.machine.gamma.dispenser.train.name=Zugspender
