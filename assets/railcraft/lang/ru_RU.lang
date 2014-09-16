@@ -650,6 +650,7 @@ tile.railcraft.machine.delta.wire.name=Электрический шунтиру
 tile.railcraft.machine.delta.wire.tip=Соединяет электрический путь через разрывы\n Проведите под путём, используя опорный каркас
 
 tile.railcraft.machine.epsilon.electric.feeder.name=Электрическое питающее устройство
+tile.railcraft.machine.epsilon.electric.feeder.tip=Преобразует IndustrialCraft энергию в Railcraft энергию.
 
 tile.railcraft.machine.gamma.dispenser.cart.name=Раздатчик вагонеток
 tile.railcraft.machine.gamma.dispenser.train.name=Раздатчик поездов
