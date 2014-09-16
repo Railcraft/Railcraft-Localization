@@ -465,6 +465,8 @@ railcraft.gui.turbine.output=输出:@d%%
 railcraft.gui.turbine.rotor=转子:
 railcraft.gui.turbine=蒸汽涡轮机
 
+railcraft.gui.update.message=Railcraft有更新
+
 railcraft.keybind.aura.anchor=锚光环
 railcraft.keybind.aura.tuning=调谐光环
 
@@ -654,6 +656,7 @@ tile.railcraft.machine.delta.wire.name=电力分路线缆
 tile.railcraft.machine.delta.wire.tip=跨距连接电轨\n配合线缆支撑框架可放置于轨道下方
 
 tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元
+tile.railcraft.machine.epsilon.electric.feeder.tip=将工业MOD电能转化为铁路MOD电能
 
 tile.railcraft.machine.gamma.dispenser.cart.name=矿车分车站
 tile.railcraft.machine.gamma.dispenser.train.name=列车分车站
@@ -848,9 +851,9 @@ tile.railcraft.track.electric.tip=§9危险:高压电\n §r电力驱动\n配套�
 tile.railcraft.track.electric.junction.name=电力交接轨道
 tile.railcraft.track.electric.junction.tip=§9危险:高压电\n §r电力驱动\n配套电力机车使用\n使用电力供给单元供能\n使用分路线缆跨越间隙
 tile.railcraft.track.electric.switch.name=电力转辙轨道
-tile.railcraft.track.electric.switch.tip=§9危险:高压电\n §r电力驱动\n配套电力机车使用\n使用电力供给单元供能\n使用分路线缆跨越间隙\\n§o§c- 需要转辙马达/开关来进行转辙 -
+tile.railcraft.track.electric.switch.tip=§9危险:高压电\n §r电力驱动\n配套电力机车使用\n使用电力供给单元供能\n使用分路线缆跨越间隙\n§o§c- 需要转辙马达/开关来进行转辙 -
 tile.railcraft.track.electric.wye.name=电力Y型轨道
-tile.railcraft.track.electric.wye.tip=§9危险:高压电\n §r电力驱动\n配套电力机车使用\n使用电力供给单元供能\n使用分路线缆跨越间隙\\n§o§c- 需要转辙马达/开关来进行转辙 -
+tile.railcraft.track.electric.wye.tip=§9危险:高压电\n §r电力驱动\n配套电力机车使用\n使用电力供给单元供能\n使用分路线缆跨越间隙\n§o§c- 需要转辙马达/开关来进行转辙 -
 tile.railcraft.track.elevator.name=升降轨道
 tile.railcraft.track.elevator.tip=允许车厢竖直移动\n§o§c- 顶部通入红石信号即可激活 -
 tile.railcraft.track.embarking.name=乘车轨道
@@ -874,7 +877,7 @@ tile.railcraft.track.lockdown.train.name=列车封锁轨道
 tile.railcraft.track.lockdown.train.tip=已被封锁轨道取代!
 tile.railcraft.track.locking.name=封锁轨道
 tile.railcraft.track.locking.tip=发动或驻留机车
-tile.railcraft.track.locomotive.name=机车调整轨道\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
+tile.railcraft.track.locomotive.name=机车调整轨道
 tile.railcraft.track.locomotive.tip=发动或停止机车\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
 tile.railcraft.track.oneway.name=单向轨道
 tile.railcraft.track.oneway.tip=只允许矿车通向箭头标定方向\n§o§9- 通过撬棍敲击来变向 -
