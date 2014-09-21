@@ -343,7 +343,7 @@ railcraft.gui.item.loader.stock=达到
 railcraft.gui.item.loader.transfer.tip=尽可能移动\n过滤设定中数量的物品
 railcraft.gui.item.loader.transfer=转移
 
-railcraft.gui.link.broken=链接已损坏
+railcraft.gui.link.broken=链接已断开
 railcraft.gui.link.created=链接已创建
 railcraft.gui.link.failed=链接已失败
 railcraft.gui.link.started=链接已开始
