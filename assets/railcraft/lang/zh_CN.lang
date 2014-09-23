@@ -657,15 +657,25 @@ tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元
 tile.railcraft.machine.epsilon.electric.feeder.tip=将IC电力转化为RC电力
 
 tile.railcraft.machine.gamma.dispenser.cart.name=矿车分车站
+tile.railcraft.machine.gamma.dispenser.cart.tip=向轨道分配矿车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出矿车 -
 tile.railcraft.machine.gamma.dispenser.train.name=列车分车站
+tile.railcraft.machine.gamma.dispenser.train.tip=向轨道分配列车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出列车 -
 tile.railcraft.machine.gamma.loader.energy.name=能量装载机
+tile.railcraft.machine.gamma.loader.energy.tip=为Ic2能量运输矿车装载电力\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限Ic2电力
 tile.railcraft.machine.gamma.loader.item.advanced.name=高级物品装载机
+tile.railcraft.machine.gamma.loader.item.advanced.tip=为矿车装载物品\n§o§9- 用撬棍敲击以切换方向 -
 tile.railcraft.machine.gamma.loader.item.name=物品装载机
-tile.railcraft.machine.gamma.loader.liquid.name=液体装载机
+tile.railcraft.machine.gamma.loader.item.tip=为矿车装载物品\n§o§c- 需要放置在轨道上方 -
+tile.railcraft.machine.gamma.loader.liquid.name=流体装载机
+tile.railcraft.machine.gamma.loader.liquid.tip=为矿车装载流体\n§o§c- 需要放置在轨道上方 -
 tile.railcraft.machine.gamma.unloader.energy.name=能量卸载机
+tile.railcraft.machine.gamma.unloader.energy.tip=为Ic2能量运输矿车卸载电力\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限Ic2电力
 tile.railcraft.machine.gamma.unloader.item.advanced.name=高级物品卸载机
+tile.railcraft.machine.gamma.unloader.item.advanced.tip=为矿车卸载物品\n§o§9- 用撬棍敲击以切换方向 -
 tile.railcraft.machine.gamma.unloader.item.name=物品卸载机
-tile.railcraft.machine.gamma.unloader.liquid.name=液体卸载机
+tile.railcraft.machine.gamma.unloader.item.tip=为矿车卸载物品\n§o§c- 需要放置在轨道下方 -
+tile.railcraft.machine.gamma.unloader.liquid.name=流体卸载机
+tile.railcraft.machine.gamma.unloader.liquid.tip=为矿车卸载流体\n§o§c- 需要放置在轨道下方 -
 
 tile.railcraft.ore.dark.diamond.name=暗黑钻石矿石
 tile.railcraft.ore.dark.emerald.name=暗黑绿宝石矿石
