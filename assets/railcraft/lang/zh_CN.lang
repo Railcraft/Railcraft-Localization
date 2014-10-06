@@ -394,16 +394,16 @@ railcraft.gui.routing.logic.malformed.syntax=不符规范语法
 railcraft.gui.routing.logic.unrecognized.keyword=未识别关键字
 railcraft.gui.routing.slot.label=路由表
 railcraft.gui.routing.table.editor=由@s最后编辑
-railcraft.gui.routing.table.manual.page1=放置在路由表或者转辙器里的列车时刻表定义了一系列规则,并会匹配经过的机车.路由表的逻辑语法允许你创建一些简单或者更复杂的规则：通常格式是指令加参数.一行只允许一个关键字.若没有指明指令,默认将使用OR指令.路由表可以通过像地图一样在合成台里被复制.
-railcraft.gui.routing.table.manual.page2=指令关键字：\n   AND - 有两个参数,两个必须都为真,则输出真.\n   OR - 有两个参数,两个中有一个为真,则输出真.\n   NOT - 将参数取反.
-railcraft.gui.routing.table.manual.page3=环境关键字：\n   Dest=<字符串>\n      若火车头的目的地\n      以这个字符串开头,\n      那么为真.\n   Owner=<用户名>\n      若火车属于此人\n      那么为真. \n\n   名称=<entityname>\n      如果匹配车的名字\n      那么为真.
-railcraft.gui.routing.table.manual.page4=环境关键字：\n   Color=<车身色>,<底盘色>\n      若火车车身色与底盘色\n      和要求相符则为真.\n      允许使用通配符“Any”.\n      颜色有(请键入英文): Black(黑), Red(红), Green(绿), Brown(棕), \n      Blue(蓝),Purple(紫), Cyan(青), LightGray(浅灰), Gray(灰), Pink(粉),\n       Lime(柠檬),Yellow(黄), LightBlue(浅蓝), Magenta(品红), Orange(橙), \n White(白)  NeedsRefuel=<true/false>\n      如果机车缺乏燃料或者\n      水,那么就转向它.
-railcraft.gui.routing.table.manual.page5=条件关键词:\n   Redstone=<true/false>\n      当路由方块被红石充能时\n      为真.
-railcraft.gui.routing.table.manual.page6=示例：\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n      "Dest=null" 会匹配没有\n      目的地的矿车.\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+railcraft.gui.routing.table.manual.page1=放入路由探测器或转辙器中的列车时刻表定义了一组对过往机车进行匹配的规则.这些使用简单逻辑指令定义的脚本能够允许你任你所需创建出简单或复杂的控制规则.这种指令属于前缀符号脚本,指令需要放在操作数之后,每行限使用一个关键字.若没有写明指令,则默认使用OR指令.在工作台放置两个或更多列车时刻表可以复制其内容.
+railcraft.gui.routing.table.manual.page2=指令关键字:\n   AND - 两个操作数,必须都为真..\n   OR - 两个操作数,一个必须为真.\n   NOT - 反转下一条指令.
+railcraft.gui.routing.table.manual.page3=条件关键字:\n   Dest=<字符串>\n      如果机车目的地\n      字符串以这条字符串开头,\n      则条件为真.\n      "Dest=null" 将匹配那些没有\n      目的地的矿车.\n   Owner=<username>\n      机车属于对应名称玩家\n      则为真.\n   Name=<entityname>\n      如果矿车名称与之匹配\n      则为真.
+railcraft.gui.routing.table.manual.page4=条件关键字:\n   Color=<车身色>,<底盘色>\n      如果机车的车身颜色与底盘颜色匹配\n      则为真.\n      可以使用"Any"作为通配符.\n      颜色(请键入英文): Black(黑色), Red(红色), Green(绿色), Brown(棕色), Blue(蓝色),\n      Purple(紫色), Cyan(青色), LightGray(浅灰色), Gray(灰色), Pink(粉色), Lime(柠檬色),\n      Yellow(黄色), LightBlue(浅蓝色), Magenta(品红色), Orange(橙色), White(白色)\n   NeedsRefuel=<true/false>\n      判断机车是否缺燃料或水.\n      匹配则触发它.
+railcraft.gui.routing.table.manual.page5=条件关键字:\n   Redstone=<true/false>\n      路由方块被红石充能\n      则为真.
+railcraft.gui.routing.table.manual.page6=脚本范例:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
 railcraft.gui.routing.table.manual.page7=结果:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身色为黑,底盘色为红,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头.
-railcraft.gui.routing.table.manual.title=手动导航
+railcraft.gui.routing.table.manual.title=路由手册
 railcraft.gui.routing.table.name=名称
-railcraft.gui.routing.ticket.line1=该车票已经作废
+railcraft.gui.routing.ticket.line1=车票有效
 railcraft.gui.routing.ticket.line2=前往以下目的地:
 railcraft.gui.routing.ticket.manual.title=关于黄金车票
 railcraft.gui.routing.ticket.manual=黄金车票是一种在任何共有/私人列车上都可以无限使用的车票,还可以用它拓印纸张来制造一次性车票.
@@ -655,6 +655,9 @@ tile.railcraft.machine.delta.wire.tip=跨距连接电轨\n配合线缆支撑框�
 
 tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元
 tile.railcraft.machine.epsilon.electric.feeder.tip=将IC电力转化为RC电力
+
+tile.railcraft.machine.epsilon.admin.feeder.name=管理员电力供给单元
+tile.railcraft.machine.epsilon.admin.feeder.tip=提供无限的RC电力
 
 tile.railcraft.machine.gamma.dispenser.cart.name=矿车分车站
 tile.railcraft.machine.gamma.dispenser.cart.tip=向轨道分配矿车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出矿车 -
