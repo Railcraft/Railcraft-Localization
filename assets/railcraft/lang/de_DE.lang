@@ -652,6 +652,9 @@ tile.railcraft.machine.delta.wire.tip=Verbindet Elektrische Schienen über Lück
 tile.railcraft.machine.epsilon.electric.feeder.name=Elektrische Feeder-Einheit
 tile.railcraft.machine.epsilon.electric.feeder.tip=Wandelt IndustrialCraft- in Railcraft-Energie um
 
+tile.railcraft.machine.epsilon.admin.feeder.name=Admin-Feeder-Einheit
+tile.railcraft.machine.epsilon.admin.feeder.tip=Gibt unendlich Railcraft-Energie
+
 tile.railcraft.machine.gamma.dispenser.cart.name=Waggonspender
 tile.railcraft.machine.gamma.dispenser.cart.tip=Lädt Waggons direkt auf Schienen\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Waggon mit einem Redstone-Signal auf Schiene -
 tile.railcraft.machine.gamma.dispenser.train.name=Zugspender
