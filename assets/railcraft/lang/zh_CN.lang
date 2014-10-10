@@ -737,6 +737,7 @@ tile.railcraft.residual.heat.name=残余热量
 
 tile.railcraft.signal.block.signal.dual.name=双头信号盒
 tile.railcraft.signal.block.signal.name=信号盒
+tile.railcraft.signal.box.analog.name=模拟信号控制盒
 tile.railcraft.signal.box.block.relay.name=信号中继盒
 tile.railcraft.signal.box.capacitor.name=信号计数盒
 tile.railcraft.signal.box.controller.name=信号控制盒
