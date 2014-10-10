@@ -733,6 +733,7 @@ tile.railcraft.residual.heat.name=Residual Heat
 
 tile.railcraft.signal.block.signal.dual.name=Dual-Head Block Signal
 tile.railcraft.signal.block.signal.name=Block Signal
+tile.railcraft.signal.box.analog.name=Analog Signal Controller Box
 tile.railcraft.signal.box.block.relay.name=Signal Block Relay Box
 tile.railcraft.signal.box.capacitor.name=Signal Capacitor Box
 tile.railcraft.signal.box.controller.name=Signal Controller Box
