@@ -683,16 +683,16 @@ tile.railcraft.stair.sandy.block.name=Sandy Block Stairs
 tile.railcraft.stair.sandy.cobble.name=Sandy Cobble Stairs
 tile.railcraft.stair.snow.name=Snøtrapper
 
-tile.railcraft.stonelamp.abyssal.name=Abyssal Stone Lamp
-tile.railcraft.stonelamp.bleachedbone.name=Bleached Bone Stone Lamp
-tile.railcraft.stonelamp.bloodstained.name=Bloodstained Stone Lamp
-tile.railcraft.stonelamp.frostbound.name=Frostbound Stone Lamp
-tile.railcraft.stonelamp.infernal.name=Infernal Stone Lamp
-tile.railcraft.stonelamp.nether.name=Nether Stone Lamp
-tile.railcraft.stonelamp.quarried.name=Quarried Stone Lamp
-tile.railcraft.stonelamp.sandstone.name=Sandstone Lamp
-tile.railcraft.stonelamp.sandy.name=Sandy Stone Lamp
-tile.railcraft.stonelamp.stone.name=Stone Lamp
+tile.railcraft.lantern.stone.abyssal.name=Abyssal Stone Lamp
+tile.railcraft.lantern.stone.bleachedbone.name=Bleached Bone Stone Lamp
+tile.railcraft.lantern.stone.bloodstained.name=Bloodstained Stone Lamp
+tile.railcraft.lantern.stone.frostbound.name=Frostbound Stone Lamp
+tile.railcraft.lantern.stone.infernal.name=Infernal Stone Lamp
+tile.railcraft.lantern.stone.nether.name=Nether Stone Lamp
+tile.railcraft.lantern.stone.quarried.name=Quarried Stone Lamp
+tile.railcraft.lantern.stone.sandstone.name=Sandstone Lamp
+tile.railcraft.lantern.stone.sandy.name=Sandy Stone Lamp
+tile.railcraft.lantern.stone.stone.name=Stone Lamp
 
 tc.research_category.RAILCRAFT=Traheremagy
 thaumcraft.research.RC_Crowbar.name=Thaumium Crowbar

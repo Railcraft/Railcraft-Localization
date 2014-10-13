@@ -825,16 +825,16 @@ tile.railcraft.stair.sandy.cobble.name=Ступеньки из песчаног�
 tile.railcraft.stair.sandy.fitted.name=Ступеньки из крупного песчаного камня
 tile.railcraft.stair.snow.name=Снежные ступеньки
 
-tile.railcraft.stonelamp.abyssal.name=Фонарь из камня бездны
-tile.railcraft.stonelamp.bleachedbone.name=Фонарь из костяного камня
-tile.railcraft.stonelamp.bloodstained.name=Фонарь из кровавого камня
-tile.railcraft.stonelamp.frostbound.name=Фонарь из заледеневшего камня
-tile.railcraft.stonelamp.infernal.name=Фонарь из дьявольского камня
-tile.railcraft.stonelamp.nether.name=Фонарь из камня Нижнего мира
-tile.railcraft.stonelamp.quarried.name=Фонарь из карьерного камня
-tile.railcraft.stonelamp.sandstone.name=Фонарь из песчаника
-tile.railcraft.stonelamp.sandy.name=Фонарь из песчаного камня
-tile.railcraft.stonelamp.stone.name=Фонарь из камня
+tile.railcraft.lantern.stone.abyssal.name=Фонарь из камня бездны
+tile.railcraft.lantern.stone.bleachedbone.name=Фонарь из костяного камня
+tile.railcraft.lantern.stone.bloodstained.name=Фонарь из кровавого камня
+tile.railcraft.lantern.stone.frostbound.name=Фонарь из заледеневшего камня
+tile.railcraft.lantern.stone.infernal.name=Фонарь из дьявольского камня
+tile.railcraft.lantern.stone.nether.name=Фонарь из камня Нижнего мира
+tile.railcraft.lantern.stone.quarried.name=Фонарь из карьерного камня
+tile.railcraft.lantern.stone.sandstone.name=Фонарь из песчаника
+tile.railcraft.lantern.stone.sandy.name=Фонарь из песчаного камня
+tile.railcraft.lantern.stone.stone.name=Фонарь из камня
 
 tile.railcraft.track.boarding.name=Посадочный путь
 tile.railcraft.track.boarding.tip=Заменён замыкающим путём

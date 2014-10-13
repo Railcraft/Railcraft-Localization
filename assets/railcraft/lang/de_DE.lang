@@ -826,16 +826,16 @@ tile.railcraft.stair.sandy.cobble.name=Sand-Pflastersteintreppe
 tile.railcraft.stair.sandy.fitted.name=Gemeißelte Sandsteintreppe
 tile.railcraft.stair.snow.name=Schneetreppe
 
-tile.railcraft.stonelamp.abyssal.name=Abyss-Steinlaterne
-tile.railcraft.stonelamp.bleachedbone.name=Gebleichte Knochen-Steinlaterne
-tile.railcraft.stonelamp.bloodstained.name=Bloodstained Steinlaterne
-tile.railcraft.stonelamp.frostbound.name=Frostige Steinlaterne
-tile.railcraft.stonelamp.infernal.name=Höllische Steinlaterne
-tile.railcraft.stonelamp.nether.name=Nether-Steinlaterne
-tile.railcraft.stonelamp.quarried.name=Brüchige Steinlaterne
-tile.railcraft.stonelamp.sandstone.name=Sandsteinlaterne
-tile.railcraft.stonelamp.sandy.name=Sandige Steinlaterne
-tile.railcraft.stonelamp.stone.name=Steinlaterne
+tile.railcraft.lantern.stone.abyssal.name=Abyss-Steinlaterne
+tile.railcraft.lantern.stone.bleachedbone.name=Gebleichte Knochen-Steinlaterne
+tile.railcraft.lantern.stone.bloodstained.name=Bloodstained Steinlaterne
+tile.railcraft.lantern.stone.frostbound.name=Frostige Steinlaterne
+tile.railcraft.lantern.stone.infernal.name=Höllische Steinlaterne
+tile.railcraft.lantern.stone.nether.name=Nether-Steinlaterne
+tile.railcraft.lantern.stone.quarried.name=Brüchige Steinlaterne
+tile.railcraft.lantern.stone.sandstone.name=Sandsteinlaterne
+tile.railcraft.lantern.stone.sandy.name=Sandige Steinlaterne
+tile.railcraft.lantern.stone.stone.name=Steinlaterne
 
 tile.railcraft.track.boarding.name=Einstiegsschiene
 tile.railcraft.track.boarding.tip=Durch die Sperrschiene ersetzt

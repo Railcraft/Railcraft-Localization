@@ -828,16 +828,16 @@ tile.railcraft.stair.sandy.cobble.name=砂石碎石階梯
 tile.railcraft.stair.sandy.fitted.name=砂石磚階梯
 tile.railcraft.stair.snow.name=雪階梯
 
-tile.railcraft.stonelamp.abyssal.name=深淵石燈
-tile.railcraft.stonelamp.bleachedbone.name=白骨石燈
-tile.railcraft.stonelamp.bloodstained.name=染血石燈
-tile.railcraft.stonelamp.frostbound.name=冰霜石燈
-tile.railcraft.stonelamp.infernal.name=煉獄石燈
-tile.railcraft.stonelamp.nether.name=地獄石燈
-tile.railcraft.stonelamp.quarried.name=石料製燈
-tile.railcraft.stonelamp.sandstone.name=砂岩石燈
-tile.railcraft.stonelamp.sandy.name=砂石製燈
-tile.railcraft.stonelamp.stone.name=石燈
+tile.railcraft.lantern.stone.abyssal.name=深淵石燈
+tile.railcraft.lantern.stone.bleachedbone.name=白骨石燈
+tile.railcraft.lantern.stone.bloodstained.name=染血石燈
+tile.railcraft.lantern.stone.frostbound.name=冰霜石燈
+tile.railcraft.lantern.stone.infernal.name=煉獄石燈
+tile.railcraft.lantern.stone.nether.name=地獄石燈
+tile.railcraft.lantern.stone.quarried.name=石料製燈
+tile.railcraft.lantern.stone.sandstone.name=砂岩石燈
+tile.railcraft.lantern.stone.sandy.name=砂石製燈
+tile.railcraft.lantern.stone.stone.name=石燈
 
 tile.railcraft.track.boarding.name=發車鐵軌
 tile.railcraft.track.boarding.tip=已被鎖定鐵軌取代

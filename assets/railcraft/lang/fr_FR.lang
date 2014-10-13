@@ -701,16 +701,16 @@ tile.railcraft.stair.sandy.block.name=Escalier de bloc sablé
 tile.railcraft.stair.sandy.cobble.name=Escalier en roche sablée
 tile.railcraft.stair.snow.name=Escalier de neige
 
-tile.railcraft.stonelamp.abyssal.name=Lampe en pierre abyssal
-tile.railcraft.stonelamp.bleachedbone.name=Lampe en pierre blanchi à l'os
-tile.railcraft.stonelamp.bloodstained.name=Lampe en pierre colorée de sang
-tile.railcraft.stonelamp.frostbound.name=Lampe en pierre de givre consolidée
-tile.railcraft.stonelamp.infernal.name=Lampe en pierre infernale
-tile.railcraft.stonelamp.nether.name=Lampe en pierre du Nether
-tile.railcraft.stonelamp.quarried.name=Lampe en pierre extraite
-tile.railcraft.stonelamp.sandstone.name=Lampe en grès
-tile.railcraft.stonelamp.sandy.name=Lampe en roche sablée
-tile.railcraft.stonelamp.stone.name=Lampe en pierre
+tile.railcraft.lantern.stone.abyssal.name=Lampe en pierre abyssal
+tile.railcraft.lantern.stone.bleachedbone.name=Lampe en pierre blanchi à l'os
+tile.railcraft.lantern.stone.bloodstained.name=Lampe en pierre colorée de sang
+tile.railcraft.lantern.stone.frostbound.name=Lampe en pierre de givre consolidée
+tile.railcraft.lantern.stone.infernal.name=Lampe en pierre infernale
+tile.railcraft.lantern.stone.nether.name=Lampe en pierre du Nether
+tile.railcraft.lantern.stone.quarried.name=Lampe en pierre extraite
+tile.railcraft.lantern.stone.sandstone.name=Lampe en grès
+tile.railcraft.lantern.stone.sandy.name=Lampe en roche sablée
+tile.railcraft.lantern.stone.stone.name=Lampe en pierre
 
 tc.research_category.RAILCRAFT=Traheremagy
 thaumcraft.research.RC_Crowbar.name=pied de biche en Thaumium

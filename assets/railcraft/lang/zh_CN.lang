@@ -830,16 +830,16 @@ tile.railcraft.stair.sandy.cobble.name=沙岩圆石楼梯
 tile.railcraft.stair.sandy.fitted.name=匀称沙岩楼梯
 tile.railcraft.stair.snow.name=雪楼梯
 
-tile.railcraft.stonelamp.abyssal.name=深渊石灯
-tile.railcraft.stonelamp.bleachedbone.name=白骨石灯
-tile.railcraft.stonelamp.bloodstained.name=污血石灯
-tile.railcraft.stonelamp.frostbound.name=霜冻石灯
-tile.railcraft.stonelamp.infernal.name=地狱石灯
-tile.railcraft.stonelamp.nether.name=下界石灯
-tile.railcraft.stonelamp.quarried.name=采掘石灯
-tile.railcraft.stonelamp.sandstone.name=沙石灯
-tile.railcraft.stonelamp.sandy.name=沙岩石灯
-tile.railcraft.stonelamp.stone.name=石灯
+tile.railcraft.lantern.stone.abyssal.name=深渊石灯
+tile.railcraft.lantern.stone.bleachedbone.name=白骨石灯
+tile.railcraft.lantern.stone.bloodstained.name=污血石灯
+tile.railcraft.lantern.stone.frostbound.name=霜冻石灯
+tile.railcraft.lantern.stone.infernal.name=地狱石灯
+tile.railcraft.lantern.stone.nether.name=下界石灯
+tile.railcraft.lantern.stone.quarried.name=采掘石灯
+tile.railcraft.lantern.stone.sandstone.name=沙石灯
+tile.railcraft.lantern.stone.sandy.name=沙岩石灯
+tile.railcraft.lantern.stone.stone.name=石灯
 
 tile.railcraft.track.boarding.name=寄宿轨道
 tile.railcraft.track.boarding.tip=已被封锁轨道取代

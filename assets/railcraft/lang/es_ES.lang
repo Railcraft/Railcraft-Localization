@@ -790,16 +790,16 @@ tile.railcraft.stair.sandy.cobble.name=Escalera de Adoquín Arenoso
 tile.railcraft.stair.sandy.fitted.name=Escalera de Piedra Arenosa Entallada
 tile.railcraft.stair.snow.name=Escalera de Nieve
 
-tile.railcraft.stonelamp.abyssal.name=Lámpara de Piedra Abisal
-tile.railcraft.stonelamp.bleachedbone.name=Lámpara de Piedra con Hueso Blanqueado
-tile.railcraft.stonelamp.bloodstained.name=Lámpara de Piedra manchada de Sangre
-tile.railcraft.stonelamp.frostbound.name=Lámpara de Piedra Helada
-tile.railcraft.stonelamp.infernal.name=Lámpara de Piedra Infernal
-tile.railcraft.stonelamp.nether.name=Lámpara de Piedra del Inframundo
-tile.railcraft.stonelamp.quarried.name=Lámpara de Piedra de Cantera
-tile.railcraft.stonelamp.sandstone.name=Lámpara de Piedra Arenisca
-tile.railcraft.stonelamp.sandy.name=Lámpara de Piedra Arenosa
-tile.railcraft.stonelamp.stone.name=Lámpara de Piedra
+tile.railcraft.lantern.stone.abyssal.name=Lámpara de Piedra Abisal
+tile.railcraft.lantern.stone.bleachedbone.name=Lámpara de Piedra con Hueso Blanqueado
+tile.railcraft.lantern.stone.bloodstained.name=Lámpara de Piedra manchada de Sangre
+tile.railcraft.lantern.stone.frostbound.name=Lámpara de Piedra Helada
+tile.railcraft.lantern.stone.infernal.name=Lámpara de Piedra Infernal
+tile.railcraft.lantern.stone.nether.name=Lámpara de Piedra del Inframundo
+tile.railcraft.lantern.stone.quarried.name=Lámpara de Piedra de Cantera
+tile.railcraft.lantern.stone.sandstone.name=Lámpara de Piedra Arenisca
+tile.railcraft.lantern.stone.sandy.name=Lámpara de Piedra Arenosa
+tile.railcraft.lantern.stone.stone.name=Lámpara de Piedra
 
 tile.railcraft.track.boarding.name=Vía de Estacionamiento
 tile.railcraft.track.boarding.tip=Sustituido por Vía de Bloqueo
