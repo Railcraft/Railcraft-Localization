@@ -659,6 +659,9 @@ tile.railcraft.machine.epsilon.electric.feeder.tip=Converts IndustrialCraft powe
 tile.railcraft.machine.epsilon.admin.feeder.name=Admin Feeder Unit
 tile.railcraft.machine.epsilon.admin.feeder.tip=Provides Unlimited Railcraft Power
 
+tile.railcraft.machine.epsilon.admin.steam.producer.name=Admin Steam Producer
+tile.railcraft.machine.epsilon.admin.steam.producer.tip=Provides Unlimited Steam
+
 tile.railcraft.machine.gamma.dispenser.cart.name=Cart Dispenser
 tile.railcraft.machine.gamma.dispenser.cart.tip=Dispenses Carts onto Tracks\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Apply Redstone to dispense Cart -
 tile.railcraft.machine.gamma.dispenser.train.name=Train Dispenser
