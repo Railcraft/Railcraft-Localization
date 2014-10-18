@@ -384,6 +384,8 @@ railcraft.gui.locomotive.tip.item.secondary=§oSecondary Color:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oWhistle Pitch:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Insert Ticket
 
+railcraft.gui.mag.glass.aspect=The signal is @s
+railcraft.gui.mag.glass.aspect.dual=The signal is @1$sat top and @2$sat bottom
 railcraft.gui.mag.glass.placedby=@1$s was placed by @2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-click to craft-
