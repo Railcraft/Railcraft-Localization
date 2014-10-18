@@ -659,6 +659,9 @@ tile.railcraft.machine.epsilon.electric.feeder.tip=将IC电力转化为RC电力
 tile.railcraft.machine.epsilon.admin.feeder.name=管理员电力供给单元
 tile.railcraft.machine.epsilon.admin.feeder.tip=提供无限的RC电力
 
+tile.railcraft.machine.epsilon.admin.steam.producer.name=管理员蒸汽供给单元
+tile.railcraft.machine.epsilon.admin.steam.producer.tip=提供无限的蒸汽
+
 tile.railcraft.machine.gamma.dispenser.cart.name=矿车分车站
 tile.railcraft.machine.gamma.dispenser.cart.tip=向轨道分配矿车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出矿车 -
 tile.railcraft.machine.gamma.dispenser.train.name=列车分车站
