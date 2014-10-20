@@ -384,7 +384,9 @@ railcraft.gui.locomotive.tip.item.secondary=§oВторичный цвет:§r @
 railcraft.gui.locomotive.tip.item.whistle=§oТон свистка:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Вставьте билет
 
-railcraft.gui.mag.glass.placedby=@1$s был размещен игроком @2$s
+railcraft.gui.mag.glass.aspect=Аспект сигнала @s
+railcraft.gui.mag.glass.aspect.dual=Аспект сигнала @1$sсверху и @2$sснизу
+railcraft.gui.mag.glass.placedby=@1$s был размещён игроком @2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-нажмите, чтобы создать-
 
