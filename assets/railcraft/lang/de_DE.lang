@@ -384,6 +384,8 @@ railcraft.gui.locomotive.tip.item.secondary=§oSekundärfarbe:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oPfeifen-Tonhöhe:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Ticket einfügen
 
+railcraft.gui.mag.glass.aspect=Der Signalaspekt ist @s
+railcraft.gui.mag.glass.aspect.dual=Der Signalaspekt ist oben @1$s und unten @2$s
 railcraft.gui.mag.glass.placedby=@1$s wurde platziert von @2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-Klicken zum Herstellen-
