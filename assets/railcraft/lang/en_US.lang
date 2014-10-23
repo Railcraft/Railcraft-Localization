@@ -16,7 +16,9 @@ entity.Railcraft.cart.pumpkin.name=Pumpkin Cart
 entity.Railcraft.cart.tank.name=Tank Cart
 entity.Railcraft.cart.tnt.name=TNT Cart
 entity.Railcraft.cart.tnt.wood.name=Wooden TNT Cart
+entity.Railcraft.cart.track.layer.name=Track Layer Cart
 entity.Railcraft.cart.track.relayer.name=Track Relayer Cart
+entity.Railcraft.cart.track.remover.name=Track Remover Cart
 entity.Railcraft.cart.undercutter.name=Undercutter Cart
 entity.Railcraft.cart.work.name=Work Cart
 
@@ -61,7 +63,9 @@ item.railcraft.cart.pumpkin.name=Pumpkin Cart
 item.railcraft.cart.tank.name=Tank Cart
 item.railcraft.cart.tnt.name=TNT Cart
 item.railcraft.cart.tnt.wood.name=Wooden TNT Cart
+item.railcraft.cart.track.layer.name=Track Layer Cart
 item.railcraft.cart.track.relayer.name=Track Relayer Cart
+item.railcraft.cart.track.remover.name=Track Remover Cart
 item.railcraft.cart.undercutter.name=Undercutter Cart
 item.railcraft.cart.work.name=Work Cart
 
