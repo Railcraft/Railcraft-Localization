@@ -20,7 +20,9 @@ entity.Railcraft.cart.pumpkin.name=南瓜车
 entity.Railcraft.cart.tank.name=蓄水槽车
 entity.Railcraft.cart.tnt.name=TNT车
 entity.Railcraft.cart.tnt.wood.name=木质TNT矿车
+entity.Railcraft.cart.track.layer.name=轨道铺设车
 entity.Railcraft.cart.track.relayer.name=轨道替换车
+entity.Railcraft.cart.track.remover.name=轨道拆除车
 entity.Railcraft.cart.undercutter.name=路基替换车
 entity.Railcraft.cart.work.name=工作台车
 
@@ -65,7 +67,9 @@ item.railcraft.cart.pumpkin.name=南瓜车
 item.railcraft.cart.tank.name=蓄水槽车
 item.railcraft.cart.tnt.name=TNT车
 item.railcraft.cart.tnt.wood.name=木质TNT矿车
+item.railcraft.cart.track.layer.name=轨道铺设车
 item.railcraft.cart.track.relayer.name=轨道替换车
+item.railcraft.cart.track.remover.name=轨道拆除车
 item.railcraft.cart.undercutter.name=路基替换车
 item.railcraft.cart.work.name=工作台车
 
