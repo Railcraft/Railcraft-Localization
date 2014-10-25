@@ -25,8 +25,8 @@ entity.Railcraft.cart.work.name=Arbeitswaggon
 fluid.creosote=Teeröl
 fluid.steam=Dampf
 
-item.minecartChest.name=Truhenwaggon
-item.minecartFurnace.name=Ofenwaggon
+item.minecartChest.name=Güterwaggon
+item.minecartFurnace.name=Triebwagen
 item.minecartTnt.name=TNT-Waggon
 item.minecartHopper.name=Trichterwaggon
 
