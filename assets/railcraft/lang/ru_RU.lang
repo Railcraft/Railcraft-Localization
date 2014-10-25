@@ -8,7 +8,7 @@ entity.Railcraft.cart.energy.batbox.name=Вагонетка с энергохр�
 entity.Railcraft.cart.energy.cesu.name=Вагонетка с ЦЭСУ
 entity.Railcraft.cart.energy.mfe.name=Вагонетка с МФЭ
 entity.Railcraft.cart.energy.mfsu.name=Вагонетка с МФСУ
-entity.Railcraft.cart.furnace.name=Вагонетка с печкой
+entity.Railcraft.cart.furnace.name=Вагонетка с печью
 entity.Railcraft.cart.gift.name=Вагонетка с подарком
 entity.Railcraft.cart.loco.electric.name=Электровоз
 entity.Railcraft.cart.loco.steam.solid.name=Паровой локомотив
@@ -24,6 +24,11 @@ entity.Railcraft.cart.work.name=Вагонетка с верстаком
 
 fluid.creosote=Креозотовое масло
 fluid.steam=Пар
+
+item.minecartChest.name=Вагонетка с сундуком
+item.minecartFurnace.name=Вагонетка с печью
+item.minecartTnt.name=Вагонетка с динамитом
+item.minecartHopper.name=Вагонетка с воронкой
 
 item.railcraft.armor.goggles.name=Очки обходчика путей
 item.railcraft.armor.overalls.name=Комбинезон инженера
@@ -55,7 +60,7 @@ item.railcraft.cart.energy.batbox.name=Вагонетка с энергохра�
 item.railcraft.cart.energy.cesu.name=Вагонетка с ЦЭСУ
 item.railcraft.cart.energy.mfe.name=Вагонетка с МФЭ
 item.railcraft.cart.energy.mfsu.name=Вагонетка с МФСУ
-item.railcraft.cart.furnace.name=Вагонетка с печкой
+item.railcraft.cart.furnace.name=Вагонетка с печью
 item.railcraft.cart.gift.name=Вагонетка с подарком
 item.railcraft.cart.loco.electric.name=Электровоз
 item.railcraft.cart.loco.steam.name=Паровой локомотив
