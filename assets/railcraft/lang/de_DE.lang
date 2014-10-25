@@ -25,6 +25,11 @@ entity.Railcraft.cart.work.name=Arbeitswaggon
 fluid.creosote=Teeröl
 fluid.steam=Dampf
 
+item.minecartChest.name=Truhenwaggon
+item.minecartFurnace.name=Ofenwaggon
+item.minecartTnt.name=TNT-Waggon
+item.minecartHopper.name=Trichterwaggon
+
 item.railcraft.armor.goggles.name=Schienenwartbrille
 item.railcraft.armor.overalls.name=Ingenieurs-Overall
 item.railcraft.armor.overalls.tip=Schützt zuverlässig gegen\n die Gefahren der Schienenarbeit
