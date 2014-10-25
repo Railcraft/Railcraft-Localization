@@ -29,6 +29,11 @@ entity.Railcraft.cart.work.name=工作台车
 fluid.creosote=木馏油
 fluid.steam=蒸汽
 
+item.minecartChest.name=箱子车
+item.minecartFurnace.name=熔炉车
+item.minecartTnt.name=TNT车
+item.minecartHopper.name=漏斗车
+
 item.railcraft.armor.goggles.name=铁路工护目镜
 item.railcraft.armor.overalls.name=工程师背带裤
 item.railcraft.armor.overalls.tip=能够防护轨道工作中\n可能遇到的伤害
