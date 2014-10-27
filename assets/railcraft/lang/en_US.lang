@@ -673,8 +673,8 @@ tile.railcraft.machine.delta.wire.tip=Connect Electric Track across gaps\n Place
 tile.railcraft.machine.epsilon.electric.feeder.name=Electric Feeder Unit
 tile.railcraft.machine.epsilon.electric.feeder.tip=Converts IndustrialCraft power to Railcraft Power
 
-tile.railcraft.machine.epsilon.admin.feeder.name=Admin Feeder Unit
-tile.railcraft.machine.epsilon.admin.feeder.tip=Provides Unlimited Railcraft Power
+tile.railcraft.machine.epsilon.electric.feeder.admin.name=Admin Feeder Unit
+tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Provides Unlimited Railcraft Power
 
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Admin Steam Producer
 tile.railcraft.machine.epsilon.admin.steam.producer.tip=Provides Unlimited Steam
