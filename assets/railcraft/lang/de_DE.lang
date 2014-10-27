@@ -62,16 +62,22 @@ item.railcraft.cart.energy.mfe.name=MFE-Waggon
 item.railcraft.cart.energy.mfsu.name=MFSU-Waggon
 item.railcraft.cart.furnace.name=Triebwagen
 item.railcraft.cart.gift.name=Geschenkwagen
+item.railcraft.cart.gift.tip=Frohe Weihnachten!
 item.railcraft.cart.loco.electric.name=Elektrische Lokomotive
 item.railcraft.cart.loco.steam.solid.name=Dampflokomotive
 item.railcraft.cart.pumpkin.name=Kürbiswagen
+item.railcraft.cart.pumpkin.tip=Süßes, sonst gibt's Saures!
 item.railcraft.cart.tank.name=Tankwaggon
 item.railcraft.cart.tnt.name=TNT-Waggon
 item.railcraft.cart.tnt.wood.name=Hölzerner TNT-Waggon
 item.railcraft.cart.track.layer.name=Schienenlegewaggon
+item.railcraft.cart.track.layer.tip=Verlegt Schienen, während er sich bewegt
 item.railcraft.cart.track.relayer.name=Schienenersetzer
+item.railcraft.cart.track.relayer.tip=Ersetzt eine Schienenart\n mit einer anderen
 item.railcraft.cart.track.remover.name=Schienenentfernungswaggon
+item.railcraft.cart.track.remover.tip=Entfernt Schienen, über die er fährt
 item.railcraft.cart.undercutter.name=Schienenbettersetzer
+item.railcraft.cart.undercutter.tip=Ersetzt die Blöcke\n unterhalb des Gleises
 item.railcraft.cart.work.name=Arbeitswaggon
 
 item.railcraft.dust.charcoal.name=Holzkohlestaub
@@ -667,8 +673,8 @@ tile.railcraft.machine.delta.wire.tip=Verbindet Elektrische Schienen über Lück
 tile.railcraft.machine.epsilon.electric.feeder.name=Elektrische Feeder-Einheit
 tile.railcraft.machine.epsilon.electric.feeder.tip=Wandelt IndustrialCraft- in Railcraft-Energie um
 
-tile.railcraft.machine.epsilon.admin.feeder.name=Admin-Feeder-Einheit
-tile.railcraft.machine.epsilon.admin.feeder.tip=Gibt unendlich Railcraft-Energie
+tile.railcraft.machine.epsilon.electric.feeder.admin.name=Admin-Feeder-Einheit
+tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Gibt unendlich Railcraft-Energie
 
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Admin-Dampfproduzent
 tile.railcraft.machine.epsilon.admin.steam.producer.tip=Gibt unendlich Dampf
