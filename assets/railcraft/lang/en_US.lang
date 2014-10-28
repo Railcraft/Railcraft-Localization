@@ -237,14 +237,14 @@ railcraft.gates.trigger.work=Has Work
 
 railcraft.gui.anchor.fuel.remaining=@.2f hours
 railcraft.gui.anchor.fuel=Ender Pearls
-railcraft.gui.anchor.pair.fail.alignment=@1$s is not axis aligned with that @2$s
-railcraft.gui.anchor.pair.fail.distance=@1$s is too far to pair with that @2$s
-railcraft.gui.anchor.pair.fail.dimension=@1$s is in a different dimension than the target
-railcraft.gui.anchor.pair.fail.invalid=This is not a valid target for pairing with the @s
-railcraft.gui.anchor.pair.fail.unloaded=Target was unloaded while attempting to pair with @s
-railcraft.gui.anchor.pair.cancel=@s pairing was cancelled
-railcraft.gui.anchor.pair.start=@s pairing was initiated
-railcraft.gui.anchor.pair.success=@s was successfully paired
+railcraft.gui.anchor.pair.fail.alignment=%1$s is not axis aligned with that %2$s
+railcraft.gui.anchor.pair.fail.distance=%1$s is too far to pair with that %2$s
+railcraft.gui.anchor.pair.fail.dimension=%1$s is in a different dimension than the target
+railcraft.gui.anchor.pair.fail.invalid=This is not a valid target for pairing with the %s
+railcraft.gui.anchor.pair.fail.unloaded=Target was unloaded while attempting to pair with %s
+railcraft.gui.anchor.pair.cancel=%s pairing was cancelled
+railcraft.gui.anchor.pair.start=%s pairing was initiated
+railcraft.gui.anchor.pair.success=%s was successfully paired
 
 railcraft.gui.aspect.blink.red.name=Blink Red
 railcraft.gui.aspect.blink.yellow.name=Blink Yellow
