@@ -241,10 +241,14 @@ railcraft.gates.trigger.work=工作
 
 railcraft.gui.anchor.fuel.remaining=@.2f小时
 railcraft.gui.anchor.fuel=末影珍珠
-railcraft.gui.anchor.pair.fail.alignment=@1$s与@2$s不匹配
-railcraft.gui.anchor.pair.fail.distance=@1$s与@2$s距离过远,无法配对
-railcraft.gui.anchor.pair.start=@s配对开始
-railcraft.gui.anchor.pair.success=@s已经成功配对
+railcraft.gui.anchor.pair.fail.alignment=%1$s与%2$s不匹配
+railcraft.gui.anchor.pair.fail.dimension=%1$s与目标在不同的世界维度
+railcraft.gui.anchor.pair.fail.invalid=这不是一个可以与%s配对的目标
+railcraft.gui.anchor.pair.fail.unloaded=在与%s配对时目标不在加载的区块中
+railcraft.gui.anchor.pair.fail.distance=%1$s与%2$s距离过远,无法配对
+railcraft.gui.anchor.pair.cancel=%s的配对已经取消
+railcraft.gui.anchor.pair.start=%s配对开始
+railcraft.gui.anchor.pair.success=%s已经成功配对
 
 railcraft.gui.aspect.blink.red.name=闪烁红色
 railcraft.gui.aspect.blink.yellow.name=闪烁黄色
@@ -673,8 +677,8 @@ tile.railcraft.machine.delta.wire.tip=跨距连接电轨\n配合线缆支撑框�
 tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元
 tile.railcraft.machine.epsilon.electric.feeder.tip=将IC电力转化为RC电力
 
-tile.railcraft.machine.epsilon.admin.feeder.name=管理员电力供给单元
-tile.railcraft.machine.epsilon.admin.feeder.tip=提供无限的RC电力
+tile.railcraft.machine.epsilon.electric.feeder.admin.name=管理员电力供给单元
+tile.railcraft.machine.epsilon.electric.feeder.admin.tip=提供无限的RC电力
 
 tile.railcraft.machine.epsilon.admin.steam.producer.name=管理员蒸汽供给单元
 tile.railcraft.machine.epsilon.admin.steam.producer.tip=提供无限的蒸汽
@@ -921,6 +925,7 @@ tile.railcraft.track.limiter.tip=调整经过机车的速度\n§o§9- 通过撬�
 tile.railcraft.track.lockdown.name=封锁轨道
 tile.railcraft.track.lockdown.train.name=列车封锁轨道
 tile.railcraft.track.lockdown.train.tip=已被封锁轨道取代
+tile.railcraft.track.lockdown.tip=已被封锁轨道取代
 tile.railcraft.track.locking.name=封锁轨道
 tile.railcraft.track.locking.tip=发动或驻留机车
 tile.railcraft.track.locomotive.name=机车调整轨道
