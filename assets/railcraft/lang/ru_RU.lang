@@ -667,8 +667,8 @@ tile.railcraft.machine.delta.wire.tip=Соединяет электрическ�
 tile.railcraft.machine.epsilon.electric.feeder.name=Электрическое питающее устройство
 tile.railcraft.machine.epsilon.electric.feeder.tip=Преобразует IndustrialCraft энергию в Railcraft энергию.
 
-tile.railcraft.machine.epsilon.admin.feeder.name=Питающее устройство администратора
-tile.railcraft.machine.epsilon.admin.feeder.tip=Предоставляет бесконечную энергию Railcraft
+tile.railcraft.machine.epsilon.electric.feeder.admin.name=Питающее устройство администратора
+tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Предоставляет бесконечную энергию Railcraft
 
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Производитель пара администратора
 tile.railcraft.machine.epsilon.admin.steam.producer.tip=Предоставляет бесконечный пар
