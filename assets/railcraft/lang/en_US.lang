@@ -1,3 +1,7 @@
+enchantment.railcraft.crowbar.destruction=Destruction
+enchantment.railcraft.crowbar.implosion=Implosion
+enchantment.railcraft.crowbar.wrecking=Wrecking
+
 entity.Railcraft.cart.anchor.admin.name=Admin Anchor Cart
 entity.Railcraft.cart.anchor.name=Anchor Cart
 entity.Railcraft.cart.anchor.personal.name=Personal Anchor Cart
