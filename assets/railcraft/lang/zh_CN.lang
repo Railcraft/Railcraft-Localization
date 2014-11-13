@@ -2,6 +2,10 @@
 # Translated by crafteverywhere
 # Parent Language: zh_TW
 
+enchantment.railcraft.crowbar.destruction=拆除 
+enchantment.railcraft.crowbar.implosion=防爆
+enchantment.railcraft.crowbar.wrecking=破击
+
 entity.Railcraft.cart.anchor.admin.name=管理员锚车
 entity.Railcraft.cart.anchor.name=世界锚车
 entity.Railcraft.cart.anchor.personal.name=私用锚车

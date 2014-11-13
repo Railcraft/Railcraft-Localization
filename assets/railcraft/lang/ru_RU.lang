@@ -1,3 +1,7 @@
+enchantment.railcraft.crowbar.destruction=Разрушение
+enchantment.railcraft.crowbar.implosion=Имплозия
+enchantment.railcraft.crowbar.wrecking=Уничтожение
+
 entity.Railcraft.cart.anchor.admin.name=Вагонетка с якорем администратора
 entity.Railcraft.cart.anchor.name=Вагонетка с мировым якорем
 entity.Railcraft.cart.anchor.personal.name=Вагонетка с личным якорем
@@ -231,14 +235,14 @@ railcraft.gates.trigger.work=Работает
 
 railcraft.gui.anchor.fuel.remaining=@.2f часов
 railcraft.gui.anchor.fuel=Жемчужины Края
-railcraft.gui.anchor.pair.fail.alignment=@1$s не на одной линии с @2$s
-railcraft.gui.anchor.pair.fail.distance=@1$s слишком далеко, чтобы соединиться с @2$s
-railcraft.gui.anchor.pair.fail.dimension=@1$s в другом измерении
-railcraft.gui.anchor.pair.fail.invalid=Этот объект нельзя соединить с @s
-railcraft.gui.anchor.pair.fail.unloaded=Цель была выгружена, во время попытки соединения с @s
-railcraft.gui.anchor.pair.cancel=@s соединение было отменено
-railcraft.gui.anchor.pair.start=@s соединение начато
-railcraft.gui.anchor.pair.success=@s успешно соединены
+railcraft.gui.anchor.pair.fail.alignment=%1$s не на одной линии с %2$s
+railcraft.gui.anchor.pair.fail.distance=%1$s слишком далеко, чтобы соединиться с %2$s
+railcraft.gui.anchor.pair.fail.dimension=%1$s в другом измерении
+railcraft.gui.anchor.pair.fail.invalid=Этот объект нельзя соединить с %s
+railcraft.gui.anchor.pair.fail.unloaded=Цель была выгружена, во время попытки соединения с %s
+railcraft.gui.anchor.pair.cancel=%s соединение было отменено
+railcraft.gui.anchor.pair.start=%s соединение начато
+railcraft.gui.anchor.pair.success=%s успешно соединены
 
 railcraft.gui.aspect.blink.red.name=Мерцающий красный
 railcraft.gui.aspect.blink.yellow.name=Мерцающий жёлтый

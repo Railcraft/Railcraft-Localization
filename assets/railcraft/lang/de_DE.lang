@@ -1,3 +1,7 @@
+enchantment.railcraft.crowbar.destruction=Zerstörung
+enchantment.railcraft.crowbar.implosion=Implosion
+enchantment.railcraft.crowbar.wrecking=Zertrümmern
+
 entity.Railcraft.cart.anchor.name=Ankerwaggon
 entity.Railcraft.cart.anchor.admin.name=Admin-Ankerwaggon
 entity.Railcraft.cart.anchor.personal.name=Persönlicher Ankerwaggon
@@ -237,14 +241,14 @@ railcraft.gates.trigger.temp.hot=Heiß
 
 railcraft.gui.anchor.fuel.remaining=@.2f Stunden
 railcraft.gui.anchor.fuel=Enderperlen
-railcraft.gui.anchor.pair.fail.alignment=@1$s ist nicht mit @2$s in der gleichen Richtung
-railcraft.gui.anchor.pair.fail.distance=@1$s ist zu weit weg, um mit @2$s gekoppelt zu werden
-railcraft.gui.anchor.pair.fail.dimension=@1$s ist in einer anderen Dimension als das Ziel
-railcraft.gui.anchor.pair.fail.invalid=Dies ist kein gültiges Ziel für eine Verbindung: @s
-railcraft.gui.anchor.pair.fail.unloaded=Ziel ist nicht geladen, während versucht wurde, zu verbinden: @s
-railcraft.gui.anchor.pair.cancel=Verbindung wurde abgebrochen: @s
-railcraft.gui.anchor.pair.start=Kopplung eingeleitet: @s
-railcraft.gui.anchor.pair.success=Erfolgreich gekoppelt: @s
+railcraft.gui.anchor.pair.fail.alignment=%1$s ist nicht mit %2$s in der gleichen Richtung
+railcraft.gui.anchor.pair.fail.distance=%1$s ist zu weit weg, um mit %2$s gekoppelt zu werden
+railcraft.gui.anchor.pair.fail.dimension=%1$s ist in einer anderen Dimension als das Ziel
+railcraft.gui.anchor.pair.fail.invalid=Dies ist kein gültiges Ziel für eine Verbindung: %s
+railcraft.gui.anchor.pair.fail.unloaded=Ziel ist nicht geladen, während versucht wurde, zu verbinden: %s
+railcraft.gui.anchor.pair.cancel=Verbindung wurde abgebrochen: %s
+railcraft.gui.anchor.pair.start=Kopplung eingeleitet: %s
+railcraft.gui.anchor.pair.success=Erfolgreich gekoppelt: %s
 
 railcraft.gui.aspect.blink.red.name=Rot blinkend
 railcraft.gui.aspect.blink.yellow.name=Gelb blinkend
