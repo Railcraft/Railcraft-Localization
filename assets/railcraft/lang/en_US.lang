@@ -473,6 +473,7 @@ railcraft.gui.track.locking.mode.holding=Holding
 railcraft.gui.track.locking.mode.lockdown.train=Train Lockdown
 railcraft.gui.track.locking.mode.lockdown=Lockdown
 railcraft.gui.track.priming.fuse=Fuse = @d ticks
+railcraft.gui.track.launcher.force=Force = @d
 
 railcraft.gui.trade.station.dice.tip=Random Trade
 
