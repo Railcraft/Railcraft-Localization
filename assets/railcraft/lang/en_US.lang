@@ -675,14 +675,16 @@ tile.railcraft.machine.beta.tank.steel.wall.tip=Multi-Block: Variable Size, Holl
 tile.railcraft.machine.delta.wire.name=Electric Shunting Wire
 tile.railcraft.machine.delta.wire.tip=Connect Electric Track across gaps\n Place under Track using Wire Support Frames
 
-tile.railcraft.machine.epsilon.electric.feeder.name=Electric Feeder Unit
-tile.railcraft.machine.epsilon.electric.feeder.tip=Converts IndustrialCraft power to Railcraft Power
-
-tile.railcraft.machine.epsilon.electric.feeder.admin.name=Admin Feeder Unit
-tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Provides Unlimited Railcraft Power
-
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Admin Steam Producer
 tile.railcraft.machine.epsilon.admin.steam.producer.tip=Provides Unlimited Steam
+tile.railcraft.machine.epsilon.electric.feeder.admin.name=Admin Feeder Unit
+tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Provides Unlimited Railcraft Charge
+tile.railcraft.machine.epsilon.electric.feeder.name=Electric Feeder Unit
+tile.railcraft.machine.epsilon.electric.feeder.tip=Converts IndustrialCraft Electricity to Railcraft Charge
+tile.railcraft.machine.epsilon.flux.transformer.name=Flux Transformer
+tile.railcraft.machine.epsilon.flux.transformer.tip=Converts Redstone Flux to Railcraft Charge
+tile.railcraft.machine.epsilon.force.track.emitter.name=Force Track Emitter
+tile.railcraft.machine.epsilon.force.track.emitter.tip=Projects energy-based tracks
 
 tile.railcraft.machine.gamma.dispenser.cart.name=Cart Dispenser
 tile.railcraft.machine.gamma.dispenser.cart.tip=Dispenses Carts onto Tracks\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Apply Redstone to dispense Cart -
