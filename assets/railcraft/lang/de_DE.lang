@@ -473,6 +473,7 @@ railcraft.gui.track.locking.mode.holding.train=Zughalte
 railcraft.gui.track.locking.mode.boarding=Einstiegs
 railcraft.gui.track.locking.mode.boarding.train=Zugeinstiegs
 railcraft.gui.track.priming.fuse=Absicherung = @d ticks
+railcraft.gui.track.launcher.force=Kraft = @d
 
 railcraft.gui.trade.station.dice.tip=Zufälliger Handel
 
@@ -674,14 +675,16 @@ tile.railcraft.machine.beta.tank.steel.wall.tip=Multiblock: variable Größe, Ho
 tile.railcraft.machine.delta.wire.name=Elektrisches Rangierkabel
 tile.railcraft.machine.delta.wire.tip=Verbindet Elektrische Schienen über Lücken\n Platziere unterhalb von Schienen,\n die Kabelstützrahmen verwenden
 
-tile.railcraft.machine.epsilon.electric.feeder.name=Elektrische Feeder-Einheit
-tile.railcraft.machine.epsilon.electric.feeder.tip=Wandelt IndustrialCraft- in Railcraft-Energie um
-
-tile.railcraft.machine.epsilon.electric.feeder.admin.name=Admin-Feeder-Einheit
-tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Gibt unendlich Railcraft-Energie
-
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Admin-Dampfproduzent
 tile.railcraft.machine.epsilon.admin.steam.producer.tip=Gibt unendlich Dampf
+tile.railcraft.machine.epsilon.electric.feeder.admin.name=Admin-Feeder-Einheit
+tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Gibt unendlich Railcraft-Energie
+tile.railcraft.machine.epsilon.electric.feeder.name=Elektrische Feeder-Einheit
+tile.railcraft.machine.epsilon.electric.feeder.tip=Wandelt IndustrialCraft- in Railcraft-Energie um
+tile.railcraft.machine.epsilon.flux.transformer.name=Fluxtransformator
+tile.railcraft.machine.epsilon.flux.transformer.tip=Wandelt Redstone Flux in Railcraft-Energie um
+tile.railcraft.machine.epsilon.force.track.emitter.name=Kraftschienenemitter
+tile.railcraft.machine.epsilon.force.track.emitter.tip=Projeziert energiebasierte Schienen
 
 tile.railcraft.machine.gamma.dispenser.cart.name=Waggonspender
 tile.railcraft.machine.gamma.dispenser.cart.tip=Lädt Waggons direkt auf Schienen\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Waggon mit einem Redstone-Signal auf Schiene -
