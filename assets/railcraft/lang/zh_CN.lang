@@ -477,6 +477,7 @@ railcraft.gui.track.locking.mode.holding=扣留
 railcraft.gui.track.locking.mode.lockdown.train=列车封锁
 railcraft.gui.track.locking.mode.lockdown=封锁
 railcraft.gui.track.priming.fuse=引爆延迟 = @d ticks
+railcraft.gui.track.launcher.force=发射力度 = @d 
 
 railcraft.gui.trade.station.dice.tip=随机交易
 
@@ -678,14 +679,15 @@ tile.railcraft.machine.beta.tank.steel.wall.tip=多方块结构:尺寸可变,中
 tile.railcraft.machine.delta.wire.name=电力分路线缆
 tile.railcraft.machine.delta.wire.tip=跨距连接电轨\n配合线缆支撑框架可放置于轨道下方
 
-tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元
-tile.railcraft.machine.epsilon.electric.feeder.tip=将IC电力转化为RC电力
-
-tile.railcraft.machine.epsilon.electric.feeder.admin.name=管理员电力供给单元
-tile.railcraft.machine.epsilon.electric.feeder.admin.tip=提供无限的RC电力
-
 tile.railcraft.machine.epsilon.admin.steam.producer.name=管理员蒸汽供给单元
 tile.railcraft.machine.epsilon.admin.steam.producer.tip=提供无限的蒸汽
+tile.railcraft.machine.epsilon.electric.feeder.admin.name=管理员电力供给单元
+tile.railcraft.machine.epsilon.electric.feeder.admin.tip=提供无限的RC电力
+tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元 
+tile.railcraft.machine.epsilon.electric.feeder.tip=将IC电力转化为RC电力
+tile.railcraft.machine.epsilon.flux.transformer.name=流体转换机
+tile.railcraft.machine.epsilon.force.track.emitter.name=轨道发力机
+tile.railcraft.machine.epsilon.force.track.emitter.tip=计划了以能量为基础的轨道
 
 tile.railcraft.machine.gamma.dispenser.cart.name=矿车分车站
 tile.railcraft.machine.gamma.dispenser.cart.tip=向轨道分配矿车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出矿车 -
