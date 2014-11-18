@@ -1,3 +1,5 @@
+chat.railcraft.api.error=Error: Outdated API, please check your log for more info.
+
 death.railcraft.bore.1=%s got in the way of progress
 death.railcraft.bore.2=%s tried to stop the Bore
 death.railcraft.bore.3=%s was crushed by the Bore
@@ -324,7 +326,7 @@ railcraft.gui.detector.villager.equals=Equals
 railcraft.gui.detector.villager.none=None
 railcraft.gui.detector.villager.not=Not
 
-railcraft.gui.electric.meter.charge=Charge = @.2f / @.2f, Losses = @.2f per tick
+railcraft.gui.electric.meter.charge=Charge: @.2fc | Draw: @.2fc/t | Loss: @.2fc/t
 
 railcraft.gui.energy.loader.empty=Hold Empty
 railcraft.gui.energy.loader.fill=Top Off
@@ -925,6 +927,7 @@ tile.railcraft.track.elevator.name=Elevator Track
 tile.railcraft.track.elevator.tip=Allows vertical Minecart movement\n§o§c- Apply Redstone at top to go up -
 tile.railcraft.track.embarking.name=Embarking Track
 tile.railcraft.track.embarking.tip=Loads entities into Carts\n§o§9- Hit with Crowbar to change range -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.force.name=Force Track
 tile.railcraft.track.gated.name=Gated Track
 tile.railcraft.track.gated.oneway.name=Gated One-Way Track
 tile.railcraft.track.gated.oneway.tip=Its a one-way gate\n§o§c- Apply Redstone to open -
