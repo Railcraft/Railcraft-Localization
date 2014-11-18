@@ -13,29 +13,31 @@ death.railcraft.crusher.1=%s在大型机械旁边失足.
 death.railcraft.crusher.2=%s不是钢铁侠，他像其他人一样被粉碎了.
 death.railcraft.crusher.3=%s凝视着深渊，然后脚滑了.
 death.railcraft.crusher.4=%s需要重新换一套物品.
-death.railcraft.crusher.5=%s忽略了“当心”的告示
-death.railcraft.crusher.6=On sale now! %s Blood Jelly 
-death.railcraft.crusher.7=%s was turned into paste 
-death.railcraft.crusher.8=%s should have read the manual 
+death.railcraft.crusher.5=%s忽略了“当心脚下”的告示.
+death.railcraft.crusher.6=热销中! %s的血肉糊糊!
+death.railcraft.crusher.7=%s变成了垃圾.
+death.railcraft.crusher.8=%s应该读下安全手册.
 
 death.railcraft.steam.1=%s被蒸熟了,鲜美多汁.
 death.railcraft.steam.2=%s没像他吹牛说的那样免疫高温伤害! 
 death.railcraft.steam.3=%s发现了蒸汽烫伤会有多么的痛苦!
 death.railcraft.steam.4=%s出了工业事故.
 death.railcraft.steam.5=%s可能踩到了不该踩的东西.
-death.railcraft.steam.6=%s发现蒸气浴还是在桑拿时享受为妙
+death.railcraft.steam.6=%s发现蒸气浴还是在桑拿时享受为妙.
 
 death.railcraft.track.electric.1=%s在电轨上小便.
 death.railcraft.track.electric.2=%s发现了“高压电”的真谛.
 death.railcraft.track.electric.3=%s顿悟了电之所以为奇迹.
 death.railcraft.track.electric.4=%s迷失于第三轨道.
 death.railcraft.track.electric.5=%s深受震动.(英文双关:即死于电击)
+death.railcraft.track.electric.6=%s学到了一些关于电的东西,它会伤人!
 
 death.railcraft.train.1=%s被列车撞了.
 death.railcraft.train.2=%s在轨道上玩耍.
 death.railcraft.train.3=%s在轨道上和列车单挑,列车赢了.
 death.railcraft.train.4=%s上错车了.
 death.railcraft.train.5=%s买了一张通向来生的单程票.
+death.railcraft.train.6=%s应该穿上背带裤.
 
 enchantment.railcraft.crowbar.destruction=拆除 
 enchantment.railcraft.crowbar.implosion=防爆
@@ -170,6 +172,7 @@ item.railcraft.part.gear.bushing.name=锡齿轮轴套
 item.railcraft.part.gear.gold.plate.name=金板齿轮
 item.railcraft.part.gear.iron.name=铁齿轮
 item.railcraft.part.gear.steel.name=钢齿轮
+item.railcraft.part.plate.copper.name=铜板
 item.railcraft.part.plate.iron.name=铁板
 item.railcraft.part.plate.steel.name=钢板
 item.railcraft.part.plate.tin.name=锡板
@@ -326,7 +329,7 @@ railcraft.gui.detector.villager.equals=是
 railcraft.gui.detector.villager.none=无
 railcraft.gui.detector.villager.not=否
 
-railcraft.gui.electric.meter.charge=电量=@.2f/@.2f,损耗=@.2f/tick
+railcraft.gui.electric.meter.charge=电量: @.2fc | 电流: @.2fc/t | 损耗: @.2fc/t
 
 railcraft.gui.energy.loader.empty=空
 railcraft.gui.energy.loader.fill=强制装满
@@ -696,7 +699,8 @@ tile.railcraft.machine.epsilon.electric.feeder.admin.name=管理员电力供给�
 tile.railcraft.machine.epsilon.electric.feeder.admin.tip=提供无限的RC电力
 tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元 
 tile.railcraft.machine.epsilon.electric.feeder.tip=将IC电力转化为RC电力
-tile.railcraft.machine.epsilon.flux.transformer.name=流体转换机
+tile.railcraft.machine.epsilon.flux.transformer.name=能量流转换机
+tile.railcraft.machine.epsilon.flux.transformer.tip=多方块结构: 2x2x2\n 将RF能量转换为RC电力\n 80%的效率
 tile.railcraft.machine.epsilon.force.track.emitter.name=轨道发力机
 tile.railcraft.machine.epsilon.force.track.emitter.tip=计划了以能量为基础的轨道
 
