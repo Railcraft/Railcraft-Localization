@@ -682,7 +682,7 @@ tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Provides Unlimited Rail
 tile.railcraft.machine.epsilon.electric.feeder.name=Electric Feeder Unit
 tile.railcraft.machine.epsilon.electric.feeder.tip=Converts IndustrialCraft Electricity to Railcraft Charge
 tile.railcraft.machine.epsilon.flux.transformer.name=Flux Transformer
-tile.railcraft.machine.epsilon.flux.transformer.tip=Converts Redstone Flux to Railcraft Charge
+tile.railcraft.machine.epsilon.flux.transformer.tip=Multi-Block: 2x2x2\n Converts Redstone Flux to Railcraft Charge\n 80% Efficiency
 tile.railcraft.machine.epsilon.force.track.emitter.name=Force Track Emitter
 tile.railcraft.machine.epsilon.force.track.emitter.tip=Projects energy-based tracks
 
