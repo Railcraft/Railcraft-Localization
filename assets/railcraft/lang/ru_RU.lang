@@ -1,3 +1,42 @@
+chat.railcraft.api.error=Ошибка: API устарело, проверьте лог для большей информации.
+
+death.railcraft.bore.1=%s встал на пути прогресса
+death.railcraft.bore.2=%s попытался остановить бур
+death.railcraft.bore.3=%s был измельчён буром
+death.railcraft.bore.4=%s думал, что он может сделать лучше, чем Джон Генри
+death.railcraft.bore.5=%s застрял между молотом и наковальней
+death.railcraft.bore.6=%s был по другую сторону прогресса
+
+death.railcraft.crusher.1=%s споткнулся о тяжёлую технику
+death.railcraft.crusher.2=%s не человек из стали, он дробится, как и все мы
+death.railcraft.crusher.3=%s смотрел в бездну, затем поскользнулся
+death.railcraft.crusher.4=%s будет нуждаться в замене своих вещей
+death.railcraft.crusher.5=%s проигнорировал знак "Смотрите под ноги!"
+death.railcraft.crusher.6=Сейчас на скидке! %s кровавое желе
+death.railcraft.crusher.7=%s превратился в пасту
+death.railcraft.crusher.8=%s был должен прочитать инструкцию
+
+death.railcraft.steam.1=%s был приготовлен, аппетитный и сочный
+death.railcraft.steam.2=%s не защищён от высоких температур, несмотря на заявления об обратном
+death.railcraft.steam.3=%s обнаружил, каким болезненным может быть пар
+death.railcraft.steam.4=%s попал в несчастный случай на производстве
+death.railcraft.steam.5=%s не должен был ступать сюда
+death.railcraft.steam.6=%s понял, что паровые ванны лучше заменить на сауны
+
+death.railcraft.track.electric.1=%s наступил на электрифицированный путь
+death.railcraft.track.electric.2=%s изучил смысл выражения "Высокое напряжение"
+death.railcraft.track.electric.3=%s понял чудеса электрификации
+death.railcraft.track.electric.4=%s споткнулся о третий рельс
+death.railcraft.track.electric.5=%s сделал шокирующее откровение
+death.railcraft.track.electric.6=%s узнал кое-что о электричестве, ОНО БЬЁТ!
+
+death.railcraft.train.1=%s попал под поезд
+death.railcraft.train.2=%s играл на рельсах
+death.railcraft.train.3=%s играл в догонялки с поездом, поезд догнал
+death.railcraft.train.4=%s поймал не тот поезд
+death.railcraft.train.5=%s купил билет в один конец, до загробной жизни
+death.railcraft.train.6=%s должен был одеть свой комбинезон
+
 enchantment.railcraft.crowbar.destruction=Разрушение
 enchantment.railcraft.crowbar.implosion=Имплозия
 enchantment.railcraft.crowbar.wrecking=Уничтожение
@@ -193,30 +232,6 @@ railcraft.color.red=Красный
 railcraft.color.white=Белый
 railcraft.color.yellow=Жёлтый
 
-death.railcraft.bore.1=%s встал на пути прогресса
-death.railcraft.bore.2=%s попытался остановить бур
-death.railcraft.bore.3=%s был измельчён буром
-death.railcraft.bore.4=%s думал, что он может сделать лучше, чем Джон Генри
-death.railcraft.bore.5=%s застрял между молотом и наковальней
-
-death.railcraft.steam.1=%s был приготовлен, аппетитный и сочный
-death.railcraft.steam.2=%s не защищён от высоких температур, несмотря на заявления об обратном
-death.railcraft.steam.3=%s обнаружил, каким болезненным может быть пар
-death.railcraft.steam.4=%s попал в несчастный случай на производстве
-death.railcraft.steam.5=%s не должен был ступать сюда
-
-death.railcraft.track.electric.1=%s наступил на электрифицированный путь
-death.railcraft.track.electric.2=%s изучил смысл выражения "Высокое напряжение"
-death.railcraft.track.electric.3=%s понял чудеса электрификации
-death.railcraft.track.electric.4=%s споткнулся о третий рельс
-death.railcraft.track.electric.5=%s сделал шокирующее откровение
-
-death.railcraft.train.1=%s попал под поезд
-death.railcraft.train.2=%s играл на рельсах
-death.railcraft.train.3=%s играл в догонялки с поездом, поезд догнал
-death.railcraft.train.4=%s поймал не тот поезд
-death.railcraft.train.5=%s купил билет в один конец, до загробной жизни
-
 railcraft.gates.action.pause=Приостановить работу
 railcraft.gates.action.sendcart=Отправить вагонетку
 
@@ -311,7 +326,7 @@ railcraft.gui.detector.villager.equals=Равно
 railcraft.gui.detector.villager.none=Никто
 railcraft.gui.detector.villager.not=Нет
 
-railcraft.gui.electric.meter.charge=Заряд = @.2f / @.2f, Потери = @.2f за тик
+railcraft.gui.electric.meter.charge=Заряд: @.2fc | Draw: @.2fc/тик | Потери: @.2fc/тик
 
 railcraft.gui.energy.loader.empty=Удерживать пустые
 railcraft.gui.energy.loader.fill=Заполнить
@@ -682,7 +697,7 @@ tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Предоставля�
 tile.railcraft.machine.epsilon.electric.feeder.name=Электрическое питающее устройство
 tile.railcraft.machine.epsilon.electric.feeder.tip=Преобразует электричество IndustrialCraft в энергию Railcraft
 tile.railcraft.machine.epsilon.flux.transformer.name=Преобразователь флакса
-tile.railcraft.machine.epsilon.flux.transformer.tip=Преобразует Redstone Flux в энергию Railcraft
+tile.railcraft.machine.epsilon.flux.transformer.tip=Мульти-блок: 2x2x2\n Преобразует Redstone Flux в энергию Railcraft\n Эффективность: 80%
 tile.railcraft.machine.epsilon.force.track.emitter.name=Force Track Emitter
 tile.railcraft.machine.epsilon.force.track.emitter.tip=Projects energy-based tracks
 
@@ -912,6 +927,7 @@ tile.railcraft.track.elevator.name=Подымающий путь
 tile.railcraft.track.elevator.tip=Позволяет вагонетке подниматься вертикально\n§o§c- Примените сигнал красного камня сверху, чтобы ехать вверх -
 tile.railcraft.track.embarking.name=Сажающий путь
 tile.railcraft.track.embarking.tip=Грузит существ в вагонетки\n§o§9- Ударьте монтировкой, чтобы изменить радиус -\n§o§c- Примените красный камень, чтобы активировать -
+tile.railcraft.track.force.name=Силовой путь
 tile.railcraft.track.gated.name=Путь с воротами
 tile.railcraft.track.gated.oneway.name=Однонаправленный путь с воротами
 tile.railcraft.track.gated.oneway.tip=Это однонаправленные ворота\n§o§c- Примените красный камень, чтобы открыть -
