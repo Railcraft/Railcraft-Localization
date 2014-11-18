@@ -71,11 +71,11 @@ tile.railcraft.cube.crushed.obsidian.name=Samengedrukte Obsidiaan
 tile.railcraft.cube.steel.name=Stalen Blok
 tile.railcraft.cube.world.anchor.name=Wereldanker
 
-railcraft.damage.train.1=@s is door een trein overreden
-railcraft.damage.train.2=@s was wild aan het doen op het spoor
-railcraft.damage.train.3=@s wou tikkertje spelen met de trein, en het liep slecht af
-railcraft.damage.train.4=@s nam de verkeerde trein
-railcraft.damage.train.5=@s kocht een enkeltje naar het paradijs
+death.railcraft.train.1=%s is door een trein overreden
+death.railcraft.train.2=%s was wild aan het doen op het spoor
+death.railcraft.train.3=%s wou tikkertje spelen met de trein, en het liep slecht af
+death.railcraft.train.4=%s nam de verkeerde trein
+death.railcraft.train.5=%s kocht een enkeltje naar het paradijs
 
 tile.railcraft.detector.advanced.name=Detector - Geavanceerd
 tile.railcraft.detector.age.name=Detector - Volwassen

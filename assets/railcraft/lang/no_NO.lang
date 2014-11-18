@@ -151,23 +151,23 @@ tile.railcraft.cube.crushed.obsidian.name=Knust obsidian
 tile.railcraft.cube.crushed.obsidian.tip=Prevents Mob Spawns
 tile.railcraft.cube.steel.name=Stålblokk
 
-railcraft.damage.bore.1=@s kom i veien for fremskritt
-railcraft.damage.bore.2=@s kjempet mot borekronen, men tapte
-railcraft.damage.bore.3=@s ble knust av borehodet
-railcraft.damage.bore.4=@s trodde han kunne gjøre bedre en john henry
-railcraft.damage.bore.5=@s satt seg fast mellom en stein og et hardt sted
+death.railcraft.bore.1=%s kom i veien for fremskritt
+death.railcraft.bore.2=%s kjempet mot borekronen, men tapte
+death.railcraft.bore.3=%s ble knust av borehodet
+death.railcraft.bore.4=%s trodde han kunne gjøre bedre en john henry
+death.railcraft.bore.5=%s satt seg fast mellom en stein og et hardt sted
 
-railcraft.damage.steam.1=@s got cooked, nice and juicy
-railcraft.damage.steam.2=@s is not immune to high temperatures, despite claims to the contrary
-railcraft.damage.steam.3=@s discovered how painful Steam can be
-railcraft.damage.steam.4=@s had an industrial accident
-railcraft.damage.steam.5=@s probably shouldn't have stepped there
+death.railcraft.steam.1=%s got cooked, nice and juicy
+death.railcraft.steam.2=%s is not immune to high temperatures, despite claims to the contrary
+death.railcraft.steam.3=%s discovered how painful Steam can be
+death.railcraft.steam.4=%s had an industrial accident
+death.railcraft.steam.5=%s probably shouldn't have stepped there
 
-railcraft.damage.train.1=@s ble truffet av toget
-railcraft.damage.train.2=@s lekte på togskinnene
-railcraft.damage.train.3=@s lekte med toget,  toget vant
-railcraft.damage.train.4=@s fanget feil tog
-railcraft.damage.train.5=@s kjøpte en enveisbillet til det hinsidige
+death.railcraft.train.1=%s ble truffet av toget
+death.railcraft.train.2=%s lekte på togskinnene
+death.railcraft.train.3=%s lekte med toget,  toget vant
+death.railcraft.train.4=%s fanget feil tog
+death.railcraft.train.5=%s kjøpte en enveisbillet til det hinsidige
 
 tile.railcraft.detector.advanced.name=Detektor - Advansert
 tile.railcraft.detector.age.name=Detektor - tid

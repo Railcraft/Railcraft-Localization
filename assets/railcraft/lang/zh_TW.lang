@@ -177,29 +177,29 @@ railcraft.color.red=紅色
 railcraft.color.white=白色
 railcraft.color.yellow=黃色
 
-railcraft.damage.bore.1=@s 擋住前進的道路
-railcraft.damage.bore.2=@s 試圖螳臂擋車
-railcraft.damage.bore.3=@s 被鑽頭粉碎了
-railcraft.damage.bore.4=@s 以為自己比約翰·亨利還厲害
-railcraft.damage.bore.5=@s 陷入了進退維谷的境地
+death.railcraft.bore.1=%s 擋住前進的道路
+death.railcraft.bore.2=%s 試圖螳臂擋車
+death.railcraft.bore.3=%s 被鑽頭粉碎了
+death.railcraft.bore.4=%s 以為自己比約翰·亨利還厲害
+death.railcraft.bore.5=%s 陷入了進退維谷的境地
 
-railcraft.damage.steam.1=@s 被煮熟了，變得美味又多汁
-railcraft.damage.steam.2=@s 不能對高溫免疫，儘管他主張可以
-railcraft.damage.steam.3=@s 已經知道蒸氣可以引起多大傷害
-railcraft.damage.steam.4=@s 發生了工業意外
-railcraft.damage.steam.5=@s 不該一直站在那裡
+death.railcraft.steam.1=%s 被煮熟了，變得美味又多汁
+death.railcraft.steam.2=%s 不能對高溫免疫，儘管他主張可以
+death.railcraft.steam.3=%s 已經知道蒸氣可以引起多大傷害
+death.railcraft.steam.4=%s 發生了工業意外
+death.railcraft.steam.5=%s 不該一直站在那裡
 
-railcraft.damage.track.electric.1=@s 在電氣化鐵軌上撒尿
-railcraft.damage.track.electric.2=@s 發現"高電壓"的含義了
-railcraft.damage.track.electric.3=@s 體悟到了電氣化的奇蹟
-railcraft.damage.track.electric.4=@s 絆倒在第三軌上
-railcraft.damage.track.electric.5=@s 成為一個駭人聽聞的啟示
+death.railcraft.track.electric.1=%s 在電氣化鐵軌上撒尿
+death.railcraft.track.electric.2=%s 發現"高電壓"的含義了
+death.railcraft.track.electric.3=%s 體悟到了電氣化的奇蹟
+death.railcraft.track.electric.4=%s 絆倒在第三軌上
+death.railcraft.track.electric.5=%s 成為一個駭人聽聞的啟示
 
-railcraft.damage.train.1=@s 被火車撞飛了
-railcraft.damage.train.2=@s 在鐵軌上玩耍
-railcraft.damage.train.3=@s 和火車單挑，火車贏了
-railcraft.damage.train.4=@s 上錯車了
-railcraft.damage.train.5=@s 買了一張往來世的單程票
+death.railcraft.train.1=%s 被火車撞飛了
+death.railcraft.train.2=%s 在鐵軌上玩耍
+death.railcraft.train.3=%s 和火車單挑，火車贏了
+death.railcraft.train.4=%s 上錯車了
+death.railcraft.train.5=%s 買了一張往來世的單程票
 
 railcraft.gates.action.pause=暫停
 railcraft.gates.action.sendcart=發車

@@ -75,17 +75,17 @@ tile.railcraft.cube.crushed.obsidian.name=Rozdrobniony Obsydian
 tile.railcraft.cube.steel.name=Blok Stali
 tile.railcraft.cube.world.anchor.name=Kotwica Świata
 
-railcraft.damage.bore.1=@s wszedł w drogę postępowi
-railcraft.damage.bore.2=@s próbował zatrzymac wiercenie
-railcraft.damage.bore.3=@s został zmiażdżony
-railcraft.damage.bore.4=@s myślał że może być lepszy niż John Henry
-railcraft.damage.bore.5=@s utkwił pomiędzy skałą a twardym miejscem
+death.railcraft.bore.1=%s wszedł w drogę postępowi
+death.railcraft.bore.2=%s próbował zatrzymac wiercenie
+death.railcraft.bore.3=%s został zmiażdżony
+death.railcraft.bore.4=%s myślał że może być lepszy niż John Henry
+death.railcraft.bore.5=%s utkwił pomiędzy skałą a twardym miejscem
 
-railcraft.damage.train.1=@s został rozjechany 
-railcraft.damage.train.2=@s bawił się na torach
-railcraft.damage.train.3=@s bawil się w kurczka z pociągiem; pociąg wygrał
-railcraft.damage.train.4=@s złapał nie ten pociąg
-railcraft.damage.train.5=@s kupił bilet w jedną stronę do zaświatów
+death.railcraft.train.1=%s został rozjechany 
+death.railcraft.train.2=%s bawił się na torach
+death.railcraft.train.3=%s bawil się w kurczka z pociągiem; pociąg wygrał
+death.railcraft.train.4=%s złapał nie ten pociąg
+death.railcraft.train.5=%s kupił bilet w jedną stronę do zaświatów
 
 tile.railcraft.detector.advanced.name=Wykrywacz - Zaawansowany
 tile.railcraft.detector.age.name=Wykrywacz - Wiek

@@ -174,23 +174,23 @@ railcraft.color.red=Rojo
 railcraft.color.white=Blanco
 railcraft.color.yellow=Amarillo
 
-railcraft.damage.bore.1=@s se puso en el camino del progreso
-railcraft.damage.bore.2=@s intentó parar el taladro
-railcraft.damage.bore.3=@s fue aplastado por el Taladro
-railcraft.damage.bore.4=@s pensó que podía hacerlo mejor que John Henry
-railcraft.damage.bore.5=@s quedo atrapado entre una roca y un duro lugar
+death.railcraft.bore.1=%s se puso en el camino del progreso
+death.railcraft.bore.2=%s intentó parar el taladro
+death.railcraft.bore.3=%s fue aplastado por el Taladro
+death.railcraft.bore.4=%s pensó que podía hacerlo mejor que John Henry
+death.railcraft.bore.5=%s quedo atrapado entre una roca y un duro lugar
 
-railcraft.damage.steam.1=@s quedó cocinado, agradable y jugoso
-railcraft.damage.steam.2=@s no es inmune a las altas temperaturas, pese a las afirmaciones en sentido contrario
-railcraft.damage.steam.3=@s descubrió cuán doloroso vapor puede ser
-railcraft.damage.steam.4=@s tuvo un accidente industrial
-railcraft.damage.steam.5=@s probablemente no debería haber intervenido allí
+death.railcraft.steam.1=%s quedó cocinado, agradable y jugoso
+death.railcraft.steam.2=%s no es inmune a las altas temperaturas, pese a las afirmaciones en sentido contrario
+death.railcraft.steam.3=%s descubrió cuán doloroso vapor puede ser
+death.railcraft.steam.4=%s tuvo un accidente industrial
+death.railcraft.steam.5=%s probablemente no debería haber intervenido allí
 
 railcraft.damage.train.1=un tren arrolló a @s
-railcraft.damage.train.2=@s estaba jugando en las pistas
-railcraft.damage.train.3=@s jugó a gallina con un tren; el tren ganó
-railcraft.damage.train.4=@s tomó el tren equivocado
-railcraft.damage.train.5=@s compró un boleto de ida a la vida eterna
+death.railcraft.train.2=%s estaba jugando en las pistas
+death.railcraft.train.3=%s jugó a gallina con un tren; el tren ganó
+death.railcraft.train.4=%s tomó el tren equivocado
+death.railcraft.train.5=%s compró un boleto de ida a la vida eterna
 
 railcraft.gates.action.pause=Pausar Trabajo
 railcraft.gates.action.sendcart=Enviar Carro

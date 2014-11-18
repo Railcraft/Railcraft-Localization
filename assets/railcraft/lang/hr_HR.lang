@@ -79,17 +79,17 @@ tile.railcraft.cube.crushed.obsidian.name=Zdrobljeni Obsidijan
 tile.railcraft.cube.steel.name=Blok Čelika
 tile.railcraft.cube.world.anchor.name=Svijetsko Sidro
 
-railcraft.damage.bore.1=@s je stajao na putu napredka
-railcraft.damage.bore.2=@s je pokušao zaustaviti Kopač
+death.railcraft.bore.1=%s je stajao na putu napredka
+death.railcraft.bore.2=%s je pokušao zaustaviti Kopač
 railcraft.damage.bore.3=Kopač je zdrobio @s
-railcraft.damage.bore.4=@s je mislio da može biti bolji od Johna Henrya
-railcraft.damage.bore.5=@s je zaglavio između kamenai tvrdog mjesta
+death.railcraft.bore.4=%s je mislio da može biti bolji od Johna Henrya
+death.railcraft.bore.5=%s je zaglavio između kamenai tvrdog mjesta
 
 railcraft.damage.train.1=Vlak je pogodio @s
-railcraft.damage.train.2=@s se igrao na tračnicama
-railcraft.damage.train.3=@s se igrao kukavice s vlakom; vlak je pobijedio
-railcraft.damage.train.4=@s je uhvatio krivi vlak
-railcraft.damage.train.5=@s je kupio jednosmjernu kartu za zagrobni život
+death.railcraft.train.2=%s se igrao na tračnicama
+death.railcraft.train.3=%s se igrao kukavice s vlakom; vlak je pobijedio
+death.railcraft.train.4=%s je uhvatio krivi vlak
+death.railcraft.train.5=%s je kupio jednosmjernu kartu za zagrobni život
 
 tile.railcraft.detector.advanced.name=Detektor - Napredni
 tile.railcraft.detector.age.name=Detektor - Starost

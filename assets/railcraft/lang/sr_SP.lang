@@ -79,17 +79,17 @@ tile.railcraft.cube.crushed.obsidian.name=Zdrobljeni Opsidijan
 tile.railcraft.cube.steel.name=Kocka Čelika
 tile.railcraft.cube.world.anchor.name=Svetsko Sidro
 
-railcraft.damage.bore.1=@s je stao/la na put napredka
-railcraft.damage.bore.2=@s je pokušao/la da zaustavi Kopač Tunela
-railcraft.damage.bore.3=@s je smrvljen/a od strane Kopača Tunela
-railcraft.damage.bore.4=@s je mislio/la da je bolji/a od Džona Henrija
-railcraft.damage.bore.5=@s se zaglavio/la izmedju kamena i nečega tvrdog
+death.railcraft.bore.1=%s je stao/la na put napredka
+death.railcraft.bore.2=%s je pokušao/la da zaustavi Kopač Tunela
+death.railcraft.bore.3=%s je smrvljen/a od strane Kopača Tunela
+death.railcraft.bore.4=%s je mislio/la da je bolji/a od Džona Henrija
+death.railcraft.bore.5=%s se zaglavio/la izmedju kamena i nečega tvrdog
 
-railcraft.damage.train.1=@s je pogođen/a od strane voza
-railcraft.damage.train.2=@s se igrao/la na šinama
-railcraft.damage.train.3=@s se igrao/la kukavice s vozom; voz je pobedio
-railcraft.damage.train.4=@s se ukrcao/la na pogrešan voz
-railcraft.damage.train.5=@s je kupio/la jednosmernu kartu do smrti
+death.railcraft.train.1=%s je pogođen/a od strane voza
+death.railcraft.train.2=%s se igrao/la na šinama
+death.railcraft.train.3=%s se igrao/la kukavice s vozom; voz je pobedio
+death.railcraft.train.4=%s se ukrcao/la na pogrešan voz
+death.railcraft.train.5=%s je kupio/la jednosmernu kartu do smrti
 
 tile.railcraft.detector.advanced.name=Detektor - Napredni
 tile.railcraft.detector.age.name=Detektor - Starosti

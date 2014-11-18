@@ -193,29 +193,29 @@ railcraft.color.red=Красный
 railcraft.color.white=Белый
 railcraft.color.yellow=Жёлтый
 
-railcraft.damage.bore.1=@s встал на пути прогресса
-railcraft.damage.bore.2=@s попытался остановить бур
-railcraft.damage.bore.3=@s был измельчён буром
-railcraft.damage.bore.4=@s думал, что он может сделать лучше, чем Джон Генри
-railcraft.damage.bore.5=@s застрял между молотом и наковальней
+death.railcraft.bore.1=%s встал на пути прогресса
+death.railcraft.bore.2=%s попытался остановить бур
+death.railcraft.bore.3=%s был измельчён буром
+death.railcraft.bore.4=%s думал, что он может сделать лучше, чем Джон Генри
+death.railcraft.bore.5=%s застрял между молотом и наковальней
 
-railcraft.damage.steam.1=@s был приготовлен, аппетитный и сочный
-railcraft.damage.steam.2=@s не защищён от высоких температур, несмотря на заявления об обратном
-railcraft.damage.steam.3=@s обнаружил, каким болезненным может быть пар
-railcraft.damage.steam.4=@s попал в несчастный случай на производстве
-railcraft.damage.steam.5=@s не должен был ступать сюда
+death.railcraft.steam.1=%s был приготовлен, аппетитный и сочный
+death.railcraft.steam.2=%s не защищён от высоких температур, несмотря на заявления об обратном
+death.railcraft.steam.3=%s обнаружил, каким болезненным может быть пар
+death.railcraft.steam.4=%s попал в несчастный случай на производстве
+death.railcraft.steam.5=%s не должен был ступать сюда
 
-railcraft.damage.track.electric.1=@s наступил на электрифицированный путь
-railcraft.damage.track.electric.2=@s изучил смысл выражения "Высокое напряжение"
-railcraft.damage.track.electric.3=@s понял чудеса электрификации
-railcraft.damage.track.electric.4=@s споткнулся о третий рельс
-railcraft.damage.track.electric.5=@s сделал шокирующее откровение
+death.railcraft.track.electric.1=%s наступил на электрифицированный путь
+death.railcraft.track.electric.2=%s изучил смысл выражения "Высокое напряжение"
+death.railcraft.track.electric.3=%s понял чудеса электрификации
+death.railcraft.track.electric.4=%s споткнулся о третий рельс
+death.railcraft.track.electric.5=%s сделал шокирующее откровение
 
-railcraft.damage.train.1=@s попал под поезд
-railcraft.damage.train.2=@s играл на рельсах
-railcraft.damage.train.3=@s играл в догонялки с поездом, поезд догнал
-railcraft.damage.train.4=@s поймал не тот поезд
-railcraft.damage.train.5=@s купил билет в один конец, до загробной жизни
+death.railcraft.train.1=%s попал под поезд
+death.railcraft.train.2=%s играл на рельсах
+death.railcraft.train.3=%s играл в догонялки с поездом, поезд догнал
+death.railcraft.train.4=%s поймал не тот поезд
+death.railcraft.train.5=%s купил билет в один конец, до загробной жизни
 
 railcraft.gates.action.pause=Приостановить работу
 railcraft.gates.action.sendcart=Отправить вагонетку

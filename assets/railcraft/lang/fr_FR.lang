@@ -151,23 +151,23 @@ tile.railcraft.cube.crushed.obsidian.name=Obsidienne broyé
 tile.railcraft.cube.crushed.obsidian.tip=Empêche le spawn des mobs
 tile.railcraft.cube.steel.name=Bloc d'acier
 
-railcraft.damage.bore.1=@s était sur le chemin du progrès
-railcraft.damage.bore.2=@s a essayé d'arrêter le tunnelier
-railcraft.damage.bore.3=@s a été écrasé par le tunnelier
-railcraft.damage.bore.4=@s pensait qu'il pouvait faire mieux que John Henry
-railcraft.damage.bore.5=@s est resté coincé entre le marteau et l'enclume
+death.railcraft.bore.1=%s était sur le chemin du progrès
+death.railcraft.bore.2=%s a essayé d'arrêter le tunnelier
+death.railcraft.bore.3=%s a été écrasé par le tunnelier
+death.railcraft.bore.4=%s pensait qu'il pouvait faire mieux que John Henry
+death.railcraft.bore.5=%s est resté coincé entre le marteau et l'enclume
 
-railcraft.damage.steam.1=@s s'est fait cuit, belle et juteuse
-railcraft.damage.steam.2=@s n'est pas à l'abri de températures élevées, malgré des affirmations contraires
-railcraft.damage.steam.3=@s a découvert comment vapeur peut être douloureux
-railcraft.damage.steam.4=@s a eu un accident industriel
-railcraft.damage.steam.5=@s n'aurait probablement pas dû y aller
+death.railcraft.steam.1=%s s'est fait cuit, belle et juteuse
+death.railcraft.steam.2=%s n'est pas à l'abri de températures élevées, malgré des affirmations contraires
+death.railcraft.steam.3=%s a découvert comment vapeur peut être douloureux
+death.railcraft.steam.4=%s a eu un accident industriel
+death.railcraft.steam.5=%s n'aurait probablement pas dû y aller
 
-railcraft.damage.train.1=@s a été frappé par un train
-railcraft.damage.train.2=@s a joué sur les rails
-railcraft.damage.train.3=@s a joué à saute mouton avec un train, le train a gagné
-railcraft.damage.train.4=@s a prit le mauvais train
-railcraft.damage.train.5=@s a acheté un aller simple pour l'au-delà
+death.railcraft.train.1=%s a été frappé par un train
+death.railcraft.train.2=%s a joué sur les rails
+death.railcraft.train.3=%s a joué à saute mouton avec un train, le train a gagné
+death.railcraft.train.4=%s a prit le mauvais train
+death.railcraft.train.5=%s a acheté un aller simple pour l'au-delà
 
 tile.railcraft.detector.advanced.name=Détecteur - avancé
 tile.railcraft.detector.age.name=Détecteur - âge

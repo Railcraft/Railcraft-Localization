@@ -125,17 +125,17 @@ tile.railcraft.cube.concrete.name=Blocco di Cemento
 tile.railcraft.cube.crushed.obsidian.name=Ossidiana distrutta
 tile.railcraft.cube.steel.name=Blocco d'Acciaio
 
-railcraft.damage.bore.1=@s è andato nella via del progresso
-railcraft.damage.bore.2=@s ha provato a fermare la Scavatrice
-railcraft.damage.bore.3=@s è stato distrutto dalla Scavatrice
-railcraft.damage.bore.4=@s ha pensato di poter essere meglio di John Henry
-railcraft.damage.bore.5=@s si è bloccato tra le rocce e un posto duro
+death.railcraft.bore.1=%s è andato nella via del progresso
+death.railcraft.bore.2=%s ha provato a fermare la Scavatrice
+death.railcraft.bore.3=%s è stato distrutto dalla Scavatrice
+death.railcraft.bore.4=%s ha pensato di poter essere meglio di John Henry
+death.railcraft.bore.5=%s si è bloccato tra le rocce e un posto duro
 
-railcraft.damage.train.1=@s è stato colpito da un treno
-railcraft.damage.train.2=@s stava giocando sui binari
-railcraft.damage.train.3=@s ha giocato al pollo con un treno; il treno ha vinto
-railcraft.damage.train.4=@s ha preso il treno sbagliato
-railcraft.damage.train.5=@s ha comprato un biglietto di sola andata all'Aldilà
+death.railcraft.train.1=%s è stato colpito da un treno
+death.railcraft.train.2=%s stava giocando sui binari
+death.railcraft.train.3=%s ha giocato al pollo con un treno; il treno ha vinto
+death.railcraft.train.4=%s ha preso il treno sbagliato
+death.railcraft.train.5=%s ha comprato un biglietto di sola andata all'Aldilà
 
 tile.railcraft.detector.advanced.name=Detector - Avanzato
 tile.railcraft.detector.age.name=Detector - Età

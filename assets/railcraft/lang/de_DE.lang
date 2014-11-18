@@ -193,29 +193,29 @@ railcraft.color.red=Rot
 railcraft.color.white=Weiß
 railcraft.color.yellow=Gelb
 
-railcraft.damage.bore.1=@s war dem Fortschritt im Weg
-railcraft.damage.bore.2=@s legte sich mit einem Bohrkopf an und verlor
-railcraft.damage.bore.3=@s wurde von einem Bohrer zerquetscht
-railcraft.damage.bore.4=@s dachte, er könnte es besser machen als John Henry
-railcraft.damage.bore.5=@s ist jetzt Bohrkopfschmiere
+death.railcraft.bore.1=%s war dem Fortschritt im Weg
+death.railcraft.bore.2=%s legte sich mit einem Bohrkopf an und verlor
+death.railcraft.bore.3=%s wurde von einem Bohrer zerquetscht
+death.railcraft.bore.4=%s dachte, er könnte es besser machen als John Henry
+death.railcraft.bore.5=%s ist jetzt Bohrkopfschmiere
 
-railcraft.damage.steam.1=@s wurde gekocht, hübsch und saftig
-railcraft.damage.steam.2=@s ist nicht immun gegen hohe Temperaturen, entgegen Behauptungen des Gegenteils
-railcraft.damage.steam.3=@s hat entdeckt, wie schmerzhaft Dampf sein kann
-railcraft.damage.steam.4=@s hatte einen Betriebsunfall
-railcraft.damage.steam.5=@s hätte da wahrscheinlich nicht hintreten sollen.
+death.railcraft.steam.1=%s wurde gekocht, hübsch und saftig
+death.railcraft.steam.2=%s ist nicht immun gegen hohe Temperaturen, entgegen Behauptungen des Gegenteils
+death.railcraft.steam.3=%s hat entdeckt, wie schmerzhaft Dampf sein kann
+death.railcraft.steam.4=%s hatte einen Betriebsunfall
+death.railcraft.steam.5=%s hätte da wahrscheinlich nicht hintreten sollen.
 
-railcraft.damage.track.electric.1=@s hat auf ein elektrisches Gleis gepinkelt
-railcraft.damage.track.electric.2=@s entdeckte die Bedeutung des Wortes "Hochspannung"
-railcraft.damage.track.electric.3=@s wurde über die Wunder der Elektrifizierung aufgeklärt
-railcraft.damage.track.electric.4=@s stolperte über eine Stromschiene
-railcraft.damage.track.electric.5=@s machte eine schockierende Enthüllung
+death.railcraft.track.electric.1=%s hat auf ein elektrisches Gleis gepinkelt
+death.railcraft.track.electric.2=%s entdeckte die Bedeutung des Wortes "Hochspannung"
+death.railcraft.track.electric.3=%s wurde über die Wunder der Elektrifizierung aufgeklärt
+death.railcraft.track.electric.4=%s stolperte über eine Stromschiene
+death.railcraft.track.electric.5=%s machte eine schockierende Enthüllung
 
-railcraft.damage.train.1=@s wurde von einem Zug erfasst
-railcraft.damage.train.2=@s hat auf den Gleisen gespielt
-railcraft.damage.train.3=@s spielte Fangen mit einem Zug, der Zug gewann
-railcraft.damage.train.4=@s nahm den falschen Zug
-railcraft.damage.train.5=@s kaufte eine einfache Fahrt ins Jenseits
+death.railcraft.train.1=%s wurde von einem Zug erfasst
+death.railcraft.train.2=%s hat auf den Gleisen gespielt
+death.railcraft.train.3=%s spielte Fangen mit einem Zug, der Zug gewann
+death.railcraft.train.4=%s nahm den falschen Zug
+death.railcraft.train.5=%s kaufte eine einfache Fahrt ins Jenseits
 
 railcraft.gates.action.pause=Arbeit pausieren
 railcraft.gates.action.sendcart=Waggon schicken

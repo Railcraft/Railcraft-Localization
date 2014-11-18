@@ -134,7 +134,7 @@ railcraft.damage.train.1=@s(이)가 열차 사고를 당했습니다
 railcraft.damage.train.2=@s(이)가 열차를 정지하지 못했습니다
 railcraft.damage.train.3=@s(이)가 열차에 치였습니다
 railcraft.damage.train.4=@s(이)가 열차에 깔렸습니다
-railcraft.damage.train.5=@s (이)가 열차에 부딪혔습니다
+death.railcraft.train.5=%s (이)가 열차에 부딪혔습니다
 
 tile.railcraft.detector.advanced.name=강화 감지기
 tile.railcraft.detector.age.name=성체 감지기
