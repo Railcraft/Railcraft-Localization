@@ -1,3 +1,42 @@
+chat.railcraft.api.error=Error: Veraltetes API, bitte überprüfe den Log für mehr Info.
+
+death.railcraft.bore.1=%s war dem Fortschritt im Weg
+death.railcraft.bore.2=%s legte sich mit einem Bohrkopf an und verlor
+death.railcraft.bore.3=%s wurde von einem Bohrer zerquetscht
+death.railcraft.bore.4=%s dachte, er könnte es besser machen als John Henry
+death.railcraft.bore.5=%s ist jetzt Bohrkopfschmiere
+death.railcraft.bore.6=%s war auf der falschen Seite des Fortschritts
+
+death.railcraft.crusher.1=%s stolperte in der Nähe schwerer Maschinerie
+death.railcraft.crusher.2=%s ist nicht unverwundbar, er wird zerquetscht, wie wir es werden
+death.railcraft.crusher.3=%s starrte in den Abgrund, dann rutschte er aus
+death.railcraft.crusher.4=%s is going to need to replace his stuff
+death.railcraft.crusher.5=%s ignorierte die Warnschilder
+death.railcraft.crusher.6=Nur heute zum Verkauf! %s-Blutgelée
+death.railcraft.crusher.7=%s wurde zu Paste
+death.railcraft.crusher.8=%s hätte die Anleitung lesen sollen
+
+death.railcraft.steam.1=%s wurde gekocht, hübsch und saftig
+death.railcraft.steam.2=%s ist nicht immun gegen hohe Temperaturen, entgegen Behauptungen des Gegenteils
+death.railcraft.steam.3=%s hat entdeckt, wie schmerzhaft Dampf sein kann
+death.railcraft.steam.4=%s hatte einen Betriebsunfall
+death.railcraft.steam.5=%s hätte da wahrscheinlich nicht hintreten sollen.
+death.railcraft.steam.6=%s entdeckte, dass das Baden in Dampf außerhalb von Saunas unterlassen sollte
+
+death.railcraft.track.electric.1=%s hat auf ein elektrisches Gleis gepinkelt
+death.railcraft.track.electric.2=%s entdeckte die Bedeutung des Wortes "Hochspannung"
+death.railcraft.track.electric.3=%s wurde über die Wunder der Elektrifizierung aufgeklärt
+death.railcraft.track.electric.4=%s stolperte über eine Stromschiene
+death.railcraft.track.electric.5=%s machte eine schockierende Enthüllung
+death.railcraft.track.electric.6=%s lernte, dass Elektizität Schmerzen zufügt
+
+death.railcraft.train.1=%s wurde von einem Zug erfasst
+death.railcraft.train.2=%s hat auf den Gleisen gespielt
+death.railcraft.train.3=%s spielte Fangen mit einem Zug, der Zug gewann
+death.railcraft.train.4=%s nahm den falschen Zug
+death.railcraft.train.5=%s kaufte eine einfache Fahrt ins Jenseits
+death.railcraft.train.6=%s hätte seinen Overall tragen sollen
+
 enchantment.railcraft.crowbar.destruction=Zerstörung
 enchantment.railcraft.crowbar.implosion=Implosion
 enchantment.railcraft.crowbar.wrecking=Zertrümmern
@@ -131,6 +170,7 @@ item.railcraft.part.gear.bushing.name=Zinn-Zahnradbuchse
 item.railcraft.part.gear.gold.plate.name=Vergoldetes Zahnrad
 item.railcraft.part.gear.iron.name=Eisenzahnrad
 item.railcraft.part.gear.steel.name=Stahlzahnrad
+item.railcraft.part.plate.copper.name=Kupferplatte
 item.railcraft.part.plate.iron.name=Eisenplatte
 item.railcraft.part.plate.steel.name=Stahlplatte
 item.railcraft.part.plate.tin.name=Zinnplatte
@@ -192,30 +232,6 @@ railcraft.color.purple=Lila
 railcraft.color.red=Rot
 railcraft.color.white=Weiß
 railcraft.color.yellow=Gelb
-
-death.railcraft.bore.1=%s war dem Fortschritt im Weg
-death.railcraft.bore.2=%s legte sich mit einem Bohrkopf an und verlor
-death.railcraft.bore.3=%s wurde von einem Bohrer zerquetscht
-death.railcraft.bore.4=%s dachte, er könnte es besser machen als John Henry
-death.railcraft.bore.5=%s ist jetzt Bohrkopfschmiere
-
-death.railcraft.steam.1=%s wurde gekocht, hübsch und saftig
-death.railcraft.steam.2=%s ist nicht immun gegen hohe Temperaturen, entgegen Behauptungen des Gegenteils
-death.railcraft.steam.3=%s hat entdeckt, wie schmerzhaft Dampf sein kann
-death.railcraft.steam.4=%s hatte einen Betriebsunfall
-death.railcraft.steam.5=%s hätte da wahrscheinlich nicht hintreten sollen.
-
-death.railcraft.track.electric.1=%s hat auf ein elektrisches Gleis gepinkelt
-death.railcraft.track.electric.2=%s entdeckte die Bedeutung des Wortes "Hochspannung"
-death.railcraft.track.electric.3=%s wurde über die Wunder der Elektrifizierung aufgeklärt
-death.railcraft.track.electric.4=%s stolperte über eine Stromschiene
-death.railcraft.track.electric.5=%s machte eine schockierende Enthüllung
-
-death.railcraft.train.1=%s wurde von einem Zug erfasst
-death.railcraft.train.2=%s hat auf den Gleisen gespielt
-death.railcraft.train.3=%s spielte Fangen mit einem Zug, der Zug gewann
-death.railcraft.train.4=%s nahm den falschen Zug
-death.railcraft.train.5=%s kaufte eine einfache Fahrt ins Jenseits
 
 railcraft.gates.action.pause=Arbeit pausieren
 railcraft.gates.action.sendcart=Waggon schicken
@@ -311,7 +327,7 @@ railcraft.gui.detector.villager.equals=Gleich
 railcraft.gui.detector.villager.none=Nichts
 railcraft.gui.detector.villager.not=Nicht
 
-railcraft.gui.electric.meter.charge=Ladung = @.2f / @.2f, Verlust = @.2f pro tick
+railcraft.gui.electric.meter.charge=Ladung: @.2fc | Entzug: @.2fc/t | Verlust: @.2fc/t
 
 railcraft.gui.energy.loader.empty=Halte Leer
 railcraft.gui.energy.loader.fill=Lade voll
@@ -682,7 +698,7 @@ tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Gibt unendlich Railcraf
 tile.railcraft.machine.epsilon.electric.feeder.name=Elektrische Feeder-Einheit
 tile.railcraft.machine.epsilon.electric.feeder.tip=Wandelt IndustrialCraft- in Railcraft-Energie um
 tile.railcraft.machine.epsilon.flux.transformer.name=Fluxtransformator
-tile.railcraft.machine.epsilon.flux.transformer.tip=Wandelt Redstone Flux in Railcraft-Energie um
+tile.railcraft.machine.epsilon.flux.transformer.tip=Multi-Block: 2x2x2\n Wandelt Redstone Flux in Railcraft-Energie um\n 80% Effizienz
 tile.railcraft.machine.epsilon.force.track.emitter.name=Kraftschienenemitter
 tile.railcraft.machine.epsilon.force.track.emitter.tip=Projeziert energiebasierte Schienen
 
@@ -912,6 +928,7 @@ tile.railcraft.track.elevator.name=Aufzugschiene
 tile.railcraft.track.elevator.tip=Ermöglicht vertikale Waggonbewegung\n§o§c- Um nach oben zu fahren, gib Redstone-Signal an der Oberkante -
 tile.railcraft.track.embarking.name=Aufnahmeschiene
 tile.railcraft.track.embarking.tip=Lädt Lebewesen in Waggons hinein\n§o§9- Verändere die Reichweite mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
+tile.railcraft.track.force.name=Kraftschiene
 tile.railcraft.track.gated.name=Torschiene
 tile.railcraft.track.gated.oneway.name=Fahrtrichtungstorschiene
 tile.railcraft.track.gated.oneway.tip=Es öffnet sich nur in eine Richtung\n§o§c- Öffne mit einem Redstone-Signal -
