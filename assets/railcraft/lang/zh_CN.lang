@@ -2,6 +2,8 @@
 # Translated by crafteverywhere
 # Parent Language: zh_TW
 
+chat.railcraft.api.error=错误:过期的API,请检查你的游戏后台记录来了解详细信息.
+
 death.railcraft.bore.1=%s阻碍了前进的道路.
 death.railcraft.bore.2=%s试图螳臂当车.
 death.railcraft.bore.3=%s被碾碎了.
@@ -39,7 +41,7 @@ death.railcraft.train.4=%s上错车了.
 death.railcraft.train.5=%s买了一张通向来生的单程票.
 death.railcraft.train.6=%s应该穿上背带裤.
 
-enchantment.railcraft.crowbar.destruction=拆除 
+enchantment.railcraft.crowbar.destruction=拆除
 enchantment.railcraft.crowbar.implosion=防爆
 enchantment.railcraft.crowbar.wrecking=破击
 
@@ -701,8 +703,8 @@ tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元
 tile.railcraft.machine.epsilon.electric.feeder.tip=将IC电力转化为RC电力
 tile.railcraft.machine.epsilon.flux.transformer.name=能量流转换机
 tile.railcraft.machine.epsilon.flux.transformer.tip=多方块结构: 2x2x2\n 将RF能量转换为RC电力\n 80%的效率
-tile.railcraft.machine.epsilon.force.track.emitter.name=轨道发力机
-tile.railcraft.machine.epsilon.force.track.emitter.tip=计划了以能量为基础的轨道
+tile.railcraft.machine.epsilon.force.track.emitter.name=轨道发射机
+tile.railcraft.machine.epsilon.force.track.emitter.tip=发射以RC电力为能量供应的镭射轨道
 
 tile.railcraft.machine.gamma.dispenser.cart.name=矿车分车站
 tile.railcraft.machine.gamma.dispenser.cart.tip=向轨道分配矿车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出矿车 -
@@ -930,6 +932,7 @@ tile.railcraft.track.elevator.name=升降轨道
 tile.railcraft.track.elevator.tip=允许车厢竖直移动\n§o§c- 顶部通入红石信号即可激活 -
 tile.railcraft.track.embarking.name=乘车轨道
 tile.railcraft.track.embarking.tip=使附近实体乘上车厢\n§o§9- 通过撬棍敲击来调整范围 -\n§o§c- 使用红石信号激活 -
+tile.railcraft.track.force.name=镭射轨道
 tile.railcraft.track.gated.name=门控轨道
 tile.railcraft.track.gated.oneway.name=单向门控轨道
 tile.railcraft.track.gated.oneway.tip=单向的门控轨道\n§o§c- 使用红石信号激活 -
