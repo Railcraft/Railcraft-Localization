@@ -2,7 +2,46 @@
 # Translated by crafteverywhere
 # Parent Language: zh_TW
 
-enchantment.railcraft.crowbar.destruction=拆除 
+chat.railcraft.api.error=错误:过期的API,请检查你的游戏后台记录来了解详细信息.
+
+death.railcraft.bore.1=%s阻碍了前进的道路.
+death.railcraft.bore.2=%s试图螳臂当车.
+death.railcraft.bore.3=%s被碾碎了.
+death.railcraft.bore.4=%s认为自己比约翰·亨利还厉害.
+death.railcraft.bore.5=%s陷入了进退维谷的境地.
+death.railcraft.bore.6=%s在工程车前站错了位置.
+
+death.railcraft.crusher.1=%s在大型机械旁边失足.
+death.railcraft.crusher.2=%s不是钢铁侠，他像其他人一样被粉碎了.
+death.railcraft.crusher.3=%s凝视着深渊，然后脚滑了.
+death.railcraft.crusher.4=%s需要重新换一套物品.
+death.railcraft.crusher.5=%s忽略了“当心脚下”的告示.
+death.railcraft.crusher.6=热销中! %s的血肉糊糊!
+death.railcraft.crusher.7=%s变成了垃圾.
+death.railcraft.crusher.8=%s应该读下安全手册.
+
+death.railcraft.steam.1=%s被蒸熟了,鲜美多汁.
+death.railcraft.steam.2=%s没像他吹牛说的那样免疫高温伤害! 
+death.railcraft.steam.3=%s发现了蒸汽烫伤会有多么的痛苦!
+death.railcraft.steam.4=%s出了工业事故.
+death.railcraft.steam.5=%s可能踩到了不该踩的东西.
+death.railcraft.steam.6=%s发现蒸气浴还是在桑拿时享受为妙.
+
+death.railcraft.track.electric.1=%s在电轨上小便.
+death.railcraft.track.electric.2=%s发现了“高压电”的真谛.
+death.railcraft.track.electric.3=%s顿悟了电之所以为奇迹.
+death.railcraft.track.electric.4=%s迷失于第三轨道.
+death.railcraft.track.electric.5=%s深受震动.(英文双关:即死于电击)
+death.railcraft.track.electric.6=%s学到了一些关于电的东西,它会伤人!
+
+death.railcraft.train.1=%s被列车撞了.
+death.railcraft.train.2=%s在轨道上玩耍.
+death.railcraft.train.3=%s在轨道上和列车单挑,列车赢了.
+death.railcraft.train.4=%s上错车了.
+death.railcraft.train.5=%s买了一张通向来生的单程票.
+death.railcraft.train.6=%s应该穿上背带裤.
+
+enchantment.railcraft.crowbar.destruction=拆除
 enchantment.railcraft.crowbar.implosion=防爆
 enchantment.railcraft.crowbar.wrecking=破击
 
@@ -135,6 +174,7 @@ item.railcraft.part.gear.bushing.name=锡齿轮轴套
 item.railcraft.part.gear.gold.plate.name=金板齿轮
 item.railcraft.part.gear.iron.name=铁齿轮
 item.railcraft.part.gear.steel.name=钢齿轮
+item.railcraft.part.plate.copper.name=铜板
 item.railcraft.part.plate.iron.name=铁板
 item.railcraft.part.plate.steel.name=钢板
 item.railcraft.part.plate.tin.name=锡板
@@ -196,30 +236,6 @@ railcraft.color.purple=紫色
 railcraft.color.red=红色
 railcraft.color.white=白色
 railcraft.color.yellow=黄色
-
-railcraft.damage.bore.1=@s阻碍了前进的道路.
-railcraft.damage.bore.2=@s试图螳臂当车.
-railcraft.damage.bore.3=@s被碾碎了.
-railcraft.damage.bore.4=@s认为自己比约翰·亨利还厉害.
-railcraft.damage.bore.5=@s陷入了进退维谷的境地.
-
-railcraft.damage.steam.1=@s被蒸熟了,鲜美多汁.
-railcraft.damage.steam.2=@s没像他吹牛说的那样免疫高温伤害! 
-railcraft.damage.steam.3=@s发现了蒸汽烫伤会有多么的痛苦!
-railcraft.damage.steam.4=@s出了工业事故.
-railcraft.damage.steam.5=@s可能踩到了不该踩的东西.
-
-railcraft.damage.track.electric.1=@s在电轨上小便.
-railcraft.damage.track.electric.2=@s发现了“高压电”的真谛.
-railcraft.damage.track.electric.3=@s顿悟了电之所以为奇迹.
-railcraft.damage.track.electric.4=@s迷失于第三轨道.
-railcraft.damage.track.electric.5=@s深受震动.(英文双关:即死于电击)
-
-railcraft.damage.train.1=@s被列车撞了.
-railcraft.damage.train.2=@s在轨道上玩耍.
-railcraft.damage.train.3=@s在轨道上和列车单挑,列车赢了.
-railcraft.damage.train.4=@s上错车了.
-railcraft.damage.train.5=@s买了一张通向来生的单程票.
 
 railcraft.gates.action.pause=暂停
 railcraft.gates.action.sendcart=发车
@@ -315,7 +331,7 @@ railcraft.gui.detector.villager.equals=是
 railcraft.gui.detector.villager.none=无
 railcraft.gui.detector.villager.not=否
 
-railcraft.gui.electric.meter.charge=电量=@.2f/@.2f,损耗=@.2f/tick
+railcraft.gui.electric.meter.charge=电量: @.2fc | 电流: @.2fc/t | 损耗: @.2fc/t
 
 railcraft.gui.energy.loader.empty=空
 railcraft.gui.energy.loader.fill=强制装满
@@ -685,9 +701,10 @@ tile.railcraft.machine.epsilon.electric.feeder.admin.name=管理员电力供给�
 tile.railcraft.machine.epsilon.electric.feeder.admin.tip=提供无限的RC电力
 tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元 
 tile.railcraft.machine.epsilon.electric.feeder.tip=将IC电力转化为RC电力
-tile.railcraft.machine.epsilon.flux.transformer.name=流体转换机
-tile.railcraft.machine.epsilon.force.track.emitter.name=轨道发力机
-tile.railcraft.machine.epsilon.force.track.emitter.tip=计划了以能量为基础的轨道
+tile.railcraft.machine.epsilon.flux.transformer.name=能量流转换机
+tile.railcraft.machine.epsilon.flux.transformer.tip=多方块结构: 2x2x2\n 将RF能量转换为RC电力\n 80%的效率
+tile.railcraft.machine.epsilon.force.track.emitter.name=轨道发射机
+tile.railcraft.machine.epsilon.force.track.emitter.tip=发射以RC电力为能量供应的镭射轨道
 
 tile.railcraft.machine.gamma.dispenser.cart.name=矿车分车站
 tile.railcraft.machine.gamma.dispenser.cart.tip=向轨道分配矿车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出矿车 -
@@ -915,6 +932,7 @@ tile.railcraft.track.elevator.name=升降轨道
 tile.railcraft.track.elevator.tip=允许车厢竖直移动\n§o§c- 顶部通入红石信号即可激活 -
 tile.railcraft.track.embarking.name=乘车轨道
 tile.railcraft.track.embarking.tip=使附近实体乘上车厢\n§o§9- 通过撬棍敲击来调整范围 -\n§o§c- 使用红石信号激活 -
+tile.railcraft.track.force.name=镭射轨道
 tile.railcraft.track.gated.name=门控轨道
 tile.railcraft.track.gated.oneway.name=单向门控轨道
 tile.railcraft.track.gated.oneway.tip=单向的门控轨道\n§o§c- 使用红石信号激活 -
