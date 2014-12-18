@@ -78,7 +78,7 @@ item.minecartFurnace.name=Kemencés csille
 item.minecartTnt.name=TNT csille
 item.minecartHopper.name=Hopper Cart
 
-item.railcraft.armor.goggles.name=Pályamunkási szemüveg
+item.railcraft.armor.goggles.name=Pályamunkás szemüveg
 item.railcraft.armor.overalls.name=Mérnöki munkaköpeny
 item.railcraft.armor.overalls.tip=Megvéd a vasútépítési \n munkák közben
 item.railcraft.armor.steel.boots.name=Acél csizma
@@ -91,8 +91,8 @@ item.railcraft.backpack.apothecary.t2.name=Összefűzött patikusi hátizsák
 item.railcraft.backpack.iceman.t1.name=Jégbányász hátizsák
 item.railcraft.backpack.iceman.t2.name=Összefűzött jégbányász hátizsák
 item.railcraft.backpack.tip=Készítette: Railcraft, Inc.
-item.railcraft.backpack.trackman.t1.name=Pályamunkási hátizsák
-item.railcraft.backpack.trackman.t2.name=Összefűzött pályamunkási hátizsák
+item.railcraft.backpack.trackman.t1.name=Pályamunkás hátizsák
+item.railcraft.backpack.trackman.t2.name=Összefűzött pályamunkás hátizsák
 
 item.railcraft.borehead.diamond.name=Gyémánt fúrópajzs
 item.railcraft.borehead.iron.name=Vas fúrópajzs
@@ -245,14 +245,14 @@ railcraft.gates.trigger.aspect.green=Zöld aspektus
 railcraft.gates.trigger.aspect.off=Kikapcsolt aspektus
 railcraft.gates.trigger.aspect.red.blink=Villogó piros aspektus
 railcraft.gates.trigger.aspect.red=Piros aspektus
-railcraft.gates.trigger.aspect.yellow.blink=Villogó sárga spektus
+railcraft.gates.trigger.aspect.yellow.blink=Villogó sárga aspektus
 railcraft.gates.trigger.aspect.yellow=Sárga aspektus
 railcraft.gates.trigger.cart=Érzékel csillét
-railcraft.gates.trigger.engine.blue=Motor állapot: kék
-railcraft.gates.trigger.engine.green=Motor állapot: zöld
-railcraft.gates.trigger.engine.orange=Motor állapot: narancssárga
-railcraft.gates.trigger.engine.red=Motor állapot: piros
-railcraft.gates.trigger.engine.yellow=Motor állapot: sárga
+railcraft.gates.trigger.engine.blue=Motor állapota: kék
+railcraft.gates.trigger.engine.green=Motor állapota: zöld
+railcraft.gates.trigger.engine.orange=Motor állapota: narancssárga
+railcraft.gates.trigger.engine.red=Motor állapota: piros
+railcraft.gates.trigger.engine.yellow=Motor állapota: sárga
 railcraft.gates.trigger.fuel=Kevés üzemanyag
 railcraft.gates.trigger.maintenance=Karbantartás szükséges
 railcraft.gates.trigger.temp.cold=Hideg
@@ -348,9 +348,9 @@ railcraft.gui.engrave.unlock.exists=Duplázás!
 railcraft.gui.engrave.unlock.fail=Nem sikerült!
 railcraft.gui.engrave.unlock.success=Siker!
 railcraft.gui.engrave.unlock=Feloldás!
-railcraft.gui.engrave=Gravírizás
+railcraft.gui.engrave=Gravírozás
 
-railcraft.gui.feed.station.feed=Etetés
+railcraft.gui.feed.station.feed=Étel
 
 railcraft.gui.filter=Szűrő
 railcraft.gui.filters.carts=Csillék
@@ -433,13 +433,13 @@ railcraft.gui.mag.glass.placedby=@1$s tárgyat ő helyezte ide: @2$s
 railcraft.gui.rolling.machine.tip.craft=§e§o--kattint a craft-oláshoz--
 
 railcraft.gui.routing.logic.blank=Üres asztal
-railcraft.gui.routing.logic.insufficient.operands=Elégtelen operandus
+railcraft.gui.routing.logic.insufficient.operands=Elégtelen feltétel
 railcraft.gui.routing.logic.malformed.syntax=Rossz szintaktika
 railcraft.gui.routing.logic.unrecognized.keyword=Ismeretlen kulcsszó
 railcraft.gui.routing.slot.label=Irányító tábla
 railcraft.gui.routing.table.editor=Utoljára szerkesztette: @s
-railcraft.gui.routing.table.manual.page1=Ha az Irányító táblát egy Irányítás érzékelőbe vagy Irányítás váltóba helyezzük, akkor egy sor szabályt definiálunk, amiknek az áthaladó mozdonyoknak meg kell felelniük. Ezek a szabályok egyszerű logikai alapok szerint hozhatóak létre, ezáltal olyan egyszerű vagy komplex szabályokat hozhatunk létre, amilyeneket csak szeretnénk. A szintaktika egy elő-jelöléses script, az operátorok után következnek az operandusok.Soronként csak egy kulcsszó megengedett. Ha nincs specifikált operátor, akkor a VAGY lesz alkalmazva.Az Irányító táblák úgy másolhatóak, hogy kettőt vagyy többet helyezünk egy craftoló hálózatba.
-railcraft.gui.routing.table.manual.page2=Operátor kulcsszavak:\n   ÉS - Két operandusa van, mindkettő igaz kell legyen.\n   VAGY - Két operandusa van, legalább az egyik igaz kell legyen.\n   NEM - A következő operandus ellentetjét kell venni.
+railcraft.gui.routing.table.manual.page1=Ha az Irányító táblát egy Irányítás érzékelőbe vagy Irányítás váltóba helyezzük, akkor egy sor szabályt definiálunk, amiknek az áthaladó mozdonyoknak meg kell felelniük. Ezek a szabályok egyszerű logikai alapok szerint hozhatóak létre, ezáltal olyan egyszerű vagy komplex szabályokat hozhatunk létre, amilyeneket csak szeretnénk. A szintaktika egy elő-jelöléses script, az operátorok után következnek a feltételek.Soronként csak egy kulcsszó megengedett. Ha nincs specifikált operátor, akkor a VAGY lesz alkalmazva.Az Irányító táblák úgy másolhatóak, hogy kettőt vagyy többet helyezünk egy craftoló hálózatba.
+railcraft.gui.routing.table.manual.page2=Operátor kulcsszavak:\n   ÉS - Két feltétele van, mindkettő igaz kell legyen.\n   VAGY - Két feltétele van, legalább az egyik igaz kell legyen.\n   NEM - A következő feltétel ellentetjét kell venni.
 railcraft.gui.routing.table.manual.page3=Feltétel kulcsszavak:\n   Cél=<string>\n  Ha a mozdony célállomása\n az előző szöveggel kezdődik,\n  akkor a feltétel igaz.\n "Cél=nulla" a célállomás nélküli\n kocsikkal egyezik meg.\n   Tulajdonos=<username>\n Igaz, ha a mozdony ehhez \n a személyhez tartozik.\n Név=<entityname>\n  Igaz, ha egyezik \n a csille nevével.
 railcraft.gui.routing.table.manual.page4=Feltétel kulcsszavak:\n   Szín=<primary>,<secondary>\n      Igaz, ha a mozdony elsődleges és \n      másodlagos színei passzolnak.\n      A "Bármi" opció dzsokerként működik.\n      Színek: Fekete, Piros, Zöld, Barna, Kék\n  Lila, Cián, Világos Szürke, Szürke, Rózsaszín, Limezöld,\n  Sárga, Világos kék, Bíborvörös, Narancssárga, Fehér\n   Újratöltés_szükséges=<true/false>\n     Ha a mozdony kezd kifogyni üzemanyagból\n vagy vízből, ez majd jelzi nekünk.
 railcraft.gui.routing.table.manual.page5=Feltétel kulcsszavak:\n   Vöröskő=<true/false>\n      Igaz az értéke, ha az irányító blokkot\n      egy vöröskő hajtja meg.
@@ -489,8 +489,8 @@ railcraft.gui.tip.button.lock.unlocked=Kattint az eszköz zárolásához.\n Ha l
 
 railcraft.gui.track.embarking.radius=Sugár
 railcraft.gui.track.locking.change=A következő módra váltott: @s 
-railcraft.gui.track.locking.mode.boarding.train=Vonatos beszállás
-railcraft.gui.track.locking.mode.boarding=Beszállás
+railcraft.gui.track.locking.mode.boarding.train=Vonat elindítása
+railcraft.gui.track.locking.mode.boarding=Indító/továbbító
 railcraft.gui.track.locking.mode.holding.train=Vonat megtartása
 railcraft.gui.track.locking.mode.holding=Megtartás
 railcraft.gui.track.locking.mode.lockdown.train=Vonat lezárása
