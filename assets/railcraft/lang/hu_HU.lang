@@ -1,7 +1,7 @@
 #based on en_US.lang
-#translated by Platypus007
+#translated by Platypus007, with the help of Joe
 #translation is in progress
-#missing lines:49-51,55,79, 101-103,107,175,194-196,202,220,340,359,364,
+#missing lines:49-51,55,79, 101-103,107,175,194-196,202,220,340,359,364,501++
 
 chat.railcraft.api.error=Hiba: Túl régi API, kérlek nézd meg a logokat további információért.
 
