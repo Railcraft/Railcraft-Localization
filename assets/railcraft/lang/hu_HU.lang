@@ -1,7 +1,7 @@
 #based on en_US.lang
 #translated by Platypus007, with the help of Joe
 #translation is in progress
-#missing lines:49-51,55,79, 101-103,107,175,194-196,202,220,340,359,364,501++
+#missing lines:49-51,55,79,101-103,107,175,194-196,220,340,359,364,513,514,603
 
 chat.railcraft.api.error=Hiba: Túl régi API, kérlek nézd meg a logokat további információért.
 
@@ -199,7 +199,7 @@ item.railcraft.routing.table.name=Irányító tábla
 item.railcraft.routing.ticket.gold.name=Arany menetjegy
 item.railcraft.routing.ticket.name=Menetjegy
 
-item.railcraft.tool.crowbar.magic.name=Thaumium feszítővas
+item.railcraft.tool.crowbar.magic.name=Titánium feszítővas
 item.railcraft.tool.crowbar.name=Feszítővas
 item.railcraft.tool.crowbar.reinforced.name=Megerősített feszítővas
 item.railcraft.tool.crowbar.tip=§okocsik összekapcsolása: shift+jobb klikk
@@ -500,116 +500,116 @@ railcraft.gui.track.launcher.force=Érvényesítés = @d
 
 railcraft.gui.trade.station.dice.tip=Véletlenszerű kereskedelem
 
-railcraft.gui.tuner.abandon.chunk=Controller is not in a loaded Chunk, abandoning pairing
-railcraft.gui.tuner.abandon.gone=Controller no longer exists, abandoning pairing
-railcraft.gui.tuner.start=Started pairing @s with a Receiver
-railcraft.gui.tuner.stop=Stopped pairing @s with a Receiver
-railcraft.gui.tuner.success=@1$s successfully paired with @2$s
+railcraft.gui.tuner.abandon.chunk=Az irányító nem betöltött chunk-ban van, ezért a kapcsolat megszűnik
+railcraft.gui.tuner.abandon.gone=Az irányító már nem létezik, kapcsolat megszüntetése
+railcraft.gui.tuner.start= @s megkezdte a kapcsolatot a vevővel 
+railcraft.gui.tuner.stop= @s kapcsolata megszakadt a vevővel
+railcraft.gui.tuner.success=@1$s sikeresen összepárosítva a következővel @2$s
 
-railcraft.gui.turbine.output=Output: @d%%
+railcraft.gui.turbine.output=Kimenet: @d%%
 railcraft.gui.turbine.rotor=Rotor:
-railcraft.gui.turbine=Steam Turbine
+railcraft.gui.turbine=Gőzturbina
 
 railcraft.keybind.aura.anchor=Anchor Aura
 railcraft.keybind.aura.tuning=Tuning Aura
 
-railcraft.keybind.loco.faster=Locomotive Faster
-railcraft.keybind.loco.mode=Locomotive Mode
-railcraft.keybind.loco.slower=Locomotive Slower
-railcraft.keybind.loco.whistle=Locomotive Whistle
+railcraft.keybind.loco.faster=Mozdony gyorsítása
+railcraft.keybind.loco.mode=Mozdony mód
+railcraft.keybind.loco.slower=Mozdony lassítása
+railcraft.keybind.loco.whistle=Mozdony sípoltatása
 
-railcraft.locomotive.model.electric.default.name=Standard Electric
-railcraft.locomotive.model.steam.magic.default.name=Standard Magic
-railcraft.locomotive.model.steam.solid.default.name=Standard Solid
+railcraft.locomotive.model.electric.default.name=Szabvány elektronika
+railcraft.locomotive.model.steam.magic.default.name=Szabvány varázslat
+railcraft.locomotive.model.steam.solid.default.name=Szabvány tömörség
 
-railcraft.multiblock.state.invalid.entity=Entity in the way: @s
-railcraft.multiblock.state.invalid.pattern=Does not match pattern: @s
-railcraft.multiblock.state.unknown.unloaded=Part of the structure is not loaded: @s
-railcraft.multiblock.state.valid=Structure is valid
+railcraft.multiblock.state.invalid.entity=Úton lévő entitás: @s
+railcraft.multiblock.state.invalid.pattern=Nem passzol a mintával: @s
+railcraft.multiblock.state.unknown.unloaded=A szerkezet egy része nincs betöltve: @s
+railcraft.multiblock.state.valid=Érvényes szerkezet
 
-tc.research_category.RAILCRAFT=Traheremagy
-thaumcraft.research.RC_Crowbar.name=Thaumium Crowbar
-thaumcraft.research.RC_Crowbar.page.1=By substituting Thaumium for Steel and imbuing it with a touch of Order, you have discovered how to create a Crowbar that is far more receptive to magic.
-thaumcraft.research.RC_Crowbar.text=[RC] I think you dropped this...
+tc.research_category.RAILCRAFT=Titánmágia
+thaumcraft.research.RC_Crowbar.name=Titánium feszítővas
+thaumcraft.research.RC_Crowbar.page.1=Ha az acélt titániumra cseréljük, és egy csipetnyi kis szabálylal töltjük fel, akkor felfedezhetjük, hogy hogyan csináljunk olyan feszítővasat, ami sokkal fogékonyabb a varázslatra.
+thaumcraft.research.RC_Crowbar.text=[RC] Azt hiszem ezt te hagytad el...
 
-tile.activatorRail.name=Activator Track
-tile.detectorRail.name=Detector Track
-tile.goldenRail.name=Booster Track
-tile.rail.name=Track
+tile.activatorRail.name=Aktiváló vasút
+tile.detectorRail.name=Érzékelő vasút
+tile.goldenRail.name=Gyorsító vasút
+tile.rail.name=Vasút
 
-tile.railcraft.anvil.intact.name=Steel Anvil
-tile.railcraft.anvil.slightlyDamaged.name=Slightly Damaged Anvil
-tile.railcraft.anvil.veryDamaged.name=Very Damaged Anvil
+tile.railcraft.anvil.intact.name=Acél üllő
+tile.railcraft.anvil.slightlyDamaged.name=Kicsit sérült üllő
+tile.railcraft.anvil.veryDamaged.name=Nagyon sérült üllő
 
-tile.railcraft.brick.abyssal.block.name=Abyssal Block
-tile.railcraft.brick.abyssal.brick.name=Abyssal Brick
-tile.railcraft.brick.abyssal.cobble.name=Abyssal Cobblestone
-tile.railcraft.brick.abyssal.etched.name=Etched Abyssal Stone
-tile.railcraft.brick.abyssal.fitted.name=Fitted Abyssal Stone
-tile.railcraft.brick.abyssal.ornate.name=Ornate Abyssal Stone
+tile.railcraft.brick.abyssal.block.name=Mélységi tömb
+tile.railcraft.brick.abyssal.brick.name=Mélységi kőtégla
+tile.railcraft.brick.abyssal.cobble.name=Mélységi zúzottkő
+tile.railcraft.brick.abyssal.etched.name=Mélységi mart kő
+tile.railcraft.brick.abyssal.fitted.name=Mélységi illesztett kő
+tile.railcraft.brick.abyssal.ornate.name=Mélységi ékes kő
 
-tile.railcraft.brick.bleachedbone.block.name=Bleached Bone Block
-tile.railcraft.brick.bleachedbone.brick.name=Bleached Bone Brick
-tile.railcraft.brick.bleachedbone.cobble.name=Bleached Bone Cobblestone
-tile.railcraft.brick.bleachedbone.etched.name=Etched Bleached Bone Stone
-tile.railcraft.brick.bleachedbone.fitted.name=Fitted Bleached Bone Stone
-tile.railcraft.brick.bleachedbone.ornate.name=Ornate Bleached Bone Stone
+tile.railcraft.brick.bleachedbone.block.name=Fehérített tömb
+tile.railcraft.brick.bleachedbone.brick.name=Fehérített tégla
+tile.railcraft.brick.bleachedbone.cobble.name=Fehérített zúzottkő
+tile.railcraft.brick.bleachedbone.etched.name=Fehérített mart kő
+tile.railcraft.brick.bleachedbone.fitted.name=Fehérített illesztett kő
+tile.railcraft.brick.bleachedbone.ornate.name=Fehérített ékes kő
 
-tile.railcraft.brick.bloodstained.block.name=Blood Stained Block
-tile.railcraft.brick.bloodstained.brick.name=Blood Stained Brick
-tile.railcraft.brick.bloodstained.cobble.name=Blood Stained Cobblestone
-tile.railcraft.brick.bloodstained.etched.name=Etched Blood Stained Stone
-tile.railcraft.brick.bloodstained.fitted.name=Fitted Blood Stained Stone
-tile.railcraft.brick.bloodstained.ornate.name=Ornate Blood Stained Stone
+tile.railcraft.brick.bloodstained.block.name=Vérfoltos tömb
+tile.railcraft.brick.bloodstained.brick.name=Vérfoltos tégla
+tile.railcraft.brick.bloodstained.cobble.name=Vérfoltos zúzottkő
+tile.railcraft.brick.bloodstained.etched.name=Vérfoltos mart kő
+tile.railcraft.brick.bloodstained.fitted.name=Vérfoltos illesztett kő
+tile.railcraft.brick.bloodstained.ornate.name=Vérfoltos ékes kő
 
-tile.railcraft.brick.frostbound.block.name=Frost Bound Block
-tile.railcraft.brick.frostbound.brick.name=Frost Bound Brick
-tile.railcraft.brick.frostbound.cobble.name=Frost Bound Cobblestone
-tile.railcraft.brick.frostbound.etched.name=Etched Frost Bound Stone
-tile.railcraft.brick.frostbound.fitted.name=Fitted Frost Bound Stone
-tile.railcraft.brick.frostbound.ornate.name=Ornate Frost Bound Stone
+tile.railcraft.brick.frostbound.block.name=Megfagyott tömb
+tile.railcraft.brick.frostbound.brick.name=Fagyott tégla
+tile.railcraft.brick.frostbound.cobble.name=Fagyott zúzottkő
+tile.railcraft.brick.frostbound.etched.name=Fagyott mart kő
+tile.railcraft.brick.frostbound.fitted.name=Fagyott illesztett kő
+tile.railcraft.brick.frostbound.ornate.name=Fagyott ékes kő
 
-tile.railcraft.brick.infernal.block.name=Infernal Block
-tile.railcraft.brick.infernal.brick.name=Infernal Brick
-tile.railcraft.brick.infernal.cobble.name=Infernal Cobblestone
-tile.railcraft.brick.infernal.etched.name=Etched Infernal Stone
-tile.railcraft.brick.infernal.fitted.name=Fitted Infernal Stone
-tile.railcraft.brick.infernal.ornate.name=Ornate Infernal Stone
+tile.railcraft.brick.infernal.block.name=Pokolbéli tömb
+tile.railcraft.brick.infernal.brick.name=Pokolbéli tégla
+tile.railcraft.brick.infernal.cobble.name=Pokolbéli zúzottkő
+tile.railcraft.brick.infernal.etched.name=Pokolbéli mart kő
+tile.railcraft.brick.infernal.fitted.name=Pokolbéli illesztett kő
+tile.railcraft.brick.infernal.ornate.name=Pokolbéli ékes kő
 
-tile.railcraft.brick.nether.block.name=Nether Block
-tile.railcraft.brick.nether.cobble.name=Nether Cobblestone
-tile.railcraft.brick.nether.etched.name=Etched Nether Stone
-tile.railcraft.brick.nether.fitted.name=Fitted Nether Stone
-tile.railcraft.brick.nether.ornate.name=Ornate Nether Stone
+tile.railcraft.brick.nether.block.name=Alvilági tömb
+tile.railcraft.brick.nether.cobble.name=Alvilági zúzottkő
+tile.railcraft.brick.nether.etched.name=Alvilági mart kő
+tile.railcraft.brick.nether.fitted.name=Alvilági illesztett kő
+tile.railcraft.brick.nether.ornate.name=Alvilági ékes kő
 
-tile.railcraft.brick.quarried.block.name=Quarried Block
-tile.railcraft.brick.quarried.brick.name=Quarried Brick
-tile.railcraft.brick.quarried.cobble.name=Quarried Cobblestone
-tile.railcraft.brick.quarried.etched.name=Etched Quarried Stone
-tile.railcraft.brick.quarried.fitted.name=Fitted Quarried Stone
-tile.railcraft.brick.quarried.ornate.name=Ornate Quarried Stone
+tile.railcraft.brick.quarried.block.name=Fejtett tömb
+tile.railcraft.brick.quarried.brick.name=Fejtett kőtégla
+tile.railcraft.brick.quarried.cobble.name=Fejtett zúzottkő
+tile.railcraft.brick.quarried.etched.name=Fejtett mart kő
+tile.railcraft.brick.quarried.fitted.name=Fejtett illesztett kő
+tile.railcraft.brick.quarried.ornate.name=Fejtett ékes kő
 
-tile.railcraft.brick.sandy.block.name=Sandy Block
-tile.railcraft.brick.sandy.brick.name=Sandy Brick
-tile.railcraft.brick.sandy.cobble.name=Sandy Cobblestone
-tile.railcraft.brick.sandy.etched.name=Etched Sandy Stone
-tile.railcraft.brick.sandy.fitted.name=Fitted Sandy Stone
-tile.railcraft.brick.sandy.ornate.name=Ornate Sandy Stone
+tile.railcraft.brick.sandy.block.name=Homokos tömb
+tile.railcraft.brick.sandy.brick.name=Homokos tégla
+tile.railcraft.brick.sandy.cobble.name=Homokos zúzottkő
+tile.railcraft.brick.sandy.etched.name=Homokos mart kő
+tile.railcraft.brick.sandy.fitted.name=Homokos illesztett kő
+tile.railcraft.brick.sandy.ornate.name=Homokos ékes kő
 
-tile.railcraft.cube.brick.infernal.name=Infernal Brick (Obsolete)
-tile.railcraft.cube.brick.sandy.name=Sandy Brick (Obsolete)
-tile.railcraft.cube.coke.name=Block of Coal Coke
-tile.railcraft.cube.coke.tip=57,600 Fuel Units
+tile.railcraft.cube.brick.infernal.name=Pokolbéli tégla (Elavult)
+tile.railcraft.cube.brick.sandy.name=Homokos tégla (Elavult)
+tile.railcraft.cube.coke.name=Koksz tömb
+tile.railcraft.cube.coke.tip=57,600 Fűtési egység
 tile.railcraft.cube.concrete.name=Block of Concrete
-tile.railcraft.cube.copper.name=Block of Copper
-tile.railcraft.cube.creosote.name=Creosote Wood Block
-tile.railcraft.cube.crushed.obsidian.name=Crushed Obsidian
-tile.railcraft.cube.crushed.obsidian.tip=Prevents Mob Spawns
-tile.railcraft.cube.lead.name=Block of Lead
-tile.railcraft.cube.steel.name=Block of Steel
-tile.railcraft.cube.stone.abyssal.name=Abyssal Stone
-tile.railcraft.cube.stone.quarried.name=Quarried Stone
-tile.railcraft.cube.tin.name=Block of Tin
+tile.railcraft.cube.copper.name=Réz tömb
+tile.railcraft.cube.creosote.name=Karbolsavas fatömb
+tile.railcraft.cube.crushed.obsidian.name=Tört obszidián
+tile.railcraft.cube.crushed.obsidian.tip=Szörnyek megidőzédésének gátlása
+tile.railcraft.cube.lead.name=Ólom tömb
+tile.railcraft.cube.steel.name=Acél tömb
+tile.railcraft.cube.stone.abyssal.name=Mélységi kő
+tile.railcraft.cube.stone.quarried.name=Fejtett kő
+tile.railcraft.cube.tin.name=Cin tömb
 
 tile.railcraft.detector.advanced.name=Detector - Advanced
 tile.railcraft.detector.age.name=Detector - Age
