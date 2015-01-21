@@ -508,6 +508,8 @@ railcraft.gui.turbine.output=Output: @d%%
 railcraft.gui.turbine.rotor=Rotor:
 railcraft.gui.turbine=Steam Turbine
 
+railcraft.gui.update.message=Railcraft @s is available from <http://railcraft.info>
+
 railcraft.keybind.aura.anchor=Anchor Aura
 railcraft.keybind.aura.tuning=Tuning Aura
 
