@@ -508,6 +508,8 @@ railcraft.gui.turbine.output=Выход: @d%%
 railcraft.gui.turbine.rotor=Ротор:
 railcraft.gui.turbine=Паровая турбина
 
+railcraft.gui.update.message=Railcraft @s доступен на <http://railcraft.info>
+
 railcraft.keybind.aura.anchor=Аура якоря
 railcraft.keybind.aura.tuning=Аура настройки
 
