@@ -2,7 +2,7 @@
 # Translated by crafteverywhere
 # Parent Language: zh_TW
 
-chat.railcraft.api.error=错误:过期的API,请检查你的游戏后台记录来了解详细信息.
+chat.railcraft.api.error=错误:API过期,请检查游戏后台记录以了解详情.
 
 death.railcraft.bore.1=%s阻碍了前进的道路.
 death.railcraft.bore.2=%s试图螳臂当车.
@@ -11,13 +11,13 @@ death.railcraft.bore.4=%s认为自己比约翰·亨利还厉害.
 death.railcraft.bore.5=%s陷入了进退维谷的境地.
 death.railcraft.bore.6=%s在工程车前站错了位置.
 
-death.railcraft.crusher.1=%s在大型机械旁边失足.
-death.railcraft.crusher.2=%s不是钢铁侠，他像其他人一样被粉碎了.
-death.railcraft.crusher.3=%s凝视着深渊，然后脚滑了.
-death.railcraft.crusher.4=%s需要重新换一套物品.
-death.railcraft.crusher.5=%s忽略了“当心脚下”的告示.
-death.railcraft.crusher.6=热销中! %s的血肉糊糊!
-death.railcraft.crusher.7=%s变成了垃圾.
+death.railcraft.crusher.1=%s在重型机械边失足.
+death.railcraft.crusher.2=%s并非钢铁之躯,他和我们其他人一样被碾碎了.
+death.railcraft.crusher.3=%s凝视着深渊,然后脚滑了.
+death.railcraft.crusher.4=%s马上就得换一套家当了.
+death.railcraft.crusher.5=%s没留意“当心脚下”的告示牌.
+death.railcraft.crusher.6=热销中!%s的鲜血果冻!
+death.railcraft.crusher.7=%s被砸成了浆糊.
 death.railcraft.crusher.8=%s应该读下安全手册.
 
 death.railcraft.steam.1=%s被蒸熟了,鲜美多汁.
@@ -434,19 +434,21 @@ railcraft.gui.rolling.machine.tip.craft=§e§o-点击以合成-
 railcraft.gui.routing.logic.blank=空白列车时刻表
 railcraft.gui.routing.logic.insufficient.operands=无效操作数
 railcraft.gui.routing.logic.malformed.syntax=不符规范语法
+railcraft.gui.routing.logic.regex.unsupported=未支持正则表达式
 railcraft.gui.routing.logic.unrecognized.keyword=未识别关键字
 railcraft.gui.routing.slot.label=路由表
 railcraft.gui.routing.table.editor=由@s最后编辑
-railcraft.gui.routing.table.manual.numPages=9
+railcraft.gui.routing.table.manual.numPages=10
 railcraft.gui.routing.table.manual.page1=放入路由探测器或转辙器中的列车时刻表定义了一组对过往机车进行匹配的规则.这些使用简单逻辑指令定义的脚本能够允许你任你所需创建出简单或复杂的控制规则.这种指令属于前缀符号脚本,指令需要放在操作数之后,每行限使用一个关键字.若没有写明指令,则默认使用OR指令.在工作台放置两个或更多列车时刻表可以复制其内容.
 railcraft.gui.routing.table.manual.page2=指令关键字:\n   AND - 两个操作数,必须都为真..\n   OR - 两个操作数,一个必须为真.\n   NOT - 反转下一条指令.
 railcraft.gui.routing.table.manual.page3=条件关键字:\n   Dest=<字符串>\n      如果机车目的地\n      字符串以这条字符串开头,\n      则条件为真.\n      "Dest=null" 将匹配那些没有\n      目的地的矿车.\n   Owner=<用户名>\n      机车属于对应名称玩家\n      则为真.
 railcraft.gui.routing.table.manual.page4=条件关键字:\n   Name=<实体名>\n      当与矿车在铁砧中命名的\n      名称相同则为真.\n      "Name=null"将匹配没有自定义名称\n      的矿车.\n   Type=<modid:物品名称>\n      当与矿车物品名称相同\n      则为真.
-railcraft.gui.routing.table.manual.page5=条件关键字:\n   Rider=<用户名>\n      当列车被此玩家乘坐\n      则为真.\n   Ridden=<true/false>\n      当列车被玩家乘坐\n      则为真.
+railcraft.gui.routing.table.manual.page5=条件关键字:\n   Rider=<乘客名>\n      当列车被此玩家乘坐\n      则为真.\n   Ridden=<true/false>\n      当列车被玩家乘坐\n      则为真.
 railcraft.gui.routing.table.manual.page6=条件关键字:\n   Color=<车身色>,<底盘色>\n      如果机车的车身颜色与底盘颜色匹配\n      则为真.\n      可以使用"Any"作为通配符.\n      颜色(请键入英文): Black(黑色), Red(红色), Green(绿色), Brown(棕色), Blue(蓝色),\n      Purple(紫色), Cyan(青色), LightGray(浅灰色), Gray(灰色), Pink(粉色), Lime(柠檬色),\n      Yellow(黄色), LightBlue(浅蓝色), Magenta(品红色), Orange(橙色), White(白色)\n   NeedsRefuel=<true/false>\n      判断机车是否缺燃料或水.\n      匹配则触发它.
 railcraft.gui.routing.table.manual.page7=条件关键字:\n   Redstone=<true/false>\n      路由方块被红石充能\n      则为真.
 railcraft.gui.routing.table.manual.page8=脚本范例:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
 railcraft.gui.routing.table.manual.page9=结果:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身色为黑,底盘色为红,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头.
+railcraft.gui.routing.table.manual.page10=正则表达式:\n   某些条件关键字支持\n   使用正则表达式.\n   要使用正则表达,需要在'='前添加一个'?'.\n   语法参同标准的java正则表达式语法.\n支持的条件关键字:\n   Dest, Name\n范例:\n   Dest?=.*Hill
 railcraft.gui.routing.table.manual.title=路由手册
 railcraft.gui.routing.table.name=名称
 railcraft.gui.routing.ticket.line1=车票有效
@@ -511,6 +513,8 @@ railcraft.gui.tuner.success=@1$s成功与@2$s配对
 railcraft.gui.turbine.output=输出:@d%%
 railcraft.gui.turbine.rotor=转子:
 railcraft.gui.turbine=蒸汽涡轮机
+
+railcraft.gui.update.message=最新版本Railcraft @s已经可用,欢迎前往<http://railcraft.info>下载.
 
 railcraft.keybind.aura.anchor=锚光环
 railcraft.keybind.aura.tuning=调谐光环
