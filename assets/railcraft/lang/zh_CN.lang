@@ -202,6 +202,7 @@ item.railcraft.tool.crowbar.magic.name=奥法撬棍
 item.railcraft.tool.crowbar.name=撬棍
 item.railcraft.tool.crowbar.reinforced.name=强化撬棍
 item.railcraft.tool.crowbar.tip=§o潜行时右键可链接车厢
+item.railcraft.tool.crowbar.void.name=虚空金属撬棍
 item.railcraft.tool.electric.meter.name=电表
 item.railcraft.tool.magnifying.glass.name=放大镜
 item.railcraft.tool.signal.tuner.name=信号调谐器
@@ -537,6 +538,9 @@ tc.research_category.RAILCRAFT=神秘铁道工
 thaumcraft.research.RC_Crowbar.name=奥法撬棍
 thaumcraft.research.RC_Crowbar.page.1=使用神秘锭代替钢材,并灌注以秩序魔力,你终于研究出如何制作对魔力更加亲和的撬棍.
 thaumcraft.research.RC_Crowbar.text=[RC] 我想你东西掉了...
+thaumcraft.research.RC_Void_Crowbar.name=虚空金属撬棍
+thaumcraft.research.RC_Crowbar.page.1=都登上这列疯狂的火车吧.
+thaumcraft.research.RC_Void_Crowbar.text=[RC] 谁把这东西落下了...
 
 tile.activatorRail.name=激活轨道
 tile.detectorRail.name=感应轨道
