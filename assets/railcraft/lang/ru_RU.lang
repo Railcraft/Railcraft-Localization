@@ -198,6 +198,7 @@ item.railcraft.tool.crowbar.magic.name=Таум-монтировка
 item.railcraft.tool.crowbar.name=Монтировка
 item.railcraft.tool.crowbar.reinforced.name=Армированная монтировка
 item.railcraft.tool.crowbar.tip=§oНажмите ПКМ, держа Shift, чтобы соединить вагонетки
+item.railcraft.tool.crowbar.void.name=Монтировка из пустотного металла
 item.railcraft.tool.electric.meter.name=Электросчётчик
 item.railcraft.tool.magnifying.glass.name=Лупа
 item.railcraft.tool.signal.tuner.name=Настройщик сигнала
@@ -531,6 +532,9 @@ tc.research_category.RAILCRAFT=Traheremagy
 thaumcraft.research.RC_Crowbar.name=Таум-монтировка
 thaumcraft.research.RC_Crowbar.page.1=Соединяя таум-металл со сталью и наполняя его аспектом порядка, Вы обнаружили как можно создать монтировку, которая будет гораздо более восприимчивой к магии.
 thaumcraft.research.RC_Crowbar.text=[RC] Я думаю, Вы уронили её...
+thaumcraft.research.RC_Void_Crowbar.name=Монтировка из пустотного металла
+thaumcraft.research.RC_Crowbar.page.1=На борту сумасшедшего поезда.
+thaumcraft.research.RC_Void_Crowbar.text=[RC] А кто уронил эту...
 
 tile.activatorRail.name=Активирующий путь
 tile.detectorRail.name=Детекторный путь
