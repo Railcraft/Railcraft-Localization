@@ -198,6 +198,7 @@ item.railcraft.tool.crowbar.name=Brecheisen
 item.railcraft.tool.crowbar.magic.name=Thaumiumbrecheisen
 item.railcraft.tool.crowbar.reinforced.name=Verstärktes Brecheisen
 item.railcraft.tool.crowbar.tip=§oRechtsklicke schleichend, um Waggons zu verbinden
+item.railcraft.tool.crowbar.void.name=Leermetallbrecheisen
 item.railcraft.tool.electric.meter.name=Elektrisches Messgerät
 item.railcraft.tool.magnifying.glass.name=Lupe
 item.railcraft.tool.signal.tuner.name=Abstimmgerät
@@ -533,6 +534,9 @@ tc.research_category.RAILCRAFT=Traheremagie
 thaumcraft.research.RC_Crowbar.name=Thaumiumbrecheisen
 thaumcraft.research.RC_Crowbar.page.1=Indem du Stahl durch Thaumium ersetzt und ein wenig Order einflößt, hast du entdeckt, wie man ein Brecheisen kreiert, das deutlich empfänglicher für Magie ist.
 thaumcraft.research.RC_Crowbar.text=[RC] Ich glaube, du hast das hier verloren...
+thaumcraft.research.RC_Void_Crowbar.name=Leermetallbrecheisen
+thaumcraft.research.RC_Crowbar.page.1=Langsam wirst du verrückt. Völlig verrückt.
+thaumcraft.research.RC_Void_Crowbar.text=[RC] Wir alle sind verloren...
 
 tile.activatorRail.name=Aktivatorschiene
 tile.detectorRail.name=Detektorschiene
