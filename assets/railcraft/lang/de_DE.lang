@@ -534,9 +534,9 @@ tc.research_category.RAILCRAFT=Traheremagie
 thaumcraft.research.RC_Crowbar.name=Thaumiumbrecheisen
 thaumcraft.research.RC_Crowbar.page.1=Indem du Stahl durch Thaumium ersetzt und ein wenig Order einflößt, hast du entdeckt, wie man ein Brecheisen kreiert, das deutlich empfänglicher für Magie ist.
 thaumcraft.research.RC_Crowbar.text=[RC] Ich glaube, du hast das hier verloren...
-thaumcraft.research.RC_Void_Crowbar.name=Leermetallbrecheisen
-thaumcraft.research.RC_Crowbar.page.1=Langsam wirst du verrückt. Völlig verrückt.
-thaumcraft.research.RC_Void_Crowbar.text=[RC] Wir alle sind verloren...
+thaumcraft.research.RC_Crowbar_Void.name=Leermetallbrecheisen
+thaumcraft.research.RC_Crowbar_Void.page.1=Langsam wirst du verrückt. Völlig verrückt. Wieder bist du einen Schritt weiter gegangen. Du hast das höchste aller arkanen Materialien verwendet und das ultimative Brecheisen geschaffen.
+thaumcraft.research.RC_Crowbar_Void.text=[RC] Gordon wäre stolz...
 
 tile.activatorRail.name=Aktivatorschiene
 tile.detectorRail.name=Detektorschiene
