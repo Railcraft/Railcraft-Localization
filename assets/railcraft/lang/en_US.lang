@@ -286,6 +286,10 @@ railcraft.gui.bore.track=Track
 
 railcraft.gui.box.aspect.action=Emit Redstone on Aspect
 railcraft.gui.box.capacitor.duration=Emit Redstone for @d seconds
+railcraft.gui.box.capacitor.immediate=Immediate
+railcraft.gui.box.capacitor.immediate.tip=Start timer as soon as the input signal is received.
+railcraft.gui.box.capacitor.delayed=Delayed
+railcraft.gui.box.capacitor.delayed.tip=Start timer when the last input signal turns off.
 railcraft.gui.box.controller.aspect.default=Default Aspect:
 railcraft.gui.box.controller.aspect.redstone=Redstone Aspect:
 

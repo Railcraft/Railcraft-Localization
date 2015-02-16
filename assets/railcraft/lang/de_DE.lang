@@ -286,6 +286,10 @@ railcraft.gui.bore.track=Schiene
 
 railcraft.gui.box.aspect.action=Redstonesignal bei Zustand
 railcraft.gui.box.capacitor.duration=Redstonesignal für @d Sekunden
+railcraft.gui.box.capacitor.immediate=Sofort
+railcraft.gui.box.capacitor.immediate.tip=Uhr sofort starten, wenn ein Signal kommt.
+railcraft.gui.box.capacitor.delayed=Verzögert
+railcraft.gui.box.capacitor.delayed.tip=Uhr starten, wenn das letzte Signal abschaltet.
 railcraft.gui.box.controller.aspect.default=Standard Zustand:
 railcraft.gui.box.controller.aspect.redstone=Zustand bei Redstonesignal:
 
