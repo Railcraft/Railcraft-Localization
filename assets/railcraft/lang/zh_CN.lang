@@ -290,6 +290,10 @@ railcraft.gui.bore.track=轨道
 
 railcraft.gui.box.aspect.action=对应信号域来发送红石信号
 railcraft.gui.box.capacitor.duration=持续发送红石信号@d秒
+railcraft.gui.box.capacitor.immediate=同步
+railcraft.gui.box.capacitor.immediate.tip=在收到红石信号同时开始计时. 
+railcraft.gui.box.capacitor.delayed=延迟
+railcraft.gui.box.capacitor.delayed.tip=在上一个红石信号结束时开始计时. 
 railcraft.gui.box.controller.aspect.default=默认信号域:
 railcraft.gui.box.controller.aspect.redstone=红石信号域:
 
