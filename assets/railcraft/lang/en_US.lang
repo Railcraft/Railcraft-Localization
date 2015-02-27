@@ -435,6 +435,7 @@ railcraft.gui.rolling.machine.tip.craft=§e§o-click to craft-
 railcraft.gui.routing.logic.blank=Blank Table
 railcraft.gui.routing.logic.insufficient.operands=Insufficient Operands
 railcraft.gui.routing.logic.malformed.syntax=Malformed Syntax
+railcraft.gui.routing.logic.regex.invalid=Invalid Regex Pattern
 railcraft.gui.routing.logic.regex.unsupported=Regex Unsupported
 railcraft.gui.routing.logic.unrecognized.keyword=Unrecognized Keyword
 railcraft.gui.routing.slot.label=Routing Table
