@@ -439,6 +439,7 @@ railcraft.gui.rolling.machine.tip.craft=§e§o-点击以合成-
 railcraft.gui.routing.logic.blank=空白列车时刻表
 railcraft.gui.routing.logic.insufficient.operands=无效操作数
 railcraft.gui.routing.logic.malformed.syntax=不符规范语法
+railcraft.gui.routing.logic.regex.invalid=无效正则表达式
 railcraft.gui.routing.logic.regex.unsupported=未支持正则表达式
 railcraft.gui.routing.logic.unrecognized.keyword=未识别关键字
 railcraft.gui.routing.slot.label=路由表
