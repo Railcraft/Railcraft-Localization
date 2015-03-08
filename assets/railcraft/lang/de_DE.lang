@@ -1,4 +1,4 @@
-chat.railcraft.api.error=Error: Veraltetes API, bitte überprüfe den Log für mehr Info.
+chat.railcraft.api.error=Error: Veraltete API, bitte überprüfe das Log für mehr Info.
 
 death.railcraft.bore.1=%s war dem Fortschritt im Weg
 death.railcraft.bore.2=%s legte sich mit einem Bohrkopf an und verlor
@@ -10,7 +10,7 @@ death.railcraft.bore.6=%s war auf der falschen Seite des Fortschritts
 death.railcraft.crusher.1=%s stolperte in der Nähe schwerer Maschinerie
 death.railcraft.crusher.2=%s ist nicht unverwundbar, er wird zerquetscht, wie wir es werden
 death.railcraft.crusher.3=%s starrte in den Abgrund, dann rutschte er aus
-death.railcraft.crusher.4=%s is going to need to replace his stuff
+death.railcraft.crusher.4=%s wird seine Sachen ersetzen müssen
 death.railcraft.crusher.5=%s ignorierte die Warnschilder
 death.railcraft.crusher.6=Nur heute zum Verkauf! %s-Blutgelée
 death.railcraft.crusher.7=%s wurde zu Paste
@@ -21,7 +21,7 @@ death.railcraft.steam.2=%s ist nicht immun gegen hohe Temperaturen, entgegen Beh
 death.railcraft.steam.3=%s hat entdeckt, wie schmerzhaft Dampf sein kann
 death.railcraft.steam.4=%s hatte einen Betriebsunfall
 death.railcraft.steam.5=%s hätte da wahrscheinlich nicht hintreten sollen.
-death.railcraft.steam.6=%s entdeckte, dass das Baden in Dampf außerhalb von Saunas unterlassen sollte
+death.railcraft.steam.6=%s entdeckte, dass das Baden in Dampf außerhalb von Saunas unterlassen werden sollte
 
 death.railcraft.track.electric.1=%s hat auf ein elektrisches Gleis gepinkelt
 death.railcraft.track.electric.2=%s entdeckte die Bedeutung des Wortes "Hochspannung"
@@ -386,7 +386,7 @@ railcraft.gui.item.loader.transfer.tip=Bewege exakt so viele\n Gegenstände wie 
 railcraft.gui.item.loader.transfer=Übertragen
 
 railcraft.gui.link.broken=Verbindung getrennt
-railcraft.gui.link.created=Verbindung kreiert
+railcraft.gui.link.created=Verbindung hergestellt
 railcraft.gui.link.failed=Verbindung fehlgeschlagen
 railcraft.gui.link.started=Verbindung begonnen
 
@@ -496,7 +496,7 @@ railcraft.gui.tip.button.lock.unlocked=Klicken um zu sperren.\n Wenn gesperrt, k
 railcraft.gui.track.embarking.radius=Radius
 railcraft.gui.track.locking.change=Gewechselt zum @smodus
 railcraft.gui.track.locking.mode.lockdown=Sperr
-railcraft.gui.track.locking.mode.lockdown.train=Zursperr
+railcraft.gui.track.locking.mode.lockdown.train=Zugsperr
 railcraft.gui.track.locking.mode.holding=Halte
 railcraft.gui.track.locking.mode.holding.train=Zughalte
 railcraft.gui.track.locking.mode.boarding=Einstiegs
@@ -623,7 +623,7 @@ tile.railcraft.cube.stone.quarried.name=Brüchiger Stein
 tile.railcraft.cube.tin.name=Zinnblock
 
 tile.railcraft.detector.advanced.name=Detektor - Fortgeschritten
-tile.railcraft.detector.age.name=Detektor - Zeit
+tile.railcraft.detector.age.name=Detektor - Alter
 tile.railcraft.detector.animal.name=Detektor - Tiere
 tile.railcraft.detector.any.name=Detektor - Alles
 tile.railcraft.detector.cart.name=Detektor - Lore
