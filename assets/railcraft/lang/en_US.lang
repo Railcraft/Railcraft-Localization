@@ -1,5 +1,22 @@
 chat.railcraft.api.error=Error: Outdated API, please check your log for more info.
 
+command.railcraft.aliases=Aliases: %s
+command.railcraft.help=Type '%s' for help.
+command.railcraft.list=Available Sub-Commands:
+command.railcraft.permlevel=Permission Level: %s
+command.railcraft.noperms=You do not have permission to use this command.
+
+command.railcraft.railcraft.help=Various commands for Railcraft
+command.railcraft.railcraft.format=Format: /%s <sub-command>
+
+command.railcraft.railcraft.debug.desc=- %s : Debug Tools
+command.railcraft.railcraft.debug.help=Tools for debugging difficult issues.
+command.railcraft.railcraft.debug.format=Format: /%s
+
+command.railcraft.railcraft.debug.tile.desc=- %s : Tile Debug Tools
+command.railcraft.railcraft.debug.tile.help=Tools for debugging tiles.
+command.railcraft.railcraft.debug.tile.format=Format: /%s x y z
+
 death.railcraft.bore.1=%s got in the way of progress
 death.railcraft.bore.2=%s tried to stop the Bore
 death.railcraft.bore.3=%s was crushed by the Bore
