@@ -1,5 +1,19 @@
 chat.railcraft.api.error=Error: Veraltete API, bitte überprüfe das Log für mehr Info.
 
+command.railcraft.aliases=Aliase: %s
+command.railcraft.help=Gib für weitere Hilfe '%s' ein.
+command.railcraft.list=Verfügbare Sub-Befehle:
+command.railcraft.permlevel=Berechtigungslevel: %s
+command.railcraft.noperms=Du hast nicht die erforderlichen Berechtigungen, um diesen Befehl zu verwenden.
+command.railcraft.railcraft.help=Verschiedene Befehle für Railcraft
+command.railcraft.railcraft.format=Format: /%s <Sub-Befehl>
+command.railcraft.railcraft.debug.desc=- %s : Debug-Werkzeug
+command.railcraft.railcraft.debug.help=Werkzeuge, um schwierigen Problemen nachzugehen.
+command.railcraft.railcraft.debug.format=Format: /%s
+command.railcraft.railcraft.debug.tile.desc=- %s : Tile-Debug-Werkzeug
+command.railcraft.railcraft.debug.tile.help=Werkzeug zum Überprüfen von Tiles.
+command.railcraft.railcraft.debug.tile.format=Format: /%s x y z
+
 death.railcraft.bore.1=%s war dem Fortschritt im Weg
 death.railcraft.bore.2=%s legte sich mit einem Bohrkopf an und verlor
 death.railcraft.bore.3=%s wurde von einem Bohrer zerquetscht
