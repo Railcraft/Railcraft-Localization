@@ -364,7 +364,7 @@ railcraft.gui.engrave.openunlock=Odemkni emblémy.
 railcraft.gui.engrave.unlock.exists=Duplikát!
 railcraft.gui.engrave.unlock.fail=Selhání!
 railcraft.gui.engrave.unlock.success=Úspěch!
-railcraft.gui.engrave.unlock=Odemknuto!
+railcraft.gui.engrave.unlock=Odemknout!
 railcraft.gui.engrave=Vyrýt
 #
 railcraft.gui.feed.station.feed=Krmivo
@@ -423,12 +423,12 @@ railcraft.gui.liquid.unloader.immediate=Okamžitě
 railcraft.gui.liquid.unloader.manual.tip=Nikdy neEmituj Rudit
 railcraft.gui.liquid.unloader.manual=Manual
 #
-railcraft.gui.locomotive.mode.idle=Idle(běh naprázdno)
-railcraft.gui.locomotive.mode.running=-Chod
-railcraft.gui.locomotive.mode.shutdown=Vypnutí
+railcraft.gui.locomotive.mode.idle=Volnoběh
+railcraft.gui.locomotive.mode.running=Zapnout
+railcraft.gui.locomotive.mode.shutdown=Vypnout
 railcraft.gui.locomotive.electric.tip.button.mode.running=Rozhýbe lokomotivu
 railcraft.gui.locomotive.electric.tip.button.mode.shutdown=Zastavý lokomotivu
-railcraft.gui.locomotive.steam.tip.button.mode.idle=Lokomotiva redukuje spotřebu\n paliva, ale udržuje teplotu.\n V případě že vlak drží stopu,\n se chová jako v Idle režimu(běh naprázdno).
+railcraft.gui.locomotive.steam.tip.button.mode.idle=Lokomotiva redukuje spotřebu\n paliva, ale udržuje teplotu.\n V případě že vlak drží stopu,\n se chová jako v režimu (Volnoběh/Idle)
 railcraft.gui.locomotive.steam.tip.button.mode.running=Lokomotiva vytváří tah.
 railcraft.gui.locomotive.steam.tip.button.mode.shutdown=Vypne lokomotivu.\n Zastaví veškerý pohyb a\n začne proces stydnutí kotle.\n To může nějaký čas trvat.
 railcraft.gui.locomotive.tip.button.locked=Tento vozík uzamknul\n {owner}.\n Bude akceptovat pouze lístky\n vydané jím nebo Op.
