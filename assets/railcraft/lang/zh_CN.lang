@@ -4,6 +4,23 @@
 
 chat.railcraft.api.error=错误:API过期,请检查游戏后台记录以了解详情.
 
+command.railcraft.aliases=命令别名: %s
+command.railcraft.help=输入'%s'以查看帮助.
+command.railcraft.list=可用子命令:
+command.railcraft.permlevel=权限级别: %s
+command.railcraft.noperms=你没有使用该命令的权限.
+
+command.railcraft.railcraft.help=Railcraft的可用命令
+command.railcraft.railcraft.format=格式: /%s <sub-command>
+
+command.railcraft.railcraft.debug.desc=-%s: 调试工具
+command.railcraft.railcraft.debug.help=用于调试困难问题的工具.
+command.railcraft.railcraft.debug.format=格式: /%s
+
+command.railcraft.railcraft.debug.tile.desc=- %s : 方块调试工具.
+command.railcraft.railcraft.debug.tile.help=用于调试方块.
+command.railcraft.railcraft.debug.tile.format=格式: /%s x y z
+
 death.railcraft.bore.1=%s阻碍了前进的道路.
 death.railcraft.bore.2=%s试图螳臂当车.
 death.railcraft.bore.3=%s被碾碎了.
