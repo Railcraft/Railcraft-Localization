@@ -164,7 +164,7 @@ item.railcraft.fluid.creosote.can.name=Kanistr kreosotu
 item.railcraft.fluid.creosote.cell.name=Kreosotový článek
 item.railcraft.fluid.creosote.refactory.name=Kreosotová kapsle
 item.railcraft.fluid.creosote.wax.name=Kreosotová kapsle
-item.railcraft.fluid.steam.bottle.name=Vodní pára
+item.railcraft.fluid.steam.bottle.name=Láhev vodní páry
 #
 item.railcraft.fuel.coke.name=Koks
 #
@@ -378,7 +378,7 @@ railcraft.gui.goggles.aura.none=Nikdo
 railcraft.gui.goggles.aura.tracking=Sledování
 railcraft.gui.goggles.aura.tuning=Ladění
 railcraft.gui.goggles.mode=Aktuální aura: @s
-railcraft.gui.goggles.tip=Použijte z hotbaru\n ke změně aury
+railcraft.gui.goggles.tip=Použijte z hotbaru ke změně aury
 #
 railcraft.gui.help=Pomoc
 #
@@ -1061,7 +1061,7 @@ tile.railcraft.wall.sandstone.smooth.name=Zeď z hladkého pískovce
 tile.railcraft.wall.sandy.brick.name=Zeď z pískovcových cihel
 tile.railcraft.wall.snow.name=Sněhová zeď
 tile.railcraft.wall.stone.brick.chiseled.name=Zeď z tesaných kamenných cihel
-tile.railcraft.wall.stone.brick.cracked.name=Zeď z kemenných popraskaných cihel
+tile.railcraft.wall.stone.brick.cracked.name=Zeď z kamenných popraskaných cihel
 tile.railcraft.wall.stone.brick.mossy.name=Mechem zarostlá zeď z kamenných cihel
 tile.railcraft.wall.stone.brick.name=Zeď z kamenných cihel
 #
