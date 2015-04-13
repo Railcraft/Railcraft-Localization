@@ -1,4 +1,21 @@
-chat.railcraft.api.error=Ошибка: API устарело, проверьте журнал для большей информации.
+chat.railcraft.api.error=Ошибка: API устарел, проверьте журнал для большей информации.
+
+command.railcraft.aliases=Aliases: %s
+command.railcraft.help=Напечатайте '%s' для помощи.
+command.railcraft.list=Доступные подкоманды:
+command.railcraft.permlevel=Уровень разрешений: %s
+command.railcraft.noperms=У Вас нет прав на использование этой команды.
+
+command.railcraft.railcraft.help=Различные команды для Railcraft
+command.railcraft.railcraft.format=Формат: /%s <подкоманда>
+
+command.railcraft.railcraft.debug.desc=- %s : Инструменты отладки
+command.railcraft.railcraft.debug.help=Инструменты для отладки затруднительных проблем.
+command.railcraft.railcraft.debug.format=Формат: /%s
+
+command.railcraft.railcraft.debug.tile.desc=- %s : Инструменты отладки блоков
+command.railcraft.railcraft.debug.tile.help=Инструменты для отладки блоков.
+command.railcraft.railcraft.debug.tile.format=Формат: /%s x y z
 
 death.railcraft.bore.1=%s встал на пути прогресса
 death.railcraft.bore.2=%s попытался остановить бур
@@ -286,6 +303,10 @@ railcraft.gui.bore.track=Пути
 
 railcraft.gui.box.aspect.action=Сигнал красн. камня на аспект
 railcraft.gui.box.capacitor.duration=Сигнал красн. камня на @d секунд
+railcraft.gui.box.capacitor.immediate=Незамедлительно
+railcraft.gui.box.capacitor.immediate.tip=Запустить таймер как только будет получен входной сигнал.
+railcraft.gui.box.capacitor.delayed=С задержкой
+railcraft.gui.box.capacitor.delayed.tip=Запустить таймер, когда последний входной сигнал закончится.
 railcraft.gui.box.controller.aspect.default=Стандартный аспект:
 railcraft.gui.box.controller.aspect.redstone=Аспект на сигнал кр. камня:
 
@@ -431,19 +452,22 @@ railcraft.gui.rolling.machine.tip.craft=§e§o-нажмите, чтобы соз
 railcraft.gui.routing.logic.blank=Пустая таблица
 railcraft.gui.routing.logic.insufficient.operands=Неполный Операнд
 railcraft.gui.routing.logic.malformed.syntax=Искажённый синтаксис
+railcraft.gui.routing.logic.regex.invalid=Неверный шаблон регулярного выражения
+railcraft.gui.routing.logic.regex.unsupported=Регулярное выражение не поддерживается
 railcraft.gui.routing.logic.unrecognized.keyword=Нераспознанное ключевое слово
 railcraft.gui.routing.slot.label=Таблица маршрутизации
 railcraft.gui.routing.table.editor=Последний раз редактировалось игроком @s
-railcraft.gui.routing.table.manual.numPages=9
+railcraft.gui.routing.table.manual.numPages=10
 railcraft.gui.routing.table.manual.page1=Таблица маршрутизации при размещении в детектор маршрутизации или маршрутный стрелочный мотор определит набор правил, которые используются для сопоставления с любым проходящим локомотивом. Эти правила определяются с помощью простого логического синтаксиса, который позволяет Вам создавать правила, простым или сложным, как Вам нравится. Синтаксис - Prefix Notation script, Операторы следуют за Операндами. Только одно ключевое слово допускается в строке. Если ни один Оператор не указан или вымышлен. Таблицы маршрутизации могут быть скопированы путём размещения двух или более в сетке создания.
 railcraft.gui.routing.table.manual.page2=Ключевые слова Операторов:\n   AND(И) - Два Операнда, оба должны быть истинными.\n   OR(ИЛИ) - Два Операнда, хотя бы один должен быть истинным.\n   NOT(НЕ) - Инвертирует значение следующего Операнда.
-railcraft.gui.routing.table.manual.page3=Условные ключевые слова:\n   Dest(пункт назначение)=<строка>\n      Если место назначения локомотива\n      начинается с этой строки, условие истинно.\n  "Dest(пункт назначения)=null"\n      будет соответствовать вагонеткам без назначения.\n   Owner(владелец)=<имя пользователя>\n      Истинно, если локомотив принадлежит этому человеку.
+railcraft.gui.routing.table.manual.page3=Условные ключевые слова:\n   Dest(пункт назначения)=<строка>\n      Если место назначения локомотива\n      начинается с этой строки, условие истинно.\n  "Dest(пункт назначения)=null"\n      будет соответствовать вагонеткам без назначения.\n   Owner(владелец)=<имя пользователя>\n      Истинно, если локомотив принадлежит этому человеку.
 railcraft.gui.routing.table.manual.page4=Условные ключевые слова:\n   Name(имя)=<имя сущности>\n      Истинно, если соответствует\n      названию вагонетки.\n      "Name=null" будет подходить вагонеткам\n      без пользовательского имени.\n   Type(тип)=<modid:itemname>\n      Истинно, если соответствует\n      предметному имени вагонетки.
 railcraft.gui.routing.table.manual.page5=Условные ключевые слова:\n   Rider(наездник)=<имя пользователя>\n      Истинно, если в поезде\n      сидит этот человек.\n   Ridden(сидит)=<true/false>\n      Истинно, если в поезде\n      сидит игрок.
 railcraft.gui.routing.table.manual.page6=Условные ключевые слова:\n   Color(цвет)=<первичный цвет>,<вторичный цвет>\n      Истинно, если первичные\n      и вторичные цвета локомотива соответствуют.\n      Принимает "Any"(любой) в качестве шаблона.\n      Цвета: Black(чёрный), Red(красный), Green(зелёный),\n      Brown(коричневый), Blue(синий), Purple(фиолетовый),\n      Cyan(бирюзовый), LightGray(светло-серый), Gray(серый),\n      Pink(розовый), Lime(лаймовый), Yellow(жёлтый),\n      LightBlue(светло-синий), Magenta(сиреневый),\n      Orange(оранжевый), White(белый)\n   NeedsRefuel(необходимо заправить)=<true/false>\n      Если локомотиву не хватает топлива или воды.
 railcraft.gui.routing.table.manual.page7=Условные ключевые слова:\n   Redstone(Сигнал красного каменя)=<true/false>\n      Истинно, если блок маршрутизации\n      получает питание от красного камня.
 railcraft.gui.routing.table.manual.page8=Пример строки:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
 railcraft.gui.routing.table.manual.page9=Результат:\n   Скрипт на предыдущей странице будет\n   соответствовать локомотиву с назначением\n   "TheFarLands/Milliways" \n   или тому, который окрашен в чёрный и красный цвет\n   или который имеет назначение\n   "SecretHideout/OceanEntrance",\n   но только, если он не принадлежит RichardG.
+railcraft.gui.routing.table.manual.page10=Регулярные выражения:\n   Некоторые условия поддерживают\n   регулярные выражения.\n   Чтобы использовать регулярное выражение, добавьте '?' перед '='.\n   Правилами являются стандартные шаблоны Java.\nПоддерживаемые условия:\n   Dest(пункт назначения), Name(имя)\nПример:\n   Dest?=.*Hill
 railcraft.gui.routing.table.manual.title=Учебник по маршрутизации
 railcraft.gui.routing.table.name=Имя
 railcraft.gui.routing.ticket.line1=Этот билет действителен
@@ -532,9 +556,9 @@ tc.research_category.RAILCRAFT=Traheremagy
 thaumcraft.research.RC_Crowbar.name=Таум-монтировка
 thaumcraft.research.RC_Crowbar.page.1=Соединяя таум-металл со сталью и наполняя его аспектом порядка, Вы обнаружили как можно создать монтировку, которая будет гораздо более восприимчивой к магии.
 thaumcraft.research.RC_Crowbar.text=[RC] Я думаю, Вы уронили её...
-thaumcraft.research.RC_Void_Crowbar.name=Монтировка из пустотного металла
-thaumcraft.research.RC_Crowbar.page.1=На борту сумасшедшего поезда.
-thaumcraft.research.RC_Void_Crowbar.text=[RC] А кто уронил эту...
+thaumcraft.research.RC_Crowbar_Void.name=Монтировка из пустотного металла
+thaumcraft.research.RC_Crowbar_Void.page.1=Продвигаясь дальше, Вы применили Ваше мастерство обращения с магическими материалами для создания максимальной монтировки.
+thaumcraft.research.RC_Crowbar_Void.text=[RC] Гордон бы гордился...
 
 tile.activatorRail.name=Активирующий путь
 tile.detectorRail.name=Детекторный путь
