@@ -525,6 +525,7 @@ railcraft.gui.trade.station.dice.tip=Random Trade
 
 railcraft.gui.tuner.abandon.chunk=Controller is not in a loaded Chunk, abandoning pairing
 railcraft.gui.tuner.abandon.gone=Controller no longer exists, abandoning pairing
+railcraft.gui.tuner.abandon.player=Controller pairing Abandoned
 railcraft.gui.tuner.start=Started pairing @s with a Receiver
 railcraft.gui.tuner.stop=Stopped pairing @s with a Receiver
 railcraft.gui.tuner.success=@1$s successfully paired with @2$s
