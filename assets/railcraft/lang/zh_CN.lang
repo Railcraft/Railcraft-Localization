@@ -447,9 +447,9 @@ railcraft.gui.locomotive.tip.item.secondary=§o底盘颜色:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§o鸣笛音高:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=插入车票
 
-railcraft.gui.mag.glass.aspect=信号灯颜色是@s.
-railcraft.gui.mag.glass.aspect.dual=信号灯顶部颜色是@1$s底部颜色是@2$s.
-railcraft.gui.mag.glass.placedby=@1$s被@2$s放置于此.
+railcraft.gui.mag.glass.aspect=信号灯颜色是%s.
+railcraft.gui.mag.glass.aspect.dual=信号灯顶部颜色是%1$s底部颜色是%2$s.
+railcraft.gui.mag.glass.placedby=%1$s被%2$s放置于此.
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-点击以合成-
 
@@ -551,9 +551,9 @@ railcraft.locomotive.model.electric.default.name=标准电力
 railcraft.locomotive.model.steam.magic.default.name=标准魔力
 railcraft.locomotive.model.steam.solid.default.name=标准固态燃料
 
-railcraft.multiblock.state.invalid.entity=有实体拦住了路: @s
-railcraft.multiblock.state.invalid.pattern=未能匹配模版: @s
-railcraft.multiblock.state.unknown.unloaded=结构的一部分未能加载: @s
+railcraft.multiblock.state.invalid.entity=有实体拦住了路: %s
+railcraft.multiblock.state.invalid.pattern=未能匹配模版: %s
+railcraft.multiblock.state.unknown.unloaded=结构的一部分未能加载: %s
 railcraft.multiblock.state.valid=结构无效
 
 tc.research_category.RAILCRAFT=神秘铁道工

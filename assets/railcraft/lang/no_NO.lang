@@ -366,7 +366,7 @@ railcraft.gui.locomotive.tip.item.owner=§oOwner:§r @s
 railcraft.gui.locomotive.tip.item.primary=§o HovedFarge:§r @s
 railcraft.gui.locomotive.tip.item.secondary=§o SekundærFarge:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§o Fløytens tonehøyde:§r @s
-railcraft.gui.mag.glass.placedby=@1$s ble plassert av @2$s
+railcraft.gui.mag.glass.placedby=%1$s ble plassert av %2$s
 railcraft.gui.tip.button.lock.locked=This device is locked to\n {owner}.\n Only the owner or an Op\n can manipulate it.
 railcraft.gui.tip.button.lock.unlocked=Click to lock device.\n Once locked, it can\n only be accessed by\n you or an Op.
 railcraft.gui.tip.button.lock.notowner=You are not the\n owner of this device.\n It belongs to\n {owner}.
@@ -475,9 +475,9 @@ tile.railcraft.machine.gamma.unloader.item.name=Gjenstandsavlaster
 tile.railcraft.machine.gamma.unloader.liquid.name=Væskeavlaster
 
 railcraft.multiblock.state.valid=Structure is valid
-railcraft.multiblock.state.invalid.pattern=Does not match pattern: @s
-railcraft.multiblock.state.invalid.entity=Entity in the way: @s
-railcraft.multiblock.state.unknown.unloaded=Part of the structure is not loaded: @s
+railcraft.multiblock.state.invalid.pattern=Does not match pattern: %s
+railcraft.multiblock.state.invalid.entity=Entity in the way: %s
+railcraft.multiblock.state.unknown.unloaded=Part of the structure is not loaded: %s
 
 item.railcraft.nugget.iron.name=Jernpellet
 item.railcraft.nugget.steel.name=Stålpellet

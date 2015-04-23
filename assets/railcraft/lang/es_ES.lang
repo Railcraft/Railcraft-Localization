@@ -420,9 +420,9 @@ railcraft.gui.locomotive.tip.item.secondary=§oColor Secundario:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oTono del Silbido:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Inserte Ticket
 
-railcraft.gui.mag.glass.aspect=La apariencia de la señal es @s
-railcraft.gui.mag.glass.aspect.dual=La apariencia de la señal es @1$sat arriba y @2$sat abajo
-railcraft.gui.mag.glass.placedby=@1$s ha sido colocado por @2$s
+railcraft.gui.mag.glass.aspect=La apariencia de la señal es %s
+railcraft.gui.mag.glass.aspect.dual=La apariencia de la señal es %1$sat arriba y %2$sat abajo
+railcraft.gui.mag.glass.placedby=%1$s ha sido colocado por %2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-Click para crear-
 
@@ -516,9 +516,9 @@ railcraft.locomotive.model.electric.default.name=Estándar Eléctrica
 railcraft.locomotive.model.steam.magic.default.name=Estándar Mágica
 railcraft.locomotive.model.steam.solid.default.name=Estándar Solida
 
-railcraft.multiblock.state.invalid.entity=Entidad en el camino: @s
-railcraft.multiblock.state.invalid.pattern=No coincide con patrón: @s
-railcraft.multiblock.state.unknown.unloaded=Parte de la estructura no está cargada: @s
+railcraft.multiblock.state.invalid.entity=Entidad en el camino: %s
+railcraft.multiblock.state.invalid.pattern=No coincide con patrón: %s
+railcraft.multiblock.state.unknown.unloaded=Parte de la estructura no está cargada: %s
 railcraft.multiblock.state.valid=La estructura es válida
 
 tc.research_category.RAILCRAFT=Traheremagia

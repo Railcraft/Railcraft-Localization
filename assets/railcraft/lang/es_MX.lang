@@ -371,7 +371,7 @@ railcraft.gui.locomotive.tip.item.secondary=§oColor Secundario:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oTono del Silvido:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Inserte Ticket
 
-railcraft.gui.mag.glass.placedby=@1$s fue colocado por @2$s
+railcraft.gui.mag.glass.placedby=%1$s fue colocado por %2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-Click para elavorar-
 
@@ -464,9 +464,9 @@ railcraft.locomotive.model.electric.default.name=Standard Electric
 railcraft.locomotive.model.steam.magic.default.name=Standard Magic
 railcraft.locomotive.model.steam.solid.default.name=Standard Solid
 
-railcraft.multiblock.state.invalid.entity=Entidad en el camino: @s
-railcraft.multiblock.state.invalid.pattern=No coincide con patrón: @s
-railcraft.multiblock.state.unknown.unloaded=Parte de la estructura no está cargada: @s
+railcraft.multiblock.state.invalid.entity=Entidad en el camino: %s
+railcraft.multiblock.state.invalid.pattern=No coincide con patrón: %s
+railcraft.multiblock.state.unknown.unloaded=Parte de la estructura no está cargada: %s
 railcraft.multiblock.state.valid=La estructura es válida
 
 tc.research_category.RAILCRAFT=Traheremagy

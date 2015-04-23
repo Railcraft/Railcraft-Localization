@@ -443,9 +443,9 @@ railcraft.gui.locomotive.tip.item.secondary=§oВторичный цвет:§r @
 railcraft.gui.locomotive.tip.item.whistle=§oТон свистка:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Вставьте билет
 
-railcraft.gui.mag.glass.aspect=Аспект сигнала @s
-railcraft.gui.mag.glass.aspect.dual=Аспект сигнала @1$sсверху и @2$sснизу
-railcraft.gui.mag.glass.placedby=@1$s был размещён игроком @2$s
+railcraft.gui.mag.glass.aspect=Аспект сигнала %s
+railcraft.gui.mag.glass.aspect.dual=Аспект сигнала %1$sсверху и %2$sснизу
+railcraft.gui.mag.glass.placedby=%1$s был размещён игроком %2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-нажмите, чтобы создать-
 
@@ -547,9 +547,9 @@ railcraft.locomotive.model.electric.default.name=Стандартный элек
 railcraft.locomotive.model.steam.magic.default.name=Стандартный магический
 railcraft.locomotive.model.steam.solid.default.name=Стандартный цельный
 
-railcraft.multiblock.state.invalid.entity=Сущность на пути: @s
-railcraft.multiblock.state.invalid.pattern=Не соответствует шаблону: @s
-railcraft.multiblock.state.unknown.unloaded=Часть структуры не загружена: @s
+railcraft.multiblock.state.invalid.entity=Сущность на пути: %s
+railcraft.multiblock.state.invalid.pattern=Не соответствует шаблону: %s
+railcraft.multiblock.state.unknown.unloaded=Часть структуры не загружена: %s
 railcraft.multiblock.state.valid=Структура верна
 
 tc.research_category.RAILCRAFT=Traheremagy

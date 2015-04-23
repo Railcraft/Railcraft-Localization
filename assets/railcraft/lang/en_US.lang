@@ -443,9 +443,9 @@ railcraft.gui.locomotive.tip.item.secondary=§oSecondary Color:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oWhistle Pitch:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Insert Ticket
 
-railcraft.gui.mag.glass.aspect=The signal aspect is @s
-railcraft.gui.mag.glass.aspect.dual=The signal aspect is @1$sat top and @2$sat bottom
-railcraft.gui.mag.glass.placedby=@1$s was placed by @2$s
+railcraft.gui.mag.glass.aspect=The signal aspect is %s
+railcraft.gui.mag.glass.aspect.dual=The signal aspect is %1$s at top and %2$s at bottom
+railcraft.gui.mag.glass.placedby=%1$s was placed by %2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-click to craft-
 
@@ -548,9 +548,9 @@ railcraft.locomotive.model.electric.default.name=Standard Electric
 railcraft.locomotive.model.steam.magic.default.name=Standard Magic
 railcraft.locomotive.model.steam.solid.default.name=Standard Solid
 
-railcraft.multiblock.state.invalid.entity=Entity in the way: @s
-railcraft.multiblock.state.invalid.pattern=Does not match pattern: @s
-railcraft.multiblock.state.unknown.unloaded=Part of the structure is not loaded: @s
+railcraft.multiblock.state.invalid.entity=Entity in the way: %s
+railcraft.multiblock.state.invalid.pattern=Does not match pattern: %s
+railcraft.multiblock.state.unknown.unloaded=Part of the structure is not loaded: %s
 railcraft.multiblock.state.valid=Structure is valid
 
 tc.research_category.RAILCRAFT=Traheremagy

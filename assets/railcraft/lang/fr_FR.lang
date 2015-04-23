@@ -370,7 +370,7 @@ railcraft.gui.locomotive.tip.item.owner=§oPropriétaire:§r @s
 railcraft.gui.locomotive.tip.item.primary=§oCouleur primaire:§r @s
 railcraft.gui.locomotive.tip.item.secondary=§oCouleur secondaire:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oHauteur du sifflet:§r @s
-railcraft.gui.mag.glass.placedby=@1$s a été placé par @2$s
+railcraft.gui.mag.glass.placedby=%1$s a été placé par %2$s
 railcraft.gui.tip.button.lock.locked=Cette appareil est vérouillé par\n {owner}.\n Uniquement le propriétaire ou un op peuvent l'utiliser
 railcraft.gui.tip.button.lock.unlocked=Cliquez pour vérouille l'appareil.\n Une fois vérouillé, seul vous ou un op\n peut l'utiliser
 railcraft.gui.tip.button.lock.notowner=Vous n'êtes pas le\n propriétaire de ce dispositif.\n Il appartient à\n {owner}.
@@ -491,9 +491,9 @@ tile.railcraft.machine.gamma.unloader.item.name=Déchargeur d'article
 tile.railcraft.machine.gamma.unloader.liquid.name=Déchargeur de liquide
 
 railcraft.multiblock.state.valid=La structure est valide
-railcraft.multiblock.state.invalid.pattern=Ne correspond pas au modèle: @s
-railcraft.multiblock.state.invalid.entity=Entité de la manière: @s
-railcraft.multiblock.state.unknown.unloaded=Une partie de la structure n'est pas chargé: @s
+railcraft.multiblock.state.invalid.pattern=Ne correspond pas au modèle: %s
+railcraft.multiblock.state.invalid.entity=Entité de la manière: %s
+railcraft.multiblock.state.unknown.unloaded=Une partie de la structure n'est pas chargé: %s
 
 item.railcraft.nugget.iron.name=Pépite de fer
 item.railcraft.nugget.steel.name=Pépite d'acier

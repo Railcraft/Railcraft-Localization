@@ -426,9 +426,9 @@ railcraft.gui.locomotive.tip.item.secondary=§oMásodlagos szín:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oSíp hangmagassága:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Jegy behelyezése
 
-railcraft.gui.mag.glass.aspect=A jel aspektusa:  @s
-railcraft.gui.mag.glass.aspect.dual=A jel aspektusa legfeljebb @1$s legalább @2$s
-railcraft.gui.mag.glass.placedby=@1$s tárgyat ő helyezte ide: @2$s
+railcraft.gui.mag.glass.aspect=A jel aspektusa:  %s
+railcraft.gui.mag.glass.aspect.dual=A jel aspektusa legfeljebb %1$s legalább %2$s
+railcraft.gui.mag.glass.placedby=%1$s tárgyat ő helyezte ide: %2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o--kattint a craft-oláshoz--
 
@@ -522,9 +522,9 @@ railcraft.locomotive.model.electric.default.name=Szabvány elektronika
 railcraft.locomotive.model.steam.magic.default.name=Szabvány varázslat
 railcraft.locomotive.model.steam.solid.default.name=Szabvány tömörség
 
-railcraft.multiblock.state.invalid.entity=Úton lévő entitás: @s
-railcraft.multiblock.state.invalid.pattern=Nem passzol a mintával: @s
-railcraft.multiblock.state.unknown.unloaded=A szerkezet egy része nincs betöltve: @s
+railcraft.multiblock.state.invalid.entity=Úton lévő entitás: %s
+railcraft.multiblock.state.invalid.pattern=Nem passzol a mintával: %s
+railcraft.multiblock.state.unknown.unloaded=A szerkezet egy része nincs betöltve: %s
 railcraft.multiblock.state.valid=Érvényes szerkezet
 
 tc.research_category.RAILCRAFT=Titánmágia

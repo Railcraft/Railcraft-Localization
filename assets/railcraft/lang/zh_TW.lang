@@ -423,9 +423,9 @@ railcraft.gui.locomotive.tip.item.secondary=§o底盤顏色:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§o汽笛音高:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=放入車票
 
-railcraft.gui.mag.glass.aspect=此號誌的外觀是 @s
-railcraft.gui.mag.glass.aspect.dual=此號誌上半部外觀為 @1$sat，而下半部為 @2$sat
-railcraft.gui.mag.glass.placedby=由 @2$s 放置的 @1$s 
+railcraft.gui.mag.glass.aspect=此號誌的外觀是 %s
+railcraft.gui.mag.glass.aspect.dual=此號誌上半部外觀為 %1$sat，而下半部為 %2$sat
+railcraft.gui.mag.glass.placedby=由 %2$s 放置的 %1$s 
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-點擊開始合成-
 
@@ -526,9 +526,9 @@ railcraft.locomotive.model.electric.default.name=標準電力
 railcraft.locomotive.model.steam.magic.default.name=標準魔力
 railcraft.locomotive.model.steam.solid.default.name=標準固體
 
-railcraft.multiblock.state.invalid.entity=實體佔住空間: @s
-railcraft.multiblock.state.invalid.pattern=不符合格式: @s
-railcraft.multiblock.state.unknown.unloaded=結構未被完整讀取: @s
+railcraft.multiblock.state.invalid.entity=實體佔住空間: %s
+railcraft.multiblock.state.invalid.pattern=不符合格式: %s
+railcraft.multiblock.state.unknown.unloaded=結構未被完整讀取: %s
 railcraft.multiblock.state.valid=有效的結構
 
 tc.research_category.RAILCRAFT=神祕鐵道

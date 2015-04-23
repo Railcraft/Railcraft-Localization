@@ -440,9 +440,9 @@ railcraft.gui.locomotive.tip.item.secondary=§oSekundärfarbe:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oPfeifen-Tonhöhe:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Ticket einfügen
 
-railcraft.gui.mag.glass.aspect=Der Signalaspekt ist @s
-railcraft.gui.mag.glass.aspect.dual=Der Signalaspekt ist oben @1$s und unten @2$s
-railcraft.gui.mag.glass.placedby=@1$s wurde platziert von @2$s
+railcraft.gui.mag.glass.aspect=Der Signalaspekt ist %s
+railcraft.gui.mag.glass.aspect.dual=Der Signalaspekt ist oben %1$s und unten %2$s
+railcraft.gui.mag.glass.placedby=%1$s wurde platziert von %2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-Klicken zum Herstellen-
 
@@ -544,9 +544,9 @@ railcraft.locomotive.model.electric.default.name=Standard Elektrisch
 railcraft.locomotive.model.steam.magic.default.name=Standard Magisch
 railcraft.locomotive.model.steam.solid.default.name=Standard Feststoff
 
-railcraft.multiblock.state.invalid.entity=Lebewesen im Weg: @s
-railcraft.multiblock.state.invalid.pattern=Entspricht nicht dem Muster: @s
-railcraft.multiblock.state.unknown.unloaded=Ein Teil der Struktur ist nicht geladen: @s
+railcraft.multiblock.state.invalid.entity=Lebewesen im Weg: %s
+railcraft.multiblock.state.invalid.pattern=Entspricht nicht dem Muster: %s
+railcraft.multiblock.state.unknown.unloaded=Ein Teil der Struktur ist nicht geladen: %s
 railcraft.multiblock.state.valid=Struktur ist gültig
 
 tc.research_category.RAILCRAFT=Traheremagie

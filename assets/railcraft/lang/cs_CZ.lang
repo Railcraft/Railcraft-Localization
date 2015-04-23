@@ -443,9 +443,9 @@ railcraft.gui.locomotive.tip.item.secondary=§oSekundární barva:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oZvuk píšťaly:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Vlož lístek
 #
-railcraft.gui.mag.glass.aspect=Signál aspectu je @s
-railcraft.gui.mag.glass.aspect.dual=Signál aspectu je @1$s nahoře @2$ a dole
-railcraft.gui.mag.glass.placedby=@1$s bylo vloženo @2$s
+railcraft.gui.mag.glass.aspect=Signál aspectu je %s
+railcraft.gui.mag.glass.aspect.dual=Signál aspectu je %1$s nahoře %2$ a dole
+railcraft.gui.mag.glass.placedby=%1$s bylo vloženo %2$s
 #
 railcraft.gui.rolling.machine.tip.craft=§e§o-klikni k výrobě-
 #
@@ -547,9 +547,9 @@ railcraft.locomotive.model.electric.default.name=Standard Elektrická
 railcraft.locomotive.model.steam.magic.default.name=Standard Magická
 railcraft.locomotive.model.steam.solid.default.name=Standard Parní
 #
-railcraft.multiblock.state.invalid.entity=Entity v cestě: @s
-railcraft.multiblock.state.invalid.pattern=Neshoduje se vzor: @s
-railcraft.multiblock.state.unknown.unloaded=Část stavby se nenačetla: @s
+railcraft.multiblock.state.invalid.entity=Entity v cestě: %s
+railcraft.multiblock.state.invalid.pattern=Neshoduje se vzor: %s
+railcraft.multiblock.state.unknown.unloaded=Část stavby se nenačetla: %s
 railcraft.multiblock.state.valid=Stuktura je platná
 #
 tc.research_category.RAILCRAFT=Traheremagy
