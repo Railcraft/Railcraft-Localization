@@ -414,7 +414,7 @@ railcraft.gui.surveyor.begin=Comenzando Estudio de Bloque de Señal
 railcraft.gui.surveyor.invalid=Bloque de Señal no es válido
 railcraft.gui.surveyor.lost=No existe mas la Primera Señal, abandonando inspección
 railcraft.gui.surveyor.success=Bloque de Señal definido con Éxito
-railcraft.gui.surveyor.track=Ninguna Vías encontrada cerca @s
+railcraft.gui.surveyor.track=Ninguna Vías encontrada cerca %s
 railcraft.gui.surveyor.unloaded=La Primera Señal no esta en un Chunk cargado
 railcraft.gui.surveyor.wrong=No es un Bloque de Señal Válido
 
@@ -444,9 +444,9 @@ railcraft.gui.trade.station.dice.tip=Comercio al Azar
 
 railcraft.gui.tuner.abandon.chunk=El controlador no está en un Chunk cargado, abandonando el vínculo
 railcraft.gui.tuner.abandon.gone=Controlador ya no existe, vínculo abandonado
-railcraft.gui.tuner.start=Empezó a emparejar @s con un Receptor
-railcraft.gui.tuner.stop=Dejó de emparejar @s con un Receptor
-railcraft.gui.tuner.success=@1$s apareado exitosamente con @2$s
+railcraft.gui.tuner.start=Empezó a emparejar %s con un Receptor
+railcraft.gui.tuner.stop=Dejó de emparejar %s con un Receptor
+railcraft.gui.tuner.success=%1$s apareado exitosamente con %2$s
 
 railcraft.gui.turbine.output=Salida: @d%%
 railcraft.gui.turbine.rotor=Rotor:

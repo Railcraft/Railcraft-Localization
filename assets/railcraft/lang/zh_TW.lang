@@ -473,7 +473,7 @@ railcraft.gui.surveyor.begin=開始號誌區塊的測量
 railcraft.gui.surveyor.invalid=無效的號誌區塊
 railcraft.gui.surveyor.lost=第一個號誌不存在，放棄測量
 railcraft.gui.surveyor.success=成功定義一個號誌區塊
-railcraft.gui.surveyor.track= @s 的附近偵測不到鐵軌
+railcraft.gui.surveyor.track= %s 的附近偵測不到鐵軌
 railcraft.gui.surveyor.unloaded=第一個號誌未被讀取
 railcraft.gui.surveyor.wrong=無效的號誌方塊
 
@@ -504,9 +504,9 @@ railcraft.gui.trade.station.dice.tip=隨機的交易
 
 railcraft.gui.tuner.abandon.chunk=控制器未被讀取，配對失敗
 railcraft.gui.tuner.abandon.gone=控制器不存在，配對失敗
-railcraft.gui.tuner.start=開始 @s 與接收器的配對
-railcraft.gui.tuner.stop=停止 @s 與接收器的配對
-railcraft.gui.tuner.success=@1$s 與 @2$s 配對成功
+railcraft.gui.tuner.start=開始 %s 與接收器的配對
+railcraft.gui.tuner.stop=停止 %s 與接收器的配對
+railcraft.gui.tuner.success=%1$s 與 %2$s 配對成功
 
 railcraft.gui.turbine.output=輸出: @d%%
 railcraft.gui.turbine.rotor=轉子:

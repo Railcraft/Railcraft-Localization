@@ -494,7 +494,7 @@ railcraft.gui.surveyor.begin=Beginning Signal Block Survey
 railcraft.gui.surveyor.invalid=Signal Block is not valid
 railcraft.gui.surveyor.lost=First Signal no longer exists, abandoning Survey
 railcraft.gui.surveyor.success=Successfully defined Signal Block
-railcraft.gui.surveyor.track=No track found near @s
+railcraft.gui.surveyor.track=No track found near %s
 railcraft.gui.surveyor.unloaded=First Signal is not in a loaded Chunk
 railcraft.gui.surveyor.wrong=Not a valid Block Signal
 
@@ -526,9 +526,9 @@ railcraft.gui.trade.station.dice.tip=Random Trade
 railcraft.gui.tuner.abandon.chunk=Controller is not in a loaded Chunk, abandoning pairing
 railcraft.gui.tuner.abandon.gone=Controller no longer exists, abandoning pairing
 railcraft.gui.tuner.abandon.player=Controller pairing Abandoned
-railcraft.gui.tuner.start=Started pairing @s with a Receiver
-railcraft.gui.tuner.stop=Stopped pairing @s with a Receiver
-railcraft.gui.tuner.success=@1$s successfully paired with @2$s
+railcraft.gui.tuner.start=Started pairing %s with a Receiver
+railcraft.gui.tuner.stop=Stopped pairing %s with a Receiver
+railcraft.gui.tuner.success=%1$s successfully paired with %2$s
 
 railcraft.gui.turbine.output=Output: @d%%
 railcraft.gui.turbine.rotor=Rotor:

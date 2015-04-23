@@ -471,7 +471,7 @@ railcraft.gui.surveyor.begin=A jelzés-blokk áttekintésének megkezdése
 railcraft.gui.surveyor.invalid=Nem érvényes jelzés-blokk
 railcraft.gui.surveyor.lost=Az első jelzés nem létezik többé, az áttekintés elhagyása
 railcraft.gui.surveyor.success=Sikeresen definiált Jelzés-blokk
-railcraft.gui.surveyor.track=Nem található sínpár a következő közelében: @s
+railcraft.gui.surveyor.track=Nem található sínpár a következő közelében: %s
 railcraft.gui.surveyor.unloaded=Az első jel egy nem betöltött chunk-ban van.
 railcraft.gui.surveyor.wrong=Nem érvényes blokk-jelzés
 
@@ -502,9 +502,9 @@ railcraft.gui.trade.station.dice.tip=Véletlenszerű kereskedelem
 
 railcraft.gui.tuner.abandon.chunk=Az irányító nem betöltött chunk-ban van, ezért a kapcsolat megszűnik
 railcraft.gui.tuner.abandon.gone=Az irányító már nem létezik, kapcsolat megszüntetése
-railcraft.gui.tuner.start= @s megkezdte a kapcsolatot a vevővel 
-railcraft.gui.tuner.stop= @s kapcsolata megszakadt a vevővel
-railcraft.gui.tuner.success=@1$s sikeresen összepárosítva a következővel @2$s
+railcraft.gui.tuner.start= %s megkezdte a kapcsolatot a vevővel 
+railcraft.gui.tuner.stop= %s kapcsolata megszakadt a vevővel
+railcraft.gui.tuner.success=%1$s sikeresen összepárosítva a következővel %2$s
 
 railcraft.gui.turbine.output=Kimenet: @d%%
 railcraft.gui.turbine.rotor=Rotor:

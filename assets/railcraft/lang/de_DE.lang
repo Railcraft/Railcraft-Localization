@@ -491,7 +491,7 @@ railcraft.gui.surveyor.begin=Starte Signalblock-Anfrage
 railcraft.gui.surveyor.invalid=Signalblock ist ungültig
 railcraft.gui.surveyor.lost=Erstes Signal ist nicht mehr vorhanden, Anfrage abgebrochen
 railcraft.gui.surveyor.success=Signalblock erfolgreich definiert
-railcraft.gui.surveyor.track=keine Gleise in der Nähe von @s
+railcraft.gui.surveyor.track=keine Gleise in der Nähe von %s
 railcraft.gui.surveyor.unloaded=das erste Signal befindet sich nicht in einem geladenen Chunk
 railcraft.gui.surveyor.wrong=Kein gültiger Signalblock
 
@@ -522,9 +522,9 @@ railcraft.gui.trade.station.dice.tip=Zufälliger Handel
 
 railcraft.gui.tuner.abandon.chunk=Controller befindet sich in einem nichtgeladenen Chunk, Verbindung abgebrochen
 railcraft.gui.tuner.abandon.gone=Controller existiert nicht mehr, Verbindung abgebrochen
-railcraft.gui.tuner.start=@s: Starte Verbindung mit einem Empfänger
-railcraft.gui.tuner.stop=@s: Stoppe Verbindung mit einem Empfänger
-railcraft.gui.tuner.success=@1$s erfolgreich verbunden mit @2$s
+railcraft.gui.tuner.start=%s: Starte Verbindung mit einem Empfänger
+railcraft.gui.tuner.stop=%s: Stoppe Verbindung mit einem Empfänger
+railcraft.gui.tuner.success=%1$s erfolgreich verbunden mit %2$s
 
 railcraft.gui.turbine.output=Leistung: @d%%
 railcraft.gui.turbine.rotor=Rotor:

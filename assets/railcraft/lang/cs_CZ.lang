@@ -525,9 +525,9 @@ railcraft.gui.trade.station.dice.tip=Náhodný obchod
 #
 railcraft.gui.tuner.abandon.chunk=Kontroler není v načteném Chunku, párování zrušeno.
 railcraft.gui.tuner.abandon.gone=Kontroler již neexistuje, párování zrušeno.
-railcraft.gui.tuner.start=Párování odstartováno @s s přijímačem 
-railcraft.gui.tuner.stop=Párování zastaveno @s s přijímačem
-railcraft.gui.tuner.success=@1$s úspěšně spárováno s @2$s
+railcraft.gui.tuner.start=Párování odstartováno %s s přijímačem 
+railcraft.gui.tuner.stop=Párování zastaveno %s s přijímačem
+railcraft.gui.tuner.success=%1$s úspěšně spárováno s %2$s
 #
 railcraft.gui.turbine.output=Výstup: @d%%
 railcraft.gui.turbine.rotor=Rotor:

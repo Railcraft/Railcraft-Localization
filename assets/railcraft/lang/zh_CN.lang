@@ -498,7 +498,7 @@ railcraft.gui.surveyor.begin=信号勘测开始
 railcraft.gui.surveyor.invalid=信号盒无效
 railcraft.gui.surveyor.lost=第一个信号已不再存在,信号勘测中止
 railcraft.gui.surveyor.success=成功定义信号盒
-railcraft.gui.surveyor.track=没有与@s比邻的轨道  
+railcraft.gui.surveyor.track=没有与%s比邻的轨道  
 railcraft.gui.surveyor.unloaded=第一个信号不在游戏加载区域内
 railcraft.gui.surveyor.wrong=并非有效信号盒
 
@@ -529,9 +529,9 @@ railcraft.gui.trade.station.dice.tip=随机交易
 
 railcraft.gui.tuner.abandon.chunk=控制器不在载入区块内,配对失败
 railcraft.gui.tuner.abandon.gone=控制器不存在,配对失败
-railcraft.gui.tuner.start=开始配对@s到接收器
-railcraft.gui.tuner.stop=停止配对@s到接收器
-railcraft.gui.tuner.success=@1$s成功与@2$s配对
+railcraft.gui.tuner.start=开始配对%s到接收器
+railcraft.gui.tuner.stop=停止配对%s到接收器
+railcraft.gui.tuner.success=%1$s成功与%2$s配对
 
 railcraft.gui.turbine.output=输出:@d%%
 railcraft.gui.turbine.rotor=转子:
