@@ -375,6 +375,7 @@ railcraft.gui.filters=Filters
 
 railcraft.gui.goggles.aura.anchor=Anchor
 railcraft.gui.goggles.aura.none=None
+railcraft.gui.goggles.aura.surveying=Surveying
 railcraft.gui.goggles.aura.tracking=Tracking
 railcraft.gui.goggles.aura.tuning=Tuning
 railcraft.gui.goggles.mode=Current Aura: @s
@@ -537,6 +538,7 @@ railcraft.gui.turbine=Steam Turbine
 railcraft.gui.update.message=Railcraft @s is available from <http://railcraft.info>
 
 railcraft.keybind.aura.anchor=Anchor Aura
+railcraft.keybind.aura.surveying=Surveying Aura
 railcraft.keybind.aura.tuning=Tuning Aura
 
 railcraft.keybind.loco.faster=Locomotive Faster
