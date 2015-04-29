@@ -533,7 +533,7 @@ tile.railcraft.post.metal.purple.name=Lilla Metall stolpe
 tile.railcraft.post.metal.red.name=Rød Metall stolpe
 tile.railcraft.post.metal.white.name=Hvit Metall stolpe
 tile.railcraft.post.metal.yellow.name=Gul Metall stolpe
-tile.railcraft.post.metal.name=Metall stolpe
+tile.railcraft.post.metal.unpainted.name=Metall stolpe
 tile.railcraft.post.stone.name=Stein stolpe
 tile.railcraft.post.wood.name=Tre stolpe
 
@@ -553,7 +553,7 @@ tile.railcraft.post.metal.platform.purple.name=Purple Metal Platform
 tile.railcraft.post.metal.platform.red.name=Red Metal Platform
 tile.railcraft.post.metal.platform.white.name=White Metal Platform
 tile.railcraft.post.metal.platform.yellow.name=Yellow Metal Platform
-tile.railcraft.post.metal.platform.name=Metal Platform
+tile.railcraft.post.metal.platform.unpainted.name=Metal Platform
 tile.railcraft.post.stone.platform.name=Stone Platform
 tile.railcraft.post.wood.platform.name=Wooden Platform
 

@@ -549,7 +549,7 @@ tile.railcraft.post.metal.purple.name=Poteau métallique violet
 tile.railcraft.post.metal.red.name=Poteau métallique rouge
 tile.railcraft.post.metal.white.name=Poteau métallique blanc
 tile.railcraft.post.metal.yellow.name=Poteau métallique jaune
-tile.railcraft.post.metal.name=Poteau métallique
+tile.railcraft.post.metal.unpainted.name=Poteau métallique
 tile.railcraft.post.stone.name=Poteau de pierre
 tile.railcraft.post.wood.name=Poteau de bois
 
@@ -569,7 +569,7 @@ tile.railcraft.post.metal.platform.purple.name=Plate-forme en métal violet
 tile.railcraft.post.metal.platform.red.name=Plate-forme en métal rouge
 tile.railcraft.post.metal.platform.white.name=Plate-forme en métal blanc
 tile.railcraft.post.metal.platform.yellow.name=Plate-forme en métal jaune
-tile.railcraft.post.metal.platform.name=Plate-forme en métal
+tile.railcraft.post.metal.platform.unpainted.name=Plate-forme en métal
 tile.railcraft.post.stone.platform.name=Plate-forme en pierre
 tile.railcraft.post.wood.platform.name=Plate-forme en bois
 

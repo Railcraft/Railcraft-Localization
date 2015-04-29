@@ -444,7 +444,7 @@ tile.railcraft.post.metal.purple.name=Post metallico viola
 tile.railcraft.post.metal.red.name=Post metallico rosso
 tile.railcraft.post.metal.white.name=Post metallico bianco
 tile.railcraft.post.metal.yellow.name=Post metallico giallo
-tile.railcraft.post.metal.name=Post metallico
+tile.railcraft.post.metal.unpainted.name=Post metallico
 tile.railcraft.post.stone.name=Post di Pietra
 tile.railcraft.post.wood.name=Post di Legno
 

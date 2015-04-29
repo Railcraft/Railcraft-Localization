@@ -340,7 +340,7 @@ tile.railcraft.post.metal.purple.name=Ljubičasti Metalni Stub
 tile.railcraft.post.metal.red.name=Crveni Metalni Stub
 tile.railcraft.post.metal.white.name=Beli Metalni Stub
 tile.railcraft.post.metal.yellow.name=Žuti Metalni Stub
-tile.railcraft.post.metal.name=Metalni Stub
+tile.railcraft.post.metal.unpainted.name=Metalni Stub
 tile.railcraft.post.stone.name=Kameni Stub
 tile.railcraft.post.wood.name=Drveni Stub
 

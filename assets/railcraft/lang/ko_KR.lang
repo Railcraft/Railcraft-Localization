@@ -443,7 +443,7 @@ tile.railcraft.post.metal.purple.name=보라색 금속 울타리
 tile.railcraft.post.metal.red.name=빨간 금속 울타리
 tile.railcraft.post.metal.white.name=흰색 금속 울타리
 tile.railcraft.post.metal.yellow.name=노란색 금속 울타리
-tile.railcraft.post.metal.name=금속 울타리
+tile.railcraft.post.metal.unpainted.name=금속 울타리
 tile.railcraft.post.stone.name=돌 울타리
 tile.railcraft.post.wood.name=나무 울타리
 

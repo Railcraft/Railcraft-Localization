@@ -281,7 +281,7 @@ tile.railcraft.post.metal.purple.name=Paarse Metalen Paal
 tile.railcraft.post.metal.red.name=Rode Metalen Paal
 tile.railcraft.post.metal.white.name=Witte Metalen Paal
 tile.railcraft.post.metal.yellow.name=Gele Metalen Paal
-tile.railcraft.post.metal.name=Metalen Paal
+tile.railcraft.post.metal.unpainted.name=Metalen Paal
 tile.railcraft.post.stone.name=Stenen Paal
 tile.railcraft.post.wood.name=Houten Paal
 
