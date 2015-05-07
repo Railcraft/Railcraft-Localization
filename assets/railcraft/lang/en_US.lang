@@ -21,6 +21,10 @@ command.railcraft.railcraft.debug.tile.controller.desc=- %s : Controller Debug T
 command.railcraft.railcraft.debug.tile.controller.help=Tools for debugging Controller tiles.
 command.railcraft.railcraft.debug.tile.controller.format=Format: /%s x y z
 
+command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Receiver Debug Tools
+command.railcraft.railcraft.debug.tile.receiver.help=Tools for debugging Receiver tiles.
+command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s x y z
+
 death.railcraft.bore.1=%s got in the way of progress
 death.railcraft.bore.2=%s tried to stop the Bore
 death.railcraft.bore.3=%s was crushed by the Bore
