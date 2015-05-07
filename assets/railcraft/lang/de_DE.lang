@@ -17,6 +17,14 @@ command.railcraft.railcraft.debug.tile.desc=- %s : Tile-Debug-Werkzeug
 command.railcraft.railcraft.debug.tile.help=Werkzeug zum Überprüfen von Tiles.
 command.railcraft.railcraft.debug.tile.format=Format: /%s x y z
 
+command.railcraft.railcraft.debug.tile.controller.desc=- %s : Controller-Debug-Werkzeug
+command.railcraft.railcraft.debug.tile.controller.help=Wergzeug zum Überprüfen von Controller-Tiles.
+command.railcraft.railcraft.debug.tile.controller.format=Format: /%s x y z
+
+command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Empfänger-Debug-Werkzeug
+command.railcraft.railcraft.debug.tile.receiver.help=Wergzeug zum Überprüfen von Empfänger-Tiles.
+command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s x y z
+
 death.railcraft.bore.1=%s war dem Fortschritt im Weg
 death.railcraft.bore.2=%s legte sich mit einem Bohrkopf an und verlor
 death.railcraft.bore.3=%s wurde von einem Bohrer zerquetscht
