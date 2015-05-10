@@ -1070,3 +1070,5 @@ tile.railcraft.wall.stone.brick.mossy.name=Mossy Stone Brick Wall
 tile.railcraft.wall.stone.brick.name=Stone Brick Wall
 
 tile.railcraft.worldlogic.name=Saltpeter Ore Spawner
+
+tooltip.walia.tooltype.crowbar=Crowbar
