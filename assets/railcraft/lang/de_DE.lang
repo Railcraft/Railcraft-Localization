@@ -383,6 +383,7 @@ railcraft.gui.filters=Filter
 
 railcraft.gui.goggles.aura.anchor=Anker
 railcraft.gui.goggles.aura.none=nichts
+railcraft.gui.goggles.aura.signalling=Signale
 railcraft.gui.goggles.aura.surveying=Vermessung
 railcraft.gui.goggles.aura.tracking=Tracking
 railcraft.gui.goggles.aura.tuning=Tuning
@@ -1070,3 +1071,5 @@ tile.railcraft.wall.stone.brick.mossy.name=Moosige Ziegelmauer
 tile.railcraft.wall.stone.brick.name=Steinziegelmauer
 
 tile.railcraft.worldlogic.name=Salpetererz-Spawner
+
+tooltip.wawla.tooltype.crowbar=Crowbar
