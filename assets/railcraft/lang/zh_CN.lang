@@ -86,7 +86,7 @@ entity.Railcraft.cart.track.remover.name=轨道拆除车
 entity.Railcraft.cart.undercutter.name=路基替换车
 entity.Railcraft.cart.work.name=工作台车
 
-fluid.creosote=木馏油
+fluid.creosote=杂酚油
 fluid.steam=蒸汽
 
 item.minecartChest.name=箱子车
@@ -162,12 +162,12 @@ item.railcraft.firestone.refined.name=精炼火石
 item.railcraft.firestone.refined.tip.charged=充满了能量,\n你只需施加意志力\n来释放热量...
 item.railcraft.firestone.refined.tip.empty=它的能量是可控的,\n如果能进行再充能\n那就更有用了...
 
-item.railcraft.fluid.creosote.bottle.name=木馏油瓶
-item.railcraft.fluid.creosote.bucket.name=木馏油桶
-item.railcraft.fluid.creosote.can.name=木馏油罐
-item.railcraft.fluid.creosote.cell.name=木馏油单元
-item.railcraft.fluid.creosote.refactory.name=木馏油耐火胶囊
-item.railcraft.fluid.creosote.wax.name=木馏油蜡胶囊
+item.railcraft.fluid.creosote.bottle.name=杂酚油瓶
+item.railcraft.fluid.creosote.bucket.name=杂酚油桶
+item.railcraft.fluid.creosote.can.name=杂酚油罐
+item.railcraft.fluid.creosote.cell.name=杂酚油单元
+item.railcraft.fluid.creosote.refactory.name=杂酚油耐火胶囊
+item.railcraft.fluid.creosote.wax.name=杂酚油蜡胶囊
 item.railcraft.fluid.steam.bottle.name=蒸汽瓶
 
 item.railcraft.fuel.coke.name=焦煤
@@ -634,7 +634,7 @@ tile.railcraft.cube.coke.name=焦煤方块
 tile.railcraft.cube.coke.tip=32,000燃料单位
 tile.railcraft.cube.concrete.name=混凝土块
 tile.railcraft.cube.copper.name=铜块
-tile.railcraft.cube.creosote.name=木馏油木方块
+tile.railcraft.cube.creosote.name=杂酚油木方块
 tile.railcraft.cube.crushed.obsidian.name=碎黑曜石
 tile.railcraft.cube.crushed.obsidian.tip=阻止生物生成
 tile.railcraft.cube.lead.name=铅块
@@ -664,7 +664,7 @@ tile.railcraft.detector.villager.name=传感器-村民
 
 tile.railcraft.firestone.recharge.name=再充能火石
 
-tile.railcraft.fluid.creosote.name=木馏油
+tile.railcraft.fluid.creosote.name=杂酚油
 tile.railcraft.fluid.steam.name=蒸汽
 
 tile.railcraft.frame.name=线缆支撑框架
@@ -846,7 +846,7 @@ tile.railcraft.slab.bloodstained.cobble.name=污血圆石台阶
 tile.railcraft.slab.bloodstained.fitted.name=均称污血台阶
 tile.railcraft.slab.concrete.name=混凝土台阶
 tile.railcraft.slab.copper.name=铜台阶
-tile.railcraft.slab.creosote.name=木馏油方块台阶
+tile.railcraft.slab.creosote.name=杂酚油方块台阶
 tile.railcraft.slab.diamond.name=钻石台阶
 tile.railcraft.slab.frostbound.block.name=霜冻台阶
 tile.railcraft.slab.frostbound.brick.name=霜冻砖块台阶
@@ -891,7 +891,7 @@ tile.railcraft.stair.bloodstained.cobble.name=污血圆石楼梯
 tile.railcraft.stair.bloodstained.fitted.name=匀称污血楼梯
 tile.railcraft.stair.concrete.name=混凝土楼梯
 tile.railcraft.stair.copper.name=铜楼梯
-tile.railcraft.stair.creosote.name=木馏油方块楼梯
+tile.railcraft.stair.creosote.name=杂酚油方块楼梯
 tile.railcraft.stair.diamond.name=钻石楼梯
 tile.railcraft.stair.frostbound.block.name=霜冻楼梯
 tile.railcraft.stair.frostbound.brick.name=霜冻砖楼梯
