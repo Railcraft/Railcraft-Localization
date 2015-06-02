@@ -1,34 +1,37 @@
-# Parent Language: en_US
-# by DeRigeurEx
-# To help improve this translation?
-# Go to "https://github.com/CovertJaguar/Railcraft-Localization"
-#
 chat.railcraft.api.error=Error: Zastaralé API, zkontrolujte prosím protokol pro více informací.
-#
+
 command.railcraft.aliases=Aliasy: %s
 command.railcraft.help=Zmáčkni '%s' pro pomoc.
 command.railcraft.list=Dostupné Sub-příkazy:
 command.railcraft.permlevel=Level oprávnění: %s
 command.railcraft.noperms=Nemáte oprávnění používat tento příkaz.
-#
+
 command.railcraft.railcraft.help=Různé příkazy pro Railcraft
 command.railcraft.railcraft.format=Formát: /%s <sub-příkaz>
-#
+
 command.railcraft.railcraft.debug.desc=- %s : Ladící nástroje
 command.railcraft.railcraft.debug.help=Nástroje pro ladění obtížných otázek.
 command.railcraft.railcraft.debug.format=Formát: /%s
-#
+
 command.railcraft.railcraft.debug.tile.desc=- %s : Ladící nástroj dlaždic
 command.railcraft.railcraft.debug.tile.help=Nástroj pro ladění dlaždic.
 command.railcraft.railcraft.debug.tile.format=Formát: /%s x y z
-#
+
+command.railcraft.railcraft.debug.tile.controller.desc=- %s : Kontroler ladících nástrojů
+command.railcraft.railcraft.debug.tile.controller.help=Nástroj pro ladění kontroly dlaždic.
+command.railcraft.railcraft.debug.tile.controller.format=Formát: /%s x y z
+
+command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Přijímač ladících nástrojů
+command.railcraft.railcraft.debug.tile.receiver.help=Nástroj pro ladění příjmu dlaždic.
+command.railcraft.railcraft.debug.tile.receiver.format=Formát: /%s x y z
+
 death.railcraft.bore.1=%s neopatrně vstoupil před razič.
 death.railcraft.bore.2=%s pokusil se zastavit vrták holou rukou.
 death.railcraft.bore.3=%s byl rozdrcen razičem.
 death.railcraft.bore.4=%s si myslel že bude lepší než Chuck Norris (John Henry R.I.P.)
 death.railcraft.bore.5=%s se ocitl mezi mlýnskými kameny... 
 death.railcraft.bore.6=%s byl na špatném místě ve špatný čas.
-#
+
 death.railcraft.crusher.1=%s zakopl(a) vedle těžkého stroje.
 death.railcraft.crusher.2=%s není muž z oceli, rozmáčklo ho to jako každýho jiného.
 death.railcraft.crusher.3=%s zíral do propasti, pak uklouzl.
@@ -37,32 +40,32 @@ death.railcraft.crusher.5=%s ignoroval nápis "Dívej se kam šlapeš".
 death.railcraft.crusher.6=Výprodej, nyní! %s krvavé želé.
 death.railcraft.crusher.7=%s se proměnil na pastu.
 death.railcraft.crusher.8=%s si měl přečíst manuál.
-#
+
 death.railcraft.steam.1=%s byl uvařen, chutně a štavnatě.
 death.railcraft.steam.2=%s není imunní vůči vysokým teplotám, a to navzdory tvrzení o opaku.
 death.railcraft.steam.3=%s zjistil, jak bolestivá pára může být.
 death.railcraft.steam.4=%s měl průmyslovou nehodu.
 death.railcraft.steam.5=%s tam asi neměl vstupovat.
 death.railcraft.steam.6=%s zjistil, že parní koupel je lepší absolvovat v lázních.
-#
+
 death.railcraft.track.electric.1=%s močil na elektrifikovanou trať.
 death.railcraft.track.electric.2=%s zjistil co znamená "Vysoké napětí".
 death.railcraft.track.electric.3=%s byl osvícen zázrakem elektrifikace.
 death.railcraft.track.electric.4=%s zakopl o třetí kolejnici.
 death.railcraft.track.electric.5=%s učinil šokující odhalení.
-death.railcraft.track.electric.6=%s se dozvěděl něco o elektřině, kope!
-#
+death.railcraft.track.electric.6=%s se dozvěděl něco o elektřině, KOPE!
+
 death.railcraft.train.1=%s byl zachyce vlakem.
 death.railcraft.train.2=%s si hrál na trati.
 death.railcraft.train.3=%s hrál si na honěnou s vlakem. Vlak vyhrál.
 death.railcraft.train.4=%s chytil špatný vlak.
 death.railcraft.train.5=%s koupil jednosměrnou jízdenku na onen svět.
 death.railcraft.train.6=%s měl opotřebované montérky.
-#
+
 enchantment.railcraft.crowbar.destruction=Destrukce
 enchantment.railcraft.crowbar.implosion=Imploze
 enchantment.railcraft.crowbar.wrecking=Demolice
-#
+
 entity.Railcraft.cart.anchor.admin.name=Kotva správce na vozíku
 entity.Railcraft.cart.anchor.name=Kotva na vozíku
 entity.Railcraft.cart.anchor.personal.name=Osobní kotva na vozíku
@@ -86,15 +89,15 @@ entity.Railcraft.cart.track.relayer.name=Vyměňovač tratí
 entity.Railcraft.cart.track.remover.name=Odstraňovač tratí 
 entity.Railcraft.cart.undercutter.name=Vozík s řezačkou
 entity.Railcraft.cart.work.name=Pracovní vozík
-#
+
 fluid.creosote=Kreosot
 fluid.steam=Pára
-#
+
 item.minecartChest.name=Vozík s bednou
 item.minecartFurnace.name=Vozík s pecí
 item.minecartTnt.name=Vozík s TNT
 item.minecartHopper.name=Vozík s chmelem
-#
+
 item.railcraft.armor.goggles.name=Brýle strojvůdce
 item.railcraft.armor.overalls.name=Montérky strojníka
 item.railcraft.armor.overalls.tip=Ochrana proti nástrahám\n při práci na trati.
@@ -102,7 +105,7 @@ item.railcraft.armor.steel.boots.name=Ocelové boty
 item.railcraft.armor.steel.helmet.name=Ocelová helma
 item.railcraft.armor.steel.legs.name=Ocelové kalhoty
 item.railcraft.armor.steel.plate.name=Ocelový pancíř
-#
+
 item.railcraft.backpack.apothecary.t1.name=Batoh apatykáře
 item.railcraft.backpack.apothecary.t2.name=Tkaná brašna apatykáře
 item.railcraft.backpack.iceman.t1.name=Batoh ledového muže
@@ -110,11 +113,11 @@ item.railcraft.backpack.iceman.t2.name=Tkaný batoh ledového muže
 item.railcraft.backpack.tip=Navrženo Railcraft, Inc.
 item.railcraft.backpack.trackman.t1.name=Batoh strojvůdce
 item.railcraft.backpack.trackman.t2.name=Tkaný batoh strojvůdce
-#
+
 item.railcraft.borehead.diamond.name=Diamantová hlava raziče
 item.railcraft.borehead.iron.name=Železná hlava raziče
 item.railcraft.borehead.steel.name=Ocelová hlava raziče
-#
+
 item.railcraft.cart.anchor.admin.name=Kotva správce na vozíku
 item.railcraft.cart.anchor.name=Mobilní kotva na vozíku
 item.railcraft.cart.anchor.personal.name=Osobní kotva na vozíku
@@ -144,14 +147,14 @@ item.railcraft.cart.track.remover.tip=Odstraňuje trať\n přes kterou přejíž
 item.railcraft.cart.undercutter.name=Řezačka na vozíku
 item.railcraft.cart.undercutter.tip=Vyměňuje povrch pod tratí
 item.railcraft.cart.work.name=Pracovní vozík
-#
+
 item.railcraft.dust.charcoal.name=Prach z dřevěného uhlí
 item.railcraft.dust.obsidian.name=Obsidiánový prach
 item.railcraft.dust.saltpeter.name=Ledek
 item.railcraft.dust.sulfur.name=Síra
-#
+
 item.railcraft.emblem.name=Emblém
-#
+
 item.railcraft.firestone.cracked.name=Naprasklý ohnivý kámen
 item.railcraft.firestone.cracked.tip.charged=Uniká z něj teplo,\n můžeš ho použít\n když budeš opatrný...
 item.railcraft.firestone.cracked.tip.empty=Poškozený, ale \n stále ho můžeš použít\n pokud jej nabiješ...
@@ -162,7 +165,7 @@ item.railcraft.firestone.raw.tip=Ožívá ve tvých rukou,\n cítíš jak je jí
 item.railcraft.firestone.refined.name=Obohacený ohnivý kámen
 item.railcraft.firestone.refined.tip.charged=Naplněn energií,\n stačí na něj soustředit \n svou vůly \n a uvolníš žhnoucí peklo...
 item.railcraft.firestone.refined.tip.empty=Jeho energie vyprchala,\n ale mohl by být ještě užitečný \n pokud by se znovu dobil ...
-#
+
 item.railcraft.fluid.creosote.bottle.name=Láhev kreosotu
 item.railcraft.fluid.creosote.bucket.name=Kýbl kreosotu
 item.railcraft.fluid.creosote.can.name=Kanistr kreosotu
@@ -170,20 +173,20 @@ item.railcraft.fluid.creosote.cell.name=Kreosotový článek
 item.railcraft.fluid.creosote.refactory.name=Kreosotová kapsle
 item.railcraft.fluid.creosote.wax.name=Kreosotová kapsle
 item.railcraft.fluid.steam.bottle.name=Láhev vodní páry
-#
+
 item.railcraft.fuel.coke.name=Koks
-#
+
 item.railcraft.ingot.copper.name=Měděný ingot
 item.railcraft.ingot.lead.name=Olověný ingot
 item.railcraft.ingot.steel.name=Ocelový ingot
 item.railcraft.ingot.tin.name=Cínový ingot
-#
+
 item.railcraft.nugget.copper.name=Měděný nuget
 item.railcraft.nugget.iron.name=Železný nuget
 item.railcraft.nugget.lead.name=Olověný nuget
 item.railcraft.nugget.steel.name=Ocelový nuget
 item.railcraft.nugget.tin.name=Cínový nuget
-#
+
 item.railcraft.part.bleached.clay.name=Bělený jíl
 item.railcraft.part.circuit.controller.name=Kontrolní obvod
 item.railcraft.part.circuit.receiver.name=Přijímací obvod
@@ -211,15 +214,15 @@ item.railcraft.part.tie.wood.name=Dřevěný základ na pražce
 item.railcraft.part.turbine.blade.name=Lopatka turbíny
 item.railcraft.part.turbine.disk.name=Disk turbíny
 item.railcraft.part.turbine.rotor.name=Rotor turbíny
-#
+
 item.railcraft.routing.table.name=Routovací tabulky
 item.railcraft.routing.ticket.gold.name=Zlatá jízdenka
 item.railcraft.routing.ticket.name=Jízdenka
-#
+
 item.railcraft.tool.crowbar.magic.name=Thaumium páčidlo
 item.railcraft.tool.crowbar.name=Páčidlo
 item.railcraft.tool.crowbar.reinforced.name=Zesílené páčidlo
-item.railcraft.tool.crowbar.tip=§o Klikněte pravým tlačítkem myši zatímco se plížíte k propojení vozíků
+item.railcraft.tool.crowbar.tip=§opravý klik během plížení spojí vozíky
 item.railcraft.tool.crowbar.void.name=Páčidlo z Void kovu
 item.railcraft.tool.electric.meter.name=Elektrometr
 item.railcraft.tool.magnifying.glass.name=Zvětšovací sklo
@@ -234,11 +237,11 @@ item.railcraft.tool.steel.sword.name=Ocelový meč
 item.railcraft.tool.surveyor.name=Signální blok Surveyor
 item.railcraft.tool.surveyor.tip=Spojuje signálem Signální bloky
 item.railcraft.tool.whistle.tuner.name=Ladička píšťaly
-#
+
 item.railcraft.upgrade.lapotron=Lapotronový zesilovač objemu
-#
+
 item.synthetic=Syntetika
-#
+
 railcraft.color.black=Černá
 railcraft.color.blue=Modrá
 railcraft.color.brown=Hnědá
@@ -255,10 +258,10 @@ railcraft.color.purple=Nachová
 railcraft.color.red=Červená
 railcraft.color.white=Bílá
 railcraft.color.yellow=Žlutá
-#
+
 railcraft.gates.action.pause=Zastav práci
 railcraft.gates.action.sendcart=Pošli vozík
-#
+
 railcraft.gates.trigger.aspect.green=Zelený signál
 railcraft.gates.trigger.aspect.off=Off signál
 railcraft.gates.trigger.aspect.red.blink=Červený přerušovaný signál
@@ -277,7 +280,7 @@ railcraft.gates.trigger.temp.cold=Studený
 railcraft.gates.trigger.temp.hot=Horký
 railcraft.gates.trigger.temp.warm=Teplý
 railcraft.gates.trigger.work=Má práci
-#
+
 railcraft.gui.anchor.fuel.remaining=@.2f hodiny
 railcraft.gui.anchor.fuel=Ender perly
 railcraft.gui.anchor.pair.fail.alignment=%1$s není osa zarovnána s %2$s
@@ -287,34 +290,34 @@ railcraft.gui.anchor.pair.fail.invalid=Toto není platný cíl pro spárování 
 railcraft.gui.anchor.pair.fail.unloaded=Cíl byl vyložen při pokusu o spárování s %s
 railcraft.gui.anchor.pair.cancel=%s párování bylo ukončeno
 railcraft.gui.anchor.pair.start=%s párování bylo zahájeno
-railcraft.gui.anchor.pair.success=%s byly úspěšně zpárovány
-#
+railcraft.gui.anchor.pair.success=%s byly úspěšně spárovány
+
 railcraft.gui.aspect.blink.red.name=Červené blikání
 railcraft.gui.aspect.blink.yellow.name=Žluté blikání
 railcraft.gui.aspect.green.name=Zelená
 railcraft.gui.aspect.off.name=Off
 railcraft.gui.aspect.red.name=Červená
 railcraft.gui.aspect.yellow.name=Žlutá
-#
+
 railcraft.gui.aura.disable=@s Aura Off
 railcraft.gui.aura.enable=@s Aura On
-#
+
 railcraft.gui.blast.furnace=Vysoká pec
-#
+
 railcraft.gui.bore.ballast=Balast
 railcraft.gui.bore.fuel=Palivo
 railcraft.gui.bore.head=Hlava
 railcraft.gui.bore.track=Trať
-#
+
 railcraft.gui.box.aspect.action=Emituje Rudit na Aspect
 railcraft.gui.box.capacitor.duration=Emituje Rudit na @d sekund
 railcraft.gui.box.capacitor.immediate=Ihned
 railcraft.gui.box.capacitor.immediate.tip=-Immediate-\n Odstartuje časovač jakmile je přijat vstupní signál.
 railcraft.gui.box.capacitor.delayed=Spoždění
 railcraft.gui.box.capacitor.delayed.tip=-Delayed-\n Odstartuje časovač, když se poslední vstupní signál vypne.
-railcraft.gui.box.controller.aspect.default=Default Aspect:
+railcraft.gui.box.controller.aspect.default=Defaultní Aspect:
 railcraft.gui.box.controller.aspect.redstone=Ruditový Aspect:
-#
+
 railcraft.gui.cart.tnt.fuse=Pojistka
 railcraft.gui.cart.track.relayer.pattern=Vzor
 railcraft.gui.cart.track.relayer.stock=Sklad
@@ -322,9 +325,9 @@ railcraft.gui.cart.undercutter.pattern=Vzory
 railcraft.gui.cart.undercutter.sides=Strany
 railcraft.gui.cart.undercutter.stock=Sklad
 railcraft.gui.cart.undercutter.under=Pod
-#
+
 railcraft.gui.coke.oven=Koksovací pec
-#
+
 railcraft.gui.detector.item.analog=Analogový
 railcraft.gui.detector.item.anything=Cokoliv
 railcraft.gui.detector.item.at_least=Alespoň
@@ -355,13 +358,13 @@ railcraft.gui.detector.villager.any=Jakýkoliv
 railcraft.gui.detector.villager.equals=Rovno
 railcraft.gui.detector.villager.none=Nikdo
 railcraft.gui.detector.villager.not=Ne
-#
+
 railcraft.gui.electric.meter.charge=Nabito: @.2fc | Odběr: @.2fc/t | Ztráta: @.2fc/t
-#
+
 railcraft.gui.energy.loader.empty=Zastav prázdné
 railcraft.gui.energy.loader.fill=Top Off
 railcraft.gui.energy.unloader.wait=Počkej až bude prázdné
-#
+
 railcraft.gui.engrave.entercode=Vlož odemykací kód:
 railcraft.gui.engrave.getmore1=Navštivte níže uvedené odkazy
 railcraft.gui.engrave.getmore2=k nalezení více kódů k odemčení!
@@ -371,24 +374,26 @@ railcraft.gui.engrave.unlock.fail=Selhání!
 railcraft.gui.engrave.unlock.success=Úspěch!
 railcraft.gui.engrave.unlock=Odemknout!
 railcraft.gui.engrave=Vyrýt
-#
+
 railcraft.gui.feed.station.feed=Krmivo
-#
+
 railcraft.gui.filter=Filtr
 railcraft.gui.filters.carts=Vozíky
 railcraft.gui.filters=Filtry
-#
+
 railcraft.gui.goggles.aura.anchor=Kotva
 railcraft.gui.goggles.aura.none=Nikdo
+railcraft.gui.goggles.aura.signalling=Signalizace
+railcraft.gui.goggles.aura.surveying=Zaměřování
 railcraft.gui.goggles.aura.tracking=Sledování
 railcraft.gui.goggles.aura.tuning=Ladění
 railcraft.gui.goggles.mode=Aktuální aura: @s
 railcraft.gui.goggles.tip=Použijte z hotbaru ke změně aury
-#
+
 railcraft.gui.help=Pomoc
-#
+
 railcraft.gui.ic2.energy.rate=Výkon: @d EU
-#
+
 railcraft.gui.item.loader.all.tip=Přesuňte všechny\n odpovídající položky
 railcraft.gui.item.loader.all=Vše
 railcraft.gui.item.loader.buffer=Nárazník
@@ -406,12 +411,12 @@ railcraft.gui.item.loader.stock.tip=Přesune položky pokud cíl\n bude odpovíd
 railcraft.gui.item.loader.stock=Sklad
 railcraft.gui.item.loader.transfer.tip=Přesune přesně tolik položek\n kolik je jich ve filtru
 railcraft.gui.item.loader.transfer=Transfer
-#
+
 railcraft.gui.link.broken=Rozpojeno
 railcraft.gui.link.created=Spojeno
-railcraft.gui.link.failed=Spojení selhalo
-railcraft.gui.link.started=Spojování začlo
-#
+railcraft.gui.link.failed=Spojování selhalo
+railcraft.gui.link.started=Spojování odstartováno
+
 railcraft.gui.liquid.capacity=Kapacita
 railcraft.gui.liquid.loader.empty.tip=Zadrží prázdné vozíky
 railcraft.gui.liquid.loader.empty=Drž prázdné
@@ -426,8 +431,8 @@ railcraft.gui.liquid.unloader.empty=Prázdné
 railcraft.gui.liquid.unloader.immediate.tip=Emituje Rudit jestliže se\n kapalina nepřesune
 railcraft.gui.liquid.unloader.immediate=Okamžitě
 railcraft.gui.liquid.unloader.manual.tip=Nikdy neEmituj Rudit
-railcraft.gui.liquid.unloader.manual=Manual
-#
+railcraft.gui.liquid.unloader.manual=Manuálně
+
 railcraft.gui.locomotive.mode.idle=Volnoběh
 railcraft.gui.locomotive.mode.running=Zapnout
 railcraft.gui.locomotive.mode.shutdown=Vypnout
@@ -447,13 +452,13 @@ railcraft.gui.locomotive.tip.item.primary=§oZákladní barva:§r @s
 railcraft.gui.locomotive.tip.item.secondary=§oSekundární barva:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oZvuk píšťaly:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Vlož lístek
-#
+
 railcraft.gui.mag.glass.aspect=Signál aspectu je %s
 railcraft.gui.mag.glass.aspect.dual=Signál aspectu je %1$s nahoře %2$s dole
 railcraft.gui.mag.glass.placedby=%1$s bylo vloženo %2$s
-#
+
 railcraft.gui.rolling.machine.tip.craft=§e§o-klikni k výrobě-
-#
+
 railcraft.gui.routing.logic.blank=Nevyplněná tabulka
 railcraft.gui.routing.logic.insufficient.operands=Nedostatečné operandy
 railcraft.gui.routing.logic.malformed.syntax=Chybně formátovaná syntaxe
@@ -464,7 +469,7 @@ railcraft.gui.routing.slot.label=Routovací tabulka
 railcraft.gui.routing.table.editor=Naposled editoval @s
 railcraft.gui.routing.table.manual.numPages=10
 railcraft.gui.routing.table.manual.page1=Pokud vložíte Routovací tabulky do Routovacího detektoru nebo Přepínače definuje nastavené pravidla, kterými se budou řídit všechny projíždějící lokomotivy. Tyto pravidla jsou definovány použitím jednoduché logické syntaxe. Syntaxe je předpona zápisu skriptu, operátory následují operandy. Povolen je jeden klíč na jeden řádek. Jestliže není operátor specifikován, nebo se předpokládá. Routovací tabulky lze kopírovat umístěním dvou nebo více tabulek do výrobní mřížky.
-railcraft.gui.routing.table.manual.page2=Operátor:\n   AND - Dva operátory, oba musí být true(pravda).\n   OR - Dva operátory, oba musí být true(pravda).\n   NOT - Invertuje následující operand.
+railcraft.gui.routing.table.manual.page2=Operátory:\n   AND - Dva operátory, oba musí být true(pravda).\n   OR - Dva operátory, oba musí být true(pravda).\n   NOT - Invertuje následující operand.
 railcraft.gui.routing.table.manual.page3=Klíčové slovo stavu:\n   Dest=<string>\n     Jestliže je destinace lokomotivy\n      řetězec začíná tímto řetězcem,\n      podmínka je true (pravda).\n      "Dest=null" srovná vozíky\n      s žádnou destinací.\n   Owner(vlastník)=<username>\n      Pravda jestli lokomotiva patří\n      této osobě.
 railcraft.gui.routing.table.manual.page4=Klíčové slovo stavu:\n   Name(jméno)=<entityname>\n      Pravda jestliže srovnání souhlasí s\n      jménem vozíku.\n      "Name=null" srovná vozíky\n      s žádným jménem\n   Typ=<modid:itemname>\n      Pravda jestli se srovná\n      název položky důlního vozíku.
 railcraft.gui.routing.table.manual.page5=Klíčové slovo stavu:\n   Rider=<username>\n      Pravda jestliže je vlak řízen\n      touto osobou.\n   Ridden=<true/false>\n      Pravda jestliže je vlak is\n      řízen hráčem.
@@ -490,10 +495,10 @@ railcraft.gui.routing.type.private.tip=Může na ní jezdit\n jen lokomotiva\n v
 railcraft.gui.routing.type.private=Privátní železnice
 railcraft.gui.routing.type.public.tip=Může na ní jezdit jakákoliv lokomotiva.
 railcraft.gui.routing.type.public=Veřejná železnice
-#
+
 railcraft.gui.steam.boiler=Parní kotel
 railcraft.gui.steam.oven=Parní trouba
-#
+
 railcraft.gui.surveyor.abandon=Signální blok Survey opuštěný
 railcraft.gui.surveyor.begin=Začátek Signálního bloku Survey
 railcraft.gui.surveyor.invalid=Signální blok není platný
@@ -502,19 +507,19 @@ railcraft.gui.surveyor.success=Signální blok úspěšně definován
 railcraft.gui.surveyor.track=Žádná trať poblíž nenalezena
 railcraft.gui.surveyor.unloaded=První signál není v načteném Chunku
 railcraft.gui.surveyor.wrong=Neplatný blok signálu
-#
+
 railcraft.gui.switch.motor.action=Zapnout na Aspect
-#
+
 railcraft.gui.tank.iron=Železná nádrž
 railcraft.gui.tank.steel=Ocelová nádrž
 railcraft.gui.tank.water=Vodní nádrž
-#
+
 railcraft.gui.ticks=ticks
-#
+
 railcraft.gui.tip.button.lock.locked=Zařízení uzamkl \n {owner}. \n jenom vlastník nebo OP \n s ním může manipulovat
 railcraft.gui.tip.button.lock.notowner=Nejsi vlastník \n tohoto zařízení. \n Vlastník je {owner}.
 railcraft.gui.tip.button.lock.unlocked=Klikni k uzamknutí zařízení.\n Pokud je uzamčeno, máš do něj\n přístup jenom ty nebo OP.
-#
+
 railcraft.gui.track.embarking.radius=Rádius
 railcraft.gui.track.locking.change=Změněno na @s mód
 railcraft.gui.track.locking.mode.boarding.train=Vlak nastupování
@@ -525,39 +530,40 @@ railcraft.gui.track.locking.mode.lockdown.train=Vlak uzamknut
 railcraft.gui.track.locking.mode.lockdown=Uzamknutí
 railcraft.gui.track.priming.fuse=Pojistka = @d ticks
 railcraft.gui.track.launcher.force=Platnost = @d
-#
+
 railcraft.gui.trade.station.dice.tip=Náhodný obchod
-#
+
 railcraft.gui.tuner.abandon.chunk=Kontroler není v načteném Chunku, párování zrušeno.
 railcraft.gui.tuner.abandon.gone=Kontroler již neexistuje, párování zrušeno.
 railcraft.gui.tuner.abandon.player=Kontroler párování zrušeno.
 railcraft.gui.tuner.start=Párování odstartováno %s s přijímačem 
 railcraft.gui.tuner.stop=Párování zastaveno %s s přijímačem
 railcraft.gui.tuner.success=%1$s úspěšně spárováno s %2$s
-#
+
 railcraft.gui.turbine.output=Výstup: @d%%
 railcraft.gui.turbine.rotor=Rotor:
 railcraft.gui.turbine=Parní turbína:
-#
+
 railcraft.gui.update.message=Railcraft @s je dostupný na <http://railcraft.info>
-#
+
 railcraft.keybind.aura.anchor=Aura kotvy
+railcraft.keybind.aura.surveying=Zaměřovací Aura
 railcraft.keybind.aura.tuning=Nastavení aury
-#
+
 railcraft.keybind.loco.faster=Lokomotiva-zrychlit
 railcraft.keybind.loco.mode=Lokomotiva-režim
 railcraft.keybind.loco.slower=Lokomotiva-zpomalit
 railcraft.keybind.loco.whistle=Lokomotiva-píšťala
-#
+
 railcraft.locomotive.model.electric.default.name=Standard Elektrická
 railcraft.locomotive.model.steam.magic.default.name=Standard Magická
 railcraft.locomotive.model.steam.solid.default.name=Standard Parní
-#
+
 railcraft.multiblock.state.invalid.entity=Entity v cestě: %s
 railcraft.multiblock.state.invalid.pattern=Neshoduje se vzor: %s
 railcraft.multiblock.state.unknown.unloaded=Část stavby se nenačetla: %s
 railcraft.multiblock.state.valid=Stuktura je platná
-#
+
 tc.research_category.RAILCRAFT=Traheremagy
 thaumcraft.research.RC_Crowbar.name=Thaumium páčidlo
 thaumcraft.research.RC_Crowbar.page.1=Nahrazením Thaumiuma za ocel jste objevili, jak vytvořit páčidlo, které je mnohem použitelnější na magii.
@@ -565,71 +571,71 @@ thaumcraft.research.RC_Crowbar.text=[RC] Myslím, že to spadlo tobě...
 thaumcraft.research.RC_Crowbar_Void.name=Páčidlo z Void kovu
 thaumcraft.research.RC_Crowbar_Void.page.1=Překročily jste vlastní stín, mistrně jste použily tento tajemný materiál a vytvořily ultimátní páčidlo.
 thaumcraft.research.RC_Crowbar_Void.text=[RC] Gordon by byl hrdý...
-#
+
 tile.activatorRail.name=Aktivační koleje
 tile.detectorRail.name=Detekční koleje
 tile.goldenRail.name=Zrychlovací koleje
 tile.rail.name=Koleje
-#
+
 tile.railcraft.anvil.intact.name=Ocelová kovadlina
 tile.railcraft.anvil.slightlyDamaged.name=Lehce poškozená kovadlina
 tile.railcraft.anvil.veryDamaged.name=Hodně poškozená kovadlina
-#
+
 tile.railcraft.brick.abyssal.block.name=Abyssal blok
 tile.railcraft.brick.abyssal.brick.name=Abyssal cihla
 tile.railcraft.brick.abyssal.cobble.name=Abyssal kamenní
 tile.railcraft.brick.abyssal.etched.name=Leptaný Abyssal kámen
 tile.railcraft.brick.abyssal.fitted.name=Řezaný Abyssal kámen
 tile.railcraft.brick.abyssal.ornate.name=Zdobený Abyssal kámen
-#
+
 tile.railcraft.brick.bleachedbone.block.name=Blok z vybělených kostí
 tile.railcraft.brick.bleachedbone.brick.name=Cihla z vybělených kostí
 tile.railcraft.brick.bleachedbone.cobble.name=Dlažební kostky z vybělených kostí
 tile.railcraft.brick.bleachedbone.etched.name=Leptané cihly z vybělených kostí
 tile.railcraft.brick.bleachedbone.fitted.name=Řezané cihly z vybělených kostí
 tile.railcraft.brick.bleachedbone.ornate.name=Zdobené cihly z vybělených kostí
-#
+
 tile.railcraft.brick.bloodstained.block.name=Krví potřísněný blok
 tile.railcraft.brick.bloodstained.brick.name=Krví potřísněná cihla
 tile.railcraft.brick.bloodstained.cobble.name=Krví potřísněné dlažební kostky
 tile.railcraft.brick.bloodstained.etched.name=Leptaný krví potřísněný kámen
 tile.railcraft.brick.bloodstained.fitted.name=Řezaný krví potřísněný kámen
 tile.railcraft.brick.bloodstained.ornate.name=Zdobený krví potřísněný kámen
-#
+
 tile.railcraft.brick.frostbound.block.name=Zmrzlý blok
 tile.railcraft.brick.frostbound.brick.name=Zmrzlá cihla
 tile.railcraft.brick.frostbound.cobble.name=Zmrzlé dlažební kostky
 tile.railcraft.brick.frostbound.etched.name=Leptaný zmrzlý kámen
 tile.railcraft.brick.frostbound.fitted.name=Řezaný zmrzlý kámen
 tile.railcraft.brick.frostbound.ornate.name=Zdobený zmrzlý kámen
-#
+
 tile.railcraft.brick.infernal.block.name=Pekelný blok
 tile.railcraft.brick.infernal.brick.name=Pekelná cihla
 tile.railcraft.brick.infernal.cobble.name=Pekelné dlažební kostky
 tile.railcraft.brick.infernal.etched.name=Leptaný pekelný kámen
 tile.railcraft.brick.infernal.fitted.name=Řezaný pekelný kámen
 tile.railcraft.brick.infernal.ornate.name=Zdobený pekelný kámen
-#
+
 tile.railcraft.brick.nether.block.name=Netheritový blok
 tile.railcraft.brick.nether.cobble.name=Netheritové dlažební kostky
 tile.railcraft.brick.nether.etched.name=Leptaný Netheritový kámen
 tile.railcraft.brick.nether.fitted.name=Řezaný Netheritový kámen
 tile.railcraft.brick.nether.ornate.name=Zdobený Netheritový kámen
-#
+
 tile.railcraft.brick.quarried.block.name=Quarried blok
 tile.railcraft.brick.quarried.brick.name=Quarried cihla
 tile.railcraft.brick.quarried.cobble.name=Quarried dlažební kostky
 tile.railcraft.brick.quarried.etched.name=Leptaný Quarried kámen
 tile.railcraft.brick.quarried.fitted.name=Řezaný Quarried kámen
 tile.railcraft.brick.quarried.ornate.name=Zdobený Quarried kámen
-#
+
 tile.railcraft.brick.sandy.block.name=Pískový blok
 tile.railcraft.brick.sandy.brick.name=Písková cihla
 tile.railcraft.brick.sandy.cobble.name=Pískové dlažební kostky
 tile.railcraft.brick.sandy.etched.name=Leptaný pískový kámen
 tile.railcraft.brick.sandy.fitted.name=Řezaný pískový kámen
 tile.railcraft.brick.sandy.ornate.name=Zdobený pískový kámen
-#
+
 tile.railcraft.cube.brick.infernal.name=Pekelná cihla (zastaralá)
 tile.railcraft.cube.brick.sandy.name=Písková cihla (zastaralá)
 tile.railcraft.cube.coke.name=Blok z koksu
@@ -644,7 +650,7 @@ tile.railcraft.cube.steel.name=Blok z ocele
 tile.railcraft.cube.stone.abyssal.name=Abyssal kámen
 tile.railcraft.cube.stone.quarried.name=Quarried kámen
 tile.railcraft.cube.tin.name=Blok z cínu
-#
+
 tile.railcraft.detector.advanced.name=Detektor - Pokročilý
 tile.railcraft.detector.age.name=Detektor - Věk
 tile.railcraft.detector.animal.name=Detektor - Zvíře
@@ -663,17 +669,17 @@ tile.railcraft.detector.sheep.name=Detektor - Ovce
 tile.railcraft.detector.tank.name=Detektor - Nádrž
 tile.railcraft.detector.train.name=Detektor - Vlak
 tile.railcraft.detector.villager.name=Detektor - Vesničan
-#
+
 tile.railcraft.firestone.recharge.name=Nabíjím ohnivý kámen
-#
+
 tile.railcraft.fluid.creosote.name=Kreosot
 tile.railcraft.fluid.steam.name=Pára
-#
+
 tile.railcraft.frame.name=Podpůrná kostra vedení
 tile.railcraft.frame.tip=-Wire Support Frame-\n Použij k položení kolejí na Dráty elektrického vedení
-#
+
 tile.railcraft.glass.name=Tvrzené sklo
-#
+
 tile.railcraft.machine.alpha.anchor.admin.name=Kotva správce
 tile.railcraft.machine.alpha.anchor.passive.name=Pasivní kotva
 tile.railcraft.machine.alpha.anchor.personal.name=Osobní kotva
@@ -696,7 +702,7 @@ tile.railcraft.machine.alpha.tank.water.tip=-Water Tank Siding-\n Multi-blok: 3x
 tile.railcraft.machine.alpha.trade.station.name=Obchodní stanice
 tile.railcraft.machine.alpha.turbine.name=Kryt parní turbíny
 tile.railcraft.machine.alpha.turbine.tip=-Steam Turbine Housing-\n Multi-blok: 3x2x2\n Generuje elektřinu z páry\n Výstupní materiál je voda\n Vyžaduje Rotor turbíny
-#
+
 tile.railcraft.machine.beta.anchor.sentinel.name=Strážní kotva
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Hořák boileru na tekuté palivo
 tile.railcraft.machine.beta.boiler.firebox.liquid.tip=-Liquid Fueled Boiler Firebox-\n Multi-blok: Různé velikosti, spodní vrstva\n Rozměry: 1x1, 2x2, 3x3
@@ -728,10 +734,10 @@ tile.railcraft.machine.beta.tank.steel.valve.name=Ventil ocelové nádrže
 tile.railcraft.machine.beta.tank.steel.valve.tip=Multi-blok: Musí být ve spodních\n dvou vrstvách pro výstup kapaliny.
 tile.railcraft.machine.beta.tank.steel.wall.name=Plášť ocelové nádrže
 tile.railcraft.machine.beta.tank.steel.wall.tip=Multi-blok: Různé velikosti, (dutý)\n Výška: 4, 5, 6, 7, 8\n Šířka-Délka: 3, 5, 7, 9
-#
+
 tile.railcraft.machine.delta.wire.name=Drát elektrického vedení
 tile.railcraft.machine.delta.wire.tip=-Electric Shunting Wire-\n Připojí Elektrické koleje přes mezery\n Umísti pod koleje pomocí\n Podpůrné kostry vedení drátu
-#
+
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Správcův produktor páry
 tile.railcraft.machine.epsilon.admin.steam.producer.tip=-Admin Steam Producer-\n Produkuje nekonečno páry
 tile.railcraft.machine.epsilon.electric.feeder.admin.name=Správcův měnič jednotek
@@ -743,7 +749,7 @@ tile.railcraft.machine.epsilon.flux.transformer.name=Transformátor ruditového 
 tile.railcraft.machine.epsilon.flux.transformer.tip=-Flux Transformer-\n Multi-blok: 2x2x2\n Convertuje Ruditové napětí na Railcraft energii\n 80% efektivita
 tile.railcraft.machine.epsilon.force.track.emitter.name=Emitor energetických drah
 tile.railcraft.machine.epsilon.force.track.emitter.tip=-Force Track Emitter-\n Vytváří energetické dráhy
-#
+
 tile.railcraft.machine.gamma.dispenser.cart.name=Vozíkový dávkovač
 tile.railcraft.machine.gamma.dispenser.cart.tip=-Cart Dispenser-\n Naplní vozíky na kolejích\n§o§9- Udeř páčidlem pro změnu orientace -\n§o§c- Aplikuj Rudit k naplnění vozíku -
 tile.railcraft.machine.gamma.dispenser.train.name=Vlakový dávkovač
@@ -764,7 +770,7 @@ tile.railcraft.machine.gamma.unloader.item.name=Vykládač předmětů
 tile.railcraft.machine.gamma.unloader.item.tip=-Item Unloader-\n Vyloží předměty z vozíku\n§o§c- Umístit pod dráhu -
 tile.railcraft.machine.gamma.unloader.liquid.name=Vykládač tekutin
 tile.railcraft.machine.gamma.unloader.liquid.tip=-Fluid Unloader-\n Vyloží tekutiny z vozíku\n§o§c- Umístit pod dráhu -
-#
+
 tile.railcraft.ore.dark.diamond.name=Temnný diamantový kámen
 tile.railcraft.ore.dark.emerald.name=Temný emeraldový kámen
 tile.railcraft.ore.dark.lapis.name=Temný lapis lazulitový kámen
@@ -777,18 +783,8 @@ tile.railcraft.ore.poor.lead.name=Chudá olověná ruda
 tile.railcraft.ore.poor.tin.name=Chudá cínová ruda
 tile.railcraft.ore.saltpeter.name=Ledková ruda
 tile.railcraft.ore.sulfur.name=Sírová ruda
-#
-tile.railcraft.post.emblem.name=Emblém na tyči
 
-#
-tile.railcraft.post.metal.unpainted.platform.name=Kovová platforma
-tile.railcraft.post.metal.unpainted.name=Kovová tyč
-#
-tile.railcraft.post.stone.name=Kamenná tyč
-tile.railcraft.post.stone.platform.name=Kamenná platforma
-tile.railcraft.post.wood.name=Dřevěná tyč
-tile.railcraft.post.wood.platform.name=Dřevěná platforma
-#
+tile.railcraft.post.emblem.name=Emblém na tyči
 tile.railcraft.post.metal.black.name=Černá kovová tyč
 tile.railcraft.post.metal.blue.name=Modrá kovová tyč
 tile.railcraft.post.metal.brown.name=Hnědá kovová tyč
@@ -799,13 +795,9 @@ tile.railcraft.post.metal.light.blue.name=Světle modrá kovová tyč
 tile.railcraft.post.metal.light.gray.name=Světle šedá kovová tyč
 tile.railcraft.post.metal.lime.name=Limetková kovová tyč
 tile.railcraft.post.metal.magenta.name=Purpurová kovová tyč
+tile.railcraft.post.metal.unpainted.name=Kovová tyč bez nátěru
 tile.railcraft.post.metal.orange.name=Oranžová kovová tyč
 tile.railcraft.post.metal.pink.name=Růžová kovová tyč
-tile.railcraft.post.metal.purple.name=Nachová kovová tyč
-tile.railcraft.post.metal.red.name=Červená kovová tyč
-tile.railcraft.post.metal.white.name=Bílá kovová tyč
-tile.railcraft.post.metal.yellow.name=Žlutá kovová tyč
-#
 tile.railcraft.post.metal.platform.black.name=Černá kovová platforma
 tile.railcraft.post.metal.platform.blue.name=Modrá kovová platforma
 tile.railcraft.post.metal.platform.brown.name=Hnědá kovová platforma
@@ -816,15 +808,24 @@ tile.railcraft.post.metal.platform.light.blue.name=Světle modrá kovová platfo
 tile.railcraft.post.metal.platform.light.gray.name=Světle šedá kovová platforma
 tile.railcraft.post.metal.platform.lime.name=Limetková kovová platforma
 tile.railcraft.post.metal.platform.magenta.name=Purpurová kovová platforma
+tile.railcraft.post.metal.platform.unpainted.name=Kovová platforma bez nátěru
 tile.railcraft.post.metal.platform.orange.name=Oranžová kovová platforma
 tile.railcraft.post.metal.platform.pink.name=Růžová kovová platforma
 tile.railcraft.post.metal.platform.purple.name=Nachová kovová platforma
 tile.railcraft.post.metal.platform.red.name=Červená kovová platforma
 tile.railcraft.post.metal.platform.white.name=Bílá kovová platforma
 tile.railcraft.post.metal.platform.yellow.name=Žlutá kovová platforma
-#
+tile.railcraft.post.metal.purple.name=Nachová kovová tyč
+tile.railcraft.post.metal.red.name=Červená kovová tyč
+tile.railcraft.post.metal.white.name=Bílá kovová tyč
+tile.railcraft.post.metal.yellow.name=Žlutá kovová tyč
+tile.railcraft.post.stone.name=Kamenná tyč
+tile.railcraft.post.stone.platform.name=Kamenná platforma
+tile.railcraft.post.wood.name=Dřevěná tyč
+tile.railcraft.post.wood.platform.name=Dřevěná platforma
+
 tile.railcraft.residual.heat.name=Zbytkové teplo
-#
+
 tile.railcraft.signal.block.signal.dual.name=Dvojitý signální blok
 tile.railcraft.signal.block.signal.name=Signální blok
 tile.railcraft.signal.box.analog.name=Analogový signální kontroler
@@ -839,7 +840,7 @@ tile.railcraft.signal.distant.name=Vzdálený signál
 tile.railcraft.signal.switch.lever.name=Přepínací páka
 tile.railcraft.signal.switch.motor.name=Přepínací motor
 tile.railcraft.signal.switch.routing.name=Routovací přepínací motor
-#
+
 tile.railcraft.slab.abyssal.block.name=Abyssal půlblok
 tile.railcraft.slab.abyssal.brick.name=Abyssal cihla deska
 tile.railcraft.slab.abyssal.cobble.name=Abyssal dlažební deska
@@ -884,7 +885,7 @@ tile.railcraft.slab.sandy.fitted.name=Řezaná písková kamenná deska
 tile.railcraft.slab.snow.name=Zasněžená deska
 tile.railcraft.slab.steel.name=Ocelová deska
 tile.railcraft.slab.tin.name=Měděná deska
-#
+
 tile.railcraft.stair.abyssal.block.name=Abyssal schody
 tile.railcraft.stair.abyssal.brick.name=Abyssal cihlové schody
 tile.railcraft.stair.abyssal.cobble.name=Abyssal kamenné schody
@@ -929,14 +930,14 @@ tile.railcraft.stair.sandy.fitted.name=Řezané pískové kamenné schody
 tile.railcraft.stair.snow.name=Sněžné schody
 tile.railcraft.stair.steel.name=Ocelové schody
 tile.railcraft.stair.tin.name=Cínové schody
-#
+
 tile.railcraft.lantern.metal.copper.name=Měděná lucerna
 tile.railcraft.lantern.metal.gold.name=Zlatá lucerna
 tile.railcraft.lantern.metal.iron.name=Železná lucerna
 tile.railcraft.lantern.metal.lead.name=Olověná lucerna
 tile.railcraft.lantern.metal.steel.name=Ocelová lucerna
 tile.railcraft.lantern.metal.tin.name=Cínová lucerna
-#
+
 tile.railcraft.lantern.stone.abyssal.name=Abyssal kamenná lucerna
 tile.railcraft.lantern.stone.bleachedbone.name=Kamenná lucerna z vybělených kostí 
 tile.railcraft.lantern.stone.bloodstained.name=Krví potřísněná kamenná lucerna
@@ -947,7 +948,7 @@ tile.railcraft.lantern.stone.quarried.name=Quarried kamenná lucerna
 tile.railcraft.lantern.stone.sandstone.name=Lucerna z pískovce
 tile.railcraft.lantern.stone.sandy.name=Písková kamenná lucerna
 tile.railcraft.lantern.stone.stone.name=Kamenná lucerna
-#
+
 tile.railcraft.track.boarding.name=Nástupní kolej
 tile.railcraft.track.boarding.tip=-Boarding Track-\n Náhrada za Zamykací kolej(Locking Track)
 tile.railcraft.track.boarding.train.name=Vlaková nástupní kolej
@@ -1042,7 +1043,7 @@ tile.railcraft.track.whistle.name=Píšťalová kolej
 tile.railcraft.track.whistle.tip=-Whistle Track-\n Projíždějící lokomotiva\n spustí píšťalu\n§o§c- Použij Rudit k zapnutí -
 tile.railcraft.track.wye.name=Rozdvojovací kolej
 tile.railcraft.track.wye.tip=-Wye Track-\n §o§c- Vyžaduje přepínací Motor/Páku k přehození -
-#
+
 tile.railcraft.wall.abyssal.brick.name=Abyssal cihlová zeď
 tile.railcraft.wall.bleachedbone.brick.name=Cihlová zeď z vybělených kostí
 tile.railcraft.wall.bloodstained.brick.name=Krví potřísněná cihlová zeď
@@ -1068,9 +1069,19 @@ tile.railcraft.wall.stone.brick.chiseled.name=Zeď z tesaných kamenných cihel
 tile.railcraft.wall.stone.brick.cracked.name=Zeď z kamenných popraskaných cihel
 tile.railcraft.wall.stone.brick.mossy.name=Mechem zarostlá zeď z kamenných cihel
 tile.railcraft.wall.stone.brick.name=Zeď z kamenných cihel
-#
+
 tile.railcraft.worldlogic.name=Spawner ledkové rudy
-#
+
+tooltip.wawla.tooltype.crowbar=Páčidlo
+##
+# Parent Language: en_US
+# by DeRigeurEx
+# To help improve this translation?
+# Go to "https://github.com/CovertJaguar/Railcraft-Localization"
+##
+# FIX-ROW:811 (for MC1710-v9610)
+tile.railcraft.post.metal.unpainted.platform.name=Kovová platforma bez nátěru
+##
 # added BONUS .tip
 tile.railcraft.machine.alpha.feed.station.tip=-Feed Station-
 tile.railcraft.machine.alpha.rolling.machine.tip=-Rolling Machine-\n vyrábí kolejnice, kovové tyče,\n recykluje koleje
@@ -1078,6 +1089,5 @@ tile.railcraft.machine.alpha.steam.trap.auto.tip=-Automated Steam Trap-
 tile.railcraft.machine.alpha.steam.trap.tip=-Manual Steam Trap-
 tile.railcraft.machine.alpha.smoker.tip=-Smoker-\n pro vypnutí použij Rudit 
 tile.railcraft.machine.alpha.trade.station.tip=-Trade Station-
-#
 tile.railcraft.track.force.tip=-Force Track-
 tile.railcraft.track.junction.tip=-Junction Track-\n Nebezpečí srážky vlaků
