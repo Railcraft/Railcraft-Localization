@@ -64,10 +64,10 @@ railcraft.color.red=Rood
 railcraft.color.white=Wit
 railcraft.color.yellow=Geel
 
-tile.railcraft.cube.brick.infernal.name=Helse Steen
-tile.railcraft.cube.brick.sandy.name=Zanderige Steen
+tile.railcraft.cube.brick.infernal.name=Hels Steen
+tile.railcraft.cube.brick.sandy.name=Zanderig Steen
 tile.railcraft.cube.concrete.name=Betonblok
-tile.railcraft.cube.crushed.obsidian.name=Samengedrukte Obsidiaan
+tile.railcraft.cube.crushed.obsidian.name=Samengeperst Obsidiaan
 tile.railcraft.cube.steel.name=Stalen Blok
 tile.railcraft.cube.world.anchor.name=Wereldanker
 
