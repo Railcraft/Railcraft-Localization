@@ -387,6 +387,7 @@ railcraft.gui.filters=篩選
 
 railcraft.gui.goggles.aura.anchor=世界錨範圍
 railcraft.gui.goggles.aura.none=停用
+railcraft.gui.goggles.aura.signalling=信號傳送
 railcraft.gui.goggles.aura.surveying=號誌區塊
 railcraft.gui.goggles.aura.tracking=移動路徑
 railcraft.gui.goggles.aura.tuning=號誌調諧
@@ -1074,3 +1075,5 @@ tile.railcraft.wall.stone.brick.mossy.name=青苔石磚牆
 tile.railcraft.wall.stone.brick.name=石磚牆
 
 tile.railcraft.worldlogic.name=硝石礦生塊磚
+
+tooltip.wawla.tooltype.crowbar=鐵橇
