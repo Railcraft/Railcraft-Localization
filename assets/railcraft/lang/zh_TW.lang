@@ -476,7 +476,7 @@ railcraft.gui.routing.table.manual.page1=當路由表被放在路由偵測器或
 railcraft.gui.routing.table.manual.page2=運算符關鍵字:\n   AND - 兩個運算元，兩者皆必須為「真」\n   OR - 兩個運算元，只有一個必須為「真」\n   NOT - 反轉在其之下的運算元
 railcraft.gui.routing.table.manual.page3=狀況關鍵字:\n   Dest=<字串>\n      如果火車頭的目的地以此字串\n      開頭，則該狀況為「真」\n      "Dest=null" 將會偵測未設定\n      目的地的車輛\n   Owner=<玩家名>\n      如果火車頭屬於該玩家的話\n      該狀況會判定為「真」
 railcraft.gui.routing.table.manual.page4=狀況關鍵字:\n   Name=<實體名稱>\n      當實體名稱與礦車的名稱相同\n      此狀況便為「真」\n      "Name=null" 將會偵測沒有\n      自定義名稱的礦車\n   Type=<模組名:物品名稱>\n      若該名稱與礦車的物品ID相同\n      就會判定此狀況為「真」
-railcraft.gui.routing.table.manual.page5=狀況關鍵字:\n   Rider=<玩家名稱>\n      如果列車載著這個玩家\n      則該狀況為「真」\n   Ridden=<true/false>\n      如果列車上有任何玩家\n      將判定為「真」
+railcraft.gui.routing.table.manual.page5=狀況關鍵字:\n   Riding=<玩家名稱>\n      如果列車載著這個玩家\n      則該狀況為「真」\n   Ridden=<true/false>\n      如果列車上有任何玩家\n      將判定為「真」
 railcraft.gui.routing.table.manual.page6=狀況關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身、底盤顏色與\n      指定顏色相符，該狀況為「真」\n      可用”Any”指定所有顏色\n      顏色: Black(黑), LightGray(淺灰), Gray(灰), Red(紅),\n      Brown(褐), Blue(藍), Purple(紫), Cyan(青), Green(綠),\n      Pink(粉紅), Lime(黃綠), Yellow(黃), LightBlue(淺藍),\n      Magenta(洋紅), Orange(橘), White(白\n   NeedsRefuel=<true/false>\n      若火車頭缺水或燃料不足\n      將會使其改道
 railcraft.gui.routing.table.manual.page7=狀況關鍵字:\n   Redstone=<true/false>\n      如果路由方塊正被紅石充能\n      則該狀況為「真」
 railcraft.gui.routing.table.manual.page8=實例範本:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
