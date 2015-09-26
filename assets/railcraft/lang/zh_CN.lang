@@ -387,8 +387,8 @@ railcraft.gui.filters=过滤
 
 railcraft.gui.goggles.aura.anchor=锚
 railcraft.gui.goggles.aura.none=无
-railcraft.gui.goggles.aura.signalling=Signalling
-railcraft.gui.goggles.aura.surveying=Surveying
+railcraft.gui.goggles.aura.signalling=信号
+railcraft.gui.goggles.aura.surveying=检测
 railcraft.gui.goggles.aura.tracking=踪迹
 railcraft.gui.goggles.aura.tuning=调谐
 railcraft.gui.goggles.mode=当前监视类型: @s
@@ -551,7 +551,7 @@ railcraft.gui.turbine=蒸汽涡轮机
 railcraft.gui.update.message=最新版本Railcraft @s已经可用,欢迎前往<http://railcraft.info>下载.
 
 railcraft.keybind.aura.anchor=锚光环
-railcraft.keybind.aura.surveying=Surveying光环
+railcraft.keybind.aura.surveying=检测光环
 railcraft.keybind.aura.tuning=调谐光环
 
 railcraft.keybind.loco.faster=机车加速
