@@ -21,6 +21,14 @@ command.railcraft.railcraft.debug.tile.desc=- %s : 方块调试工具.
 command.railcraft.railcraft.debug.tile.help=用于调试方块.
 command.railcraft.railcraft.debug.tile.format=格式: /%s x y z
 
+command.railcraft.railcraft.debug.tile.controller.desc=- %s : 控制器调试工具
+command.railcraft.railcraft.debug.tile.controller.help=用于调试信号控制器方块.
+command.railcraft.railcraft.debug.tile.controller.format=格式: /%s x y z
+
+command.railcraft.railcraft.debug.tile.receiver.desc=- %s : 接收器调试工具
+command.railcraft.railcraft.debug.tile.receiver.help=用于调试信号接收器方块.
+command.railcraft.railcraft.debug.tile.receiver.format=格式: /%s x y z
+
 death.railcraft.bore.1=%s阻碍了前进的道路.
 death.railcraft.bore.2=%s试图螳臂当车.
 death.railcraft.bore.3=%s被碾碎了.
@@ -379,6 +387,8 @@ railcraft.gui.filters=过滤
 
 railcraft.gui.goggles.aura.anchor=锚
 railcraft.gui.goggles.aura.none=无
+railcraft.gui.goggles.aura.signalling=信号
+railcraft.gui.goggles.aura.surveying=检测
 railcraft.gui.goggles.aura.tracking=踪迹
 railcraft.gui.goggles.aura.tuning=调谐
 railcraft.gui.goggles.mode=当前监视类型: @s
@@ -529,6 +539,7 @@ railcraft.gui.trade.station.dice.tip=随机交易
 
 railcraft.gui.tuner.abandon.chunk=控制器不在载入区块内,配对失败
 railcraft.gui.tuner.abandon.gone=控制器不存在,配对失败
+railcraft.gui.tuner.abandon.player=放弃配对控制器
 railcraft.gui.tuner.start=开始配对%s到接收器
 railcraft.gui.tuner.stop=停止配对%s到接收器
 railcraft.gui.tuner.success=%1$s成功与%2$s配对
@@ -540,6 +551,7 @@ railcraft.gui.turbine=蒸汽涡轮机
 railcraft.gui.update.message=最新版本Railcraft @s已经可用,欢迎前往<http://railcraft.info>下载.
 
 railcraft.keybind.aura.anchor=锚光环
+railcraft.keybind.aura.surveying=检测光环
 railcraft.keybind.aura.tuning=调谐光环
 
 railcraft.keybind.loco.faster=机车加速
@@ -673,13 +685,13 @@ tile.railcraft.frame.tip=用于将轨道放置在分路线缆上
 tile.railcraft.glass.name=强化玻璃
 
 tile.railcraft.machine.alpha.anchor.admin.name=管理员锚
+tile.railcraft.machine.alpha.anchor.passive.name=被动锚
 tile.railcraft.machine.alpha.anchor.personal.name=个人锚
 tile.railcraft.machine.alpha.anchor.world.name=世界锚
 tile.railcraft.machine.alpha.blast.furnace.name=高炉砖
 tile.railcraft.machine.alpha.blast.furnace.tip=多方块结构:3x4x3(中空)        
 tile.railcraft.machine.alpha.coke.oven.name=焦炉砖
 tile.railcraft.machine.alpha.coke.oven.tip=多方块结构:3x3x3(中空)
-tile.railcraft.machine.epsilon.engraving.bench.name=雕刻桌
 tile.railcraft.machine.alpha.feed.station.name=饲育站
 tile.railcraft.machine.alpha.rock.crusher.name=碎石机
 tile.railcraft.machine.alpha.rock.crusher.tip=多方块结构:3x2x2        
@@ -736,6 +748,7 @@ tile.railcraft.machine.epsilon.electric.feeder.admin.name=管理员电力供给�
 tile.railcraft.machine.epsilon.electric.feeder.admin.tip=提供无限的RC电力
 tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元 
 tile.railcraft.machine.epsilon.electric.feeder.tip=将IC电力转化为RC电力
+tile.railcraft.machine.epsilon.engraving.bench.name=雕刻桌
 tile.railcraft.machine.epsilon.flux.transformer.name=能量流转换机
 tile.railcraft.machine.epsilon.flux.transformer.tip=多方块结构: 2x2x2\n 将RF能量转换为RC电力\n 80%的效率
 tile.railcraft.machine.epsilon.force.track.emitter.name=轨道发射机
@@ -1062,3 +1075,5 @@ tile.railcraft.wall.stone.brick.mossy.name=苔石砖墙
 tile.railcraft.wall.stone.brick.name=石砖墙
 
 tile.railcraft.worldlogic.name=硝石刷新器
+
+tooltip.wawla.tooltype.crowbar=撬棍
