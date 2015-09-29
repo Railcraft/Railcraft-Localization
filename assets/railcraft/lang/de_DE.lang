@@ -772,6 +772,7 @@ tile.railcraft.machine.gamma.unloader.item.name=Itementlader
 tile.railcraft.machine.gamma.unloader.item.tip=Entlädt Items aus Waggons\n§o§c- Platziere unterhalb der Schienen -
 tile.railcraft.machine.gamma.unloader.liquid.name=Flüssigkeitsentlader
 tile.railcraft.machine.gamma.unloader.liquid.tip=Entlädt Flüssigkeiten aus Waggons\n§o§c- Platziere unterhalb der Schienen -
+tile.railcraft.machine.gamma.anchor.community.name=Gemeinschafts-Anker
 
 tile.railcraft.ore.dark.diamond.name=Dunkles Diamanterz
 tile.railcraft.ore.dark.emerald.name=Dunkles Smaragderz

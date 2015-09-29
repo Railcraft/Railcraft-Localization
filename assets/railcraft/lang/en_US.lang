@@ -772,6 +772,7 @@ tile.railcraft.machine.gamma.unloader.item.name=Item Unloader
 tile.railcraft.machine.gamma.unloader.item.tip=Unloads Items from Carts\n§o§c- Place under Track -
 tile.railcraft.machine.gamma.unloader.liquid.name=Fluid Unloader
 tile.railcraft.machine.gamma.unloader.liquid.tip=Unloads Fluids from Carts\n§o§c- Place under Track -
+tile.railcraft.machine.gamma.anchor.community.name=Community Anchor
 
 tile.railcraft.ore.dark.diamond.name=Dark Diamond Ore
 tile.railcraft.ore.dark.emerald.name=Dark Emerald Ore
