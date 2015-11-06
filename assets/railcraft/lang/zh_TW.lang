@@ -35,10 +35,9 @@ death.railcraft.bore.4=%s 以為自己比約翰·亨利厲害
 death.railcraft.bore.5=%s 陷入了進退維谷的境地
 death.railcraft.bore.6=%s 在工程中站錯位置
 
-
 death.railcraft.crusher.1=%s 於重型機械附近失足
 death.railcraft.crusher.2=%s 不是鋼鐵之軀，他和我們一樣被粉碎
-death.railcraft.crusher.3=%s 凝視著深淵，然後滑倒了
+death.railcraft.crusher.3=%s 凝視著深淵，然後滑倒
 death.railcraft.crusher.4=%s 又要重新整裝出發
 death.railcraft.crusher.5=%s 沒看到"小心步伐!"告示牌
 death.railcraft.crusher.6=現已推出! %s 的鮮血果凍
@@ -75,6 +74,7 @@ entity.Railcraft.cart.anchor.name=世界錨車
 entity.Railcraft.cart.anchor.personal.name=私人錨車
 entity.Railcraft.cart.basic.name=礦車
 entity.Railcraft.cart.bore.name=隧道鑽掘機
+entity.Railcraft.cart.cargo.name=貨物礦車
 entity.Railcraft.cart.chest.name=運輸礦車
 entity.Railcraft.cart.energy.batbox.name=電池車
 entity.Railcraft.cart.energy.cesu.name=CESU儲電車
@@ -127,6 +127,7 @@ item.railcraft.cart.anchor.name=世界錨車
 item.railcraft.cart.anchor.personal.name=私人錨車
 item.railcraft.cart.basic.name=礦車
 item.railcraft.cart.bore.name=隧道鑽掘機
+item.railcraft.cart.cargo.name=貨物礦車
 item.railcraft.cart.chest.name=運輸礦車
 item.railcraft.cart.energy.batbox.name=電池車
 item.railcraft.cart.energy.cesu.name=CESU儲電車
@@ -255,7 +256,7 @@ railcraft.color.green=綠色
 railcraft.color.light.blue=淺藍色
 railcraft.color.light.gray=淺灰色
 railcraft.color.lime=淺綠色
-railcraft.color.magenta=桃紅色
+railcraft.color.magenta=洋紅色
 railcraft.color.orange=橘色
 railcraft.color.pink=粉紅色
 railcraft.color.purple=紫色
@@ -324,10 +325,10 @@ railcraft.gui.box.controller.aspect.redstone=充能信號:
 
 railcraft.gui.cart.tnt.fuse=導火線
 railcraft.gui.cart.track.relayer.pattern=樣式
-railcraft.gui.cart.track.relayer.stock=庫存
+railcraft.gui.cart.track.relayer.stock=存量
 railcraft.gui.cart.undercutter.pattern=樣式
 railcraft.gui.cart.undercutter.sides=側邊
-railcraft.gui.cart.undercutter.stock=庫存
+railcraft.gui.cart.undercutter.stock=存量
 railcraft.gui.cart.undercutter.under=底下
 
 railcraft.gui.coke.oven=焦炭爐
@@ -387,7 +388,7 @@ railcraft.gui.filters=篩選
 
 railcraft.gui.goggles.aura.anchor=世界錨範圍
 railcraft.gui.goggles.aura.none=停用
-railcraft.gui.goggles.aura.signalling=信號傳送
+railcraft.gui.goggles.aura.signalling=信號途徑
 railcraft.gui.goggles.aura.surveying=號誌區塊
 railcraft.gui.goggles.aura.tracking=移動路徑
 railcraft.gui.goggles.aura.tuning=號誌調諧
@@ -476,8 +477,8 @@ railcraft.gui.routing.table.manual.page1=當路由表被放在路由偵測器或
 railcraft.gui.routing.table.manual.page2=運算符關鍵字:\n   AND - 兩個運算元，兩者皆必須為「真」\n   OR - 兩個運算元，只有一個必須為「真」\n   NOT - 反轉在其之下的運算元
 railcraft.gui.routing.table.manual.page3=狀況關鍵字:\n   Dest=<字串>\n      如果火車頭的目的地以此字串\n      開頭，則該狀況為「真」\n      "Dest=null" 將會偵測未設定\n      目的地的車輛\n   Owner=<玩家名>\n      如果火車頭屬於該玩家的話\n      該狀況會判定為「真」
 railcraft.gui.routing.table.manual.page4=狀況關鍵字:\n   Name=<實體名稱>\n      當實體名稱與礦車的名稱相同\n      此狀況便為「真」\n      "Name=null" 將會偵測沒有\n      自定義名稱的礦車\n   Type=<模組名:物品名稱>\n      若該名稱與礦車的物品ID相同\n      就會判定此狀況為「真」
-railcraft.gui.routing.table.manual.page5=狀況關鍵字:\n   Riding=<玩家名稱>\n      如果列車載著這個玩家\n      則該狀況為「真」\n   Ridden=<true/false>\n      如果列車上有任何玩家\n      將判定為「真」
-railcraft.gui.routing.table.manual.page6=狀況關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身、底盤顏色與\n      指定顏色相符，該狀況為「真」\n      可用”Any”指定所有顏色\n      顏色: Black(黑), LightGray(淺灰), Gray(灰), Red(紅),\n      Brown(褐), Blue(藍), Purple(紫), Cyan(青), Green(綠),\n      Pink(粉紅), Lime(黃綠), Yellow(黃), LightBlue(淺藍),\n      Magenta(洋紅), Orange(橘), White(白\n   NeedsRefuel=<true/false>\n      若火車頭缺水或燃料不足\n      將會使其改道
+railcraft.gui.routing.table.manual.page5=狀況關鍵字:\n   Riding=<玩家名>\n      如果列車載著這個玩家\n      則該狀況為「真」\n   Ridden=<true/false>\n      如果列車上有任何玩家\n      將判定為「真」
+railcraft.gui.routing.table.manual.page6=狀況關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身、底盤顏色與\n      指定顏色相符，該狀況為「真」\n      可用”Any”指定所有顏色\n      顏色: Black(黑), LightGray(淺灰), Gray(灰), Red(紅),\n      Brown(褐), Blue(藍), Purple(紫), Cyan(青), Green(綠),\n      Pink(粉紅), Lime(黃綠), Yellow(黃), LightBlue(淺藍),\n      Magenta(洋紅), Orange(橘), White(白)\n   NeedsRefuel=<true/false>\n      若火車頭缺水或燃料不足\n      將會使其改道
 railcraft.gui.routing.table.manual.page7=狀況關鍵字:\n   Redstone=<true/false>\n      如果路由方塊正被紅石充能\n      則該狀況為「真」
 railcraft.gui.routing.table.manual.page8=實例範本:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
 railcraft.gui.routing.table.manual.page9=效果:\n   上一頁的例子中將會偵測一台\n   以"TheFarLands/Milliways"為目的地\n   或是被漆成紅色和黑色，抑或是即將\n   開往"SecretHideout/OceanEntrance"的火車頭\n   但是都會忽略屬於RichardG的火車頭
@@ -674,7 +675,7 @@ tile.railcraft.detector.tank.name=偵測器 - 蓄水
 tile.railcraft.detector.train.name=偵測器 - 列車
 tile.railcraft.detector.villager.name=偵測器 - 村民
 
-tile.railcraft.firestone.recharge.name=儲存能量中的火石
+tile.railcraft.firestone.recharge.name=蓄能中的火石
 
 tile.railcraft.fluid.creosote.name=雜酚油
 tile.railcraft.fluid.steam.name=蒸氣
