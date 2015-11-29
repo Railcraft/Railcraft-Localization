@@ -1046,6 +1046,8 @@ tile.railcraft.track.whistle.name=Whistle Track
 tile.railcraft.track.whistle.tip=Passing Locomotives\n will blow their Whistle\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.wye.name=Wye Track
 tile.railcraft.track.wye.tip=§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.autolococoupler.name=Automatic Locomotive Coupler
+tile.railcraft.track.autolococoupler.tip=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- Apply Redstone to enable -
 
 tile.railcraft.wall.abyssal.brick.name=Abyssal Brick Wall
 tile.railcraft.wall.bleachedbone.brick.name=Bleached Bone Brick Wall
