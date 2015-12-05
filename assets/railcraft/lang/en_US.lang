@@ -511,6 +511,7 @@ railcraft.gui.surveyor.unloaded=First Signal is not in a loaded Chunk
 railcraft.gui.surveyor.wrong=Not a valid Block Signal
 
 railcraft.gui.switch.motor.action=Switch on Aspect
+railcraft.gui.switchmotor.button.redstone=redstone signal
 
 railcraft.gui.tank.iron=Iron Tank
 railcraft.gui.tank.steel=Steel Tank
