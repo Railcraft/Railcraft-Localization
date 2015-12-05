@@ -1,5 +1,30 @@
 chat.railcraft.api.error=Error: Outdated API, please check your log for more info.
 
+command.railcraft.aliases=Aliases: %s
+command.railcraft.help=Type '%s' for help.
+command.railcraft.list=Available Sub-Commands:
+command.railcraft.permlevel=Permission Level: %s
+command.railcraft.noperms=You do not have permission to use this command.
+
+command.railcraft.railcraft.help=Various commands for Railcraft
+command.railcraft.railcraft.format=Format: /%s <sub-command>
+
+command.railcraft.railcraft.debug.desc=- %s : Debug Tools
+command.railcraft.railcraft.debug.help=Tools for debugging difficult issues.
+command.railcraft.railcraft.debug.format=Format: /%s
+
+command.railcraft.railcraft.debug.tile.desc=- %s : Tile Debug Tools
+command.railcraft.railcraft.debug.tile.help=Tools for debugging tiles.
+command.railcraft.railcraft.debug.tile.format=Format: /%s x y z
+
+command.railcraft.railcraft.debug.tile.controller.desc=- %s : Controller Debug Tools
+command.railcraft.railcraft.debug.tile.controller.help=Tools for debugging Controller tiles.
+command.railcraft.railcraft.debug.tile.controller.format=Format: /%s x y z
+
+command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Receiver Debug Tools
+command.railcraft.railcraft.debug.tile.receiver.help=Tools for debugging Receiver tiles.
+command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s x y z
+
 death.railcraft.bore.1=%s got in the way of progress
 death.railcraft.bore.2=%s tried to stop the Bore
 death.railcraft.bore.3=%s was crushed by the Bore
@@ -46,6 +71,7 @@ entity.Railcraft.cart.anchor.name=Anchor Cart
 entity.Railcraft.cart.anchor.personal.name=Personal Anchor Cart
 entity.Railcraft.cart.basic.name=Minecart
 entity.Railcraft.cart.bore.name=Tunnel Bore
+entity.Railcraft.cart.cargo.name=Cargo Cart
 entity.Railcraft.cart.chest.name=Chest Cart
 entity.Railcraft.cart.energy.batbox.name=Batbox Cart
 entity.Railcraft.cart.energy.cesu.name=CESU Cart
@@ -98,6 +124,7 @@ item.railcraft.cart.anchor.name=Anchor Cart
 item.railcraft.cart.anchor.personal.name=Personal Anchor Cart
 item.railcraft.cart.basic.name=Minecart
 item.railcraft.cart.bore.name=Tunnel Bore
+item.railcraft.cart.cargo.name=Cargo Cart
 item.railcraft.cart.chest.name=Chest Cart
 item.railcraft.cart.energy.batbox.name=Batbox Cart
 item.railcraft.cart.energy.cesu.name=CESU Cart
@@ -358,6 +385,8 @@ railcraft.gui.filters=Filters
 
 railcraft.gui.goggles.aura.anchor=Anchor
 railcraft.gui.goggles.aura.none=None
+railcraft.gui.goggles.aura.signalling=Signalling
+railcraft.gui.goggles.aura.surveying=Surveying
 railcraft.gui.goggles.aura.tracking=Tracking
 railcraft.gui.goggles.aura.tuning=Tuning
 railcraft.gui.goggles.mode=Current Aura: @s
@@ -426,9 +455,9 @@ railcraft.gui.locomotive.tip.item.secondary=§oSecondary Color:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oWhistle Pitch:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Insert Ticket
 
-railcraft.gui.mag.glass.aspect=The signal aspect is @s
-railcraft.gui.mag.glass.aspect.dual=The signal aspect is @1$sat top and @2$sat bottom
-railcraft.gui.mag.glass.placedby=@1$s was placed by @2$s
+railcraft.gui.mag.glass.aspect=The signal aspect is %s
+railcraft.gui.mag.glass.aspect.dual=The signal aspect is %1$s at top and %2$s at bottom
+railcraft.gui.mag.glass.placedby=%1$s was placed by %2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-click to craft-
 
@@ -445,7 +474,7 @@ railcraft.gui.routing.table.manual.page1=The Routing Table when placed in a Rout
 railcraft.gui.routing.table.manual.page2=Operator Keywords:\n   AND - Two Operands, both must be true.\n   OR - Two Operands, one must be true.\n   NOT - Invert the following Operand.
 railcraft.gui.routing.table.manual.page3=Condition Keywords:\n   Dest=<string>\n      If the Locomotive's Destination\n      string starts with this string,\n      the condition is true.\n      "Dest=null" will match carts\n      with no destination.\n   Owner=<username>\n      True if the Locomotive belongs\n      to this person.
 railcraft.gui.routing.table.manual.page4=Condition Keywords:\n   Name=<entityname>\n      True if it matches the\n      Minecart's name.\n      "Name=null" will match carts\n      with no custom name.\n   Type=<modid:itemname>\n      True if it matches the\n      Minecart's item name.
-railcraft.gui.routing.table.manual.page5=Condition Keywords:\n   Rider=<username>\n      True if the Train is ridden\n      by this person.\n   Ridden=<true/false>\n      True if the Train is\n      being ridden by a player.
+railcraft.gui.routing.table.manual.page5=Condition Keywords:\n   Riding=<username>\n      True if the Train is ridden\n      by this person.\n   Ridden=<true/false>\n      True if the Train is\n      being ridden by a player.
 railcraft.gui.routing.table.manual.page6=Condition Keywords:\n   Color=<primary>,<secondary>\n      True if the Locomotive's primary\n      and secondary colors match.\n      Accepts "Any" as a wildcard.\n      Colors: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White\n   NeedsRefuel=<true/false>\n      If the Locomotive is low on Fuel\n      or Water this will divert it.
 railcraft.gui.routing.table.manual.page7=Condition Keywords:\n   Redstone=<true/false>\n      True if the Routing Block\n      is being powered by Redstone.
 railcraft.gui.routing.table.manual.page8=Example Script:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
@@ -477,7 +506,7 @@ railcraft.gui.surveyor.begin=Beginning Signal Block Survey
 railcraft.gui.surveyor.invalid=Signal Block is not valid
 railcraft.gui.surveyor.lost=First Signal no longer exists, abandoning Survey
 railcraft.gui.surveyor.success=Successfully defined Signal Block
-railcraft.gui.surveyor.track=No track found near @s
+railcraft.gui.surveyor.track=No track found near %s
 railcraft.gui.surveyor.unloaded=First Signal is not in a loaded Chunk
 railcraft.gui.surveyor.wrong=Not a valid Block Signal
 
@@ -508,9 +537,10 @@ railcraft.gui.trade.station.dice.tip=Random Trade
 
 railcraft.gui.tuner.abandon.chunk=Controller is not in a loaded Chunk, abandoning pairing
 railcraft.gui.tuner.abandon.gone=Controller no longer exists, abandoning pairing
-railcraft.gui.tuner.start=Started pairing @s with a Receiver
-railcraft.gui.tuner.stop=Stopped pairing @s with a Receiver
-railcraft.gui.tuner.success=@1$s successfully paired with @2$s
+railcraft.gui.tuner.abandon.player=Controller pairing Abandoned
+railcraft.gui.tuner.start=Started pairing %s with a Receiver
+railcraft.gui.tuner.stop=Stopped pairing %s with a Receiver
+railcraft.gui.tuner.success=%1$s successfully paired with %2$s
 
 railcraft.gui.turbine.output=Output: @d%%
 railcraft.gui.turbine.rotor=Rotor:
@@ -519,6 +549,7 @@ railcraft.gui.turbine=Steam Turbine
 railcraft.gui.update.message=Railcraft @s is available from <http://railcraft.info>
 
 railcraft.keybind.aura.anchor=Anchor Aura
+railcraft.keybind.aura.surveying=Surveying Aura
 railcraft.keybind.aura.tuning=Tuning Aura
 
 railcraft.keybind.loco.faster=Locomotive Faster
@@ -530,9 +561,9 @@ railcraft.locomotive.model.electric.default.name=Standard Electric
 railcraft.locomotive.model.steam.magic.default.name=Standard Magic
 railcraft.locomotive.model.steam.solid.default.name=Standard Solid
 
-railcraft.multiblock.state.invalid.entity=Entity in the way: @s
-railcraft.multiblock.state.invalid.pattern=Does not match pattern: @s
-railcraft.multiblock.state.unknown.unloaded=Part of the structure is not loaded: @s
+railcraft.multiblock.state.invalid.entity=Entity in the way: %s
+railcraft.multiblock.state.invalid.pattern=Does not match pattern: %s
+railcraft.multiblock.state.unknown.unloaded=Part of the structure is not loaded: %s
 railcraft.multiblock.state.valid=Structure is valid
 
 tc.research_category.RAILCRAFT=Traheremagy
@@ -652,13 +683,13 @@ tile.railcraft.frame.tip=Use to place Track on Shunting Wire
 tile.railcraft.glass.name=Strengthened Glass
 
 tile.railcraft.machine.alpha.anchor.admin.name=Admin Anchor
+tile.railcraft.machine.alpha.anchor.passive.name=Passive Anchor
 tile.railcraft.machine.alpha.anchor.personal.name=Personal Anchor
 tile.railcraft.machine.alpha.anchor.world.name=World Anchor
 tile.railcraft.machine.alpha.blast.furnace.name=Blast Furnace Brick
 tile.railcraft.machine.alpha.blast.furnace.tip=Multi-Block: 3x4x3 (Hollow)
 tile.railcraft.machine.alpha.coke.oven.name=Coke Oven Brick
 tile.railcraft.machine.alpha.coke.oven.tip=Multi-Block: 3x3x3 (Hollow)
-tile.railcraft.machine.alpha.engraving.bench.name=Engraving Bench
 tile.railcraft.machine.alpha.feed.station.name=Feed Station
 tile.railcraft.machine.alpha.rock.crusher.name=Rock Crusher
 tile.railcraft.machine.alpha.rock.crusher.tip=Multi-Block: 3x2x2
@@ -715,6 +746,7 @@ tile.railcraft.machine.epsilon.electric.feeder.admin.name=Admin Feeder Unit
 tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Provides Unlimited Railcraft Charge
 tile.railcraft.machine.epsilon.electric.feeder.name=Electric Feeder Unit
 tile.railcraft.machine.epsilon.electric.feeder.tip=Converts IndustrialCraft\n Electricity to Railcraft Charge
+tile.railcraft.machine.epsilon.engraving.bench.name=Engraving Bench
 tile.railcraft.machine.epsilon.flux.transformer.name=Flux Transformer
 tile.railcraft.machine.epsilon.flux.transformer.tip=Multi-Block: 2x2x2\n Converts Redstone Flux to Railcraft Charge\n 80% Efficiency
 tile.railcraft.machine.epsilon.force.track.emitter.name=Force Track Emitter
@@ -765,7 +797,7 @@ tile.railcraft.post.metal.light.blue.name=Light Blue Metal Post
 tile.railcraft.post.metal.light.gray.name=Light Gray Metal Post
 tile.railcraft.post.metal.lime.name=Lime Metal Post
 tile.railcraft.post.metal.magenta.name=Magenta Metal Post
-tile.railcraft.post.metal.name=Metal Post
+tile.railcraft.post.metal.unpainted.name=Metal Post
 tile.railcraft.post.metal.orange.name=Orange Metal Post
 tile.railcraft.post.metal.pink.name=Pink Metal Post
 tile.railcraft.post.metal.platform.black.name=Black Metal Platform
@@ -778,7 +810,7 @@ tile.railcraft.post.metal.platform.light.blue.name=Light Blue Metal Platform
 tile.railcraft.post.metal.platform.light.gray.name=Light Gray Metal Platform
 tile.railcraft.post.metal.platform.lime.name=Lime Metal Platform
 tile.railcraft.post.metal.platform.magenta.name=Magenta Metal Platform
-tile.railcraft.post.metal.platform.name=Metal Platform
+tile.railcraft.post.metal.platform.unpainted.name=Metal Platform
 tile.railcraft.post.metal.platform.orange.name=Orange Metal Platform
 tile.railcraft.post.metal.platform.pink.name=Pink Metal Platform
 tile.railcraft.post.metal.platform.purple.name=Purple Metal Platform
@@ -1041,3 +1073,5 @@ tile.railcraft.wall.stone.brick.mossy.name=Mossy Stone Brick Wall
 tile.railcraft.wall.stone.brick.name=Stone Brick Wall
 
 tile.railcraft.worldlogic.name=Saltpeter Ore Spawner
+
+tooltip.wawla.tooltype.crowbar=Crowbar

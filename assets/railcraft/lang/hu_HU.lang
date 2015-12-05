@@ -426,9 +426,9 @@ railcraft.gui.locomotive.tip.item.secondary=§oMásodlagos szín:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oSíp hangmagassága:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Jegy behelyezése
 
-railcraft.gui.mag.glass.aspect=A jel aspektusa:  @s
-railcraft.gui.mag.glass.aspect.dual=A jel aspektusa legfeljebb @1$s legalább @2$s
-railcraft.gui.mag.glass.placedby=@1$s tárgyat ő helyezte ide: @2$s
+railcraft.gui.mag.glass.aspect=A jel aspektusa:  %s
+railcraft.gui.mag.glass.aspect.dual=A jel aspektusa legfeljebb %1$s legalább %2$s
+railcraft.gui.mag.glass.placedby=%1$s tárgyat ő helyezte ide: %2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o--kattint a craft-oláshoz--
 
@@ -471,7 +471,7 @@ railcraft.gui.surveyor.begin=A jelzés-blokk áttekintésének megkezdése
 railcraft.gui.surveyor.invalid=Nem érvényes jelzés-blokk
 railcraft.gui.surveyor.lost=Az első jelzés nem létezik többé, az áttekintés elhagyása
 railcraft.gui.surveyor.success=Sikeresen definiált Jelzés-blokk
-railcraft.gui.surveyor.track=Nem található sínpár a következő közelében: @s
+railcraft.gui.surveyor.track=Nem található sínpár a következő közelében: %s
 railcraft.gui.surveyor.unloaded=Az első jel egy nem betöltött chunk-ban van.
 railcraft.gui.surveyor.wrong=Nem érvényes blokk-jelzés
 
@@ -502,9 +502,9 @@ railcraft.gui.trade.station.dice.tip=Véletlenszerű kereskedelem
 
 railcraft.gui.tuner.abandon.chunk=Az irányító nem betöltött chunk-ban van, ezért a kapcsolat megszűnik
 railcraft.gui.tuner.abandon.gone=Az irányító már nem létezik, kapcsolat megszüntetése
-railcraft.gui.tuner.start= @s megkezdte a kapcsolatot a vevővel 
-railcraft.gui.tuner.stop= @s kapcsolata megszakadt a vevővel
-railcraft.gui.tuner.success=@1$s sikeresen összepárosítva a következővel @2$s
+railcraft.gui.tuner.start= %s megkezdte a kapcsolatot a vevővel 
+railcraft.gui.tuner.stop= %s kapcsolata megszakadt a vevővel
+railcraft.gui.tuner.success=%1$s sikeresen összepárosítva a következővel %2$s
 
 railcraft.gui.turbine.output=Kimenet: @d%%
 railcraft.gui.turbine.rotor=Rotor:
@@ -522,9 +522,9 @@ railcraft.locomotive.model.electric.default.name=Szabvány elektronika
 railcraft.locomotive.model.steam.magic.default.name=Szabvány varázslat
 railcraft.locomotive.model.steam.solid.default.name=Szabvány tömörség
 
-railcraft.multiblock.state.invalid.entity=Úton lévő entitás: @s
-railcraft.multiblock.state.invalid.pattern=Nem passzol a mintával: @s
-railcraft.multiblock.state.unknown.unloaded=A szerkezet egy része nincs betöltve: @s
+railcraft.multiblock.state.invalid.entity=Úton lévő entitás: %s
+railcraft.multiblock.state.invalid.pattern=Nem passzol a mintával: %s
+railcraft.multiblock.state.unknown.unloaded=A szerkezet egy része nincs betöltve: %s
 railcraft.multiblock.state.valid=Érvényes szerkezet
 
 tc.research_category.RAILCRAFT=Titánmágia
@@ -647,7 +647,7 @@ tile.railcraft.machine.alpha.blast.furnace.name=Blast Furnace Brick
 tile.railcraft.machine.alpha.blast.furnace.tip=Multi-Block: 3x4x3 (Hollow)
 tile.railcraft.machine.alpha.coke.oven.name=Coke Oven Brick
 tile.railcraft.machine.alpha.coke.oven.tip=Multi-Block: 3x3x3 (Hollow)
-tile.railcraft.machine.alpha.engraving.bench.name=Engraving Bench
+tile.railcraft.machine.epsilon.engraving.bench.name=Engraving Bench
 tile.railcraft.machine.alpha.feed.station.name=Feed Station
 tile.railcraft.machine.alpha.rock.crusher.name=Rock Crusher
 tile.railcraft.machine.alpha.rock.crusher.tip=Multi-Block: 3x2x2
@@ -754,7 +754,7 @@ tile.railcraft.post.metal.light.blue.name=Light Blue Metal Post
 tile.railcraft.post.metal.light.gray.name=Light Gray Metal Post
 tile.railcraft.post.metal.lime.name=Lime Metal Post
 tile.railcraft.post.metal.magenta.name=Magenta Metal Post
-tile.railcraft.post.metal.name=Metal Post
+tile.railcraft.post.metal.unpainted.name=Metal Post
 tile.railcraft.post.metal.orange.name=Orange Metal Post
 tile.railcraft.post.metal.pink.name=Pink Metal Post
 tile.railcraft.post.metal.platform.black.name=Black Metal Platform
@@ -767,7 +767,7 @@ tile.railcraft.post.metal.platform.light.blue.name=Light Blue Metal Platform
 tile.railcraft.post.metal.platform.light.gray.name=Light Gray Metal Platform
 tile.railcraft.post.metal.platform.lime.name=Lime Metal Platform
 tile.railcraft.post.metal.platform.magenta.name=Magenta Metal Platform
-tile.railcraft.post.metal.platform.name=Metal Platform
+tile.railcraft.post.metal.platform.unpainted.name=Metal Platform
 tile.railcraft.post.metal.platform.orange.name=Orange Metal Platform
 tile.railcraft.post.metal.platform.pink.name=Pink Metal Platform
 tile.railcraft.post.metal.platform.purple.name=Purple Metal Platform

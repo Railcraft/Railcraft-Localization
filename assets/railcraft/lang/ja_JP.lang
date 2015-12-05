@@ -195,7 +195,7 @@ tile.railcraft.post.metal.purple.name=紫色の金属支柱
 tile.railcraft.post.metal.red.name=赤色の金属支柱
 tile.railcraft.post.metal.white.name=白色の金属支柱
 tile.railcraft.post.metal.yellow.name=黄色の金属支柱
-tile.railcraft.post.metal.name=金属の支柱
+tile.railcraft.post.metal.unpainted.name=金属の支柱
 tile.railcraft.post.stone.name=石の支柱
 tile.railcraft.post.wood.name=木の支柱
 

@@ -1,5 +1,30 @@
 chat.railcraft.api.error=Error: Veraltete API, bitte überprüfe das Log für mehr Info.
 
+command.railcraft.aliases=Aliase: %s
+command.railcraft.help=Gib für weitere Hilfe '%s' ein.
+command.railcraft.list=Verfügbare Sub-Befehle:
+command.railcraft.permlevel=Berechtigungslevel: %s
+command.railcraft.noperms=Du hast nicht die erforderlichen Berechtigungen, um diesen Befehl zu verwenden.
+
+command.railcraft.railcraft.help=Verschiedene Befehle für Railcraft
+command.railcraft.railcraft.format=Format: /%s <Sub-Befehl>
+
+command.railcraft.railcraft.debug.desc=- %s : Debug-Werkzeug
+command.railcraft.railcraft.debug.help=Werkzeuge, um schwierigen Problemen nachzugehen.
+command.railcraft.railcraft.debug.format=Format: /%s
+
+command.railcraft.railcraft.debug.tile.desc=- %s : Tile-Debug-Werkzeug
+command.railcraft.railcraft.debug.tile.help=Werkzeug zum Überprüfen von Tiles.
+command.railcraft.railcraft.debug.tile.format=Format: /%s x y z
+
+command.railcraft.railcraft.debug.tile.controller.desc=- %s : Controller-Debug-Werkzeug
+command.railcraft.railcraft.debug.tile.controller.help=Wergzeug zum Überprüfen von Controller-Tiles.
+command.railcraft.railcraft.debug.tile.controller.format=Format: /%s x y z
+
+command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Empfänger-Debug-Werkzeug
+command.railcraft.railcraft.debug.tile.receiver.help=Wergzeug zum Überprüfen von Empfänger-Tiles.
+command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s x y z
+
 death.railcraft.bore.1=%s war dem Fortschritt im Weg
 death.railcraft.bore.2=%s legte sich mit einem Bohrkopf an und verlor
 death.railcraft.bore.3=%s wurde von einem Bohrer zerquetscht
@@ -41,11 +66,12 @@ enchantment.railcraft.crowbar.destruction=Zerstörung
 enchantment.railcraft.crowbar.implosion=Implosion
 enchantment.railcraft.crowbar.wrecking=Zertrümmern
 
-entity.Railcraft.cart.anchor.name=Ankerwaggon
 entity.Railcraft.cart.anchor.admin.name=Admin-Ankerwaggon
+entity.Railcraft.cart.anchor.name=Ankerwaggon
 entity.Railcraft.cart.anchor.personal.name=Persönlicher Ankerwaggon
 entity.Railcraft.cart.basic.name=Lore
 entity.Railcraft.cart.bore.name=Tunnelbohrer
+entity.Railcraft.cart.cargo.name=Frachtwaggon
 entity.Railcraft.cart.chest.name=Güterwaggon
 entity.Railcraft.cart.energy.batbox.name=Batbox-Waggon
 entity.Railcraft.cart.energy.cesu.name=CESU-Waggon
@@ -93,11 +119,12 @@ item.railcraft.borehead.diamond.name=Diamantbohrkopf
 item.railcraft.borehead.iron.name=Eisenbohrkopf
 item.railcraft.borehead.steel.name=Stahlbohrkopf
 
-item.railcraft.cart.anchor.name=Ankerwaggon
 item.railcraft.cart.anchor.admin.name=Admin-Ankerwaggon
+item.railcraft.cart.anchor.name=Ankerwaggon
 item.railcraft.cart.anchor.personal.name=Persönlicher Ankerwaggon
 item.railcraft.cart.basic.name=Lore
 item.railcraft.cart.bore.name=Tunnelbohrer
+item.railcraft.cart.cargo.name=Frachtwaggon
 item.railcraft.cart.chest.name=Güterwaggon
 item.railcraft.cart.energy.batbox.name=Batbox-Waggon
 item.railcraft.cart.energy.cesu.name=CESU-Waggon
@@ -131,15 +158,15 @@ item.railcraft.dust.sulfur.name=Schwefel
 item.railcraft.emblem.name=Emblem
 
 item.railcraft.firestone.cracked.name=Rissiger Flammstein
-item.railcraft.firestone.cracked.tip.empty=Beschädigt, aber er\n könnte noch immer nützlich sein,\n wenn du ihn wiederaufladen könntest...
 item.railcraft.firestone.cracked.tip.charged=Hitze verlierend,\n kann er noch immer genutzt werden,\n wenn du vorsichtig bist...
+item.railcraft.firestone.cracked.tip.empty=Beschädigt, aber er\n könnte noch immer nützlich sein,\n wenn du ihn wiederaufladen könntest...
 item.railcraft.firestone.cut.name=Geschliffener Flammstein
 item.railcraft.firestone.cut.tip=Beruhige seine außer Kontrolle\n geratenen Energien...
 item.railcraft.firestone.raw.name=Roher Flammstein
 item.railcraft.firestone.raw.tip=Er regt sich in deiner Hand,\n du kannst es in der dir\n nahen Luft fühlen...
 item.railcraft.firestone.refined.name=Raffinierter Flammstein
-item.railcraft.firestone.refined.tip.empty=Seine Energien kontrolliert;\n er könnte nützlich sein,\n wenn du ihn wieder aufladen könntest...
 item.railcraft.firestone.refined.tip.charged=Gefüllt mit Energie;\n du brauchst nur deinen\n Willen anstrengen, um\n massive Hitze freizulassen...
+item.railcraft.firestone.refined.tip.empty=Seine Energien kontrolliert;\n er könnte nützlich sein,\n wenn du ihn wieder aufladen könntest...
 
 item.railcraft.fluid.creosote.bottle.name=Teerölflasche
 item.railcraft.fluid.creosote.bucket.name=Teeröleimer
@@ -194,8 +221,8 @@ item.railcraft.routing.table.name=Streckenplan
 item.railcraft.routing.ticket.gold.name=Goldenes Eisenbahnticket
 item.railcraft.routing.ticket.name=Eisenbahnticket
 
-item.railcraft.tool.crowbar.name=Brecheisen
 item.railcraft.tool.crowbar.magic.name=Thaumiumbrecheisen
+item.railcraft.tool.crowbar.name=Brecheisen
 item.railcraft.tool.crowbar.reinforced.name=Verstärktes Brecheisen
 item.railcraft.tool.crowbar.tip=§oRechtsklicke schleichend, um Waggons zu verbinden
 item.railcraft.tool.crowbar.void.name=Leermetallbrecheisen
@@ -246,15 +273,15 @@ railcraft.gates.trigger.aspect.yellow=Gelbes Signal
 railcraft.gates.trigger.cart=Hat Waggon
 railcraft.gates.trigger.engine.blue=Motorträger blau
 railcraft.gates.trigger.engine.green=Motorträger grün
-railcraft.gates.trigger.engine.yellow=Motorträger gelb
 railcraft.gates.trigger.engine.orange=Motorträger orange
 railcraft.gates.trigger.engine.red=Motorträger rot
+railcraft.gates.trigger.engine.yellow=Motorträger gelb
 railcraft.gates.trigger.fuel=Niedriger Treibstoffvorrat
 railcraft.gates.trigger.maintenance=benötigt Wartung
-railcraft.gates.trigger.work=Hat Arbeit
 railcraft.gates.trigger.temp.cold=Kalt
-railcraft.gates.trigger.temp.warm=Warm
 railcraft.gates.trigger.temp.hot=Heiß
+railcraft.gates.trigger.temp.warm=Warm
+railcraft.gates.trigger.work=Hat Arbeit
 
 railcraft.gui.anchor.fuel.remaining=@.2f Stunden
 railcraft.gui.anchor.fuel=Enderperlen
@@ -316,18 +343,18 @@ railcraft.gui.detector.item.less_than=Weniger als
 railcraft.gui.detector.item.not_empty=nicht Leer
 railcraft.gui.detector.loco.primary=Primärfarbe
 railcraft.gui.detector.loco.secondary=Sekundärfarbe
-railcraft.gui.detector.tank.tip.void=Entspricht beliebiger Menge
+railcraft.gui.detector.tank.tip.analog=Sende Analoges Redstone\n basierend auf der Menge im Tank
 railcraft.gui.detector.tank.tip.empty=Entspricht leerem Tank
-railcraft.gui.detector.tank.tip.not.empty=Entspricht nicht leerem Tank
 railcraft.gui.detector.tank.tip.full=Entspricht vollem Tank
-railcraft.gui.detector.tank.tip.quarter=Entspricht mehr als ein Viertel gefüllten Tanks
 railcraft.gui.detector.tank.tip.half=Entspricht mehr als halb gefüllten Tanks
-railcraft.gui.detector.tank.tip.most=Entspricht mehr als drei Viertel gefüllten Tanks
-railcraft.gui.detector.tank.tip.less.than.quarter=Entspricht weniger als ein Viertel gefüllten Tanks
+railcraft.gui.detector.tank.tip.less.than.full=Entspricht weniger als vollen Tanks
 railcraft.gui.detector.tank.tip.less.than.half=Entspricht weniger als halb gefüllten Tanks
 railcraft.gui.detector.tank.tip.less.than.most=Entspricht weniger als drei Viertel gefüllten Tanks
-railcraft.gui.detector.tank.tip.less.than.full=Entspricht weniger als vollen Tanks
-railcraft.gui.detector.tank.tip.analog=Sende Analoges Redstone\n basierend auf der Menge im Tank
+railcraft.gui.detector.tank.tip.less.than.quarter=Entspricht weniger als ein Viertel gefüllten Tanks
+railcraft.gui.detector.tank.tip.most=Entspricht mehr als drei Viertel gefüllten Tanks
+railcraft.gui.detector.tank.tip.not.empty=Entspricht nicht leerem Tank
+railcraft.gui.detector.tank.tip.quarter=Entspricht mehr als ein Viertel gefüllten Tanks
+railcraft.gui.detector.tank.tip.void=Entspricht beliebiger Menge
 railcraft.gui.detector.train.size=Zuglänge = @d
 railcraft.gui.detector.villager.any=Egal
 railcraft.gui.detector.villager.equals=Gleich
@@ -343,11 +370,11 @@ railcraft.gui.energy.unloader.wait=Warte bis leer
 railcraft.gui.engrave.entercode=Gib Entriegelungscode ein:
 railcraft.gui.engrave.getmore1=Besuche die Links unten,
 railcraft.gui.engrave.getmore2=um mehr Entriegelungscodes zu finden!
-railcraft.gui.engrave.openunlock=Entriegele Emblem
-railcraft.gui.engrave.unlock=Entriegeln!
+railcraft.gui.engrave.openunlock=Emblem freischalten
 railcraft.gui.engrave.unlock.exists=Duplizieren!
 railcraft.gui.engrave.unlock.fail=Fehlschlag!
 railcraft.gui.engrave.unlock.success=Erfolg!
+railcraft.gui.engrave.unlock=Freischalten!
 railcraft.gui.engrave=Gravieren
 
 railcraft.gui.feed.station.feed=Versorgen
@@ -358,6 +385,8 @@ railcraft.gui.filters=Filter
 
 railcraft.gui.goggles.aura.anchor=Anker
 railcraft.gui.goggles.aura.none=nichts
+railcraft.gui.goggles.aura.signalling=Signale
+railcraft.gui.goggles.aura.surveying=Vermessung
 railcraft.gui.goggles.aura.tracking=Tracking
 railcraft.gui.goggles.aura.tuning=Tuning
 railcraft.gui.goggles.mode=Aktuelle Sicht: @s
@@ -426,9 +455,9 @@ railcraft.gui.locomotive.tip.item.secondary=§oSekundärfarbe:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oPfeifen-Tonhöhe:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Ticket einfügen
 
-railcraft.gui.mag.glass.aspect=Der Signalaspekt ist @s
-railcraft.gui.mag.glass.aspect.dual=Der Signalaspekt ist oben @1$s und unten @2$s
-railcraft.gui.mag.glass.placedby=@1$s wurde platziert von @2$s
+railcraft.gui.mag.glass.aspect=Der Signalaspekt ist %s
+railcraft.gui.mag.glass.aspect.dual=Der Signalaspekt ist oben %1$s und unten %2$s
+railcraft.gui.mag.glass.placedby=%1$s wurde platziert von %2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-Klicken zum Herstellen-
 
@@ -445,7 +474,7 @@ railcraft.gui.routing.table.manual.page1=Der Streckenplan, wenn in einem Richtun
 railcraft.gui.routing.table.manual.page2=Operator-Wörter:\n   AND - Zwei Operanden, beide müssen wahr sein.\n   OR - Zwei Operanden, einer muss wahr sein.\n   NOT - Kehrt den folgenden Operanden um.
 railcraft.gui.routing.table.manual.page3=Bedingungswörter:\n   Dest=<string>\n      Wenn das eingetragene Ziel der\n      Lokomotive mit diesem String startet,\n      ist die Bedingung wahr.\n      "Dest=null" wird Wagen ohne\n      Ziel entsprechen.\n   Owner=<Spielername>\n      Wahr, wenn die Lokomotive\n      dieser Person gehört.
 railcraft.gui.routing.table.manual.page4=Bedingungswörter:\n   Name=<entityname>\n      Wahr, wenn <entityname> dem Namen\n des Wagens entspricht.\n      "Name=null" wird zu Waggons\n      ohne speziellen Namen passen\n   Type=<modid:itemname>\n      Wahr, wenn dies zu dem\n      Item-Namen des\n      Waggons passt.
-railcraft.gui.routing.table.manual.page5=Bedingungswörter:\n   Rider=<username>\n      Wahr, wenn der Zug von\n      dieser Person gefahren wird.\n   Ridden=<true/false>\n      Wahr, wenn der Zug\n      von einem Spieler gefahren wird.
+railcraft.gui.routing.table.manual.page5=Bedingungswörter:\n   Riding=<username>\n      Wahr, wenn der Zug von\n      dieser Person gefahren wird.\n   Ridden=<true/false>\n      Wahr, wenn der Zug\n      von einem Spieler gefahren wird.
 railcraft.gui.routing.table.manual.page6=Bedingungswörter:\n   Color=<primary>,<secondary>\n      Wahr, wenn die primäre und sekundäre\n       Farbe der Lokomotive passen.\n      Akzeptiert "Any" als eine Wildcard.\n      Farben: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White\n   NeedsRefuel=<true/false>\n      Wenn die Lokomotive wenig Treibstoff\n      oder Wasser hat, wird das sie umleiten.
 railcraft.gui.routing.table.manual.page7=Bedingungswörter:\n   Redstone=<true/false>\n      Wahr, wenn der routende Block\n      ein Redstone-Signal bekommt.
 railcraft.gui.routing.table.manual.page8=Beispielskript:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
@@ -477,7 +506,7 @@ railcraft.gui.surveyor.begin=Starte Signalblock-Anfrage
 railcraft.gui.surveyor.invalid=Signalblock ist ungültig
 railcraft.gui.surveyor.lost=Erstes Signal ist nicht mehr vorhanden, Anfrage abgebrochen
 railcraft.gui.surveyor.success=Signalblock erfolgreich definiert
-railcraft.gui.surveyor.track=keine Gleise in der Nähe von @s
+railcraft.gui.surveyor.track=keine Gleise in der Nähe von %s
 railcraft.gui.surveyor.unloaded=das erste Signal befindet sich nicht in einem geladenen Chunk
 railcraft.gui.surveyor.wrong=Kein gültiger Signalblock
 
@@ -495,12 +524,12 @@ railcraft.gui.tip.button.lock.unlocked=Klicken um zu sperren.\n Wenn gesperrt, k
 
 railcraft.gui.track.embarking.radius=Radius
 railcraft.gui.track.locking.change=Gewechselt zum @smodus
-railcraft.gui.track.locking.mode.lockdown=Sperr
-railcraft.gui.track.locking.mode.lockdown.train=Zugsperr
-railcraft.gui.track.locking.mode.holding=Halte
-railcraft.gui.track.locking.mode.holding.train=Zughalte
-railcraft.gui.track.locking.mode.boarding=Einstiegs
 railcraft.gui.track.locking.mode.boarding.train=Zugeinstiegs
+railcraft.gui.track.locking.mode.boarding=Einstiegs
+railcraft.gui.track.locking.mode.holding.train=Zughalte
+railcraft.gui.track.locking.mode.holding=Halte
+railcraft.gui.track.locking.mode.lockdown.train=Zugsperr
+railcraft.gui.track.locking.mode.lockdown=Sperr
 railcraft.gui.track.priming.fuse=Absicherung = @d ticks
 railcraft.gui.track.launcher.force=Kraft = @d
 
@@ -508,9 +537,10 @@ railcraft.gui.trade.station.dice.tip=Zufälliger Handel
 
 railcraft.gui.tuner.abandon.chunk=Controller befindet sich in einem nichtgeladenen Chunk, Verbindung abgebrochen
 railcraft.gui.tuner.abandon.gone=Controller existiert nicht mehr, Verbindung abgebrochen
-railcraft.gui.tuner.start=@s: Starte Verbindung mit einem Empfänger
-railcraft.gui.tuner.stop=@s: Stoppe Verbindung mit einem Empfänger
-railcraft.gui.tuner.success=@1$s erfolgreich verbunden mit @2$s
+railcraft.gui.tuner.abandon.player=Controller-Verbindung abgebrochen
+railcraft.gui.tuner.start=%s: Starte Verbindung mit einem Empfänger
+railcraft.gui.tuner.stop=%s: Stoppe Verbindung mit einem Empfänger
+railcraft.gui.tuner.success=%1$s erfolgreich verbunden mit %2$s
 
 railcraft.gui.turbine.output=Leistung: @d%%
 railcraft.gui.turbine.rotor=Rotor:
@@ -519,6 +549,7 @@ railcraft.gui.turbine=Dampfturbine
 railcraft.gui.update.message=Railcraft @s ist verfügbar auf <http://railcraft.info>
 
 railcraft.keybind.aura.anchor=Anker-Aura
+railcraft.keybind.aura.surveying=Vermessungsaura
 railcraft.keybind.aura.tuning=Tuning-Aura
 
 railcraft.keybind.loco.faster=Lokomotive: Schneller
@@ -530,9 +561,9 @@ railcraft.locomotive.model.electric.default.name=Standard Elektrisch
 railcraft.locomotive.model.steam.magic.default.name=Standard Magisch
 railcraft.locomotive.model.steam.solid.default.name=Standard Feststoff
 
-railcraft.multiblock.state.invalid.entity=Lebewesen im Weg: @s
-railcraft.multiblock.state.invalid.pattern=Entspricht nicht dem Muster: @s
-railcraft.multiblock.state.unknown.unloaded=Ein Teil der Struktur ist nicht geladen: @s
+railcraft.multiblock.state.invalid.entity=Lebewesen im Weg: %s
+railcraft.multiblock.state.invalid.pattern=Entspricht nicht dem Muster: %s
+railcraft.multiblock.state.unknown.unloaded=Ein Teil der Struktur ist nicht geladen: %s
 railcraft.multiblock.state.valid=Struktur ist gültig
 
 tc.research_category.RAILCRAFT=Traheremagie
@@ -652,22 +683,22 @@ tile.railcraft.frame.tip=Verwende es, um Schienen auf Rangierkabeln zu platziere
 tile.railcraft.glass.name=Gestärktes Glas
 
 tile.railcraft.machine.alpha.anchor.admin.name=Admin-Anker
+tile.railcraft.machine.alpha.anchor.passive.name=Passivanker
 tile.railcraft.machine.alpha.anchor.personal.name=Persönlicher Anker
 tile.railcraft.machine.alpha.anchor.world.name=Weltanker
 tile.railcraft.machine.alpha.blast.furnace.name=Hochofenziegel
 tile.railcraft.machine.alpha.blast.furnace.tip=Multiblock: 3x4x3 (Hohlraum)
 tile.railcraft.machine.alpha.coke.oven.name=Kokerei
 tile.railcraft.machine.alpha.coke.oven.tip=Multiblock: 3x3x3 (Hohlraum)
-tile.railcraft.machine.alpha.engraving.bench.name=Gravurwerkbank
 tile.railcraft.machine.alpha.feed.station.name=Futterstation
-tile.railcraft.machine.alpha.rock.crusher.name=Steinmühle
+tile.railcraft.machine.alpha.rock.crusher.name=Steinbrecher
 tile.railcraft.machine.alpha.rock.crusher.tip=Multiblock: 3x2x2
 tile.railcraft.machine.alpha.rolling.machine.name=Walzmaschine
 tile.railcraft.machine.alpha.smoker.name=Schornstein
 tile.railcraft.machine.alpha.steam.oven.name=Dampfkessel
 tile.railcraft.machine.alpha.steam.oven.tip=Multiblock: 2x2x2
-tile.railcraft.machine.alpha.steam.trap.name=Manuelle Dampf-Falle
 tile.railcraft.machine.alpha.steam.trap.auto.name=Automatische Dampf-Falle
+tile.railcraft.machine.alpha.steam.trap.name=Manuelle Dampf-Falle
 tile.railcraft.machine.alpha.tank.water.name=Wassertankwand
 tile.railcraft.machine.alpha.tank.water.tip=Multiblock: 3x3x3 (Hohlraum)
 tile.railcraft.machine.alpha.trade.station.name=Handelsstation
@@ -715,6 +746,7 @@ tile.railcraft.machine.epsilon.electric.feeder.admin.name=Admin-Feeder-Einheit
 tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Gibt unendlich Railcraft-Energie
 tile.railcraft.machine.epsilon.electric.feeder.name=Elektrische Feeder-Einheit
 tile.railcraft.machine.epsilon.electric.feeder.tip=Wandelt IndustrialCraft-\n in Railcraft-Energie um
+tile.railcraft.machine.epsilon.engraving.bench.name=Gravurwerkbank
 tile.railcraft.machine.epsilon.flux.transformer.name=Fluxtransformator
 tile.railcraft.machine.epsilon.flux.transformer.tip=Multi-Block: 2x2x2\n Wandelt Redstone Flux in Railcraft-Energie um\n 80% Effizienz
 tile.railcraft.machine.epsilon.force.track.emitter.name=Kraftschienenemitter
@@ -765,7 +797,7 @@ tile.railcraft.post.metal.light.blue.name=Hellblauer Metallpfosten
 tile.railcraft.post.metal.light.gray.name=Hellgrauer Metallpfosten
 tile.railcraft.post.metal.lime.name=Hellgrüner Metallpfosten
 tile.railcraft.post.metal.magenta.name=Magentafarbener Metallpfosten
-tile.railcraft.post.metal.name=Metallpfosten
+tile.railcraft.post.metal.unpainted.name=Metallpfosten
 tile.railcraft.post.metal.orange.name=Orangener Metallpfosten
 tile.railcraft.post.metal.pink.name=Pinker Metallpfosten
 tile.railcraft.post.metal.platform.black.name=Schwarze Metallplattform
@@ -778,7 +810,7 @@ tile.railcraft.post.metal.platform.light.blue.name=Hellblaue Metallplattform
 tile.railcraft.post.metal.platform.light.gray.name=Hellgraue Metallplattform
 tile.railcraft.post.metal.platform.lime.name=Hellgrüne Metallplattform
 tile.railcraft.post.metal.platform.magenta.name=Magentafarbene Metallplattform
-tile.railcraft.post.metal.platform.name=Metallplattform
+tile.railcraft.post.metal.platform.unpainted.name=Metallplattform
 tile.railcraft.post.metal.platform.orange.name=Orange Metallplattform
 tile.railcraft.post.metal.platform.pink.name=Pinke Metallplattform
 tile.railcraft.post.metal.platform.purple.name=Violette Metallplattform
@@ -1023,9 +1055,9 @@ tile.railcraft.wall.diamond.name=Diamantmauer
 tile.railcraft.wall.frost.bound.brick.name=Frostige Ziegelmauer
 tile.railcraft.wall.gold.name=Goldmauer
 tile.railcraft.wall.ice.name=Eismauer
-tile.railcraft.wall.infernal.name=Höllische Mauer
+tile.railcraft.wall.infernal.brick.name=Höllische Ziegelmauer
 tile.railcraft.wall.iron.name=Eisenmauer
-tile.railcraft.wall.nether.brick.name=Höllische Mauer
+tile.railcraft.wall.nether.brick.name=Nethermauer
 tile.railcraft.wall.obsidian.name=Obsidian Mauer
 tile.railcraft.wall.quarried.brick.name=Brüchige Ziegelmauer
 tile.railcraft.wall.quartz.chiseled.name=Gemeißelte Quartzmauer
@@ -1041,3 +1073,5 @@ tile.railcraft.wall.stone.brick.mossy.name=Moosige Ziegelmauer
 tile.railcraft.wall.stone.brick.name=Steinziegelmauer
 
 tile.railcraft.worldlogic.name=Salpetererz-Spawner
+
+tooltip.wawla.tooltype.crowbar=Brecheisen

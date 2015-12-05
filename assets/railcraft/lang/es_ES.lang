@@ -420,9 +420,9 @@ railcraft.gui.locomotive.tip.item.secondary=§oColor Secundario:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§oTono del Silbido:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=Inserte Ticket
 
-railcraft.gui.mag.glass.aspect=La apariencia de la señal es @s
-railcraft.gui.mag.glass.aspect.dual=La apariencia de la señal es @1$sat arriba y @2$sat abajo
-railcraft.gui.mag.glass.placedby=@1$s ha sido colocado por @2$s
+railcraft.gui.mag.glass.aspect=La apariencia de la señal es %s
+railcraft.gui.mag.glass.aspect.dual=La apariencia de la señal es %1$sat arriba y %2$sat abajo
+railcraft.gui.mag.glass.placedby=%1$s ha sido colocado por %2$s
 
 railcraft.gui.rolling.machine.tip.craft=§e§o-Click para crear-
 
@@ -465,7 +465,7 @@ railcraft.gui.surveyor.begin=Comenzando inspección de Bloque de Señal
 railcraft.gui.surveyor.invalid=Bloque de Señal no válido
 railcraft.gui.surveyor.lost=No existe la Primera Señal, abandonando inspección
 railcraft.gui.surveyor.success=Bloque de Señal definido con éxito
-railcraft.gui.surveyor.track=Ninguna vía encontrada cerca de @s
+railcraft.gui.surveyor.track=Ninguna vía encontrada cerca de %s
 railcraft.gui.surveyor.unloaded=La Primera Señal no esta en un Chunk cargado
 railcraft.gui.surveyor.wrong=No es un Bloque de Señal válido
 
@@ -496,9 +496,9 @@ railcraft.gui.trade.station.dice.tip=Comercio al Azar
 
 railcraft.gui.tuner.abandon.chunk=El controlador no está en un Chunk cargado, abandonando el acoplamiento
 railcraft.gui.tuner.abandon.gone=Controlador ya no existe, abandonando el acoplamiento
-railcraft.gui.tuner.start=Empezó a acoplar @s con un Receptor
-railcraft.gui.tuner.stop=Dejó de acoplar @s con un Receptor
-railcraft.gui.tuner.success=@1$s acoplado con éxito con @2$s
+railcraft.gui.tuner.start=Empezó a acoplar %s con un Receptor
+railcraft.gui.tuner.stop=Dejó de acoplar %s con un Receptor
+railcraft.gui.tuner.success=%1$s acoplado con éxito con %2$s
 
 railcraft.gui.turbine.output=Salida: @d%%
 railcraft.gui.turbine.rotor=Rotor:
@@ -516,9 +516,9 @@ railcraft.locomotive.model.electric.default.name=Estándar Eléctrica
 railcraft.locomotive.model.steam.magic.default.name=Estándar Mágica
 railcraft.locomotive.model.steam.solid.default.name=Estándar Solida
 
-railcraft.multiblock.state.invalid.entity=Entidad en el camino: @s
-railcraft.multiblock.state.invalid.pattern=No coincide con patrón: @s
-railcraft.multiblock.state.unknown.unloaded=Parte de la estructura no está cargada: @s
+railcraft.multiblock.state.invalid.entity=Entidad en el camino: %s
+railcraft.multiblock.state.invalid.pattern=No coincide con patrón: %s
+railcraft.multiblock.state.unknown.unloaded=Parte de la estructura no está cargada: %s
 railcraft.multiblock.state.valid=La estructura es válida
 
 tc.research_category.RAILCRAFT=Traheremagia
@@ -641,7 +641,7 @@ tile.railcraft.machine.alpha.blast.furnace.name=Ladrillos de Alto Horno
 tile.railcraft.machine.alpha.blast.furnace.tip=Multi-Bloque: 3x4x3 (Hueco)
 tile.railcraft.machine.alpha.coke.oven.name=Ladrillos para Horno de Fuel
 tile.railcraft.machine.alpha.coke.oven.tip=Multi-Bloque: 3x3x3 (Hueco)
-tile.railcraft.machine.alpha.engraving.bench.name=Banco de Grabado
+tile.railcraft.machine.epsilon.engraving.bench.name=Banco de Grabado
 tile.railcraft.machine.alpha.feed.station.name=Estación de Alimentación
 tile.railcraft.machine.alpha.rock.crusher.name=Trituradora de Rocas
 tile.railcraft.machine.alpha.rock.crusher.tip=Multi-Bloque: 3x2x2
@@ -748,7 +748,7 @@ tile.railcraft.post.metal.light.blue.name=Poste de Metal Celeste
 tile.railcraft.post.metal.light.gray.name=Poste de Metal Gris Claro
 tile.railcraft.post.metal.lime.name=Poste de Metal Lima
 tile.railcraft.post.metal.magenta.name=Poste de Metal Magenta
-tile.railcraft.post.metal.name=Poste de Metal
+tile.railcraft.post.metal.unpainted.name=Poste de Metal
 tile.railcraft.post.metal.orange.name=Poste de Metal Naranja
 tile.railcraft.post.metal.pink.name=Poste de Metal Rosa
 tile.railcraft.post.metal.platform.black.name=Plataforma de Metal Negro
@@ -761,7 +761,7 @@ tile.railcraft.post.metal.platform.light.blue.name=Plataforma de Metal Celeste
 tile.railcraft.post.metal.platform.light.gray.name=Plataforma de Metal Gris Claro
 tile.railcraft.post.metal.platform.lime.name=Plataforma de Metal Lima
 tile.railcraft.post.metal.platform.magenta.name=Plataforma de Metal Magenta
-tile.railcraft.post.metal.platform.name=Plataforma de Metal
+tile.railcraft.post.metal.platform.unpainted.name=Plataforma de Metal
 tile.railcraft.post.metal.platform.orange.name=Plataforma de Metal Naranja
 tile.railcraft.post.metal.platform.pink.name=Plataforma de Metal Rosa
 tile.railcraft.post.metal.platform.purple.name=Plataforma de Metal Violeta
