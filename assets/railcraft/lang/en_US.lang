@@ -1,4 +1,4 @@
-chat.railcraft.api.error=Error: Outdated API, please check your log for more info.
+﻿chat.railcraft.api.error=Error: Outdated API, please check your log for more info.
 
 command.railcraft.aliases=Aliases: %s
 command.railcraft.help=Type '%s' for help.
@@ -477,9 +477,10 @@ railcraft.gui.routing.table.manual.page4=Condition Keywords:\n   Name=<entitynam
 railcraft.gui.routing.table.manual.page5=Condition Keywords:\n   Riding=<username>\n      True if the Train is ridden\n      by this person.\n   Ridden=<true/false>\n      True if the Train is\n      being ridden by a player.
 railcraft.gui.routing.table.manual.page6=Condition Keywords:\n   Color=<primary>,<secondary>\n      True if the Locomotive's primary\n      and secondary colors match.\n      Accepts "Any" as a wildcard.\n      Colors: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White\n   NeedsRefuel=<true/false>\n      If the Locomotive is low on Fuel\n      or Water this will divert it.
 railcraft.gui.routing.table.manual.page7=Condition Keywords:\n   Redstone=<true/false>\n      True if the Routing Block\n      is being powered by Redstone.
-railcraft.gui.routing.table.manual.page8=Example Script:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-railcraft.gui.routing.table.manual.page9=Result:\n   The script on the previous page will\n   match a Locomotive with a destination\n   of "TheFarLands/Milliways",\n   or that is painted black and red,\n   or that has a destination of\n   "SecretHideout/OceanEntrance",\n   but only if its not owned by RichardG.
-railcraft.gui.routing.table.manual.page10=Regular Expressions:\n   Some Conditions support\n   Regular Expressions.\n   To use a regex, add a '?' before the '='.\n   Rules are standard Java Patterns.\nSupporting Conditions:\n   Dest, Name\nExample:\n   Dest?=.*Hill
+railcraft.gui.routing.table.manual.page8=Condition Keywords:\n   Loco=<string>\n      True if locomotive matches parameter string.\n      Accepted strings: electric, steam, none.\n      Using parameter none will only return true if there is no locomotive.
+railcraft.gui.routing.table.manual.page9=Example Script:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+railcraft.gui.routing.table.manual.page10=Result:\n   The script on the previous page will\n   match a Locomotive with a destination\n   of "TheFarLands/Milliways",\n   or that is painted black and red,\n   or that has a destination of\n   "SecretHideout/OceanEntrance",\n   but only if its not owned by RichardG.
+railcraft.gui.routing.table.manual.page11=Regular Expressions:\n   Some Conditions support\n   Regular Expressions.\n   To use a regex, add a '?' before the '='.\n   Rules are standard Java Patterns.\nSupporting Conditions:\n   Dest, Name\nExample:\n   Dest?=.*Hill
 railcraft.gui.routing.table.manual.title=Routing Manual
 railcraft.gui.routing.table.name=Name
 railcraft.gui.routing.ticket.line1=This Ticket is valid
@@ -1045,6 +1046,8 @@ tile.railcraft.track.whistle.name=Whistle Track
 tile.railcraft.track.whistle.tip=Passing Locomotives\n will blow their Whistle\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.wye.name=Wye Track
 tile.railcraft.track.wye.tip=§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.autolococoupler.name=Automatic Locomotive Coupler
+tile.railcraft.track.autolococoupler.tip=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- Apply Redstone to enable -
 
 tile.railcraft.wall.abyssal.brick.name=Abyssal Brick Wall
 tile.railcraft.wall.bleachedbone.brick.name=Bleached Bone Brick Wall
