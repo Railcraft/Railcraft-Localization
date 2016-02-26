@@ -228,6 +228,8 @@ item.railcraft.tool.crowbar.tip=§oRechtsklicke schleichend, um Waggons zu verbi
 item.railcraft.tool.crowbar.void.name=Leermetallbrecheisen
 item.railcraft.tool.electric.meter.name=Elektrisches Messgerät
 item.railcraft.tool.magnifying.glass.name=Lupe
+item.railcraft.tool.signal.label.name=Signal-Label
+item.railcraft.tool.signal.label.tip=§9- Im Amboss umzubenennen -\n§oRechtsklicke schleichend, um\n§oSignale oder Signalboxen umzubenennen
 item.railcraft.tool.signal.tuner.name=Abstimmgerät
 item.railcraft.tool.signal.tuner.tip=Verbindet Signalsender und -empfänger
 item.railcraft.tool.steel.axe.name=Stahlaxt
@@ -317,7 +319,7 @@ railcraft.gui.box.capacitor.immediate=Sofort
 railcraft.gui.box.capacitor.immediate.tip=Timer sofort starten, wenn ein Signal kommt.
 railcraft.gui.box.capacitor.delayed=Verzögert
 railcraft.gui.box.capacitor.delayed.tip=Timer starten, wenn das letzte Signal abschaltet.
-railcraft.gui.box.controller.aspect.default=Standard Zustand:
+railcraft.gui.box.controller.aspect.default=Standardzustand:
 railcraft.gui.box.controller.aspect.redstone=Zustand bei Redstonesignal:
 
 railcraft.gui.cart.tnt.fuse=Zündung
@@ -477,10 +479,9 @@ railcraft.gui.routing.table.manual.page4=Bedingungswörter:\n   Name=<entityname
 railcraft.gui.routing.table.manual.page5=Bedingungswörter:\n   Riding=<username>\n      Wahr, wenn der Zug von\n      dieser Person gefahren wird.\n   Ridden=<true/false>\n      Wahr, wenn der Zug\n      von einem Spieler gefahren wird.
 railcraft.gui.routing.table.manual.page6=Bedingungswörter:\n   Color=<primary>,<secondary>\n      Wahr, wenn die primäre und sekundäre\n       Farbe der Lokomotive passen.\n      Akzeptiert "Any" als eine Wildcard.\n      Farben: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White\n   NeedsRefuel=<true/false>\n      Wenn die Lokomotive wenig Treibstoff\n      oder Wasser hat, wird das sie umleiten.
 railcraft.gui.routing.table.manual.page7=Bedingungswörter:\n   Redstone=<true/false>\n      Wahr, wenn der routende Block\n      ein Redstone-Signal bekommt.
-railcraft.gui.routing.table.manual.page8=Bedingungswörter:\n   Loco=<string>\n      Wahr, wenn die Lokomotive dem Parameter entspricht.\n      Erlaubte Parameter: electric, steam, none.\n      "non" wird nur Wahr sein, wenn es sich nicht um eine Lokomotive handelt.
-railcraft.gui.routing.table.manual.page9=Beispielskript:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-railcraft.gui.routing.table.manual.page10=Ergebnis:\n   Das Skript auf der vorherigen Seite wird\n   zu einer Lokomotive passen, die das Ziel\n   "TheFarLands/Milliways" hat\n   oder schwarz und rot gefärbt ist\n   oder das Ziel\n   "SecretHideout/OceanEntrance" hat,\n   aber nur, wenn sie nicht RichardG gehört.
-railcraft.gui.routing.table.manual.page11=Reguläre Ausdrücke:\n Einige Bedingungen unterstützen\n Reguläre Ausdrücke.\n Um Regex zu verwenden, füge ein '?' vor dem '=' ein.\n Es gelten die Standard-Java-Regeln für Regex.\nUnterstützte Bedingungen:\n Dest, Name\nBeispiel:\n Dest?=.*Hill
+railcraft.gui.routing.table.manual.page8=Beispielskript:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+railcraft.gui.routing.table.manual.page9=Ergebnis:\n   Das Skript auf der vorherigen Seite wird\n   zu einer Lokomotive passen, die das Ziel\n   "TheFarLands/Milliways" hat\n   oder schwarz und rot gefärbt ist\n   oder das Ziel\n   "SecretHideout/OceanEntrance" hat,\n   aber nur, wenn sie nicht RichardG gehört.
+railcraft.gui.routing.table.manual.page10=Reguläre Ausdrücke:\n Einige Bedingungen unterstützen\n Reguläre Ausdrücke.\n Um Regex zu verwenden, füge ein '?' vor dem '=' ein.\n Es gelten die Standard-Java-Regeln für Regex.\nUnterstützte Bedingungen:\n Dest, Name\nBeispiel:\n Dest?=.*Hill
 railcraft.gui.routing.table.manual.title=Streckenplan-Handbuch
 railcraft.gui.routing.table.name=Name
 railcraft.gui.routing.ticket.line1=Dieses Ticket ist gültig
@@ -831,10 +832,10 @@ tile.railcraft.residual.heat.name=Restwärme
 
 tile.railcraft.signal.block.signal.dual.name=Doppelkopf-Blocksignal
 tile.railcraft.signal.block.signal.name=Blocksignal
-tile.railcraft.signal.box.analog.name=Analoge Signalsteuerungsbox
+tile.railcraft.signal.box.analog.name=Analoge Signalsteuerbox
 tile.railcraft.signal.box.block.relay.name=Signalrelaisbox
 tile.railcraft.signal.box.capacitor.name=Signalkondensatorbox
-tile.railcraft.signal.box.controller.name=Signalsteuerungsbox
+tile.railcraft.signal.box.controller.name=Signalsteuerbox
 tile.railcraft.signal.box.interlock.name=Signalverriegelungsbox
 tile.railcraft.signal.box.receiver.name=Signalempfängerbox
 tile.railcraft.signal.box.sequencer.name=Signalsequenzerbox
@@ -1046,8 +1047,6 @@ tile.railcraft.track.whistle.name=Pfeifschiene
 tile.railcraft.track.whistle.tip=Passierende Lokomotiven werden pfeifen\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.wye.name=T-Weiche
 tile.railcraft.track.wye.tip=§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
-tile.railcraft.track.autolococoupler.name=Automatischer Lokomotivenkoppler
-tile.railcraft.track.autolococoupler.tip=Sorgt dafür, dass passierende Lokomotiven mit\ndem ersten Wagen, mit dem sie\nkollidieren, koppeln und dann\nAuf Rangiergeschwindigkeit umschalten.\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 tile.railcraft.wall.abyssal.brick.name=Abyss-Ziegelmauer
 tile.railcraft.wall.bleachedbone.brick.name=Gebleichte Knochen-Ziegelmauer
