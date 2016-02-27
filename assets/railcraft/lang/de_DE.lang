@@ -513,6 +513,7 @@ railcraft.gui.surveyor.unloaded=das erste Signal befindet sich nicht in einem ge
 railcraft.gui.surveyor.wrong=Kein gültiger Signalblock
 
 railcraft.gui.switch.motor.action=Weiche stellen bei:
+railcraft.gui.switchmotor.button.ignoreredstone=Redstonesignal
 
 railcraft.gui.tank.iron=Eisentank
 railcraft.gui.tank.steel=Stahltank
