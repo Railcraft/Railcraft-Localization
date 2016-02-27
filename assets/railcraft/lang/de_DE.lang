@@ -479,9 +479,10 @@ railcraft.gui.routing.table.manual.page4=Bedingungswörter:\n   Name=<entityname
 railcraft.gui.routing.table.manual.page5=Bedingungswörter:\n   Riding=<username>\n      Wahr, wenn der Zug von\n      dieser Person gefahren wird.\n   Ridden=<true/false>\n      Wahr, wenn der Zug\n      von einem Spieler gefahren wird.
 railcraft.gui.routing.table.manual.page6=Bedingungswörter:\n   Color=<primary>,<secondary>\n      Wahr, wenn die primäre und sekundäre\n       Farbe der Lokomotive passen.\n      Akzeptiert "Any" als eine Wildcard.\n      Farben: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White\n   NeedsRefuel=<true/false>\n      Wenn die Lokomotive wenig Treibstoff\n      oder Wasser hat, wird das sie umleiten.
 railcraft.gui.routing.table.manual.page7=Bedingungswörter:\n   Redstone=<true/false>\n      Wahr, wenn der routende Block\n      ein Redstone-Signal bekommt.
-railcraft.gui.routing.table.manual.page8=Beispielskript:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-railcraft.gui.routing.table.manual.page9=Ergebnis:\n   Das Skript auf der vorherigen Seite wird\n   zu einer Lokomotive passen, die das Ziel\n   "TheFarLands/Milliways" hat\n   oder schwarz und rot gefärbt ist\n   oder das Ziel\n   "SecretHideout/OceanEntrance" hat,\n   aber nur, wenn sie nicht RichardG gehört.
-railcraft.gui.routing.table.manual.page10=Reguläre Ausdrücke:\n Einige Bedingungen unterstützen\n Reguläre Ausdrücke.\n Um Regex zu verwenden, füge ein '?' vor dem '=' ein.\n Es gelten die Standard-Java-Regeln für Regex.\nUnterstützte Bedingungen:\n Dest, Name\nBeispiel:\n Dest?=.*Hill
+railcraft.gui.routing.table.manual.page8=Bedingungswörter:\n   Loco=<string>\n      Wahr, wenn die Lokomotive dem Parameter entspricht.\n      Erlaubte Parameter: electric, steam, none.\n      "non" wird nur Wahr sein, wenn es sich nicht um eine Lokomotive handelt.
+railcraft.gui.routing.table.manual.page9=Beispielskript:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+railcraft.gui.routing.table.manual.page10=Ergebnis:\n   Das Skript auf der vorherigen Seite wird\n   zu einer Lokomotive passen, die das Ziel\n   "TheFarLands/Milliways" hat\n   oder schwarz und rot gefärbt ist\n   oder das Ziel\n   "SecretHideout/OceanEntrance" hat,\n   aber nur, wenn sie nicht RichardG gehört.
+railcraft.gui.routing.table.manual.page11=Reguläre Ausdrücke:\n Einige Bedingungen unterstützen\n Reguläre Ausdrücke.\n Um Regex zu verwenden, füge ein '?' vor dem '=' ein.\n Es gelten die Standard-Java-Regeln für Regex.\nUnterstützte Bedingungen:\n Dest, Name\nBeispiel:\n Dest?=.*Hill
 railcraft.gui.routing.table.manual.title=Streckenplan-Handbuch
 railcraft.gui.routing.table.name=Name
 railcraft.gui.routing.ticket.line1=Dieses Ticket ist gültig
@@ -513,6 +514,7 @@ railcraft.gui.surveyor.unloaded=das erste Signal befindet sich nicht in einem ge
 railcraft.gui.surveyor.wrong=Kein gültiger Signalblock
 
 railcraft.gui.switch.motor.action=Weiche stellen bei:
+railcraft.gui.switch.motor.redstone=Redstone ignorieren
 
 railcraft.gui.tank.iron=Eisentank
 railcraft.gui.tank.steel=Stahltank
@@ -1047,6 +1049,8 @@ tile.railcraft.track.whistle.name=Pfeifschiene
 tile.railcraft.track.whistle.tip=Passierende Lokomotiven werden pfeifen\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.wye.name=T-Weiche
 tile.railcraft.track.wye.tip=§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
+tile.railcraft.track.autolococoupler.name=Automatischer Lokomotivenkoppler
+tile.railcraft.track.autolococoupler.tip=Sorgt dafür, dass passierende Lokomotiven mit\ndem ersten Wagen, mit dem sie\nkollidieren, koppeln und dann\nAuf Rangiergeschwindigkeit umschalten.\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 tile.railcraft.wall.abyssal.brick.name=Abyss-Ziegelmauer
 tile.railcraft.wall.bleachedbone.brick.name=Gebleichte Knochen-Ziegelmauer
