@@ -515,6 +515,7 @@ railcraft.gui.surveyor.unloaded=第一个信号不在游戏加载区域内
 railcraft.gui.surveyor.wrong=并非有效信号盒
 
 railcraft.gui.switch.motor.action=对应信号域来转辙轨道
+railcraft.gui.switch.motor.redstone=忽略红石信号
 
 railcraft.gui.tank.iron=铁质蓄水罐
 railcraft.gui.tank.steel=钢制蓄水罐
