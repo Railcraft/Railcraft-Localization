@@ -482,7 +482,7 @@ railcraft.gui.tip.button.lock.notowner=No eres el dueño\n de este dispositivo.\
 railcraft.gui.tip.button.lock.unlocked=Clic para bloquear dispositivo.\n Una vez bloqueado,\n sólo puede ser usado por\n ti o un Op.
 
 railcraft.gui.track.embarking.radius=Radio
-railcraft.gui.track.locking.change=Cambiar al modo @s
+railcraft.gui.track.mode.change=Cambiar al modo @s
 railcraft.gui.track.locking.mode.boarding.train=Tren Embarcando
 railcraft.gui.track.locking.mode.boarding=Embarcando
 railcraft.gui.track.locking.mode.holding.train=Tren en Espera

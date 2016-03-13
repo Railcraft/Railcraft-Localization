@@ -528,7 +528,7 @@ railcraft.gui.tip.button.lock.notowner=你不是这台设备\n的主人.它属�
 railcraft.gui.tip.button.lock.unlocked=点击来绑定设备.\n绑定后,它只接受你或者op的操作. 
 
 railcraft.gui.track.embarking.radius=半径
-railcraft.gui.track.locking.change=切换为@s模式
+railcraft.gui.track.mode.change=切换为@s模式
 railcraft.gui.track.locking.mode.boarding.train=登入列车
 railcraft.gui.track.locking.mode.boarding=登入
 railcraft.gui.track.locking.mode.holding.train=列车扣留

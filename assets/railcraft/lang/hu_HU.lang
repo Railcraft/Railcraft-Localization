@@ -488,7 +488,7 @@ railcraft.gui.tip.button.lock.notowner=Ez az eszköz nem \n a te tulajdonod.\n A
 railcraft.gui.tip.button.lock.unlocked=Kattint az eszköz zárolásához.\n Ha lezárod, akkor \n a későbbiekben \n csak te vagy egy Opreátor \n férhet hozzá.
 
 railcraft.gui.track.embarking.radius=Sugár
-railcraft.gui.track.locking.change=A következő módra váltott: @s 
+railcraft.gui.track.mode.change=A következő módra váltott: @s 
 railcraft.gui.track.locking.mode.boarding.train=Vonat elindítása
 railcraft.gui.track.locking.mode.boarding=Indító/továbbító
 railcraft.gui.track.locking.mode.holding.train=Vonat megtartása

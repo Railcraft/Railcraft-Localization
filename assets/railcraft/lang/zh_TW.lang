@@ -526,7 +526,7 @@ railcraft.gui.tip.button.lock.notowner=你並不是該設備的所有人\n 它�
 railcraft.gui.tip.button.lock.unlocked=點擊以上鎖這個設備\n 一旦上鎖，僅所有人或Op能夠存取
 
 railcraft.gui.track.embarking.radius=半徑
-railcraft.gui.track.locking.change=更改成 @s 模式
+railcraft.gui.track.mode.change=更改成 @s 模式
 railcraft.gui.track.locking.mode.boarding.train=列車發車
 railcraft.gui.track.locking.mode.boarding=發車
 railcraft.gui.track.locking.mode.holding.train=列車臨停

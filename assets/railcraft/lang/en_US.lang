@@ -527,7 +527,10 @@ railcraft.gui.tip.button.lock.notowner=You are not the\n owner of this device.\n
 railcraft.gui.tip.button.lock.unlocked=Click to lock device.\n Once locked, it can\n only be accessed by\n you or an Op.
 
 railcraft.gui.track.embarking.radius=Radius
-railcraft.gui.track.locking.change=Changed to @s Mode
+railcraft.gui.track.mode.change=Changed to @s Mode
+railcraft.gui.track.coupler.mode.auto.coupler=Auto-Coupler
+railcraft.gui.track.coupler.mode.coupler=Coupler
+railcraft.gui.track.coupler.mode.decoupler=Decoupler
 railcraft.gui.track.locking.mode.boarding.train=Train Boarding
 railcraft.gui.track.locking.mode.boarding=Boarding
 railcraft.gui.track.locking.mode.holding.train=Train Holding

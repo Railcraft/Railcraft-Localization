@@ -521,7 +521,7 @@ railcraft.gui.tip.button.lock.notowner=Nejsi vlastník \n tohoto zařízení. \n
 railcraft.gui.tip.button.lock.unlocked=Klikni k uzamknutí zařízení.\n Pokud je uzamčeno, máš do něj\n přístup jenom ty nebo OP.
 
 railcraft.gui.track.embarking.radius=Rádius
-railcraft.gui.track.locking.change=Změněno na @s mód
+railcraft.gui.track.mode.change=Změněno na @s mód
 railcraft.gui.track.locking.mode.boarding.train=Vlak nastupování
 railcraft.gui.track.locking.mode.boarding=Nastupování
 railcraft.gui.track.locking.mode.holding.train=Vlak čekání

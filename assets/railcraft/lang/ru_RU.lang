@@ -523,7 +523,7 @@ railcraft.gui.tip.button.lock.notowner=Вы не\n владелец этого �
 railcraft.gui.tip.button.lock.unlocked=Нажмите, чтобы заблокировать устройство.\n После закрытия оно может\n быть доступно только\n для Вас или для Оператора.
 
 railcraft.gui.track.embarking.radius=Радиус
-railcraft.gui.track.locking.change=Изменён на режим @s
+railcraft.gui.track.mode.change=Изменён на режим @s
 railcraft.gui.track.locking.mode.boarding.train=Посадка поезда
 railcraft.gui.track.locking.mode.boarding=Посадка
 railcraft.gui.track.locking.mode.holding.train=Удерживание поезда
