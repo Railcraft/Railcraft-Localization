@@ -527,7 +527,7 @@ railcraft.gui.tip.button.lock.notowner=Du bist nicht der\n Eigentümer der Lokom
 railcraft.gui.tip.button.lock.unlocked=Klicken um zu sperren.\n Wenn gesperrt, kann\n nur von Dir oder ein Op\n benutzt werden.
 
 railcraft.gui.track.embarking.radius=Radius
-railcraft.gui.track.mode.change=Gewechselt zum @s modus
+railcraft.gui.track.mode.change=Gewechselt zum @smodus
 railcraft.gui.track.coupler.mode.auto.coupler=Auto-Koppel
 railcraft.gui.track.coupler.mode.coupler=Koppel
 railcraft.gui.track.coupler.mode.decoupler=Entkoppel
