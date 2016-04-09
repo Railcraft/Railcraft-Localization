@@ -12,6 +12,22 @@ command.railcraft.noperms=你沒有權限使用這個指令
 command.railcraft.railcraft.help=Railcraft 指令列表
 command.railcraft.railcraft.format=指令格式: /%s <子指令>
 
+command.railcraft.railcraft.admin.desc=- %s : 管理工具
+command.railcraft.railcraft.admin.help=可用來管理的工具
+command.railcraft.railcraft.admin.format=Format: /%s
+
+command.railcraft.railcraft.admin.kill.desc=- %s : 刪除任務
+command.railcraft.railcraft.admin.kill.help=可用來刪除東西的工具
+command.railcraft.railcraft.admin.kill.format=格式: /%s
+
+command.railcraft.railcraft.admin.kill.animals.desc=- %s : 殺死生物
+command.railcraft.railcraft.admin.kill.animals.help=殺死當前世界上的所有生物
+command.railcraft.railcraft.admin.kill.animals.format=格式: /%s
+
+command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : 刪除礦車
+command.railcraft.railcraft.admin.kill.minecarts.help=刪除當前世界上的所有礦車
+command.railcraft.railcraft.admin.kill.minecarts.format=格式: /%s
+
 command.railcraft.railcraft.debug.desc=- %s : 除錯工具
 command.railcraft.railcraft.debug.help=處理棘手問題的工具
 command.railcraft.railcraft.debug.format=格式: /%s
@@ -103,7 +119,7 @@ item.minecartTnt.name=TNT礦車
 item.minecartHopper.name=漏斗礦車
 
 item.railcraft.armor.goggles.name=鐵路工護目鏡
-item.railcraft.armor.overalls.name=鐵路工工作服
+item.railcraft.armor.overalls.name=工程師作業服
 item.railcraft.armor.overalls.tip=針對鐵路作業危險的全面防護
 item.railcraft.armor.steel.boots.name=鋼鐵靴子
 item.railcraft.armor.steel.helmet.name=鋼鐵頭盔
@@ -111,12 +127,12 @@ item.railcraft.armor.steel.legs.name=鋼鐵護腿
 item.railcraft.armor.steel.plate.name=鋼鐵胸甲
 
 item.railcraft.backpack.apothecary.t1.name=藥劑師背包
-item.railcraft.backpack.apothecary.t2.name=編織的藥劑師背包
+item.railcraft.backpack.apothecary.t2.name=藥劑師編織背包
 item.railcraft.backpack.iceman.t1.name=冰原旅者背包
-item.railcraft.backpack.iceman.t2.name=編織的冰原旅者背包
+item.railcraft.backpack.iceman.t2.name=冰原旅者編織背包
 item.railcraft.backpack.tip=Railcraft公司出品，必屬精品
 item.railcraft.backpack.trackman.t1.name=鐵路工背包
-item.railcraft.backpack.trackman.t2.name=編織的鐵路工背包
+item.railcraft.backpack.trackman.t2.name=鐵路工編織背包
 
 item.railcraft.borehead.diamond.name=鑽石鑽頭
 item.railcraft.borehead.iron.name=鐵製鑽頭
@@ -231,6 +247,8 @@ item.railcraft.tool.crowbar.tip=§o潛行時右鍵可連結車廂
 item.railcraft.tool.crowbar.void.name=虛無鐵橇
 item.railcraft.tool.electric.meter.name=電錶
 item.railcraft.tool.magnifying.glass.name=放大鏡
+item.railcraft.tool.signal.label.name=號誌標籤
+item.railcraft.tool.signal.label.tip=§9- 在鐵砧中命名 -\n§o潛行時右鍵使用\n§o命名一個號誌或號誌箱
 item.railcraft.tool.signal.tuner.name=信號調頻器
 item.railcraft.tool.signal.tuner.tip=連接控制器與接收器
 item.railcraft.tool.steel.axe.name=鋼鐵斧
@@ -476,13 +494,14 @@ railcraft.gui.routing.table.manual.numPages=10
 railcraft.gui.routing.table.manual.page1=當路由表被放在路由偵測器或路由轉轍器裡面，他將會定義出一組規則，可以用來偵測任何經過的火車頭是否符合那組規定。\n只要使用簡單的邏輯語法就可以制定規則，讓你可以隨你的喜好創造出複雜或簡單的規定。 這個語法遵從前序表示法，運算子跟在運算元後面。每行中只允許出現一個關鍵字。如果沒有指定運算子，就會被視為OR。\n如果要複製路由表，可同時將多個路由表放入合成欄中合成
 railcraft.gui.routing.table.manual.page2=運算符關鍵字:\n   AND - 兩個運算元，兩者皆必須為「真」\n   OR - 兩個運算元，只有一個必須為「真」\n   NOT - 反轉在其之下的運算元
 railcraft.gui.routing.table.manual.page3=狀況關鍵字:\n   Dest=<字串>\n      如果火車頭的目的地以此字串\n      開頭，則該狀況為「真」\n      "Dest=null" 將會偵測未設定\n      目的地的車輛\n   Owner=<玩家名>\n      如果火車頭屬於該玩家的話\n      該狀況會判定為「真」
-railcraft.gui.routing.table.manual.page4=狀況關鍵字:\n   Name=<實體名稱>\n      當實體名稱與礦車的名稱相同\n      此狀況便為「真」\n      "Name=null" 將會偵測沒有\n      自定義名稱的礦車\n   Type=<模組名:物品名稱>\n      若該名稱與礦車的物品ID相同\n      就會判定此狀況為「真」
+railcraft.gui.routing.table.manual.page4=狀況關鍵字:\n   Name=<實體名稱>\n      當實體名稱與礦車的名稱相同\n      此狀況便為「真」\n      "Name=null" 將會偵測沒有\n      自定義名稱的礦車\n   Type=<模組ID:物品名稱>\n      若該名稱與礦車的物品相同\n      就會判定此狀況為「真」
 railcraft.gui.routing.table.manual.page5=狀況關鍵字:\n   Riding=<玩家名稱>\n      如果列車載著這個玩家\n      則該狀況為「真」\n   Ridden=<true/false>\n      如果列車上有任何玩家\n      將判定為「真」
 railcraft.gui.routing.table.manual.page6=狀況關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身、底盤顏色與\n      指定顏色相符，該狀況為「真」\n      可用”Any”指定所有顏色\n      顏色: Black(黑), LightGray(淺灰), Gray(灰), Red(紅),\n      Brown(褐), Blue(藍), Purple(紫), Cyan(青), Green(綠),\n      Pink(粉紅), Lime(黃綠), Yellow(黃), LightBlue(淺藍),\n      Magenta(洋紅), Orange(橘), White(白)\n   NeedsRefuel=<true/false>\n      若火車頭缺水或燃料不足\n      將會使其改道
 railcraft.gui.routing.table.manual.page7=狀況關鍵字:\n   Redstone=<true/false>\n      如果路由方塊正被紅石充能\n      則該狀況為「真」
-railcraft.gui.routing.table.manual.page8=實例範本:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-railcraft.gui.routing.table.manual.page9=效果:\n   上一頁的例子中將會偵測一台\n   以"TheFarLands/Milliways"為目的地\n   或是被漆成紅色和黑色，抑或是即將\n   開往"SecretHideout/OceanEntrance"的火車頭\n   但是都會忽略屬於RichardG的火車頭
-railcraft.gui.routing.table.manual.page10=正規表達式:\n   某些狀況關鍵字支援使用正規表達式\n   要使用正規表達式，需要在'='之前加上一個'?'\n   其語法與Java正規表達式相同\n支援的關鍵字:\n   Dest, Name\n  範例:\n   Dest?=.*Hill
+railcraft.gui.routing.table.manual.page8=狀況關鍵字:\n   Loco=<字串>\n      若火車頭吻合給予的參數字串，則為「真」\n      接受字串: electric(電力), steam(蒸氣), none(無).\n      參數 none 將只在列車\n      沒有火車頭時傳回「真」
+railcraft.gui.routing.table.manual.page9=實例範本:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+railcraft.gui.routing.table.manual.page10=效果:\n   上一頁的例子中將會偵測一台\n   以"TheFarLands/Milliways"為目的地\n   或是被漆成紅色和黑色，抑或是即將\n   開往"SecretHideout/OceanEntrance"的火車頭\n   但是都會忽略屬於RichardG的火車頭
+railcraft.gui.routing.table.manual.page11=正規表達式:\n   某些狀況關鍵字支援使用正規表達式\n   要使用正規表達式，需要在'='之前加上一個'?'\n   其語法與Java正規表達式相同\n支援的關鍵字:\n   Dest, Name\n  範例:\n   Dest?=.*Hill
 railcraft.gui.routing.table.manual.title=路由手冊
 railcraft.gui.routing.table.name=命名
 railcraft.gui.routing.ticket.line1=這張車票適用於
@@ -514,6 +533,7 @@ railcraft.gui.surveyor.unloaded=第一個號誌區塊未被讀取
 railcraft.gui.surveyor.wrong=無效的號誌方塊
 
 railcraft.gui.switch.motor.action=轉轍條件
+railcraft.gui.switch.motor.redstone=無視紅石
 
 railcraft.gui.tank.iron=鐵製蓄水槽
 railcraft.gui.tank.steel=鋼製蓄水槽
@@ -526,7 +546,10 @@ railcraft.gui.tip.button.lock.notowner=你並不是該設備的所有人\n 它�
 railcraft.gui.tip.button.lock.unlocked=點擊以上鎖這個設備\n 一旦上鎖，僅所有人或Op能夠存取
 
 railcraft.gui.track.embarking.radius=半徑
-railcraft.gui.track.mode.change=更改成 @s 模式
+railcraft.gui.track.mode.change=改變成 @s 模式
+railcraft.gui.track.coupler.mode.auto.coupler=自動連結
+railcraft.gui.track.coupler.mode.coupler=連結
+railcraft.gui.track.coupler.mode.decoupler=解除連結
 railcraft.gui.track.locking.mode.boarding.train=列車發車
 railcraft.gui.track.locking.mode.boarding=發車
 railcraft.gui.track.locking.mode.holding.train=列車臨停
@@ -768,7 +791,7 @@ tile.railcraft.machine.gamma.loader.item.tip=裝載物品運入礦車\n§o§c- �
 tile.railcraft.machine.gamma.loader.liquid.name=液體裝載機
 tile.railcraft.machine.gamma.loader.liquid.tip=裝載液體運入礦車\n§o§c- 放置於鐵軌上方 -
 tile.railcraft.machine.gamma.unloader.energy.name=能量卸載機
-tile.railcraft.machine.gamma.unloader.energy.tip=運出Ic2電力礦車中的能量\n§o§9- 以鐵橇點擊改變方向 -\n§o§c- 儘輸出Ic2電力
+tile.railcraft.machine.gamma.unloader.energy.tip=運出Ic2電力礦車中的能量\n§o§9- 以鐵橇點擊改變方向 -\n§o§c- 僅輸出Ic2電力
 tile.railcraft.machine.gamma.unloader.item.advanced.name=進階物品卸載機
 tile.railcraft.machine.gamma.unloader.item.advanced.tip=卸載物品運出礦車\n§o§9- 以鐵橇點擊改變方向 -
 tile.railcraft.machine.gamma.unloader.item.name=物品卸載機
@@ -799,7 +822,7 @@ tile.railcraft.post.metal.green.name=綠色金屬支柱
 tile.railcraft.post.metal.light.blue.name=淺藍金屬支柱
 tile.railcraft.post.metal.light.gray.name=淺灰金屬支柱
 tile.railcraft.post.metal.lime.name=淺綠金屬支柱
-tile.railcraft.post.metal.magenta.name=桃紅金屬支柱
+tile.railcraft.post.metal.magenta.name=洋紅金屬支柱
 tile.railcraft.post.metal.unpainted.name=金屬支柱
 tile.railcraft.post.metal.orange.name=橘色金屬支柱
 tile.railcraft.post.metal.pink.name=粉紅色金屬支柱
@@ -812,7 +835,7 @@ tile.railcraft.post.metal.platform.green.name=綠色金屬平台
 tile.railcraft.post.metal.platform.light.blue.name=淺藍金屬平台
 tile.railcraft.post.metal.platform.light.gray.name=淺灰金屬平台
 tile.railcraft.post.metal.platform.lime.name=淺綠金屬平台
-tile.railcraft.post.metal.platform.magenta.name=桃紅金屬平台
+tile.railcraft.post.metal.platform.magenta.name=洋紅金屬平台
 tile.railcraft.post.metal.platform.unpainted.name=金屬平台
 tile.railcraft.post.metal.platform.orange.name=橘色金屬平台
 tile.railcraft.post.metal.platform.pink.name=粉紅色金屬平台
@@ -1048,6 +1071,8 @@ tile.railcraft.track.whistle.name=汽笛鐵軌
 tile.railcraft.track.whistle.tip=使經過的火車頭發出汽笛聲\n§o§c- 以紅石充能啟動 -
 tile.railcraft.track.wye.name=Ｙ型鐵軌
 tile.railcraft.track.wye.tip=§o§c- 以轉轍器控制方向 -
+tile.railcraft.track.autolococoupler.name=自動車頭連結鐵軌
+tile.railcraft.track.autolococoupler.tip=設定經過的火車頭連結第一個\n之後碰撞的車輛，並自動\n切換到調車速度\n§o§c- 以紅石充能啟動 -
 
 tile.railcraft.wall.abyssal.brick.name=深淵磚牆
 tile.railcraft.wall.bleachedbone.brick.name=白骨磚牆
