@@ -9,6 +9,22 @@ command.railcraft.noperms=Du hast nicht die erforderlichen Berechtigungen, um di
 command.railcraft.railcraft.help=Verschiedene Befehle für Railcraft
 command.railcraft.railcraft.format=Format: /%s <Sub-Befehl>
 
+command.railcraft.railcraft.admin.desc=- %s : Admin-Werkzeug
+command.railcraft.railcraft.admin.help=Dinge zur Administration
+command.railcraft.railcraft.admin.format=Format: /%s
+
+command.railcraft.railcraft.admin.kill.desc=- %s : Dinge töten
+command.railcraft.railcraft.admin.kill.help=Um Dinge zu töten.
+command.railcraft.railcraft.admin.kill.format=Format: /%s
+
+command.railcraft.railcraft.admin.kill.animals.desc=- %s : Tiere töten
+command.railcraft.railcraft.admin.kill.animals.help=Tötet alle Tiere in der aktuellen Welt.
+command.railcraft.railcraft.admin.kill.animals.format=Format: /%s
+
+command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : Loren töten
+command.railcraft.railcraft.admin.kill.minecarts.help=Entfernt alle Loren und Waggons aus der aktuellen Welt.
+command.railcraft.railcraft.admin.kill.minecarts.format=Format: /%s
+
 command.railcraft.railcraft.debug.desc=- %s : Debug-Werkzeug
 command.railcraft.railcraft.debug.help=Werkzeuge, um schwierigen Problemen nachzugehen.
 command.railcraft.railcraft.debug.format=Format: /%s
@@ -471,7 +487,7 @@ railcraft.gui.routing.logic.regex.unsupported=Regex nicht unterstützt
 railcraft.gui.routing.logic.unrecognized.keyword=Unbekanntes Schlüsselwort
 railcraft.gui.routing.slot.label=Fahrplan
 railcraft.gui.routing.table.editor=Zuletzt bearbeitet von @s
-railcraft.gui.routing.table.manual.numPages=10
+railcraft.gui.routing.table.manual.numPages=11
 railcraft.gui.routing.table.manual.page1=Der Streckenplan, wenn in einem Richtungsdetektor oder Stellantrieb platziert, wird eine Sammlung von Regeln definieren, die bei jeder passierenden Lokomotive genutzt werden. Diese Regeln werden mit einer einfachen logischen Syntax definiert, die es dir erlaubt, Regeln zu erschaffen, so einfach oder komplex wie du willst. Die Syntax ist ein Präfix-Notationsscript, the Operatoren werden gefolgt von den Operanden. Nur ein Wort pro Zeile ist erlaubt. Wenn kein Operator spezifiziert wird, wird OR verwendet. Streckenpläne können kopiert werden, indem zwei oder mehr in ein Crafting-Gitter platziert werden.
 railcraft.gui.routing.table.manual.page2=Operator-Wörter:\n   AND - Zwei Operanden, beide müssen wahr sein.\n   OR - Zwei Operanden, einer muss wahr sein.\n   NOT - Kehrt den folgenden Operanden um.
 railcraft.gui.routing.table.manual.page3=Bedingungswörter:\n   Dest=<string>\n      Wenn das eingetragene Ziel der\n      Lokomotive mit diesem String startet,\n      ist die Bedingung wahr.\n      "Dest=null" wird Wagen ohne\n      Ziel entsprechen.\n   Owner=<Spielername>\n      Wahr, wenn die Lokomotive\n      dieser Person gehört.
