@@ -262,17 +262,19 @@ item.railcraft.tool.steel.sword.name=Steel Sword
 item.railcraft.tool.surveyor.name=Signal Block Surveyor
 item.railcraft.tool.surveyor.tip=Links Signals into Signal Blocks
 item.railcraft.tool.whistle.tuner.name=Whistle Tuner
-item.railcraft.tool.template.tool.name=Template Tool
-item.railcraft.tool.template.tool.tip=Right-click loader to paste, sneak to copy!\nSneak-click air to clear
-item.railcraft.tool.template.tool.tip.contents0=§eCart §f& §2Item Filters
-item.railcraft.tool.template.tool.tip.contents1=§eCart §f& §bFluid Filters
-item.railcraft.tool.template.tool.tip.contents2=§eCart Filters
-item.railcraft.tool.template.tool.tip.mode0=Paste All
-item.railcraft.tool.template.tool.tip.mode1=Paste Carts
-item.railcraft.tool.template.tool.tip.mode2=Paste Items/Fluid
-item.railcraft.tool.template.tool.onpaste=Pasted settings to %s
-item.railcraft.tool.template.tool.oncopy=Copied settings from %s
-item.railcraft.tool.template.tool.nodata=Nothing to paste. Shift-click on a loader/unloader to copy.
+item.railcraft.tool.notepad.name=Trackman's Notepad
+item.railcraft.tool.notepad.tip=Right-click loader to paste, sneak to copy!\nSneak-click air to clear
+item.railcraft.tool.notepad.tip.contents0=§eCart §f& §2Item Filters
+item.railcraft.tool.notepad.tip.contents1=§eCart §f& §bFluid Filters
+item.railcraft.tool.notepad.tip.contents2=§eCart Filters
+item.railcraft.tool.notepad.tip.mode=Paste Mode: @s
+item.railcraft.tool.notepad.tip.mode.all=All
+item.railcraft.tool.notepad.tip.mode.cart.filter=Carts Filter
+item.railcraft.tool.notepad.tip.mode.loader.template=Item/Fluid Template
+item.railcraft.tool.notepad.action.paste=Pasted settings to %s
+item.railcraft.tool.notepad.action.copy=Copied settings from %s
+item.railcraft.tool.notepad.action.empty=Nothing to paste. Shift-click on a loader/unloader to copy.
+
 
 item.railcraft.upgrade.lapotron=Lapotron Loader Upgrade
 
