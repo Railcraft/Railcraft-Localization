@@ -626,8 +626,8 @@ tile.goldenRail.name=Booster Track
 tile.rail.name=Track
 
 tile.railcraft.anvil.intact.name=Steel Anvil
-tile.railcraft.anvil.slightlyDamaged.name=Slightly Damaged Anvil
-tile.railcraft.anvil.veryDamaged.name=Very Damaged Anvil
+tile.railcraft.anvil.slightlyDamaged.name=Slightly Damaged Steel Anvil
+tile.railcraft.anvil.veryDamaged.name=Very Damaged Steel Anvil
 
 tile.railcraft.brick.abyssal.block.name=Abyssal Block
 tile.railcraft.brick.abyssal.brick.name=Abyssal Brick
@@ -811,7 +811,7 @@ tile.railcraft.machine.gamma.loader.item.advanced.tip=Loads Items into Carts\n§
 tile.railcraft.machine.gamma.loader.item.name=Item Loader
 tile.railcraft.machine.gamma.loader.item.tip=Loads Items into Carts\n§o§c- Place over Track -
 tile.railcraft.machine.gamma.loader.liquid.name=Fluid Loader
-tile.railcraft.machine.gamma.loader.liquid.tip=Loads Fluids into Carts\n§o§c- Place over Track -
+tile.railcraft.machine.gamma.loader.liquid.tip=Loads Fluids into Carts\n§o§c- Place 1-2 blocks above Track -
 tile.railcraft.machine.gamma.unloader.energy.name=Energy Unloader
 tile.railcraft.machine.gamma.unloader.energy.tip=Unloads Energy from Ic2 Energy Carts\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Only emits Ic2 power
 tile.railcraft.machine.gamma.unloader.rf.name=Redstone Flux Unloader
