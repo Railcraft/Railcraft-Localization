@@ -245,7 +245,7 @@ item.railcraft.tool.crowbar.name=鐵橇
 item.railcraft.tool.crowbar.reinforced.name=強化鐵橇
 item.railcraft.tool.crowbar.tip=§o潛行時右鍵可連結車廂
 item.railcraft.tool.crowbar.void.name=虛無鐵橇
-item.railcraft.tool.electric.meter.name=電錶
+item.railcraft.tool.charge.meter.name=電錶
 item.railcraft.tool.magnifying.glass.name=放大鏡
 item.railcraft.tool.signal.label.name=號誌標籤
 item.railcraft.tool.signal.label.tip=§9- 在鐵砧中命名 -\n§o潛行時右鍵使用\n§o命名一個號誌或號誌箱
@@ -304,7 +304,7 @@ railcraft.gates.trigger.temp.hot=燙
 railcraft.gates.trigger.temp.warm=熱
 railcraft.gates.trigger.work=運作中
 
-railcraft.gui.anchor.fuel.remaining=@.2f小時
+railcraft.gui.anchor.fuel.remaining=%s小時
 railcraft.gui.anchor.fuel=終界珍珠
 railcraft.gui.anchor.pair.fail.alignment=%1$s 與 %2$s 不在同一條軸線上
 railcraft.gui.anchor.pair.fail.distance=%1$s 和 %2$s 相距過遠，無法配對
@@ -322,8 +322,8 @@ railcraft.gui.aspect.off.name=關閉
 railcraft.gui.aspect.red.name=紅燈
 railcraft.gui.aspect.yellow.name=黃燈
 
-railcraft.gui.aura.disable=@s 監視關閉
-railcraft.gui.aura.enable=@s 開啟監視
+railcraft.gui.aura.disable=%s 監視關閉
+railcraft.gui.aura.enable=%s 開啟監視
 
 railcraft.gui.blast.furnace=鼓風爐
 
@@ -333,7 +333,7 @@ railcraft.gui.bore.head=鑽頭
 railcraft.gui.bore.track=鐵軌
 
 railcraft.gui.box.aspect.action=輸出條件
-railcraft.gui.box.capacitor.duration=輸出 @d 秒紅石訊號
+railcraft.gui.box.capacitor.duration=輸出 %s 秒紅石訊號
 railcraft.gui.box.capacitor.immediate=即刻
 railcraft.gui.box.capacitor.immediate.tip=收到輸入訊號即開始輸出
 railcraft.gui.box.capacitor.delayed=延遲
@@ -376,13 +376,11 @@ railcraft.gui.detector.tank.tip.most=偵測液體多於3/4的蓄水車
 railcraft.gui.detector.tank.tip.not.empty=偵測任何有液體的蓄水車
 railcraft.gui.detector.tank.tip.quarter=偵測液體多於4/1的蓄水車
 railcraft.gui.detector.tank.tip.void=偵測任意容量
-railcraft.gui.detector.train.size=列車長度 = @d
+railcraft.gui.detector.train.size=列車長度 = %s
 railcraft.gui.detector.villager.any=任意
 railcraft.gui.detector.villager.equals=相同
 railcraft.gui.detector.villager.none=皆非
 railcraft.gui.detector.villager.not=不同
-
-railcraft.gui.electric.meter.charge=電量: @.2fc | 補充: @.2fc/t | 損耗: @.2fc/t
 
 railcraft.gui.energy.loader.empty=留空車
 railcraft.gui.energy.loader.fill=強制裝滿
@@ -410,12 +408,12 @@ railcraft.gui.goggles.aura.signalling=信號途徑
 railcraft.gui.goggles.aura.surveying=號誌區塊
 railcraft.gui.goggles.aura.tracking=移動路徑
 railcraft.gui.goggles.aura.tuning=號誌調諧
-railcraft.gui.goggles.mode=目前類型: @s
+railcraft.gui.goggles.mode=目前類型: %s
 railcraft.gui.goggles.tip=手持右鍵可改變類型
 
 railcraft.gui.help=幫助
 
-railcraft.gui.ic2.energy.rate=速率: @d EU
+railcraft.gui.ic2.energy.rate=速率: %s EU
 
 railcraft.gui.item.loader.all.tip=移動所有選擇的物品
 railcraft.gui.item.loader.all=全部
@@ -467,13 +465,13 @@ railcraft.gui.locomotive.steam.tip.button.mode.shutdown=關閉火車頭\n停止�
 railcraft.gui.locomotive.tip.button.locked=這輛車已經被 {owner} 上鎖\n只接受擁有者發行的車票或Op控制
 railcraft.gui.locomotive.tip.button.private=這輛車為 {owner} 私人所有\n只有所有人或Op能夠控制
 railcraft.gui.locomotive.tip.button.unlocked=點擊以上鎖火車頭\n 一旦上鎖，將只能放入擁有者\n發行的車票或Op才能控制
-railcraft.gui.locomotive.tip.item.emblem=§o標誌:§r @s
+railcraft.gui.locomotive.tip.item.emblem=§o標誌:§r %s
 railcraft.gui.locomotive.tip.item.model.default=預設模型
-railcraft.gui.locomotive.tip.item.model=§o模型:§r @s
-railcraft.gui.locomotive.tip.item.owner=§o擁有者:§r @s
-railcraft.gui.locomotive.tip.item.primary=§o車身顏色:§r @s
-railcraft.gui.locomotive.tip.item.secondary=§o底盤顏色:§r @s
-railcraft.gui.locomotive.tip.item.whistle=§o汽笛音高:§r @s
+railcraft.gui.locomotive.tip.item.model=§o模型:§r %s
+railcraft.gui.locomotive.tip.item.owner=§o擁有者:§r %s
+railcraft.gui.locomotive.tip.item.primary=§o車身顏色:§r %s
+railcraft.gui.locomotive.tip.item.secondary=§o底盤顏色:§r %s
+railcraft.gui.locomotive.tip.item.whistle=§o汽笛音高:§r %s
 railcraft.gui.locomotive.tip.slot.ticket=放入車票
 
 railcraft.gui.mag.glass.aspect=此號誌的狀態是 %s
@@ -489,7 +487,7 @@ railcraft.gui.routing.logic.regex.invalid=無效的正規表達式
 railcraft.gui.routing.logic.regex.unsupported=不支援的正規表達式
 railcraft.gui.routing.logic.unrecognized.keyword=未知的關鍵字
 railcraft.gui.routing.slot.label=路由表
-railcraft.gui.routing.table.editor=最後編輯由 @s
+railcraft.gui.routing.table.editor=最後編輯由 %s
 railcraft.gui.routing.table.manual.numPages=10
 railcraft.gui.routing.table.manual.page1=當路由表被放在路由偵測器或路由轉轍器裡面，他將會定義出一組規則，可以用來偵測任何經過的火車頭是否符合那組規定。\n只要使用簡單的邏輯語法就可以制定規則，讓你可以隨你的喜好創造出複雜或簡單的規定。 這個語法遵從前序表示法，運算子跟在運算元後面。每行中只允許出現一個關鍵字。如果沒有指定運算子，就會被視為OR。\n如果要複製路由表，可同時將多個路由表放入合成欄中合成
 railcraft.gui.routing.table.manual.page2=運算符關鍵字:\n   AND - 兩個運算元，兩者皆必須為「真」\n   OR - 兩個運算元，只有一個必須為「真」\n   NOT - 反轉在其之下的運算元
@@ -546,7 +544,7 @@ railcraft.gui.tip.button.lock.notowner=你並不是該設備的所有人\n 它�
 railcraft.gui.tip.button.lock.unlocked=點擊以上鎖這個設備\n 一旦上鎖，僅所有人或Op能夠存取
 
 railcraft.gui.track.embarking.radius=半徑
-railcraft.gui.track.mode.change=改變成 @s 模式
+railcraft.gui.track.mode.change=改變成 %s 模式
 railcraft.gui.track.coupler.mode.auto.coupler=自動連結
 railcraft.gui.track.coupler.mode.coupler=連結
 railcraft.gui.track.coupler.mode.decoupler=解除連結
@@ -556,8 +554,8 @@ railcraft.gui.track.locking.mode.holding.train=列車臨停
 railcraft.gui.track.locking.mode.holding=臨停
 railcraft.gui.track.locking.mode.lockdown.train=列車鎖定
 railcraft.gui.track.locking.mode.lockdown=鎖定
-railcraft.gui.track.priming.fuse=點燃秒數 = @d ticks
-railcraft.gui.track.launcher.force=彈跳強度 = @d
+railcraft.gui.track.priming.fuse=點燃秒數 = %s ticks
+railcraft.gui.track.launcher.force=彈跳強度 = %s
 
 railcraft.gui.trade.station.dice.tip=隨機的交易
 
@@ -568,11 +566,11 @@ railcraft.gui.tuner.start=開始 %s 與接收器的配對
 railcraft.gui.tuner.stop=停止 %s 與接收器的配對
 railcraft.gui.tuner.success=%1$s 與 %2$s 配對成功
 
-railcraft.gui.turbine.output=輸出: @d%%
+railcraft.gui.turbine.output=輸出: %s%%
 railcraft.gui.turbine.rotor=轉子:
 railcraft.gui.turbine=蒸氣渦輪
 
-railcraft.gui.update.message=Railcraft @s 已經發布，來自 <http://railcraft.info>
+railcraft.gui.update.message=Railcraft %s 已經發布，來自 <http://railcraft.info>
 
 railcraft.keybind.aura.anchor=世界錨特效
 railcraft.keybind.aura.surveying=號誌區塊特效

@@ -226,7 +226,7 @@ item.railcraft.tool.crowbar.name=Монтировка
 item.railcraft.tool.crowbar.reinforced.name=Армированная монтировка
 item.railcraft.tool.crowbar.tip=§oНажмите ПКМ, держа Shift, чтобы соединить вагонетки
 item.railcraft.tool.crowbar.void.name=Монтировка из пустотного металла
-item.railcraft.tool.electric.meter.name=Электросчётчик
+item.railcraft.tool.charge.meter.name=Электросчётчик
 item.railcraft.tool.magnifying.glass.name=Лупа
 item.railcraft.tool.signal.tuner.name=Настройщик сигнала
 item.railcraft.tool.signal.tuner.tip=Соединяет контроллеры с приёмниками
@@ -283,7 +283,7 @@ railcraft.gates.trigger.temp.hot=Котёл горячий
 railcraft.gates.trigger.temp.warm=Котёл тёплый
 railcraft.gates.trigger.work=Работает
 
-railcraft.gui.anchor.fuel.remaining=@.2f часов
+railcraft.gui.anchor.fuel.remaining=%s часов
 railcraft.gui.anchor.fuel=Жемчужины Края
 railcraft.gui.anchor.pair.fail.alignment=%1$s не на одной линии с %2$s
 railcraft.gui.anchor.pair.fail.distance=%1$s слишком далеко, чтобы соединиться с %2$s
@@ -301,8 +301,8 @@ railcraft.gui.aspect.off.name=Откл.
 railcraft.gui.aspect.red.name=Красный
 railcraft.gui.aspect.yellow.name=Жёлтый
 
-railcraft.gui.aura.enable=Аура "@s" включена
-railcraft.gui.aura.disable=Аура "@s" выключена
+railcraft.gui.aura.enable=Аура "%s" включена
+railcraft.gui.aura.disable=Аура "%s" выключена
 
 railcraft.gui.blast.furnace=Доменная печь
 
@@ -312,7 +312,7 @@ railcraft.gui.bore.head=Головка
 railcraft.gui.bore.track=Пути
 
 railcraft.gui.box.aspect.action=Сигнал красн. камня на аспект
-railcraft.gui.box.capacitor.duration=Сигнал красн. камня на @d секунд
+railcraft.gui.box.capacitor.duration=Сигнал красн. камня на %s секунд
 railcraft.gui.box.capacitor.immediate=Незамедлительно
 railcraft.gui.box.capacitor.immediate.tip=Запустить таймер как только будет получен входной сигнал.
 railcraft.gui.box.capacitor.delayed=С задержкой
@@ -355,13 +355,11 @@ railcraft.gui.detector.tank.tip.most=Подходят более, чем на 3/
 railcraft.gui.detector.tank.tip.not.empty=Подходят непустые цистерны
 railcraft.gui.detector.tank.tip.quarter=Подходят более, чем на четверть полные цистерны
 railcraft.gui.detector.tank.tip.void=Подходит любое количество
-railcraft.gui.detector.train.size=Размер поезда = @d
+railcraft.gui.detector.train.size=Размер поезда = %s
 railcraft.gui.detector.villager.any=Любой
 railcraft.gui.detector.villager.equals=Равно
 railcraft.gui.detector.villager.none=Никто
 railcraft.gui.detector.villager.not=Нет
-
-railcraft.gui.electric.meter.charge=Заряд: @.2fc | Draw: @.2fc/тик | Потери: @.2fc/тик
 
 railcraft.gui.energy.loader.empty=Удерживать пустые
 railcraft.gui.energy.loader.fill=Заполнить
@@ -389,12 +387,12 @@ railcraft.gui.goggles.aura.signalling=Сигнал
 railcraft.gui.goggles.aura.surveying=Геодезия
 railcraft.gui.goggles.aura.tracking=Отслеживание
 railcraft.gui.goggles.aura.tuning=Связка
-railcraft.gui.goggles.mode=Текущая аура: @s
+railcraft.gui.goggles.mode=Текущая аура: %s
 railcraft.gui.goggles.tip=Используйте панель быстрого доступа для смены ауры
 
 railcraft.gui.help=Помощь
 
-railcraft.gui.ic2.energy.rate=Коэффициент: @d EU
+railcraft.gui.ic2.energy.rate=Коэффициент: %s EU
 
 railcraft.gui.item.loader.all.tip=Переместить все подходящие предметы
 railcraft.gui.item.loader.all=Все
@@ -446,13 +444,13 @@ railcraft.gui.locomotive.steam.tip.button.mode.shutdown=Отключает ло�
 railcraft.gui.locomotive.tip.button.locked=Эта вагонетка закрыта\n {owner}.\n Она будет принимать только билеты\n выпущенные Вами или Оператором.
 railcraft.gui.locomotive.tip.button.private=Эта вагонетка принадлежит\n {owner}.\n Она может управляться только\n им или Оператором.
 railcraft.gui.locomotive.tip.button.unlocked=Нажмите, чтобы заблокировать локомотив.\n После закрытия, он будет\n принимать только билеты\n выпущенные Вами или Оператором.
-railcraft.gui.locomotive.tip.item.emblem=§oЭмблема:§r @s
+railcraft.gui.locomotive.tip.item.emblem=§oЭмблема:§r %s
 railcraft.gui.locomotive.tip.item.model.default=Стандартная модель
-railcraft.gui.locomotive.tip.item.model=§oМодель:§r @s
-railcraft.gui.locomotive.tip.item.owner=§oЦвет владельца:§r @s
-railcraft.gui.locomotive.tip.item.primary=§oОсновной цвет:§r @s
-railcraft.gui.locomotive.tip.item.secondary=§oВторичный цвет:§r @s
-railcraft.gui.locomotive.tip.item.whistle=§oТон свистка:§r @s
+railcraft.gui.locomotive.tip.item.model=§oМодель:§r %s
+railcraft.gui.locomotive.tip.item.owner=§oЦвет владельца:§r %s
+railcraft.gui.locomotive.tip.item.primary=§oОсновной цвет:§r %s
+railcraft.gui.locomotive.tip.item.secondary=§oВторичный цвет:§r %s
+railcraft.gui.locomotive.tip.item.whistle=§oТон свистка:§r %s
 railcraft.gui.locomotive.tip.slot.ticket=Вставьте билет
 
 railcraft.gui.mag.glass.aspect=Аспект сигнала %s
@@ -468,7 +466,7 @@ railcraft.gui.routing.logic.regex.invalid=Неверный шаблон регу
 railcraft.gui.routing.logic.regex.unsupported=Регулярное выражение не поддерживается
 railcraft.gui.routing.logic.unrecognized.keyword=Нераспознанное ключевое слово
 railcraft.gui.routing.slot.label=Таблица маршрутизации
-railcraft.gui.routing.table.editor=Последний раз редактировалось игроком @s
+railcraft.gui.routing.table.editor=Последний раз редактировалось игроком %s
 railcraft.gui.routing.table.manual.numPages=10
 railcraft.gui.routing.table.manual.page1=Таблица маршрутизации при размещении в детектор маршрутизации или маршрутный стрелочный мотор определит набор правил, которые используются для сопоставления с любым проходящим локомотивом. Эти правила определяются с помощью простого логического синтаксиса, который позволяет Вам создавать правила, простым или сложным, как Вам нравится. Синтаксис - Prefix Notation script, Операторы следуют за Операндами. Только одно ключевое слово допускается в строке. Если ни один Оператор не указан или вымышлен. Таблицы маршрутизации могут быть скопированы путём размещения двух или более в сетке создания.
 railcraft.gui.routing.table.manual.page2=Ключевые слова Операторов:\n   AND(И) - Два Операнда, оба должны быть истинными.\n   OR(ИЛИ) - Два Операнда, хотя бы один должен быть истинным.\n   NOT(НЕ) - Инвертирует значение следующего Операнда.
@@ -523,15 +521,15 @@ railcraft.gui.tip.button.lock.notowner=Вы не\n владелец этого �
 railcraft.gui.tip.button.lock.unlocked=Нажмите, чтобы заблокировать устройство.\n После закрытия оно может\n быть доступно только\n для Вас или для Оператора.
 
 railcraft.gui.track.embarking.radius=Радиус
-railcraft.gui.track.mode.change=Изменён на режим @s
+railcraft.gui.track.mode.change=Изменён на режим %s
 railcraft.gui.track.locking.mode.boarding.train=Посадка поезда
 railcraft.gui.track.locking.mode.boarding=Посадка
 railcraft.gui.track.locking.mode.holding.train=Удерживание поезда
 railcraft.gui.track.locking.mode.holding=Удерживание
 railcraft.gui.track.locking.mode.lockdown.train=Блокировка поезда
 railcraft.gui.track.locking.mode.lockdown=Блокировка
-railcraft.gui.track.priming.fuse=Запал = @d тактов
-railcraft.gui.track.launcher.force=Сила = @d
+railcraft.gui.track.priming.fuse=Запал = %s тактов
+railcraft.gui.track.launcher.force=Сила = %s
 
 railcraft.gui.trade.station.dice.tip=Произвольная торговля
 
@@ -542,11 +540,11 @@ railcraft.gui.tuner.start=Начато соединение %s с приёмни
 railcraft.gui.tuner.stop=Остановлено соединение %s с приёмником
 railcraft.gui.tuner.success=%1$s Успешно соединено с %2$s
 
-railcraft.gui.turbine.output=Выход: @d%%
+railcraft.gui.turbine.output=Выход: %s%%
 railcraft.gui.turbine.rotor=Ротор:
 railcraft.gui.turbine=Паровая турбина
 
-railcraft.gui.update.message=Railcraft @s доступен на <http://railcraft.info>
+railcraft.gui.update.message=Railcraft %s доступен на <http://railcraft.info>
 
 railcraft.keybind.aura.anchor=Аура якоря
 railcraft.keybind.aura.surveying=Геодезическая аура

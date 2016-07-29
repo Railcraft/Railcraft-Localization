@@ -230,7 +230,7 @@ item.railcraft.tool.crowbar.name=撬棍
 item.railcraft.tool.crowbar.reinforced.name=强化撬棍
 item.railcraft.tool.crowbar.tip=§o潜行时右键可链接车厢
 item.railcraft.tool.crowbar.void.name=虚空金属撬棍
-item.railcraft.tool.electric.meter.name=电表
+item.railcraft.tool.charge.meter.name=电表
 item.railcraft.tool.magnifying.glass.name=放大镜
 item.railcraft.tool.signal.tuner.name=信号调谐器
 item.railcraft.tool.signal.tuner.tip=用于连接控制器与接收器
@@ -287,7 +287,7 @@ railcraft.gates.trigger.temp.hot=热
 railcraft.gates.trigger.temp.warm=暖
 railcraft.gates.trigger.work=工作
 
-railcraft.gui.anchor.fuel.remaining=@.2f小时
+railcraft.gui.anchor.fuel.remaining=%s小时
 railcraft.gui.anchor.fuel=末影珍珠
 railcraft.gui.anchor.pair.fail.alignment=%1$s与%2$s不匹配
 railcraft.gui.anchor.pair.fail.distance=%1$s与%2$s距离过远,无法配对
@@ -305,8 +305,8 @@ railcraft.gui.aspect.off.name=关闭
 railcraft.gui.aspect.red.name=红色
 railcraft.gui.aspect.yellow.name=黄色
 
-railcraft.gui.aura.disable=@s监视效果关闭
-railcraft.gui.aura.enable=@s监视效果开启
+railcraft.gui.aura.disable=%s监视效果关闭
+railcraft.gui.aura.enable=%s监视效果开启
 
 railcraft.gui.blast.furnace=高炉
 
@@ -316,7 +316,7 @@ railcraft.gui.bore.head=钻头
 railcraft.gui.bore.track=轨道
 
 railcraft.gui.box.aspect.action=对应信号域来发送红石信号
-railcraft.gui.box.capacitor.duration=持续发送红石信号@d秒
+railcraft.gui.box.capacitor.duration=持续发送红石信号%s秒
 railcraft.gui.box.capacitor.immediate=同步
 railcraft.gui.box.capacitor.immediate.tip=在收到红石信号同时开始计时. 
 railcraft.gui.box.capacitor.delayed=延迟
@@ -359,13 +359,11 @@ railcraft.gui.detector.tank.tip.most=匹配超过3/4量蓄水槽
 railcraft.gui.detector.tank.tip.not.empty=匹配非空蓄水槽
 railcraft.gui.detector.tank.tip.quarter=匹配超过1/4量蓄水槽
 railcraft.gui.detector.tank.tip.void=匹配任意数量
-railcraft.gui.detector.train.size=列车长度 = @d
+railcraft.gui.detector.train.size=列车长度 = %s
 railcraft.gui.detector.villager.any=任意
 railcraft.gui.detector.villager.equals=是
 railcraft.gui.detector.villager.none=无
 railcraft.gui.detector.villager.not=否
-
-railcraft.gui.electric.meter.charge=电量: @.2fc | 电流: @.2fc/t | 损耗: @.2fc/t
 
 railcraft.gui.energy.loader.empty=空
 railcraft.gui.energy.loader.fill=强制装满
@@ -393,12 +391,12 @@ railcraft.gui.goggles.aura.signalling=信号
 railcraft.gui.goggles.aura.surveying=检测
 railcraft.gui.goggles.aura.tracking=踪迹
 railcraft.gui.goggles.aura.tuning=调谐
-railcraft.gui.goggles.mode=当前监视类型: @s
+railcraft.gui.goggles.mode=当前监视类型: %s
 railcraft.gui.goggles.tip=手持护目镜使用右键来变更监视类型
 
 railcraft.gui.help=帮助
 
-railcraft.gui.ic2.energy.rate=速率: @d EU
+railcraft.gui.ic2.energy.rate=速率: %s EU
 
 railcraft.gui.item.loader.all.tip=移动所有匹配物品
 railcraft.gui.item.loader.all=全部
@@ -450,13 +448,13 @@ railcraft.gui.locomotive.steam.tip.button.mode.shutdown=关闭机车.\n 暂停�
 railcraft.gui.locomotive.tip.button.locked=该车已经被\n{owner}绑定,\n 它只接受op或者绑定人的\n车票.
 railcraft.gui.locomotive.tip.button.private=该车为{owner}私人所有.\n 仅受op或它的主人控制.
 railcraft.gui.locomotive.tip.button.unlocked=点击来绑定列车.\n绑定后,它只接受op或者\n你的车票.
-railcraft.gui.locomotive.tip.item.emblem=§o徽章:§r @s
+railcraft.gui.locomotive.tip.item.emblem=§o徽章:§r %s
 railcraft.gui.locomotive.tip.item.model.default=默认模板
-railcraft.gui.locomotive.tip.item.model=§o模板:§r @s
-railcraft.gui.locomotive.tip.item.owner=§o主人:§r @s
-railcraft.gui.locomotive.tip.item.primary=§o车身颜色:§r @s
-railcraft.gui.locomotive.tip.item.secondary=§o底盘颜色:§r @s
-railcraft.gui.locomotive.tip.item.whistle=§o鸣笛音高:§r @s
+railcraft.gui.locomotive.tip.item.model=§o模板:§r %s
+railcraft.gui.locomotive.tip.item.owner=§o主人:§r %s
+railcraft.gui.locomotive.tip.item.primary=§o车身颜色:§r %s
+railcraft.gui.locomotive.tip.item.secondary=§o底盘颜色:§r %s
+railcraft.gui.locomotive.tip.item.whistle=§o鸣笛音高:§r %s
 railcraft.gui.locomotive.tip.slot.ticket=插入车票
 
 railcraft.gui.mag.glass.aspect=信号灯颜色是%s.
@@ -472,7 +470,7 @@ railcraft.gui.routing.logic.regex.invalid=无效正则表达式
 railcraft.gui.routing.logic.regex.unsupported=未支持正则表达式
 railcraft.gui.routing.logic.unrecognized.keyword=未识别关键字
 railcraft.gui.routing.slot.label=路由表
-railcraft.gui.routing.table.editor=由@s最后编辑
+railcraft.gui.routing.table.editor=由%s最后编辑
 railcraft.gui.routing.table.manual.numPages=10
 railcraft.gui.routing.table.manual.page1=放入路由探测器或转辙器中的列车时刻表定义了一组对过往机车进行匹配的规则.这些使用简单逻辑指令定义的脚本能够允许你任你所需创建出简单或复杂的控制规则.这种指令属于前缀符号脚本,指令需要放在操作数之后,每行限使用一个关键字.若没有写明指令,则默认使用OR指令.在工作台放置两个或更多列车时刻表可以复制其内容.
 railcraft.gui.routing.table.manual.page2=指令关键字:\n   AND - 两个操作数,必须都为真..\n   OR - 两个操作数,一个必须为真.\n   NOT - 反转下一条指令.
@@ -528,15 +526,15 @@ railcraft.gui.tip.button.lock.notowner=你不是这台设备\n的主人.它属�
 railcraft.gui.tip.button.lock.unlocked=点击来绑定设备.\n绑定后,它只接受你或者op的操作. 
 
 railcraft.gui.track.embarking.radius=半径
-railcraft.gui.track.mode.change=切换为@s模式
+railcraft.gui.track.mode.change=切换为%s模式
 railcraft.gui.track.locking.mode.boarding.train=登入列车
 railcraft.gui.track.locking.mode.boarding=登入
 railcraft.gui.track.locking.mode.holding.train=列车扣留
 railcraft.gui.track.locking.mode.holding=扣留
 railcraft.gui.track.locking.mode.lockdown.train=列车封锁
 railcraft.gui.track.locking.mode.lockdown=封锁
-railcraft.gui.track.priming.fuse=引爆延迟 = @d ticks
-railcraft.gui.track.launcher.force=发射力度 = @d 
+railcraft.gui.track.priming.fuse=引爆延迟 = %s ticks
+railcraft.gui.track.launcher.force=发射力度 = %s 
 
 railcraft.gui.trade.station.dice.tip=随机交易
 
@@ -547,11 +545,11 @@ railcraft.gui.tuner.start=开始配对%s到接收器
 railcraft.gui.tuner.stop=停止配对%s到接收器
 railcraft.gui.tuner.success=%1$s成功与%2$s配对
 
-railcraft.gui.turbine.output=输出:@d%%
+railcraft.gui.turbine.output=输出:%s%%
 railcraft.gui.turbine.rotor=转子:
 railcraft.gui.turbine=蒸汽涡轮机
 
-railcraft.gui.update.message=最新版本Railcraft @s已经可用,欢迎前往<http://railcraft.info>下载.
+railcraft.gui.update.message=最新版本Railcraft %s已经可用,欢迎前往<http://railcraft.info>下载.
 
 railcraft.keybind.aura.anchor=锚光环
 railcraft.keybind.aura.surveying=检测光环

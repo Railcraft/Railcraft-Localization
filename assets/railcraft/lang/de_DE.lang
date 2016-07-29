@@ -248,7 +248,7 @@ item.railcraft.tool.crowbar.name=Brecheisen
 item.railcraft.tool.crowbar.reinforced.name=Verstärktes Brecheisen
 item.railcraft.tool.crowbar.tip=§oRechtsklicke schleichend, um Waggons zu verbinden
 item.railcraft.tool.crowbar.void.name=Leermetallbrecheisen
-item.railcraft.tool.electric.meter.name=Elektrisches Messgerät
+item.railcraft.tool.charge.meter.name=Elektrisches Messgerät
 item.railcraft.tool.magnifying.glass.name=Lupe
 item.railcraft.tool.notepad.action.copy=Einstellungen kopiert von %s
 item.railcraft.tool.notepad.action.copy.fail=Nichts zu kopieren. Ziel ist ungültig.
@@ -256,7 +256,7 @@ item.railcraft.tool.notepad.action.empty=Nichts zu übertragen. Zum Kopieren auf
 item.railcraft.tool.notepad.action.paste=Einstellungen übertragen auf %s
 item.railcraft.tool.notepad.action.paste.fail=Nichts zu übertragen. Ziel ist ungültig.
 item.railcraft.tool.notepad.name=Schienenwart-Notizbuch
-item.railcraft.tool.notepad.tip.contents=Inhalt: @s
+item.railcraft.tool.notepad.tip.contents=Inhalt: %s
 item.railcraft.tool.notepad.tip.contents.filter.items=§2Item-Filter
 item.railcraft.tool.notepad.tip.contents.filter.fluid=§bFlüssigk.-Filter
 item.railcraft.tool.notepad.tip.contents.filter.cart=§eWaggonfilter
@@ -264,7 +264,7 @@ item.railcraft.tool.notepad.tip.contents.empty=§4Leer
 item.railcraft.tool.notepad.tip.mode.all=Alles übertragen
 item.railcraft.tool.notepad.tip.mode.cart.filter=Waggonfilter
 item.railcraft.tool.notepad.tip.mode.loader.filters=Item-/Flüssigk.-Filter
-item.railcraft.tool.notepad.tip.mode=Übertragungsmodus: @s
+item.railcraft.tool.notepad.tip.mode=Übertragungsmodus: %s
 item.railcraft.tool.notepad.tip=§oRechtsklick zum Übertragen, schleichen zum Kopieren\n§oZum Leeren schleichend auf Luft klicken
 item.railcraft.tool.signal.label.name=Signal-Label
 item.railcraft.tool.signal.label.tip=§9- Im Amboss umzubenennen -\n§oRechtsklicke schleichend, um\n§oSignale oder Signalboxen umzubenennen
@@ -324,7 +324,7 @@ railcraft.gates.trigger.temp.hot=Heiß
 railcraft.gates.trigger.temp.warm=Warm
 railcraft.gates.trigger.work=Hat Arbeit
 
-railcraft.gui.anchor.fuel.remaining=@.2f Stunden
+railcraft.gui.anchor.fuel.remaining=%s Stunden
 railcraft.gui.anchor.fuel=Enderperlen
 railcraft.gui.anchor.pair.fail.alignment=%1$s ist nicht mit %2$s in der gleichen Richtung
 railcraft.gui.anchor.pair.fail.distance=%1$s ist zu weit weg, um mit %2$s gekoppelt zu werden
@@ -342,8 +342,8 @@ railcraft.gui.aspect.off.name=Aus
 railcraft.gui.aspect.red.name=Rot
 railcraft.gui.aspect.yellow.name=Gelb
 
-railcraft.gui.aura.disable=Signal Aus: @s
-railcraft.gui.aura.enable=Signal An: @s
+railcraft.gui.aura.disable=Signal Aus: %s
+railcraft.gui.aura.enable=Signal An: %s
 
 railcraft.gui.blast.furnace=Hochofen
 
@@ -353,7 +353,7 @@ railcraft.gui.bore.head=Kopf
 railcraft.gui.bore.track=Schiene
 
 railcraft.gui.box.aspect.action=Redstonesignal bei Zustand
-railcraft.gui.box.capacitor.duration=Redstonesignal für @d Sekunden
+railcraft.gui.box.capacitor.duration=Redstonesignal für %s Sekunden
 railcraft.gui.box.capacitor.immediate=Steigende Flanke
 railcraft.gui.box.capacitor.immediate.tip=Timer sofort starten, wenn ein Signal kommt.
 railcraft.gui.box.capacitor.delayed=Fallende Flanke
@@ -396,13 +396,11 @@ railcraft.gui.detector.tank.tip.most=Entspricht mehr als drei Viertel gefüllten
 railcraft.gui.detector.tank.tip.not.empty=Entspricht nicht leerem Tank
 railcraft.gui.detector.tank.tip.quarter=Entspricht mehr als ein Viertel gefüllten Tanks
 railcraft.gui.detector.tank.tip.void=Entspricht beliebiger Menge
-railcraft.gui.detector.train.size=Zuglänge = @d
+railcraft.gui.detector.train.size=Zuglänge = %s
 railcraft.gui.detector.villager.any=Egal
 railcraft.gui.detector.villager.equals=Gleich
 railcraft.gui.detector.villager.none=Nichts
 railcraft.gui.detector.villager.not=Nicht
-
-railcraft.gui.electric.meter.charge=Ladung: @.2fc | Entzug: @.2fc/t | Verlust: @.2fc/t
 
 railcraft.gui.energy.loader.empty=Halte Leer
 railcraft.gui.energy.loader.fill=Lade voll
@@ -430,12 +428,12 @@ railcraft.gui.goggles.aura.signalling=Signale
 railcraft.gui.goggles.aura.surveying=Vermessung
 railcraft.gui.goggles.aura.tracking=Tracking
 railcraft.gui.goggles.aura.tuning=Tuning
-railcraft.gui.goggles.mode=Aktuelle Sicht: @s
+railcraft.gui.goggles.mode=Aktuelle Sicht: %s
 railcraft.gui.goggles.tip=Verwende von der Hotbar aus, um Sichtbares zu ändern
 
 railcraft.gui.help=Hilfe
 
-railcraft.gui.ic2.energy.rate=Rate: @d EU
+railcraft.gui.ic2.energy.rate=Rate: %s EU
 
 railcraft.gui.item.loader.all.tip=Bewege alle passenden Gegenstände
 railcraft.gui.item.loader.all=Alle
@@ -487,13 +485,13 @@ railcraft.gui.locomotive.steam.tip.button.mode.shutdown=Schaltet die Lokomotive 
 railcraft.gui.locomotive.tip.button.locked=Dieses Gerät wurde gesperrt von\n {owner}.\n Es wird ein gültiges Ticket benötigt,\n welches von ihm oder einem Op ausgestellt wurde.
 railcraft.gui.locomotive.tip.button.private=Dieser Waggon ist privat für\n {owner}.\n Er kann nur von dieser Person\n oder einem Op kontrolliert werden.
 railcraft.gui.locomotive.tip.button.unlocked=Klicken zum Sperren des Geräts.\n Es kann dann nur mit einem \n gültigen Ticket ausgestellt\n von Dir oder einem Op benutzt werden.
-railcraft.gui.locomotive.tip.item.emblem=§oEmblem:§r @s
+railcraft.gui.locomotive.tip.item.emblem=§oEmblem:§r %s
 railcraft.gui.locomotive.tip.item.model.default=Standardmodell
-railcraft.gui.locomotive.tip.item.model=§oModell:§r @s
-railcraft.gui.locomotive.tip.item.owner=§oEigentümer:§r @s
-railcraft.gui.locomotive.tip.item.primary=§oPrimärfarbe:§r @s
-railcraft.gui.locomotive.tip.item.secondary=§oSekundärfarbe:§r @s
-railcraft.gui.locomotive.tip.item.whistle=§oPfeifen-Tonhöhe:§r @s
+railcraft.gui.locomotive.tip.item.model=§oModell:§r %s
+railcraft.gui.locomotive.tip.item.owner=§oEigentümer:§r %s
+railcraft.gui.locomotive.tip.item.primary=§oPrimärfarbe:§r %s
+railcraft.gui.locomotive.tip.item.secondary=§oSekundärfarbe:§r %s
+railcraft.gui.locomotive.tip.item.whistle=§oPfeifen-Tonhöhe:§r %s
 railcraft.gui.locomotive.tip.slot.ticket=Ticket einfügen
 
 railcraft.gui.mag.glass.aspect=Der Signalaspekt ist %s
@@ -509,7 +507,7 @@ railcraft.gui.routing.logic.regex.invalid=Ungültiger Regulärer Ausdruck
 railcraft.gui.routing.logic.regex.unsupported=Regex nicht unterstützt
 railcraft.gui.routing.logic.unrecognized.keyword=Unbekanntes Schlüsselwort
 railcraft.gui.routing.slot.label=Fahrplan
-railcraft.gui.routing.table.editor=Zuletzt bearbeitet von @s
+railcraft.gui.routing.table.editor=Zuletzt bearbeitet von %s
 railcraft.gui.routing.table.manual.numPages=11
 railcraft.gui.routing.table.manual.page1=Der Streckenplan, wenn in einem Richtungsdetektor oder Stellantrieb platziert, wird eine Sammlung von Regeln definieren, die bei jeder passierenden Lokomotive genutzt werden. Diese Regeln werden mit einer einfachen logischen Syntax definiert, die es dir erlaubt, Regeln zu erschaffen, so einfach oder komplex wie du willst. Die Syntax ist ein Präfix-Notationsscript, the Operatoren werden gefolgt von den Operanden. Nur ein Wort pro Zeile ist erlaubt. Wenn kein Operator spezifiziert wird, wird OR verwendet. Streckenpläne können kopiert werden, indem zwei oder mehr in ein Crafting-Gitter platziert werden.
 railcraft.gui.routing.table.manual.page2=Operator-Wörter:\n   AND - Zwei Operanden, beide müssen wahr sein.\n   OR - Zwei Operanden, einer muss wahr sein.\n   NOT - Kehrt den folgenden Operanden um.
@@ -566,7 +564,7 @@ railcraft.gui.tip.button.lock.notowner=Du bist nicht der\n Eigentümer der Lokom
 railcraft.gui.tip.button.lock.unlocked=Klicken um zu sperren.\n Wenn gesperrt, kann\n nur von Dir oder ein Op\n benutzt werden.
 
 railcraft.gui.track.embarking.radius=Radius
-railcraft.gui.track.mode.change=Gewechselt zum @smodus
+railcraft.gui.track.mode.change=Gewechselt zum %smodus
 railcraft.gui.track.coupler.mode.auto.coupler=Auto-Koppel
 railcraft.gui.track.coupler.mode.coupler=Koppel
 railcraft.gui.track.coupler.mode.decoupler=Entkoppel
@@ -576,8 +574,8 @@ railcraft.gui.track.locking.mode.holding.train=Zughalte
 railcraft.gui.track.locking.mode.holding=Halte
 railcraft.gui.track.locking.mode.lockdown.train=Zugsperr
 railcraft.gui.track.locking.mode.lockdown=Sperr
-railcraft.gui.track.priming.fuse=Absicherung = @d ticks
-railcraft.gui.track.launcher.force=Kraft = @d
+railcraft.gui.track.priming.fuse=Absicherung = %s ticks
+railcraft.gui.track.launcher.force=Kraft = %s
 
 railcraft.gui.trade.station.dice.tip=Zufälliger Handel
 
@@ -588,11 +586,11 @@ railcraft.gui.tuner.start=%s: Starte Verbindung mit einem Empfänger
 railcraft.gui.tuner.stop=%s: Stoppe Verbindung mit einem Empfänger
 railcraft.gui.tuner.success=%1$s erfolgreich verbunden mit %2$s
 
-railcraft.gui.turbine.output=Leistung: @d%%
+railcraft.gui.turbine.output=Leistung: %s%%
 railcraft.gui.turbine.rotor=Rotor:
 railcraft.gui.turbine=Dampfturbine
 
-railcraft.gui.update.message=Railcraft @s ist verfügbar auf <http://railcraft.info>
+railcraft.gui.update.message=Railcraft %s ist verfügbar auf <http://railcraft.info>
 
 railcraft.keybind.aura.anchor=Anker-Aura
 railcraft.keybind.aura.surveying=Vermessungsaura

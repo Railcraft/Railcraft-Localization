@@ -203,7 +203,7 @@ item.railcraft.tool.crowbar.magic.name=Titánium feszítővas
 item.railcraft.tool.crowbar.name=Feszítővas
 item.railcraft.tool.crowbar.reinforced.name=Megerősített feszítővas
 item.railcraft.tool.crowbar.tip=§okocsik összekapcsolása: shift+jobb klikk
-item.railcraft.tool.electric.meter.name=Villanyóra
+item.railcraft.tool.charge.meter.name=Villanyóra
 item.railcraft.tool.magnifying.glass.name=Nagyító
 item.railcraft.tool.signal.tuner.name=Jel-hangoló
 item.railcraft.tool.signal.tuner.tip=Kapcsolat vezérlő fogadókhoz
@@ -260,7 +260,7 @@ railcraft.gates.trigger.temp.hot=Forró
 railcraft.gates.trigger.temp.warm=Meleg
 railcraft.gates.trigger.work=Van munkája
 
-railcraft.gui.anchor.fuel.remaining=@.2f óra
+railcraft.gui.anchor.fuel.remaining=%s óra
 railcraft.gui.anchor.fuel=Végzet gyöngye
 railcraft.gui.anchor.pair.fail.alignment=%1$s tengelyei nincsenek összehangolva %2$s tengelyeivel
 railcraft.gui.anchor.pair.fail.distance=%1$s túl messze van a következőtől: %2$s
@@ -278,8 +278,8 @@ railcraft.gui.aspect.off.name=Kikapcsolva
 railcraft.gui.aspect.red.name=Piros
 railcraft.gui.aspect.yellow.name=Sárga
 
-railcraft.gui.aura.disable=@s Aura kikapcsolva
-railcraft.gui.aura.enable=@s Aura bekapcsolva
+railcraft.gui.aura.disable=%s Aura kikapcsolva
+railcraft.gui.aura.enable=%s Aura bekapcsolva
 
 railcraft.gui.blast.furnace=Nagy olvasztókemence
 
@@ -289,7 +289,7 @@ railcraft.gui.bore.head=Fúrópajzs
 railcraft.gui.bore.track=Vasúti nyomelem
 
 railcraft.gui.box.aspect.action=Vöröskőjel kibocsátása aspektus szerint
-railcraft.gui.box.capacitor.duration=Vöröskőjel kibocsátása @d másodpercre
+railcraft.gui.box.capacitor.duration=Vöröskőjel kibocsátása %s másodpercre
 railcraft.gui.box.controller.aspect.default=Alapértelmezett aspektus:
 railcraft.gui.box.controller.aspect.redstone=Vöröskö aspektus:
 
@@ -328,13 +328,11 @@ railcraft.gui.detector.tank.tip.most=Több, mint teli a tank
 railcraft.gui.detector.tank.tip.not.empty=Nem üres a tank
 railcraft.gui.detector.tank.tip.quarter=Több, mint negyedig teli a tank
 railcraft.gui.detector.tank.tip.void=Bármilyen mennyiség is van a tankban
-railcraft.gui.detector.train.size=Vonat mérete = @d
+railcraft.gui.detector.train.size=Vonat mérete = %s
 railcraft.gui.detector.villager.any=Bármi
 railcraft.gui.detector.villager.equals=Egyenlő
 railcraft.gui.detector.villager.none=Semmi
 railcraft.gui.detector.villager.not=Nem
-
-railcraft.gui.electric.meter.charge=Töltés: @.2fc | Használat: @.2fc/t | Veszteség: @.2fc/t
 
 railcraft.gui.energy.loader.empty=Üres tartása
 railcraft.gui.energy.loader.fill=Top Off
@@ -360,12 +358,12 @@ railcraft.gui.goggles.aura.anchor=Anchor
 railcraft.gui.goggles.aura.none=Semmi
 railcraft.gui.goggles.aura.tracking=Nyomkövető
 railcraft.gui.goggles.aura.tuning=Fejlesztett
-railcraft.gui.goggles.mode=Jelenlegi aura: @s
+railcraft.gui.goggles.mode=Jelenlegi aura: %s
 railcraft.gui.goggles.tip=Use from hotbar to change Auras
 
 railcraft.gui.help=Segítség
 
-railcraft.gui.ic2.energy.rate=Arány: @d EU
+railcraft.gui.ic2.energy.rate=Arány: %s EU
 
 railcraft.gui.item.loader.all.tip=Összes egyező tárgy mozgatása
 railcraft.gui.item.loader.all=Összes
@@ -417,13 +415,13 @@ railcraft.gui.locomotive.steam.tip.button.mode.shutdown=Kikapcsolja a mozdonyt.\
 railcraft.gui.locomotive.tip.button.locked=Ez a csille zárolva van a következő számára:o\n {owner}.\n Csak általa vagy egy Operátor által\n kiadott jegyet fogad el.
 railcraft.gui.locomotive.tip.button.private=Ez a csille az ő tulajdona: \n {owner}.\n Csak ő vagy egy Operátor \n irányíthatja.
 railcraft.gui.locomotive.tip.button.unlocked=Kattints a mozdonyra.\n Ha zárolod, akkor csak\n tőled vagy egy Operátortól \n származó jegyet fogad majd el.
-railcraft.gui.locomotive.tip.item.emblem=§oJelkép:§r @s
+railcraft.gui.locomotive.tip.item.emblem=§oJelkép:§r %s
 railcraft.gui.locomotive.tip.item.model.default=Alapértelmezett model
-railcraft.gui.locomotive.tip.item.model=§oModel:§r @s
-railcraft.gui.locomotive.tip.item.owner=§oTulajdonos:§r @s
-railcraft.gui.locomotive.tip.item.primary=§oElsődleges szín:§r @s
-railcraft.gui.locomotive.tip.item.secondary=§oMásodlagos szín:§r @s
-railcraft.gui.locomotive.tip.item.whistle=§oSíp hangmagassága:§r @s
+railcraft.gui.locomotive.tip.item.model=§oModel:§r %s
+railcraft.gui.locomotive.tip.item.owner=§oTulajdonos:§r %s
+railcraft.gui.locomotive.tip.item.primary=§oElsődleges szín:§r %s
+railcraft.gui.locomotive.tip.item.secondary=§oMásodlagos szín:§r %s
+railcraft.gui.locomotive.tip.item.whistle=§oSíp hangmagassága:§r %s
 railcraft.gui.locomotive.tip.slot.ticket=Jegy behelyezése
 
 railcraft.gui.mag.glass.aspect=A jel aspektusa:  %s
@@ -437,7 +435,7 @@ railcraft.gui.routing.logic.insufficient.operands=Elégtelen feltétel
 railcraft.gui.routing.logic.malformed.syntax=Rossz szintaktika
 railcraft.gui.routing.logic.unrecognized.keyword=Ismeretlen kulcsszó
 railcraft.gui.routing.slot.label=Irányító tábla
-railcraft.gui.routing.table.editor=Utoljára szerkesztette: @s
+railcraft.gui.routing.table.editor=Utoljára szerkesztette: %s
 railcraft.gui.routing.table.manual.page1=Ha az Irányító táblát egy Irányítás érzékelőbe vagy Irányítás váltóba helyezzük, akkor egy sor szabályt definiálunk, amiknek az áthaladó mozdonyoknak meg kell felelniük. Ezek a szabályok egyszerű logikai alapok szerint hozhatóak létre, ezáltal olyan egyszerű vagy komplex szabályokat hozhatunk létre, amilyeneket csak szeretnénk. A szintaktika egy elő-jelöléses script, az operátorok után következnek a feltételek.Soronként csak egy kulcsszó megengedett. Ha nincs specifikált operátor, akkor a VAGY lesz alkalmazva.Az Irányító táblák úgy másolhatóak, hogy kettőt vagyy többet helyezünk egy craftoló hálózatba.
 railcraft.gui.routing.table.manual.page2=Operátor kulcsszavak:\n   ÉS - Két feltétele van, mindkettő igaz kell legyen.\n   VAGY - Két feltétele van, legalább az egyik igaz kell legyen.\n   NEM - A következő feltétel ellentetjét kell venni.
 railcraft.gui.routing.table.manual.page3=Feltétel kulcsszavak:\n   Cél=<string>\n  Ha a mozdony célállomása\n az előző szöveggel kezdődik,\n  akkor a feltétel igaz.\n "Cél=nulla" a célállomás nélküli\n kocsikkal egyezik meg.\n   Tulajdonos=<username>\n Igaz, ha a mozdony ehhez \n a személyhez tartozik.\n Név=<entityname>\n  Igaz, ha egyezik \n a csille nevével.
@@ -488,15 +486,15 @@ railcraft.gui.tip.button.lock.notowner=Ez az eszköz nem \n a te tulajdonod.\n A
 railcraft.gui.tip.button.lock.unlocked=Kattint az eszköz zárolásához.\n Ha lezárod, akkor \n a későbbiekben \n csak te vagy egy Opreátor \n férhet hozzá.
 
 railcraft.gui.track.embarking.radius=Sugár
-railcraft.gui.track.mode.change=A következő módra váltott: @s 
+railcraft.gui.track.mode.change=A következő módra váltott: %s 
 railcraft.gui.track.locking.mode.boarding.train=Vonat elindítása
 railcraft.gui.track.locking.mode.boarding=Indító/továbbító
 railcraft.gui.track.locking.mode.holding.train=Vonat megtartása
 railcraft.gui.track.locking.mode.holding=Megtartás
 railcraft.gui.track.locking.mode.lockdown.train=Vonat lezárása
 railcraft.gui.track.locking.mode.lockdown=Lezárás
-railcraft.gui.track.priming.fuse=Egybeolvadás = @d másodperc
-railcraft.gui.track.launcher.force=Érvényesítés = @d
+railcraft.gui.track.priming.fuse=Egybeolvadás = %s másodperc
+railcraft.gui.track.launcher.force=Érvényesítés = %s
 
 railcraft.gui.trade.station.dice.tip=Véletlenszerű kereskedelem
 
@@ -506,7 +504,7 @@ railcraft.gui.tuner.start= %s megkezdte a kapcsolatot a vevővel
 railcraft.gui.tuner.stop= %s kapcsolata megszakadt a vevővel
 railcraft.gui.tuner.success=%1$s sikeresen összepárosítva a következővel %2$s
 
-railcraft.gui.turbine.output=Kimenet: @d%%
+railcraft.gui.turbine.output=Kimenet: %s%%
 railcraft.gui.turbine.rotor=Rotor:
 railcraft.gui.turbine=Gőzturbina
 

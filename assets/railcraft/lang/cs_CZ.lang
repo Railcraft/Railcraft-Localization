@@ -224,7 +224,7 @@ item.railcraft.tool.crowbar.name=Páčidlo
 item.railcraft.tool.crowbar.reinforced.name=Zesílené páčidlo
 item.railcraft.tool.crowbar.tip=§opravý klik během plížení spojí vozíky
 item.railcraft.tool.crowbar.void.name=Páčidlo z Void kovu
-item.railcraft.tool.electric.meter.name=Elektrometr
+item.railcraft.tool.charge.meter.name=Elektrometr
 item.railcraft.tool.magnifying.glass.name=Zvětšovací sklo
 item.railcraft.tool.signal.tuner.name=Ladič signálu
 item.railcraft.tool.signal.tuner.tip=Propojuje\n přijímače a vysílače
@@ -281,7 +281,7 @@ railcraft.gates.trigger.temp.hot=Horký
 railcraft.gates.trigger.temp.warm=Teplý
 railcraft.gates.trigger.work=Má práci
 
-railcraft.gui.anchor.fuel.remaining=@.2f hodiny
+railcraft.gui.anchor.fuel.remaining=%s hodiny
 railcraft.gui.anchor.fuel=Ender perly
 railcraft.gui.anchor.pair.fail.alignment=%1$s není osa zarovnána s %2$s
 railcraft.gui.anchor.pair.fail.distance=%1$s je příliš daleko ke spárování s %2$s
@@ -299,8 +299,8 @@ railcraft.gui.aspect.off.name=Off
 railcraft.gui.aspect.red.name=Červená
 railcraft.gui.aspect.yellow.name=Žlutá
 
-railcraft.gui.aura.disable=@s Aura Off
-railcraft.gui.aura.enable=@s Aura On
+railcraft.gui.aura.disable=%s Aura Off
+railcraft.gui.aura.enable=%s Aura On
 
 railcraft.gui.blast.furnace=Vysoká pec
 
@@ -310,7 +310,7 @@ railcraft.gui.bore.head=Hlava
 railcraft.gui.bore.track=Trať
 
 railcraft.gui.box.aspect.action=Emituje Rudit na Aspect
-railcraft.gui.box.capacitor.duration=Emituje Rudit na @d sekund
+railcraft.gui.box.capacitor.duration=Emituje Rudit na %s sekund
 railcraft.gui.box.capacitor.immediate=Ihned
 railcraft.gui.box.capacitor.immediate.tip=-Immediate-\n Odstartuje časovač jakmile je přijat vstupní signál.
 railcraft.gui.box.capacitor.delayed=Spoždění
@@ -353,13 +353,11 @@ railcraft.gui.detector.tank.tip.most=Srovná více než 3/4tiny plné nádrže
 railcraft.gui.detector.tank.tip.not.empty=Srovná neprázdné nádrže
 railcraft.gui.detector.tank.tip.quarter=Srovná více než čtvrtinu plné nádrže
 railcraft.gui.detector.tank.tip.void=Srovná jakékoli množství
-railcraft.gui.detector.train.size=Velikost vlaku = @d
+railcraft.gui.detector.train.size=Velikost vlaku = %s
 railcraft.gui.detector.villager.any=Jakýkoliv
 railcraft.gui.detector.villager.equals=Rovno
 railcraft.gui.detector.villager.none=Nikdo
 railcraft.gui.detector.villager.not=Ne
-
-railcraft.gui.electric.meter.charge=Nabito: @.2fc | Odběr: @.2fc/t | Ztráta: @.2fc/t
 
 railcraft.gui.energy.loader.empty=Zastav prázdné
 railcraft.gui.energy.loader.fill=Top Off
@@ -387,12 +385,12 @@ railcraft.gui.goggles.aura.signalling=Signalizace
 railcraft.gui.goggles.aura.surveying=Zaměřování
 railcraft.gui.goggles.aura.tracking=Sledování
 railcraft.gui.goggles.aura.tuning=Ladění
-railcraft.gui.goggles.mode=Aktuální aura: @s
+railcraft.gui.goggles.mode=Aktuální aura: %s
 railcraft.gui.goggles.tip=Použijte z hotbaru ke změně aury
 
 railcraft.gui.help=Pomoc
 
-railcraft.gui.ic2.energy.rate=Výkon: @d EU
+railcraft.gui.ic2.energy.rate=Výkon: %s EU
 
 railcraft.gui.item.loader.all.tip=Přesuňte všechny\n odpovídající položky
 railcraft.gui.item.loader.all=Vše
@@ -444,13 +442,13 @@ railcraft.gui.locomotive.steam.tip.button.mode.shutdown=Vypne lokomotivu.\n Zast
 railcraft.gui.locomotive.tip.button.locked=Tento vozík uzamknul\n {owner}.\n Bude akceptovat pouze lístky\n vydané jím nebo Op.
 railcraft.gui.locomotive.tip.button.private=Tento vozík vlastní\n {owner}.\n Může být ovládán \n jím nebo OP.
 railcraft.gui.locomotive.tip.button.unlocked=Klikni k uzamknutí lokomotivy\n Po uzamknutí bude \n přijímat jenom lístky\n vydané tebou nebo OP.
-railcraft.gui.locomotive.tip.item.emblem=§oEmblém:§r @s
+railcraft.gui.locomotive.tip.item.emblem=§oEmblém:§r %s
 railcraft.gui.locomotive.tip.item.model.default=Výchozí model
-railcraft.gui.locomotive.tip.item.model=§oModel:§r @s
-railcraft.gui.locomotive.tip.item.owner=§oVlastník:§r @s
-railcraft.gui.locomotive.tip.item.primary=§oZákladní barva:§r @s
-railcraft.gui.locomotive.tip.item.secondary=§oSekundární barva:§r @s
-railcraft.gui.locomotive.tip.item.whistle=§oZvuk píšťaly:§r @s
+railcraft.gui.locomotive.tip.item.model=§oModel:§r %s
+railcraft.gui.locomotive.tip.item.owner=§oVlastník:§r %s
+railcraft.gui.locomotive.tip.item.primary=§oZákladní barva:§r %s
+railcraft.gui.locomotive.tip.item.secondary=§oSekundární barva:§r %s
+railcraft.gui.locomotive.tip.item.whistle=§oZvuk píšťaly:§r %s
 railcraft.gui.locomotive.tip.slot.ticket=Vlož lístek
 
 railcraft.gui.mag.glass.aspect=Signál aspectu je %s
@@ -466,7 +464,7 @@ railcraft.gui.routing.logic.regex.invalid=Neplatný regulární výraz
 railcraft.gui.routing.logic.regex.unsupported=Nepodporovaný výraz
 railcraft.gui.routing.logic.unrecognized.keyword=Neznámé klíčové slovo
 railcraft.gui.routing.slot.label=Routovací tabulka
-railcraft.gui.routing.table.editor=Naposled editoval @s
+railcraft.gui.routing.table.editor=Naposled editoval %s
 railcraft.gui.routing.table.manual.numPages=10
 railcraft.gui.routing.table.manual.page1=Pokud vložíte Routovací tabulky do Routovacího detektoru nebo Přepínače definuje nastavené pravidla, kterými se budou řídit všechny projíždějící lokomotivy. Tyto pravidla jsou definovány použitím jednoduché logické syntaxe. Syntaxe je předpona zápisu skriptu, operátory následují operandy. Povolen je jeden klíč na jeden řádek. Jestliže není operátor specifikován, nebo se předpokládá. Routovací tabulky lze kopírovat umístěním dvou nebo více tabulek do výrobní mřížky.
 railcraft.gui.routing.table.manual.page2=Operátory:\n   AND - Dva operátory, oba musí být true(pravda).\n   OR - Dva operátory, jeden musí být true(pravda).\n   NOT - Invertuje následující operand.
@@ -521,15 +519,15 @@ railcraft.gui.tip.button.lock.notowner=Nejsi vlastník \n tohoto zařízení. \n
 railcraft.gui.tip.button.lock.unlocked=Klikni k uzamknutí zařízení.\n Pokud je uzamčeno, máš do něj\n přístup jenom ty nebo OP.
 
 railcraft.gui.track.embarking.radius=Rádius
-railcraft.gui.track.mode.change=Změněno na @s mód
+railcraft.gui.track.mode.change=Změněno na %s mód
 railcraft.gui.track.locking.mode.boarding.train=Vlak nastupování
 railcraft.gui.track.locking.mode.boarding=Nastupování
 railcraft.gui.track.locking.mode.holding.train=Vlak čekání
 railcraft.gui.track.locking.mode.holding=Čekání
 railcraft.gui.track.locking.mode.lockdown.train=Vlak uzamknut
 railcraft.gui.track.locking.mode.lockdown=Uzamknutí
-railcraft.gui.track.priming.fuse=Pojistka = @d ticks
-railcraft.gui.track.launcher.force=Platnost = @d
+railcraft.gui.track.priming.fuse=Pojistka = %s ticks
+railcraft.gui.track.launcher.force=Platnost = %s
 
 railcraft.gui.trade.station.dice.tip=Náhodný obchod
 
@@ -540,11 +538,11 @@ railcraft.gui.tuner.start=Párování odstartováno %s s přijímačem
 railcraft.gui.tuner.stop=Párování zastaveno %s s přijímačem
 railcraft.gui.tuner.success=%1$s úspěšně spárováno s %2$s
 
-railcraft.gui.turbine.output=Výstup: @d%%
+railcraft.gui.turbine.output=Výstup: %s%%
 railcraft.gui.turbine.rotor=Rotor:
 railcraft.gui.turbine=Parní turbína:
 
-railcraft.gui.update.message=Railcraft @s je dostupný na <http://railcraft.info>
+railcraft.gui.update.message=Railcraft %s je dostupný na <http://railcraft.info>
 
 railcraft.keybind.aura.anchor=Aura kotvy
 railcraft.keybind.aura.surveying=Zaměřovací Aura

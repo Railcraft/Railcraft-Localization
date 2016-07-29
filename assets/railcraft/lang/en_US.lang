@@ -57,6 +57,13 @@ death.railcraft.crusher.6=On sale now! %s Blood Jelly
 death.railcraft.crusher.7=%s was turned into paste
 death.railcraft.crusher.8=%s should have read the manual
 
+death.railcraft.electric.1=%s is saying hello to Nikola Tesla.
+death.railcraft.electric.2=%s discovered the meaning of "High Voltage"
+death.railcraft.electric.3=%s was enlightened to wonders of electrification
+death.railcraft.electric.4=%s should have read the warning label
+death.railcraft.electric.5=%s made a shocking revelation
+death.railcraft.electric.6=%s learned something about electricity, IT HURTS!
+
 death.railcraft.steam.1=%s got cooked, nice and juicy
 death.railcraft.steam.2=%s is not immune to high temperatures, despite claims to the contrary
 death.railcraft.steam.3=%s discovered how painful Steam can be
@@ -248,7 +255,8 @@ item.railcraft.tool.crowbar.name=Crowbar
 item.railcraft.tool.crowbar.reinforced.name=Reinforced Crowbar
 item.railcraft.tool.crowbar.tip=§oright click while sneaking to link carts
 item.railcraft.tool.crowbar.void.name=Void metal Crowbar
-item.railcraft.tool.electric.meter.name=Electric Meter
+item.railcraft.tool.charge.meter.name=Charge Meter
+item.railcraft.tool.charge.meter.tip=§oright click on Charge blocks to inspect
 item.railcraft.tool.magnifying.glass.name=Magnifying Glass
 item.railcraft.tool.notepad.action.copy=Copied settings from %s
 item.railcraft.tool.notepad.action.copy.fail=Nothing to copy. Not a valid target.
@@ -256,7 +264,7 @@ item.railcraft.tool.notepad.action.empty=Nothing to paste. Shift-click on a targ
 item.railcraft.tool.notepad.action.paste=Pasted settings to %s
 item.railcraft.tool.notepad.action.paste.fail=Nothing to paste. Not a valid target.
 item.railcraft.tool.notepad.name=Trackman's Notepad
-item.railcraft.tool.notepad.tip.contents=Contents: @s
+item.railcraft.tool.notepad.tip.contents=Contents: %s
 item.railcraft.tool.notepad.tip.contents.filter.items=§2Item Filters
 item.railcraft.tool.notepad.tip.contents.filter.fluid=§bFluid Filters
 item.railcraft.tool.notepad.tip.contents.filter.cart=§eCart Filters
@@ -264,7 +272,7 @@ item.railcraft.tool.notepad.tip.contents.empty=§4Empty
 item.railcraft.tool.notepad.tip.mode.all=All
 item.railcraft.tool.notepad.tip.mode.cart.filter=Carts Filter
 item.railcraft.tool.notepad.tip.mode.loader.filters=Item/Fluid Filters
-item.railcraft.tool.notepad.tip.mode=Paste Mode: @s
+item.railcraft.tool.notepad.tip.mode=Paste Mode: %s
 item.railcraft.tool.notepad.tip=§oright click to paste, sneak right click to copy \n§osneak right click air to clear
 item.railcraft.tool.signal.label.name=Signal Label
 item.railcraft.tool.signal.label.tip=§9- rename in anvil -\n§oright click while sneaking\n§oto name a signal or signal box
@@ -324,11 +332,11 @@ railcraft.gates.trigger.temp.hot=Hot
 railcraft.gates.trigger.temp.warm=Warm
 railcraft.gates.trigger.work=Has Work
 
-railcraft.gui.anchor.fuel.remaining=@.2f hours
+railcraft.gui.anchor.fuel.remaining=%s hours
 railcraft.gui.anchor.fuel=Ender Pearls
-railcraft.gui.anchor.pair.fail.alignment=%1$s is not axis aligned with that %2$s
-railcraft.gui.anchor.pair.fail.distance=%1$s is too far to pair with that %2$s
-railcraft.gui.anchor.pair.fail.dimension=%1$s is in a different dimension than the target
+railcraft.gui.anchor.pair.fail.alignment=@1$s is not axis aligned with that @2$s
+railcraft.gui.anchor.pair.fail.distance=@1$s is too far to pair with that @2$s
+railcraft.gui.anchor.pair.fail.dimension=%s is in a different dimension than the target
 railcraft.gui.anchor.pair.fail.invalid=This is not a valid target for pairing with the %s
 railcraft.gui.anchor.pair.fail.unloaded=Target was unloaded while attempting to pair with %s
 railcraft.gui.anchor.pair.cancel=%s pairing was cancelled
@@ -342,8 +350,8 @@ railcraft.gui.aspect.off.name=Off
 railcraft.gui.aspect.red.name=Red
 railcraft.gui.aspect.yellow.name=Yellow
 
-railcraft.gui.aura.disable=@s Aura Off
-railcraft.gui.aura.enable=@s Aura On
+railcraft.gui.aura.disable=%s Aura Off
+railcraft.gui.aura.enable=%s Aura On
 
 railcraft.gui.blast.furnace=Blast Furnace
 
@@ -353,7 +361,7 @@ railcraft.gui.bore.head=Head
 railcraft.gui.bore.track=Track
 
 railcraft.gui.box.aspect.action=Emit Redstone on Aspect
-railcraft.gui.box.capacitor.duration=Emit Redstone for @d seconds
+railcraft.gui.box.capacitor.duration=Emit Redstone for %s seconds
 railcraft.gui.box.capacitor.immediate=Rising Edge
 railcraft.gui.box.capacitor.immediate.tip=Start timer as soon as the input signal is received.
 railcraft.gui.box.capacitor.delayed=Falling Edge
@@ -368,6 +376,10 @@ railcraft.gui.cart.undercutter.pattern=Patterns
 railcraft.gui.cart.undercutter.sides=Sides
 railcraft.gui.cart.undercutter.stock=Stock
 railcraft.gui.cart.undercutter.under=Under
+
+railcraft.gui.charge.meter.network=Net -> Size: %s | Charge: %sc | Draw: %sc/t | Loss: %sc/t
+railcraft.gui.charge.meter.producer=Supply -> Charge: %sc | Production: %sc/t
+railcraft.gui.charge.meter.node=Node -> Draw: %sc/t | Loss: %sc/t
 
 railcraft.gui.coke.oven=Coke Oven
 
@@ -396,13 +408,11 @@ railcraft.gui.detector.tank.tip.most=Match more than 3/4th full tanks
 railcraft.gui.detector.tank.tip.not.empty=Match non-empty tanks
 railcraft.gui.detector.tank.tip.quarter=Match more than quarter full tanks
 railcraft.gui.detector.tank.tip.void=Match any amount
-railcraft.gui.detector.train.size=Train Size = @d
+railcraft.gui.detector.train.size=Train Size = %s
 railcraft.gui.detector.villager.any=Any
 railcraft.gui.detector.villager.equals=Equals
 railcraft.gui.detector.villager.none=None
 railcraft.gui.detector.villager.not=Not
-
-railcraft.gui.electric.meter.charge=Charge: @.2fc | Draw: @.2fc/t | Loss: @.2fc/t
 
 railcraft.gui.energy.loader.empty=Hold Empty
 railcraft.gui.energy.loader.fill=Top Off
@@ -430,12 +440,12 @@ railcraft.gui.goggles.aura.signalling=Signalling
 railcraft.gui.goggles.aura.surveying=Surveying
 railcraft.gui.goggles.aura.tracking=Tracking
 railcraft.gui.goggles.aura.tuning=Tuning
-railcraft.gui.goggles.mode=Current Aura: @s
+railcraft.gui.goggles.mode=Current Aura: %s
 railcraft.gui.goggles.tip=Use from hotbar to change Auras
 
 railcraft.gui.help=Help
 
-railcraft.gui.ic2.energy.rate=Rate: @d EU
+railcraft.gui.ic2.energy.rate=Rate: %s EU
 
 railcraft.gui.item.loader.all.tip=Move all matching items
 railcraft.gui.item.loader.all=All
@@ -487,13 +497,13 @@ railcraft.gui.locomotive.steam.tip.button.mode.shutdown=Shuts off the Locomotive
 railcraft.gui.locomotive.tip.button.locked=This cart is locked to\n {owner}.\n It will only accept Tickets\n issued by them or an Op.
 railcraft.gui.locomotive.tip.button.private=This cart is private to\n {owner}.\n It can only be controlled\n by them or an Op.
 railcraft.gui.locomotive.tip.button.unlocked=Click to lock Locomotive.\n Once locked, it will\n only accept Tickets\n issued by you or an Op.
-railcraft.gui.locomotive.tip.item.emblem=§oEmblem:§r @s
+railcraft.gui.locomotive.tip.item.emblem=§oEmblem:§r %s
 railcraft.gui.locomotive.tip.item.model.default=Default Model
-railcraft.gui.locomotive.tip.item.model=§oModel:§r @s
-railcraft.gui.locomotive.tip.item.owner=§oOwner:§r @s
-railcraft.gui.locomotive.tip.item.primary=§oPrimary Color:§r @s
-railcraft.gui.locomotive.tip.item.secondary=§oSecondary Color:§r @s
-railcraft.gui.locomotive.tip.item.whistle=§oWhistle Pitch:§r @s
+railcraft.gui.locomotive.tip.item.model=§oModel:§r %s
+railcraft.gui.locomotive.tip.item.owner=§oOwner:§r %s
+railcraft.gui.locomotive.tip.item.primary=§oPrimary Color:§r %s
+railcraft.gui.locomotive.tip.item.secondary=§oSecondary Color:§r %s
+railcraft.gui.locomotive.tip.item.whistle=§oWhistle Pitch:§r %s
 railcraft.gui.locomotive.tip.slot.ticket=Insert Ticket
 
 railcraft.gui.mag.glass.aspect=The signal aspect is %s
@@ -509,7 +519,7 @@ railcraft.gui.routing.logic.regex.invalid=Invalid Regex Pattern
 railcraft.gui.routing.logic.regex.unsupported=Regex Unsupported
 railcraft.gui.routing.logic.unrecognized.keyword=Unrecognized Keyword
 railcraft.gui.routing.slot.label=Routing Table
-railcraft.gui.routing.table.editor=Last edited by @s
+railcraft.gui.routing.table.editor=Last edited by %s
 railcraft.gui.routing.table.manual.numPages=11
 railcraft.gui.routing.table.manual.page1=The Routing Table when placed in a Routing Detector or Switch will define a set of rules that are used to match against any passing Locomotive. These rules are define using a simple logic syntax that allows you to create rules as simple or complex as you like. The syntax is a Prefix Notation script, the Operators are followed by the Operands. Only one keyword is allowed per line. If no Operator is specified, OR is assumed. Routing Tables can be copied by placing two or more in a crafting grid.
 railcraft.gui.routing.table.manual.page2=Operator Keywords:\n   AND - Two Operands, both must be true.\n   OR - Two Operands, one must be true.\n   NOT - Invert the following Operand.
@@ -566,7 +576,7 @@ railcraft.gui.tip.button.lock.notowner=You are not the\n owner of this device.\n
 railcraft.gui.tip.button.lock.unlocked=Click to lock device.\n Once locked, it can\n only be accessed by\n you or an Op.
 
 railcraft.gui.track.embarking.radius=Radius
-railcraft.gui.track.mode.change=Changed to @s Mode
+railcraft.gui.track.mode.change=Changed to %s Mode
 railcraft.gui.track.coupler.mode.auto.coupler=Auto-Coupler
 railcraft.gui.track.coupler.mode.coupler=Coupler
 railcraft.gui.track.coupler.mode.decoupler=Decoupler
@@ -576,8 +586,8 @@ railcraft.gui.track.locking.mode.holding.train=Train Holding
 railcraft.gui.track.locking.mode.holding=Holding
 railcraft.gui.track.locking.mode.lockdown.train=Train Lockdown
 railcraft.gui.track.locking.mode.lockdown=Lockdown
-railcraft.gui.track.priming.fuse=Fuse = @d ticks
-railcraft.gui.track.launcher.force=Force = @d
+railcraft.gui.track.priming.fuse=Fuse = %s ticks
+railcraft.gui.track.launcher.force=Force = %s
 
 railcraft.gui.trade.station.dice.tip=Random Trade
 
@@ -588,11 +598,11 @@ railcraft.gui.tuner.start=Started pairing %s with a Receiver
 railcraft.gui.tuner.stop=Stopped pairing %s with a Receiver
 railcraft.gui.tuner.success=%1$s successfully paired with %2$s
 
-railcraft.gui.turbine.output=Output: @d%%
+railcraft.gui.turbine.output=Output: %s%%
 railcraft.gui.turbine.rotor=Rotor:
 railcraft.gui.turbine=Steam Turbine
 
-railcraft.gui.update.message=Railcraft @s is available from <http://railcraft.info>
+railcraft.gui.update.message=Railcraft %s is available from <http://railcraft.info>
 
 railcraft.keybind.aura.anchor=Anchor Aura
 railcraft.keybind.aura.surveying=Surveying Aura
