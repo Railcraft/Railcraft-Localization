@@ -57,6 +57,13 @@ death.railcraft.crusher.6=Nur heute zum Verkauf! %s-Blutgelée
 death.railcraft.crusher.7=%s wurde zu Paste
 death.railcraft.crusher.8=%s hätte die Anleitung lesen sollen
 
+death.railcraft.electric.1=%s sagte Nikola Tesla Hallo.
+death.railcraft.electric.2=%s entdeckte die Bedeutung des Wortes "Hochspannung"
+death.railcraft.electric.3=%s wurde über die Wunder der Elektrifizierung aufgeklärt
+death.railcraft.electric.4=%s hätte die Warnhinweise lesen sollen
+death.railcraft.electric.5=%s machte eine schockierende Enthüllung
+death.railcraft.electric.6=%s lernte, dass Elektrizität weh tun kann
+
 death.railcraft.steam.1=%s wurde gekocht, hübsch und saftig
 death.railcraft.steam.2=%s ist nicht immun gegen hohe Temperaturen, entgegen Behauptungen des Gegenteils
 death.railcraft.steam.3=%s hat entdeckt, wie schmerzhaft Dampf sein kann
@@ -69,7 +76,7 @@ death.railcraft.track.electric.2=%s entdeckte die Bedeutung des Wortes "Hochspan
 death.railcraft.track.electric.3=%s wurde über die Wunder der Elektrifizierung aufgeklärt
 death.railcraft.track.electric.4=%s stolperte über eine Stromschiene
 death.railcraft.track.electric.5=%s machte eine schockierende Enthüllung
-death.railcraft.track.electric.6=%s lernte, dass Elektizität Schmerzen zufügt
+death.railcraft.track.electric.6=%s lernte, dass Elektrizität weh tun kann
 
 death.railcraft.train.1=%s wurde von einem Zug erfasst
 death.railcraft.train.2=%s hat auf den Gleisen gespielt
@@ -248,7 +255,8 @@ item.railcraft.tool.crowbar.name=Brecheisen
 item.railcraft.tool.crowbar.reinforced.name=Verstärktes Brecheisen
 item.railcraft.tool.crowbar.tip=§oRechtsklicke schleichend, um Waggons zu verbinden
 item.railcraft.tool.crowbar.void.name=Leermetallbrecheisen
-item.railcraft.tool.charge.meter.name=Elektrisches Messgerät
+item.railcraft.tool.charge.meter.name=Ladungsmessgerät
+item.railcraft.tool.charge.meter.tip=§oRechtsklicke auf Blöcke mit Ladung, um diese zu untersuchen
 item.railcraft.tool.magnifying.glass.name=Lupe
 item.railcraft.tool.notepad.action.copy=Einstellungen kopiert von %s
 item.railcraft.tool.notepad.action.copy.fail=Nichts zu kopieren. Ziel ist ungültig.
@@ -326,9 +334,9 @@ railcraft.gates.trigger.work=Hat Arbeit
 
 railcraft.gui.anchor.fuel.remaining=%s Stunden
 railcraft.gui.anchor.fuel=Enderperlen
-railcraft.gui.anchor.pair.fail.alignment=%1$s ist nicht mit %2$s in der gleichen Richtung
-railcraft.gui.anchor.pair.fail.distance=%1$s ist zu weit weg, um mit %2$s gekoppelt zu werden
-railcraft.gui.anchor.pair.fail.dimension=%1$s ist in einer anderen Dimension als das Ziel
+railcraft.gui.anchor.pair.fail.alignment=@1$s ist nicht auf der selben Achse wie @2$s
+railcraft.gui.anchor.pair.fail.distance=@1$s ist zu weit weg, um mit @2$s gekoppelt zu werden
+railcraft.gui.anchor.pair.fail.dimension=%s ist in einer anderen Dimension als das Ziel
 railcraft.gui.anchor.pair.fail.invalid=Dies ist kein gültiges Ziel für eine Verbindung: %s
 railcraft.gui.anchor.pair.fail.unloaded=Ziel ist nicht geladen, während versucht wurde, zu verbinden: %s
 railcraft.gui.anchor.pair.cancel=Verbindung wurde abgebrochen: %s
@@ -368,6 +376,10 @@ railcraft.gui.cart.undercutter.pattern=Muster
 railcraft.gui.cart.undercutter.sides=Seite
 railcraft.gui.cart.undercutter.stock=Vorrat
 railcraft.gui.cart.undercutter.under=Unten
+
+railcraft.gui.charge.meter.network=Netz -> Größe: %s | Ladung: %sc | Entzug: %sc/t | Verlust: %sc/t
+railcraft.gui.charge.meter.producer=Versorgung -> Ladung: %sc | Produktion: %sc/t
+railcraft.gui.charge.meter.node=Knoten -> Entzug: %sc/t | Verlust: %sc/t
 
 railcraft.gui.coke.oven=Kokerei
 
