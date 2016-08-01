@@ -377,9 +377,10 @@ railcraft.gui.cart.undercutter.sides=Seite
 railcraft.gui.cart.undercutter.stock=Vorrat
 railcraft.gui.cart.undercutter.under=Unten
 
-railcraft.gui.charge.meter.network=Netz -> Größe: %s | Ladung: %sc | Entzug: %sc/t | Verlust: %sc/t
-railcraft.gui.charge.meter.producer=Versorgung -> Ladung: %sc | Produktion: %sc/t
-railcraft.gui.charge.meter.node=Knoten -> Entzug: %sc/t | Verlust: %sc/t
+railcraft.gui.charge.meter.network=Netz -> Größe: %s | Ladung: %s c | Entzug: %s c/t | Verlust: %s c/t
+railcraft.gui.charge.meter.producer=Versorgung -> Ladung: %s c | Produktion: %s c/t
+railcraft.gui.charge.meter.node=Knoten -> Entzug: %s c/t | Verlust: %s c/t
+railcraft.gui.charge.meter.start=Messung der Daten für %s Sekunden...
 
 railcraft.gui.coke.oven=Kokerei
 
