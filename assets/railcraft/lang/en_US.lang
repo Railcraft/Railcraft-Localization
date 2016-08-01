@@ -377,9 +377,9 @@ railcraft.gui.cart.undercutter.sides=Sides
 railcraft.gui.cart.undercutter.stock=Stock
 railcraft.gui.cart.undercutter.under=Under
 
-railcraft.gui.charge.meter.network=Net -> Size: %s | Charge: %s c | Draw: %s c/t | Loss: %s c/t
-railcraft.gui.charge.meter.producer=Supply -> Charge: %s c | Production: %s c/t
-railcraft.gui.charge.meter.node=Node -> Draw: %s c/t | Loss: %s c/t
+railcraft.gui.charge.meter.network=Net -> Size: %s | Charge: %s c | Draw: %s c/t | Loss: %s c/t
+railcraft.gui.charge.meter.producer=Supply -> Charge: %s c | Production: %s c/t
+railcraft.gui.charge.meter.node=Node -> Draw: %s c/t | Loss: %s c/t
 railcraft.gui.charge.meter.start=Recording data over %s seconds...
 
 railcraft.gui.coke.oven=Coke Oven
