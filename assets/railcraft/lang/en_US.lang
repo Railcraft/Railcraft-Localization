@@ -911,11 +911,11 @@ tile.railcraft.signal.distant.dual.name=Dual-Head Distant Signal
 tile.railcraft.signal.distant.dual.tip=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.signal.distant.name=Distant Signal
 tile.railcraft.signal.distant.tip=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.signal.switch.lever.name=Switch Lever
+tile.railcraft.signal.switch.lever.name=Switch Actuator Lever
 tile.railcraft.signal.switch.lever.tip=Controls adjacent Switch Tracks\n§o§9Manual Operation
-tile.railcraft.signal.switch.motor.name=Switch Motor
+tile.railcraft.signal.switch.motor.name=Switch Actuator Motor
 tile.railcraft.signal.switch.motor.tip=Controls adjacent Switch Tracks\n§o§9Aerial Linkages: 1x Receiver\n§o§9Redstone Linkage: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.signal.switch.routing.name=Routing Switch Motor
+tile.railcraft.signal.switch.routing.name=Routing Switch Actuator Motor
 tile.railcraft.signal.switch.routing.tip=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
 
 tile.railcraft.slab.abyssal.block.name=Abyssal Block Slab
@@ -1026,6 +1026,12 @@ tile.railcraft.lantern.stone.sandstone.name=Sandstone Lantern
 tile.railcraft.lantern.stone.sandy.name=Sandy Stone Lantern
 tile.railcraft.lantern.stone.stone.name=Stone Lantern
 
+#New Tracks
+tile.railcraft.track.strap.iron.name=Strap Iron Track
+tile.railcraft.track.strap.iron.tip=30% of the speed of Iron Track
+tile.railcraft.track.strap.iron.kit=30% of the speed of Iron Track
+
+#Old Tracks
 tile.railcraft.track.boarding.name=Boarding Track
 tile.railcraft.track.boarding.tip=Replaced by Locking Track
 tile.railcraft.track.boarding.train.name=Train Boarding Track
