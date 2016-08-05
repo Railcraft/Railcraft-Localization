@@ -1027,7 +1027,7 @@ tile.railcraft.lantern.stone.sandy.name=Sandige Steinlaterne
 tile.railcraft.lantern.stone.stone.name=Steinlaterne
 
 #New Tracks
-tile.railcraft.track.strap.iron.name=Bandeisenschiene
+tile.railcraft.track.strap.iron.name=Flacheisenschiene
 tile.railcraft.track.strap.iron.tip=30% der Geschwindigkeit von Eisenschienen
 tile.railcraft.track.strap.iron.kit=30% der Geschwindigkeit von Eisenschienen
 
