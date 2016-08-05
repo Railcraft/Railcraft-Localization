@@ -1029,7 +1029,23 @@ tile.railcraft.lantern.stone.stone.name=Stone Lantern
 #New Tracks
 tile.railcraft.track.strap.iron.name=Strap Iron Track
 tile.railcraft.track.strap.iron.tip=30% of the speed of Iron Track
-tile.railcraft.track.strap.iron.kit=30% of the speed of Iron Track
+tile.railcraft.track.strap.iron.kit=Strap Iron %s Track
+
+tile.railcraft.track.reinforced.name=Reinforced Track
+tile.railcraft.track.reinforced.tip=125% of the speed of normal track\n Explosion resistant
+tile.railcraft.track.reinforced.kit=Reinforced %s Track
+
+tile.railcraft.track.high.speed.name=High Speed Track
+tile.railcraft.track.high.speed.tip=§9Dangerous\n §rVery Fast\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
+tile.railcraft.track.high.speed.kit=H.S. %s Track
+
+tile.railcraft.track.electric.name=Electric Track
+tile.railcraft.track.electric.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps
+tile.railcraft.track.electric.kit=Electric %s Track
+
+tile.railcraft.track.high.speed.electric.name=High Speed Electric Track
+tile.railcraft.track.high.speed.electric.tip==§9Dangerous\n §rVery Fast\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed\n §rPowered by Electricity\n Use with Electric Locomotive
+tile.railcraft.track.high.speed.electric.kit=H.S. Electric %s Track
 
 #Old Tracks
 tile.railcraft.track.boarding.name=Boarding Track
@@ -1049,8 +1065,6 @@ tile.railcraft.track.disembarking.name=Disembarking Track
 tile.railcraft.track.disembarking.tip=Dismounts riding Entities in direction of arrow\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.disposal.name=Disposal Track
 tile.railcraft.track.disposal.tip=Suspended track\n Dismounts riding Entities
-tile.railcraft.track.electric.name=Electric Track
-tile.railcraft.track.electric.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps
 tile.railcraft.track.electric.junction.name=Electric Junction Track
 tile.railcraft.track.electric.junction.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps
 tile.railcraft.track.electric.switch.name=Electric Switch Track
@@ -1091,8 +1105,6 @@ tile.railcraft.track.reinforced.boost.name=Reinforced Booster Track
 tile.railcraft.track.reinforced.boost.tip=125% of the speed of normal track\n Explosion resistant\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.reinforced.junction.name=Reinforced Junction Track
 tile.railcraft.track.reinforced.junction.tip=125% of the speed of normal track\n Explosion resistant
-tile.railcraft.track.reinforced.name=Reinforced Track
-tile.railcraft.track.reinforced.tip=125% of the speed of normal track\n Explosion resistant
 tile.railcraft.track.reinforced.switch.name=Reinforced Switch Track
 tile.railcraft.track.reinforced.switch.tip=125% of the speed of normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.reinforced.wye.name=Reinforced Wye Track
@@ -1102,16 +1114,12 @@ tile.railcraft.track.routing.tip=Sets a passing Locomotive's Ticket\n§o§9- Hit
 tile.railcraft.track.slow.boost.name=Wooden Booster Track
 tile.railcraft.track.slow.junction.name=Wooden Junction Track
 tile.railcraft.track.slow.junction.tip=30% of the speed of normal track
-tile.railcraft.track.slow.name=Wooden Track
-tile.railcraft.track.slow.tip=30% of the speed of normal track
 tile.railcraft.track.slow.switch.name=Wooden Switch Track
 tile.railcraft.track.slow.switch.tip=30% of the speed of normal track\n §o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.slow.wye.name=Wooden Wye Track
 tile.railcraft.track.slow.wye.tip=30% of the speed of normal track\n §o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.speed.boost.name=H.S. Booster Track
 tile.railcraft.track.speed.boost.tip=§9Dangerous\n §rMore than twice as fast as normal track\n Maintains High Speed\n§o§c- Apply Redstone to boost -
-tile.railcraft.track.speed.name=H.S. Track
-tile.railcraft.track.speed.tip=§9Dangerous\n §rMore than twice as fast as normal track\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
 tile.railcraft.track.speed.switch.name=H.S. Switch Track
 tile.railcraft.track.speed.switch.tip=§9Dangerous\n Do not attempt to diverge at High Speed\n §o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.speed.transition.name=H.S. Transition Track
