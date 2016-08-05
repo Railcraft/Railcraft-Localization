@@ -831,20 +831,20 @@ tile.railcraft.post.wood.platform.name=木头平台
 
 tile.railcraft.residual.heat.name=残余热量
 
-tile.railcraft.signal.block.signal.dual.name=双头信号盒
-tile.railcraft.signal.block.signal.name=信号盒
-tile.railcraft.signal.box.analog.name=模拟信号控制盒
-tile.railcraft.signal.box.block.relay.name=信号中继盒
-tile.railcraft.signal.box.capacitor.name=信号计数盒
-tile.railcraft.signal.box.controller.name=信号控制盒
-tile.railcraft.signal.box.interlock.name=信号互锁盒
-tile.railcraft.signal.box.receiver.name=信号接收盒
-tile.railcraft.signal.box.sequencer.name=信号同步盒
-tile.railcraft.signal.distant.dual.name=双头远程信号
-tile.railcraft.signal.distant.name=远程信号
-tile.railcraft.signal.switch.lever.name=转辙拉杆
-tile.railcraft.signal.switch.motor.name=转辙马达
-tile.railcraft.signal.switch.routing.name=路由转辙马达
+tile.railcraft.wayobject.block.signal.dual.name=双头信号盒
+tile.railcraft.wayobject.block.signal.name=信号盒
+tile.railcraft.wayobject.box.analog.name=模拟信号控制盒
+tile.railcraft.wayobject.box.block.relay.name=信号中继盒
+tile.railcraft.wayobject.box.capacitor.name=信号计数盒
+tile.railcraft.wayobject.box.controller.name=信号控制盒
+tile.railcraft.wayobject.box.interlock.name=信号互锁盒
+tile.railcraft.wayobject.box.receiver.name=信号接收盒
+tile.railcraft.wayobject.box.sequencer.name=信号同步盒
+tile.railcraft.wayobject.distant.dual.name=双头远程信号
+tile.railcraft.wayobject.distant.name=远程信号
+tile.railcraft.wayobject.switch.lever.name=转辙拉杆
+tile.railcraft.wayobject.switch.motor.name=转辙马达
+tile.railcraft.wayobject.switch.routing.name=路由转辙马达
 
 tile.railcraft.slab.abyssal.block.name=深渊台阶
 tile.railcraft.slab.abyssal.brick.name=深渊砖台阶

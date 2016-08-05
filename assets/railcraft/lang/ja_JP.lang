@@ -199,13 +199,13 @@ tile.railcraft.post.metal.unpainted.name=金属の支柱
 tile.railcraft.post.stone.name=石の支柱
 tile.railcraft.post.wood.name=木の支柱
 
-tile.railcraft.signal.box.controller.name=信号制御ボックス
-tile.railcraft.signal.box.receiver.name=信号受信ボックス
-tile.railcraft.signal.block.signal.dual.name=二重信号機
-tile.railcraft.signal.block.signal.name=信号機
-tile.railcraft.signal.distant.name=遠方信号機
-tile.railcraft.signal.switch.lever.name=手動転轍器
-tile.railcraft.signal.switch.motor.name=自動転轍器
+tile.railcraft.wayobject.box.controller.name=信号制御ボックス
+tile.railcraft.wayobject.box.receiver.name=信号受信ボックス
+tile.railcraft.wayobject.block.signal.dual.name=二重信号機
+tile.railcraft.wayobject.block.signal.name=信号機
+tile.railcraft.wayobject.distant.name=遠方信号機
+tile.railcraft.wayobject.switch.lever.name=手動転轍器
+tile.railcraft.wayobject.switch.motor.name=自動転轍器
 
 item.railcraft.borehead.diamond.name=ダイヤの掘削ヘッド
 item.railcraft.borehead.iron.name=鉄の掘削ヘッド

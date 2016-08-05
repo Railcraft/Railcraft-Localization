@@ -826,20 +826,20 @@ tile.railcraft.post.wood.platform.name=Деревянная платформа
 
 tile.railcraft.residual.heat.name=Остаточное тепло
 
-tile.railcraft.signal.block.signal.dual.name=Спаренный сигнальный блок
-tile.railcraft.signal.block.signal.name=Сигнальный блок
-tile.railcraft.signal.box.analog.name=Контроллер аналогового сигнала
-tile.railcraft.signal.box.block.relay.name=Реле сигнального блока 
-tile.railcraft.signal.box.capacitor.name=Конденсатор сигнала
-tile.railcraft.signal.box.controller.name=Контроллер сигнала
-tile.railcraft.signal.box.interlock.name=Блокировщик сигнала
-tile.railcraft.signal.box.receiver.name=Приёмник сигнала
-tile.railcraft.signal.box.sequencer.name=Cеквенсор сигнала
-tile.railcraft.signal.distant.dual.name=Спаренный удалённый сигналоприёмный блок
-tile.railcraft.signal.distant.name=Удалённый сигналоприёмный блок
-tile.railcraft.signal.switch.lever.name=Стрелочный рычаг
-tile.railcraft.signal.switch.motor.name=Стрелочный электромотор
-tile.railcraft.signal.switch.routing.name=Маршрутный стрелочный электромотор
+tile.railcraft.wayobject.block.signal.dual.name=Спаренный сигнальный блок
+tile.railcraft.wayobject.block.signal.name=Сигнальный блок
+tile.railcraft.wayobject.box.analog.name=Контроллер аналогового сигнала
+tile.railcraft.wayobject.box.block.relay.name=Реле сигнального блока 
+tile.railcraft.wayobject.box.capacitor.name=Конденсатор сигнала
+tile.railcraft.wayobject.box.controller.name=Контроллер сигнала
+tile.railcraft.wayobject.box.interlock.name=Блокировщик сигнала
+tile.railcraft.wayobject.box.receiver.name=Приёмник сигнала
+tile.railcraft.wayobject.box.sequencer.name=Cеквенсор сигнала
+tile.railcraft.wayobject.distant.dual.name=Спаренный удалённый сигналоприёмный блок
+tile.railcraft.wayobject.distant.name=Удалённый сигналоприёмный блок
+tile.railcraft.wayobject.switch.lever.name=Стрелочный рычаг
+tile.railcraft.wayobject.switch.motor.name=Стрелочный электромотор
+tile.railcraft.wayobject.switch.routing.name=Маршрутный стрелочный электромотор
 
 tile.railcraft.slab.abyssal.block.name=Плита из блока бездны
 tile.railcraft.slab.abyssal.brick.name=Плита из кирпича бездны

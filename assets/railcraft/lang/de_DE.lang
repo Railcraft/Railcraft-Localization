@@ -889,34 +889,34 @@ tile.railcraft.post.wood.platform.name=Hölzerne Plattform
 
 tile.railcraft.residual.heat.name=Restwärme
 
-tile.railcraft.signal.block.signal.dual.name=Doppelkopf-Blocksignal
-tile.railcraft.signal.block.signal.dual.tip=Erkennt Schienenfahrzeuge im Signalblock\nZeigt Aspekt des verbundenen Controllers\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalblockvermesser
-tile.railcraft.signal.block.signal.name=Blocksignal
-tile.railcraft.signal.block.signal.tip=Erkennt Schienenfahrzeuge im Signalblock\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
-tile.railcraft.signal.box.analog.name=Analoge Signalsteuerbox
-tile.railcraft.signal.box.analog.tip=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Keine\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.signal.box.block.relay.name=Signalrelaisbox
-tile.railcraft.signal.box.block.relay.tip=Ermöglicht Verkettung von Signalblöcken\n§o§9Fernverbindungen: 2x Signalblock\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
-tile.railcraft.signal.box.capacitor.name=Signalkondensatorbox
-tile.railcraft.signal.box.capacitor.tip=Sendet Signale an Empfänger\n§o§9Fernverbindungen: Keine\n§o§9Direktverbindungen: Empfang, Senden\n§o§9Redstone-Verbindung: Empfang von Verstärker, Senden
-tile.railcraft.signal.box.controller.name=Signalsteuerbox
-tile.railcraft.signal.box.controller.tip=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Empfang\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.signal.box.interlock.name=Signalverriegelungsbox
-tile.railcraft.signal.box.interlock.tip=Erlaubt nur einem Signal auf einmal, durchzukommen\n§o§9Fernverbindungen:\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§9Direktverbindungen:\n§o§9- Verriegelung\n§o§9- Empfang (Durchgang sperren)\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.signal.box.receiver.name=Signalempfängerbox
-tile.railcraft.signal.box.receiver.tip=Empfängt Signale von Controllern\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.signal.box.sequencer.name=Signalsequenzerbox
-tile.railcraft.signal.box.sequencer.tip=Aktiviert direkt verbundene Blöcke nacheinander\n§o§9Direktverbindungen:\n§o§9- Sequenzer\n§o§9- Empfang (Taktsignal)\n§o§9- Senden\n§o§9Redstone-Verbindung:\n§o§9- Empfang von Verstärker (Taktsignal)\n§o§9- Senden
-tile.railcraft.signal.distant.dual.name=Entferntes Doppelkopf-Blocksignal
-tile.railcraft.signal.distant.dual.tip=Zeigt Aspekte verbundener Controller\n§o§9Fernverbindungen: 2x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.signal.distant.name=Entferntes Signal
-tile.railcraft.signal.distant.tip=Zeigt Aspekt des verbundenen Controllers\n§o§9Fernverbindungen: 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.signal.switch.lever.name=Manueller Stellantrieb
-tile.railcraft.signal.switch.lever.tip=Steuert verbundene Weichen\n§o§9Manuelle Steuerung
-tile.railcraft.signal.switch.motor.name=Motorisierter Stellantrieb
-tile.railcraft.signal.switch.motor.tip=Steuert verbundene Weichen\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.signal.switch.routing.name=Routender Stellantrieb
-tile.railcraft.signal.switch.routing.tip=Steuert verbundene Weichen\n§o§9Steuerung durch Logikskript\n§o§cWichtiges Werkzeug:\n§o§c- Streckenplan
+tile.railcraft.wayobject.block.signal.dual.name=Doppelkopf-Blocksignal
+tile.railcraft.wayobject.block.signal.dual.tip=Erkennt Schienenfahrzeuge im Signalblock\nZeigt Aspekt des verbundenen Controllers\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalblockvermesser
+tile.railcraft.wayobject.block.signal.name=Blocksignal
+tile.railcraft.wayobject.block.signal.tip=Erkennt Schienenfahrzeuge im Signalblock\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
+tile.railcraft.wayobject.box.analog.name=Analoge Signalsteuerbox
+tile.railcraft.wayobject.box.analog.tip=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Keine\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.box.block.relay.name=Signalrelaisbox
+tile.railcraft.wayobject.box.block.relay.tip=Ermöglicht Verkettung von Signalblöcken\n§o§9Fernverbindungen: 2x Signalblock\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
+tile.railcraft.wayobject.box.capacitor.name=Signalkondensatorbox
+tile.railcraft.wayobject.box.capacitor.tip=Sendet Signale an Empfänger\n§o§9Fernverbindungen: Keine\n§o§9Direktverbindungen: Empfang, Senden\n§o§9Redstone-Verbindung: Empfang von Verstärker, Senden
+tile.railcraft.wayobject.box.controller.name=Signalsteuerbox
+tile.railcraft.wayobject.box.controller.tip=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Empfang\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.box.interlock.name=Signalverriegelungsbox
+tile.railcraft.wayobject.box.interlock.tip=Erlaubt nur einem Signal auf einmal, durchzukommen\n§o§9Fernverbindungen:\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§9Direktverbindungen:\n§o§9- Verriegelung\n§o§9- Empfang (Durchgang sperren)\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.box.receiver.name=Signalempfängerbox
+tile.railcraft.wayobject.box.receiver.tip=Empfängt Signale von Controllern\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.box.sequencer.name=Signalsequenzerbox
+tile.railcraft.wayobject.box.sequencer.tip=Aktiviert direkt verbundene Blöcke nacheinander\n§o§9Direktverbindungen:\n§o§9- Sequenzer\n§o§9- Empfang (Taktsignal)\n§o§9- Senden\n§o§9Redstone-Verbindung:\n§o§9- Empfang von Verstärker (Taktsignal)\n§o§9- Senden
+tile.railcraft.wayobject.distant.dual.name=Entferntes Doppelkopf-Blocksignal
+tile.railcraft.wayobject.distant.dual.tip=Zeigt Aspekte verbundener Controller\n§o§9Fernverbindungen: 2x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.distant.name=Entferntes Signal
+tile.railcraft.wayobject.distant.tip=Zeigt Aspekt des verbundenen Controllers\n§o§9Fernverbindungen: 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.switch.lever.name=Manueller Stellantrieb
+tile.railcraft.wayobject.switch.lever.tip=Steuert verbundene Weichen\n§o§9Manuelle Steuerung
+tile.railcraft.wayobject.switch.motor.name=Motorisierter Stellantrieb
+tile.railcraft.wayobject.switch.motor.tip=Steuert verbundene Weichen\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.switch.routing.name=Routender Stellantrieb
+tile.railcraft.wayobject.switch.routing.tip=Steuert verbundene Weichen\n§o§9Steuerung durch Logikskript\n§o§cWichtiges Werkzeug:\n§o§c- Streckenplan
 
 tile.railcraft.slab.abyssal.block.name=Abyss-Blockstufe
 tile.railcraft.slab.abyssal.brick.name=Abyss-Ziegel-Stufe
@@ -1026,6 +1026,12 @@ tile.railcraft.lantern.stone.sandstone.name=Sandsteinlaterne
 tile.railcraft.lantern.stone.sandy.name=Sandige Steinlaterne
 tile.railcraft.lantern.stone.stone.name=Steinlaterne
 
+#New Tracks
+tile.railcraft.track.strap.iron.name=Flacheisenschiene
+tile.railcraft.track.strap.iron.tip=30% der Geschwindigkeit von Eisenschienen
+tile.railcraft.track.strap.iron.kit=30% der Geschwindigkeit von Eisenschienen
+
+#Old Tracks
 tile.railcraft.track.boarding.name=Einstiegsschiene
 tile.railcraft.track.boarding.tip=Durch die Sperrschiene ersetzt
 tile.railcraft.track.boarding.train.name=Zugeinstiegsschiene

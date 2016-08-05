@@ -777,20 +777,20 @@ tile.railcraft.post.wood.platform.name=Plataforma de Madera
 
 tile.railcraft.residual.heat.name=Calor Residual
 
-tile.railcraft.signal.block.signal.dual.name=Bloque de Señal Doble-Cabeza
-tile.railcraft.signal.block.signal.name=Bloque de Señal
-tile.railcraft.signal.box.analog.name=Caja controladora de Señal Analógica
-tile.railcraft.signal.box.block.relay.name=Caja de Relés de Bloques de Señales
-tile.railcraft.signal.box.capacitor.name=Caja de Condensador de Señal
-tile.railcraft.signal.box.controller.name=Caja Controladora de Señales
-tile.railcraft.signal.box.interlock.name=Caja de bloqueo de Señales
-tile.railcraft.signal.box.receiver.name=Caja Receptora de Señal
-tile.railcraft.signal.box.sequencer.name=Caja Secuenciadora de Señal
-tile.railcraft.signal.distant.dual.name=Señal Distante Doble-Cabeza
-tile.railcraft.signal.distant.name=Señal Distante
-tile.railcraft.signal.switch.lever.name=Palanca de Cambio
-tile.railcraft.signal.switch.motor.name=Motor de Cambio
-tile.railcraft.signal.switch.routing.name=Motor de Cambio de Ruta
+tile.railcraft.wayobject.block.signal.dual.name=Bloque de Señal Doble-Cabeza
+tile.railcraft.wayobject.block.signal.name=Bloque de Señal
+tile.railcraft.wayobject.box.analog.name=Caja controladora de Señal Analógica
+tile.railcraft.wayobject.box.block.relay.name=Caja de Relés de Bloques de Señales
+tile.railcraft.wayobject.box.capacitor.name=Caja de Condensador de Señal
+tile.railcraft.wayobject.box.controller.name=Caja Controladora de Señales
+tile.railcraft.wayobject.box.interlock.name=Caja de bloqueo de Señales
+tile.railcraft.wayobject.box.receiver.name=Caja Receptora de Señal
+tile.railcraft.wayobject.box.sequencer.name=Caja Secuenciadora de Señal
+tile.railcraft.wayobject.distant.dual.name=Señal Distante Doble-Cabeza
+tile.railcraft.wayobject.distant.name=Señal Distante
+tile.railcraft.wayobject.switch.lever.name=Palanca de Cambio
+tile.railcraft.wayobject.switch.motor.name=Motor de Cambio
+tile.railcraft.wayobject.switch.routing.name=Motor de Cambio de Ruta
 
 tile.railcraft.slab.abyssal.block.name=Losa de Bloque Abismal
 tile.railcraft.slab.abyssal.brick.name=Losa de Ladrillos Abismales

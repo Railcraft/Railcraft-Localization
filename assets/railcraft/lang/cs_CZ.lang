@@ -824,20 +824,20 @@ tile.railcraft.post.wood.platform.name=Dřevěná platforma
 
 tile.railcraft.residual.heat.name=Zbytkové teplo
 
-tile.railcraft.signal.block.signal.dual.name=Dvojitý signální blok
-tile.railcraft.signal.block.signal.name=Signální blok
-tile.railcraft.signal.box.analog.name=Analogový signální kontroler
-tile.railcraft.signal.box.block.relay.name=Signální blok relé
-tile.railcraft.signal.box.capacitor.name=Signální kondenzátor
-tile.railcraft.signal.box.controller.name=Signální kontroler
-tile.railcraft.signal.box.interlock.name=Signální blokátor
-tile.railcraft.signal.box.receiver.name=Signální přijímač
-tile.railcraft.signal.box.sequencer.name=Signální sekvencer
-tile.railcraft.signal.distant.dual.name=Dvojitý vzdálený signál
-tile.railcraft.signal.distant.name=Vzdálený signál
-tile.railcraft.signal.switch.lever.name=Přepínací páka
-tile.railcraft.signal.switch.motor.name=Přepínací motor
-tile.railcraft.signal.switch.routing.name=Routovací přepínací motor
+tile.railcraft.wayobject.block.signal.dual.name=Dvojitý signální blok
+tile.railcraft.wayobject.block.signal.name=Signální blok
+tile.railcraft.wayobject.box.analog.name=Analogový signální kontroler
+tile.railcraft.wayobject.box.block.relay.name=Signální blok relé
+tile.railcraft.wayobject.box.capacitor.name=Signální kondenzátor
+tile.railcraft.wayobject.box.controller.name=Signální kontroler
+tile.railcraft.wayobject.box.interlock.name=Signální blokátor
+tile.railcraft.wayobject.box.receiver.name=Signální přijímač
+tile.railcraft.wayobject.box.sequencer.name=Signální sekvencer
+tile.railcraft.wayobject.distant.dual.name=Dvojitý vzdálený signál
+tile.railcraft.wayobject.distant.name=Vzdálený signál
+tile.railcraft.wayobject.switch.lever.name=Přepínací páka
+tile.railcraft.wayobject.switch.motor.name=Přepínací motor
+tile.railcraft.wayobject.switch.routing.name=Routovací přepínací motor
 
 tile.railcraft.slab.abyssal.block.name=Abyssal půlblok
 tile.railcraft.slab.abyssal.brick.name=Abyssal cihla deska

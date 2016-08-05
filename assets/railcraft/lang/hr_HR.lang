@@ -339,16 +339,16 @@ tile.railcraft.post.metal.unpainted.name=Metalni Stup
 tile.railcraft.post.stone.name=Kameni Stup
 tile.railcraft.post.wood.name=Drveni Stup
 
-tile.railcraft.signal.block.signal.dual.name=Dvoglavi Blok Signala
-tile.railcraft.signal.block.signal.name=Block Signala
-tile.railcraft.signal.box.block.relay.name=Relejska Kutija Signalnog Bloka
-tile.railcraft.signal.box.capacitor.name=Signalna Kapacitorska Kutija
-tile.railcraft.signal.box.controller.name=Signalna Kontrolerska Kutija
-tile.railcraft.signal.box.receiver.name=Signalna Primateljska Kutija
-tile.railcraft.signal.distant.name=Udaljeni Signal
-tile.railcraft.signal.distant.dual.name=Dvoglavi Udaljeni Signal
-tile.railcraft.signal.switch.lever.name=Polužni Prekidač
-tile.railcraft.signal.switch.motor.name=Motorni Prekidač
+tile.railcraft.wayobject.block.signal.dual.name=Dvoglavi Blok Signala
+tile.railcraft.wayobject.block.signal.name=Block Signala
+tile.railcraft.wayobject.box.block.relay.name=Relejska Kutija Signalnog Bloka
+tile.railcraft.wayobject.box.capacitor.name=Signalna Kapacitorska Kutija
+tile.railcraft.wayobject.box.controller.name=Signalna Kontrolerska Kutija
+tile.railcraft.wayobject.box.receiver.name=Signalna Primateljska Kutija
+tile.railcraft.wayobject.distant.name=Udaljeni Signal
+tile.railcraft.wayobject.distant.dual.name=Dvoglavi Udaljeni Signal
+tile.railcraft.wayobject.switch.lever.name=Polužni Prekidač
+tile.railcraft.wayobject.switch.motor.name=Motorni Prekidač
 
 tile.railcraft.stair.concrete.name=Betonske Stepenice
 tile.railcraft.stair.ice.name=Ledene Stepenice
