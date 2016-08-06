@@ -1029,7 +1029,23 @@ tile.railcraft.lantern.stone.stone.name=Steinlaterne
 #New Tracks
 tile.railcraft.track.strap.iron.name=Flacheisenschiene
 tile.railcraft.track.strap.iron.tip=30% der Geschwindigkeit von Eisenschienen
-tile.railcraft.track.strap.iron.kit=30% der Geschwindigkeit von Eisenschienen
+tile.railcraft.track.strap.iron.kit=Flacheisen-%sschiene
+
+tile.railcraft.track.reinforced.name=Verstärkte Schiene
+tile.railcraft.track.reinforced.tip=125% der Geschwindigkeit normaler Schienen\n Explosionsresistent
+tile.railcraft.track.reinforced.kit=Verstärkte %sschiene
+
+tile.railcraft.track.high.speed.name=Hochgeschwindigkeitsschiene
+tile.railcraft.track.high.speed.tip=§9Gefährlich\n §rSehr schnell\n Erfordert Booster-/Übergangsschiene, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich
+tile.railcraft.track.high.speed.kit=Hochgeschw.-%sschiene
+
+tile.railcraft.track.electric.name=Elektrische Schiene
+tile.railcraft.track.electric.tip=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
+tile.railcraft.track.electric.kit=Elektrische %sschiene
+
+tile.railcraft.track.high.speed.electric.name=Elektrische Hochgeschwindigkeitsschiene
+tile.railcraft.track.high.speed.electric.tip==§9Gefährlich\n §rSehr schnell\n Erfordert Booster-/Übergangsschiene, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive
+tile.railcraft.track.high.speed.electric.kit=Elektrische Hochgeschw.-%sschiene
 
 #Old Tracks
 tile.railcraft.track.boarding.name=Einstiegsschiene
@@ -1049,8 +1065,6 @@ tile.railcraft.track.disembarking.name=Auswurfschiene
 tile.railcraft.track.disembarking.tip=Wirft fahrende Lebewesen aus dem Waggon, in Richtung des Pfeils\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.disposal.name=Entsorgungsschiene
 tile.railcraft.track.disposal.tip=Hängende Schiene\n Wirft fahrende Lebewesen raus
-tile.railcraft.track.electric.name=Elektrische Schiene
-tile.railcraft.track.electric.tip=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
 tile.railcraft.track.electric.junction.name=Elektrisches Schienenkreuz
 tile.railcraft.track.electric.junction.tip=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
 tile.railcraft.track.electric.switch.name=Elektrische Weiche
@@ -1091,8 +1105,6 @@ tile.railcraft.track.reinforced.boost.name=Verstärkte Boosterschiene
 tile.railcraft.track.reinforced.boost.tip=125% der Geschwindigkeit normaler Schienen\n Explosionsresistent\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.reinforced.junction.name=Verstärktes Schienenkreuz
 tile.railcraft.track.reinforced.junction.tip=125% der Geschwindigkeit normaler Schienen\n Explosionsresistent
-tile.railcraft.track.reinforced.name=Verstärkte Schiene
-tile.railcraft.track.reinforced.tip=125% der Geschwindigkeit normaler Schienen\n Explosionsresistent
 tile.railcraft.track.reinforced.switch.name=Verstärkte Weiche
 tile.railcraft.track.reinforced.switch.tip=125% der Geschwindigkeit normaler Schienen\n Explosionsresistent\n§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.reinforced.wye.name=Verstärkte T-Weiche
@@ -1102,16 +1114,12 @@ tile.railcraft.track.routing.tip=Verstellt das Ticket einer passierenden Lokomot
 tile.railcraft.track.slow.boost.name=Hölzerne Boosterschiene
 tile.railcraft.track.slow.junction.name=Hölzernes Schienenkreuz
 tile.railcraft.track.slow.junction.tip=30% der Geschwindigkeit normaler Schienen
-tile.railcraft.track.slow.name=Holzschiene
-tile.railcraft.track.slow.tip=30% der Geschwindigkeit normaler Schienen
 tile.railcraft.track.slow.switch.name=Hölzerne Weiche
 tile.railcraft.track.slow.switch.tip=30% der Geschwindigkeit normaler Schienen\n §o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.slow.wye.name=Hölzerne T-Weiche
 tile.railcraft.track.slow.wye.tip=30% der Geschwindigkeit normaler Schienen\n §o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.speed.boost.name=Hochgeschw. Boosterschiene
 tile.railcraft.track.speed.boost.tip=§9Gefährlich\n §rMehr als doppelt so schnell wie normale Schienen\n Hält Hochgeschwindigkeit aufrecht\n§o§c- Aktiviere mit einem Redstone-Signal -
-tile.railcraft.track.speed.name=Hochgeschw.-Schiene
-tile.railcraft.track.speed.tip=§9Gefährlich\n §rMehr als doppelt so schnell wie normale Schienen\n Erfordert Booster-/Übergangsschiene, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich
 tile.railcraft.track.speed.switch.name=Hochgeschw.-Weiche
 tile.railcraft.track.speed.switch.tip=§9Gefährlich\n Versuche nicht, bei Hochgeschwindigkeit abzuweichen\n §o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.speed.transition.name=Hochgeschw.-Übergangsschiene
