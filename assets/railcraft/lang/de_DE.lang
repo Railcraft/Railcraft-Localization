@@ -522,7 +522,7 @@ railcraft.gui.routing.logic.unrecognized.keyword=Unbekanntes Schlüsselwort
 railcraft.gui.routing.slot.label=Fahrplan
 railcraft.gui.routing.table.editor=Zuletzt bearbeitet von %s
 railcraft.gui.routing.table.manual.numPages=11
-railcraft.gui.routing.table.manual.page1=Der Streckenplan, wenn in einem Richtungsdetektor oder Stellantrieb platziert, wird eine Sammlung von Regeln definieren, die bei jeder passierenden Lokomotive genutzt werden. Diese Regeln werden mit einer einfachen logischen Syntax definiert, die es dir erlaubt, Regeln zu erschaffen, so einfach oder komplex wie du willst. Die Syntax ist ein Präfix-Notationsscript, the Operatoren werden gefolgt von den Operanden. Nur ein Wort pro Zeile ist erlaubt. Wenn kein Operator spezifiziert wird, wird OR verwendet. Streckenpläne können kopiert werden, indem zwei oder mehr in ein Crafting-Gitter platziert werden.
+railcraft.gui.routing.table.manual.page1=Der Streckenplan, wenn in einem Richtungssensor oder Stellantrieb platziert, wird eine Sammlung von Regeln definieren, die bei jeder passierenden Lokomotive genutzt werden. Diese Regeln werden mit einer einfachen logischen Syntax definiert, die es dir erlaubt, Regeln zu erschaffen, so einfach oder komplex wie du willst. Die Syntax ist ein Präfix-Notationsscript, the Operatoren werden gefolgt von den Operanden. Nur ein Wort pro Zeile ist erlaubt. Wenn kein Operator spezifiziert wird, wird OR verwendet. Streckenpläne können kopiert werden, indem zwei oder mehr in ein Crafting-Gitter platziert werden.
 railcraft.gui.routing.table.manual.page2=Operator-Wörter:\n   AND - Zwei Operanden, beide müssen wahr sein.\n   OR - Zwei Operanden, einer muss wahr sein.\n   NOT - Kehrt den folgenden Operanden um.
 railcraft.gui.routing.table.manual.page3=Bedingungswörter:\n   Dest=<string>\n      Wenn das eingetragene Ziel der\n      Lokomotive mit diesem String startet,\n      ist die Bedingung wahr.\n      "Dest=null" wird Wagen ohne\n      Ziel entsprechen.\n   Owner=<Spielername>\n      Wahr, wenn die Lokomotive\n      dieser Person gehört.
 railcraft.gui.routing.table.manual.page4=Bedingungswörter:\n   Name=<entityname>\n      Wahr, wenn <entityname> dem Namen\n des Wagens entspricht.\n      "Name=null" wird zu Waggons\n      ohne speziellen Namen passen\n   Type=<modid:itemname>\n      Wahr, wenn dies zu dem\n      Item-Namen des\n      Waggons passt.
@@ -710,24 +710,24 @@ tile.railcraft.cube.stone.abyssal.name=Abyss-Stein
 tile.railcraft.cube.stone.quarried.name=Brüchiger Stein
 tile.railcraft.cube.tin.name=Zinnblock
 
-tile.railcraft.detector.advanced.name=Detektor - Fortgeschritten
-tile.railcraft.detector.age.name=Detektor - Alter
-tile.railcraft.detector.animal.name=Detektor - Tiere
-tile.railcraft.detector.any.name=Detektor - Alles
-tile.railcraft.detector.cart.name=Detektor - Lore
-tile.railcraft.detector.empty.name=Detektor - Leer
-tile.railcraft.detector.energy.name=Detektor - Energie
-tile.railcraft.detector.explosive.name=Detektor - Explosiv
-tile.railcraft.detector.item.name=Detektor - Item
-tile.railcraft.detector.locomotive.name=Detektor - Lokomotive
-tile.railcraft.detector.mob.name=Detektor - Mob
-tile.railcraft.detector.player.name=Detektor - Spieler
-tile.railcraft.detector.powered.name=Detektor - Angetrieben
-tile.railcraft.detector.routing.name=Detektor - Richtung
-tile.railcraft.detector.sheep.name=Detektor - Schaf
-tile.railcraft.detector.tank.name=Detektor - Tank
-tile.railcraft.detector.train.name=Detektor - Zug
-tile.railcraft.detector.villager.name=Detektor - Dorfbewohner
+tile.railcraft.detector.advanced.name=Gleissensor - Fortgeschritten
+tile.railcraft.detector.age.name=Gleissensor - Alter
+tile.railcraft.detector.animal.name=Gleissensor - Tiere
+tile.railcraft.detector.any.name=Gleissensor - Alles
+tile.railcraft.detector.cart.name=Gleissensor - Lore
+tile.railcraft.detector.empty.name=Gleissensor - Leer
+tile.railcraft.detector.energy.name=Gleissensor - Energie
+tile.railcraft.detector.explosive.name=Gleissensor - Explosiv
+tile.railcraft.detector.item.name=Gleissensor - Item
+tile.railcraft.detector.locomotive.name=Gleissensor - Lokomotive
+tile.railcraft.detector.mob.name=Gleissensor - Mob
+tile.railcraft.detector.player.name=Gleissensor - Spieler
+tile.railcraft.detector.powered.name=Gleissensor - Angetrieben
+tile.railcraft.detector.routing.name=Gleissensor - Richtung
+tile.railcraft.detector.sheep.name=Gleissensor - Schaf
+tile.railcraft.detector.tank.name=Gleissensor - Tank
+tile.railcraft.detector.train.name=Gleissensor - Zug
+tile.railcraft.detector.villager.name=Gleissensor - Dorfbewohner
 
 tile.railcraft.firestone.recharge.name=Wiederaufladender Flammstein
 
