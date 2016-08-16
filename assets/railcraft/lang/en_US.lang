@@ -288,6 +288,75 @@ item.railcraft.tool.surveyor.name=Signal Block Surveyor
 item.railcraft.tool.surveyor.tip=Links Signals into Signal Blocks
 item.railcraft.tool.whistle.tuner.name=Whistle Tuner
 
+######################################################################################
+#   Track Kits
+######################################################################################
+
+item.railcraft.track.kit.railcraft.activator.name=Activator Track Kit
+item.railcraft.track.kit.railcraft.activator.tip=Activates passing carts\n§o§c- Apply Redstone to enable -
+
+item.railcraft.track.kit.railcraft.booster.name=Booster Track Kit
+item.railcraft.track.kit.railcraft.booster.tip=Applies a boost force to the cart\nSlows if unpowered\n§o§c- Apply Redstone to enable -
+
+item.railcraft.track.kit.railcraft.buffer.name=Buffer Stop Track Kit
+item.railcraft.track.kit.railcraft.buffer.tip=End of the Line\n§o§9- Hit with Crowbar to change direction -
+
+item.railcraft.track.kit.railcraft.control.name=Control Track Kit
+item.railcraft.track.kit.railcraft.control.tip=Applies a small force to the cart\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to change direction -
+
+item.railcraft.track.kit.railcraft.coupler.name=Coupler Track Kit
+item.railcraft.track.kit.railcraft.coupler.tip=Couples/Decouples passing Carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+
+item.railcraft.track.kit.railcraft.detector.name=Detector Track Kit
+item.railcraft.track.kit.railcraft.detector.tip=Emits Redstone when a cart passes
+
+item.railcraft.track.kit.railcraft.detector.travel.name=Travel Detector Track Kit
+item.railcraft.track.kit.railcraft.detector.travel.tip=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Crowbar to change direction -
+
+item.railcraft.track.kit.railcraft.disembarking.name=Disembarking Track Kit
+item.railcraft.track.kit.railcraft.disembarking.tip=Dismounts riding Entities in direction of arrow\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to enable -
+
+item.railcraft.track.kit.railcraft.dumping.name=Dumping Track Kit
+item.railcraft.track.kit.railcraft.dumping.tip=Suspended track\n Drops Entities or Items through the track\n§o§c- Apply Redstone to disable -
+
+item.railcraft.track.kit.railcraft.embarking.name=Embarking Track Kit
+item.railcraft.track.kit.railcraft.embarking.tip=Loads entities into Carts\n§o§9- Hit with Crowbar to change range -\n§o§c- Apply Redstone to enable -
+
+item.railcraft.track.kit.railcraft.gated.name=Gated Track Kit
+item.railcraft.track.kit.railcraft.gated.tip=Track with built-in Gate\n§o§c- Apply Redstone to open -
+
+item.railcraft.track.kit.railcraft.gated.one.way.name=Gated One-Way Track Kit
+item.railcraft.track.kit.railcraft.gated.one.way.tip=Track with built-in One-Way Gate\n§o§c- Apply Redstone to open -
+
+item.railcraft.track.kit.railcraft.launcher.name=Launcher Track Kit
+item.railcraft.track.kit.railcraft.launcher.tip=Makes carts fly!\n§o§c- Apply Redstone to enable -
+
+item.railcraft.track.kit.railcraft.limiter.name=Limiter Track Kit
+item.railcraft.track.kit.railcraft.limiter.tip=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+
+item.railcraft.track.kit.railcraft.locking.name=Locking Track Kit
+item.railcraft.track.kit.railcraft.locking.tip=Stops and holds carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+
+item.railcraft.track.kit.railcraft.locomotive.name=Locomotive Track Kit
+item.railcraft.track.kit.railcraft.locomotive.tip=Starts/Stops Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+
+item.railcraft.track.kit.railcraft.missing.name=Invalid Track Kit
+item.railcraft.track.kit.railcraft.missing.tip=Placeholder
+
+item.railcraft.track.kit.railcraft.one.way.name=One-Way Track Kit
+item.railcraft.track.kit.railcraft.one.way.tip=Carts can only pass\n in the direction of the arrow\n§o§9- Hit with Crowbar to change direction -
+
+item.railcraft.track.kit.railcraft.priming.name=Priming Track Kit
+item.railcraft.track.kit.railcraft.priming.tip=Ignites TNT Carts\n Adjustable Fuse\n§o§9- Hit with Crowbar to change fuse -\n§o§c- Apply Redstone to enable -
+
+item.railcraft.track.kit.railcraft.routing.name=Routing Track Kit
+item.railcraft.track.kit.railcraft.routing.tip=Sets a passing Locomotive's Ticket\n§o§9- Hit with Crowbar to change ticket -
+
+item.railcraft.track.kit.railcraft.transition.name=H. S. Transition Track Kit
+item.railcraft.track.kit.railcraft.transition.tip=Transitions to/from High Speed\n§o§c- Apply Redstone to enable -
+
+item.railcraft.track.kit.railcraft.whistle.name=Whistle Track Kit
+item.railcraft.track.kit.railcraft.whistle.tip=Passing Locomotives\n will blow their Whistle\n§o§c- Apply Redstone to enable -
 
 item.railcraft.upgrade.lapotron=Lapotron Loader Upgrade
 
@@ -1036,7 +1105,7 @@ tile.railcraft.track.reinforced.tip=125% of the speed of normal track\n Explosio
 tile.railcraft.track.reinforced.kit=Reinforced %s Track
 
 tile.railcraft.track.high.speed.name=High Speed Track
-tile.railcraft.track.high.speed.tip=§9Dangerous\n §rVery Fast\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
+tile.railcraft.track.high.speed.tip=§9Danger: High Speed\n §rVery Fast\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
 tile.railcraft.track.high.speed.kit=H.S. %s Track
 
 tile.railcraft.track.electric.name=Electric Track
@@ -1044,21 +1113,16 @@ tile.railcraft.track.electric.tip=§9Danger: High Voltage\n §rPowered by Electr
 tile.railcraft.track.electric.kit=Electric %s Track
 
 tile.railcraft.track.high.speed.electric.name=High Speed Electric Track
-tile.railcraft.track.high.speed.electric.tip==§9Dangerous\n §rVery Fast\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed\n §rPowered by Electricity\n Use with Electric Locomotive
+tile.railcraft.track.high.speed.electric.tip=§9Danger: High Voltage/Speed\n §rVery Fast\n §rPowered by Electricity\n Use with Electric Locomotive\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
 tile.railcraft.track.high.speed.electric.kit=H.S. Electric %s Track
 
 #Old Tracks
-tile.railcraft.track.boarding.name=Boarding Track
-tile.railcraft.track.boarding.tip=Replaced by Locking Track
-tile.railcraft.track.boarding.train.name=Train Boarding Track
-tile.railcraft.track.boarding.train.tip=Replaced by Locking Track
 tile.railcraft.track.buffer.stop.name=Buffer Stop Track
 tile.railcraft.track.buffer.stop.tip=End of the Line\n§o§9- Hit with Crowbar to change direction -
 tile.railcraft.track.control.name=Control Track
 tile.railcraft.track.control.tip=Applies a small omni-directional boost\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to change direction -
 tile.railcraft.track.coupler.name=Coupler Track
 tile.railcraft.track.coupler.tip=Couples/Decouples passing Carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
-tile.railcraft.track.decoupler.name=Decoupler Track
 tile.railcraft.track.detector.direction.name=Directional Detector Track
 tile.railcraft.track.detector.direction.tip=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Crowbar to change direction -
 tile.railcraft.track.disembarking.name=Disembarking Track
@@ -1089,10 +1153,6 @@ tile.railcraft.track.launcher.name=Launcher Track
 tile.railcraft.track.launcher.tip=Makes carts fly\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.limiter.name=Limiter Track
 tile.railcraft.track.limiter.tip=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
-tile.railcraft.track.lockdown.name=Lockdown Track
-tile.railcraft.track.lockdown.tip=Replaced by Locking Track
-tile.railcraft.track.lockdown.train.name=Train Lockdown Track
-tile.railcraft.track.lockdown.train.tip=Replaced by Locking Track
 tile.railcraft.track.locking.name=Locking Track
 tile.railcraft.track.locking.tip=Stops and holds carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.locomotive.name=Locomotive Track
