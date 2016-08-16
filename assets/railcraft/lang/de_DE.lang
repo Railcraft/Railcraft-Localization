@@ -292,70 +292,70 @@ item.railcraft.tool.whistle.tuner.name=Pfeifenstimmer
 #   Track Kits
 ######################################################################################
 
-item.railcraft.track.kit.railcraft.activator.name=Aktivierungsgleismodul
+item.railcraft.track.kit.railcraft.activator.name=Aktivierungsgleisbaukasten
 item.railcraft.track.kit.railcraft.activator.tip=Aktiviert vorbeifahrende Waggons\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.booster.name=Antriebsgleismodul
+item.railcraft.track.kit.railcraft.booster.name=Antriebsgleisbaukasten
 item.railcraft.track.kit.railcraft.booster.tip=Gibt Waggons einen Schub\nVerlangsamt, wenn deaktiviert\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.buffer.name=Prellbock-Gleismodul
+item.railcraft.track.kit.railcraft.buffer.name=Prellbock-Gleisbaukasten
 item.railcraft.track.kit.railcraft.buffer.tip=Endstation\n§o§9- Verändere die Richtung mit einem Brecheisen -
 
-item.railcraft.track.kit.railcraft.control.name=Steuergleismodul
+item.railcraft.track.kit.railcraft.control.name=Steuergleisbaukasten
 item.railcraft.track.kit.railcraft.control.tip=Gibt Waggons einen kleinen Schub\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Verändere die Richtung mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.coupler.name=Koppelgleismodul
+item.railcraft.track.kit.railcraft.coupler.name=Koppelgleisbaukasten
 item.railcraft.track.kit.railcraft.coupler.tip=Koppelt/Entkoppelt passierende Waggons\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.detector.name=Sensorgleismodul
+item.railcraft.track.kit.railcraft.detector.name=Sensorgleisbaukasten
 item.railcraft.track.kit.railcraft.detector.tip=Sendet ein Redstone-Signal aus, wenn ein Waggon vorbeifährt
 
-item.railcraft.track.kit.railcraft.detector.travel.name=Fahrtrichtungssensorgleismodul
+item.railcraft.track.kit.railcraft.detector.travel.name=Fahrtrichtungssensorgleisbaukasten
 item.railcraft.track.kit.railcraft.detector.travel.tip=Sendet Redstone-Signal aus, wenn ein Waggon\n in der angezeigten Richtung passiert\n§o§9- Verändere die Richtung mit einem Brecheisen -
 
-item.railcraft.track.kit.railcraft.disembarking.name=Auswurfgleismodul
+item.railcraft.track.kit.railcraft.disembarking.name=Auswurfgleisbaukasten
 item.railcraft.track.kit.railcraft.disembarking.tip=Wirft fahrende Lebewesen in Richtung des Pfeils aus dem Waggon\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.dumping.name=Entsorgungsgleismodul
+item.railcraft.track.kit.railcraft.dumping.name=Entsorgungsgleisbaukasten
 item.railcraft.track.kit.railcraft.dumping.tip=Hängendes Gleis\n Wirft fahrende Lebewesen oder Items durch das Gleis hindurch\n§o§c- Deaktiviere mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.embarking.name=Aufnahmegleismodul
+item.railcraft.track.kit.railcraft.embarking.name=Aufnahmegleisbaukasten
 item.railcraft.track.kit.railcraft.embarking.tip=Lädt Lebewesen in Waggons hinein\n§o§9- Verändere die Reichweite mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.gated.name=Torgleismodul
-item.railcraft.track.kit.railcraft.gated.tip=Gleismodul mit eingebautem Tor\n§o§c- Öffne mit einem Redstone-Signal -
+item.railcraft.track.kit.railcraft.gated.name=Torgleisbaukasten
+item.railcraft.track.kit.railcraft.gated.tip=Mit eingebautem Tor\n§o§c- Öffne mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.gated.one.way.name=Fahrtrichtungstorgleismodul
-item.railcraft.track.kit.railcraft.gated.one.way.tip=Gleismodul mit einseitig öffnendem eingebautem Tor\n§o§c- Öffne mit einem Redstone-Signal -
+item.railcraft.track.kit.railcraft.gated.one.way.name=Fahrtrichtungstorgleisbaukasten
+item.railcraft.track.kit.railcraft.gated.one.way.tip=Mit einseitig öffnendem eingebautem Tor\n§o§c- Öffne mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.launcher.name=Katapultgleismodul
+item.railcraft.track.kit.railcraft.launcher.name=Katapultgleisbaukasten
 item.railcraft.track.kit.railcraft.launcher.tip=Verleiht Waggons Flügel... Beinahe.\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.limiter.name=Geschwindigkeitsreguliergleismodul
+item.railcraft.track.kit.railcraft.limiter.name=Geschwindigkeitsreguliergleisbaukasten
 item.railcraft.track.kit.railcraft.limiter.tip=Verstellt die Geschwindigkeit\n passierender Lokomotiven\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.locking.name=Sperrgleismodul
+item.railcraft.track.kit.railcraft.locking.name=Sperrgleisbaukasten
 item.railcraft.track.kit.railcraft.locking.tip=Stoppt und hält Waggons\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.locomotive.name=Lokomotivsteuergleismodul
+item.railcraft.track.kit.railcraft.locomotive.name=Lokomotivsteuergleisbaukasten
 item.railcraft.track.kit.railcraft.locomotive.tip=Startet/Stoppt Lokomotiven\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.missing.name=Ungültiges Gleismodul
+item.railcraft.track.kit.railcraft.missing.name=Ungültiger Gleisbaukasten
 item.railcraft.track.kit.railcraft.missing.tip=Platzhalter
 
-item.railcraft.track.kit.railcraft.one.way.name=Einbahngleismodul
+item.railcraft.track.kit.railcraft.one.way.name=Einbahngleisbaukasten
 item.railcraft.track.kit.railcraft.one.way.tip=Waggons können nur\n in Pfeilrichtung passieren\n§o§9- Verändere die Richtung mit einem Brecheisen -
 
-item.railcraft.track.kit.railcraft.priming.name=Zündgleismodul
+item.railcraft.track.kit.railcraft.priming.name=Zündgleisbaukasten
 item.railcraft.track.kit.railcraft.priming.tip=Entzündet TNT-Waggons\n Verstellbare Zünddauer\n§o§9- Verändere die Zündzeit mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.routing.name=Routengleismodul
+item.railcraft.track.kit.railcraft.routing.name=Routengleisbaukasten
 item.railcraft.track.kit.railcraft.routing.tip=Überschreibt das Ticket einer passierenden Lokomotive\n§o§9- Wechsle das zu übernehmende Ticket mit einem Brecheisen -
 
-item.railcraft.track.kit.railcraft.transition.name=Hochgeschw.-Übergangsgleismodul
+item.railcraft.track.kit.railcraft.transition.name=Hochgeschw.-Übergangsgleisbaukasten
 item.railcraft.track.kit.railcraft.transition.tip=Sorgt für Übergang von/zu Hochgeschwindigkeit\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-item.railcraft.track.kit.railcraft.whistle.name=Pfeifgleismodul
+item.railcraft.track.kit.railcraft.whistle.name=Pfeifgleisbaukasten
 item.railcraft.track.kit.railcraft.whistle.tip=Passierende Lokomotiven werden pfeifen\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 item.railcraft.upgrade.lapotron=Lapotron-Ladeupgrade
