@@ -1,5 +1,5 @@
 # zh_CN
-# Translated by crafteverywhere
+# Translated by crafteverywhere, et al
 # Parent Language: zh_TW
 
 chat.railcraft.api.error=错误:API过期,请检查游戏后台记录以了解详情.
@@ -12,6 +12,22 @@ command.railcraft.noperms=你没有使用该命令的权限.
 
 command.railcraft.railcraft.help=Railcraft的可用命令
 command.railcraft.railcraft.format=格式: /%s <sub-command>
+
+command.railcraft.railcraft.admin.desc=- %s: 管理员工具
+command.railcraft.railcraft.admin.help=为管理员准备的工具
+command.railcraft.railcraft.admin.format=格式: /%s
+
+command.railcraft.railcraft.admin.kill.desc=- %s: 清理任务
+command.railcraft.railcraft.admin.kill.help=用于清理各种东西的工具
+command.railcraft.railcraft.admin.kill.format=格式: /%s
+
+command.railcraft.railcraft.admin.kill.animals.desc=- %s: 清理动物
+command.railcraft.railcraft.admin.kill.animals.help=可击杀当前世界中的所有动物
+command.railcraft.railcraft.admin.kill.animals.format=格式: /%s
+
+command.railcraft.railcraft.admin.kill.minecarts.desc=- %s: 清理矿车
+command.railcraft.railcraft.admin.kill.minecarts.help=可“击杀”当前世界中的所有矿车
+command.railcraft.railcraft.admin.kill.minecarts.format=格式: /%s
 
 command.railcraft.railcraft.debug.desc=-%s: 调试工具
 command.railcraft.railcraft.debug.help=用于调试困难问题的工具.
@@ -44,6 +60,13 @@ death.railcraft.crusher.5=%s没留意“当心脚下”的告示牌.
 death.railcraft.crusher.6=热销中!%s的鲜血果冻!
 death.railcraft.crusher.7=%s被砸成了浆糊.
 death.railcraft.crusher.8=%s应该读下安全手册.
+
+death.railcraft.electric.1=%s向尼古拉特斯拉问好.
+death.railcraft.electric.2=%s发现了“高压电”的真谛.
+death.railcraft.electric.3=%s顿悟了电之所以为奇迹.
+death.railcraft.electric.4=%s没注意旁边的警示牌.
+death.railcraft.electric.5=%s深受震动.(英文双关:即死于电击)
+death.railcraft.electric.6=%s学到了一些关于电的东西,它会伤人!
 
 death.railcraft.steam.1=%s被蒸熟了,鲜美多汁.
 death.railcraft.steam.2=%s没像他吹牛说的那样免疫高温伤害! 
@@ -85,7 +108,9 @@ entity.Railcraft.cart.furnace.name=熔炉车
 entity.Railcraft.cart.gift.name=礼物车
 entity.Railcraft.cart.loco.electric.name=电力机车
 entity.Railcraft.cart.loco.steam.solid.name=蒸汽机车
+entity.Railcraft.cart.loco.creative.name=永动机车
 entity.Railcraft.cart.pumpkin.name=南瓜车
+entity.Railcraft.cart.redstone.flux.name=RF储能车
 entity.Railcraft.cart.tank.name=蓄水槽车
 entity.Railcraft.cart.tnt.name=TNT车
 entity.Railcraft.cart.tnt.wood.name=木质TNT矿车
@@ -139,8 +164,11 @@ item.railcraft.cart.gift.name=礼物车
 item.railcraft.cart.gift.tip=圣诞快乐
 item.railcraft.cart.loco.electric.name=电力机车
 item.railcraft.cart.loco.steam.solid.name=蒸汽机车
+item.railcraft.cart.loco.creative.name=永动机车
+item.railcraft.cart.loco.creative.tip=§o§9创造模式限定
 item.railcraft.cart.pumpkin.name=南瓜车
 item.railcraft.cart.pumpkin.tip=没礼物就捣蛋
+item.railcraft.cart.redstone.flux.name=RF储能车
 item.railcraft.cart.tank.name=蓄水槽车
 item.railcraft.cart.tnt.name=TNT车
 item.railcraft.cart.tnt.wood.name=木质TNT矿车
@@ -203,6 +231,7 @@ item.railcraft.part.gear.iron.name=铁齿轮
 item.railcraft.part.gear.steel.name=钢齿轮
 item.railcraft.part.plate.copper.name=铜板
 item.railcraft.part.plate.iron.name=铁板
+item.railcraft.part.plate.lead.name=铅板
 item.railcraft.part.plate.steel.name=钢板
 item.railcraft.part.plate.tin.name=锡板
 item.railcraft.part.rail.advanced.name=高级导轨
@@ -231,7 +260,26 @@ item.railcraft.tool.crowbar.reinforced.name=强化撬棍
 item.railcraft.tool.crowbar.tip=§o潜行时右键可链接车厢
 item.railcraft.tool.crowbar.void.name=虚空金属撬棍
 item.railcraft.tool.charge.meter.name=电表
+item.railcraft.tool.charge.meter.tip=§o右击Charge blocks可获得其详细信息
 item.railcraft.tool.magnifying.glass.name=放大镜
+item.railcraft.tool.notepad.action.copy=已从%s复制设定
+item.railcraft.tool.notepad.action.copy.fail=没有可复制内容：目标无效。
+item.railcraft.tool.notepad.action.empty=没有可粘贴内容：按住Shift右击以复制。
+item.railcraft.tool.notepad.action.paste=将设定粘贴至%s
+item.railcraft.tool.notepad.action.paste.fail=没有可粘贴内容：目标无效。
+item.railcraft.tool.notepad.name=铁路工笔记本
+item.railcraft.tool.notepad.tip.contents=内容：%s
+item.railcraft.tool.notepad.tip.contents.filter.items=§2物品过滤器
+item.railcraft.tool.notepad.tip.contents.filter.fluid=§b流体过滤器
+item.railcraft.tool.notepad.tip.contents.filter.cart=§e矿车过滤器
+item.railcraft.tool.notepad.tip.contents.empty=§4空
+item.railcraft.tool.notepad.tip.mode.all=全部
+item.railcraft.tool.notepad.tip.mode.cart.filter=矿车过滤器
+item.railcraft.tool.notepad.tip.mode.loader.filters=物品/流体过滤器
+item.railcraft.tool.notepad.tip.mode=粘贴模式：%s
+item.railcraft.tool.notepad.tip=§o右击以粘贴\n§o潜行时右击以复制\n§o潜行时对空中右击以清空
+item.railcraft.tool.signal.label.name=信号标签
+item.railcraft.tool.signal.label.tip=§9- 可在铁砧中重命名 -\n§o潜行时右击信号箱\n§o可为其命名
 item.railcraft.tool.signal.tuner.name=信号调谐器
 item.railcraft.tool.signal.tuner.tip=用于连接控制器与接收器
 item.railcraft.tool.steel.axe.name=钢斧
@@ -243,6 +291,76 @@ item.railcraft.tool.steel.sword.name=钢剑
 item.railcraft.tool.surveyor.name=信号域监测仪
 item.railcraft.tool.surveyor.tip=用于连接信号方块
 item.railcraft.tool.whistle.tuner.name=鸣笛调谐器
+
+######################################################################################
+#   Track Kits
+######################################################################################
+
+item.railcraft.track.kit.railcraft.activator.name=轨道功能套件：激活
+item.railcraft.track.kit.railcraft.activator.tip=激活经过的矿车\n§o§c- 使用红石信号激活 -
+
+item.railcraft.track.kit.railcraft.booster.name=轨道功能套件：推进
+item.railcraft.track.kit.railcraft.booster.tip=为经过的矿车加力\n若未激活则会为矿车减速\n§o§c- 使用红石信号激活 -
+
+item.railcraft.track.kit.railcraft.buffer.name=轨道功能套件：缓停
+item.railcraft.track.kit.railcraft.buffer.tip=用于轨道尽头\n§o§9- 通过撬棍敲击来变向 -
+
+item.railcraft.track.kit.railcraft.control.name=轨道功能套件：控制
+item.railcraft.track.kit.railcraft.control.tip=提供轻微的多向加速.\n§o§9- 通过撬棍敲击来变向 -\n§o§c- 通入红石信号亦可变向 -
+
+item.railcraft.track.kit.railcraft.coupler.name=轨道功能套件：耦合
+item.railcraft.track.kit.railcraft.coupler.tip=将经过的车厢连接/分离\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
+
+item.railcraft.track.kit.railcraft.detector.name=轨道功能套件：感应
+item.railcraft.track.kit.railcraft.detector.tip=车辆经过时发出红石信号.
+
+item.railcraft.track.kit.railcraft.detector.travel.name=轨道功能套件：方向感应
+item.railcraft.track.kit.railcraft.detector.travel.tip=车辆经过指定方向时\n发出红石信号.\n§o§9- 通过撬棍敲击来变向 -
+
+item.railcraft.track.kit.railcraft.disembarking.name=轨道功能套件：驻车
+item.railcraft.track.kit.railcraft.disembarking.tip=按箭头方向放下乘客.\n§o§9- 通过撬棍敲击来变向 -\n§o§c- 使用红石信号激活 -
+
+item.railcraft.track.kit.railcraft.dumping.name=轨道功能套件：倾倒
+item.railcraft.track.kit.railcraft.dumping.tip=悬空放置\n倾倒出乘坐实体\n§o§c- 使用红石信号禁用 -
+
+item.railcraft.track.kit.railcraft.embarking.name=轨道功能套件：乘车
+item.railcraft.track.kit.railcraft.embarking.tip=使附近实体乘上车厢\n§o§9- 通过撬棍敲击来调整范围 -\n§o§c- 使用红石信号激活 -
+
+item.railcraft.track.kit.railcraft.gated.name=轨道功能套件：门控
+item.railcraft.track.kit.railcraft.gated.tip=内建门控装置的轨道\n§o§c- 使用红石信号开关门 -
+
+item.railcraft.track.kit.railcraft.gated.one.way.name=轨道功能套件：单向门控
+item.railcraft.track.kit.railcraft.gated.one.way.tip=内建单向门控装置的轨道\n§o§c- 使用红石信号激活 -
+
+item.railcraft.track.kit.railcraft.launcher.name=轨道功能套件：发射
+item.railcraft.track.kit.railcraft.launcher.tip=让矿车一飞冲天~\n§o§c- 使用红石信号激活 -
+
+item.railcraft.track.kit.railcraft.limiter.name=轨道功能套件：机车限速
+item.railcraft.track.kit.railcraft.limiter.tip=调整经过机车的速度\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
+
+item.railcraft.track.kit.railcraft.locking.name=轨道功能套件：封锁
+item.railcraft.track.kit.railcraft.locking.tip=发动或驻留矿车\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
+
+item.railcraft.track.kit.railcraft.locomotive.name=轨道功能套件：机车调整
+item.railcraft.track.kit.railcraft.locomotive.tip=发动或停止机车\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
+
+item.railcraft.track.kit.railcraft.missing.name=轨道功能套件：无效套件
+item.railcraft.track.kit.railcraft.missing.tip=只是拿来充数的
+
+item.railcraft.track.kit.railcraft.one.way.name=轨道功能套件：单向
+item.railcraft.track.kit.railcraft.one.way.tip=只允许矿车通向箭头标定方向\n§o§9- 通过撬棍敲击来变向 -
+
+item.railcraft.track.kit.railcraft.priming.name=轨道功能套件：起爆
+item.railcraft.track.kit.railcraft.priming.tip=引爆TNT矿车,/n可调引信长度\n§o§9- 通过撬棍敲击来设定引信长度 -\n§o§c- 使用红石信号激活 -
+
+item.railcraft.track.kit.railcraft.routing.name=轨道功能套件：路由
+item.railcraft.track.kit.railcraft.routing.tip=设置经过机车的车票\n§o§9- 通过撬棍敲击来改变车票 -
+
+item.railcraft.track.kit.railcraft.transition.name=轨道功能套件：高速过渡
+item.railcraft.track.kit.railcraft.transition.tip=用于高速与正常速度的过渡\n§o§c- 使用红石信号激活 -
+
+item.railcraft.track.kit.railcraft.whistle.name=轨道功能套件：鸣笛
+item.railcraft.track.kit.railcraft.whistle.tip=经过的机车会鸣笛\n§o§c- 使用红石信号激活 -
 
 item.railcraft.upgrade.lapotron=兰波顿装载升级插件
 
@@ -331,6 +449,11 @@ railcraft.gui.cart.undercutter.pattern=模式
 railcraft.gui.cart.undercutter.sides=侧边
 railcraft.gui.cart.undercutter.stock=库存
 railcraft.gui.cart.undercutter.under=下方
+
+railcraft.gui.charge.meter.network=全网 -> 规模: %s | 电力: %s c | 抽取: %s c/t | 损耗: %s c/t
+railcraft.gui.charge.meter.producer=供应 -> 电力: %s c | 产出: %s c/t
+railcraft.gui.charge.meter.node=节点 -> 抽取: %s c/t | 损耗: %s c/t
+railcraft.gui.charge.meter.start=正在记录%s秒内的数据...
 
 railcraft.gui.coke.oven=焦炉
 
@@ -479,9 +602,10 @@ railcraft.gui.routing.table.manual.page4=条件关键字:\n   Name=<实体名>\n
 railcraft.gui.routing.table.manual.page5=条件关键字:\n   Riding=<乘客名>\n      当列车被此玩家乘坐\n      则为真.\n   Ridden=<true/false>\n      当列车被玩家乘坐\n      则为真.
 railcraft.gui.routing.table.manual.page6=条件关键字:\n   Color=<车身色>,<底盘色>\n      如果机车的车身颜色与底盘颜色匹配\n      则为真.\n      可以使用"Any"作为通配符.\n      颜色(请键入英文): Black(黑色), Red(红色), Green(绿色), Brown(棕色), Blue(蓝色),\n      Purple(紫色), Cyan(青色), LightGray(浅灰色), Gray(灰色), Pink(粉色), Lime(柠檬色),\n      Yellow(黄色), LightBlue(浅蓝色), Magenta(品红色), Orange(橙色), White(白色)\n   NeedsRefuel=<true/false>\n      判断机车是否缺燃料或水.\n      匹配则触发它.
 railcraft.gui.routing.table.manual.page7=条件关键字:\n   Redstone=<true/false>\n      路由方块被红石充能\n      则为真.
-railcraft.gui.routing.table.manual.page8=脚本范例:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-railcraft.gui.routing.table.manual.page9=结果:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身色为黑,底盘色为红,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头.
-railcraft.gui.routing.table.manual.page10=正则表达式:\n   某些条件关键字支持\n   使用正则表达式.\n   要使用正则表达,需要在'='前添加一个'?'.\n   语法参同标准的java正则表达式语法.\n支持的条件关键字:\n   Dest, Name\n范例:\n   Dest?=.*Hill
+railcraft.gui.routing.table.manual.page8=条件关键字:\n   Loco=<类型>\n      当机车类型与给定类型相同时则为真.\n      可允许的值: electric, steam, none.\n      若使用none,则仅当没有机车时为真.
+railcraft.gui.routing.table.manual.page9=脚本范例:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+railcraft.gui.routing.table.manual.page10=结果:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身色为黑,底盘色为红,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头.
+railcraft.gui.routing.table.manual.page11=正则表达式:\n   某些条件关键字支持\n   使用正则表达式.\n   要使用正则表达,需要在'='前添加一个'?'.\n   语法参同标准的java正则表达式语法.\n支持的条件关键字:\n   Dest, Name\n范例:\n   Dest?=.*Hill
 railcraft.gui.routing.table.manual.title=路由手册
 railcraft.gui.routing.table.name=名称
 railcraft.gui.routing.ticket.line1=车票有效
@@ -527,13 +651,16 @@ railcraft.gui.tip.button.lock.unlocked=点击来绑定设备.\n绑定后,它只�
 
 railcraft.gui.track.embarking.radius=半径
 railcraft.gui.track.mode.change=切换为%s模式
+railcraft.gui.track.coupler.mode.auto.coupler=自动耦合
+railcraft.gui.track.coupler.mode.coupler=耦合
+railcraft.gui.track.coupler.mode.decoupler=去耦
 railcraft.gui.track.locking.mode.boarding.train=登入列车
 railcraft.gui.track.locking.mode.boarding=登入
 railcraft.gui.track.locking.mode.holding.train=列车扣留
 railcraft.gui.track.locking.mode.holding=扣留
 railcraft.gui.track.locking.mode.lockdown.train=列车封锁
 railcraft.gui.track.locking.mode.lockdown=封锁
-railcraft.gui.track.priming.fuse=引爆延迟 = %s ticks
+railcraft.gui.track.priming.fuse=引爆延迟 = %s tick
 railcraft.gui.track.launcher.force=发射力度 = %s 
 
 railcraft.gui.trade.station.dice.tip=随机交易
@@ -761,6 +888,8 @@ tile.railcraft.machine.gamma.dispenser.train.name=列车分车站
 tile.railcraft.machine.gamma.dispenser.train.tip=向轨道分配列车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出列车 -
 tile.railcraft.machine.gamma.loader.energy.name=能量装载机
 tile.railcraft.machine.gamma.loader.energy.tip=为IC2能量运输矿车装载电力\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限Ic2电力
+tile.railcraft.machine.gamma.loader.rf.name=红石通量装载机
+tile.railcraft.machine.gamma.loader.rf.tip=为RF储能车装载RF能量\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限RF能量
 tile.railcraft.machine.gamma.loader.item.advanced.name=高级物品装载机
 tile.railcraft.machine.gamma.loader.item.advanced.tip=为矿车装载物品\n§o§9- 用撬棍敲击以切换方向 -
 tile.railcraft.machine.gamma.loader.item.name=物品装载机
@@ -769,6 +898,8 @@ tile.railcraft.machine.gamma.loader.liquid.name=流体装载机
 tile.railcraft.machine.gamma.loader.liquid.tip=为矿车装载流体\n§o§c- 需要放置在轨道上方 -
 tile.railcraft.machine.gamma.unloader.energy.name=能量卸载机
 tile.railcraft.machine.gamma.unloader.energy.tip=为IC2能量运输矿车卸载电力\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限Ic2电力
+tile.railcraft.machine.gamma.unloader.rf.name=红石通量卸载机
+tile.railcraft.machine.gamma.unloader.rf.tip=为RF储能车卸载RF能量\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限RF能量
 tile.railcraft.machine.gamma.unloader.item.advanced.name=高级物品卸载机
 tile.railcraft.machine.gamma.unloader.item.advanced.tip=为矿车卸载物品\n§o§9- 用撬棍敲击以切换方向 -
 tile.railcraft.machine.gamma.unloader.item.name=物品卸载机
@@ -832,19 +963,33 @@ tile.railcraft.post.wood.platform.name=木头平台
 tile.railcraft.residual.heat.name=残余热量
 
 tile.railcraft.wayobject.block.signal.dual.name=双头信号盒
+#tile.railcraft.wayobject.block.signal.dual.tip=Detects Carts in Signal Block\nDisplays aspect of linked Controller\n§o§9Aerial Linkages:\n§o§9- 1x Signal Blocks\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Block Surveyor
 tile.railcraft.wayobject.block.signal.name=信号盒
+#tile.railcraft.wayobject.block.signal.tip=Detects Carts in Signal Block\n§o§9Aerial Linkages:\n§o§9- 1x Signal Block\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
 tile.railcraft.wayobject.box.analog.name=模拟信号控制盒
+#tile.railcraft.wayobject.box.analog.tip=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: None\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.wayobject.box.block.relay.name=信号中继盒
+#tile.railcraft.wayobject.box.block.relay.tip=Creates chains of Signal Blocks\n§o§9Aerial Linkages: 2x Signal Block\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
 tile.railcraft.wayobject.box.capacitor.name=信号计数盒
+#tile.railcraft.wayobject.box.capacitor.tip=Sends signals to Receivers\n§o§9Aerial Linkages: None\n§o§9Adjacent Linkages: Listen, Emit\n§o§9Redstone Linkages: Listen to Repeater, Emit
 tile.railcraft.wayobject.box.controller.name=信号控制盒
+#tile.railcraft.wayobject.box.controller.tip=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: Listen\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.wayobject.box.interlock.name=信号互锁盒
+#tile.railcraft.wayobject.box.interlock.tip=Permits only one aspect signal to pass\n§o§9Aerial Linkages:\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§9Adjacent Linkages:\n§o§9- Interlock\n§o§9- Listen (Limit Output)\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.wayobject.box.receiver.name=信号接收盒
+#tile.railcraft.wayobject.box.receiver.tip=Listens to Controller signals\n§o§9Aerial Linkages: 1x Receiver\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.wayobject.box.sequencer.name=信号同步盒
+#tile.railcraft.wayobject.box.sequencer.tip=Loops through adjacent blocks\n§o§9Adjacent Linkages:\n§o§9- Sequencer\n§o§9- Listen (Clock)\n§o§9- Emit\n§o§9Redstone Linkages:\n§o§9- Listen to Repeater (Clock)\n§o§9- Emit
 tile.railcraft.wayobject.distant.dual.name=双头远程信号
+#tile.railcraft.wayobject.distant.dual.tip=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.wayobject.distant.name=远程信号
+#tile.railcraft.wayobject.distant.tip=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.wayobject.switch.lever.name=转辙拉杆
+#tile.railcraft.wayobject.switch.lever.tip=Controls adjacent Switch Tracks\n§o§9Manual Operation
 tile.railcraft.wayobject.switch.motor.name=转辙马达
+#tile.railcraft.wayobject.switch.motor.tip=Controls adjacent Switch Tracks\n§o§9Aerial Linkages: 1x Receiver\n§o§9Redstone Linkage: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.wayobject.switch.routing.name=路由转辙马达
+#tile.railcraft.wayobject.switch.routing.tip=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
 
 tile.railcraft.slab.abyssal.block.name=深渊台阶
 tile.railcraft.slab.abyssal.brick.name=深渊砖台阶
@@ -954,25 +1099,40 @@ tile.railcraft.lantern.stone.sandstone.name=沙石灯
 tile.railcraft.lantern.stone.sandy.name=沙岩石灯
 tile.railcraft.lantern.stone.stone.name=石灯
 
-tile.railcraft.track.boarding.name=寄宿轨道
-tile.railcraft.track.boarding.tip=已被封锁轨道取代
-tile.railcraft.track.boarding.train.name=列车寄宿轨道
-tile.railcraft.track.boarding.train.tip=已被封锁轨道取代
+#New Tracks
+tile.railcraft.track.strap.iron.name=镀铁轨道
+tile.railcraft.track.strap.iron.tip=速度为一般铁轨道的30%
+tile.railcraft.track.strap.iron.kit=镀铁%s轨道
+
+tile.railcraft.track.reinforced.name=强化轨道
+tile.railcraft.track.reinforced.tip=速度为普通轨道的125%\n防爆
+tile.railcraft.track.reinforced.kit=强化%s轨道
+
+tile.railcraft.track.high.speed.name=高速轨道
+tile.railcraft.track.high.speed.tip=§9危险: 高速\n§r真的很快\n需要推进轨道或过渡轨道以达到高速\n高速时不可进行扳道
+tile.railcraft.track.high.speed.kit=高度%s轨道
+
+tile.railcraft.track.electric.name=电力轨道
+tile.railcraft.track.electric.tip=§9危险:高压电\n§r电力驱动\n配套电力机车使用\n使用电力供给单元供能\n使用分路线缆跨越间隙
+tile.railcraft.track.electric.kit=电力%s轨道
+
+tile.railcraft.track.high.speed.electric.name=高速电力轨道
+tile.railcraft.track.high.speed.electric.tip=§9危险: 高压电/高速\n§r真的很快\n§r电力驱动\n配套电力机车使用\n需要推进轨道或过渡轨道以达到高速\n高速时不可进行扳道
+tile.railcraft.track.high.speed.electric.kit=高速电力%s轨道
+
+#Old Tracks
 tile.railcraft.track.buffer.stop.name=缓停轨道
 tile.railcraft.track.buffer.stop.tip=用于轨道尽头\n§o§9- 通过撬棍敲击来变向 -
 tile.railcraft.track.control.name=控制轨道
 tile.railcraft.track.control.tip=提供轻微的多向加速.\n§o§9- 通过撬棍敲击来变向 -\n§o§c- 通入红石信号亦可变向 -
 tile.railcraft.track.coupler.name=耦合轨道
 tile.railcraft.track.coupler.tip=将经过的车厢连接/分离\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
-tile.railcraft.track.decoupler.name=去耦轨道
 tile.railcraft.track.detector.direction.name=方向感应轨道
 tile.railcraft.track.detector.direction.tip=车辆经过指定方向时\n发出红石信号.\n§o§9- 通过撬棍敲击来变向 -
 tile.railcraft.track.disembarking.name=驻车轨道
 tile.railcraft.track.disembarking.tip=按箭头方向放下乘客.\n§o§9- 通过撬棍敲击来变向 -\n§o§c- 使用红石信号激活 -
 tile.railcraft.track.disposal.name=倾倒轨道
 tile.railcraft.track.disposal.tip=悬空放置\n倾倒出乘坐实体
-tile.railcraft.track.electric.name=电力轨道
-tile.railcraft.track.electric.tip=§9危险:高压电\n §r电力驱动\n配套电力机车使用\n使用电力供给单元供能\n使用分路线缆跨越间隙
 tile.railcraft.track.electric.junction.name=电力交接轨道
 tile.railcraft.track.electric.junction.tip=§9危险:高压电\n §r电力驱动\n配套电力机车使用\n使用电力供给单元供能\n使用分路线缆跨越间隙
 tile.railcraft.track.electric.switch.name=电力转辙轨道
@@ -997,10 +1157,6 @@ tile.railcraft.track.launcher.name=发射轨道
 tile.railcraft.track.launcher.tip=让矿车一飞冲天\n§o§c- 使用红石信号激活 -
 tile.railcraft.track.limiter.name=机车限速轨道
 tile.railcraft.track.limiter.tip=调整经过机车的速度\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
-tile.railcraft.track.lockdown.name=封锁轨道
-tile.railcraft.track.lockdown.tip=已被封锁轨道取代
-tile.railcraft.track.lockdown.train.name=列车封锁轨道
-tile.railcraft.track.lockdown.train.tip=已被封锁轨道取代
 tile.railcraft.track.locking.name=封锁轨道
 tile.railcraft.track.locking.tip=发动或驻留机车
 tile.railcraft.track.locomotive.name=机车调整轨道
@@ -1013,8 +1169,6 @@ tile.railcraft.track.reinforced.boost.name=强化推进轨道
 tile.railcraft.track.reinforced.boost.tip=速度为普通轨道的125%\n防爆\n§o§c- 通入红石信号激活 -
 tile.railcraft.track.reinforced.junction.name=强化交接轨道
 tile.railcraft.track.reinforced.junction.tip=速度为普通轨道的125%\n防爆
-tile.railcraft.track.reinforced.name=强化轨道
-tile.railcraft.track.reinforced.tip=速度为普通轨道的125%\n防爆
 tile.railcraft.track.reinforced.switch.name=强化转辙轨道
 tile.railcraft.track.reinforced.switch.tip=速度为普通轨道的125%\n防爆\n§o§c- 需要转辙马达/开关来进行转辙 -
 tile.railcraft.track.reinforced.wye.name=强化Y型轨道
@@ -1024,16 +1178,12 @@ tile.railcraft.track.routing.tip=设置经过机车的车票
 tile.railcraft.track.slow.boost.name=木质推进轨道
 tile.railcraft.track.slow.junction.name=木质交接轨道
 tile.railcraft.track.slow.junction.tip=速度为普通轨道的30%
-tile.railcraft.track.slow.name=木质轨道
-tile.railcraft.track.slow.tip=速度为普通轨道的30%
 tile.railcraft.track.slow.switch.name=木质转辙轨道
 tile.railcraft.track.slow.switch.tip=速度为普通轨道的30%\n§o§c- 需要转辙马达/开关来进行转辙 -
 tile.railcraft.track.slow.wye.name=木质Y型轨道
 tile.railcraft.track.slow.wye.tip=速度为普通轨道的30%\n§o§c- 需要转辙马达/开关来进行转辙 -
 tile.railcraft.track.speed.boost.name=高速推进轨道
 tile.railcraft.track.speed.boost.tip=§9危险\n比普通轨道快2倍\n 用于加速\n§o§c- 通入红石信号以加速 -
-tile.railcraft.track.speed.name=高速轨道
-tile.railcraft.track.speed.tip=§9危险\n比普通轨道快2倍\n需要推进轨道或者过渡轨道来过渡速度\n高速轨道不能拐弯
 tile.railcraft.track.speed.switch.name=高速转辙轨道
 tile.railcraft.track.speed.switch.tip=§9危险\n 高速时不可进行扳道\n §o§c- 需要转辙马达/开关来进行转辙 -
 tile.railcraft.track.speed.transition.name=高速过渡轨道
@@ -1048,6 +1198,8 @@ tile.railcraft.track.whistle.name=机车鸣笛轨道
 tile.railcraft.track.whistle.tip=经过的机车会鸣笛\n§o§c- 使用红石信号激活 -
 tile.railcraft.track.wye.name=Y型轨道
 tile.railcraft.track.wye.tip=§o§c- 需要转辙马达/开关来进行转辙 -
+tile.railcraft.track.autolococoupler.name=Automatic Locomotive Coupler
+tile.railcraft.track.autolococoupler.tip=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- 使用红石信号激活 -
 
 tile.railcraft.wall.abyssal.brick.name=深渊砖墙
 tile.railcraft.wall.bleachedbone.brick.name=白骨砖墙
