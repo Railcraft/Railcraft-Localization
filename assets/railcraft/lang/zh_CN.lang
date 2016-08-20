@@ -643,7 +643,7 @@ railcraft.gui.tank.iron=铁质蓄水罐
 railcraft.gui.tank.steel=钢制蓄水罐
 railcraft.gui.tank.water=蓄水罐
 
-railcraft.gui.ticks=ticks
+railcraft.gui.ticks=刻
 
 railcraft.gui.tip.button.lock.locked=该设备被\n{owner}绑定,\n它只接受其拥有者或op的操作.
 railcraft.gui.tip.button.lock.notowner=你不是这台设备\n的主人.它属于{owner}.
@@ -660,7 +660,7 @@ railcraft.gui.track.locking.mode.holding.train=列车扣留
 railcraft.gui.track.locking.mode.holding=扣留
 railcraft.gui.track.locking.mode.lockdown.train=列车封锁
 railcraft.gui.track.locking.mode.lockdown=封锁
-railcraft.gui.track.priming.fuse=引爆延迟 = %s tick
+railcraft.gui.track.priming.fuse=引爆延迟 = %s刻
 railcraft.gui.track.launcher.force=发射力度 = %s 
 
 railcraft.gui.trade.station.dice.tip=随机交易
@@ -888,7 +888,7 @@ tile.railcraft.machine.gamma.dispenser.train.name=列车分车站
 tile.railcraft.machine.gamma.dispenser.train.tip=向轨道分配列车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出列车 -
 tile.railcraft.machine.gamma.loader.energy.name=能量装载机
 tile.railcraft.machine.gamma.loader.energy.tip=为IC2能量运输矿车装载电力\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限Ic2电力
-tile.railcraft.machine.gamma.loader.rf.name=红石通量装载机
+tile.railcraft.machine.gamma.loader.rf.name=RF能量装载机
 tile.railcraft.machine.gamma.loader.rf.tip=为RF储能车装载RF能量\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限RF能量
 tile.railcraft.machine.gamma.loader.item.advanced.name=高级物品装载机
 tile.railcraft.machine.gamma.loader.item.advanced.tip=为矿车装载物品\n§o§9- 用撬棍敲击以切换方向 -
@@ -898,7 +898,7 @@ tile.railcraft.machine.gamma.loader.liquid.name=流体装载机
 tile.railcraft.machine.gamma.loader.liquid.tip=为矿车装载流体\n§o§c- 需要放置在轨道上方 -
 tile.railcraft.machine.gamma.unloader.energy.name=能量卸载机
 tile.railcraft.machine.gamma.unloader.energy.tip=为IC2能量运输矿车卸载电力\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限Ic2电力
-tile.railcraft.machine.gamma.unloader.rf.name=红石通量卸载机
+tile.railcraft.machine.gamma.unloader.rf.name=RF能量卸载机
 tile.railcraft.machine.gamma.unloader.rf.tip=为RF储能车卸载RF能量\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限RF能量
 tile.railcraft.machine.gamma.unloader.item.advanced.name=高级物品卸载机
 tile.railcraft.machine.gamma.unloader.item.advanced.tip=为矿车卸载物品\n§o§9- 用撬棍敲击以切换方向 -
@@ -1110,7 +1110,7 @@ tile.railcraft.track.reinforced.kit=强化%s轨道
 
 tile.railcraft.track.high.speed.name=高速轨道
 tile.railcraft.track.high.speed.tip=§9危险: 高速\n§r真的很快\n需要推进轨道或过渡轨道以达到高速\n高速时不可进行扳道
-tile.railcraft.track.high.speed.kit=高度%s轨道
+tile.railcraft.track.high.speed.kit=高速%s轨道
 
 tile.railcraft.track.electric.name=电力轨道
 tile.railcraft.track.electric.tip=§9危险:高压电\n§r电力驱动\n配套电力机车使用\n使用电力供给单元供能\n使用分路线缆跨越间隙
