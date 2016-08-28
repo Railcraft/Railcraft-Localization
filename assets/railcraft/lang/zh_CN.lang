@@ -292,79 +292,12 @@ item.railcraft.tool.surveyor.name=信号域监测仪
 item.railcraft.tool.surveyor.tip=用于连接信号方块
 item.railcraft.tool.whistle.tuner.name=鸣笛调谐器
 
-######################################################################################
-#   Track Kits
-######################################################################################
-
-item.railcraft.track.kit.railcraft.activator.name=轨道功能套件：激活
-item.railcraft.track.kit.railcraft.activator.tip=激活经过的矿车\n§o§c- 使用红石信号激活 -
-
-item.railcraft.track.kit.railcraft.booster.name=轨道功能套件：推进
-item.railcraft.track.kit.railcraft.booster.tip=为经过的矿车加力\n若未激活则会为矿车减速\n§o§c- 使用红石信号激活 -
-
-item.railcraft.track.kit.railcraft.buffer.name=轨道功能套件：缓停
-item.railcraft.track.kit.railcraft.buffer.tip=用于轨道尽头\n§o§9- 通过撬棍敲击来变向 -
-
-item.railcraft.track.kit.railcraft.control.name=轨道功能套件：控制
-item.railcraft.track.kit.railcraft.control.tip=提供轻微的多向加速.\n§o§9- 通过撬棍敲击来变向 -\n§o§c- 通入红石信号亦可变向 -
-
-item.railcraft.track.kit.railcraft.coupler.name=轨道功能套件：耦合
-item.railcraft.track.kit.railcraft.coupler.tip=将经过的车厢连接/分离\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
-
-item.railcraft.track.kit.railcraft.detector.name=轨道功能套件：感应
-item.railcraft.track.kit.railcraft.detector.tip=车辆经过时发出红石信号.
-
-item.railcraft.track.kit.railcraft.detector.travel.name=轨道功能套件：方向感应
-item.railcraft.track.kit.railcraft.detector.travel.tip=车辆经过指定方向时\n发出红石信号.\n§o§9- 通过撬棍敲击来变向 -
-
-item.railcraft.track.kit.railcraft.disembarking.name=轨道功能套件：驻车
-item.railcraft.track.kit.railcraft.disembarking.tip=按箭头方向放下乘客.\n§o§9- 通过撬棍敲击来变向 -\n§o§c- 使用红石信号激活 -
-
-item.railcraft.track.kit.railcraft.dumping.name=轨道功能套件：倾倒
-item.railcraft.track.kit.railcraft.dumping.tip=悬空放置\n倾倒出乘坐实体\n§o§c- 使用红石信号禁用 -
-
-item.railcraft.track.kit.railcraft.embarking.name=轨道功能套件：乘车
-item.railcraft.track.kit.railcraft.embarking.tip=使附近实体乘上车厢\n§o§9- 通过撬棍敲击来调整范围 -\n§o§c- 使用红石信号激活 -
-
-item.railcraft.track.kit.railcraft.gated.name=轨道功能套件：门控
-item.railcraft.track.kit.railcraft.gated.tip=内建门控装置的轨道\n§o§c- 使用红石信号开关门 -
-
-item.railcraft.track.kit.railcraft.gated.one.way.name=轨道功能套件：单向门控
-item.railcraft.track.kit.railcraft.gated.one.way.tip=内建单向门控装置的轨道\n§o§c- 使用红石信号激活 -
-
-item.railcraft.track.kit.railcraft.launcher.name=轨道功能套件：发射
-item.railcraft.track.kit.railcraft.launcher.tip=让矿车一飞冲天~\n§o§c- 使用红石信号激活 -
-
-item.railcraft.track.kit.railcraft.limiter.name=轨道功能套件：机车限速
-item.railcraft.track.kit.railcraft.limiter.tip=调整经过机车的速度\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
-
-item.railcraft.track.kit.railcraft.locking.name=轨道功能套件：封锁
-item.railcraft.track.kit.railcraft.locking.tip=发动或驻留矿车\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
-
-item.railcraft.track.kit.railcraft.locomotive.name=轨道功能套件：机车调整
-item.railcraft.track.kit.railcraft.locomotive.tip=发动或停止机车\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
-
-item.railcraft.track.kit.railcraft.missing.name=轨道功能套件：无效套件
-item.railcraft.track.kit.railcraft.missing.tip=只是拿来充数的
-
-item.railcraft.track.kit.railcraft.one.way.name=轨道功能套件：单向
-item.railcraft.track.kit.railcraft.one.way.tip=只允许矿车通向箭头标定方向\n§o§9- 通过撬棍敲击来变向 -
-
-item.railcraft.track.kit.railcraft.priming.name=轨道功能套件：起爆
-item.railcraft.track.kit.railcraft.priming.tip=引爆TNT矿车,/n可调引信长度\n§o§9- 通过撬棍敲击来设定引信长度 -\n§o§c- 使用红石信号激活 -
-
-item.railcraft.track.kit.railcraft.routing.name=轨道功能套件：路由
-item.railcraft.track.kit.railcraft.routing.tip=设置经过机车的车票\n§o§9- 通过撬棍敲击来改变车票 -
-
-item.railcraft.track.kit.railcraft.transition.name=轨道功能套件：高速过渡
-item.railcraft.track.kit.railcraft.transition.tip=用于高速与正常速度的过渡\n§o§c- 使用红石信号激活 -
-
-item.railcraft.track.kit.railcraft.whistle.name=轨道功能套件：鸣笛
-item.railcraft.track.kit.railcraft.whistle.tip=经过的机车会鸣笛\n§o§c- 使用红石信号激活 -
-
 item.railcraft.upgrade.lapotron=兰波顿装载升级插件
 
 item.synthetic=合成物
+
+itemGroup.railcraft.general=铁路
+itemGroup.railcraft.track=铁路|轨道
 
 railcraft.color.black=黑色
 railcraft.color.blue=蓝色
@@ -783,24 +716,24 @@ tile.railcraft.cube.stone.abyssal.name=深渊砖块
 tile.railcraft.cube.stone.quarried.name=采掘砖块
 tile.railcraft.cube.tin.name=锡块
 
-tile.railcraft.detector.advanced.name=传感器-高级
-tile.railcraft.detector.age.name=传感器-年龄
-tile.railcraft.detector.animal.name=传感器-动物
-tile.railcraft.detector.any.name=传感器-任意
-tile.railcraft.detector.cart.name=传感器-矿车
-tile.railcraft.detector.empty.name=传感器-空
-tile.railcraft.detector.energy.name=传感器-能量
-tile.railcraft.detector.explosive.name=传感器-爆炸
-tile.railcraft.detector.item.name=传感器-物品
-tile.railcraft.detector.locomotive.name=传感器-火车头
-tile.railcraft.detector.mob.name=传感器-生物
-tile.railcraft.detector.player.name=传感器-玩家
-tile.railcraft.detector.powered.name=传感器-动力
-tile.railcraft.detector.routing.name=传感器-路由
-tile.railcraft.detector.sheep.name=传感器-羊
-tile.railcraft.detector.tank.name=传感器-蓄水槽
-tile.railcraft.detector.train.name=传感器-列车
-tile.railcraft.detector.villager.name=传感器-村民
+tile.railcraft.detector.advanced.name=矿车传感器-高级
+tile.railcraft.detector.age.name=矿车传感器-年龄
+tile.railcraft.detector.animal.name=矿车传感器-动物
+tile.railcraft.detector.any.name=矿车传感器-任意
+tile.railcraft.detector.cart.name=矿车传感器-矿车
+tile.railcraft.detector.empty.name=矿车传感器-空
+tile.railcraft.detector.energy.name=矿车传感器-能量
+tile.railcraft.detector.explosive.name=矿车传感器-爆炸
+tile.railcraft.detector.item.name=矿车传感器-物品
+tile.railcraft.detector.locomotive.name=矿车传感器-火车头
+tile.railcraft.detector.mob.name=矿车传感器-生物
+tile.railcraft.detector.player.name=矿车传感器-玩家
+tile.railcraft.detector.powered.name=矿车传感器-动力
+tile.railcraft.detector.routing.name=矿车传感器-路由
+tile.railcraft.detector.sheep.name=矿车传感器-羊
+tile.railcraft.detector.tank.name=矿车传感器-蓄水槽
+tile.railcraft.detector.train.name=矿车传感器-列车
+tile.railcraft.detector.villager.name=矿车传感器-村民
 
 tile.railcraft.firestone.recharge.name=再充能火石
 
@@ -1230,3 +1163,92 @@ tile.railcraft.wall.stone.brick.name=石砖墙
 tile.railcraft.worldlogic.name=硝石刷新器
 
 tooltip.wawla.tooltype.crowbar=撬棍
+
+######################################################################################
+#   Track Kits & Outfitted Tracks
+# --------------------------------------------
+#
+# If you wish finer control of the translation, you can use override tags as seen below.
+#
+# Override Tags:
+# item.railcraft.track_kit.railcraft_activator.name=Activator Track Kit
+# tile.railcraft.track_outfitted.railcraft_strap_iron.railcraft_activator.name=Strap Iron Activator Track
+#
+######################################################################################
+
+item.railcraft.track_kit.name=轨道功能套件：{track_kit}
+tile.railcraft.track_outfitted.name={track_type}{track_kit}轨道
+
+track_kit.railcraft.railcraft_activator.name=激活
+track_kit.railcraft.railcraft_activator.tip=激活经过的矿车\n§o§c- 使用红石信号激活 -
+
+track_kit.railcraft.railcraft_booster.name=推进
+track_kit.railcraft.railcraft_booster.tip=为经过的矿车加力\n若未激活则会为矿车减速\n§o§c- 使用红石信号激活 -
+
+track_kit.railcraft.railcraft_buffer.name=缓停
+track_kit.railcraft.railcraft_buffer.tip=用于轨道尽头\n§o§9- 通过撬棍敲击来变向 -
+
+track_kit.railcraft.railcraft_control.name=控制
+track_kit.railcraft.railcraft_control.tip=提供轻微的多向加速.\n§o§9- 通过撬棍敲击来变向 -\n§o§c- 通入红石信号亦可变向 -
+
+track_kit.railcraft.railcraft_coupler.name=耦合
+track_kit.railcraft.railcraft_coupler.tip=将经过的车厢连接/分离\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
+
+track_kit.railcraft.railcraft_detector.name=感应
+track_kit.railcraft.railcraft_detector.tip=车辆经过时发出红石信号.
+
+track_kit.railcraft.railcraft_detector.travel.name=方向感应
+track_kit.railcraft.railcraft_detector.travel.tip=车辆经过指定方向时\n发出红石信号.\n§o§9- 通过撬棍敲击来变向 -
+
+track_kit.railcraft.railcraft_disembarking.name=驻车
+track_kit.railcraft.railcraft_disembarking.tip=按箭头方向放下乘客.\n§o§9- 通过撬棍敲击来变向 -\n§o§c- 使用红石信号激活 -
+
+track_kit.railcraft.railcraft_dumping.name=倾倒
+track_kit.railcraft.railcraft_dumping.tip=悬空放置\n倾倒出乘坐实体\n§o§c- 使用红石信号禁用 -
+
+track_kit.railcraft.railcraft_embarking.name=乘车
+track_kit.railcraft.railcraft_embarking.tip=使附近实体乘上车厢\n§o§9- 通过撬棍敲击来调整范围 -\n§o§c- 使用红石信号激活 -
+
+track_kit.railcraft.railcraft_gated.name=门控
+track_kit.railcraft.railcraft_gated.tip=内建门控装置的轨道\n§o§c- 使用红石信号开关门 -
+
+track_kit.railcraft.railcraft_gated.one.way.name=单向门控
+track_kit.railcraft.railcraft_gated.one.way.tip=内建单向门控装置的轨道\n§o§c- 使用红石信号激活 -
+
+track_kit.railcraft.railcraft_launcher.name=发射
+track_kit.railcraft.railcraft_launcher.tip=让矿车一飞冲天~\n§o§c- 使用红石信号激活 -
+
+track_kit.railcraft.railcraft_limiter.name=机车限速
+track_kit.railcraft.railcraft_limiter.tip=调整经过机车的速度\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
+
+track_kit.railcraft.railcraft_locking.name=封锁
+track_kit.railcraft.railcraft_locking.tip=发动或驻留矿车\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
+
+track_kit.railcraft.railcraft_locomotive.name=机车调整
+track_kit.railcraft.railcraft_locomotive.tip=发动或停止机车\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
+
+track_kit.railcraft.railcraft_missing.name=???
+track_kit.railcraft.railcraft_missing.tip=只是拿来占位的，这说明这个轨道出问题了
+
+track_kit.railcraft.railcraft_one.way.name=单向
+track_kit.railcraft.railcraft_one.way.tip=只允许矿车通向箭头标定方向\n§o§9- 通过撬棍敲击来变向 -
+
+track_kit.railcraft.railcraft_priming.name=起爆
+track_kit.railcraft.railcraft_priming.tip=引爆TNT矿车,/n可调引信长度\n§o§9- 通过撬棍敲击来设定引信长度 -\n§o§c- 使用红石信号激活 -
+
+track_kit.railcraft.railcraft_routing.name=路由
+track_kit.railcraft.railcraft_routing.tip=设置经过机车的车票\n§o§9- 通过撬棍敲击来改变车票 -
+
+track_kit.railcraft.railcraft_transition.name=高速过渡
+track_kit.railcraft.railcraft_transition.tip=用于高速与正常速度的过渡\n§o§c- 使用红石信号激活 -
+
+track_kit.railcraft.railcraft_whistle.name=鸣笛
+track_kit.railcraft.railcraft_whistle.tip=经过的机车会鸣笛\n§o§c- 使用红石信号激活 -
+
+track_type.railcraft.railcraft_iron.name=铁制
+track_type.railcraft.railcraft_strap_iron.name=镀铁
+track_type.railcraft.railcraft_abandoned.name=废弃的
+track_type.railcraft.railcraft_reinforced.name=强化
+track_type.railcraft.railcraft_high_speed.name=高速
+track_type.railcraft.railcraft_high_speed_electric.name=高速电力
+track_type.railcraft.railcraft_electric.name=电力
