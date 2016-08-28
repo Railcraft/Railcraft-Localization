@@ -292,6 +292,9 @@ item.railcraft.upgrade.lapotron=Lapotron Loader Upgrade
 
 item.synthetic=Synthetic
 
+itemGroup.railcraft.general=Railcraft
+itemGroup.railcraft.track=Railcraft Outfitted Tracks
+
 railcraft.color.black=Black
 railcraft.color.blue=Blue
 railcraft.color.brown=Brown
@@ -709,24 +712,24 @@ tile.railcraft.cube.stone.abyssal.name=Abyssal Stone
 tile.railcraft.cube.stone.quarried.name=Quarried Stone
 tile.railcraft.cube.tin.name=Block of Tin
 
-tile.railcraft.detector.advanced.name=Detector - Advanced
-tile.railcraft.detector.age.name=Detector - Age
-tile.railcraft.detector.animal.name=Detector - Animal
-tile.railcraft.detector.any.name=Detector - Any
-tile.railcraft.detector.cart.name=Detector - Cart
-tile.railcraft.detector.empty.name=Detector - Empty
-tile.railcraft.detector.energy.name=Detector - Energy
-tile.railcraft.detector.explosive.name=Detector - Explosive
-tile.railcraft.detector.item.name=Detector - Item
-tile.railcraft.detector.locomotive.name=Detector - Locomotive
-tile.railcraft.detector.mob.name=Detector - Mob
-tile.railcraft.detector.player.name=Detector - Player
-tile.railcraft.detector.powered.name=Detector - Powered
-tile.railcraft.detector.routing.name=Detector - Routing
-tile.railcraft.detector.sheep.name=Detector - Sheep
-tile.railcraft.detector.tank.name=Detector - Tank
-tile.railcraft.detector.train.name=Detector - Train
-tile.railcraft.detector.villager.name=Detector - Villager
+tile.railcraft.detector.advanced.name=Cart Detector - Advanced
+tile.railcraft.detector.age.name=Cart Detector - Age
+tile.railcraft.detector.animal.name=Cart Detector - Animal
+tile.railcraft.detector.any.name=Cart Detector - Any
+tile.railcraft.detector.cart.name=Cart Detector - Cart
+tile.railcraft.detector.empty.name=Cart Detector - Empty
+tile.railcraft.detector.energy.name=Cart Detector - Energy
+tile.railcraft.detector.explosive.name=Cart Detector - Explosive
+tile.railcraft.detector.item.name=Cart Detector - Item
+tile.railcraft.detector.locomotive.name=Cart Detector - Locomotive
+tile.railcraft.detector.mob.name=Cart Detector - Mob
+tile.railcraft.detector.player.name=Cart Detector - Player
+tile.railcraft.detector.powered.name=Cart Detector - Powered
+tile.railcraft.detector.routing.name=Cart Detector - Routing
+tile.railcraft.detector.sheep.name=Cart Detector - Sheep
+tile.railcraft.detector.tank.name=Cart Detector - Tank
+tile.railcraft.detector.train.name=Cart Detector - Train
+tile.railcraft.detector.villager.name=Cart Detector - Villager
 
 tile.railcraft.firestone.recharge.name=Recharging Firestone
 
