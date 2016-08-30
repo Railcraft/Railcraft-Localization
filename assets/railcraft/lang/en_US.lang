@@ -1235,7 +1235,7 @@ track_kit.railcraft.railcraft_priming.tip=Ignites TNT Carts\n Adjustable Fuse\n�
 track_kit.railcraft.railcraft_routing.name=Routing
 track_kit.railcraft.railcraft_routing.tip=Sets a passing Locomotive's Ticket\n§o§9- Hit with Crowbar to change ticket -
 
-track_kit.railcraft.railcraft_transition.name=H. S. Transition
+track_kit.railcraft.railcraft_transition.name=Transition
 track_kit.railcraft.railcraft_transition.tip=Transitions to/from High Speed\n§o§c- Apply Redstone to enable -
 
 track_kit.railcraft.railcraft_whistle.name=Whistle
