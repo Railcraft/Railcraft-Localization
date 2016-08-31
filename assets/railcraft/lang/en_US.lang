@@ -1028,28 +1028,7 @@ tile.railcraft.lantern.stone.sandstone.name=Sandstone Lantern
 tile.railcraft.lantern.stone.sandy.name=Sandy Stone Lantern
 tile.railcraft.lantern.stone.stone.name=Stone Lantern
 
-#New Tracks
-tile.railcraft.track.strap.iron.name=Strap Iron Track
-tile.railcraft.track.strap.iron.tip=30% of the speed of Iron Track
-tile.railcraft.track.strap.iron.kit=Strap Iron %s Track
-
-tile.railcraft.track.reinforced.name=Reinforced Track
-tile.railcraft.track.reinforced.tip=125% of the speed of normal track\n Explosion resistant
-tile.railcraft.track.reinforced.kit=Reinforced %s Track
-
-tile.railcraft.track.high.speed.name=High Speed Track
-tile.railcraft.track.high.speed.tip=§9Danger: High Speed\n §rVery Fast\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
-tile.railcraft.track.high.speed.kit=H.S. %s Track
-
-tile.railcraft.track.electric.name=Electric Track
-tile.railcraft.track.electric.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps
-tile.railcraft.track.electric.kit=Electric %s Track
-
-tile.railcraft.track.high.speed.electric.name=High Speed Electric Track
-tile.railcraft.track.high.speed.electric.tip=§9Danger: High Voltage/Speed\n §rVery Fast\n §rPowered by Electricity\n Use with Electric Locomotive\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
-tile.railcraft.track.high.speed.electric.kit=H.S. Electric %s Track
-
-#Old Tracks
+#Old Tracks (to be deleted)
 tile.railcraft.track.buffer.stop.name=Buffer Stop Track
 tile.railcraft.track.buffer.stop.tip=End of the Line\n§o§9- Hit with Crowbar to change direction -
 tile.railcraft.track.control.name=Control Track
@@ -1129,6 +1108,7 @@ tile.railcraft.track.wye.name=Wye Track
 tile.railcraft.track.wye.tip=§o§c- Requires Switch Motor/Lever to switch -
 tile.railcraft.track.autolococoupler.name=Automatic Locomotive Coupler
 tile.railcraft.track.autolococoupler.tip=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- Apply Redstone to enable -
+#end old tracks
 
 tile.railcraft.wall.abyssal.brick.name=Abyssal Brick Wall
 tile.railcraft.wall.bleachedbone.brick.name=Bleached Bone Brick Wall
@@ -1159,6 +1139,30 @@ tile.railcraft.wall.stone.brick.name=Stone Brick Wall
 tile.railcraft.worldlogic.name=Saltpeter Ore Spawner
 
 tooltip.wawla.tooltype.crowbar=Crowbar
+
+
+######################################################################################
+#   Flex Tracks
+######################################################################################
+
+tile.railcraft.track.flex.abandoned.name=Abandoned Track
+tile.railcraft.track.flex.abandoned.tip=§9Danger: Derailment Risk\nCan be suspended over gaps in terrain.
+
+tile.railcraft.track.flex.electric.name=Electric Track
+tile.railcraft.track.flex.electric.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps
+
+tile.railcraft.track.flex.high.speed.name=High Speed Track
+tile.railcraft.track.flex.high.speed.tip=§9Danger: High Speed\n §rVery Fast\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
+
+tile.railcraft.track.flex.hs.electric.name=High Speed Electric Track
+tile.railcraft.track.flex.hs.electric.tip=§9Danger: High Voltage/Speed\n §rVery Fast\n §rPowered by Electricity\n Use with Electric Locomotive\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
+
+tile.railcraft.track.flex.reinforced.name=Reinforced Track
+tile.railcraft.track.flex.reinforced.tip=125% of the speed of normal track\n Explosion resistant
+
+tile.railcraft.track.flex.strap.iron.name=Strap Iron Track
+tile.railcraft.track.flex.strap.iron.tip=30% of the speed of Iron Track
+
 
 ######################################################################################
 #   Track Kits & Outfitted Tracks
