@@ -5,10 +5,10 @@ item.railcraft.armor.goggles.name=Occhiali del Ferroviere
 
 item.railcraft.armor.overalls.name=Tuta dell'Ingegnere
 
-item.railcraft.armor.steel.helmet.name=Elmo d'Acciaio
-item.railcraft.armor.steel.plate.name=Corazza d'Acciaio
-item.railcraft.armor.steel.legs.name=Cosciali d'Acciaio
-item.railcraft.armor.steel.boots.name=Gambali d'Acciaio
+item.railcraft.armor.helmet.steel.name=Elmo d'Acciaio
+item.railcraft.armor.chestplate.steel.name=Corazza d'Acciaio
+item.railcraft.armor.leggings.steel.name=Cosciali d'Acciaio
+item.railcraft.armor.boots.steel.name=Gambali d'Acciaio
 
 item.railcraft.backpack.iceman.t1.name=Zaino dello Spazzaneve
 item.railcraft.backpack.iceman.t2.name=Zaino dello Spazzaneve Tessuto
@@ -116,14 +116,14 @@ railcraft.color.red=Rosso
 railcraft.color.white=Bianco
 railcraft.color.yellow=Giallo
 
-tile.railcraft.cube.stone.abyssal.name=Pietra abissale
-tile.railcraft.cube.stone.quarried.name=Pietra cava
-tile.railcraft.cube.brick.infernal.name=Mattone infernale infernale (OBSOLETO)
-tile.railcraft.cube.brick.sandy.name=Mattone sabbioso (OBSOLETO)
-tile.railcraft.cube.coke.name=Blocco di Carbone da carburante
-tile.railcraft.cube.concrete.name=Blocco di Cemento
-tile.railcraft.cube.crushed.obsidian.name=Ossidiana distrutta
-tile.railcraft.cube.steel.name=Blocco d'Acciaio
+tile.railcraft.generic.stone.abyssal.name=Pietra abissale
+tile.railcraft.generic.stone.quarried.name=Pietra cava
+tile.railcraft.generic.brick.infernal.name=Mattone infernale infernale (OBSOLETO)
+tile.railcraft.generic.brick.sandy.name=Mattone sabbioso (OBSOLETO)
+tile.railcraft.generic.coke.name=Blocco di Carbone da carburante
+tile.railcraft.generic.concrete.name=Blocco di Cemento
+tile.railcraft.generic.crushed.obsidian.name=Ossidiana distrutta
+tile.railcraft.generic.steel.name=Blocco d'Acciaio
 
 death.railcraft.bore.1=%s è andato nella via del progresso
 death.railcraft.bore.2=%s ha provato a fermare la Scavatrice
@@ -551,16 +551,16 @@ tile.railcraft.stair.snow.name=Scalini di Neve
 item.railcraft.borehead.diamond.name=Testa in Diamante della scavatrice
 item.railcraft.borehead.iron.name=Testa in Ferro della scavatrice
 item.railcraft.borehead.steel.name=Testa in Acciaio della scavatrice
-item.railcraft.tool.crowbar.name=Piede di porco
-item.railcraft.tool.crowbar.reinforced.name=Piede di porco rinforzato
+item.railcraft.tool.crowbar.iron.name=Piede di porco
+item.railcraft.tool.crowbar.steel.name=Piede di porco rinforzato
 item.railcraft.tool.magnifying.glass.name=Lente d'ingrandimento
 item.railcraft.tool.signal.tuner.name=Sintonizzatore del segnale
-item.railcraft.tool.steel.axe.name=Ascia d'Acciaio
-item.railcraft.tool.steel.hoe.name=Zappa d'Acciaio
-item.railcraft.tool.steel.pickaxe.name=Piccone d'Acciaio
-item.railcraft.tool.steel.shovel.name=Vanga d'Acciaio
-item.railcraft.tool.steel.sword.name=Spada d'Acciaio
-item.railcraft.tool.surveyor.name=Blocco ispettore del segnale
+item.railcraft.tool.axe.steel.name=Ascia d'Acciaio
+item.railcraft.tool.hoe.steel.name=Zappa d'Acciaio
+item.railcraft.tool.pickaxe.steel.name=Piccone d'Acciaio
+item.railcraft.tool.shovel.steel.name=Vanga d'Acciaio
+item.railcraft.tool.sword.steel.name=Spada d'Acciaio
+item.railcraft.tool.signal.surveyor.name=Blocco ispettore del segnale
 item.railcraft.tool.whistle.tuner.name=Sintonizzatore del Fischio
 
 tile.activatorRail.name=Rotaia attivatrice

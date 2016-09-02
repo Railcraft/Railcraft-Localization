@@ -4,10 +4,10 @@ item.railcraft.armor.goggles.name=Spoormans Stofbril
 
 item.railcraft.armor.overalls.name=Ingenieurs Overall
 
-item.railcraft.armor.steel.helmet.name=Stalen Helm
-item.railcraft.armor.steel.plate.name=Stalen Borstplaat
-item.railcraft.armor.steel.legs.name=Stalen Beenstukken
-item.railcraft.armor.steel.boots.name=Stalen Schoenen
+item.railcraft.armor.helmet.steel.name=Stalen Helm
+item.railcraft.armor.chestplate.steel.name=Stalen Borstplaat
+item.railcraft.armor.leggings.steel.name=Stalen Beenstukken
+item.railcraft.armor.boots.steel.name=Stalen Schoenen
 
 item.railcraft.backpack.trackman.t1.name=Spoormans Rugzak
 item.railcraft.backpack.trackman.t2.name=Geweven Spoormans Rugzak
@@ -64,12 +64,12 @@ railcraft.color.red=Rood
 railcraft.color.white=Wit
 railcraft.color.yellow=Geel
 
-tile.railcraft.cube.brick.infernal.name=Hels Steen
-tile.railcraft.cube.brick.sandy.name=Zanderig Steen
-tile.railcraft.cube.concrete.name=Betonblok
-tile.railcraft.cube.crushed.obsidian.name=Samengeperst Obsidiaan
-tile.railcraft.cube.steel.name=Stalen Blok
-tile.railcraft.cube.world.anchor.name=Wereldanker
+tile.railcraft.generic.brick.infernal.name=Hels Steen
+tile.railcraft.generic.brick.sandy.name=Zanderig Steen
+tile.railcraft.generic.concrete.name=Betonblok
+tile.railcraft.generic.crushed.obsidian.name=Samengeperst Obsidiaan
+tile.railcraft.generic.steel.name=Stalen Blok
+tile.railcraft.generic.world.anchor.name=Wereldanker
 
 death.railcraft.train.1=%s is door een trein overreden
 death.railcraft.train.2=%s was wild aan het doen op het spoor
@@ -296,15 +296,15 @@ tile.railcraft.wayobject.switch.motor.name=Schakel Motor
 item.railcraft.borehead.diamond.name=Diamanten Boor
 item.railcraft.borehead.iron.name=IJzeren Boor
 item.railcraft.borehead.steel.name=Stalen Boor
-item.railcraft.tool.crowbar.name=Koevoet
+item.railcraft.tool.crowbar.iron.name=Koevoet
 item.railcraft.tool.magnifying.glass.name=Loep
 item.railcraft.tool.signal.tuner.name=Signaal Stemmer
-item.railcraft.tool.steel.axe.name=Stalen Bijl
-item.railcraft.tool.steel.hoe.name=Stalen Schoffel
-item.railcraft.tool.steel.pickaxe.name=Stalen Houweel
-item.railcraft.tool.steel.shovel.name=Stalen Schop
-item.railcraft.tool.steel.sword.name=Stalen Zwaard
-item.railcraft.tool.surveyor.name=Signaalblok Supervisor
+item.railcraft.tool.axe.steel.name=Stalen Bijl
+item.railcraft.tool.hoe.steel.name=Stalen Schoffel
+item.railcraft.tool.pickaxe.steel.name=Stalen Houweel
+item.railcraft.tool.shovel.steel.name=Stalen Schop
+item.railcraft.tool.sword.steel.name=Stalen Zwaard
+item.railcraft.tool.signal.surveyor.name=Signaalblok Supervisor
 
 tile.railcraft.track.boarding.name=Stationspoor
 tile.railcraft.track.boarding.train.name=Treinstationspoor

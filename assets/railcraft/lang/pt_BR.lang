@@ -28,10 +28,10 @@ entity.railcraft.mow.undercutter.name=vagão substituidor de blocos
 item.railcraft.entity.cart.work.name=Vagão de Trabalho
 entity.railcraft.cart.work.name=Vagão de Trabalho
 
-tile.railcraft.cube.brick.infernal.name=Tijolo Infernal
-tile.railcraft.cube.concrete.name=Bloco de Concreto
-tile.railcraft.cube.crushed.obsidian.name=Obsidiana Maçerada
-tile.railcraft.cube.steel.name=Bloco de Aço
+tile.railcraft.generic.brick.infernal.name=Tijolo Infernal
+tile.railcraft.generic.concrete.name=Bloco de Concreto
+tile.railcraft.generic.crushed.obsidian.name=Obsidiana Maçerada
+tile.railcraft.generic.steel.name=Bloco de Aço
 
 tile.railcraft.detector.advanced.name=Detector - Avançado
 tile.railcraft.detector.age.name=Detector - Crescimento
@@ -167,15 +167,15 @@ item.railcraft.part.tie.wood.name=Viga de madeira
 item.railcraft.borehead.diamond.name=Cabeça de Broca de Diamante
 item.railcraft.borehead.iron.name=Cabeça de Broca de Ferro
 item.railcraft.borehead.steel.name=Cabeça de Broca de Aço
-item.railcraft.tool.crowbar.name=Pé-de-Cabra
+item.railcraft.tool.crowbar.iron.name=Pé-de-Cabra
 item.railcraft.tool.magnifying.glass.name=Lupa
 item.railcraft.tool.signal.tuner.name=Sintonizador de Sinal
-item.railcraft.tool.steel.axe.name=Machado de Aço
-item.railcraft.tool.steel.hoe.name=Enxada de Aço
-item.railcraft.tool.steel.pickaxe.name=Picareta de Aço
-item.railcraft.tool.steel.shovel.name=Pá de Aço
-item.railcraft.tool.steel.sword.name=Espada de Aço
-item.railcraft.tool.surveyor.name=Inspeçionador de Sinais
+item.railcraft.tool.axe.steel.name=Machado de Aço
+item.railcraft.tool.hoe.steel.name=Enxada de Aço
+item.railcraft.tool.pickaxe.steel.name=Picareta de Aço
+item.railcraft.tool.shovel.steel.name=Pá de Aço
+item.railcraft.tool.sword.steel.name=Espada de Aço
+item.railcraft.tool.signal.surveyor.name=Inspeçionador de Sinais
 
 tile.railcraft.track.boarding.name=Trilho de Embarque
 tile.railcraft.track.boarding.train.name=Trilho de Embarque (Trem)

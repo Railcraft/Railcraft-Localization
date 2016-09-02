@@ -5,10 +5,10 @@ item.railcraft.armor.goggles.name=Železničke Naočare
 
 item.railcraft.armor.overalls.name=Inženjersko Radno Odelo
 
-item.railcraft.armor.steel.helmet.name=Čelični Šlem
-item.railcraft.armor.steel.plate.name=Čelični Oklop
-item.railcraft.armor.steel.legs.name=Čelične Pantalone
-item.railcraft.armor.steel.boots.name=Čelične Čizme
+item.railcraft.armor.helmet.steel.name=Čelični Šlem
+item.railcraft.armor.chestplate.steel.name=Čelični Oklop
+item.railcraft.armor.leggings.steel.name=Čelične Pantalone
+item.railcraft.armor.boots.steel.name=Čelične Čizme
 
 item.railcraft.backpack.iceman.t1.name=Ledenjakov Ranac
 item.railcraft.backpack.iceman.t2.name=Tkani Ledenjakov Ranac
@@ -72,12 +72,12 @@ railcraft.color.red=Crvena
 railcraft.color.white=Bela
 railcraft.color.yellow=Žuta
 
-tile.railcraft.cube.brick.infernal.name=Paklene Cigle
-tile.railcraft.cube.brick.sandy.name=Peščane Cigle
-tile.railcraft.cube.concrete.name=Kocka Cementa
-tile.railcraft.cube.crushed.obsidian.name=Zdrobljeni Opsidijan
-tile.railcraft.cube.steel.name=Kocka Čelika
-tile.railcraft.cube.world.anchor.name=Svetsko Sidro
+tile.railcraft.generic.brick.infernal.name=Paklene Cigle
+tile.railcraft.generic.brick.sandy.name=Peščane Cigle
+tile.railcraft.generic.concrete.name=Kocka Cementa
+tile.railcraft.generic.crushed.obsidian.name=Zdrobljeni Opsidijan
+tile.railcraft.generic.steel.name=Kocka Čelika
+tile.railcraft.generic.world.anchor.name=Svetsko Sidro
 
 death.railcraft.bore.1=%s je stao/la na put napredka
 death.railcraft.bore.2=%s je pokušao/la da zaustavi Kopač Tunela
@@ -364,15 +364,15 @@ tile.railcraft.stair.snow.name=Snežne Stepenice
 item.railcraft.borehead.diamond.name=Dijamantska Burgija
 item.railcraft.borehead.iron.name=Gvozdena Burgija
 item.railcraft.borehead.steel.name=Čelična Burgija
-item.railcraft.tool.crowbar.name=Gvozdena Poluga
+item.railcraft.tool.crowbar.iron.name=Gvozdena Poluga
 item.railcraft.tool.magnifying.glass.name=Lupa
 item.railcraft.tool.signal.tuner.name=Podešavač Signala
-item.railcraft.tool.steel.axe.name=Čelična Sekira
-item.railcraft.tool.steel.hoe.name=Čelična Motika
-item.railcraft.tool.steel.pickaxe.name=Čelični Pijuk
-item.railcraft.tool.steel.shovel.name=Čelična Lopata
-item.railcraft.tool.steel.sword.name=Čelični Mač
-item.railcraft.tool.surveyor.name=Podešavač Signala
+item.railcraft.tool.axe.steel.name=Čelična Sekira
+item.railcraft.tool.hoe.steel.name=Čelična Motika
+item.railcraft.tool.pickaxe.steel.name=Čelični Pijuk
+item.railcraft.tool.shovel.steel.name=Čelična Lopata
+item.railcraft.tool.sword.steel.name=Čelični Mač
+item.railcraft.tool.signal.surveyor.name=Podešavač Signala
 item.railcraft.tool.whistle.tuner.name=Podečavač Pištaljke
 
 tile.activatorRail.name=Aktivatorska Šina

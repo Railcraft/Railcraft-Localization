@@ -5,10 +5,10 @@ item.railcraft.armor.goggles.name=Gogle Kolejarza
 
 item.railcraft.armor.overalls.name=Kombinezon Inżyniera
 
-item.railcraft.armor.steel.helmet.name=Stalowy Hełm
-item.railcraft.armor.steel.plate.name=Stalowa Zbroja
-item.railcraft.armor.steel.legs.name=Stalowe Spodnie
-item.railcraft.armor.steel.boots.name=Stalowe Buty
+item.railcraft.armor.helmet.steel.name=Stalowy Hełm
+item.railcraft.armor.chestplate.steel.name=Stalowa Zbroja
+item.railcraft.armor.leggings.steel.name=Stalowe Spodnie
+item.railcraft.armor.boots.steel.name=Stalowe Buty
 
 item.railcraft.backpack.iceman.t1.name=Plecak Człowieka Lodu
 item.railcraft.backpack.iceman.t2.name=Tkany Plecak Człowieka Lodu
@@ -68,12 +68,12 @@ railcraft.color.red=Czerwony
 railcraft.color.white=Biały
 railcraft.color.yellow=Żółty
 
-tile.railcraft.cube.brick.infernal.name=Piekielne Cegly
-tile.railcraft.cube.brick.sandy.name=Piaskowe Cegly
-tile.railcraft.cube.concrete.name=Beton
-tile.railcraft.cube.crushed.obsidian.name=Rozdrobniony Obsydian
-tile.railcraft.cube.steel.name=Blok Stali
-tile.railcraft.cube.world.anchor.name=Kotwica Świata
+tile.railcraft.generic.brick.infernal.name=Piekielne Cegly
+tile.railcraft.generic.brick.sandy.name=Piaskowe Cegly
+tile.railcraft.generic.concrete.name=Beton
+tile.railcraft.generic.crushed.obsidian.name=Rozdrobniony Obsydian
+tile.railcraft.generic.steel.name=Blok Stali
+tile.railcraft.generic.world.anchor.name=Kotwica Świata
 
 death.railcraft.bore.1=%s wszedł w drogę postępowi
 death.railcraft.bore.2=%s próbował zatrzymac wiercenie
@@ -308,15 +308,15 @@ tile.railcraft.wayobject.switch.motor.name=Zwrotnica Automatyczna
 item.railcraft.borehead.diamond.name=Diamentowa Głowica
 item.railcraft.borehead.iron.name=Żelazna Głowica
 item.railcraft.borehead.steel.name=Stalowa Głowica
-item.railcraft.tool.crowbar.name=Łom
+item.railcraft.tool.crowbar.iron.name=Łom
 item.railcraft.tool.magnifying.glass.name=Szkło Powiększające
 item.railcraft.tool.signal.tuner.name=Tuner Sygnału
-item.railcraft.tool.steel.axe.name=Stalowy Topór
-item.railcraft.tool.steel.hoe.name=Stalowa Motyka
-item.railcraft.tool.steel.pickaxe.name=Stalowy Kilof
-item.railcraft.tool.steel.shovel.name=Stalowa Łopata
-item.railcraft.tool.steel.sword.name=Stalowy Miecz
-item.railcraft.tool.surveyor.name=Inspektor Sygnału
+item.railcraft.tool.axe.steel.name=Stalowy Topór
+item.railcraft.tool.hoe.steel.name=Stalowa Motyka
+item.railcraft.tool.pickaxe.steel.name=Stalowy Kilof
+item.railcraft.tool.shovel.steel.name=Stalowa Łopata
+item.railcraft.tool.sword.steel.name=Stalowy Miecz
+item.railcraft.tool.signal.surveyor.name=Inspektor Sygnału
 item.railcraft.tool.whistle.tuner.name=Tuner Gwizdu
 
 tile.railcraft.track.boarding.name=Tor Dokujący
