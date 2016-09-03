@@ -296,8 +296,8 @@ item.railcraft.upgrade.lapotron=兰波顿装载升级插件
 
 item.synthetic=合成物
 
-itemGroup.railcraft.general=铁路
-itemGroup.railcraft.track=铁路|轨道
+itemGroup.railcraft.general=Railcraft
+itemGroup.railcraft.track=Railcraft|轨道
 
 railcraft.color.black=黑色
 railcraft.color.blue=蓝色
@@ -1032,28 +1032,7 @@ tile.railcraft.lantern.stone.sandstone.name=沙石灯
 tile.railcraft.lantern.stone.sandy.name=沙岩石灯
 tile.railcraft.lantern.stone.stone.name=石灯
 
-#New Tracks
-tile.railcraft.track.strap.iron.name=镀铁轨道
-tile.railcraft.track.strap.iron.tip=速度为一般铁轨道的30%
-tile.railcraft.track.strap.iron.kit=镀铁%s轨道
-
-tile.railcraft.track.reinforced.name=强化轨道
-tile.railcraft.track.reinforced.tip=速度为普通轨道的125%\n防爆
-tile.railcraft.track.reinforced.kit=强化%s轨道
-
-tile.railcraft.track.high.speed.name=高速轨道
-tile.railcraft.track.high.speed.tip=§9危险: 高速\n§r真的很快\n需要推进轨道或过渡轨道以达到高速\n高速时不可进行扳道
-tile.railcraft.track.high.speed.kit=高速%s轨道
-
-tile.railcraft.track.electric.name=电力轨道
-tile.railcraft.track.electric.tip=§9危险:高压电\n§r电力驱动\n配套电力机车使用\n使用电力供给单元供能\n使用分路线缆跨越间隙
-tile.railcraft.track.electric.kit=电力%s轨道
-
-tile.railcraft.track.high.speed.electric.name=高速电力轨道
-tile.railcraft.track.high.speed.electric.tip=§9危险: 高压电/高速\n§r真的很快\n§r电力驱动\n配套电力机车使用\n需要推进轨道或过渡轨道以达到高速\n高速时不可进行扳道
-tile.railcraft.track.high.speed.electric.kit=高速电力%s轨道
-
-#Old Tracks
+#Old Tracks (to be deleted)
 tile.railcraft.track.buffer.stop.name=缓停轨道
 tile.railcraft.track.buffer.stop.tip=用于轨道尽头\n§o§9- 通过撬棍敲击来变向 -
 tile.railcraft.track.control.name=控制轨道
@@ -1133,6 +1112,7 @@ tile.railcraft.track.wye.name=Y型轨道
 tile.railcraft.track.wye.tip=§o§c- 需要转辙马达/开关来进行转辙 -
 tile.railcraft.track.autolococoupler.name=Automatic Locomotive Coupler
 tile.railcraft.track.autolococoupler.tip=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- 使用红石信号激活 -
+#end old tracks
 
 tile.railcraft.wall.abyssal.brick.name=深渊砖墙
 tile.railcraft.wall.bleachedbone.brick.name=白骨砖墙
@@ -1165,6 +1145,28 @@ tile.railcraft.worldlogic.name=硝石刷新器
 tooltip.wawla.tooltype.crowbar=撬棍
 
 ######################################################################################
+#   Flex Tracks
+######################################################################################
+
+tile.railcraft.track.flex.abandoned.name=废弃轨道
+tile.railcraft.track.flex.abandoned.tip=§9有潜在脱轨风险\n可跨越沟壑
+
+tile.railcraft.track.flex.electric.name=电力轨道
+tile.railcraft.track.flex.electric.tip=§9危险:高压电\n§r电力驱动\n配套电力机车使用\n使用电力供给单元供能\n使用分路线缆跨越间隙
+
+tile.railcraft.track.flex.high.speed.name=高速轨道
+tile.railcraft.track.flex.high.speed.tip=§9危险: 高速\n§r真的很快\n需要推进轨道或过渡轨道以达到高速\n高速时不可转向
+
+tile.railcraft.track.flex.hs.electric.name=高速电力轨道
+tile.railcraft.track.flex.hs.electric.tip=§9危险: 高压电，高速\n§r真的很快\n§r电力驱动\n配套电力机车使用\n需要推进轨道或过渡轨道以达到高速\n高速时不可转向
+
+tile.railcraft.track.flex.reinforced.name=强化轨道
+tile.railcraft.track.flex.reinforced.tip=速度为普通轨道的125%\n防爆
+
+tile.railcraft.track.flex.strap.iron.name=镀铁轨道
+tile.railcraft.track.flex.strap.iron.tip=速度为一般铁轨道的30%
+
+######################################################################################
 #   Track Kits & Outfitted Tracks
 # --------------------------------------------
 #
@@ -1195,7 +1197,7 @@ track_kit.railcraft.railcraft_coupler.name=耦合
 track_kit.railcraft.railcraft_coupler.tip=将经过的车厢连接/分离\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
 
 track_kit.railcraft.railcraft_detector.name=感应
-track_kit.railcraft.railcraft_detector.tip=车辆经过时发出红石信号.
+track_kit.railcraft.railcraft_detector.tip=车辆经过时发出红石信号
 
 track_kit.railcraft.railcraft_detector.travel.name=方向感应
 track_kit.railcraft.railcraft_detector.travel.tip=车辆经过指定方向时\n发出红石信号.\n§o§9- 通过撬棍敲击来变向 -
@@ -1234,12 +1236,12 @@ track_kit.railcraft.railcraft_one.way.name=单向
 track_kit.railcraft.railcraft_one.way.tip=只允许矿车通向箭头标定方向\n§o§9- 通过撬棍敲击来变向 -
 
 track_kit.railcraft.railcraft_priming.name=起爆
-track_kit.railcraft.railcraft_priming.tip=引爆TNT矿车,/n可调引信长度\n§o§9- 通过撬棍敲击来设定引信长度 -\n§o§c- 使用红石信号激活 -
+track_kit.railcraft.railcraft_priming.tip=引爆TNT矿车,\n可调引信长度\n§o§9- 通过撬棍敲击来设定引信长度 -\n§o§c- 使用红石信号激活 -
 
 track_kit.railcraft.railcraft_routing.name=路由
 track_kit.railcraft.railcraft_routing.tip=设置经过机车的车票\n§o§9- 通过撬棍敲击来改变车票 -
 
-track_kit.railcraft.railcraft_transition.name=高速过渡
+track_kit.railcraft.railcraft_transition.name=过渡
 track_kit.railcraft.railcraft_transition.tip=用于高速与正常速度的过渡\n§o§c- 使用红石信号激活 -
 
 track_kit.railcraft.railcraft_whistle.name=鸣笛
@@ -1247,7 +1249,7 @@ track_kit.railcraft.railcraft_whistle.tip=经过的机车会鸣笛\n§o§c- 使�
 
 track_type.railcraft.railcraft_iron.name=铁制
 track_type.railcraft.railcraft_strap_iron.name=镀铁
-track_type.railcraft.railcraft_abandoned.name=废弃的
+track_type.railcraft.railcraft_abandoned.name=废弃
 track_type.railcraft.railcraft_reinforced.name=强化
 track_type.railcraft.railcraft_high_speed.name=高速
 track_type.railcraft.railcraft_high_speed_electric.name=高速电力
