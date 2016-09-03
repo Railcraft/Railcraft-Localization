@@ -44,18 +44,18 @@ command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s x y z
 death.railcraft.bore.1=%s war dem Fortschritt im Weg
 death.railcraft.bore.2=%s legte sich mit einem Bohrkopf an und verlor
 death.railcraft.bore.3=%s wurde von einem Bohrer zerquetscht
-death.railcraft.bore.4=%s dachte, er könnte es besser machen als John Henry
+death.railcraft.bore.4=%s dachte, besser zu sein als John Henry
 death.railcraft.bore.5=%s ist jetzt Bohrkopfschmiere
 death.railcraft.bore.6=%s war auf der falschen Seite des Fortschritts
 
-death.railcraft.crusher.1=%s stolperte in der Nähe schwerer Maschinerie
-death.railcraft.crusher.2=%s ist nicht unverwundbar, er wird zerquetscht, wie wir es werden
-death.railcraft.crusher.3=%s starrte in den Abgrund, dann rutschte er aus
+death.railcraft.crusher.1=%s stolperte in der Nähe von Schwerindustrie
+death.railcraft.crusher.2=%s ist nicht unverwundbar und wird genauso zerquetscht wie jeder andere
+death.railcraft.crusher.3=%s blickte zu lange in den Abgrund... Und rutschte aus
 death.railcraft.crusher.4=%s wird seine Sachen ersetzen müssen
 death.railcraft.crusher.5=%s ignorierte die Warnschilder
 death.railcraft.crusher.6=Nur heute zum Verkauf! %s-Blutgelée
-death.railcraft.crusher.7=%s wurde zu Paste
-death.railcraft.crusher.8=%s hätte die Anleitung lesen sollen
+death.railcraft.crusher.7=%s wurde zu Paste verarbeitet
+death.railcraft.crusher.8=%s hätte die Bedienungsanleitung lesen sollen
 
 death.railcraft.electric.1=%s sagte Nikola Tesla Hallo.
 death.railcraft.electric.2=%s entdeckte die Bedeutung des Wortes "Hochspannung"
@@ -64,8 +64,8 @@ death.railcraft.electric.4=%s hätte die Warnhinweise lesen sollen
 death.railcraft.electric.5=%s machte eine schockierende Enthüllung
 death.railcraft.electric.6=%s lernte, dass Elektrizität weh tun kann
 
-death.railcraft.steam.1=%s wurde gekocht, hübsch und saftig
-death.railcraft.steam.2=%s ist nicht immun gegen hohe Temperaturen, entgegen Behauptungen des Gegenteils
+death.railcraft.steam.1=%s wurde schonend dampfgegart
+death.railcraft.steam.2=%s ist, entgegen eigener Vermutungen, nicht immun gegen hohe Temperaturen
 death.railcraft.steam.3=%s hat entdeckt, wie schmerzhaft Dampf sein kann
 death.railcraft.steam.4=%s hatte einen Betriebsunfall
 death.railcraft.steam.5=%s hätte da wahrscheinlich nicht hintreten sollen.
@@ -82,7 +82,7 @@ death.railcraft.train.1=%s wurde von einem Zug erfasst
 death.railcraft.train.2=%s hat auf den Gleisen gespielt
 death.railcraft.train.3=%s spielte Fangen mit einem Zug, der Zug gewann
 death.railcraft.train.4=%s nahm den falschen Zug
-death.railcraft.train.5=%s kaufte eine einfache Fahrt ins Jenseits
+death.railcraft.train.5=%s besorgte sich eine Fahrt ins Jenseits
 death.railcraft.train.6=%s hätte seinen Overall tragen sollen
 
 enchantment.railcraft.crowbar.destruction=Zerstörung
@@ -194,7 +194,7 @@ item.railcraft.firestone.raw.name=Roher Flammstein
 item.railcraft.firestone.raw.tip=Er regt sich in deiner Hand,\n du kannst es in der dir\n nahen Luft fühlen...
 item.railcraft.firestone.refined.name=Raffinierter Flammstein
 item.railcraft.firestone.refined.tip.charged=Gefüllt mit Energie;\n du brauchst nur deinen\n Willen anstrengen, um\n massive Hitze freizulassen...
-item.railcraft.firestone.refined.tip.empty=Seine Energien kontrolliert;\n er könnte nützlich sein,\n wenn du ihn wieder aufladen könntest...
+item.railcraft.firestone.refined.tip.empty=Seine Energien unter Kontrolle;\n er könnte nützlich sein,\n wenn du ihn wieder aufladen könntest...
 
 item.railcraft.fluid.creosote.bottle.name=Teerölflasche
 item.railcraft.fluid.creosote.bucket.name=Teeröleimer
