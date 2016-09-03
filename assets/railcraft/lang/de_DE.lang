@@ -1028,28 +1028,7 @@ tile.railcraft.lantern.stone.sandstone.name=Sandsteinlaterne
 tile.railcraft.lantern.stone.sandy.name=Sandige Steinlaterne
 tile.railcraft.lantern.stone.stone.name=Steinlaterne
 
-#New Tracks
-tile.railcraft.track.strap.iron.name=Flacheisengleis
-tile.railcraft.track.strap.iron.tip=30% der Geschwindigkeit eines Eisengleises
-tile.railcraft.track.strap.iron.kit=Flacheisen-%sgleis
-
-tile.railcraft.track.reinforced.name=Verstärktes Gleis
-tile.railcraft.track.reinforced.tip=125% der Geschwindigkeit eines normalen Gleises\n Explosionsresistent
-tile.railcraft.track.reinforced.kit=Verstärktes %sgleis
-
-tile.railcraft.track.high.speed.name=Hochgeschwindigkeitsgleis
-tile.railcraft.track.high.speed.tip=§9Vorsicht: Hochspannung/-geschwindigkeit!\n §rSehr schnell\n Erfordert Antriebs-/Übergangsgleis, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich
-tile.railcraft.track.high.speed.kit=Hochgeschw.-%sgleis
-
-tile.railcraft.track.electric.name=Elektrisches Gleis
-tile.railcraft.track.electric.tip=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
-tile.railcraft.track.electric.kit=Elektrisches %sgleis
-
-tile.railcraft.track.high.speed.electric.name=Elektrisches Hochgeschwindigkeitsgleis
-tile.railcraft.track.high.speed.electric.tip=§9Vorsicht: Hochspannung/-geschwindigkeit!\n §rSehr schnell\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Erfordert Antriebs-/Übergangsgleis, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich
-tile.railcraft.track.high.speed.electric.kit=Elektrisches Hochgeschw.-%sgleis
-
-#Old Tracks
+#Old Tracks (to be deleted)
 tile.railcraft.track.buffer.stop.name=Prellbock
 tile.railcraft.track.buffer.stop.tip=Die Endstation\n§o§9- Verändere die Richtung mit einem Brecheisen -
 tile.railcraft.track.control.name=Steuergleis
@@ -1129,6 +1108,7 @@ tile.railcraft.track.wye.name=T-Weiche
 tile.railcraft.track.wye.tip=§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.autolococoupler.name=Automatischer Lokomotivenkoppler
 tile.railcraft.track.autolococoupler.tip=Sorgt dafür, dass passierende Lokomotiven mit\ndem ersten Wagen, mit dem sie\nkollidieren, koppeln und dann\nAuf Rangiergeschwindigkeit umschalten.\n§o§c- Aktiviere mit einem Redstone-Signal -
+#end old tracks
 
 tile.railcraft.wall.abyssal.brick.name=Abyss-Ziegelmauer
 tile.railcraft.wall.bleachedbone.brick.name=Gebleichte Knochen-Ziegelmauer
@@ -1159,6 +1139,30 @@ tile.railcraft.wall.stone.brick.name=Steinziegelmauer
 tile.railcraft.worldlogic.name=Salpetererz-Spawner
 
 tooltip.wawla.tooltype.crowbar=Brecheisen
+
+
+#####################################################################################
+#   Flex Tracks
+######################################################################################
+
+tile.railcraft.track.flex.abandoned.name=Aufgegebenes Gleis
+tile.railcraft.track.flex.abandoned.tip=§9Vorsicht: Entgleisungsrisiko\nKann frei über Lücken im Terrain hängen.
+
+tile.railcraft.track.flex.electric.name=Elektrisches Gleis
+tile.railcraft.track.flex.electric.tip=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
+
+tile.railcraft.track.flex.high.speed.name=Hochgeschwindigkeitsgleis
+tile.railcraft.track.flex.high.speed.tip=§9Vorsicht: Hochgeschwindigkeit!\n §rSehr schnell\n Erfordert Antriebs-/Übergangsgleis, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich
+
+tile.railcraft.track.flex.hs.electric.name=Elektrisches Hochgeschwindigkeitsgleis
+tile.railcraft.track.flex.hs.electric.tip=§9Vorsicht: Hochspannung/-geschwindigkeit!\n §rSehr schnell\n §rWird mit Strom betrieben\n Für Nutzung mit Elektrischer Lokomotive\n Erfordert Antriebs-/Übergangsgleis, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich
+
+tile.railcraft.track.flex.reinforced.name=Verstärktes Gleis
+tile.railcraft.track.flex.reinforced.tip=125% der Geschwindigkeit eines normalen Gleises\n Explosionsresistent
+
+tile.railcraft.track.flex.strap.iron.name=Flacheisengleis
+tile.railcraft.track.flex.strap.iron.tip=30% der Geschwindigkeit eines Eisengleises
+
 
 ######################################################################################
 #   Track Kits & Outfitted Tracks
@@ -1235,7 +1239,7 @@ track_kit.railcraft.railcraft_priming.tip=Entzündet TNT-Waggons\n Verstellbare 
 track_kit.railcraft.railcraft_routing.name=Routen
 track_kit.railcraft.railcraft_routing.tip=Überschreibt das Ticket einer passierenden Lokomotive\n§o§9- Wechsle das zu übernehmende Ticket mit einem Brecheisen -
 
-track_kit.railcraft.railcraft_transition.name=Hochgeschw.-Übergangs
+track_kit.railcraft.railcraft_transition.name=Übergangs
 track_kit.railcraft.railcraft_transition.tip=Sorgt für Übergang von/zu Hochgeschwindigkeit\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_whistle.name=Pfeif
