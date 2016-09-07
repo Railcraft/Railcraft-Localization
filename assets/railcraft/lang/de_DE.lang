@@ -44,18 +44,18 @@ command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s x y z
 death.railcraft.bore.1=%s war dem Fortschritt im Weg
 death.railcraft.bore.2=%s legte sich mit einem Bohrkopf an und verlor
 death.railcraft.bore.3=%s wurde von einem Bohrer zerquetscht
-death.railcraft.bore.4=%s dachte, er könnte es besser machen als John Henry
+death.railcraft.bore.4=%s dachte, besser zu sein als John Henry
 death.railcraft.bore.5=%s ist jetzt Bohrkopfschmiere
 death.railcraft.bore.6=%s war auf der falschen Seite des Fortschritts
 
-death.railcraft.crusher.1=%s stolperte in der Nähe schwerer Maschinerie
-death.railcraft.crusher.2=%s ist nicht unverwundbar, er wird zerquetscht, wie wir es werden
-death.railcraft.crusher.3=%s starrte in den Abgrund, dann rutschte er aus
+death.railcraft.crusher.1=%s stolperte in der Nähe von Schwerindustrie
+death.railcraft.crusher.2=%s ist nicht unverwundbar und wird genauso zerquetscht wie jeder andere
+death.railcraft.crusher.3=%s blickte zu lange in den Abgrund... Und rutschte aus
 death.railcraft.crusher.4=%s wird seine Sachen ersetzen müssen
 death.railcraft.crusher.5=%s ignorierte die Warnschilder
 death.railcraft.crusher.6=Nur heute zum Verkauf! %s-Blutgelée
-death.railcraft.crusher.7=%s wurde zu Paste
-death.railcraft.crusher.8=%s hätte die Anleitung lesen sollen
+death.railcraft.crusher.7=%s wurde zu Paste verarbeitet
+death.railcraft.crusher.8=%s hätte die Bedienungsanleitung lesen sollen
 
 death.railcraft.electric.1=%s sagte Nikola Tesla Hallo.
 death.railcraft.electric.2=%s entdeckte die Bedeutung des Wortes "Hochspannung"
@@ -64,8 +64,8 @@ death.railcraft.electric.4=%s hätte die Warnhinweise lesen sollen
 death.railcraft.electric.5=%s machte eine schockierende Enthüllung
 death.railcraft.electric.6=%s lernte, dass Elektrizität weh tun kann
 
-death.railcraft.steam.1=%s wurde gekocht, hübsch und saftig
-death.railcraft.steam.2=%s ist nicht immun gegen hohe Temperaturen, entgegen Behauptungen des Gegenteils
+death.railcraft.steam.1=%s wurde schonend dampfgegart
+death.railcraft.steam.2=%s ist, entgegen eigener Vermutungen, nicht immun gegen hohe Temperaturen
 death.railcraft.steam.3=%s hat entdeckt, wie schmerzhaft Dampf sein kann
 death.railcraft.steam.4=%s hatte einen Betriebsunfall
 death.railcraft.steam.5=%s hätte da wahrscheinlich nicht hintreten sollen.
@@ -82,39 +82,39 @@ death.railcraft.train.1=%s wurde von einem Zug erfasst
 death.railcraft.train.2=%s hat auf den Gleisen gespielt
 death.railcraft.train.3=%s spielte Fangen mit einem Zug, der Zug gewann
 death.railcraft.train.4=%s nahm den falschen Zug
-death.railcraft.train.5=%s kaufte eine einfache Fahrt ins Jenseits
+death.railcraft.train.5=%s besorgte sich eine Fahrt ins Jenseits
 death.railcraft.train.6=%s hätte seinen Overall tragen sollen
 
 enchantment.railcraft.crowbar.destruction=Zerstörung
 enchantment.railcraft.crowbar.implosion=Implosion
 enchantment.railcraft.crowbar.wrecking=Zertrümmern
 
+entity.railcraft.bore.name=Tunnelbohrer
 entity.railcraft.cart.anchor.admin.name=Admin-Ankerwaggon
 entity.railcraft.cart.anchor.name=Ankerwaggon
 entity.railcraft.cart.anchor.personal.name=Persönlicher Ankerwaggon
 entity.railcraft.cart.basic.name=Lore
-entity.railcraft.bore.name=Tunnelbohrer
 entity.railcraft.cart.cargo.name=Frachtwaggon
 entity.railcraft.cart.chest.name=Güterwaggon
+entity.railcraft.cart.furnace.name=Triebwagen
+entity.railcraft.cart.gift.name=Geschenkwagen
 entity.railcraft.cart.ic2.batbox.name=Batbox-Waggon
 entity.railcraft.cart.ic2.cesu.name=CESU-Waggon
 entity.railcraft.cart.ic2.mfe.name=MFE-Waggon
 entity.railcraft.cart.ic2.mfsu.name=MFSU-Waggon
-entity.railcraft.cart.furnace.name=Triebwagen
-entity.railcraft.cart.gift.name=Geschenkwagen
-entity.railcraft.locomotive.electric.name=Elektrische Lokomotive
-entity.railcraft.locomotive.steam.solid.name=Dampflokomotive
-entity.railcraft.locomotive.creative.name=Perpetuum Locomobile
 entity.railcraft.cart.pumpkin.name=Kürbiswagen
 entity.railcraft.cart.redstone.flux.name=Redstone-Flux-Waggon
 entity.railcraft.cart.tank.name=Tankwaggon
 entity.railcraft.cart.tnt.name=TNT-Waggon
 entity.railcraft.cart.tnt.wood.name=Hölzerner TNT-Waggon
+entity.railcraft.cart.work.name=Arbeitswaggon
+entity.railcraft.locomotive.creative.name=Perpetuum Locomobile
+entity.railcraft.locomotive.electric.name=Elektrische Lokomotive
+entity.railcraft.locomotive.steam.solid.name=Dampflokomotive
 entity.railcraft.mow.track.layer.name=Schienenlegewaggon
 entity.railcraft.mow.track.relayer.name=Schienenersetzer
 entity.railcraft.mow.track.remover.name=Schienenentfernungswaggon
 entity.railcraft.mow.undercutter.name=Schienenbett-Ersetzer
-entity.railcraft.cart.work.name=Arbeitswaggon
 
 fluid.creosote=Teeröl
 fluid.steam=Dampf
@@ -144,30 +144,31 @@ item.railcraft.borehead.diamond.name=Diamantbohrkopf
 item.railcraft.borehead.iron.name=Eisenbohrkopf
 item.railcraft.borehead.steel.name=Stahlbohrkopf
 
-item.railcraft.entity.cart.anchor.admin.name=Admin-Ankerwaggon
-item.railcraft.entity.cart.anchor.world.name=Ankerwaggon
-item.railcraft.entity.cart.anchor.personal.name=Persönlicher Ankerwaggon
-item.railcraft.entity.cart.basic.name=Lore
 item.railcraft.entity.bore.name=Tunnelbohrer
+item.railcraft.entity.cart.anchor.admin.name=Admin-Ankerwaggon
+item.railcraft.entity.cart.anchor.personal.name=Persönlicher Ankerwaggon
+item.railcraft.entity.cart.anchor.world.name=Ankerwaggon
+item.railcraft.entity.cart.basic.name=Lore
 item.railcraft.entity.cart.cargo.name=Frachtwaggon
 item.railcraft.entity.cart.chest.name=Güterwaggon
+item.railcraft.entity.cart.furnace.name=Triebwagen
+item.railcraft.entity.cart.gift.name=Geschenkwagen
+item.railcraft.entity.cart.gift.tip=Frohe Weihnachten!
 item.railcraft.entity.cart.ic2.batbox.name=Batbox-Waggon
 item.railcraft.entity.cart.ic2.cesu.name=CESU-Waggon
 item.railcraft.entity.cart.ic2.mfe.name=MFE-Waggon
 item.railcraft.entity.cart.ic2.mfsu.name=MFSU-Waggon
-item.railcraft.entity.cart.furnace.name=Triebwagen
-item.railcraft.entity.cart.gift.name=Geschenkwagen
-item.railcraft.entity.cart.gift.tip=Frohe Weihnachten!
-item.railcraft.entity.locomotive.electric.name=Elektrische Lokomotive
-item.railcraft.entity.locomotive.steam.solid.name=Dampflokomotive
-item.railcraft.entity.locomotive.creative.name=Perpetuum Locomobile
-item.railcraft.entity.locomotive.creative.tip=§o§9Kreative Lokomotive
 item.railcraft.entity.cart.pumpkin.name=Kürbiswagen
 item.railcraft.entity.cart.pumpkin.tip=Süßes, sonst gibt's Saures!
 item.railcraft.entity.cart.redstone.flux.name=Redstone-Flux-Waggon
 item.railcraft.entity.cart.tank.name=Tankwaggon
 item.railcraft.entity.cart.tnt.name=TNT-Waggon
 item.railcraft.entity.cart.tnt.wood.name=Hölzerner TNT-Waggon
+item.railcraft.entity.cart.work.name=Arbeitswaggon
+item.railcraft.entity.locomotive.creative.name=Perpetuum Locomobile
+item.railcraft.entity.locomotive.creative.tip=§o§9Kreative Lokomotive
+item.railcraft.entity.locomotive.electric.name=Elektrische Lokomotive
+item.railcraft.entity.locomotive.steam.solid.name=Dampflokomotive
 item.railcraft.entity.mow.track.layer.name=Schienenlegewaggon
 item.railcraft.entity.mow.track.layer.tip=Verlegt Schienen, während er sich bewegt
 item.railcraft.entity.mow.track.relayer.name=Schienenersetzer
@@ -176,7 +177,6 @@ item.railcraft.entity.mow.track.remover.name=Schienenentfernungswaggon
 item.railcraft.entity.mow.track.remover.tip=Entfernt Schienen, über die er fährt
 item.railcraft.entity.mow.undercutter.name=Schienenbett-Ersetzer
 item.railcraft.entity.mow.undercutter.tip=Ersetzt die Blöcke\n unterhalb des Gleises
-item.railcraft.entity.cart.work.name=Arbeitswaggon
 
 item.railcraft.dust.charcoal.name=Holzkohlestaub
 item.railcraft.dust.obsidian.name=Obsidianstaub
@@ -194,7 +194,7 @@ item.railcraft.firestone.raw.name=Roher Flammstein
 item.railcraft.firestone.raw.tip=Er regt sich in deiner Hand,\n du kannst es in der dir\n nahen Luft fühlen...
 item.railcraft.firestone.refined.name=Raffinierter Flammstein
 item.railcraft.firestone.refined.tip.charged=Gefüllt mit Energie;\n du brauchst nur deinen\n Willen anstrengen, um\n massive Hitze freizulassen...
-item.railcraft.firestone.refined.tip.empty=Seine Energien kontrolliert;\n er könnte nützlich sein,\n wenn du ihn wieder aufladen könntest...
+item.railcraft.firestone.refined.tip.empty=Seine Energien unter Kontrolle;\n er könnte nützlich sein,\n wenn du ihn wieder aufladen könntest...
 
 item.railcraft.fluid.creosote.bottle.name=Teerölflasche
 item.railcraft.fluid.creosote.bucket.name=Teeröleimer
@@ -250,42 +250,42 @@ item.railcraft.routing.table.name=Streckenplan
 item.railcraft.routing.ticket.gold.name=Goldenes Eisenbahnticket
 item.railcraft.routing.ticket.name=Eisenbahnticket
 
-item.railcraft.tool.crowbar.magic.name=Thaumiumbrecheisen
-item.railcraft.tool.crowbar.iron.name=Brecheisen
-item.railcraft.tool.crowbar.steel.name=Verstärktes Brecheisen
-item.railcraft.tool.crowbar.tip=§oRechtsklicke schleichend, um Waggons zu verbinden
-item.railcraft.tool.crowbar.void.name=Leermetallbrecheisen
+item.railcraft.tool.axe.steel.name=Stahlaxt
 item.railcraft.tool.charge.meter.name=Ladungsmessgerät
 item.railcraft.tool.charge.meter.tip=§oRechtsklicke auf Blöcke mit Ladung, um diese zu untersuchen
+item.railcraft.tool.crowbar.iron.name=Brecheisen
+item.railcraft.tool.crowbar.magic.name=Thaumiumbrecheisen
+item.railcraft.tool.crowbar.steel.name=Stahlbrecheisen
+item.railcraft.tool.crowbar.tip=§oRechtsklicke schleichend, um Waggons zu verbinden
+item.railcraft.tool.crowbar.void.name=Leermetallbrecheisen
+item.railcraft.tool.hoe.steel.name=Stahlhacke
 item.railcraft.tool.magnifying.glass.name=Lupe
-item.railcraft.tool.notepad.action.copy=Einstellungen kopiert von %s
 item.railcraft.tool.notepad.action.copy.fail=Nichts zu kopieren. Ziel ist ungültig.
+item.railcraft.tool.notepad.action.copy=Einstellungen kopiert von %s
 item.railcraft.tool.notepad.action.empty=Nichts zu übertragen. Zum Kopieren auf ein Ziel shift-klicken.
-item.railcraft.tool.notepad.action.paste=Einstellungen übertragen auf %s
 item.railcraft.tool.notepad.action.paste.fail=Nichts zu übertragen. Ziel ist ungültig.
+item.railcraft.tool.notepad.action.paste=Einstellungen übertragen auf %s
 item.railcraft.tool.notepad.name=Schienenwart-Notizbuch
-item.railcraft.tool.notepad.tip.contents=Inhalt: %s
-item.railcraft.tool.notepad.tip.contents.filter.items=§2Item-Filter
-item.railcraft.tool.notepad.tip.contents.filter.fluid=§bFlüssigk.-Filter
-item.railcraft.tool.notepad.tip.contents.filter.cart=§eWaggonfilter
 item.railcraft.tool.notepad.tip.contents.empty=§4Leer
+item.railcraft.tool.notepad.tip.contents.filter.cart=§eWaggonfilter
+item.railcraft.tool.notepad.tip.contents.filter.fluid=§bFlüssigk.-Filter
+item.railcraft.tool.notepad.tip.contents.filter.items=§2Item-Filter
+item.railcraft.tool.notepad.tip.contents=Inhalt: %s
 item.railcraft.tool.notepad.tip.mode.all=Alles übertragen
 item.railcraft.tool.notepad.tip.mode.cart.filter=Waggonfilter
 item.railcraft.tool.notepad.tip.mode.loader.filters=Item-/Flüssigk.-Filter
 item.railcraft.tool.notepad.tip.mode=Übertragungsmodus: %s
 item.railcraft.tool.notepad.tip=§oRechtsklick zum Übertragen, schleichen zum Kopieren\n§oZum Leeren schleichend auf Luft klicken
-item.railcraft.tool.signal.label.name=Signal-Label
-item.railcraft.tool.signal.label.tip=§9- Im Amboss umzubenennen -\n§oRechtsklicke schleichend, um\n§oSignale oder Signalboxen umzubenennen
-item.railcraft.tool.signal.tuner.name=Abstimmgerät
-item.railcraft.tool.signal.tuner.tip=Verbindet Signalsender und -empfänger
-item.railcraft.tool.axe.steel.name=Stahlaxt
-item.railcraft.tool.hoe.steel.name=Stahlsense
 item.railcraft.tool.pickaxe.steel.name=Stahlspitzhacke
 item.railcraft.tool.shears.steel.name=Stahlschere
 item.railcraft.tool.shovel.steel.name=Stahlschaufel
-item.railcraft.tool.sword.steel.name=Stahlschwert
+item.railcraft.tool.signal.label.name=Signal-Label
+item.railcraft.tool.signal.label.tip=§9- Im Amboss umzubenennen -\n§oRechtsklicke schleichend, um\n§oSignale oder Signalboxen umzubenennen
 item.railcraft.tool.signal.surveyor.name=Signalblockvermesser
 item.railcraft.tool.signal.surveyor.tip=Verbindet Signale zu Signalblöcken
+item.railcraft.tool.signal.tuner.name=Abstimmgerät
+item.railcraft.tool.signal.tuner.tip=Verbindet Signalsender und -empfänger
+item.railcraft.tool.sword.steel.name=Stahlschwert
 item.railcraft.tool.whistle.tuner.name=Pfeifenstimmer
 
 item.railcraft.upgrade.lapotron=Lapotron-Ladeupgrade
@@ -1028,28 +1028,7 @@ tile.railcraft.lantern.stone.sandstone.name=Sandsteinlaterne
 tile.railcraft.lantern.stone.sandy.name=Sandige Steinlaterne
 tile.railcraft.lantern.stone.stone.name=Steinlaterne
 
-#New Tracks
-tile.railcraft.track.strap.iron.name=Flacheisengleis
-tile.railcraft.track.strap.iron.tip=30% der Geschwindigkeit eines Eisengleises
-tile.railcraft.track.strap.iron.kit=Flacheisen-%sgleis
-
-tile.railcraft.track.reinforced.name=Verstärktes Gleis
-tile.railcraft.track.reinforced.tip=125% der Geschwindigkeit eines normalen Gleises\n Explosionsresistent
-tile.railcraft.track.reinforced.kit=Verstärktes %sgleis
-
-tile.railcraft.track.high.speed.name=Hochgeschwindigkeitsgleis
-tile.railcraft.track.high.speed.tip=§9Vorsicht: Hochspannung/-geschwindigkeit!\n §rSehr schnell\n Erfordert Antriebs-/Übergangsgleis, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich
-tile.railcraft.track.high.speed.kit=Hochgeschw.-%sgleis
-
-tile.railcraft.track.electric.name=Elektrisches Gleis
-tile.railcraft.track.electric.tip=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
-tile.railcraft.track.electric.kit=Elektrisches %sgleis
-
-tile.railcraft.track.high.speed.electric.name=Elektrisches Hochgeschwindigkeitsgleis
-tile.railcraft.track.high.speed.electric.tip=§9Vorsicht: Hochspannung/-geschwindigkeit!\n §rSehr schnell\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Erfordert Antriebs-/Übergangsgleis, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich
-tile.railcraft.track.high.speed.electric.kit=Elektrisches Hochgeschw.-%sgleis
-
-#Old Tracks
+#Old Tracks (to be deleted)
 tile.railcraft.track.buffer.stop.name=Prellbock
 tile.railcraft.track.buffer.stop.tip=Die Endstation\n§o§9- Verändere die Richtung mit einem Brecheisen -
 tile.railcraft.track.control.name=Steuergleis
@@ -1129,6 +1108,7 @@ tile.railcraft.track.wye.name=T-Weiche
 tile.railcraft.track.wye.tip=§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.autolococoupler.name=Automatischer Lokomotivenkoppler
 tile.railcraft.track.autolococoupler.tip=Sorgt dafür, dass passierende Lokomotiven mit\ndem ersten Wagen, mit dem sie\nkollidieren, koppeln und dann\nAuf Rangiergeschwindigkeit umschalten.\n§o§c- Aktiviere mit einem Redstone-Signal -
+#end old tracks
 
 tile.railcraft.wall.abyssal.brick.name=Abyss-Ziegelmauer
 tile.railcraft.wall.bleachedbone.brick.name=Gebleichte Knochen-Ziegelmauer
@@ -1159,6 +1139,30 @@ tile.railcraft.wall.stone.brick.name=Steinziegelmauer
 tile.railcraft.worldlogic.name=Salpetererz-Spawner
 
 tooltip.wawla.tooltype.crowbar=Brecheisen
+
+
+#####################################################################################
+#   Flex Tracks
+######################################################################################
+
+tile.railcraft.track.flex.abandoned.name=Aufgegebenes Gleis
+tile.railcraft.track.flex.abandoned.tip=§9Vorsicht: Entgleisungsrisiko\nKann frei über Lücken im Terrain hängen.
+
+tile.railcraft.track.flex.electric.name=Elektrisches Gleis
+tile.railcraft.track.flex.electric.tip=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
+
+tile.railcraft.track.flex.high.speed.name=Hochgeschwindigkeitsgleis
+tile.railcraft.track.flex.high.speed.tip=§9Vorsicht: Hochgeschwindigkeit!\n §rSehr schnell\n Erfordert Antriebs-/Übergangsgleis, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich
+
+tile.railcraft.track.flex.hs.electric.name=Elektrisches Hochgeschwindigkeitsgleis
+tile.railcraft.track.flex.hs.electric.tip=§9Vorsicht: Hochspannung/-geschwindigkeit!\n §rSehr schnell\n §rWird mit Strom betrieben\n Für Nutzung mit Elektrischer Lokomotive\n Erfordert Antriebs-/Übergangsgleis, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich
+
+tile.railcraft.track.flex.reinforced.name=Verstärktes Gleis
+tile.railcraft.track.flex.reinforced.tip=125% der Geschwindigkeit eines normalen Gleises\n Explosionsresistent
+
+tile.railcraft.track.flex.strap.iron.name=Flacheisengleis
+tile.railcraft.track.flex.strap.iron.tip=30% der Geschwindigkeit eines Eisengleises
+
 
 ######################################################################################
 #   Track Kits & Outfitted Tracks
@@ -1235,7 +1239,7 @@ track_kit.railcraft.railcraft_priming.tip=Entzündet TNT-Waggons\n Verstellbare 
 track_kit.railcraft.railcraft_routing.name=Routen
 track_kit.railcraft.railcraft_routing.tip=Überschreibt das Ticket einer passierenden Lokomotive\n§o§9- Wechsle das zu übernehmende Ticket mit einem Brecheisen -
 
-track_kit.railcraft.railcraft_transition.name=Hochgeschw.-Übergangs
+track_kit.railcraft.railcraft_transition.name=Übergangs
 track_kit.railcraft.railcraft_transition.tip=Sorgt für Übergang von/zu Hochgeschwindigkeit\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_whistle.name=Pfeif
