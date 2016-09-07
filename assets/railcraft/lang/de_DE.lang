@@ -124,13 +124,13 @@ item.minecartFurnace.name=Triebwagen
 item.minecartTnt.name=TNT-Waggon
 item.minecartHopper.name=Trichterwaggon
 
-item.railcraft.armor.goggles.name=Schienenwartbrille
-item.railcraft.armor.overalls.name=Ingenieurs-Overall
-item.railcraft.armor.overalls.tip=Schützt zuverlässig gegen\n die Gefahren der Schienenarbeit
 item.railcraft.armor.boots.steel.name=Stahlstiefel
+item.railcraft.armor.chestplate.steel.name=Stahlbrustpanzer
+item.railcraft.armor.goggles.name=Schienenwartbrille
 item.railcraft.armor.helmet.steel.name=Stahlhelm
 item.railcraft.armor.leggings.steel.name=Stahlbeinschutz
-item.railcraft.armor.chestplate.steel.name=Stahlbrustpanzer
+item.railcraft.armor.overalls.name=Ingenieurs-Overall
+item.railcraft.armor.overalls.tip=Schützt zuverlässig gegen\n die Gefahren der Schienenarbeit
 
 item.railcraft.backpack.apothecary.t1.name=Apotheker-Rucksack
 item.railcraft.backpack.apothecary.t2.name=Gewebter Apotheker-Rucksack
@@ -140,9 +140,25 @@ item.railcraft.backpack.tip=Designed by Railcraft, Inc.
 item.railcraft.backpack.trackman.t1.name=Schienenwart-Rucksack
 item.railcraft.backpack.trackman.t2.name=Gewebter Schienenwart-Rucksack
 
+item.railcraft.bleached.clay.name=Gebleichter Lehm
+
 item.railcraft.borehead.diamond.name=Diamantbohrkopf
 item.railcraft.borehead.iron.name=Eisenbohrkopf
 item.railcraft.borehead.steel.name=Stahlbohrkopf
+
+item.railcraft.circuit.controller.name=Steuerschaltung
+item.railcraft.circuit.receiver.name=Empfängerschaltung
+item.railcraft.circuit.signal.name=Signalstromkreis
+
+item.railcraft.concrete.name=Zementbeutel
+
+item.railcraft.dust.charcoal.name=Holzkohlestaub
+item.railcraft.dust.obsidian.name=Obsidianstaub
+item.railcraft.dust.saltpeter.name=Salpeter
+item.railcraft.dust.slag.name=Gemahlene Hochofenschlacke
+item.railcraft.dust.sulfur.name=Schwefel
+
+item.railcraft.emblem.name=Emblem
 
 item.railcraft.entity.bore.name=Tunnelbohrer
 item.railcraft.entity.cart.anchor.admin.name=Admin-Ankerwaggon
@@ -178,13 +194,6 @@ item.railcraft.entity.mow.track.remover.tip=Entfernt Schienen, über die er fäh
 item.railcraft.entity.mow.undercutter.name=Schienenbett-Ersetzer
 item.railcraft.entity.mow.undercutter.tip=Ersetzt die Blöcke\n unterhalb des Gleises
 
-item.railcraft.dust.charcoal.name=Holzkohlestaub
-item.railcraft.dust.obsidian.name=Obsidianstaub
-item.railcraft.dust.saltpeter.name=Salpeter
-item.railcraft.dust.sulfur.name=Schwefel
-
-item.railcraft.emblem.name=Emblem
-
 item.railcraft.firestone.cracked.name=Rissiger Flammstein
 item.railcraft.firestone.cracked.tip.charged=Hitze verlierend,\n kann er noch immer genutzt werden,\n wenn du vorsichtig bist...
 item.railcraft.firestone.cracked.tip.empty=Beschädigt, aber er\n könnte noch immer nützlich sein,\n wenn du ihn wiederaufladen könntest...
@@ -206,6 +215,11 @@ item.railcraft.fluid.steam.bottle.name=Dampfflasche
 
 item.railcraft.fuel.coke.name=Koks
 
+item.railcraft.gear.bushing.name=Zinn-Zahnradbuchse
+item.railcraft.gear.gold.plate.name=Vergoldetes Zahnrad
+item.railcraft.gear.iron.name=Eisenzahnrad
+item.railcraft.gear.steel.name=Stahlzahnrad
+
 item.railcraft.ingot.copper.name=Kupferbarren
 item.railcraft.ingot.lead.name=Bleibarren
 item.railcraft.ingot.steel.name=Stahlbarren
@@ -217,38 +231,32 @@ item.railcraft.nugget.lead.name=Bleinugget
 item.railcraft.nugget.steel.name=Stahlnugget
 item.railcraft.nugget.tin.name=Zinnnugget
 
-item.railcraft.bleached.clay.name=Gebleichter Lehm
-item.railcraft.circuit.controller.name=Steuerschaltung
-item.railcraft.circuit.receiver.name=Empfängerschaltung
-item.railcraft.circuit.signal.name=Signalstromkreis
-item.railcraft.gear.bushing.name=Zinn-Zahnradbuchse
-item.railcraft.gear.gold.plate.name=Vergoldetes Zahnrad
-item.railcraft.gear.iron.name=Eisenzahnrad
-item.railcraft.gear.steel.name=Stahlzahnrad
 item.railcraft.plate.copper.name=Kupferplatte
 item.railcraft.plate.iron.name=Eisenplatte
 item.railcraft.plate.lead.name=Bleiplatte
 item.railcraft.plate.steel.name=Stahlplatte
 item.railcraft.plate.tin.name=Zinnplatte
+
 item.railcraft.rail.advanced.name=Verbesserte Schiene
 item.railcraft.rail.electric.name=Elektrische Schiene
 item.railcraft.rail.reinforced.name=Verstärkte Schiene
 item.railcraft.rail.speed.name=Hochgeschwindigkeitsschiene
 item.railcraft.rail.standard.name=Normale Schiene
 item.railcraft.rail.wood.name=Holzschiene
+
 item.railcraft.railbed.stone.name=Steinschienenbett
 item.railcraft.railbed.wood.name=Holzschienenbett
+
 item.railcraft.rebar.name=Bewehrungsstab
-item.railcraft.signal.lamp.name=Signallampe
-item.railcraft.tie.stone.name=Steinschwelle
-item.railcraft.tie.wood.name=Holzschwelle
-item.railcraft.turbine.blade.name=Turbinenschaufel
-item.railcraft.turbine.disk.name=Turbinenscheibe
-item.railcraft.turbine.rotor.name=Turbinenrotor
 
 item.railcraft.routing.table.name=Streckenplan
 item.railcraft.routing.ticket.gold.name=Goldenes Eisenbahnticket
 item.railcraft.routing.ticket.name=Eisenbahnticket
+
+item.railcraft.signal.lamp.name=Signallampe
+
+item.railcraft.tie.stone.name=Steinschwelle
+item.railcraft.tie.wood.name=Holzschwelle
 
 item.railcraft.tool.axe.steel.name=Stahlaxt
 item.railcraft.tool.charge.meter.name=Ladungsmessgerät
@@ -287,6 +295,13 @@ item.railcraft.tool.signal.tuner.name=Abstimmgerät
 item.railcraft.tool.signal.tuner.tip=Verbindet Signalsender und -empfänger
 item.railcraft.tool.sword.steel.name=Stahlschwert
 item.railcraft.tool.whistle.tuner.name=Pfeifenstimmer
+
+item.railcraft.track_parts.name=Gleisteile
+item.railcraft.track_parts.tip=Für die Fertigung von Gleiszubehör
+
+item.railcraft.turbine.blade.name=Turbinenschaufel
+item.railcraft.turbine.disk.name=Turbinenscheibe
+item.railcraft.turbine.rotor.name=Turbinenrotor
 
 item.railcraft.upgrade.lapotron=Lapotron-Ladeupgrade
 
@@ -1195,10 +1210,7 @@ track_kit.railcraft.railcraft_coupler.name=Koppel
 track_kit.railcraft.railcraft_coupler.tip=Koppelt/Entkoppelt passierende Waggons\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_detector.name=Sensor
-track_kit.railcraft.railcraft_detector.tip=Sendet ein Redstone-Signal aus, wenn ein Waggon vorbeifährt
-
-track_kit.railcraft.railcraft_detector_travel.name=Fahrtrichtungssensor
-track_kit.railcraft.railcraft_detector_travel.tip=Sendet Redstone-Signal aus, wenn ein Waggon\n in der angezeigten Richtung passiert\n§o§9- Verändere die Richtung mit einem Brecheisen -
+track_kit.railcraft.railcraft_detector.tip=Sendet Redstone-Signal aus, wenn ein Waggon\n in der angezeigten Richtung passiert\n§o§9- Verändere die Richtung mit einem Brecheisen -
 
 track_kit.railcraft.railcraft_disembarking.name=Auswurf
 track_kit.railcraft.railcraft_disembarking.tip=Wirft fahrende Lebewesen in Richtung des Pfeils aus dem Waggon\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
