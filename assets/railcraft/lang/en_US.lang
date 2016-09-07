@@ -124,13 +124,13 @@ item.minecartFurnace.name=Furnace Cart
 item.minecartTnt.name=TNT Cart
 item.minecartHopper.name=Hopper Cart
 
-item.railcraft.armor.goggles.name=Trackman's Goggles
-item.railcraft.armor.overalls.name=Engineer's Overalls
-item.railcraft.armor.overalls.tip=Protection against the\n dangers of track-working
 item.railcraft.armor.boots.steel.name=Steel Boots
+item.railcraft.armor.chestplate.steel.name=Steel Chestplate
+item.railcraft.armor.goggles.name=Trackman's Goggles
 item.railcraft.armor.helmet.steel.name=Steel Helmet
 item.railcraft.armor.leggings.steel.name=Steel Leggings
-item.railcraft.armor.chestplate.steel.name=Steel Chestplate
+item.railcraft.armor.overalls.name=Engineer's Overalls
+item.railcraft.armor.overalls.tip=Protection against the\n dangers of track-working
 
 item.railcraft.backpack.apothecary.t1.name=Apothecary's Backpack
 item.railcraft.backpack.apothecary.t2.name=Woven Apothecary's Backpack
@@ -140,9 +140,25 @@ item.railcraft.backpack.tip=Designed by Railcraft, Inc.
 item.railcraft.backpack.trackman.t1.name=Trackman's Backpack
 item.railcraft.backpack.trackman.t2.name=Woven Trackman's Backpack
 
+item.railcraft.bleached.clay.name=Bleached Clay
+
 item.railcraft.borehead.diamond.name=Diamond Bore Head
 item.railcraft.borehead.iron.name=Iron Bore Head
 item.railcraft.borehead.steel.name=Steel Bore Head
+
+item.railcraft.circuit.controller.name=Controller Circuit
+item.railcraft.circuit.receiver.name=Receiver Circuit
+item.railcraft.circuit.signal.name=Signal Circuit
+
+item.railcraft.concrete.name=Bag of Concrete
+
+item.railcraft.dust.charcoal.name=Charcoal Dust
+item.railcraft.dust.obsidian.name=Obsidian Dust
+item.railcraft.dust.saltpeter.name=Saltpeter
+item.railcraft.dust.slag.name=Ground Blast Furnace Slag
+item.railcraft.dust.sulfur.name=Sulfur
+
+item.railcraft.emblem.name=Emblem
 
 item.railcraft.entity.bore.name=Tunnel Bore
 item.railcraft.entity.cart.anchor.admin.name=Admin Anchor Cart
@@ -178,13 +194,6 @@ item.railcraft.entity.mow.track.remover.tip=Removes tracks it passes over
 item.railcraft.entity.mow.undercutter.name=Undercutter Cart
 item.railcraft.entity.mow.undercutter.tip=Replaces the blocks\n under the track
 
-item.railcraft.dust.charcoal.name=Charcoal Dust
-item.railcraft.dust.obsidian.name=Obsidian Dust
-item.railcraft.dust.saltpeter.name=Saltpeter
-item.railcraft.dust.sulfur.name=Sulfur
-
-item.railcraft.emblem.name=Emblem
-
 item.railcraft.firestone.cracked.name=Cracked Firestone
 item.railcraft.firestone.cracked.tip.charged=Leaking heat,\n it can still be used\n if you are careful...
 item.railcraft.firestone.cracked.tip.empty=Damaged, but it\n could still be useful\n if you could recharge it...
@@ -206,6 +215,11 @@ item.railcraft.fluid.steam.bottle.name=Steam Bottle
 
 item.railcraft.fuel.coke.name=Coal Coke
 
+item.railcraft.gear.bushing.name=Tin Gear Bushing
+item.railcraft.gear.gold.plate.name=Gold-Plate Gear
+item.railcraft.gear.iron.name=Iron Gear
+item.railcraft.gear.steel.name=Steel Gear
+
 item.railcraft.ingot.copper.name=Copper Ingot
 item.railcraft.ingot.lead.name=Lead Ingot
 item.railcraft.ingot.steel.name=Steel Ingot
@@ -217,38 +231,32 @@ item.railcraft.nugget.lead.name=Lead Nugget
 item.railcraft.nugget.steel.name=Steel Nugget
 item.railcraft.nugget.tin.name=Tin Nugget
 
-item.railcraft.part.bleached.clay.name=Bleached Clay
-item.railcraft.part.circuit.controller.name=Controller Circuit
-item.railcraft.part.circuit.receiver.name=Receiver Circuit
-item.railcraft.part.circuit.signal.name=Signal Circuit
-item.railcraft.part.gear.bushing.name=Tin Gear Bushing
-item.railcraft.part.gear.gold.plate.name=Gold-Plate Gear
-item.railcraft.part.gear.iron.name=Iron Gear
-item.railcraft.part.gear.steel.name=Steel Gear
-item.railcraft.part.plate.copper.name=Copper Plate
-item.railcraft.part.plate.iron.name=Iron Plate
-item.railcraft.part.plate.lead.name=Lead Plate
-item.railcraft.part.plate.steel.name=Steel Plate
-item.railcraft.part.plate.tin.name=Tin Plate
-item.railcraft.part.rail.advanced.name=Advanced Rail
-item.railcraft.part.rail.electric.name=Electric Rail
-item.railcraft.part.rail.reinforced.name=Reinforced Rail
-item.railcraft.part.rail.speed.name=H.S. Rail
-item.railcraft.part.rail.standard.name=Standard Rail
-item.railcraft.part.rail.wood.name=Wooden Rail
-item.railcraft.part.railbed.stone.name=Stone Railbed
-item.railcraft.part.railbed.wood.name=Wooden Railbed
-item.railcraft.part.rebar.name=Rebar
-item.railcraft.part.signal.lamp.name=Signal Lamp
-item.railcraft.part.tie.stone.name=Stone Tie
-item.railcraft.part.tie.wood.name=Wooden Tie
-item.railcraft.part.turbine.blade.name=Turbine Blade
-item.railcraft.part.turbine.disk.name=Turbine Disk
-item.railcraft.part.turbine.rotor.name=Turbine Rotor
+item.railcraft.plate.copper.name=Copper Plate
+item.railcraft.plate.iron.name=Iron Plate
+item.railcraft.plate.lead.name=Lead Plate
+item.railcraft.plate.steel.name=Steel Plate
+item.railcraft.plate.tin.name=Tin Plate
+
+item.railcraft.rail.advanced.name=Advanced Rail
+item.railcraft.rail.electric.name=Electric Rail
+item.railcraft.rail.reinforced.name=Reinforced Rail
+item.railcraft.rail.speed.name=H.S. Rail
+item.railcraft.rail.standard.name=Standard Rail
+item.railcraft.rail.wood.name=Wooden Rail
+
+item.railcraft.railbed.stone.name=Stone Railbed
+item.railcraft.railbed.wood.name=Wooden Railbed
+
+item.railcraft.rebar.name=Rebar
 
 item.railcraft.routing.table.name=Routing Table
 item.railcraft.routing.ticket.gold.name=Golden Railway Ticket
 item.railcraft.routing.ticket.name=Railway Ticket
+
+item.railcraft.signal.lamp.name=Signal Lamp
+
+item.railcraft.tie.stone.name=Stone Tie
+item.railcraft.tie.wood.name=Wooden Tie
 
 item.railcraft.tool.axe.steel.name=Steel Axe
 item.railcraft.tool.charge.meter.name=Charge Meter
@@ -287,6 +295,13 @@ item.railcraft.tool.signal.tuner.name=Signal Tuner
 item.railcraft.tool.signal.tuner.tip=Links Controllers to Receivers
 item.railcraft.tool.sword.steel.name=Steel Sword
 item.railcraft.tool.whistle.tuner.name=Whistle Tuner
+
+item.railcraft.track_parts.name=Track Parts
+item.railcraft.track_parts.tip=Used in crafting Track Kits
+
+item.railcraft.turbine.blade.name=Turbine Blade
+item.railcraft.turbine.disk.name=Turbine Disk
+item.railcraft.turbine.rotor.name=Turbine Rotor
 
 item.railcraft.upgrade.lapotron=Lapotron Loader Upgrade
 
@@ -1195,10 +1210,7 @@ track_kit.railcraft.railcraft_coupler.name=Coupler
 track_kit.railcraft.railcraft_coupler.tip=Couples/Decouples passing Carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
 
 track_kit.railcraft.railcraft_detector.name=Detector
-track_kit.railcraft.railcraft_detector.tip=Emits Redstone when a cart passes
-
-track_kit.railcraft.railcraft_detector_travel.name=Travel Detector
-track_kit.railcraft.railcraft_detector_travel.tip=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Crowbar to change direction -
+track_kit.railcraft.railcraft_detector.tip=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Crowbar to change detection direction -
 
 track_kit.railcraft.railcraft_disembarking.name=Disembarking
 track_kit.railcraft.railcraft_disembarking.tip=Dismounts riding Entities in direction of arrow\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to enable -
