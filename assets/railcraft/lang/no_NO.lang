@@ -463,16 +463,16 @@ tile.railcraft.machine.beta.tank.steel.gauge.name=Steel Tank Gauge
 tile.railcraft.machine.beta.tank.steel.valve.name=Steel Tank Valve
 tile.railcraft.machine.beta.tank.steel.wall.name=Steel Tank Wall
 
-tile.railcraft.machine.gamma.dispenser.cart.name=Vogn Dispenser
-tile.railcraft.machine.gamma.dispenser.train.name=Tog Dispenser
-tile.railcraft.machine.gamma.loader.energy.name=Energi Lader
-tile.railcraft.machine.gamma.loader.item.advanced.name=Avansert gjenstandslaster
-tile.railcraft.machine.gamma.loader.item.name=Gjenstandslaster
-tile.railcraft.machine.gamma.loader.liquid.name=Væskelaster
-tile.railcraft.machine.gamma.unloader.energy.name=Energitømmer
-tile.railcraft.machine.gamma.unloader.item.advanced.name=Avansert gjenstandsavlaster
-tile.railcraft.machine.gamma.unloader.item.name=Gjenstandsavlaster
-tile.railcraft.machine.gamma.unloader.liquid.name=Væskeavlaster
+tile.railcraft.manipulator.dispenser.cart.name=Vogn Dispenser
+tile.railcraft.manipulator.dispenser.train.name=Tog Dispenser
+tile.railcraft.manipulator.loader.energy.name=Energi Lader
+tile.railcraft.manipulator.loader.item.advanced.name=Avansert gjenstandslaster
+tile.railcraft.manipulator.loader.item.name=Gjenstandslaster
+tile.railcraft.manipulator.loader.liquid.name=Væskelaster
+tile.railcraft.manipulator.unloader.energy.name=Energitømmer
+tile.railcraft.manipulator.unloader.item.advanced.name=Avansert gjenstandsavlaster
+tile.railcraft.manipulator.unloader.item.name=Gjenstandsavlaster
+tile.railcraft.manipulator.unloader.liquid.name=Væskeavlaster
 
 railcraft.multiblock.state.valid=Structure is valid
 railcraft.multiblock.state.invalid.pattern=Does not match pattern: %s

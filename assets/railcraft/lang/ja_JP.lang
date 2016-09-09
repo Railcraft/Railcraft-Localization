@@ -141,16 +141,16 @@ tile.railcraft.machine.beta.tank.iron.gauge.name=鉄タンクのゲージ
 tile.railcraft.machine.beta.tank.iron.valve.name=鉄タンクのバルブ
 tile.railcraft.machine.beta.tank.iron.wall.name=鉄タンクの壁材
 
-tile.railcraft.machine.gamma.dispenser.cart.name=トロッコディスペンサー
-tile.railcraft.machine.gamma.dispenser.train.name=列車ディスペンサー
-tile.railcraft.machine.gamma.loader.energy.name=EUローダー
-tile.railcraft.machine.gamma.loader.item.advanced.name=発展型アイテムローダー
-tile.railcraft.machine.gamma.loader.item.name=アイテムローダー
-tile.railcraft.machine.gamma.loader.liquid.name=液体ローダー
-tile.railcraft.machine.gamma.unloader.energy.name=EUアンローダー
-tile.railcraft.machine.gamma.unloader.item.advanced.name=発展型アイテムアンローダー
-tile.railcraft.machine.gamma.unloader.item.name=アイテムアンローダー
-tile.railcraft.machine.gamma.unloader.liquid.name=液体アンローダー
+tile.railcraft.manipulator.dispenser.cart.name=トロッコディスペンサー
+tile.railcraft.manipulator.dispenser.train.name=列車ディスペンサー
+tile.railcraft.manipulator.loader.energy.name=EUローダー
+tile.railcraft.manipulator.loader.item.advanced.name=発展型アイテムローダー
+tile.railcraft.manipulator.loader.item.name=アイテムローダー
+tile.railcraft.manipulator.loader.liquid.name=液体ローダー
+tile.railcraft.manipulator.unloader.energy.name=EUアンローダー
+tile.railcraft.manipulator.unloader.item.advanced.name=発展型アイテムアンローダー
+tile.railcraft.manipulator.unloader.item.name=アイテムアンローダー
+tile.railcraft.manipulator.unloader.liquid.name=液体アンローダー
 
 
 tile.railcraft.ore.saltpeter.name=硝酸カリウム鉱石

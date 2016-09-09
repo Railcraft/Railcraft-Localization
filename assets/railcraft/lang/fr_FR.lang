@@ -479,16 +479,16 @@ tile.railcraft.machine.beta.tank.steel.gauge.name=Jaugeur de réservoir en acier
 tile.railcraft.machine.beta.tank.steel.valve.name=Valve de réservoir en acier
 tile.railcraft.machine.beta.tank.steel.wall.name=Mur de réservoir en acier
 
-tile.railcraft.machine.gamma.dispenser.cart.name=Distributeur de wagonnet
-tile.railcraft.machine.gamma.dispenser.train.name=Distributeur de train
-tile.railcraft.machine.gamma.loader.energy.name=Chargeur d'énergie
-tile.railcraft.machine.gamma.loader.item.advanced.name=Chargeur d'article avancé
-tile.railcraft.machine.gamma.loader.item.name=Chargeur d'article
-tile.railcraft.machine.gamma.loader.liquid.name=Chargeur de liquide
-tile.railcraft.machine.gamma.unloader.energy.name=Déchargeur d'énergie
-tile.railcraft.machine.gamma.unloader.item.advanced.name=Déchargeur d'article avancé
-tile.railcraft.machine.gamma.unloader.item.name=Déchargeur d'article
-tile.railcraft.machine.gamma.unloader.liquid.name=Déchargeur de liquide
+tile.railcraft.manipulator.dispenser.cart.name=Distributeur de wagonnet
+tile.railcraft.manipulator.dispenser.train.name=Distributeur de train
+tile.railcraft.manipulator.loader.energy.name=Chargeur d'énergie
+tile.railcraft.manipulator.loader.item.advanced.name=Chargeur d'article avancé
+tile.railcraft.manipulator.loader.item.name=Chargeur d'article
+tile.railcraft.manipulator.loader.liquid.name=Chargeur de liquide
+tile.railcraft.manipulator.unloader.energy.name=Déchargeur d'énergie
+tile.railcraft.manipulator.unloader.item.advanced.name=Déchargeur d'article avancé
+tile.railcraft.manipulator.unloader.item.name=Déchargeur d'article
+tile.railcraft.manipulator.unloader.liquid.name=Déchargeur de liquide
 
 railcraft.multiblock.state.valid=La structure est valide
 railcraft.multiblock.state.invalid.pattern=Ne correspond pas au modèle: %s

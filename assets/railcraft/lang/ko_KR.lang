@@ -381,16 +381,16 @@ tile.railcraft.machine.beta.tank.steel.gauge.name=강철 탱크 게이지
 tile.railcraft.machine.beta.tank.steel.valve.name=강철 탱크 밸브
 tile.railcraft.machine.beta.tank.steel.wall.name=강철 탱크 벽
 
-tile.railcraft.machine.gamma.dispenser.cart.name=카트 발사기
-tile.railcraft.machine.gamma.dispenser.train.name=열차 발사기
-tile.railcraft.machine.gamma.loader.energy.name=에너지 공급기
-tile.railcraft.machine.gamma.loader.item.advanced.name=강화 아이템 공급기
-tile.railcraft.machine.gamma.loader.item.name=아이템 공급기
-tile.railcraft.machine.gamma.loader.liquid.name=액체 공급기
-tile.railcraft.machine.gamma.unloader.energy.name=에너지 회수기
-tile.railcraft.machine.gamma.unloader.item.advanced.name=강화 아이템 회수기
-tile.railcraft.machine.gamma.unloader.item.name=아이템 회수기
-tile.railcraft.machine.gamma.unloader.liquid.name=액체 회수기
+tile.railcraft.manipulator.dispenser.cart.name=카트 발사기
+tile.railcraft.manipulator.dispenser.train.name=열차 발사기
+tile.railcraft.manipulator.loader.energy.name=에너지 공급기
+tile.railcraft.manipulator.loader.item.advanced.name=강화 아이템 공급기
+tile.railcraft.manipulator.loader.item.name=아이템 공급기
+tile.railcraft.manipulator.loader.liquid.name=액체 공급기
+tile.railcraft.manipulator.unloader.energy.name=에너지 회수기
+tile.railcraft.manipulator.unloader.item.advanced.name=강화 아이템 회수기
+tile.railcraft.manipulator.unloader.item.name=아이템 회수기
+tile.railcraft.manipulator.unloader.liquid.name=액체 회수기
 
 item.railcraft.nugget.iron.name=철 조각
 item.railcraft.nugget.steel.name=강철 조각

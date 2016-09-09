@@ -382,16 +382,16 @@ tile.railcraft.machine.beta.tank.steel.gauge.name=Indicatore tanica di Acciaio
 tile.railcraft.machine.beta.tank.steel.valve.name=Valvola della tanica di Acciaio
 tile.railcraft.machine.beta.tank.steel.wall.name=Parete della tanica di Acciaio
 
-tile.railcraft.machine.gamma.dispenser.cart.name=Distributore di Minecarts
-tile.railcraft.machine.gamma.dispenser.train.name=Distributore di treni
-tile.railcraft.machine.gamma.loader.energy.name=Caricatore di energia
-tile.railcraft.machine.gamma.loader.item.advanced.name=Caricatore d'oggetti avanzato
-tile.railcraft.machine.gamma.loader.item.name=Caricatore d'oggetti
-tile.railcraft.machine.gamma.loader.liquid.name=Caricatore di liquidi
-tile.railcraft.machine.gamma.unloader.energy.name=Scaricatore di energia
-tile.railcraft.machine.gamma.unloader.item.advanced.name=Scaricatore d'oggetti avanzato
-tile.railcraft.machine.gamma.unloader.item.name=Scaricatore d'oggetti
-tile.railcraft.machine.gamma.unloader.liquid.name=Scaricatore di liquidi
+tile.railcraft.manipulator.dispenser.cart.name=Distributore di Minecarts
+tile.railcraft.manipulator.dispenser.train.name=Distributore di treni
+tile.railcraft.manipulator.loader.energy.name=Caricatore di energia
+tile.railcraft.manipulator.loader.item.advanced.name=Caricatore d'oggetti avanzato
+tile.railcraft.manipulator.loader.item.name=Caricatore d'oggetti
+tile.railcraft.manipulator.loader.liquid.name=Caricatore di liquidi
+tile.railcraft.manipulator.unloader.energy.name=Scaricatore di energia
+tile.railcraft.manipulator.unloader.item.advanced.name=Scaricatore d'oggetti avanzato
+tile.railcraft.manipulator.unloader.item.name=Scaricatore d'oggetti
+tile.railcraft.manipulator.unloader.liquid.name=Scaricatore di liquidi
 
 item.railcraft.nugget.iron.name=Pepita di Ferro
 item.railcraft.nugget.steel.name=Pepita di Acciaio

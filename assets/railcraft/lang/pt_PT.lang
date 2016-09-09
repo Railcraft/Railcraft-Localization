@@ -139,16 +139,16 @@ tile.railcraft.machine.beta.tank.iron.gauge.name=Janela para Tanque
 tile.railcraft.machine.beta.tank.iron.valve.name=Válvula para Tanque
 tile.railcraft.machine.beta.tank.iron.wall.name=Bloco para Tanque
 
-tile.railcraft.machine.gamma.dispenser.cart.name=Dispensador de Vagões
-tile.railcraft.machine.gamma.dispenser.train.name=Dispensador de Comboios
-tile.railcraft.machine.gamma.loader.energy.name=Carregador de Energia
-tile.railcraft.machine.gamma.loader.item.advanced.name=Carregador de Obj. Avançado
-tile.railcraft.machine.gamma.loader.item.name=Carregador de Objectos
-tile.railcraft.machine.gamma.loader.liquid.name=Carregador de Líquidos
-tile.railcraft.machine.gamma.unloader.energy.name=Descarregador de Energia
-tile.railcraft.machine.gamma.unloader.item.advanced.name=Descarregador de Obj. Avançado
-tile.railcraft.machine.gamma.unloader.item.name=Descarregador de Objectos
-tile.railcraft.machine.gamma.unloader.liquid.name=Descarregador de Líquidos
+tile.railcraft.manipulator.dispenser.cart.name=Dispensador de Vagões
+tile.railcraft.manipulator.dispenser.train.name=Dispensador de Comboios
+tile.railcraft.manipulator.loader.energy.name=Carregador de Energia
+tile.railcraft.manipulator.loader.item.advanced.name=Carregador de Obj. Avançado
+tile.railcraft.manipulator.loader.item.name=Carregador de Objectos
+tile.railcraft.manipulator.loader.liquid.name=Carregador de Líquidos
+tile.railcraft.manipulator.unloader.energy.name=Descarregador de Energia
+tile.railcraft.manipulator.unloader.item.advanced.name=Descarregador de Obj. Avançado
+tile.railcraft.manipulator.unloader.item.name=Descarregador de Objectos
+tile.railcraft.manipulator.unloader.liquid.name=Descarregador de Líquidos
 
 
 tile.railcraft.ore.saltpeter.name=Minério de Salitre

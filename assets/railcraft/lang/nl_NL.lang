@@ -224,16 +224,16 @@ tile.railcraft.machine.beta.tank.iron.gauge.name=IJzeren Tank Raam
 tile.railcraft.machine.beta.tank.iron.valve.name=IJzeren Tank Ventiel
 tile.railcraft.machine.beta.tank.iron.wall.name=IJzeren Tank Wand
 
-tile.railcraft.machine.gamma.dispenser.cart.name=Mijnkar Dispenser
-tile.railcraft.machine.gamma.dispenser.train.name=Trein Dispenser
-tile.railcraft.machine.gamma.loader.energy.name=Energielader
-tile.railcraft.machine.gamma.loader.item.advanced.name=Geav. Itemlader
-tile.railcraft.machine.gamma.loader.item.name=Itemlader
-tile.railcraft.machine.gamma.loader.liquid.name=Vloeistoflader
-tile.railcraft.machine.gamma.unloader.energy.name=Energielosser
-tile.railcraft.machine.gamma.unloader.item.advanced.name=Geav. Itemlosser
-tile.railcraft.machine.gamma.unloader.item.name=Item losser
-tile.railcraft.machine.gamma.unloader.liquid.name=Vloeistoflosser
+tile.railcraft.manipulator.dispenser.cart.name=Mijnkar Dispenser
+tile.railcraft.manipulator.dispenser.train.name=Trein Dispenser
+tile.railcraft.manipulator.loader.energy.name=Energielader
+tile.railcraft.manipulator.loader.item.advanced.name=Geav. Itemlader
+tile.railcraft.manipulator.loader.item.name=Itemlader
+tile.railcraft.manipulator.loader.liquid.name=Vloeistoflader
+tile.railcraft.manipulator.unloader.energy.name=Energielosser
+tile.railcraft.manipulator.unloader.item.advanced.name=Geav. Itemlosser
+tile.railcraft.manipulator.unloader.item.name=Item losser
+tile.railcraft.manipulator.unloader.liquid.name=Vloeistoflosser
 
 item.railcraft.nugget.iron.name=IJzeren klompje
 item.railcraft.nugget.steel.name=Stalen klompje
