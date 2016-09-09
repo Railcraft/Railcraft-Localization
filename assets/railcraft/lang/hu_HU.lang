@@ -295,10 +295,10 @@ railcraft.gui.box.controller.aspect.redstone=Vöröskö aspektus:
 
 railcraft.gui.cart.tnt.fuse=Biztosíték
 railcraft.gui.cart.track.relayer.pattern=Mintázat
-railcraft.gui.cart.track.relayer.stock=Készlet
+railcraft.gui.cart.track.relayer.transfer.stock.name=Készlet
 railcraft.gui.cart.undercutter.pattern=Mintázat
 railcraft.gui.cart.undercutter.sides=Oldalsó elemek
-railcraft.gui.cart.undercutter.stock=Készlet
+railcraft.gui.cart.undercutter.transfer.stock.name=Készlet
 railcraft.gui.cart.undercutter.under=Alulra helyezendő elem
 
 railcraft.gui.coke.oven=Kokszolókemence
@@ -365,23 +365,23 @@ railcraft.gui.help=Segítség
 
 railcraft.gui.ic2.energy.rate=Arány: %s EU
 
-railcraft.gui.item.loader.all.tips=Összes egyező tárgy mozgatása
-railcraft.gui.item.loader.all=Összes
-railcraft.gui.item.loader.buffer=Buffer
-railcraft.gui.item.loader.complete.tips=Vöröskő jel kibocsátása, ha kész
-railcraft.gui.item.loader.complete=Kész
-railcraft.gui.item.loader.excess.tips=Tartsa a tárgyakat a szűrőben\n a többit mozgassa
-railcraft.gui.item.loader.excess=Felesleg
-railcraft.gui.item.loader.immediate.tips=Vöröskő jel kibocsátása, ha\n egyetlen tárgyat sem mozgatott
-railcraft.gui.item.loader.immediate=Sürgős
-railcraft.gui.item.loader.manual.tips=Sose adjon ki vöröskő jelet
-railcraft.gui.item.loader.manual=Kézi
-railcraft.gui.item.loader.partial.tips=Vöröskő jel kibocsátása, ha\n a csille nem üres és egyetlen tárgyat sem mozgatott
-railcraft.gui.item.loader.partial=Részleges
-railcraft.gui.item.loader.stock.tips=Tárgyak mozgatása, amíg\n a cél meg nem egyezik a szűrővel
-railcraft.gui.item.loader.stock=Készlet
-railcraft.gui.item.loader.transfer.tips=Pontosan annyi tárgy mozgatása, \n mint amennyi a szűrőben van
-railcraft.gui.item.loader.transfer=Szállítás
+gui.railcraft.manipulator.transfer.all.tips=Összes egyező tárgy mozgatása
+gui.railcraft.manipulator.transfer.all.name=Összes
+gui.railcraft.manipulator.buffer=Buffer
+gui.railcraft.manipulator.redstone.complete.tips=Vöröskő jel kibocsátása, ha kész
+gui.railcraft.manipulator.redstone.complete.name=Kész
+gui.railcraft.manipulator.transfer.excess.tips=Tartsa a tárgyakat a szűrőben\n a többit mozgassa
+gui.railcraft.manipulator.transfer.excess.name=Felesleg
+gui.railcraft.manipulator.redstone.immediate.tips=Vöröskő jel kibocsátása, ha\n egyetlen tárgyat sem mozgatott
+gui.railcraft.manipulator.redstone.immediate.name=Sürgős
+gui.railcraft.manipulator.redstone.manual.tips=Sose adjon ki vöröskő jelet
+gui.railcraft.manipulator.redstone.manual.name=Kézi
+gui.railcraft.manipulator.redstone.partial.tips=Vöröskő jel kibocsátása, ha\n a csille nem üres és egyetlen tárgyat sem mozgatott
+gui.railcraft.manipulator.redstone.partial.name=Részleges
+gui.railcraft.manipulator.transfer.stock.tips=Tárgyak mozgatása, amíg\n a cél meg nem egyezik a szűrővel
+gui.railcraft.manipulator.transfer.stock.name=Készlet
+gui.railcraft.manipulator.transfer.transfer.tips=Pontosan annyi tárgy mozgatása, \n mint amennyi a szűrőben van
+gui.railcraft.manipulator.transfer.transfer.name=Szállítás
 
 railcraft.gui.link.broken=Kapcsolat megszakítva
 railcraft.gui.link.created=Kapcsolat létrehozva
@@ -389,20 +389,20 @@ railcraft.gui.link.failed=Kapcsolat létrehozása nem sikerült
 railcraft.gui.link.started=Kapcsolat megkezdve
 
 railcraft.gui.liquid.capacity=Kapacitás
-railcraft.gui.liquid.loader.empty.tips=Üres csillék megtartása
-railcraft.gui.liquid.loader.empty=Üres megtartása
-railcraft.gui.liquid.loader.fill.tips=Csillék megtartása amíg nincsenek teljesen tele
-railcraft.gui.liquid.loader.fill=Erőltetett telítés
-railcraft.gui.liquid.loader.immediate.tips=Vöröskő jel kibocsátása, ha\n nem mozgott folyadék
-railcraft.gui.liquid.loader.immediate=Sürgős
-railcraft.gui.liquid.loader.manual.tips=Sose adjon ki vöröskő jelet
-railcraft.gui.liquid.loader.manual=Kézi
+
+
+
+
+
+
+
+
 railcraft.gui.liquid.unloader.empty.tips=Csillék megtartása, amíg\n teljesen ki nem ürülnek
 railcraft.gui.liquid.unloader.empty=Üres
-railcraft.gui.liquid.unloader.immediate.tips=Vöröskő jel kibocsátása, ha\n nem mozgott folyadék
-railcraft.gui.liquid.unloader.immediate=Sürgős
-railcraft.gui.liquid.unloader.manual.tips=Sose adjon ki vöröskő jelet
-railcraft.gui.liquid.unloader.manual=Kézi
+railcraft.gui.liquid.unloader.redstone.immediate.tips=Vöröskő jel kibocsátása, ha\n nem mozgott folyadék
+railcraft.gui.liquid.unloader.redstone.immediate.name=Sürgős
+railcraft.gui.liquid.unloader.redstone.manual.tips=Sose adjon ki vöröskő jelet
+railcraft.gui.liquid.unloader.redstone.manual.name=Kézi
 
 railcraft.gui.locomotive.mode.idle=Tétlen
 railcraft.gui.locomotive.mode.running=Fut
@@ -448,7 +448,7 @@ railcraft.gui.routing.table.name=Név
 railcraft.gui.routing.ticket.line1=Ez a menetjegy érvényes
 railcraft.gui.routing.ticket.line2=a következő célállomáshoz:
 railcraft.gui.routing.ticket.manual.title=Az arany menetjegyről bővebben
-railcraft.gui.routing.ticket.manual=Az Arany menetjegy egy olyan menetjegy, mely tetszőleges számú alkalommal használható a közforgalmi vasúton vagy a kibocsátó saját vasúrján.Papírral kombinálva egyszeri alkalomra érvényes menetjegyet készíthetünk belőle.
+railcraft.gui.routing.ticket.redstone.manual.name=Az Arany menetjegy egy olyan menetjegy, mely tetszőleges számú alkalommal használható a közforgalmi vasúton vagy a kibocsátó saját vasúrján.Papírral kombinálva egyszeri alkalomra érvényes menetjegyet készíthetünk belőle.
 railcraft.gui.routing.ticket.tips.blank=Üres menetjegy
 railcraft.gui.routing.ticket.tips.dest=Célállomás:
 railcraft.gui.routing.ticket.tips.issuer=Kibocsátó:

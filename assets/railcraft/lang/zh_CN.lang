@@ -273,7 +273,7 @@ item.railcraft.tool.notepad.tips.contents.filter.items=§2物品过滤器
 item.railcraft.tool.notepad.tips.contents.filter.fluid=§b流体过滤器
 item.railcraft.tool.notepad.tips.contents.filter.cart=§e矿车过滤器
 item.railcraft.tool.notepad.tips.contents.empty=§4空
-item.railcraft.tool.notepad.tips.mode.all=全部
+item.railcraft.tool.notepad.tips.mode.transfer.all.name=全部
 item.railcraft.tool.notepad.tips.mode.cart.filter=矿车过滤器
 item.railcraft.tool.notepad.tips.mode.loader.filters=物品/流体过滤器
 item.railcraft.tool.notepad.tips.mode=粘贴模式：%s
@@ -368,8 +368,8 @@ railcraft.gui.bore.track=轨道
 
 railcraft.gui.box.aspect.action=对应信号域来发送红石信号
 railcraft.gui.box.capacitor.duration=持续发送红石信号%s秒
-railcraft.gui.box.capacitor.immediate=同步
-railcraft.gui.box.capacitor.immediate.tips=在收到红石信号同时开始计时.
+railcraft.gui.box.capacitor.redstone.immediate.name=同步
+railcraft.gui.box.capacitor.redstone.immediate.tips=在收到红石信号同时开始计时.
 railcraft.gui.box.capacitor.delayed=延迟
 railcraft.gui.box.capacitor.delayed.tips=在上一个红石信号结束时开始计时.
 railcraft.gui.box.controller.aspect.default=默认信号域:
@@ -377,10 +377,10 @@ railcraft.gui.box.controller.aspect.redstone=红石信号域:
 
 railcraft.gui.cart.tnt.fuse=导火线
 railcraft.gui.cart.track.relayer.pattern=模式
-railcraft.gui.cart.track.relayer.stock=库存
+railcraft.gui.cart.track.relayer.transfer.stock.name=库存
 railcraft.gui.cart.undercutter.pattern=模式
 railcraft.gui.cart.undercutter.sides=侧边
-railcraft.gui.cart.undercutter.stock=库存
+railcraft.gui.cart.undercutter.transfer.stock.name=库存
 railcraft.gui.cart.undercutter.under=下方
 
 railcraft.gui.charge.meter.network=全网 -> 规模: %s | 电力: %s c | 抽取: %s c/t | 损耗: %s c/t
@@ -454,23 +454,23 @@ railcraft.gui.help=帮助
 
 railcraft.gui.ic2.energy.rate=速率: %s EU
 
-railcraft.gui.item.loader.all.tips=移动所有匹配物品
-railcraft.gui.item.loader.all=全部
-railcraft.gui.item.loader.buffer=缓冲
-railcraft.gui.item.loader.complete.tips=完成后发出红石信号
-railcraft.gui.item.loader.complete=装满
-railcraft.gui.item.loader.excess.tips=保持过滤设置物品\n移动其余物品
-railcraft.gui.item.loader.excess=余下
-railcraft.gui.item.loader.immediate.tips=如果无物品被移动\n则发出红石信号
-railcraft.gui.item.loader.immediate=没货发车
-railcraft.gui.item.loader.manual.tips=从不发出红石信号
-railcraft.gui.item.loader.manual=手动
-railcraft.gui.item.loader.partial.tips=如果车子非空且无物品被移动\n则发出红石信号
-railcraft.gui.item.loader.partial=空车保留
-railcraft.gui.item.loader.stock.tips=移动物品直到\n目标容器符合过滤设定
-railcraft.gui.item.loader.stock=达到
-railcraft.gui.item.loader.transfer.tips=尽可能移动\n过滤设定中数量的物品
-railcraft.gui.item.loader.transfer=转移
+gui.railcraft.manipulator.transfer.all.tips=移动所有匹配物品
+gui.railcraft.manipulator.transfer.all.name=全部
+gui.railcraft.manipulator.buffer=缓冲
+gui.railcraft.manipulator.redstone.complete.tips=完成后发出红石信号
+gui.railcraft.manipulator.redstone.complete.name=装满
+gui.railcraft.manipulator.transfer.excess.tips=保持过滤设置物品\n移动其余物品
+gui.railcraft.manipulator.transfer.excess.name=余下
+gui.railcraft.manipulator.redstone.immediate.tips=如果无物品被移动\n则发出红石信号
+gui.railcraft.manipulator.redstone.immediate.name=没货发车
+gui.railcraft.manipulator.redstone.manual.tips=从不发出红石信号
+gui.railcraft.manipulator.redstone.manual.name=手动
+gui.railcraft.manipulator.redstone.partial.tips=如果车子非空且无物品被移动\n则发出红石信号
+gui.railcraft.manipulator.redstone.partial.name=空车保留
+gui.railcraft.manipulator.transfer.stock.tips=移动物品直到\n目标容器符合过滤设定
+gui.railcraft.manipulator.transfer.stock.name=达到
+gui.railcraft.manipulator.transfer.transfer.tips=尽可能移动\n过滤设定中数量的物品
+gui.railcraft.manipulator.transfer.transfer.name=转移
 
 railcraft.gui.link.broken=链接已损坏
 railcraft.gui.link.created=链接已创建
@@ -478,20 +478,20 @@ railcraft.gui.link.failed=链接已失败
 railcraft.gui.link.started=链接已开始
 
 railcraft.gui.liquid.capacity=容量
-railcraft.gui.liquid.loader.empty.tips=驻留空车
-railcraft.gui.liquid.loader.empty=空
-railcraft.gui.liquid.loader.fill.tips=驻车直到完全载满
-railcraft.gui.liquid.loader.fill=结束
-railcraft.gui.liquid.loader.immediate.tips=如果没有液体被移动\n则发出红石信号
-railcraft.gui.liquid.loader.immediate=空载发车
-railcraft.gui.liquid.loader.manual.tips=从不发出红石
-railcraft.gui.liquid.loader.manual=手动
+
+
+
+
+
+
+
+
 railcraft.gui.liquid.unloader.empty.tips=驻车直到完全卸载
 railcraft.gui.liquid.unloader.empty=空
-railcraft.gui.liquid.unloader.immediate.tips=如果没有液体被移动\n则发出红石信号
-railcraft.gui.liquid.unloader.immediate=直接发车
-railcraft.gui.liquid.unloader.manual.tips=从不发出红石信号
-railcraft.gui.liquid.unloader.manual=手动
+railcraft.gui.liquid.unloader.redstone.immediate.tips=如果没有液体被移动\n则发出红石信号
+railcraft.gui.liquid.unloader.redstone.immediate.name=直接发车
+railcraft.gui.liquid.unloader.redstone.manual.tips=从不发出红石信号
+railcraft.gui.liquid.unloader.redstone.manual.name=手动
 
 railcraft.gui.locomotive.mode.idle=空闲
 railcraft.gui.locomotive.mode.running=运行
@@ -544,7 +544,7 @@ railcraft.gui.routing.table.name=名称
 railcraft.gui.routing.ticket.line1=车票有效
 railcraft.gui.routing.ticket.line2=前往以下目的地:
 railcraft.gui.routing.ticket.manual.title=关于黄金车票
-railcraft.gui.routing.ticket.manual=黄金车票是一种在任何共有/私人列车上都可以无限使用的车票,还可以用它拓印纸张来制造一次性车票.
+railcraft.gui.routing.ticket.redstone.manual.name=黄金车票是一种在任何共有/私人列车上都可以无限使用的车票,还可以用它拓印纸张来制造一次性车票.
 railcraft.gui.routing.ticket.tips.blank=空白车票
 railcraft.gui.routing.ticket.tips.dest=空白车票
 railcraft.gui.routing.ticket.tips.issuer=发行人：

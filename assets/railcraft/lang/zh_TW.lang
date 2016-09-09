@@ -264,7 +264,7 @@ item.railcraft.tool.notepad.tips.contents.filter.items=§2物品過濾欄
 item.railcraft.tool.notepad.tips.contents.filter.fluid=§b液體過濾欄
 item.railcraft.tool.notepad.tips.contents.filter.cart=§e車種過濾欄
 item.railcraft.tool.notepad.tips.contents.empty=§4空白
-item.railcraft.tool.notepad.tips.mode.all=全部
+item.railcraft.tool.notepad.tips.mode.transfer.all.name=全部
 item.railcraft.tool.notepad.tips.mode.cart.filter=車種過濾欄
 item.railcraft.tool.notepad.tips.mode.loader.filters=物品/液體過濾欄
 item.railcraft.tool.notepad.tips.mode=貼上模式: @s
@@ -356,8 +356,8 @@ railcraft.gui.bore.track=鐵軌
 
 railcraft.gui.box.aspect.action=輸出條件
 railcraft.gui.box.capacitor.duration=輸出 %s 秒紅石訊號
-railcraft.gui.box.capacitor.immediate=即刻
-railcraft.gui.box.capacitor.immediate.tips=收到輸入訊號即開始輸出
+railcraft.gui.box.capacitor.redstone.immediate.name=即刻
+railcraft.gui.box.capacitor.redstone.immediate.tips=收到輸入訊號即開始輸出
 railcraft.gui.box.capacitor.delayed=延遲
 railcraft.gui.box.capacitor.delayed.tips=輸入訊號結束才開始輸出
 railcraft.gui.box.controller.aspect.default=預設信號:
@@ -365,10 +365,10 @@ railcraft.gui.box.controller.aspect.redstone=充能信號:
 
 railcraft.gui.cart.tnt.fuse=導火線
 railcraft.gui.cart.track.relayer.pattern=樣式
-railcraft.gui.cart.track.relayer.stock=存量
+railcraft.gui.cart.track.relayer.transfer.stock.name=存量
 railcraft.gui.cart.undercutter.pattern=樣式
 railcraft.gui.cart.undercutter.sides=側邊
-railcraft.gui.cart.undercutter.stock=存量
+railcraft.gui.cart.undercutter.transfer.stock.name=存量
 railcraft.gui.cart.undercutter.under=底下
 
 railcraft.gui.coke.oven=焦炭爐
@@ -437,23 +437,23 @@ railcraft.gui.help=幫助
 
 railcraft.gui.ic2.energy.rate=速率: %s EU
 
-railcraft.gui.item.loader.all.tips=移動所有選擇的物品
-railcraft.gui.item.loader.all=全部
-railcraft.gui.item.loader.buffer=緩衝
-railcraft.gui.item.loader.complete.tips=裝滿即輸出紅石訊號
-railcraft.gui.item.loader.complete=裝滿
-railcraft.gui.item.loader.excess.tips=移動篩選欄的物品直到\n只剩下指定的數量
-railcraft.gui.item.loader.excess=留下
-railcraft.gui.item.loader.immediate.tips=如果沒有物品可以移動\n就輸出紅石訊號
-railcraft.gui.item.loader.immediate=不等待
-railcraft.gui.item.loader.manual.tips=永不輸出紅石訊號
-railcraft.gui.item.loader.manual=手動
-railcraft.gui.item.loader.partial.tips=當沒物品被移動且礦車不是\n空的，便輸出紅石訊號
-railcraft.gui.item.loader.partial=留空車
-railcraft.gui.item.loader.stock.tips=移動物品直到目標擁有的\n物品達到指定數量
-railcraft.gui.item.loader.stock=達到
-railcraft.gui.item.loader.transfer.tips=移動篩選欄中指定\n數量的物品
-railcraft.gui.item.loader.transfer=移動
+gui.railcraft.manipulator.transfer.all.tips=移動所有選擇的物品
+gui.railcraft.manipulator.transfer.all.name=全部
+gui.railcraft.manipulator.buffer=緩衝
+gui.railcraft.manipulator.redstone.complete.tips=裝滿即輸出紅石訊號
+gui.railcraft.manipulator.redstone.complete.name=裝滿
+gui.railcraft.manipulator.transfer.excess.tips=移動篩選欄的物品直到\n只剩下指定的數量
+gui.railcraft.manipulator.transfer.excess.name=留下
+gui.railcraft.manipulator.redstone.immediate.tips=如果沒有物品可以移動\n就輸出紅石訊號
+gui.railcraft.manipulator.redstone.immediate.name=不等待
+gui.railcraft.manipulator.redstone.manual.tips=永不輸出紅石訊號
+gui.railcraft.manipulator.redstone.manual.name=手動
+gui.railcraft.manipulator.redstone.partial.tips=當沒物品被移動且礦車不是\n空的，便輸出紅石訊號
+gui.railcraft.manipulator.redstone.partial.name=留空車
+gui.railcraft.manipulator.transfer.stock.tips=移動物品直到目標擁有的\n物品達到指定數量
+gui.railcraft.manipulator.transfer.stock.name=達到
+gui.railcraft.manipulator.transfer.transfer.tips=移動篩選欄中指定\n數量的物品
+gui.railcraft.manipulator.transfer.transfer.name=移動
 
 railcraft.gui.link.broken=連結解除
 railcraft.gui.link.created=連結成功
@@ -461,20 +461,20 @@ railcraft.gui.link.failed=連結失敗
 railcraft.gui.link.started=開始連結
 
 railcraft.gui.liquid.capacity=容量
-railcraft.gui.liquid.loader.empty.tips=留住空的蓄水車
-railcraft.gui.liquid.loader.empty=留空車
-railcraft.gui.liquid.loader.fill.tips=留住蓄水車直到完全裝滿
-railcraft.gui.liquid.loader.fill=強迫裝滿
-railcraft.gui.liquid.loader.immediate.tips=如果沒有液體可以移動\n就輸出紅石訊號
-railcraft.gui.liquid.loader.immediate=不等待
-railcraft.gui.liquid.loader.manual.tips=永不輸出紅石訊號
-railcraft.gui.liquid.loader.manual=手動
+
+
+
+
+
+
+
+
 railcraft.gui.liquid.unloader.empty.tips=將蓄水車裡的液體\n完全抽空
 railcraft.gui.liquid.unloader.empty=抽乾
-railcraft.gui.liquid.unloader.immediate.tips=如果沒有液體可以移動\n就輸出紅石訊號
-railcraft.gui.liquid.unloader.immediate=不等待
-railcraft.gui.liquid.unloader.manual.tips=永不輸出紅石訊號
-railcraft.gui.liquid.unloader.manual=手動
+railcraft.gui.liquid.unloader.redstone.immediate.tips=如果沒有液體可以移動\n就輸出紅石訊號
+railcraft.gui.liquid.unloader.redstone.immediate.name=不等待
+railcraft.gui.liquid.unloader.redstone.manual.tips=永不輸出紅石訊號
+railcraft.gui.liquid.unloader.redstone.manual.name=手動
 
 railcraft.gui.locomotive.mode.idle=閒置
 railcraft.gui.locomotive.mode.running=運行
@@ -527,7 +527,7 @@ railcraft.gui.routing.table.name=命名
 railcraft.gui.routing.ticket.line1=這張車票適用於
 railcraft.gui.routing.ticket.line2=以下列出的所有目的地:
 railcraft.gui.routing.ticket.manual.title=關於金色車票
-railcraft.gui.routing.ticket.manual=金色車票是一種可以無限次數使用的車票，帶著它，你可以搭乘任何公共或發行者私有的列車。金色車票亦可以放在合成桌上，和紙張一起合成，複製出一模一樣的一次性車票
+railcraft.gui.routing.ticket.redstone.manual.name=金色車票是一種可以無限次數使用的車票，帶著它，你可以搭乘任何公共或發行者私有的列車。金色車票亦可以放在合成桌上，和紙張一起合成，複製出一模一樣的一次性車票
 railcraft.gui.routing.ticket.tips.blank=空白的車票
 railcraft.gui.routing.ticket.tips.dest=目的地:
 railcraft.gui.routing.ticket.tips.issuer=發行人:

@@ -291,10 +291,10 @@ railcraft.gui.box.controller.aspect.redstone=Aspecto Redstone:
 
 railcraft.gui.cart.tnt.fuse=Detonador
 railcraft.gui.cart.track.relayer.pattern=Patrón
-railcraft.gui.cart.track.relayer.stock=Stock
+railcraft.gui.cart.track.relayer.transfer.stock.name=Stock
 railcraft.gui.cart.undercutter.pattern=Patrón
 railcraft.gui.cart.undercutter.sides=Lados
-railcraft.gui.cart.undercutter.stock=Stock
+railcraft.gui.cart.undercutter.transfer.stock.name=Stock
 railcraft.gui.cart.undercutter.under=Debajo
 
 railcraft.gui.coke.oven=Horno de Fuel
@@ -359,23 +359,23 @@ railcraft.gui.help=Ayuda
 
 railcraft.gui.ic2.energy.rate=Tasa: %s EU
 
-railcraft.gui.item.loader.all.tips=Mover todos los objetos que coincidan
-railcraft.gui.item.loader.all=Todo
-railcraft.gui.item.loader.buffer=Bufer
-railcraft.gui.item.loader.complete.tips=Emitir Redstone al completar
-railcraft.gui.item.loader.complete=Completo
-railcraft.gui.item.loader.excess.tips=Mantener objetos en el filtro\n mover el resto
-railcraft.gui.item.loader.excess=Exceso
-railcraft.gui.item.loader.immediate.tips=Emitir Redstone si ningún\n objeto ha sido movido
-railcraft.gui.item.loader.immediate=Inmediato
-railcraft.gui.item.loader.manual.tips=Nunca emitir Redstone
-railcraft.gui.item.loader.manual=Manual
-railcraft.gui.item.loader.partial.tips=Emitir Redstone si no se han movido\n objetos y el carro no esta vacío
-railcraft.gui.item.loader.partial=Parcial
-railcraft.gui.item.loader.stock.tips=Mueve objetos hasta que\n el destino coincida con filtro
-railcraft.gui.item.loader.stock=Stock
-railcraft.gui.item.loader.transfer.tips=Mueve exactamente tantos\n objetos como hay en el filtro
-railcraft.gui.item.loader.transfer=Transferir
+gui.railcraft.manipulator.transfer.all.tips=Mover todos los objetos que coincidan
+gui.railcraft.manipulator.transfer.all.name=Todo
+gui.railcraft.manipulator.buffer=Bufer
+gui.railcraft.manipulator.redstone.complete.tips=Emitir Redstone al completar
+gui.railcraft.manipulator.redstone.complete.name=Completo
+gui.railcraft.manipulator.transfer.excess.tips=Mantener objetos en el filtro\n mover el resto
+gui.railcraft.manipulator.transfer.excess.name=Exceso
+gui.railcraft.manipulator.redstone.immediate.tips=Emitir Redstone si ningún\n objeto ha sido movido
+gui.railcraft.manipulator.redstone.immediate.name=Inmediato
+gui.railcraft.manipulator.redstone.manual.tips=Nunca emitir Redstone
+gui.railcraft.manipulator.redstone.manual.name=Manual
+gui.railcraft.manipulator.redstone.partial.tips=Emitir Redstone si no se han movido\n objetos y el carro no esta vacío
+gui.railcraft.manipulator.redstone.partial.name=Parcial
+gui.railcraft.manipulator.transfer.stock.tips=Mueve objetos hasta que\n el destino coincida con filtro
+gui.railcraft.manipulator.transfer.stock.name=Stock
+gui.railcraft.manipulator.transfer.transfer.tips=Mueve exactamente tantos\n objetos como hay en el filtro
+gui.railcraft.manipulator.transfer.transfer.name=Transferir
 
 railcraft.gui.link.broken=Enlace roto
 railcraft.gui.link.created=Enlace creado
@@ -383,20 +383,20 @@ railcraft.gui.link.failed=Enlace fallado
 railcraft.gui.link.started=Enlace iniciado
 
 railcraft.gui.liquid.capacity=Capacidad
-railcraft.gui.liquid.loader.empty.tips=Retener vagonetas vacías
-railcraft.gui.liquid.loader.empty=Mantener vacío
-railcraft.gui.liquid.loader.fill.tips=Retener vagonetas hasta que estén llenas
-railcraft.gui.liquid.loader.fill=Completar
-railcraft.gui.liquid.loader.immediate.tips=Emitir Redstone si no\n se ha vaciado liquido
-railcraft.gui.liquid.loader.immediate=Inmediato
-railcraft.gui.liquid.loader.manual.tips=Nunca emitir Redstone
-railcraft.gui.liquid.loader.manual=Manual
+
+
+
+
+
+
+
+
 railcraft.gui.liquid.unloader.empty.tips=Mantener vagoneta hasta\n estar vacía
 railcraft.gui.liquid.unloader.empty=Vacío
-railcraft.gui.liquid.unloader.immediate.tips=Emitir Redstone si no\n se ha vaciado liquido
-railcraft.gui.liquid.unloader.immediate=Inmediato
-railcraft.gui.liquid.unloader.manual.tips=Nunca emitir Redstone
-railcraft.gui.liquid.unloader.manual=Manual
+railcraft.gui.liquid.unloader.redstone.immediate.tips=Emitir Redstone si no\n se ha vaciado liquido
+railcraft.gui.liquid.unloader.redstone.immediate.name=Inmediato
+railcraft.gui.liquid.unloader.redstone.manual.tips=Nunca emitir Redstone
+railcraft.gui.liquid.unloader.redstone.manual.name=Manual
 
 railcraft.gui.locomotive.mode.idle=En reposo
 railcraft.gui.locomotive.mode.running=Funcionando
@@ -442,7 +442,7 @@ railcraft.gui.routing.table.name=Nombre
 railcraft.gui.routing.ticket.line1=Este ticket es válido
 railcraft.gui.routing.ticket.line2=para el siguiente destino:
 railcraft.gui.routing.ticket.manual.title=Sobre los Tickets Dorados
-railcraft.gui.routing.ticket.manual=El Ticket Dorado es un ticket de uso ilimitado que puede ser utilizado para subirse a cualquier tren publico o tren del dueño del ticket. Puede ser combinado con papel para producir un tickets de un solo uso.
+railcraft.gui.routing.ticket.redstone.manual.name=El Ticket Dorado es un ticket de uso ilimitado que puede ser utilizado para subirse a cualquier tren publico o tren del dueño del ticket. Puede ser combinado con papel para producir un tickets de un solo uso.
 railcraft.gui.routing.ticket.tips.blank=Ticket en Blanco
 railcraft.gui.routing.ticket.tips.dest=Destino:
 railcraft.gui.routing.ticket.tips.issuer=Emisor:

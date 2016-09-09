@@ -311,8 +311,8 @@ railcraft.gui.bore.track=Trať
 
 railcraft.gui.box.aspect.action=Emituje Rudit na Aspect
 railcraft.gui.box.capacitor.duration=Emituje Rudit na %s sekund
-railcraft.gui.box.capacitor.immediate=Ihned
-railcraft.gui.box.capacitor.immediate.tips=-Immediate-\n Odstartuje časovač jakmile je přijat vstupní signál.
+railcraft.gui.box.capacitor.redstone.immediate.name=Ihned
+railcraft.gui.box.capacitor.redstone.immediate.tips=-Immediate-\n Odstartuje časovač jakmile je přijat vstupní signál.
 railcraft.gui.box.capacitor.delayed=Spoždění
 railcraft.gui.box.capacitor.delayed.tips=-Delayed-\n Odstartuje časovač, když se poslední vstupní signál vypne.
 railcraft.gui.box.controller.aspect.default=Defaultní Aspect:
@@ -320,10 +320,10 @@ railcraft.gui.box.controller.aspect.redstone=Ruditový Aspect:
 
 railcraft.gui.cart.tnt.fuse=Pojistka
 railcraft.gui.cart.track.relayer.pattern=Vzor
-railcraft.gui.cart.track.relayer.stock=Sklad
+railcraft.gui.cart.track.relayer.transfer.stock.name=Sklad
 railcraft.gui.cart.undercutter.pattern=Vzory
 railcraft.gui.cart.undercutter.sides=Strany
-railcraft.gui.cart.undercutter.stock=Sklad
+railcraft.gui.cart.undercutter.transfer.stock.name=Sklad
 railcraft.gui.cart.undercutter.under=Pod
 
 railcraft.gui.coke.oven=Koksovací pec
@@ -392,23 +392,23 @@ railcraft.gui.help=Pomoc
 
 railcraft.gui.ic2.energy.rate=Výkon: %s EU
 
-railcraft.gui.item.loader.all.tips=Přesuňte všechny\n odpovídající položky
-railcraft.gui.item.loader.all=Vše
-railcraft.gui.item.loader.buffer=Nárazník
-railcraft.gui.item.loader.complete.tips=Emituj Rudit po dokončení
-railcraft.gui.item.loader.complete=Kompletní
-railcraft.gui.item.loader.excess.tips=Ponechat položky ve filtru\n přesunout zbytek
-railcraft.gui.item.loader.excess=Nadbytek
-railcraft.gui.item.loader.immediate.tips=Emituj Rudit pokud\n nebyly přesunuty\n žádné položky
-railcraft.gui.item.loader.immediate=Okamžitě
-railcraft.gui.item.loader.manual.tips=Nikdy neEmituj Rudit
-railcraft.gui.item.loader.manual=Manual
-railcraft.gui.item.loader.partial.tips=Emituj Rudit pokud\n nebyla přesunuta žádná položka\n a vozík je ne prázdný
-railcraft.gui.item.loader.partial=Částečně
-railcraft.gui.item.loader.stock.tips=Přesune položky pokud cíl\n bude odpovídat filtru
-railcraft.gui.item.loader.stock=Sklad
-railcraft.gui.item.loader.transfer.tips=Přesune přesně tolik položek\n kolik je jich ve filtru
-railcraft.gui.item.loader.transfer=Transfer
+gui.railcraft.manipulator.transfer.all.tips=Přesuňte všechny\n odpovídající položky
+gui.railcraft.manipulator.transfer.all.name=Vše
+gui.railcraft.manipulator.buffer=Nárazník
+gui.railcraft.manipulator.redstone.complete.tips=Emituj Rudit po dokončení
+gui.railcraft.manipulator.redstone.complete.name=Kompletní
+gui.railcraft.manipulator.transfer.excess.tips=Ponechat položky ve filtru\n přesunout zbytek
+gui.railcraft.manipulator.transfer.excess.name=Nadbytek
+gui.railcraft.manipulator.redstone.immediate.tips=Emituj Rudit pokud\n nebyly přesunuty\n žádné položky
+gui.railcraft.manipulator.redstone.immediate.name=Okamžitě
+gui.railcraft.manipulator.redstone.manual.tips=Nikdy neEmituj Rudit
+gui.railcraft.manipulator.redstone.manual.name=Manual
+gui.railcraft.manipulator.redstone.partial.tips=Emituj Rudit pokud\n nebyla přesunuta žádná položka\n a vozík je ne prázdný
+gui.railcraft.manipulator.redstone.partial.name=Částečně
+gui.railcraft.manipulator.transfer.stock.tips=Přesune položky pokud cíl\n bude odpovídat filtru
+gui.railcraft.manipulator.transfer.stock.name=Sklad
+gui.railcraft.manipulator.transfer.transfer.tips=Přesune přesně tolik položek\n kolik je jich ve filtru
+gui.railcraft.manipulator.transfer.transfer.name=Transfer
 
 railcraft.gui.link.broken=Rozpojeno
 railcraft.gui.link.created=Spojeno
@@ -416,20 +416,20 @@ railcraft.gui.link.failed=Spojování selhalo
 railcraft.gui.link.started=Spojování odstartováno
 
 railcraft.gui.liquid.capacity=Kapacita
-railcraft.gui.liquid.loader.empty.tips=Zadrží prázdné vozíky
-railcraft.gui.liquid.loader.empty=Drž prázdné
-railcraft.gui.liquid.loader.fill.tips=Zadrží vozíky dokud nebudou plné
-railcraft.gui.liquid.loader.fill=Plná síla
-railcraft.gui.liquid.loader.immediate.tips=Emituje Rudit jestliže se\n kapalina nepřesune
-railcraft.gui.liquid.loader.immediate=Okamžitě
-railcraft.gui.liquid.loader.manual.tips=Nikdy neEmituje Rudit
-railcraft.gui.liquid.loader.manual=Manual
+
+
+
+
+
+
+
+
 railcraft.gui.liquid.unloader.empty.tips=Zadrží vozíky dokun\n nebudou prázdné
 railcraft.gui.liquid.unloader.empty=Prázdné
-railcraft.gui.liquid.unloader.immediate.tips=Emituje Rudit jestliže se\n kapalina nepřesune
-railcraft.gui.liquid.unloader.immediate=Okamžitě
-railcraft.gui.liquid.unloader.manual.tips=Nikdy neEmituj Rudit
-railcraft.gui.liquid.unloader.manual=Manuálně
+railcraft.gui.liquid.unloader.redstone.immediate.tips=Emituje Rudit jestliže se\n kapalina nepřesune
+railcraft.gui.liquid.unloader.redstone.immediate.name=Okamžitě
+railcraft.gui.liquid.unloader.redstone.manual.tips=Nikdy neEmituj Rudit
+railcraft.gui.liquid.unloader.redstone.manual.name=Manuálně
 
 railcraft.gui.locomotive.mode.idle=Volnoběh
 railcraft.gui.locomotive.mode.running=Zapnout
@@ -481,7 +481,7 @@ railcraft.gui.routing.table.name=Jméno
 railcraft.gui.routing.ticket.line1=Lístek je platný
 railcraft.gui.routing.ticket.line2=pro následující destinaci:
 railcraft.gui.routing.ticket.manual.title=O Zlatém lístku
-railcraft.gui.routing.ticket.manual=Zlatý lístek má neomezený počet použití, lze jej použít k jakékoliv jízdě veřejným nebo privátním vlakem vlastněným eminentem jízdenky. Může také být zkombinovaný s Papírem k reprodukci jednorázových lístků.
+railcraft.gui.routing.ticket.redstone.manual.name=Zlatý lístek má neomezený počet použití, lze jej použít k jakékoliv jízdě veřejným nebo privátním vlakem vlastněným eminentem jízdenky. Může také být zkombinovaný s Papírem k reprodukci jednorázových lístků.
 railcraft.gui.routing.ticket.tips.blank=Prázdný lístek
 railcraft.gui.routing.ticket.tips.dest=Destinace:
 railcraft.gui.routing.ticket.tips.issuer=Emitent:

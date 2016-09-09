@@ -279,7 +279,7 @@ item.railcraft.tool.notepad.tips.contents.filter.cart=§eWaggonfilter
 item.railcraft.tool.notepad.tips.contents.filter.fluid=§bFlüssigk.-Filter
 item.railcraft.tool.notepad.tips.contents.filter.items=§2Item-Filter
 item.railcraft.tool.notepad.tips.contents=Inhalt: %s
-item.railcraft.tool.notepad.tips.mode.all=Alles übertragen
+item.railcraft.tool.notepad.tips.mode.transfer.all.name=Alles übertragen
 item.railcraft.tool.notepad.tips.mode.cart.filter=Waggonfilter
 item.railcraft.tool.notepad.tips.mode.loader.filters=Item-/Flüssigk.-Filter
 item.railcraft.tool.notepad.tips.mode=Übertragungsmodus: %s
@@ -379,8 +379,8 @@ railcraft.gui.bore.track=Gleis
 
 railcraft.gui.box.aspect.action=Redstonesignal bei Zustand
 railcraft.gui.box.capacitor.duration=Redstonesignal für %s Sekunden
-railcraft.gui.box.capacitor.immediate=Steigende Flanke
-railcraft.gui.box.capacitor.immediate.tips=Timer sofort starten, wenn ein Signal kommt.
+railcraft.gui.box.capacitor.redstone.immediate.name=Steigende Flanke
+railcraft.gui.box.capacitor.redstone.immediate.tips=Timer sofort starten, wenn ein Signal kommt.
 railcraft.gui.box.capacitor.delayed=Fallende Flanke
 railcraft.gui.box.capacitor.delayed.tips=Timer starten, wenn das letzte Signal abschaltet.
 railcraft.gui.box.controller.aspect.default=Standardzustand:
@@ -388,10 +388,10 @@ railcraft.gui.box.controller.aspect.redstone=Zustand bei Redstonesignal:
 
 railcraft.gui.cart.tnt.fuse=Zündung
 railcraft.gui.cart.track.relayer.pattern=Muster
-railcraft.gui.cart.track.relayer.stock=Vorrat
+railcraft.gui.cart.track.relayer.transfer.stock.name=Vorrat
 railcraft.gui.cart.undercutter.pattern=Muster
 railcraft.gui.cart.undercutter.sides=Seite
-railcraft.gui.cart.undercutter.stock=Vorrat
+railcraft.gui.cart.undercutter.transfer.stock.name=Vorrat
 railcraft.gui.cart.undercutter.under=Unten
 
 railcraft.gui.charge.meter.network=Netz -> Größe: %s | Ladung: %s c | Entzug: %s c/t | Verlust: %s c/t
@@ -465,23 +465,23 @@ railcraft.gui.help=Hilfe
 
 railcraft.gui.ic2.energy.rate=Rate: %s EU
 
-railcraft.gui.item.loader.all.tips=Bewege alle passenden Gegenstände
-railcraft.gui.item.loader.all=Alle
-railcraft.gui.item.loader.buffer=Puffer
-railcraft.gui.item.loader.complete.tips=Sende Redstone, wenn vollendet
-railcraft.gui.item.loader.complete=Komplett
-railcraft.gui.item.loader.excess.tips=Behalte Gegenstände im Filter\n Bewege den Rest
-railcraft.gui.item.loader.excess=Überschuss
-railcraft.gui.item.loader.immediate.tips=Sende Redstone, wenn keine Gegenstände\n bewegt wurden
-railcraft.gui.item.loader.immediate=Sofort
-railcraft.gui.item.loader.manual.tips=Sende niemals Redstone
-railcraft.gui.item.loader.manual=Manuell
-railcraft.gui.item.loader.partial.tips=Sende Redstone, wenn keine Gegenstände bewegt\n wurden und der Wagen nicht leer ist
-railcraft.gui.item.loader.partial=Teilweise
-railcraft.gui.item.loader.stock.tips=Bewege Gegenstände, bis das\n Ziel dem Filter entspricht
-railcraft.gui.item.loader.stock=Lager
-railcraft.gui.item.loader.transfer.tips=Bewege exakt so viele\n Gegenstände wie im Filter sind
-railcraft.gui.item.loader.transfer=Übertragen
+gui.railcraft.manipulator.transfer.all.tips=Bewege alle passenden Gegenstände
+gui.railcraft.manipulator.transfer.all.name=Alle
+gui.railcraft.manipulator.buffer=Puffer
+gui.railcraft.manipulator.redstone.complete.tips=Sende Redstone, wenn vollendet
+gui.railcraft.manipulator.redstone.complete.name=Komplett
+gui.railcraft.manipulator.transfer.excess.tips=Behalte Gegenstände im Filter\n Bewege den Rest
+gui.railcraft.manipulator.transfer.excess.name=Überschuss
+gui.railcraft.manipulator.redstone.immediate.tips=Sende Redstone, wenn keine Gegenstände\n bewegt wurden
+gui.railcraft.manipulator.redstone.immediate.name=Sofort
+gui.railcraft.manipulator.redstone.manual.tips=Sende niemals Redstone
+gui.railcraft.manipulator.redstone.manual.name=Manuell
+gui.railcraft.manipulator.redstone.partial.tips=Sende Redstone, wenn keine Gegenstände bewegt\n wurden und der Wagen nicht leer ist
+gui.railcraft.manipulator.redstone.partial.name=Teilweise
+gui.railcraft.manipulator.transfer.stock.tips=Bewege Gegenstände, bis das\n Ziel dem Filter entspricht
+gui.railcraft.manipulator.transfer.stock.name=Lager
+gui.railcraft.manipulator.transfer.transfer.tips=Bewege exakt so viele\n Gegenstände wie im Filter sind
+gui.railcraft.manipulator.transfer.transfer.name=Übertragen
 
 railcraft.gui.link.broken=Verbindung getrennt
 railcraft.gui.link.created=Verbindung hergestellt
@@ -489,20 +489,20 @@ railcraft.gui.link.failed=Verbindung fehlgeschlagen
 railcraft.gui.link.started=Verbindung begonnen
 
 railcraft.gui.liquid.capacity=Kapazität
-railcraft.gui.liquid.loader.empty.tips=Halte leere Waggons
-railcraft.gui.liquid.loader.empty=Halte Leer
-railcraft.gui.liquid.loader.fill.tips=Halte Waggons, bis sie\n komplett gefüllt sind
-railcraft.gui.liquid.loader.fill=Erzwinge Voll
-railcraft.gui.liquid.loader.immediate.tips=Sende Redstone, wenn keine\n Flüssigkeit bewegt wurde
-railcraft.gui.liquid.loader.immediate=Sofort
-railcraft.gui.liquid.loader.manual.tips=Sende niemals Redstone
-railcraft.gui.liquid.loader.manual=Manuell
+
+
+
+
+
+
+
+
 railcraft.gui.liquid.unloader.empty.tips=Halte Waggons, bis sie\n komplett leer sind
 railcraft.gui.liquid.unloader.empty=Leeren
-railcraft.gui.liquid.unloader.immediate.tips=Sende Redstone, wenn keine\n Flüssigkeit bewegt wurde
-railcraft.gui.liquid.unloader.immediate=Sofort
-railcraft.gui.liquid.unloader.manual.tips=Sende niemals Redstone
-railcraft.gui.liquid.unloader.manual=Manuell
+railcraft.gui.liquid.unloader.redstone.immediate.tips=Sende Redstone, wenn keine\n Flüssigkeit bewegt wurde
+railcraft.gui.liquid.unloader.redstone.immediate.name=Sofort
+railcraft.gui.liquid.unloader.redstone.manual.tips=Sende niemals Redstone
+railcraft.gui.liquid.unloader.redstone.manual.name=Manuell
 
 railcraft.gui.locomotive.mode.idle=Bereit
 railcraft.gui.locomotive.mode.running=Fahrt
@@ -555,7 +555,7 @@ railcraft.gui.routing.table.name=Name
 railcraft.gui.routing.ticket.line1=Dieses Ticket ist gültig
 railcraft.gui.routing.ticket.line2=für das folgende Ziel:
 railcraft.gui.routing.ticket.manual.title=Über das goldene Ticket
-railcraft.gui.routing.ticket.manual=Das goldene Ticket ist ein unbegrenztes Ticket, welches verwendet werden kann, um mit einer öffentliche Bahn oder einem Zug im Besitz des Ausstellers zu reisen. Es kann auch mit Papier kombiniert werden, um einzelne Tickets herzustellen.
+railcraft.gui.routing.ticket.redstone.manual.name=Das goldene Ticket ist ein unbegrenztes Ticket, welches verwendet werden kann, um mit einer öffentliche Bahn oder einem Zug im Besitz des Ausstellers zu reisen. Es kann auch mit Papier kombiniert werden, um einzelne Tickets herzustellen.
 railcraft.gui.routing.ticket.tips.blank=Leeres Ticket
 railcraft.gui.routing.ticket.tips.dest=Ziel:
 railcraft.gui.routing.ticket.tips.issuer=Aussteller:
