@@ -128,13 +128,13 @@ item.minecartFurnace.name=熔炉车
 item.minecartTnt.name=TNT车
 item.minecartHopper.name=漏斗车
 
-item.railcraft.armor.goggles.name=铁路工护目镜
-item.railcraft.armor.overalls.name=工程师背带裤
-item.railcraft.armor.overalls.tips=能够防护轨道工作中\n可能遇到的伤害
 item.railcraft.armor.boots.steel.name=钢靴子
+item.railcraft.armor.chestplate.steel.name=钢胸甲
+item.railcraft.armor.goggles.name=铁路工护目镜
 item.railcraft.armor.helmet.steel.name=钢头盔
 item.railcraft.armor.leggings.steel.name=钢护腿
-item.railcraft.armor.chestplate.steel.name=钢胸甲
+item.railcraft.armor.overalls.name=工程师背带裤
+item.railcraft.armor.overalls.tips=能够防护轨道工作中\n可能遇到的伤害
 
 item.railcraft.backpack.apothecary.t1.name=药剂师背包
 item.railcraft.backpack.apothecary.t2.name=编织的药剂师背包
@@ -144,9 +144,25 @@ item.railcraft.backpack.tips=Railcraft.Inc出品,必属精品.
 item.railcraft.backpack.trackman.t1.name=铁路工背包
 item.railcraft.backpack.trackman.t2.name=编织的铁路工背包
 
+item.railcraft.bleached.clay.name=漂白粘土
+
 item.railcraft.borehead.diamond.name=钻石钻头
 item.railcraft.borehead.iron.name=铁钻头
 item.railcraft.borehead.steel.name=钢钻头
+
+item.railcraft.circuit.controller.name=控制器电路
+item.railcraft.circuit.receiver.name=接收器电路
+item.railcraft.circuit.signal.name=信号电路
+
+item.railcraft.concrete.name=水泥袋
+
+item.railcraft.dust.charcoal.name=木炭粉
+item.railcraft.dust.obsidian.name=黑曜石粉
+item.railcraft.dust.saltpeter.name=硝石
+item.railcraft.dust.slag.name=高炉炉渣粉
+item.railcraft.dust.sulfur.name=硫磺
+
+item.railcraft.emblem.name=徽章
 
 item.railcraft.entity.cart.anchor.admin.name=管理员锚车
 item.railcraft.entity.cart.anchor.world.name=世界锚车
@@ -182,13 +198,6 @@ item.railcraft.entity.mow.undercutter.name=路基替换车
 item.railcraft.entity.mow.undercutter.tips=改变轨道下方的方块
 item.railcraft.entity.cart.work.name=工作台车
 
-item.railcraft.dust.charcoal.name=木炭粉
-item.railcraft.dust.obsidian.name=黑曜石粉
-item.railcraft.dust.saltpeter.name=硝石
-item.railcraft.dust.sulfur.name=硫磺
-
-item.railcraft.emblem.name=徽章
-
 item.railcraft.firestone.cracked.name=碎裂火石
 item.railcraft.firestone.cracked.tips.charged=能量在外泄,\n小心操作的话\n它就依然很有用...
 item.railcraft.firestone.cracked.tips.empty=碎裂状,但\n如果你能够对其充能\n那它就依然很有用...
@@ -210,6 +219,11 @@ item.railcraft.fluid.steam.bottle.name=蒸汽瓶
 
 item.railcraft.fuel.coke.name=焦煤
 
+item.railcraft.gear.bushing.name=锡齿轮轴套
+item.railcraft.gear.gold.plate.name=金板齿轮
+item.railcraft.gear.iron.name=铁齿轮
+item.railcraft.gear.steel.name=钢齿轮
+
 item.railcraft.ingot.copper.name=铜锭
 item.railcraft.ingot.lead.name=铅锭
 item.railcraft.ingot.steel.name=钢锭
@@ -221,38 +235,39 @@ item.railcraft.nugget.lead.name=铅粒
 item.railcraft.nugget.steel.name=钢粒
 item.railcraft.nugget.tin.name=锡粒
 
-item.railcraft.bleached.clay.name=漂白粘土
-item.railcraft.circuit.controller.name=控制器电路
-item.railcraft.circuit.receiver.name=接收器电路
-item.railcraft.circuit.signal.name=信号电路
-item.railcraft.gear.bushing.name=锡齿轮轴套
-item.railcraft.gear.gold.plate.name=金板齿轮
-item.railcraft.gear.iron.name=铁齿轮
-item.railcraft.gear.steel.name=钢齿轮
 item.railcraft.plate.copper.name=铜板
 item.railcraft.plate.iron.name=铁板
 item.railcraft.plate.lead.name=铅板
 item.railcraft.plate.steel.name=钢板
 item.railcraft.plate.tin.name=锡板
+
 item.railcraft.rail.advanced.name=高级导轨
 item.railcraft.rail.electric.name=电力导轨
 item.railcraft.rail.reinforced.name=强化导轨
 item.railcraft.rail.speed.name=高速导轨
 item.railcraft.rail.standard.name=标准导轨
 item.railcraft.rail.wood.name=木质导轨
+
 item.railcraft.railbed.stone.name=石质轨座
 item.railcraft.railbed.wood.name=木质轨座
+
 item.railcraft.rebar.name=钢筋
-item.railcraft.signal.lamp.name=信号灯
-item.railcraft.tie.stone.name=枕石
-item.railcraft.tie.wood.name=枕木
-item.railcraft.turbine.blade.name=涡轮机轮叶
-item.railcraft.turbine.disk.name=涡轮机轮盘
-item.railcraft.turbine.rotor.name=涡轮机转子
 
 item.railcraft.routing.table.name=列车时刻表
 item.railcraft.routing.ticket.gold.name=黄金车票
 item.railcraft.routing.ticket.name=火车票
+
+item.railcraft.signal.lamp.name=信号灯
+
+item.railcraft.tie.stone.name=枕石
+item.railcraft.tie.wood.name=枕木
+
+item.railcraft.track_parts.name=轨道零件
+item.railcraft.track_parts.tips=用于合成轨道套件
+
+item.railcraft.turbine.blade.name=涡轮机轮叶
+item.railcraft.turbine.disk.name=涡轮机轮盘
+item.railcraft.turbine.rotor.name=涡轮机转子
 
 item.railcraft.tool.crowbar.magic.name=奥法撬棍
 item.railcraft.tool.crowbar.iron.name=撬棍
@@ -454,23 +469,23 @@ railcraft.gui.help=帮助
 
 railcraft.gui.ic2.energy.rate=速率: %s EU
 
-gui.railcraft.manipulator.transfer.all.tips=移动所有匹配物品
-gui.railcraft.manipulator.transfer.all.name=全部
 gui.railcraft.manipulator.buffer=缓冲
-gui.railcraft.manipulator.redstone.complete.tips=完成后发出红石信号
 gui.railcraft.manipulator.redstone.complete.name=装满
-gui.railcraft.manipulator.transfer.excess.tips=保持过滤设置物品\n移动其余物品
-gui.railcraft.manipulator.transfer.excess.name=余下
-gui.railcraft.manipulator.redstone.immediate.tips=如果无物品被移动\n则发出红石信号
+gui.railcraft.manipulator.redstone.complete.tips=完成后发出红石信号
 gui.railcraft.manipulator.redstone.immediate.name=没货发车
-gui.railcraft.manipulator.redstone.manual.tips=从不发出红石信号
+gui.railcraft.manipulator.redstone.immediate.tips=如果无物品被移动\n则发出红石信号
 gui.railcraft.manipulator.redstone.manual.name=手动
-gui.railcraft.manipulator.redstone.partial.tips=如果车子非空且无物品被移动\n则发出红石信号
+gui.railcraft.manipulator.redstone.manual.tips=从不发出红石信号
 gui.railcraft.manipulator.redstone.partial.name=空车保留
-gui.railcraft.manipulator.transfer.stock.tips=移动物品直到\n目标容器符合过滤设定
+gui.railcraft.manipulator.redstone.partial.tips=如果车子非空且无物品被移动\n则发出红石信号
+gui.railcraft.manipulator.transfer.all.name=全部
+gui.railcraft.manipulator.transfer.all.tips=移动所有匹配物品
+gui.railcraft.manipulator.transfer.excess.name=余下
+gui.railcraft.manipulator.transfer.excess.tips=保持过滤设置物品\n移动其余物品
 gui.railcraft.manipulator.transfer.stock.name=达到
-gui.railcraft.manipulator.transfer.transfer.tips=尽可能移动\n过滤设定中数量的物品
+gui.railcraft.manipulator.transfer.stock.tips=移动物品直到\n目标容器符合过滤设定
 gui.railcraft.manipulator.transfer.transfer.name=转移
+gui.railcraft.manipulator.transfer.transfer.tips=尽可能移动\n过滤设定中数量的物品
 
 railcraft.gui.link.broken=链接已损坏
 railcraft.gui.link.created=链接已创建
@@ -479,19 +494,20 @@ railcraft.gui.link.started=链接已开始
 
 railcraft.gui.liquid.capacity=容量
 
-
-
-
-
-
-
-
+railcraft.gui.liquid.loader.empty.tips=驻留空车
+railcraft.gui.liquid.loader.empty=空
+railcraft.gui.liquid.loader.fill.tips=驻车直到完全载满
+railcraft.gui.liquid.loader.fill=结束
+railcraft.gui.liquid.loader.immediate.tips=如果没有液体被移动\n则发出红石信号
+railcraft.gui.liquid.loader.immediate=空载发车
+railcraft.gui.liquid.loader.manual.tips=从不发出红石
+railcraft.gui.liquid.loader.manual=手动
 railcraft.gui.liquid.unloader.empty.tips=驻车直到完全卸载
 railcraft.gui.liquid.unloader.empty=空
-railcraft.gui.liquid.unloader.redstone.immediate.tips=如果没有液体被移动\n则发出红石信号
 railcraft.gui.liquid.unloader.redstone.immediate.name=直接发车
-railcraft.gui.liquid.unloader.redstone.manual.tips=从不发出红石信号
+railcraft.gui.liquid.unloader.redstone.immediate.tips=如果没有液体被移动\n则发出红石信号
 railcraft.gui.liquid.unloader.redstone.manual.name=手动
+railcraft.gui.liquid.unloader.redstone.manual.tips=从不发出红石信号
 
 railcraft.gui.locomotive.mode.idle=空闲
 railcraft.gui.locomotive.mode.running=运行
@@ -1144,6 +1160,7 @@ tile.railcraft.worldlogic.name=硝石刷新器
 
 tooltip.wawla.tooltype.crowbar=撬棍
 
+
 ######################################################################################
 #   Flex Tracks
 ######################################################################################
@@ -1165,6 +1182,7 @@ tile.railcraft.track.flex.reinforced.tips=速度为普通轨道的125%\n防爆
 
 tile.railcraft.track.flex.strap.iron.name=镀铁轨道
 tile.railcraft.track.flex.strap.iron.tips=速度为一般铁轨道的30%
+
 
 ######################################################################################
 #   Track Kits & Outfitted Tracks
@@ -1197,10 +1215,7 @@ track_kit.railcraft.railcraft_coupler.name=耦合
 track_kit.railcraft.railcraft_coupler.tips=将经过的车厢连接/分离\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
 
 track_kit.railcraft.railcraft_detector.name=感应
-track_kit.railcraft.railcraft_detector.tips=车辆经过时发出红石信号
-
-track_kit.railcraft.railcraft_detector.travel.name=方向感应
-track_kit.railcraft.railcraft_detector.travel.tips=车辆经过指定方向时\n发出红石信号.\n§o§9- 通过撬棍敲击来变向 -
+track_kit.railcraft.railcraft_detector.tips=车辆经过指定方向时\n发出红石信号.\n§o§9- 通过撬棍敲击来变向 -
 
 track_kit.railcraft.railcraft_disembarking.name=驻车
 track_kit.railcraft.railcraft_disembarking.tips=按箭头方向放下乘客.\n§o§9- 通过撬棍敲击来变向 -\n§o§c- 使用红石信号激活 -
