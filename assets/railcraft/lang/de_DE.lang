@@ -414,7 +414,7 @@ railcraft.gui.detector.item.less_than=Weniger als
 railcraft.gui.detector.item.not_empty=nicht Leer
 railcraft.gui.detector.loco.primary=Primärfarbe
 railcraft.gui.detector.loco.secondary=Sekundärfarbe
-railcraft.gui.detector.tank.tips.analog=Sende Analoges Redstone\n basierend auf der Menge im Tank
+railcraft.gui.detector.tank.tips.analog=Sende Aanaloges Redstone \n basierend auf der Menge im Tank aus
 railcraft.gui.detector.tank.tips.empty=Entspricht leerem Tank
 railcraft.gui.detector.tank.tips.full=Entspricht vollem Tank
 railcraft.gui.detector.tank.tips.half=Entspricht mehr als halb gefüllten Tanks
@@ -465,23 +465,23 @@ railcraft.gui.help=Hilfe
 
 railcraft.gui.ic2.energy.rate=Rate: %s EU
 
-gui.railcraft.manipulator.transfer.all.tips=Bewege alle passenden Gegenstände
-gui.railcraft.manipulator.transfer.all.name=Alle
 gui.railcraft.manipulator.buffer=Puffer
-gui.railcraft.manipulator.redstone.complete.tips=Sende Redstone, wenn vollendet
 gui.railcraft.manipulator.redstone.complete.name=Komplett
-gui.railcraft.manipulator.transfer.excess.tips=Behalte Gegenstände im Filter\n Bewege den Rest
-gui.railcraft.manipulator.transfer.excess.name=Überschuss
-gui.railcraft.manipulator.redstone.immediate.tips=Sende Redstone, wenn keine Gegenstände\n bewegt wurden
+gui.railcraft.manipulator.redstone.complete.tips=Arbeiten, biss Waggon leer ist
 gui.railcraft.manipulator.redstone.immediate.name=Sofort
-gui.railcraft.manipulator.redstone.manual.tips=Sende niemals Redstone
+gui.railcraft.manipulator.redstone.immediate.tips=Arbeiten, bis Platz oder Gegenstände ausgehen
 gui.railcraft.manipulator.redstone.manual.name=Manuell
-gui.railcraft.manipulator.redstone.partial.tips=Sende Redstone, wenn keine Gegenstände bewegt\n wurden und der Wagen nicht leer ist
+gui.railcraft.manipulator.redstone.manual.tips=Niemals Redstone aussenden
 gui.railcraft.manipulator.redstone.partial.name=Teilweise
-gui.railcraft.manipulator.transfer.stock.tips=Bewege Gegenstände, bis das\n Ziel dem Filter entspricht
-gui.railcraft.manipulator.transfer.stock.name=Lager
-gui.railcraft.manipulator.transfer.transfer.tips=Bewege exakt so viele\n Gegenstände wie im Filter sind
+gui.railcraft.manipulator.redstone.partial.tips=Arbeiten, bis Platz oder Gegenstände ausgehen,\n aber leere Waggons halten
+gui.railcraft.manipulator.transfer.all.name=Alles
+gui.railcraft.manipulator.transfer.all.tips=Alle passenden Gegenstände bewegen
+gui.railcraft.manipulator.transfer.excess.name=Überschuss
+gui.railcraft.manipulator.transfer.excess.tips=Bewegen, bis der\n Waggon dem Filter entspricht
+gui.railcraft.manipulator.transfer.stock.name=Vorrat
+gui.railcraft.manipulator.transfer.stock.tips=Bewegen, bis das\n Ziel dem Filter entspricht
 gui.railcraft.manipulator.transfer.transfer.name=Übertragen
+gui.railcraft.manipulator.transfer.transfer.tips=Bewege exakt so viel,\n wie im Filter sind
 
 railcraft.gui.link.broken=Verbindung getrennt
 railcraft.gui.link.created=Verbindung hergestellt
@@ -490,13 +490,14 @@ railcraft.gui.link.started=Verbindung begonnen
 
 railcraft.gui.liquid.capacity=Kapazität
 
-
-
-
-
-
-
-
+railcraft.gui.liquid.loader.empty.tips=Halte leere Waggons
+railcraft.gui.liquid.loader.empty=Leere Halten
+railcraft.gui.liquid.loader.fill.tips=Halte Waggons, bis sie\n komplett gefüllt sind
+railcraft.gui.liquid.loader.fill=Voll Erzwingen
+railcraft.gui.liquid.loader.immediate.tips=Redstone aussenden, wenn keine\n Flüssigkeit bewegt wurde
+railcraft.gui.liquid.loader.immediate=Sofort
+railcraft.gui.liquid.loader.manual.tips=Niemals Redstone aussenden
+railcraft.gui.liquid.loader.manual=Manuell
 railcraft.gui.liquid.unloader.empty.tips=Halte Waggons, bis sie\n komplett leer sind
 railcraft.gui.liquid.unloader.empty=Leeren
 railcraft.gui.liquid.unloader.redstone.immediate.tips=Sende Redstone, wenn keine\n Flüssigkeit bewegt wurde
@@ -1051,7 +1052,7 @@ tile.railcraft.track.control.tips=Gibt einen kleinen, allseitigen Schub\n§o§9-
 tile.railcraft.track.coupler.name=Kopplungsgleis
 tile.railcraft.track.coupler.tips=Koppelt/Entkoppelt passierende Waggons\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.detector.direction.name=Fahrtrichtungssensorgleis
-tile.railcraft.track.detector.direction.tips=Sendet Redstone-Signal, wenn ein Waggon\n in der gewählten Richtung passiert\n§o§9- Verändere die Richtung mit einem Brecheisen -
+tile.railcraft.track.detector.direction.tips=Sendet Redstone-Signal aus, wenn ein Waggon\n in der gewählten Richtung passiert\n§o§9- Verändere die Richtung mit einem Brecheisen -
 tile.railcraft.track.disembarking.name=Auswurfgleis
 tile.railcraft.track.disembarking.tips=Wirft fahrende Lebewesen aus dem Waggon, in Richtung des Pfeils\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.disposal.name=Entsorgungsgleis
