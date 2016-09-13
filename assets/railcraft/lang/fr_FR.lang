@@ -484,11 +484,11 @@ tile.railcraft.manipulator.dispenser.train.name=Distributeur de train
 tile.railcraft.manipulator.loader.energy.name=Chargeur d'énergie
 tile.railcraft.manipulator.loader.item.advanced.name=Chargeur d'article avancé
 tile.railcraft.manipulator.loader.item.name=Chargeur d'article
-tile.railcraft.manipulator.loader.liquid.name=Chargeur de liquide
+tile.railcraft.manipulator.loader.fluid.name=Chargeur de liquide
 tile.railcraft.manipulator.unloader.energy.name=Déchargeur d'énergie
 tile.railcraft.manipulator.unloader.item.advanced.name=Déchargeur d'article avancé
 tile.railcraft.manipulator.unloader.item.name=Déchargeur d'article
-tile.railcraft.manipulator.unloader.liquid.name=Déchargeur de liquide
+tile.railcraft.manipulator.unloader.fluid.name=Déchargeur de liquide
 
 railcraft.multiblock.state.valid=La structure est valide
 railcraft.multiblock.state.invalid.pattern=Ne correspond pas au modèle: %s

@@ -468,11 +468,11 @@ tile.railcraft.manipulator.dispenser.train.name=Tog Dispenser
 tile.railcraft.manipulator.loader.energy.name=Energi Lader
 tile.railcraft.manipulator.loader.item.advanced.name=Avansert gjenstandslaster
 tile.railcraft.manipulator.loader.item.name=Gjenstandslaster
-tile.railcraft.manipulator.loader.liquid.name=Væskelaster
+tile.railcraft.manipulator.loader.fluid.name=Væskelaster
 tile.railcraft.manipulator.unloader.energy.name=Energitømmer
 tile.railcraft.manipulator.unloader.item.advanced.name=Avansert gjenstandsavlaster
 tile.railcraft.manipulator.unloader.item.name=Gjenstandsavlaster
-tile.railcraft.manipulator.unloader.liquid.name=Væskeavlaster
+tile.railcraft.manipulator.unloader.fluid.name=Væskeavlaster
 
 railcraft.multiblock.state.valid=Structure is valid
 railcraft.multiblock.state.invalid.pattern=Does not match pattern: %s

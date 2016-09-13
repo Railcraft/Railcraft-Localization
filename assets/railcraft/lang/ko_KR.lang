@@ -386,11 +386,11 @@ tile.railcraft.manipulator.dispenser.train.name=열차 발사기
 tile.railcraft.manipulator.loader.energy.name=에너지 공급기
 tile.railcraft.manipulator.loader.item.advanced.name=강화 아이템 공급기
 tile.railcraft.manipulator.loader.item.name=아이템 공급기
-tile.railcraft.manipulator.loader.liquid.name=액체 공급기
+tile.railcraft.manipulator.loader.fluid.name=액체 공급기
 tile.railcraft.manipulator.unloader.energy.name=에너지 회수기
 tile.railcraft.manipulator.unloader.item.advanced.name=강화 아이템 회수기
 tile.railcraft.manipulator.unloader.item.name=아이템 회수기
-tile.railcraft.manipulator.unloader.liquid.name=액체 회수기
+tile.railcraft.manipulator.unloader.fluid.name=액체 회수기
 
 item.railcraft.nugget.iron.name=철 조각
 item.railcraft.nugget.steel.name=강철 조각

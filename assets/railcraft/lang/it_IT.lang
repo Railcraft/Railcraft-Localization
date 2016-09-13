@@ -387,11 +387,11 @@ tile.railcraft.manipulator.dispenser.train.name=Distributore di treni
 tile.railcraft.manipulator.loader.energy.name=Caricatore di energia
 tile.railcraft.manipulator.loader.item.advanced.name=Caricatore d'oggetti avanzato
 tile.railcraft.manipulator.loader.item.name=Caricatore d'oggetti
-tile.railcraft.manipulator.loader.liquid.name=Caricatore di liquidi
+tile.railcraft.manipulator.loader.fluid.name=Caricatore di liquidi
 tile.railcraft.manipulator.unloader.energy.name=Scaricatore di energia
 tile.railcraft.manipulator.unloader.item.advanced.name=Scaricatore d'oggetti avanzato
 tile.railcraft.manipulator.unloader.item.name=Scaricatore d'oggetti
-tile.railcraft.manipulator.unloader.liquid.name=Scaricatore di liquidi
+tile.railcraft.manipulator.unloader.fluid.name=Scaricatore di liquidi
 
 item.railcraft.nugget.iron.name=Pepita di Ferro
 item.railcraft.nugget.steel.name=Pepita di Acciaio

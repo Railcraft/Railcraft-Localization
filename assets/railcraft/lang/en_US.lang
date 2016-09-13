@@ -490,21 +490,6 @@ railcraft.gui.link.started=Link Started
 
 railcraft.gui.liquid.capacity=Capacity
 
-railcraft.gui.liquid.loader.empty.tips=Hold empty carts
-railcraft.gui.liquid.loader.empty=Hold Empty
-railcraft.gui.liquid.loader.fill.tips=Hold carts until completely full
-railcraft.gui.liquid.loader.fill=Force Full
-railcraft.gui.liquid.loader.immediate.tips=Emit Redstone if no\n liquid was moved
-railcraft.gui.liquid.loader.immediate=Immediate
-railcraft.gui.liquid.loader.manual.tips=Never emit Redstone
-railcraft.gui.liquid.loader.manual=Manual
-railcraft.gui.liquid.unloader.empty.tips=Hold Carts until\n completely empty
-railcraft.gui.liquid.unloader.empty=Empty
-railcraft.gui.liquid.unloader.redstone.immediate.tips=Emit Redstone if no\n liquid was moved
-railcraft.gui.liquid.unloader.redstone.immediate.name=Immediate
-railcraft.gui.liquid.unloader.redstone.manual.tips=Never emit Redstone
-railcraft.gui.liquid.unloader.redstone.manual.name=Manual
-
 railcraft.gui.locomotive.mode.idle=Idle
 railcraft.gui.locomotive.mode.running=Running
 railcraft.gui.locomotive.mode.shutdown=Shutdown
@@ -839,8 +824,8 @@ tile.railcraft.manipulator.loader.item.advanced.name=Adv. Item Loader
 tile.railcraft.manipulator.loader.item.advanced.tips=Loads Items into Carts\n§o§9- Hit with Crowbar to change orientation -
 tile.railcraft.manipulator.loader.item.name=Item Loader
 tile.railcraft.manipulator.loader.item.tips=Loads Items into Carts\n§o§c- Place over Track -
-tile.railcraft.manipulator.loader.liquid.name=Fluid Loader
-tile.railcraft.manipulator.loader.liquid.tips=Loads Fluids into Carts\n§o§c- Place 1-2 blocks above Track -
+tile.railcraft.manipulator.loader.fluid.name=Fluid Loader
+tile.railcraft.manipulator.loader.fluid.tips=Loads Fluids into Carts\n§o§c- Place 1-2 blocks above Track -
 tile.railcraft.manipulator.unloader.energy.name=Energy Unloader
 tile.railcraft.manipulator.unloader.energy.tips=Unloads Energy from Ic2 Energy Carts\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Only emits Ic2 power
 tile.railcraft.manipulator.unloader.rf.name=Redstone Flux Unloader
@@ -849,8 +834,8 @@ tile.railcraft.manipulator.unloader.item.advanced.name=Adv. Item Unloader
 tile.railcraft.manipulator.unloader.item.advanced.tips=Unloads Items from Carts\n§o§9- Hit with Crowbar to change orientation -
 tile.railcraft.manipulator.unloader.item.name=Item Unloader
 tile.railcraft.manipulator.unloader.item.tips=Unloads Items from Carts\n§o§c- Place under Track -
-tile.railcraft.manipulator.unloader.liquid.name=Fluid Unloader
-tile.railcraft.manipulator.unloader.liquid.tips=Unloads Fluids from Carts\n§o§c- Place under Track -
+tile.railcraft.manipulator.unloader.fluid.name=Fluid Unloader
+tile.railcraft.manipulator.unloader.fluid.tips=Unloads Fluids from Carts\n§o§c- Place under Track -
 
 tile.railcraft.ore.dark.diamond.name=Dark Diamond Ore
 tile.railcraft.ore.dark.emerald.name=Dark Emerald Ore

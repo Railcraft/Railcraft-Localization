@@ -634,11 +634,11 @@ tile.railcraft.manipulator.dispenser.train.name=Dispenser de Trenes
 tile.railcraft.manipulator.loader.energy.name=Cargador de Energía
 tile.railcraft.manipulator.loader.item.advanced.name=Cargador Av. Objetos
 tile.railcraft.manipulator.loader.item.name=Cargador de Objetos
-tile.railcraft.manipulator.loader.liquid.name=Cargador de Líquidos
+tile.railcraft.manipulator.loader.fluid.name=Cargador de Líquidos
 tile.railcraft.manipulator.unloader.energy.name=Descargador de Energía
 tile.railcraft.manipulator.unloader.item.advanced.name=Descargador Av. de Objetos
 tile.railcraft.manipulator.unloader.item.name=Descargador de Objetos
-tile.railcraft.manipulator.unloader.liquid.name=Descargador de Líquidos
+tile.railcraft.manipulator.unloader.fluid.name=Descargador de Líquidos
 
 tile.railcraft.ore.dark.diamond.name=Mineral de Diamante Oscuro
 tile.railcraft.ore.dark.emerald.name=Mineral de Esmeralda Oscura

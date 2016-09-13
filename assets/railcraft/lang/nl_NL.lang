@@ -229,11 +229,11 @@ tile.railcraft.manipulator.dispenser.train.name=Trein Dispenser
 tile.railcraft.manipulator.loader.energy.name=Energielader
 tile.railcraft.manipulator.loader.item.advanced.name=Geav. Itemlader
 tile.railcraft.manipulator.loader.item.name=Itemlader
-tile.railcraft.manipulator.loader.liquid.name=Vloeistoflader
+tile.railcraft.manipulator.loader.fluid.name=Vloeistoflader
 tile.railcraft.manipulator.unloader.energy.name=Energielosser
 tile.railcraft.manipulator.unloader.item.advanced.name=Geav. Itemlosser
 tile.railcraft.manipulator.unloader.item.name=Item losser
-tile.railcraft.manipulator.unloader.liquid.name=Vloeistoflosser
+tile.railcraft.manipulator.unloader.fluid.name=Vloeistoflosser
 
 item.railcraft.nugget.iron.name=IJzeren klompje
 item.railcraft.nugget.steel.name=Stalen klompje

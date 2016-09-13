@@ -240,11 +240,11 @@ tile.railcraft.manipulator.dispenser.train.name=Dozownik Pociągów
 tile.railcraft.manipulator.loader.energy.name=Ładowarka Energi
 tile.railcraft.manipulator.loader.item.advanced.name=Zaawansowana Ładowarka Przedmiotów
 tile.railcraft.manipulator.loader.item.name=Ładowarka Przedmiotów
-tile.railcraft.manipulator.loader.liquid.name=Ładowarka Płynów
+tile.railcraft.manipulator.loader.fluid.name=Ładowarka Płynów
 tile.railcraft.manipulator.unloader.energy.name=Rozładowywarka Energi
 tile.railcraft.manipulator.unloader.item.advanced.name=Zaawansowana Rozładowywarka Przedmiotów
 tile.railcraft.manipulator.unloader.item.name=Rozładowywarka Przedmiotów
-tile.railcraft.manipulator.unloader.liquid.name=Rozładowywarka Płynów
+tile.railcraft.manipulator.unloader.fluid.name=Rozładowywarka Płynów
 
 item.railcraft.nugget.iron.name=Samorodek Żelaza
 item.railcraft.nugget.steel.name=Samorodek Stali
