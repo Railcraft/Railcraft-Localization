@@ -479,7 +479,7 @@ gui.railcraft.manipulator.transfer.all.tips=Move all matching items
 gui.railcraft.manipulator.transfer.excess.name=Excess
 gui.railcraft.manipulator.transfer.excess.tips=Move until the Cart\n matches the filter
 gui.railcraft.manipulator.transfer.stock.name=Stock
-gui.railcraft.manipulator.transfer.stock.tips=Move until the\n destination matches filter
+gui.railcraft.manipulator.transfer.stock.tips=Move until the destination\n matches the filter
 gui.railcraft.manipulator.transfer.transfer.name=Transfer
 gui.railcraft.manipulator.transfer.transfer.tips=Move exactly as much\n as is in the filter
 
