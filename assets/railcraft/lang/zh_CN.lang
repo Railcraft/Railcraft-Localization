@@ -494,21 +494,6 @@ railcraft.gui.link.started=链接已开始
 
 railcraft.gui.liquid.capacity=容量
 
-railcraft.gui.liquid.loader.empty.tips=驻留空车
-railcraft.gui.liquid.loader.empty=空
-railcraft.gui.liquid.loader.fill.tips=驻车直到完全载满
-railcraft.gui.liquid.loader.fill=结束
-railcraft.gui.liquid.loader.immediate.tips=如果没有液体被移动\n则发出红石信号
-railcraft.gui.liquid.loader.immediate=空载发车
-railcraft.gui.liquid.loader.manual.tips=从不发出红石
-railcraft.gui.liquid.loader.manual=手动
-railcraft.gui.liquid.unloader.empty.tips=驻车直到完全卸载
-railcraft.gui.liquid.unloader.empty=空
-railcraft.gui.liquid.unloader.redstone.immediate.name=直接发车
-railcraft.gui.liquid.unloader.redstone.immediate.tips=如果没有液体被移动\n则发出红石信号
-railcraft.gui.liquid.unloader.redstone.manual.name=手动
-railcraft.gui.liquid.unloader.redstone.manual.tips=从不发出红石信号
-
 railcraft.gui.locomotive.mode.idle=空闲
 railcraft.gui.locomotive.mode.running=运行
 railcraft.gui.locomotive.mode.shutdown=停机

@@ -490,21 +490,6 @@ railcraft.gui.link.started=Verbindung begonnen
 
 railcraft.gui.liquid.capacity=Kapazität
 
-railcraft.gui.liquid.loader.empty.tips=Halte leere Waggons
-railcraft.gui.liquid.loader.empty=Leere Halten
-railcraft.gui.liquid.loader.fill.tips=Halte Waggons, bis sie\n komplett gefüllt sind
-railcraft.gui.liquid.loader.fill=Voll Erzwingen
-railcraft.gui.liquid.loader.immediate.tips=Redstone aussenden, wenn keine\n Flüssigkeit bewegt wurde
-railcraft.gui.liquid.loader.immediate=Sofort
-railcraft.gui.liquid.loader.manual.tips=Niemals Redstone aussenden
-railcraft.gui.liquid.loader.manual=Manuell
-railcraft.gui.liquid.unloader.empty.tips=Halte Waggons, bis sie\n komplett leer sind
-railcraft.gui.liquid.unloader.empty=Leeren
-railcraft.gui.liquid.unloader.redstone.immediate.tips=Sende Redstone, wenn keine\n Flüssigkeit bewegt wurde
-railcraft.gui.liquid.unloader.redstone.immediate.name=Sofort
-railcraft.gui.liquid.unloader.redstone.manual.tips=Sende niemals Redstone
-railcraft.gui.liquid.unloader.redstone.manual.name=Manuell
-
 railcraft.gui.locomotive.mode.idle=Bereit
 railcraft.gui.locomotive.mode.running=Fahrt
 railcraft.gui.locomotive.mode.shutdown=Abschalten
