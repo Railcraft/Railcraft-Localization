@@ -479,7 +479,7 @@ gui.railcraft.manipulator.transfer.all.tips=Alle passenden Gegenstände bewegen
 gui.railcraft.manipulator.transfer.excess.name=Überschuss
 gui.railcraft.manipulator.transfer.excess.tips=Bewegen, bis der\n Waggon dem Filter entspricht
 gui.railcraft.manipulator.transfer.stock.name=Vorrat
-gui.railcraft.manipulator.transfer.stock.tips=Bewegen, bis das\n Ziel dem Filter entspricht
+gui.railcraft.manipulator.transfer.stock.tips=Bewegen, bis das Ziel\n dem Filter entspricht
 gui.railcraft.manipulator.transfer.transfer.name=Übertragen
 gui.railcraft.manipulator.transfer.transfer.tips=Bewege exakt so viel,\n wie im Filter sind
 
