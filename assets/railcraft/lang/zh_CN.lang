@@ -398,6 +398,7 @@ railcraft.gui.cart.undercutter.sides=侧边
 railcraft.gui.cart.undercutter.transfer.stock.name=库存
 railcraft.gui.cart.undercutter.under=下方
 
+railcraft.gui.charge.meter.cart=矿车 -> 电力: %s c | 抽取: %s c/t | 损耗: %s c/t
 railcraft.gui.charge.meter.network=全网 -> 规模: %s | 电力: %s c | 抽取: %s c/t | 损耗: %s c/t
 railcraft.gui.charge.meter.producer=供应 -> 电力: %s c | 产出: %s c/t
 railcraft.gui.charge.meter.node=节点 -> 抽取: %s c/t | 损耗: %s c/t
@@ -618,6 +619,7 @@ railcraft.keybind.aura.tuning=调谐光环
 
 keybind.railcraft.loco.faster=机车加速
 keybind.railcraft.loco.mode=机车模式切换
+keybind.railcraft.loco.reverse=机车转向
 keybind.railcraft.loco.slower=机车减速
 keybind.railcraft.loco.whistle=机车鸣笛
 
