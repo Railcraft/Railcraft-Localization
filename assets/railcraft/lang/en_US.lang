@@ -1218,8 +1218,8 @@ track_kit.railcraft.railcraft_gated_one_way.tips=Track with built-in One-Way Gat
 track_kit.railcraft.railcraft_launcher.name=Launcher
 track_kit.railcraft.railcraft_launcher.tips=Makes carts fly!\n§o§c- Apply Redstone to enable -
 
-track_kit.railcraft.railcraft_limiter.name=Limiter
-track_kit.railcraft.railcraft_limiter.tips=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_throttle.name=Throttle
+track_kit.railcraft.railcraft_throttle.tips=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
 
 track_kit.railcraft.railcraft_locking.name=Locking
 track_kit.railcraft.railcraft_locking.tips=Stops and holds carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -

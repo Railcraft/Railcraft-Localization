@@ -1216,8 +1216,8 @@ track_kit.railcraft.railcraft_gated_one_way.tips=Mit einseitig öffnendem eingeb
 track_kit.railcraft.railcraft_launcher.name=Katapult
 track_kit.railcraft.railcraft_launcher.tips=Verleiht Waggons Flügel... Beinahe.\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_limiter.name=Geschwindigkeitsregulier
-track_kit.railcraft.railcraft_limiter.tips=Verstellt die Geschwindigkeit\n passierender Lokomotiven\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
+track_kit.railcraft.railcraft_throttle.name=Geschwindigkeitsregulier
+track_kit.railcraft.railcraft_throttle.tips=Verstellt die Geschwindigkeit\n passierender Lokomotiven\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_locking.name=Sperr
 track_kit.railcraft.railcraft_locking.tips=Hält Waggons fest\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -

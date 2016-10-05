@@ -1220,8 +1220,8 @@ track_kit.railcraft.railcraft_gated.one.way.tips=内建单向门控装置的轨�
 track_kit.railcraft.railcraft_launcher.name=发射
 track_kit.railcraft.railcraft_launcher.tips=让矿车一飞冲天~\n§o§c- 使用红石信号激活 -
 
-track_kit.railcraft.railcraft_limiter.name=机车限速
-track_kit.railcraft.railcraft_limiter.tips=调整经过机车的速度\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
+track_kit.railcraft.railcraft_throttle.name=机车限速
+track_kit.railcraft.railcraft_throttle.tips=调整经过机车的速度\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
 
 track_kit.railcraft.railcraft_locking.name=封锁
 track_kit.railcraft.railcraft_locking.tips=发动或驻留矿车\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
