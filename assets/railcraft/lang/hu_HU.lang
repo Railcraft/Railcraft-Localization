@@ -511,10 +511,10 @@ railcraft.gui.turbine=Gőzturbina
 railcraft.keybind.aura.anchor=Anchor Aura
 railcraft.keybind.aura.tuning=Tuning Aura
 
-railcraft.keybind.loco.faster=Mozdony gyorsítása
-railcraft.keybind.loco.mode=Mozdony mód
-railcraft.keybind.loco.slower=Mozdony lassítása
-railcraft.keybind.loco.whistle=Mozdony sípoltatása
+keybind.railcraft.loco.faster=Mozdony gyorsítása
+keybind.railcraft.loco.mode=Mozdony mód
+keybind.railcraft.loco.slower=Mozdony lassítása
+keybind.railcraft.loco.whistle=Mozdony sípoltatása
 
 railcraft.locomotive.model.electric.default.name=Szabvány elektronika
 railcraft.locomotive.model.steam.magic.default.name=Szabvány varázslat
@@ -947,8 +947,8 @@ tile.railcraft.track.holding.train.tips=Replaced by Locking Track
 tile.railcraft.track.junction.name=Junction Track
 tile.railcraft.track.launcher.name=Launcher Track
 tile.railcraft.track.launcher.tips=Makes carts fly\n§o§c- Apply Redstone to enable -
-tile.railcraft.track.limiter.name=Limiter Track
-tile.railcraft.track.limiter.tips=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.throttle.name=Limiter Track
+tile.railcraft.track.throttle.tips=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.lockdown.name=Lockdown Track
 tile.railcraft.track.lockdown.tips=Replaced by Locking Track
 tile.railcraft.track.lockdown.train.name=Train Lockdown Track

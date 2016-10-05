@@ -423,10 +423,10 @@ item.railcraft.ingot.steel.name=Stålbar
 
 item.synthetic=Syntetisk
 
-railcraft.keybind.loco.faster=Locomotive Faster Key
-railcraft.keybind.loco.slower=Locomotive Slower Key
-railcraft.keybind.loco.mode=Locomotive Mode Key
-railcraft.keybind.loco.whistle=Locomotive Whistle Key
+keybind.railcraft.loco.faster=Locomotive Faster Key
+keybind.railcraft.loco.slower=Locomotive Slower Key
+keybind.railcraft.loco.mode=Locomotive Mode Key
+keybind.railcraft.loco.whistle=Locomotive Whistle Key
 
 railcraft.locomotive.model.steam.solid.default.name=Default Solid
 railcraft.locomotive.model.steam.magic.default.name=Default Magic
@@ -743,8 +743,8 @@ tile.railcraft.track.holding.train.tips=Not for use with Loaders!
 tile.railcraft.track.junction.name=Kryssspor
 tile.railcraft.track.launcher.name=Avskytningspor
 tile.railcraft.track.launcher.tips=Makes carts fly
-tile.railcraft.track.limiter.name=Begrensningspor
-tile.railcraft.track.limiter.tips=Adjusts the speed\n of passing Locomotives
+tile.railcraft.track.throttle.name=Begrensningspor
+tile.railcraft.track.throttle.tips=Adjusts the speed\n of passing Locomotives
 tile.railcraft.track.lockdown.name=Nedstengningspor
 tile.railcraft.track.lockdown.train.name=Tog nedstengingspor
 tile.railcraft.track.lockdown.train.tips=Not for use with Loaders!

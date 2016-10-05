@@ -438,10 +438,10 @@ item.synthetic=Synthétique
 railcraft.keybind.aura.anchor=Ancre aura
 railcraft.keybind.aura.tuning=Réglage aura
 
-railcraft.keybind.loco.faster=Clé locomotive rapide
-railcraft.keybind.loco.slower=Clé locomotive lente
-railcraft.keybind.loco.mode=Clé mode de locomotive
-railcraft.keybind.loco.whistle=Clé sifflet de locomotive
+keybind.railcraft.loco.faster=Clé locomotive rapide
+keybind.railcraft.loco.slower=Clé locomotive lente
+keybind.railcraft.loco.mode=Clé mode de locomotive
+keybind.railcraft.loco.whistle=Clé sifflet de locomotive
 
 railcraft.locomotive.model.steam.solid.default.name=Défaut Solide
 railcraft.locomotive.model.steam.magic.default.name=Défaut Magique
@@ -767,8 +767,8 @@ tile.railcraft.track.holding.train.tips=Ne pas utiliser avec les chargeurs !
 tile.railcraft.track.junction.name=Rails de croisement
 tile.railcraft.track.launcher.name=Rails lanceur
 tile.railcraft.track.launcher.tips=Produit des wagonnet volant\n§o§c- Appliquer de la Redstone pour activer -
-tile.railcraft.track.limiter.name=Rails limiteur
-tile.railcraft.track.limiter.tips=Règle la vitesse de passage des locomotives\n§o§9- Frapper avec le pied de biche pour changer de mode -\n§o§c- Appliquer de la Redstone pour activer -
+tile.railcraft.track.throttle.name=Rails limiteur
+tile.railcraft.track.throttle.tips=Règle la vitesse de passage des locomotives\n§o§9- Frapper avec le pied de biche pour changer de mode -\n§o§c- Appliquer de la Redstone pour activer -
 tile.railcraft.track.lockdown.name=Rails de verrouillage
 tile.railcraft.track.lockdown.tips=Remplacé par verrouillage des voies
 tile.railcraft.track.lockdown.train.name=Rails de verrouillage pour train

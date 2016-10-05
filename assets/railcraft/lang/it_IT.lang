@@ -339,10 +339,10 @@ item.railcraft.ingot.steel.name=Lingotto d'Acciaio
 
 item.synthetic=Sintetico
 
-railcraft.keybind.loco.faster=Chiave più veloce per Locomotiva
-railcraft.keybind.loco.slower=Chiave più lenta per Locomotiva
-railcraft.keybind.loco.mode=Chiave modalità per Locomotiva
-railcraft.keybind.loco.whistle=Chiave del fischio per Locomotiva 
+keybind.railcraft.loco.faster=Chiave più veloce per Locomotiva
+keybind.railcraft.loco.slower=Chiave più lenta per Locomotiva
+keybind.railcraft.loco.mode=Chiave modalità per Locomotiva
+keybind.railcraft.loco.whistle=Chiave del fischio per Locomotiva
 
 item.railcraft.fluid.creosote.bottle.name=Bottiglia di creosoto
 item.railcraft.fluid.creosote.bucket.name=Secchio di creosoto
@@ -581,7 +581,7 @@ tile.railcraft.track.gated.oneway.name=Rotaia d'uscita a senso unico
 tile.railcraft.track.holding.name=Rotaia di stazionamento
 tile.railcraft.track.holding.train.name=Rotaia di stazionamento per treni
 tile.railcraft.track.junction.name=Rotaia di unione
-tile.railcraft.track.limiter.name=Rotaia Limitatrice
+tile.railcraft.track.throttle.name=Rotaia Limitatrice
 tile.railcraft.track.lockdown.name=Rotaia Mantenitrice
 tile.railcraft.track.lockdown.train.name=Rotaia Mantenitrice per Treni
 tile.railcraft.track.locomotive.name=Rotaia per Locomotive

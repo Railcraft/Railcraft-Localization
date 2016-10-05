@@ -338,10 +338,10 @@ item.railcraft.ingot.steel.name=강철 주괴
 
 item.synthetic=합성
 
-railcraft.keybind.loco.faster=기관차 가속 키
-railcraft.keybind.loco.slower=기관차 감속 키
-railcraft.keybind.loco.mode=기관차 모드 키
-railcraft.keybind.loco.whistle=기관차 기적 키
+keybind.railcraft.loco.faster=기관차 가속 키
+keybind.railcraft.loco.slower=기관차 감속 키
+keybind.railcraft.loco.mode=기관차 모드 키
+keybind.railcraft.loco.whistle=기관차 기적 키
 
 item.railcraft.fluid.creosote.bottle.name=크레오소트 병
 item.railcraft.fluid.creosote.bucket.name=크레오소트 양동이
@@ -581,7 +581,7 @@ tile.railcraft.track.holding.name=일시정지 레일
 tile.railcraft.track.holding.train.name=열차 일시정지 레일
 tile.railcraft.track.junction.name=교차 레일
 tile.railcraft.track.launcher.name=발사 레일
-tile.railcraft.track.limiter.name=리미터 레일
+tile.railcraft.track.throttle.name=리미터 레일
 tile.railcraft.track.lockdown.name=정지 레일
 tile.railcraft.track.lockdown.train.name=열차 정지 레일
 tile.railcraft.track.locomotive.name=기관차 레일

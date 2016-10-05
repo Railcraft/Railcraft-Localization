@@ -598,10 +598,10 @@ railcraft.keybind.aura.anchor=世界錨特效
 railcraft.keybind.aura.surveying=號誌區間特效
 railcraft.keybind.aura.tuning=號誌調諧特效
 
-railcraft.keybind.loco.faster=機車加速
-railcraft.keybind.loco.mode=機車狀態切換
-railcraft.keybind.loco.slower=機車減速
-railcraft.keybind.loco.whistle=機車汽笛
+keybind.railcraft.loco.faster=機車加速
+keybind.railcraft.loco.mode=機車狀態切換
+keybind.railcraft.loco.slower=機車減速
+keybind.railcraft.loco.whistle=機車汽笛
 
 railcraft.locomotive.model.electric.default.name=標準電力
 railcraft.locomotive.model.steam.magic.default.name=標準魔力
@@ -1056,8 +1056,8 @@ tile.railcraft.track.holding.train.tips=已被鎖定鐵軌取代
 tile.railcraft.track.junction.name=十字鐵軌
 tile.railcraft.track.launcher.name=彈跳鐵軌
 tile.railcraft.track.launcher.tips=使礦車在空中飛翔\n§o§c- 以紅石充能啟動 -
-tile.railcraft.track.limiter.name=限制鐵軌
-tile.railcraft.track.limiter.tips=調節經過火車頭的速度\n§o§9- 以鐵橇點擊改變模式 -\n§o§c- 以紅石充能啟動 -
+tile.railcraft.track.throttle.name=限制鐵軌
+tile.railcraft.track.throttle.tips=調節經過火車頭的速度\n§o§9- 以鐵橇點擊改變模式 -\n§o§c- 以紅石充能啟動 -
 tile.railcraft.track.lockdown.name=鎖定鐵軌
 tile.railcraft.track.lockdown.tips=已被鎖定鐵軌(3合1版本)取代
 tile.railcraft.track.lockdown.train.name=列車鎖定軌

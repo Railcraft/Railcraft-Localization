@@ -453,10 +453,10 @@ railcraft.gui.turbine=Turbina a Vapor
 railcraft.keybind.aura.anchor=Aura de Anclaje
 railcraft.keybind.aura.tuning=Sintonización del Aura
 
-railcraft.keybind.loco.faster=Locomotora más rápido
-railcraft.keybind.loco.mode=Modo de locomotora
-railcraft.keybind.loco.slower=Locomotora más lento
-railcraft.keybind.loco.whistle=Silbato de la locomotora
+keybind.railcraft.loco.faster=Locomotora más rápido
+keybind.railcraft.loco.mode=Modo de locomotora
+keybind.railcraft.loco.slower=Locomotora más lento
+keybind.railcraft.loco.whistle=Silbato de la locomotora
 
 railcraft.locomotive.model.electric.default.name=Standard Electric
 railcraft.locomotive.model.steam.magic.default.name=Standard Magic
@@ -834,8 +834,8 @@ tile.railcraft.track.holding.train.tips=Sustituido por Vía de Bloqueo
 tile.railcraft.track.junction.name=Vía de Unión
 tile.railcraft.track.launcher.name=Vía de Lanzamiento
 tile.railcraft.track.launcher.tips=Hace volar los carros\n§o§c- Aplicar Redstone para permitir -
-tile.railcraft.track.limiter.name=Limitador de Vías
-tile.railcraft.track.limiter.tips=Ajusta la velocidad\n de locomotoras que pasan\n§o§9- Golpee con palanca para cambiar el modo -\n§o§c- Aplique Redstone para permitir -
+tile.railcraft.track.throttle.name=Limitador de Vías
+tile.railcraft.track.throttle.tips=Ajusta la velocidad\n de locomotoras que pasan\n§o§9- Golpee con palanca para cambiar el modo -\n§o§c- Aplique Redstone para permitir -
 tile.railcraft.track.lockdown.name=Bloqueo de Vía
 tile.railcraft.track.lockdown.tips=Sustituido por Vía de Bloqueo
 tile.railcraft.track.lockdown.train.name=Bloqueador de Vía de Tren

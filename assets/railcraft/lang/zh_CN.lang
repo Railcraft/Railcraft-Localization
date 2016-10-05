@@ -616,10 +616,10 @@ railcraft.keybind.aura.anchor=锚光环
 railcraft.keybind.aura.surveying=检测光环
 railcraft.keybind.aura.tuning=调谐光环
 
-railcraft.keybind.loco.faster=机车加速
-railcraft.keybind.loco.mode=机车模式切换
-railcraft.keybind.loco.slower=机车减速
-railcraft.keybind.loco.whistle=机车鸣笛
+keybind.railcraft.loco.faster=机车加速
+keybind.railcraft.loco.mode=机车模式切换
+keybind.railcraft.loco.slower=机车减速
+keybind.railcraft.loco.whistle=机车鸣笛
 
 railcraft.locomotive.model.electric.default.name=标准电力
 railcraft.locomotive.model.steam.magic.default.name=标准魔力
@@ -1068,8 +1068,8 @@ tile.railcraft.track.holding.train.tips=已被封锁轨道取代
 tile.railcraft.track.junction.name=交接轨道
 tile.railcraft.track.launcher.name=发射轨道
 tile.railcraft.track.launcher.tips=让矿车一飞冲天\n§o§c- 使用红石信号激活 -
-tile.railcraft.track.limiter.name=机车限速轨道
-tile.railcraft.track.limiter.tips=调整经过机车的速度\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
+tile.railcraft.track.throttle.name=机车限速轨道
+tile.railcraft.track.throttle.tips=调整经过机车的速度\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
 tile.railcraft.track.locking.name=封锁轨道
 tile.railcraft.track.locking.tips=发动或驻留机车
 tile.railcraft.track.locomotive.name=机车调整轨道

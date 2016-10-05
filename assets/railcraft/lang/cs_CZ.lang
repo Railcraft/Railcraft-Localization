@@ -548,10 +548,10 @@ railcraft.keybind.aura.anchor=Aura kotvy
 railcraft.keybind.aura.surveying=Zaměřovací Aura
 railcraft.keybind.aura.tuning=Nastavení aury
 
-railcraft.keybind.loco.faster=Lokomotiva-zrychlit
-railcraft.keybind.loco.mode=Lokomotiva-režim
-railcraft.keybind.loco.slower=Lokomotiva-zpomalit
-railcraft.keybind.loco.whistle=Lokomotiva-píšťala
+keybind.railcraft.loco.faster=Lokomotiva-zrychlit
+keybind.railcraft.loco.mode=Lokomotiva-režim
+keybind.railcraft.loco.slower=Lokomotiva-zpomalit
+keybind.railcraft.loco.whistle=Lokomotiva-píšťala
 
 railcraft.locomotive.model.electric.default.name=Standard Elektrická
 railcraft.locomotive.model.steam.magic.default.name=Standard Magická
@@ -988,8 +988,8 @@ tile.railcraft.track.holding.train.tips=-Train Holding Track-\n Vyměněna za Lo
 tile.railcraft.track.junction.name=Překřižovací kolej
 tile.railcraft.track.launcher.name=Odpalovací kolej
 tile.railcraft.track.launcher.tips=-Launcher Track-\n Umožní vozíku se proletět\n§o§c- Aplikuj Rudit k zapnutí -
-tile.railcraft.track.limiter.name=Omezovací kolej
-tile.railcraft.track.limiter.tips=-Limiter Track-\n Omezuje rychlost\n projíždějící lokomotivy\n§o§9- Udeř páčidlem pro změnu módu -\n§o§c- Aplikuj Rudit k zapnutí -
+tile.railcraft.track.throttle.name=Omezovací kolej
+tile.railcraft.track.throttle.tips=-Limiter Track-\n Omezuje rychlost\n projíždějící lokomotivy\n§o§9- Udeř páčidlem pro změnu módu -\n§o§c- Aplikuj Rudit k zapnutí -
 tile.railcraft.track.lockdown.name=Zamykací kolej
 tile.railcraft.track.lockdown.tips=-Lockdown Track-\n Nahrazeno za Locking Track
 tile.railcraft.track.lockdown.train.name=Vlaková Zamykací kolej
