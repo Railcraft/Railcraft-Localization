@@ -788,10 +788,10 @@ tile.railcraft.machine.delta.wire.tips=連接電氣鐵軌間的隔閡\n 使用�
 
 tile.railcraft.machine.epsilon.admin.steam.producer.name=管理用蒸氣產生器
 tile.railcraft.machine.epsilon.admin.steam.producer.tips=產出無限量的蒸氣
-tile.railcraft.machine.epsilon.electric.feeder.admin.name=管理用電力轉換單位
-tile.railcraft.machine.epsilon.electric.feeder.admin.tips=產出無限量的Railcraft電力
-tile.railcraft.machine.epsilon.electric.feeder.name=電力轉換單位
-tile.railcraft.machine.epsilon.electric.feeder.tips=將IC2電能轉換成Railcraft電力
+tile.railcraft.charge.feeder.admin.name=管理用電力轉換單位
+tile.railcraft.charge.feeder.admin.tips=產出無限量的Railcraft電力
+tile.railcraft.charge.feeder.ic2.name=電力轉換單位
+tile.railcraft.charge.feeder.ic2.tips=將IC2電能轉換成Railcraft電力
 tile.railcraft.machine.epsilon.engraving.bench.name=雕刻工作臺
 tile.railcraft.machine.epsilon.flux.transformer.name=能量變換機
 tile.railcraft.machine.epsilon.flux.transformer.tips=多重方塊: 2x2x2\n 將RF能量轉換成Railcraft電力\n 80%的效益

@@ -808,10 +808,10 @@ tile.railcraft.machine.delta.wire.tips=跨距连接电轨\n配合线缆支撑框
 
 tile.railcraft.machine.epsilon.admin.steam.producer.name=管理员蒸汽供给单元
 tile.railcraft.machine.epsilon.admin.steam.producer.tips=提供无限的蒸汽
-tile.railcraft.machine.epsilon.electric.feeder.admin.name=管理员电力供给单元
-tile.railcraft.machine.epsilon.electric.feeder.admin.tips=提供无限的RC电力
-tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元 
-tile.railcraft.machine.epsilon.electric.feeder.tips=将IC电力转化为RC电力
+tile.railcraft.charge.feeder.admin.name=管理员电力供给单元
+tile.railcraft.charge.feeder.admin.tips=提供无限的RC电力
+tile.railcraft.charge.feeder.ic2.name=电力供给单元
+tile.railcraft.charge.feeder.ic2.tips=将IC电力转化为RC电力
 tile.railcraft.machine.epsilon.engraving.bench.name=雕刻桌
 tile.railcraft.machine.epsilon.flux.transformer.name=能量流转换机
 tile.railcraft.machine.epsilon.flux.transformer.tips=多方块结构: 2x2x2\n 将RF能量转换为RC电力\n 80%的效率

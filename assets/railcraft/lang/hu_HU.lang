@@ -698,10 +698,10 @@ tile.railcraft.machine.delta.wire.tips=Connect Electric Track across gaps\n Plac
 
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Admin Steam Producer
 tile.railcraft.machine.epsilon.admin.steam.producer.tips=Provides Unlimited Steam
-tile.railcraft.machine.epsilon.electric.feeder.admin.name=Admin Feeder Unit
-tile.railcraft.machine.epsilon.electric.feeder.admin.tips=Provides Unlimited Railcraft Charge
-tile.railcraft.machine.epsilon.electric.feeder.name=Electric Feeder Unit
-tile.railcraft.machine.epsilon.electric.feeder.tips=Converts IndustrialCraft\n Electricity to Railcraft Charge
+tile.railcraft.charge.feeder.admin.name=Admin Feeder Unit
+tile.railcraft.charge.feeder.admin.tips=Provides Unlimited Railcraft Charge
+tile.railcraft.charge.feeder.ic2.name=Electric Feeder Unit
+tile.railcraft.charge.feeder.ic2.tips=Converts IndustrialCraft\n Electricity to Railcraft Charge
 tile.railcraft.machine.epsilon.flux.transformer.name=Flux Transformer
 tile.railcraft.machine.epsilon.flux.transformer.tips=Multi-Block: 2x2x2\n Converts Redstone Flux to Railcraft Charge\n 80% Efficiency
 tile.railcraft.machine.epsilon.force.track.emitter.name=Force Track Emitter

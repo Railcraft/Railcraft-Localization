@@ -692,10 +692,10 @@ tile.railcraft.machine.delta.wire.tips=Conecta vías eléctricas a través de lo
 
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Generador de Vapor de Admin
 tile.railcraft.machine.epsilon.admin.steam.producer.tips=Produce vapor ilimitado
-tile.railcraft.machine.epsilon.electric.feeder.admin.name=Unidad de alimentación de Admin
-tile.railcraft.machine.epsilon.electric.feeder.admin.tips=Produce carga de Railcraft ilimitada
-tile.railcraft.machine.epsilon.electric.feeder.name=Unidad de Alimentación Eléctrica
-tile.railcraft.machine.epsilon.electric.feeder.tips=Convierte la electricidad de IndustrialCraft en carga de Railcraft
+tile.railcraft.charge.feeder.admin.name=Unidad de alimentación de Admin
+tile.railcraft.charge.feeder.admin.tips=Produce carga de Railcraft ilimitada
+tile.railcraft.charge.feeder.ic2.name=Unidad de Alimentación Eléctrica
+tile.railcraft.charge.feeder.ic2.tips=Convierte la electricidad de IndustrialCraft en carga de Railcraft
 tile.railcraft.machine.epsilon.flux.transformer.name=Transformador de Flux
 tile.railcraft.machine.epsilon.flux.transformer.tips=Multi-Bloque: 2x2x2\n Convierte Redstone Flux en carga de Railcraft\n 80% Eficiencia
 tile.railcraft.machine.epsilon.force.track.emitter.name=Emisor de vías de fuerza

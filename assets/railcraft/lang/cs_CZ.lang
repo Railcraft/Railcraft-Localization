@@ -738,10 +738,10 @@ tile.railcraft.machine.delta.wire.tips=-Electric Shunting Wire-\n Připojí Elek
 
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Správcův produktor páry
 tile.railcraft.machine.epsilon.admin.steam.producer.tips=-Admin Steam Producer-\n Produkuje nekonečno páry
-tile.railcraft.machine.epsilon.electric.feeder.admin.name=Správcův měnič jednotek
-tile.railcraft.machine.epsilon.electric.feeder.admin.tips=-Admin Feeder Unit-\n Produkuje nekonečno jednotek
-tile.railcraft.machine.epsilon.electric.feeder.name=Elektrický měnič jednotek
-tile.railcraft.machine.epsilon.electric.feeder.tips=-Electric Feeder Unit-\n konvertuje EU z IndustrialCraft\n na energii použitelnou v Railcraftu.
+tile.railcraft.charge.feeder.admin.name=Správcův měnič jednotek
+tile.railcraft.charge.feeder.admin.tips=-Admin Feeder Unit-\n Produkuje nekonečno jednotek
+tile.railcraft.charge.feeder.ic2.name=Elektrický měnič jednotek
+tile.railcraft.charge.feeder.ic2.tips=-Electric Feeder Unit-\n konvertuje EU z IndustrialCraft\n na energii použitelnou v Railcraftu.
 tile.railcraft.machine.epsilon.engraving.bench.name=Razící lis
 tile.railcraft.machine.epsilon.flux.transformer.name=Transformátor ruditového napětí
 tile.railcraft.machine.epsilon.flux.transformer.tips=-Flux Transformer-\n Multi-blok: 2x2x2\n Convertuje Ruditové napětí na Railcraft energii\n 80% efektivita

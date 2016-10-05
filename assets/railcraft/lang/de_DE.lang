@@ -804,10 +804,10 @@ tile.railcraft.machine.delta.wire.tips=Verbindet Elektrische Gleise über Lücke
 
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Admin-Dampfproduzent
 tile.railcraft.machine.epsilon.admin.steam.producer.tips=Gibt unendlich Dampf
-tile.railcraft.machine.epsilon.electric.feeder.admin.name=Admin-Feeder-Einheit
-tile.railcraft.machine.epsilon.electric.feeder.admin.tips=Gibt unendlich Railcraft-Energie
-tile.railcraft.machine.epsilon.electric.feeder.name=Elektrische Feeder-Einheit
-tile.railcraft.machine.epsilon.electric.feeder.tips=Wandelt IndustrialCraft-\n in Railcraft-Energie um
+tile.railcraft.charge.feeder.admin.name=Admin-Feeder-Einheit
+tile.railcraft.charge.feeder.admin.tips=Gibt unendlich Railcraft-Energie
+tile.railcraft.charge.feeder.ic2.name=Elektrische Feeder-Einheit
+tile.railcraft.charge.feeder.ic2.tips=Wandelt IndustrialCraft-\n in Railcraft-Energie um
 tile.railcraft.machine.epsilon.engraving.bench.name=Gravurwerkbank
 tile.railcraft.machine.epsilon.flux.transformer.name=Fluxtransformator
 tile.railcraft.machine.epsilon.flux.transformer.tips=Multi-Block: 2x2x2\n Wandelt Redstone Flux in Railcraft-Energie um\n 80% Effizienz
