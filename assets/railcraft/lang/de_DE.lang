@@ -394,6 +394,7 @@ railcraft.gui.cart.undercutter.sides=Seite
 railcraft.gui.cart.undercutter.transfer.stock.name=Vorrat
 railcraft.gui.cart.undercutter.under=Unten
 
+railcraft.gui.charge.meter.cart=Waggon -> Ladung: %s c | Entzug: %s c/t | Verlust: %s c/t
 railcraft.gui.charge.meter.network=Netz -> Größe: %s | Ladung: %s c | Entzug: %s c/t | Verlust: %s c/t
 railcraft.gui.charge.meter.producer=Versorgung -> Ladung: %s c | Produktion: %s c/t
 railcraft.gui.charge.meter.node=Knoten -> Entzug: %s c/t | Verlust: %s c/t
@@ -614,6 +615,7 @@ railcraft.keybind.aura.tuning=Tuning-Aura
 
 keybind.railcraft.loco.faster=Lokomotive: Schneller
 keybind.railcraft.loco.mode=Lokomotive: Modus
+keybind.railcraft.loco.reverse=Lokomotive: Rückwärts
 keybind.railcraft.loco.slower=Lokomotive: Langsamer
 keybind.railcraft.loco.whistle=Lokomotive: Pfeife
 
@@ -1064,7 +1066,7 @@ tile.railcraft.track.holding.train.tips=Durch das Sperrgleis ersetzt
 tile.railcraft.track.junction.name=Schienenkreuz
 tile.railcraft.track.launcher.name=Katapultgleis
 tile.railcraft.track.launcher.tips=Verleiht Waggons Flügel... Beinahe.\n§o§c- Aktiviere mit einem Redstone-Signal -
-tile.railcraft.track.throttle.name=Geschwindigkeitsreguliergleis
+tile.railcraft.track.throttle.name=Drosselgleis
 tile.railcraft.track.throttle.tips=Verstellt die Geschwindigkeit\n passierender Lokomotiven\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.locking.name=Sperrgleis
 tile.railcraft.track.locking.tips=Stoppt und hält Waggons\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
