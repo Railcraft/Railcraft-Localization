@@ -294,6 +294,7 @@ item.railcraft.tool.signal.surveyor.name=Signal Block Surveyor
 item.railcraft.tool.signal.surveyor.tips=Links Signals into Signal Blocks
 item.railcraft.tool.signal.tuner.name=Signal Tuner
 item.railcraft.tool.signal.tuner.tips=Links Controllers to Receivers
+item.railcraft.tool_stone_carver.name=Stone Carver
 item.railcraft.tool.sword.steel.name=Steel Sword
 item.railcraft.tool.whistle.tuner.name=Whistle Tuner
 
@@ -705,6 +706,8 @@ tile.railcraft.charge.feeder.admin.name=Admin Charge Feeder Unit
 tile.railcraft.charge.feeder.admin.tips=Provides Unlimited Railcraft Charge
 tile.railcraft.charge.feeder.ic2.name=IC2 Charge Feeder Unit
 tile.railcraft.charge.feeder.ic2.tips=Converts IndustrialCraft\n Electricity to Railcraft Charge
+
+tile.railcraft.charge.trap.name=Charge Trap
 
 tile.railcraft.generic.brick.infernal.name=Infernal Brick (Obsolete)
 tile.railcraft.generic.brick.sandy.name=Sandy Brick (Obsolete)
