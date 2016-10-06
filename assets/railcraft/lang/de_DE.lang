@@ -206,12 +206,13 @@ item.railcraft.firestone.refined.tips.charged=Gefüllt mit Energie;\n du brauchs
 item.railcraft.firestone.refined.tips.empty=Seine Energien unter Kontrolle;\n er könnte nützlich sein,\n wenn du ihn wieder aufladen könntest...
 
 item.railcraft.fluid_bottle_creosote.name=Teerölflasche
+item.railcraft.fluid_bottle_steam.name=Dampfflasche
 item.railcraft.fluid_bucket_creosote.name=Teeröleimer
+
 item.railcraft.fluid.creosote.can.name=Teerölbüchse
 item.railcraft.fluid.creosote.cell.name=Teerölzelle
 item.railcraft.fluid.creosote.refactory.name=Teerölkapsel
 item.railcraft.fluid.creosote.wax.name=Teerölkapsel
-item.railcraft.fluid_bottle_steam.name=Dampfflasche
 
 item.railcraft.fuel.coke.name=Koks
 
@@ -293,6 +294,7 @@ item.railcraft.tool.signal.surveyor.name=Signalblockvermesser
 item.railcraft.tool.signal.surveyor.tips=Verbindet Signale zu Signalblöcken
 item.railcraft.tool.signal.tuner.name=Abstimmgerät
 item.railcraft.tool.signal.tuner.tips=Verbindet Signalsender und -empfänger
+item.railcraft.tool_stone_carver.name=Meißel
 item.railcraft.tool.sword.steel.name=Stahlschwert
 item.railcraft.tool.whistle.tuner.name=Pfeifenstimmer
 
@@ -700,6 +702,13 @@ tile.railcraft.brick.sandy.etched.name=Geätzter Sandstein
 tile.railcraft.brick.sandy.fitted.name=Gemeißelter Sandstein
 tile.railcraft.brick.sandy.ornate.name=Verzierter Sandstein
 
+tile.railcraft.charge.feeder.admin.name=Admin-Stromumformer
+tile.railcraft.charge.feeder.admin.tips=Eine endlose Quelle für Railcraft-Energie
+tile.railcraft.charge.feeder.ic2.name=IC2-Stromumformer
+tile.railcraft.charge.feeder.ic2.tips=Wandelt IndustrialCraft-\n in Railcraft-Energie um
+
+tile.railcraft.charge.trap.name=Stromfalle
+
 tile.railcraft.generic.brick.infernal.name=Verfluchter Ziegel (veraltet)
 tile.railcraft.generic.brick.sandy.name=Sandsteinziegel (veraltet)
 tile.railcraft.generic.coke.name=Koksblock
@@ -804,10 +813,6 @@ tile.railcraft.machine.delta.wire.tips=Verbindet Elektrische Gleise über Lücke
 
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Admin-Dampfproduzent
 tile.railcraft.machine.epsilon.admin.steam.producer.tips=Gibt unendlich Dampf
-tile.railcraft.charge.feeder.admin.name=Admin-Feeder-Einheit
-tile.railcraft.charge.feeder.admin.tips=Gibt unendlich Railcraft-Energie
-tile.railcraft.charge.feeder.ic2.name=Elektrische Feeder-Einheit
-tile.railcraft.charge.feeder.ic2.tips=Wandelt IndustrialCraft-\n in Railcraft-Energie um
 tile.railcraft.machine.epsilon.engraving.bench.name=Gravurwerkbank
 tile.railcraft.machine.epsilon.flux.transformer.name=Fluxtransformator
 tile.railcraft.machine.epsilon.flux.transformer.tips=Multi-Block: 2x2x2\n Wandelt Redstone Flux in Railcraft-Energie um\n 80% Effizienz
@@ -1045,11 +1050,11 @@ tile.railcraft.track.disembarking.tips=Wirft fahrende Lebewesen aus dem Waggon, 
 tile.railcraft.track.disposal.name=Entsorgungsgleis
 tile.railcraft.track.disposal.tips=Hängendes Gleis\n Wirft fahrende Lebewesen raus
 tile.railcraft.track.electric.junction.name=Elektrisches Schienenkreuz
-tile.railcraft.track.electric.junction.tips=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
+tile.railcraft.track.electric.junction.tips=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Stromumformer zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
 tile.railcraft.track.electric.switch.name=Elektrische Weiche
-tile.railcraft.track.electric.switch.tips=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken\n§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
+tile.railcraft.track.electric.switch.tips=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Stromumformer zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken\n§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.electric.wye.name=Elektrische T-Weiche
-tile.railcraft.track.electric.wye.tips=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken\n§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
+tile.railcraft.track.electric.wye.tips=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Stromumformer zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken\n§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.elevator.name=Aufzugsgleis
 tile.railcraft.track.elevator.tips=Ermöglicht vertikale Waggonbewegung\n§o§c- Um nach oben zu fahren, gib Redstone-Signal an der Oberkante -
 tile.railcraft.track.embarking.name=Aufnahmegleis
@@ -1152,7 +1157,7 @@ tile.railcraft.track.flex.abandoned.name=Aufgegebenes Gleis
 tile.railcraft.track.flex.abandoned.tips=§9Vorsicht: Entgleisungsrisiko\nKann frei über Lücken im Terrain hängen.
 
 tile.railcraft.track.flex.electric.name=Elektrisches Gleis
-tile.railcraft.track.flex.electric.tips=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Elektrische Feeder-Einheiten zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
+tile.railcraft.track.flex.electric.tips=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Stromumformer zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
 
 tile.railcraft.track.flex.high.speed.name=Hochgeschwindigkeitsgleis
 tile.railcraft.track.flex.high.speed.tips=§9Vorsicht: Hochgeschwindigkeit!\n §rSehr schnell\n Erfordert Antriebs-/Übergangsgleis, um Geschwindigkeit zu erreichen\n Auf Hochgeschwindigkeit sind Kurven unmöglich
@@ -1218,7 +1223,7 @@ track_kit.railcraft.railcraft_gated_one_way.tips=Mit einseitig öffnendem eingeb
 track_kit.railcraft.railcraft_launcher.name=Katapult
 track_kit.railcraft.railcraft_launcher.tips=Verleiht Waggons Flügel... Beinahe.\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_throttle.name=Geschwindigkeitsregulier
+track_kit.railcraft.railcraft_throttle.name=Drossel
 track_kit.railcraft.railcraft_throttle.tips=Verstellt die Geschwindigkeit\n passierender Lokomotiven\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_locking.name=Sperr
