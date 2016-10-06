@@ -205,13 +205,14 @@ item.railcraft.firestone.refined.name=Refined Firestone
 item.railcraft.firestone.refined.tips.charged=Filled with energy,\n you need only exert\n your will on it to\n release blistering heat...
 item.railcraft.firestone.refined.tips.empty=Its energies controlled,\n it could be useful\n if you could recharge it...
 
-item.railcraft.fluid.creosote.bottle.name=Creosote Bottle
-item.railcraft.fluid.creosote.bucket.name=Creosote Bucket
+item.railcraft.fluid_bottle_creosote.name=Creosote Bottle
+item.railcraft.fluid_bottle_steam.name=Steam Bottle
+item.railcraft.fluid_bucket_creosote.name=Creosote Bucket
+
 item.railcraft.fluid.creosote.can.name=Creosote Can
 item.railcraft.fluid.creosote.cell.name=Creosote Cell
 item.railcraft.fluid.creosote.refactory.name=Creosote Capsule
 item.railcraft.fluid.creosote.wax.name=Creosote Capsule
-item.railcraft.fluid.steam.bottle.name=Steam Bottle
 
 item.railcraft.fuel.coke.name=Coal Coke
 

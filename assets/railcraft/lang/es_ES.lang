@@ -143,13 +143,13 @@ item.railcraft.firestone.refined.name=Piedrafuego Refinado
 item.railcraft.firestone.refined.tips.charged=Lleno de energía, \n solo necesitas ejercer\n tu voluntad en el \n para liberar su abrasador calor...
 item.railcraft.firestone.refined.tips.empty=Su energía controlada,\n podrían ser útil\n si consigues recargarlo...
 
-item.railcraft.fluid.creosote.bottle.name=Botella de Creosota
-item.railcraft.fluid.creosote.bucket.name=Balde de Creosota
+item.railcraft.fluid_bottle_creosote.name=Botella de Creosota
+item.railcraft.fluid_bucket_creosote.name=Balde de Creosota
 item.railcraft.fluid.creosote.can.name=Lata de Creosota
 item.railcraft.fluid.creosote.cell.name=Celda de Creosota
 item.railcraft.fluid.creosote.refactory.name=Cápsula de Creosota
 item.railcraft.fluid.creosote.wax.name=Cápsula de Creosota
-item.railcraft.fluid.steam.bottle.name=Botella de Vapor
+item.railcraft.fluid_bottle_steam.name=Botella de Vapor
 
 item.railcraft.fuel.coke.name=Fuel de Carbón
 

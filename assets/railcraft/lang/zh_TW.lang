@@ -192,13 +192,13 @@ item.railcraft.firestone.refined.name=精煉火石
 item.railcraft.firestone.refined.tips.charged=充滿著能量\n只需要使用你的意志\n讓他放出炙熱...
 item.railcraft.firestone.refined.tips.empty=能量已受控制\n重新補充即可非常實用...
 
-item.railcraft.fluid.creosote.bottle.name=雜酚油瓶
-item.railcraft.fluid.creosote.bucket.name=雜酚油桶
+item.railcraft.fluid_bottle_creosote.name=雜酚油瓶
+item.railcraft.fluid_bucket_creosote.name=雜酚油桶
 item.railcraft.fluid.creosote.can.name=雜酚油罐
 item.railcraft.fluid.creosote.cell.name=雜酚油單元罐
 item.railcraft.fluid.creosote.refactory.name=雜酚油膠囊
 item.railcraft.fluid.creosote.wax.name=雜酚油膠囊
-item.railcraft.fluid.steam.bottle.name=蒸氣瓶
+item.railcraft.fluid_bottle_steam.name=蒸氣瓶
 
 item.railcraft.fuel.coke.name=焦炭
 

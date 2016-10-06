@@ -146,13 +146,13 @@ item.railcraft.firestone.refined.name=Kifinomult tűzkő
 item.railcraft.firestone.refined.tips.charged=Energiával töltve,\n csak gyakorolnod kell \n rajta, hogy szabadon engedd\n a pusztító hőséget...
 item.railcraft.firestone.refined.tips.empty=Kontrollálja az energiáit,\n ha újra tudod tölteni,\n akkor még használható lehet...
 
-item.railcraft.fluid.creosote.bottle.name=Karbolsavas üveg
-item.railcraft.fluid.creosote.bucket.name=Karbolsavas vödör
+item.railcraft.fluid_bottle_creosote.name=Karbolsavas üveg
+item.railcraft.fluid_bucket_creosote.name=Karbolsavas vödör
 item.railcraft.fluid.creosote.can.name=Karbolsavas kanna
 item.railcraft.fluid.creosote.cell.name=Karbolsavas rekesz
 item.railcraft.fluid.creosote.refactory.name=Karbolsavas kapszula
 item.railcraft.fluid.creosote.wax.name=Karbolsavas kapszula
-item.railcraft.fluid.steam.bottle.name=Gőzös üveg
+item.railcraft.fluid_bottle_steam.name=Gőzös üveg
 
 item.railcraft.fuel.coke.name=Koksz
 

@@ -106,8 +106,8 @@ item.railcraft.upgrade.lapotron=Upgrade de carga Laptrônica
 
 item.railcraft.ingot.steel.name=Barra de Aço
 
-item.railcraft.fluid.creosote.bottle.name=Garrafa de Creosoto
-item.railcraft.fluid.creosote.bucket.name=Balde de Creosoto
+item.railcraft.fluid_bottle_creosote.name=Garrafa de Creosoto
+item.railcraft.fluid_bucket_creosote.name=Balde de Creosoto
 item.railcraft.fluid.creosote.can.name=Lata de Creosoto
 fluid.creosote=Creosoto
 item.railcraft.fluid.creosote.refactory.name=Cápsula Refractória de Creosoto

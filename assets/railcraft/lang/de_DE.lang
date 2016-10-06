@@ -205,13 +205,13 @@ item.railcraft.firestone.refined.name=Raffinierter Flammstein
 item.railcraft.firestone.refined.tips.charged=Gefüllt mit Energie;\n du brauchst nur deinen\n Willen anstrengen, um\n massive Hitze freizulassen...
 item.railcraft.firestone.refined.tips.empty=Seine Energien unter Kontrolle;\n er könnte nützlich sein,\n wenn du ihn wieder aufladen könntest...
 
-item.railcraft.fluid.creosote.bottle.name=Teerölflasche
-item.railcraft.fluid.creosote.bucket.name=Teeröleimer
+item.railcraft.fluid_bottle_creosote.name=Teerölflasche
+item.railcraft.fluid_bucket_creosote.name=Teeröleimer
 item.railcraft.fluid.creosote.can.name=Teerölbüchse
 item.railcraft.fluid.creosote.cell.name=Teerölzelle
 item.railcraft.fluid.creosote.refactory.name=Teerölkapsel
 item.railcraft.fluid.creosote.wax.name=Teerölkapsel
-item.railcraft.fluid.steam.bottle.name=Dampfflasche
+item.railcraft.fluid_bottle_steam.name=Dampfflasche
 
 item.railcraft.fuel.coke.name=Koks
 

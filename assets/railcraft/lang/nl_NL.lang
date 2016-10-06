@@ -193,8 +193,8 @@ item.railcraft.ingot.steel.name=Stalen Staaf
 
 item.synthetic=Synthetisch
 
-item.railcraft.fluid.creosote.bottle.name=Creosootolie Fles
-item.railcraft.fluid.creosote.bucket.name=Creosootolie Emmer
+item.railcraft.fluid_bottle_creosote.name=Creosootolie Fles
+item.railcraft.fluid_bucket_creosote.name=Creosootolie Emmer
 item.railcraft.fluid.creosote.can.name=Creosootolie Blikje
 item.railcraft.fluid.creosote.cell.name=Creosootolie Cel
 fluid.creosote=Creosootolie 

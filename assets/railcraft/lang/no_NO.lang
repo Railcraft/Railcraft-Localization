@@ -209,13 +209,13 @@ item.railcraft.firestone.refined.tips.charged=Filled with energy,\n you need onl
 fluid.creosote=Kreosotolje
 fluid.steam=Damp
 
-item.railcraft.fluid.creosote.bottle.name=Kreosotflaske
-item.railcraft.fluid.creosote.bucket.name=Kreosotbøtte
+item.railcraft.fluid_bottle_creosote.name=Kreosotflaske
+item.railcraft.fluid_bucket_creosote.name=Kreosotbøtte
 item.railcraft.fluid.creosote.can.name=Kreosotkanne
 item.railcraft.fluid.creosote.cell.name=Kreosotcelle
 item.railcraft.fluid.creosote.refactory.name=Kreosotkapsel
 item.railcraft.fluid.creosote.wax.name=Kreosotkapsel
-item.railcraft.fluid.steam.bottle.name=Dampflaske
+item.railcraft.fluid_bottle_steam.name=Dampflaske
 
 item.railcraft.fuel.coke.name=Koks
 

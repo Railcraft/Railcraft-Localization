@@ -204,8 +204,8 @@ item.railcraft.ingot.steel.name=Sztabka Stali
 
 item.synthetic=Syntetyczny
 
-item.railcraft.fluid.creosote.bottle.name=Butelka Kreozotu
-item.railcraft.fluid.creosote.bucket.name=Wiadro Kreozotu
+item.railcraft.fluid_bottle_creosote.name=Butelka Kreozotu
+item.railcraft.fluid_bucket_creosote.name=Wiadro Kreozotu
 item.railcraft.fluid.creosote.can.name=Puszka Kreozotu
 item.railcraft.fluid.creosote.cell.name=Pojemnik z Kreozotem
 fluid.creosote=Kreozot

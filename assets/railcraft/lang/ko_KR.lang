@@ -343,8 +343,8 @@ keybind.railcraft.loco.slower=기관차 감속 키
 keybind.railcraft.loco.mode=기관차 모드 키
 keybind.railcraft.loco.whistle=기관차 기적 키
 
-item.railcraft.fluid.creosote.bottle.name=크레오소트 병
-item.railcraft.fluid.creosote.bucket.name=크레오소트 양동이
+item.railcraft.fluid_bottle_creosote.name=크레오소트 병
+item.railcraft.fluid_bucket_creosote.name=크레오소트 양동이
 item.railcraft.fluid.creosote.can.name=크레오소트 캔
 item.railcraft.fluid.creosote.cell.name=크레오소트 셀
 fluid.creosote=크레오소트

@@ -246,8 +246,8 @@ item.railcraft.ingot.steel.name=Čelična Poluga
 
 item.synthetic=Sintetika
 
-item.railcraft.fluid.creosote.bottle.name=Boca Kreozota
-item.railcraft.fluid.creosote.bucket.name=Kofa Kreozota
+item.railcraft.fluid_bottle_creosote.name=Boca Kreozota
+item.railcraft.fluid_bucket_creosote.name=Kofa Kreozota
 item.railcraft.fluid.creosote.can.name=Konzerva Kreozota
 item.railcraft.fluid.creosote.cell.name=Ćelija Kreozota
 fluid.creosote=Kreozotno Ulje

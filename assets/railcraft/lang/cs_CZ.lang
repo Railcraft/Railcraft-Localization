@@ -166,13 +166,13 @@ item.railcraft.firestone.refined.name=Obohacený ohnivý kámen
 item.railcraft.firestone.refined.tips.charged=Naplněn energií,\n stačí na něj soustředit \n svou vůly \n a uvolníš žhnoucí peklo...
 item.railcraft.firestone.refined.tips.empty=Jeho energie vyprchala,\n ale mohl by být ještě užitečný \n pokud by se znovu dobil ...
 
-item.railcraft.fluid.creosote.bottle.name=Láhev kreosotu
-item.railcraft.fluid.creosote.bucket.name=Kýbl kreosotu
+item.railcraft.fluid_bottle_creosote.name=Láhev kreosotu
+item.railcraft.fluid_bucket_creosote.name=Kýbl kreosotu
 item.railcraft.fluid.creosote.can.name=Kanistr kreosotu
 item.railcraft.fluid.creosote.cell.name=Kreosotový článek
 item.railcraft.fluid.creosote.refactory.name=Kreosotová kapsle
 item.railcraft.fluid.creosote.wax.name=Kreosotová kapsle
-item.railcraft.fluid.steam.bottle.name=Láhev vodní páry
+item.railcraft.fluid_bottle_steam.name=Láhev vodní páry
 
 item.railcraft.fuel.coke.name=Koks
 

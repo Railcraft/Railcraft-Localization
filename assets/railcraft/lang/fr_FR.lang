@@ -209,13 +209,13 @@ item.railcraft.firestone.refined.tips.charged=Rempli d'énergie,\n il vous suffi
 fluid.creosote=Huile de créosote
 fluid.steam=Vapeur
 
-item.railcraft.fluid.creosote.bottle.name=Bouteille de créosote
-item.railcraft.fluid.creosote.bucket.name=Seau de créosote
+item.railcraft.fluid_bottle_creosote.name=Bouteille de créosote
+item.railcraft.fluid_bucket_creosote.name=Seau de créosote
 item.railcraft.fluid.creosote.can.name=Bidon de créosote
 item.railcraft.fluid.creosote.cell.name=Cellule de créosote
 item.railcraft.fluid.creosote.refactory.name=Capsule de créosote
 item.railcraft.fluid.creosote.wax.name=Capsule de créosote
-item.railcraft.fluid.steam.bottle.name=Bouteille à vapeur
+item.railcraft.fluid_bottle_steam.name=Bouteille à vapeur
 
 item.railcraft.fuel.coke.name=Coke de Charbon
 

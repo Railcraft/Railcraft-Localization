@@ -344,8 +344,8 @@ keybind.railcraft.loco.slower=Chiave più lenta per Locomotiva
 keybind.railcraft.loco.mode=Chiave modalità per Locomotiva
 keybind.railcraft.loco.whistle=Chiave del fischio per Locomotiva
 
-item.railcraft.fluid.creosote.bottle.name=Bottiglia di creosoto
-item.railcraft.fluid.creosote.bucket.name=Secchio di creosoto
+item.railcraft.fluid_bottle_creosote.name=Bottiglia di creosoto
+item.railcraft.fluid_bucket_creosote.name=Secchio di creosoto
 item.railcraft.fluid.creosote.can.name=Tanica di creosoto
 item.railcraft.fluid.creosote.cell.name=Cella di creosoto
 fluid.creosote=Olio di creosoto
