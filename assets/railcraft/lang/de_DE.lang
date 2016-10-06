@@ -703,9 +703,9 @@ tile.railcraft.brick.sandy.fitted.name=Gemeißelter Sandstein
 tile.railcraft.brick.sandy.ornate.name=Verzierter Sandstein
 
 tile.railcraft.charge.feeder.admin.name=Admin-Stromumformer
-tile.railcraft.charge.feeder.admin.tips=Eine endlose Quelle für Railcraft-Energie
+tile.railcraft.charge.feeder.admin.tips=Eine endlose Quelle für Railcraft-Ladung
 tile.railcraft.charge.feeder.ic2.name=IC2-Stromumformer
-tile.railcraft.charge.feeder.ic2.tips=Wandelt IndustrialCraft-\n in Railcraft-Energie um
+tile.railcraft.charge.feeder.ic2.tips=Wandelt IndustrialCraft-Energie\n in Railcraft-Ladung um
 
 tile.railcraft.charge.trap.name=Stromfalle
 
