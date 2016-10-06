@@ -210,12 +210,12 @@ item.railcraft.firestone.refined.tips.charged=充满了能量,\n你只需施加�
 item.railcraft.firestone.refined.tips.empty=它的能量是可控的,\n如果能进行再充能\n那就更有用了...
 
 item.railcraft.fluid_bottle_creosote.name=杂酚油瓶
+item.railcraft.fluid_bottle_steam.name=蒸汽瓶
 item.railcraft.fluid_bucket_creosote.name=杂酚油桶
 item.railcraft.fluid.creosote.can.name=杂酚油罐
 item.railcraft.fluid.creosote.cell.name=杂酚油单元
 item.railcraft.fluid.creosote.refactory.name=杂酚油耐火胶囊
 item.railcraft.fluid.creosote.wax.name=杂酚油蜡胶囊
-item.railcraft.fluid_bottle_steam.name=蒸汽瓶
 
 item.railcraft.fuel.coke.name=焦煤
 
@@ -297,6 +297,7 @@ item.railcraft.tool.signal.label.name=信号标签
 item.railcraft.tool.signal.label.tips=§9- 可在铁砧中重命名 -\n§o潜行时右击信号箱\n§o可为其命名
 item.railcraft.tool.signal.tuner.name=信号调谐器
 item.railcraft.tool.signal.tuner.tips=用于连接控制器与接收器
+item.railcraft.tool_stone_carver.name=石材切割工具
 item.railcraft.tool.axe.steel.name=钢斧
 item.railcraft.tool.hoe.steel.name=钢锄
 item.railcraft.tool.pickaxe.steel.name=钢镐
@@ -704,6 +705,13 @@ tile.railcraft.brick.sandy.etched.name=蚀刻沙岩方块
 tile.railcraft.brick.sandy.fitted.name=匀称沙岩方块
 tile.railcraft.brick.sandy.ornate.name=雕琢沙岩方块
 
+tile.railcraft.charge.feeder.admin.name=管理员电力供给单元
+tile.railcraft.charge.feeder.admin.tips=提供无限的RC电力
+tile.railcraft.charge.feeder.ic2.name=电力供给单元
+tile.railcraft.charge.feeder.ic2.tips=将IC电力转化为RC电力
+
+tile.railcraft.charge.trap.name=电力陷阱
+
 tile.railcraft.generic.brick.infernal.name=地狱砖块(废弃)
 tile.railcraft.generic.brick.sandy.name=沙岩砖块(废弃)
 tile.railcraft.generic.coke.name=焦煤方块
@@ -808,10 +816,6 @@ tile.railcraft.machine.delta.wire.tips=跨距连接电轨\n配合线缆支撑框
 
 tile.railcraft.machine.epsilon.admin.steam.producer.name=管理员蒸汽供给单元
 tile.railcraft.machine.epsilon.admin.steam.producer.tips=提供无限的蒸汽
-tile.railcraft.charge.feeder.admin.name=管理员电力供给单元
-tile.railcraft.charge.feeder.admin.tips=提供无限的RC电力
-tile.railcraft.charge.feeder.ic2.name=电力供给单元
-tile.railcraft.charge.feeder.ic2.tips=将IC电力转化为RC电力
 tile.railcraft.machine.epsilon.engraving.bench.name=雕刻桌
 tile.railcraft.machine.epsilon.flux.transformer.name=能量流转换机
 tile.railcraft.machine.epsilon.flux.transformer.tips=多方块结构: 2x2x2\n 将RF能量转换为RC电力\n 80%的效率
