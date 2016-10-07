@@ -1,31 +1,31 @@
 # Parent Language: en_US
 
 item.railcraft.entity.cart.anchor.world.name=Vagão Ancorador
-entity.railcraft.cart.anchor.name=Vagão Ancorador
+entity.railcraft.cart_anchor.name=Vagão Ancorador
 item.railcraft.entity.cart.basic.name=Vagão
-entity.railcraft.cart.basic.name=Vagão
+entity.railcraft.cart_basic.name=Vagão
 item.railcraft.entity.cart.ic2.batbox.name=Vagão com Batbox
-entity.railcraft.cart.ic2.batbox.name=Vagão com Batbox
+entity.railcraft.cart_ic2_batbox.name=Vagão com Batbox
 item.railcraft.entity.bore.name=Tuneladora
 entity.railcraft.bore.name=Tuneladora
 item.railcraft.entity.cart.chest.name=Vagão com Baú
-entity.railcraft.cart.chest.name=Vagão com Baú
+entity.railcraft.cart_chest.name=Vagão com Baú
 item.railcraft.entity.cart.furnace.name=Vagão com Fornalha
-entity.railcraft.cart.furnace.name=Vagão com Fornalha
+entity.railcraft.cart_furnace.name=Vagão com Fornalha
 item.railcraft.entity.cart.ic2.mfe.name=Vagão com MFE
-entity.railcraft.cart.ic2.mfe.name=Vagão com MFE
+entity.railcraft.cart_ic2_mfe.name=Vagão com MFE
 item.railcraft.entity.cart.ic2.mfsu.name=Vagão com MFSU
-entity.railcraft.cart.ic2.mfsu.name=Vagão com MFSU
+entity.railcraft.cart_ic2_mfsu.name=Vagão com MFSU
 item.railcraft.entity.cart.tank.name=Vagão com Tanque
-entity.railcraft.cart.tank.name=Vagão com Tanque
+entity.railcraft.cart_tank.name=Vagão com Tanque
 item.railcraft.entity.cart.tnt.name=Vagão com TNT
-entity.railcraft.cart.tnt.name=Vagão com TNT
+entity.railcraft.cart_tnt.name=Vagão com TNT
 item.railcraft.entity.mow.track.relayer.name=Vagão Substituidor de Carris
-entity.railcraft.mow.track.relayer.name=Vagão Substituidor de Carris
+entity.railcraft.mow_track_relayer.name=Vagão Substituidor de Carris
 item.railcraft.entity.mow.undercutter.name=Vagão Substituidor de Terreno
-entity.railcraft.mow.undercutter.name=Vagão Substituidor de Terreno
+entity.railcraft.mow_undercutter.name=Vagão Substituidor de Terreno
 item.railcraft.entity.cart.work.name=Vagão de Trabalho
-entity.railcraft.cart.work.name=Vagão de Trabalho
+entity.railcraft.cart_work.name=Vagão de Trabalho
 
 tile.railcraft.generic.brick.infernal.name=Tijolo Infernal
 tile.railcraft.generic.concrete.name=Bloco de Betão

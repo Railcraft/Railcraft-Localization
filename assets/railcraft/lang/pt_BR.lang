@@ -2,31 +2,31 @@
 # Translated by Cassiobsk8
 
 item.railcraft.entity.cart.anchor.world.name=Vagão Âncora
-entity.railcraft.cart.anchor.name=Vagão Âncora
+entity.railcraft.cart_anchor.name=Vagão Âncora
 item.railcraft.entity.cart.basic.name=Vagão
-entity.railcraft.cart.basic.name=Vagão
+entity.railcraft.cart_basic.name=Vagão
 item.railcraft.entity.cart.ic2.batbox.name=Vagão Batbox
-entity.railcraft.cart.ic2.batbox.name=Vagão Batbox
+entity.railcraft.cart_ic2_batbox.name=Vagão Batbox
 item.railcraft.entity.bore.name=Tunelador
 entity.railcraft.bore.name=Tunelador
 item.railcraft.entity.cart.chest.name=Vagão com Bau
-entity.railcraft.cart.chest.name=Vagão com Bau
+entity.railcraft.cart_chest.name=Vagão com Bau
 item.railcraft.entity.cart.furnace.name=Vagão Fornalha
-entity.railcraft.cart.furnace.name=Vagão Fornalha
+entity.railcraft.cart_furnace.name=Vagão Fornalha
 item.railcraft.entity.cart.ic2.mfe.name=Vagão MFE
-entity.railcraft.cart.ic2.mfe.name=Vagão MFE
+entity.railcraft.cart_ic2_mfe.name=Vagão MFE
 item.railcraft.entity.cart.ic2.mfsu.name=Vagão MFSU
-entity.railcraft.cart.ic2.mfsu.name=Vagão MFSU
+entity.railcraft.cart_ic2_mfsu.name=Vagão MFSU
 item.railcraft.entity.cart.tank.name=Vagão Tanque
-entity.railcraft.cart.tank.name=Vagão Tanque
+entity.railcraft.cart_tank.name=Vagão Tanque
 item.railcraft.entity.cart.tnt.name=Vagão com TNT
-entity.railcraft.cart.tnt.name=Vagão com TNT
+entity.railcraft.cart_tnt.name=Vagão com TNT
 item.railcraft.entity.mow.track.relayer.name=Vagão substituidor de trilho
-entity.railcraft.mow.track.relayer.name=Vagão substituidor de trilho
+entity.railcraft.mow_track_relayer.name=Vagão substituidor de trilho
 item.railcraft.entity.mow.undercutter.name=vagão substituidor de blocos
-entity.railcraft.mow.undercutter.name=vagão substituidor de blocos
+entity.railcraft.mow_undercutter.name=vagão substituidor de blocos
 item.railcraft.entity.cart.work.name=Vagão de Trabalho
-entity.railcraft.cart.work.name=Vagão de Trabalho
+entity.railcraft.cart_work.name=Vagão de Trabalho
 
 tile.railcraft.generic.brick.infernal.name=Tijolo Infernal
 tile.railcraft.generic.concrete.name=Bloco de Concreto
