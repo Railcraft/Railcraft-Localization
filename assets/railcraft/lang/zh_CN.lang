@@ -120,6 +120,8 @@ entity.railcraft.mow_track_remover.name=轨道拆除车
 entity.railcraft.mow_undercutter.name=路基替换车
 entity.railcraft.cart_work.name=工作台车
 
+entity.Villager.trackman=铁道工
+
 fluid.creosote=杂酚油
 fluid.steam=蒸汽
 
