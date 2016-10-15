@@ -116,6 +116,8 @@ entity.railcraft.mow_track_relayer.name=Schienenersetzer
 entity.railcraft.mow_track_remover.name=Schienenentfernungswaggon
 entity.railcraft.mow_undercutter.name=Schienenbett-Ersetzer
 
+entity.Villager.trackman=Schienenwart
+
 fluid.creosote=Teeröl
 fluid.steam=Dampf
 
