@@ -210,6 +210,8 @@ item.railcraft.nugget.lead.name=Lead Nugget
 item.railcraft.nugget.steel.name=Steel Nugget
 item.railcraft.nugget.tin.name=Tin Nugget
 
+item.railcraft.pantograph.name=Pantograph
+
 item.railcraft.part.bleached.clay.name=Bleached Clay
 item.railcraft.part.circuit.controller.name=Controller Circuit
 item.railcraft.part.circuit.receiver.name=Receiver Circuit
@@ -270,6 +272,7 @@ item.railcraft.tool.signal.label.name=Signal Label
 item.railcraft.tool.signal.label.tip=§9- rename in anvil -\n§oright click while sneaking\n§oto name a signal or signal box
 item.railcraft.tool.signal.tuner.name=Signal Tuner
 item.railcraft.tool.signal.tuner.tip=Links Controllers to Receivers
+item.railcraft.tool.spool.tip=Right click under Metal Posts to place wires\nShift right-click to wind up wires
 item.railcraft.tool.steel.axe.name=Steel Axe
 item.railcraft.tool.steel.hoe.name=Steel Hoe
 item.railcraft.tool.steel.pickaxe.name=Steel Pickaxe
@@ -403,6 +406,7 @@ railcraft.gui.detector.villager.none=None
 railcraft.gui.detector.villager.not=Not
 
 railcraft.gui.electric.meter.charge=Charge: @.2fc | Draw: @.2fc/t | Loss: @.2fc/t
+railcraft.gui.electric.meter.catenary=Source(s): @d | Draw: @.2fc/t | Loss: @.2fc/t
 
 railcraft.gui.energy.loader.empty=Hold Empty
 railcraft.gui.energy.loader.fill=Top Off
@@ -783,6 +787,7 @@ tile.railcraft.machine.beta.tank.steel.valve.tip=Multi-Block: Must be in bottom\
 tile.railcraft.machine.beta.tank.steel.wall.name=Steel Tank Wall
 tile.railcraft.machine.beta.tank.steel.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
 
+tile.railcraft.machine.delta.catenary.name=Catenary Wire
 tile.railcraft.machine.delta.wire.name=Electric Shunting Wire
 tile.railcraft.machine.delta.wire.tip=Connect Electric Track across gaps\n Place under Track using Wire Support Frames
 
