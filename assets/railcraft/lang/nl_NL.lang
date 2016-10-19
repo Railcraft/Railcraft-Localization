@@ -64,12 +64,12 @@ railcraft.color.red=Rood
 railcraft.color.white=Wit
 railcraft.color.yellow=Geel
 
-tile.railcraft.generic.brick.infernal.name=Hels Steen
-tile.railcraft.generic.brick.sandy.name=Zanderig Steen
-tile.railcraft.generic.concrete.name=Betonblok
-tile.railcraft.generic.crushed.obsidian.name=Samengeperst Obsidiaan
-tile.railcraft.generic.steel.name=Stalen Blok
-tile.railcraft.generic.world.anchor.name=Wereldanker
+tile.railcraft.generic_brick_infernal.name=Hels Steen
+tile.railcraft.generic_brick_sandy.name=Zanderig Steen
+tile.railcraft.generic_concrete.name=Betonblok
+tile.railcraft.generic_crushed_obsidian.name=Samengeperst Obsidiaan
+tile.railcraft.generic_steel.name=Stalen Blok
+tile.railcraft.generic_world.anchor.name=Wereldanker
 
 death.railcraft.train.1=%s is door een trein overreden
 death.railcraft.train.2=%s was wild aan het doen op het spoor
@@ -193,8 +193,8 @@ item.railcraft.ingot.steel.name=Stalen Staaf
 
 item.synthetic=Synthetisch
 
-item.railcraft.fluid_bottle_creosote.name=Creosootolie Fles
-item.railcraft.fluid_bucket_creosote.name=Creosootolie Emmer
+item.railcraft.fluid.bottle.creosote.name=Creosootolie Fles
+item.railcraft.fluid.bucket.creosote.name=Creosootolie Emmer
 item.railcraft.fluid.creosote.can.name=Creosootolie Blikje
 item.railcraft.fluid.creosote.cell.name=Creosootolie Cel
 fluid.creosote=Creosootolie 

@@ -28,10 +28,10 @@ entity.railcraft.mow_undercutter.name=vagão substituidor de blocos
 item.railcraft.entity.cart.work.name=Vagão de Trabalho
 entity.railcraft.cart_work.name=Vagão de Trabalho
 
-tile.railcraft.generic.brick.infernal.name=Tijolo Infernal
-tile.railcraft.generic.concrete.name=Bloco de Concreto
-tile.railcraft.generic.crushed.obsidian.name=Obsidiana Maçerada
-tile.railcraft.generic.steel.name=Bloco de Aço
+tile.railcraft.generic_brick_infernal.name=Tijolo Infernal
+tile.railcraft.generic_concrete.name=Bloco de Concreto
+tile.railcraft.generic_crushed_obsidian.name=Obsidiana Maçerada
+tile.railcraft.generic_steel.name=Bloco de Aço
 
 tile.railcraft.detector.advanced.name=Detector - Avançado
 tile.railcraft.detector.age.name=Detector - Crescimento
@@ -106,8 +106,8 @@ item.railcraft.upgrade.lapotron=Upgrade de carga Laptrônica
 
 item.railcraft.ingot.steel.name=Barra de Aço
 
-item.railcraft.fluid_bottle_creosote.name=Garrafa de Creosoto
-item.railcraft.fluid_bucket_creosote.name=Balde de Creosoto
+item.railcraft.fluid.bottle.creosote.name=Garrafa de Creosoto
+item.railcraft.fluid.bucket.creosote.name=Balde de Creosoto
 item.railcraft.fluid.creosote.can.name=Lata de Creosoto
 fluid.creosote=Creosoto
 item.railcraft.fluid.creosote.refactory.name=Cápsula Refractória de Creosoto

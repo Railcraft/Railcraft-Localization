@@ -207,9 +207,9 @@ item.railcraft.firestone.refined.name=Refined Firestone
 item.railcraft.firestone.refined.tips.charged=Filled with energy,\n you need only exert\n your will on it to\n release blistering heat...
 item.railcraft.firestone.refined.tips.empty=Its energies controlled,\n it could be useful\n if you could recharge it...
 
-item.railcraft.fluid_bottle_creosote.name=Creosote Bottle
-item.railcraft.fluid_bottle_steam.name=Steam Bottle
-item.railcraft.fluid_bucket_creosote.name=Creosote Bucket
+item.railcraft.fluid.bottle.creosote.name=Creosote Bottle
+item.railcraft.fluid.bottle.steam.name=Steam Bottle
+item.railcraft.fluid.bucket.creosote.name=Creosote Bucket
 
 item.railcraft.fluid.creosote.can.name=Creosote Can
 item.railcraft.fluid.creosote.cell.name=Creosote Cell
@@ -225,18 +225,21 @@ item.railcraft.gear.steel.name=Steel Gear
 
 item.railcraft.ingot.copper.name=Copper Ingot
 item.railcraft.ingot.lead.name=Lead Ingot
+item.railcraft.ingot.silver.name=Silver Ingot
 item.railcraft.ingot.steel.name=Steel Ingot
 item.railcraft.ingot.tin.name=Tin Ingot
 
 item.railcraft.nugget.copper.name=Copper Nugget
 item.railcraft.nugget.iron.name=Iron Nugget
 item.railcraft.nugget.lead.name=Lead Nugget
+item.railcraft.nugget.silver.name=Silver Nugget
 item.railcraft.nugget.steel.name=Steel Nugget
 item.railcraft.nugget.tin.name=Tin Nugget
 
 item.railcraft.plate.copper.name=Copper Plate
 item.railcraft.plate.iron.name=Iron Plate
 item.railcraft.plate.lead.name=Lead Plate
+item.railcraft.plate.silver.name=Silver Plate
 item.railcraft.plate.steel.name=Steel Plate
 item.railcraft.plate.tin.name=Tin Plate
 
@@ -296,12 +299,12 @@ item.railcraft.tool.signal.surveyor.name=Signal Block Surveyor
 item.railcraft.tool.signal.surveyor.tips=Links Signals into Signal Blocks
 item.railcraft.tool.signal.tuner.name=Signal Tuner
 item.railcraft.tool.signal.tuner.tips=Links Controllers to Receivers
-item.railcraft.tool_stone_carver.name=Stone Carver
+item.railcraft.tool.stone.carver.name=Stone Carver
 item.railcraft.tool.sword.steel.name=Steel Sword
 item.railcraft.tool.whistle.tuner.name=Whistle Tuner
 
-item.railcraft.track_parts.name=Track Parts
-item.railcraft.track_parts.tips=Used in crafting Track Kits
+item.railcraft.track.parts.name=Track Parts
+item.railcraft.track.parts.tips=Used in crafting Track Kits
 
 item.railcraft.turbine.blade.name=Turbine Blade
 item.railcraft.turbine.disk.name=Turbine Disk
@@ -711,21 +714,6 @@ tile.railcraft.charge.feeder.ic2.tips=Converts IndustrialCraft\n Electricity to 
 
 tile.railcraft.charge.trap.name=Charge Trap
 
-tile.railcraft.generic.brick.infernal.name=Infernal Brick (Obsolete)
-tile.railcraft.generic.brick.sandy.name=Sandy Brick (Obsolete)
-tile.railcraft.generic.coke.name=Block of Coal Coke
-tile.railcraft.generic.coke.tips=32,000 Fuel Units
-tile.railcraft.generic.concrete.name=Block of Concrete
-tile.railcraft.generic.copper.name=Block of Copper
-tile.railcraft.generic.creosote.name=Creosote Wood Block
-tile.railcraft.generic.crushed.obsidian.name=Crushed Obsidian
-tile.railcraft.generic.crushed.obsidian.tips=Prevents Mob Spawns
-tile.railcraft.generic.lead.name=Block of Lead
-tile.railcraft.generic.steel.name=Block of Steel
-tile.railcraft.generic.stone.abyssal.name=Abyssal Stone
-tile.railcraft.generic.stone.quarried.name=Quarried Stone
-tile.railcraft.generic.tin.name=Block of Tin
-
 tile.railcraft.detector.advanced.name=Cart Detector - Advanced
 tile.railcraft.detector.age.name=Cart Detector - Age
 tile.railcraft.detector.animal.name=Cart Detector - Animal
@@ -753,7 +741,39 @@ tile.railcraft.fluid.steam.name=Steam
 tile.railcraft.frame.name=Wire Support Frame
 tile.railcraft.frame.tips=Use to place Track on Shunting Wire
 
+tile.railcraft.generic_coke.name=Block of Coal Coke
+tile.railcraft.generic_coke.tips=32,000 Fuel Units
+tile.railcraft.generic_concrete.name=Block of Concrete
+tile.railcraft.generic_copper.name=Block of Copper
+tile.railcraft.generic_creosote.name=Creosote Wood Block
+tile.railcraft.generic_crushed_obsidian.name=Crushed Obsidian
+tile.railcraft.generic_crushed_obsidian.tips=Prevents Mob Spawns
+tile.railcraft.generic_lead.name=Block of Lead
+tile.railcraft.generic_silver.name=Block of Silver
+tile.railcraft.generic_steel.name=Block of Steel
+tile.railcraft.generic_stone_abyssal.name=Abyssal Stone
+tile.railcraft.generic_stone_quarried.name=Quarried Stone
+tile.railcraft.generic_tin.name=Block of Tin
+
 tile.railcraft.glass.name=Strengthened Glass
+
+tile.railcraft.lantern.metal.copper.name=Copper Lantern
+tile.railcraft.lantern.metal.gold.name=Gold Lantern
+tile.railcraft.lantern.metal.iron.name=Iron Lantern
+tile.railcraft.lantern.metal.lead.name=Lead Lantern
+tile.railcraft.lantern.metal.steel.name=Steel Lantern
+tile.railcraft.lantern.metal.tin.name=Tin Lantern
+
+tile.railcraft.lantern.stone.abyssal.name=Abyssal Stone Lantern
+tile.railcraft.lantern.stone.bleachedbone.name=Bleached Bone Stone Lantern
+tile.railcraft.lantern.stone.bloodstained.name=Blood Stained Stone Lantern
+tile.railcraft.lantern.stone.frostbound.name=Frostbound Stone Lantern
+tile.railcraft.lantern.stone.infernal.name=Infernal Stone Lantern
+tile.railcraft.lantern.stone.nether.name=Nether Stone Lantern
+tile.railcraft.lantern.stone.quarried.name=Quarried Stone Lantern
+tile.railcraft.lantern.stone.sandstone.name=Sandstone Lantern
+tile.railcraft.lantern.stone.sandy.name=Sandy Stone Lantern
+tile.railcraft.lantern.stone.stone.name=Stone Lantern
 
 tile.railcraft.machine.alpha.anchor.admin.name=Admin Anchor
 tile.railcraft.machine.alpha.anchor.passive.name=Passive Anchor
@@ -810,9 +830,6 @@ tile.railcraft.machine.beta.tank.steel.valve.tips=Multi-Block: Must be in bottom
 tile.railcraft.machine.beta.tank.steel.wall.name=Steel Tank Wall
 tile.railcraft.machine.beta.tank.steel.wall.tips=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
 
-tile.railcraft.machine.delta.wire.name=Electric Shunting Wire
-tile.railcraft.machine.delta.wire.tips=Connect Electric Track across gaps\n Place under Track using Wire Support Frames
-
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Admin Steam Producer
 tile.railcraft.machine.epsilon.admin.steam.producer.tips=Provides Unlimited Steam
 tile.railcraft.machine.epsilon.engraving.bench.name=Engraving Bench
@@ -846,18 +863,24 @@ tile.railcraft.manipulator.unloader.item.tips=Unloads Items from Carts\n§o§c- 
 tile.railcraft.manipulator.unloader.fluid.name=Fluid Unloader
 tile.railcraft.manipulator.unloader.fluid.tips=Unloads Fluids from Carts\n§o§c- Place under Track -
 
+tile.railcraft.ore.copper.name=Copper Ore
 tile.railcraft.ore.dark.diamond.name=Dark Diamond Ore
 tile.railcraft.ore.dark.emerald.name=Dark Emerald Ore
 tile.railcraft.ore.dark.lapis.name=Dark Lapis Lazuli Ore
-tile.railcraft.ore.firestone.name=Firestone Ore
-tile.railcraft.ore.firestone.tips.name=Burning everything except flesh,\n you can feel the air change\n around you as you hold it...
+tile.railcraft.ore.lead.name=Lead Ore
 tile.railcraft.ore.poor.copper.name=Poor Copper Ore
 tile.railcraft.ore.poor.gold.name=Poor Gold Ore
 tile.railcraft.ore.poor.iron.name=Poor Iron Ore
 tile.railcraft.ore.poor.lead.name=Poor Lead Ore
+tile.railcraft.ore.poor.silver.name=Poor Silver Ore
 tile.railcraft.ore.poor.tin.name=Poor Tin Ore
 tile.railcraft.ore.saltpeter.name=Saltpeter Ore
+tile.railcraft.ore.silver.name=Silver Ore
 tile.railcraft.ore.sulfur.name=Sulfur Ore
+tile.railcraft.ore.tin.name=Tin Ore
+
+tile.railcraft.ore.magic.firestone.name=Firestone Ore
+tile.railcraft.ore.magic.firestone.tips.name=Burning everything except flesh,\n you can feel the air change\n around you as you hold it...
 
 tile.railcraft.post.emblem.name=Emblem Post
 tile.railcraft.post.metal.black.name=Black Metal Post
@@ -898,37 +921,6 @@ tile.railcraft.post.stone.name=Stone Post
 tile.railcraft.post.stone.platform.name=Stone Platform
 tile.railcraft.post.wood.name=Wooden Post
 tile.railcraft.post.wood.platform.name=Wooden Platform
-
-tile.railcraft.residual.heat.name=Residual Heat
-
-tile.railcraft.wayobject.block.signal.dual.name=Dual-Head Block Signal
-tile.railcraft.wayobject.block.signal.dual.tips=Detects Carts in Signal Block\nDisplays aspect of linked Controller\n§o§9Aerial Linkages:\n§o§9- 1x Signal Blocks\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Block Surveyor
-tile.railcraft.wayobject.block.signal.name=Block Signal
-tile.railcraft.wayobject.block.signal.tips=Detects Carts in Signal Block\n§o§9Aerial Linkages:\n§o§9- 1x Signal Block\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
-tile.railcraft.wayobject.box.analog.name=Analog Signal Controller Box
-tile.railcraft.wayobject.box.analog.tips=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: None\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.box.block.relay.name=Signal Block Relay Box
-tile.railcraft.wayobject.box.block.relay.tips=Creates chains of Signal Blocks\n§o§9Aerial Linkages: 2x Signal Block\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
-tile.railcraft.wayobject.box.capacitor.name=Signal Capacitor Box
-tile.railcraft.wayobject.box.capacitor.tips=Sends signals to Receivers\n§o§9Aerial Linkages: None\n§o§9Adjacent Linkages: Listen, Emit\n§o§9Redstone Linkages: Listen to Repeater, Emit
-tile.railcraft.wayobject.box.controller.name=Signal Controller Box
-tile.railcraft.wayobject.box.controller.tips=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: Listen\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.box.interlock.name=Signal Interlock Box
-tile.railcraft.wayobject.box.interlock.tips=Permits only one aspect signal to pass\n§o§9Aerial Linkages:\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§9Adjacent Linkages:\n§o§9- Interlock\n§o§9- Listen (Limit Output)\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.box.receiver.name=Signal Receiver Box
-tile.railcraft.wayobject.box.receiver.tips=Listens to Controller signals\n§o§9Aerial Linkages: 1x Receiver\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.box.sequencer.name=Signal Sequencer Box
-tile.railcraft.wayobject.box.sequencer.tips=Loops through adjacent blocks\n§o§9Adjacent Linkages:\n§o§9- Sequencer\n§o§9- Listen (Clock)\n§o§9- Emit\n§o§9Redstone Linkages:\n§o§9- Listen to Repeater (Clock)\n§o§9- Emit
-tile.railcraft.wayobject.distant.dual.name=Dual-Head Distant Signal
-tile.railcraft.wayobject.distant.dual.tips=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.distant.name=Distant Signal
-tile.railcraft.wayobject.distant.tips=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.switch.lever.name=Switch Actuator Lever
-tile.railcraft.wayobject.switch.lever.tips=Controls adjacent Switch Tracks\n§o§9Manual Operation
-tile.railcraft.wayobject.switch.motor.name=Switch Actuator Motor
-tile.railcraft.wayobject.switch.motor.tips=Controls adjacent Switch Tracks\n§o§9Aerial Linkages: 1x Receiver\n§o§9Redstone Linkage: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.switch.routing.name=Routing Switch Actuator Motor
-tile.railcraft.wayobject.switch.routing.tips=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
 
 tile.railcraft.slab.abyssal.block.name=Abyssal Block Slab
 tile.railcraft.slab.abyssal.brick.name=Abyssal Brick Slab
@@ -1020,23 +1012,37 @@ tile.railcraft.stair.snow.name=Snow Stairs
 tile.railcraft.stair.steel.name=Steel Stairs
 tile.railcraft.stair.tin.name=Tin Stairs
 
-tile.railcraft.lantern.metal.copper.name=Copper Lantern
-tile.railcraft.lantern.metal.gold.name=Gold Lantern
-tile.railcraft.lantern.metal.iron.name=Iron Lantern
-tile.railcraft.lantern.metal.lead.name=Lead Lantern
-tile.railcraft.lantern.metal.steel.name=Steel Lantern
-tile.railcraft.lantern.metal.tin.name=Tin Lantern
+tile.railcraft.wayobject.block.signal.dual.name=Dual-Head Block Signal
+tile.railcraft.wayobject.block.signal.dual.tips=Detects Carts in Signal Block\nDisplays aspect of linked Controller\n§o§9Aerial Linkages:\n§o§9- 1x Signal Blocks\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Block Surveyor
+tile.railcraft.wayobject.block.signal.name=Block Signal
+tile.railcraft.wayobject.block.signal.tips=Detects Carts in Signal Block\n§o§9Aerial Linkages:\n§o§9- 1x Signal Block\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
+tile.railcraft.wayobject.box.analog.name=Analog Signal Controller Box
+tile.railcraft.wayobject.box.analog.tips=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: None\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.box.block.relay.name=Signal Block Relay Box
+tile.railcraft.wayobject.box.block.relay.tips=Creates chains of Signal Blocks\n§o§9Aerial Linkages: 2x Signal Block\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
+tile.railcraft.wayobject.box.capacitor.name=Signal Capacitor Box
+tile.railcraft.wayobject.box.capacitor.tips=Sends signals to Receivers\n§o§9Aerial Linkages: None\n§o§9Adjacent Linkages: Listen, Emit\n§o§9Redstone Linkages: Listen to Repeater, Emit
+tile.railcraft.wayobject.box.controller.name=Signal Controller Box
+tile.railcraft.wayobject.box.controller.tips=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: Listen\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.box.interlock.name=Signal Interlock Box
+tile.railcraft.wayobject.box.interlock.tips=Permits only one aspect signal to pass\n§o§9Aerial Linkages:\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§9Adjacent Linkages:\n§o§9- Interlock\n§o§9- Listen (Limit Output)\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.box.receiver.name=Signal Receiver Box
+tile.railcraft.wayobject.box.receiver.tips=Listens to Controller signals\n§o§9Aerial Linkages: 1x Receiver\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.box.sequencer.name=Signal Sequencer Box
+tile.railcraft.wayobject.box.sequencer.tips=Loops through adjacent blocks\n§o§9Adjacent Linkages:\n§o§9- Sequencer\n§o§9- Listen (Clock)\n§o§9- Emit\n§o§9Redstone Linkages:\n§o§9- Listen to Repeater (Clock)\n§o§9- Emit
+tile.railcraft.wayobject.distant.dual.name=Dual-Head Distant Signal
+tile.railcraft.wayobject.distant.dual.tips=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.distant.name=Distant Signal
+tile.railcraft.wayobject.distant.tips=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.switch.lever.name=Switch Actuator Lever
+tile.railcraft.wayobject.switch.lever.tips=Controls adjacent Switch Tracks\n§o§9Manual Operation
+tile.railcraft.wayobject.switch.motor.name=Switch Actuator Motor
+tile.railcraft.wayobject.switch.motor.tips=Controls adjacent Switch Tracks\n§o§9Aerial Linkages: 1x Receiver\n§o§9Redstone Linkage: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.switch.routing.name=Routing Switch Actuator Motor
+tile.railcraft.wayobject.switch.routing.tips=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
 
-tile.railcraft.lantern.stone.abyssal.name=Abyssal Stone Lantern
-tile.railcraft.lantern.stone.bleachedbone.name=Bleached Bone Stone Lantern
-tile.railcraft.lantern.stone.bloodstained.name=Blood Stained Stone Lantern
-tile.railcraft.lantern.stone.frostbound.name=Frostbound Stone Lantern
-tile.railcraft.lantern.stone.infernal.name=Infernal Stone Lantern
-tile.railcraft.lantern.stone.nether.name=Nether Stone Lantern
-tile.railcraft.lantern.stone.quarried.name=Quarried Stone Lantern
-tile.railcraft.lantern.stone.sandstone.name=Sandstone Lantern
-tile.railcraft.lantern.stone.sandy.name=Sandy Stone Lantern
-tile.railcraft.lantern.stone.stone.name=Stone Lantern
+tile.railcraft.wire.name=Charge Shunting Wire
+tile.railcraft.wire.tips=Transfers Charge over short distances\n Place under Track using Wire Support Frames\n High loss
 
 #Old Tracks (to be deleted)
 tile.railcraft.track.buffer.stop.name=Buffer Stop Track

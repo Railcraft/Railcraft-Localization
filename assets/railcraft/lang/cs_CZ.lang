@@ -166,13 +166,13 @@ item.railcraft.firestone.refined.name=Obohacený ohnivý kámen
 item.railcraft.firestone.refined.tips.charged=Naplněn energií,\n stačí na něj soustředit \n svou vůly \n a uvolníš žhnoucí peklo...
 item.railcraft.firestone.refined.tips.empty=Jeho energie vyprchala,\n ale mohl by být ještě užitečný \n pokud by se znovu dobil ...
 
-item.railcraft.fluid_bottle_creosote.name=Láhev kreosotu
-item.railcraft.fluid_bucket_creosote.name=Kýbl kreosotu
+item.railcraft.fluid.bottle.creosote.name=Láhev kreosotu
+item.railcraft.fluid.bucket.creosote.name=Kýbl kreosotu
 item.railcraft.fluid.creosote.can.name=Kanistr kreosotu
 item.railcraft.fluid.creosote.cell.name=Kreosotový článek
 item.railcraft.fluid.creosote.refactory.name=Kreosotová kapsle
 item.railcraft.fluid.creosote.wax.name=Kreosotová kapsle
-item.railcraft.fluid_bottle_steam.name=Láhev vodní páry
+item.railcraft.fluid.bottle.steam.name=Láhev vodní páry
 
 item.railcraft.fuel.coke.name=Koks
 
@@ -634,20 +634,20 @@ tile.railcraft.brick.sandy.etched.name=Leptaný pískový kámen
 tile.railcraft.brick.sandy.fitted.name=Řezaný pískový kámen
 tile.railcraft.brick.sandy.ornate.name=Zdobený pískový kámen
 
-tile.railcraft.generic.brick.infernal.name=Pekelná cihla (zastaralá)
-tile.railcraft.generic.brick.sandy.name=Písková cihla (zastaralá)
-tile.railcraft.generic.coke.name=Blok z koksu
-tile.railcraft.generic.coke.tips=32,000 jednotek paliva
-tile.railcraft.generic.concrete.name=Blok z betonu
-tile.railcraft.generic.copper.name=Blok z mědi
-tile.railcraft.generic.creosote.name=Kreosotový blok dřeva
-tile.railcraft.generic.crushed.obsidian.name=Drcený obsidián
-tile.railcraft.generic.crushed.obsidian.tips=Zabraňuje spawnování mobů
-tile.railcraft.generic.lead.name=Blok z olova
-tile.railcraft.generic.steel.name=Blok z ocele
-tile.railcraft.generic.stone.abyssal.name=Abyssal kámen
-tile.railcraft.generic.stone.quarried.name=Quarried kámen
-tile.railcraft.generic.tin.name=Blok z cínu
+tile.railcraft.generic_brick_infernal.name=Pekelná cihla (zastaralá)
+tile.railcraft.generic_brick_sandy.name=Písková cihla (zastaralá)
+tile.railcraft.generic_coke.name=Blok z koksu
+tile.railcraft.generic_coke.tips=32,000 jednotek paliva
+tile.railcraft.generic_concrete.name=Blok z betonu
+tile.railcraft.generic_copper.name=Blok z mědi
+tile.railcraft.generic_creosote.name=Kreosotový blok dřeva
+tile.railcraft.generic_crushed_obsidian.name=Drcený obsidián
+tile.railcraft.generic_crushed_obsidian.tips=Zabraňuje spawnování mobů
+tile.railcraft.generic_lead.name=Blok z olova
+tile.railcraft.generic_steel.name=Blok z ocele
+tile.railcraft.generic_stone_abyssal.name=Abyssal kámen
+tile.railcraft.generic_stone_quarried.name=Quarried kámen
+tile.railcraft.generic_tin.name=Blok z cínu
 
 tile.railcraft.detector.advanced.name=Detektor - Pokročilý
 tile.railcraft.detector.age.name=Detektor - Věk

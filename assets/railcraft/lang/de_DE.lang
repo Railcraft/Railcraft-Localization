@@ -207,9 +207,9 @@ item.railcraft.firestone.refined.name=Raffinierter Flammstein
 item.railcraft.firestone.refined.tips.charged=Gefüllt mit Energie;\n du brauchst nur deinen\n Willen anstrengen, um\n massive Hitze freizulassen...
 item.railcraft.firestone.refined.tips.empty=Seine Energien unter Kontrolle;\n er könnte nützlich sein,\n wenn du ihn wieder aufladen könntest...
 
-item.railcraft.fluid_bottle_creosote.name=Teerölflasche
-item.railcraft.fluid_bottle_steam.name=Dampfflasche
-item.railcraft.fluid_bucket_creosote.name=Teeröleimer
+item.railcraft.fluid.bottle.creosote.name=Teerölflasche
+item.railcraft.fluid.bottle.steam.name=Dampfflasche
+item.railcraft.fluid.bucket.creosote.name=Teeröleimer
 
 item.railcraft.fluid.creosote.can.name=Teerölbüchse
 item.railcraft.fluid.creosote.cell.name=Teerölzelle
@@ -296,12 +296,12 @@ item.railcraft.tool.signal.surveyor.name=Signalblockvermesser
 item.railcraft.tool.signal.surveyor.tips=Verbindet Signale zu Signalblöcken
 item.railcraft.tool.signal.tuner.name=Abstimmgerät
 item.railcraft.tool.signal.tuner.tips=Verbindet Signalsender und -empfänger
-item.railcraft.tool_stone_carver.name=Meißel
+item.railcraft.tool.stone.carver.name=Meißel
 item.railcraft.tool.sword.steel.name=Stahlschwert
 item.railcraft.tool.whistle.tuner.name=Pfeifenstimmer
 
-item.railcraft.track_parts.name=Gleisteile
-item.railcraft.track_parts.tips=Für die Fertigung von Gleiszubehör
+item.railcraft.track.parts.name=Gleisteile
+item.railcraft.track.parts.tips=Für die Fertigung von Gleiszubehör
 
 item.railcraft.turbine.blade.name=Turbinenschaufel
 item.railcraft.turbine.disk.name=Turbinenscheibe
@@ -711,20 +711,20 @@ tile.railcraft.charge.feeder.ic2.tips=Wandelt IndustrialCraft-Energie\n in Railc
 
 tile.railcraft.charge.trap.name=Stromfalle
 
-tile.railcraft.generic.brick.infernal.name=Verfluchter Ziegel (veraltet)
-tile.railcraft.generic.brick.sandy.name=Sandsteinziegel (veraltet)
-tile.railcraft.generic.coke.name=Koksblock
-tile.railcraft.generic.coke.tips=32,000 Brennstoffeinheiten
-tile.railcraft.generic.concrete.name=Betonblock
-tile.railcraft.generic.copper.name=Kupferblock
-tile.railcraft.generic.creosote.name=Teerölholzblock
-tile.railcraft.generic.crushed.obsidian.name=Obsidiankies
-tile.railcraft.generic.crushed.obsidian.tips=Verhindert Mob-Spawns
-tile.railcraft.generic.lead.name=Bleiblock
-tile.railcraft.generic.steel.name=Stahlblock
-tile.railcraft.generic.stone.abyssal.name=Abyss-Stein
-tile.railcraft.generic.stone.quarried.name=Brüchiger Stein
-tile.railcraft.generic.tin.name=Zinnblock
+tile.railcraft.generic_brick_infernal.name=Verfluchter Ziegel (veraltet)
+tile.railcraft.generic_brick_sandy.name=Sandsteinziegel (veraltet)
+tile.railcraft.generic_coke.name=Koksblock
+tile.railcraft.generic_coke.tips=32,000 Brennstoffeinheiten
+tile.railcraft.generic_concrete.name=Betonblock
+tile.railcraft.generic_copper.name=Kupferblock
+tile.railcraft.generic_creosote.name=Teerölholzblock
+tile.railcraft.generic_crushed_obsidian.name=Obsidiankies
+tile.railcraft.generic_crushed_obsidian.tips=Verhindert Mob-Spawns
+tile.railcraft.generic_lead.name=Bleiblock
+tile.railcraft.generic_steel.name=Stahlblock
+tile.railcraft.generic_stone_abyssal.name=Abyss-Stein
+tile.railcraft.generic_stone_quarried.name=Brüchiger Stein
+tile.railcraft.generic_tin.name=Zinnblock
 
 tile.railcraft.detector.advanced.name=Gleissensor - Fortgeschritten
 tile.railcraft.detector.age.name=Gleissensor - Alter

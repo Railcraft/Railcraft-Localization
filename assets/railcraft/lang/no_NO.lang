@@ -139,17 +139,17 @@ railcraft.color.red=Rød
 railcraft.color.white=Hvit
 railcraft.color.yellow=Gul
 
-tile.railcraft.generic.stone.abyssal.name=Abyssal Stone
-tile.railcraft.generic.stone.quarried.name=Quarried Stone
-tile.railcraft.generic.brick.infernal.name=Infernalskmurstein (Obsolete)
-tile.railcraft.generic.brick.sandy.name=Sandmurstein (Obsolete)
-tile.railcraft.generic.coke.name=Block of Coal Coke
-tile.railcraft.generic.coke.tips=32,000 Fuel Units
-tile.railcraft.generic.concrete.name=Betongblokk
-tile.railcraft.generic.creosote.name=Creosote Wood Block
-tile.railcraft.generic.crushed.obsidian.name=Knust obsidian
-tile.railcraft.generic.crushed.obsidian.tips=Prevents Mob Spawns
-tile.railcraft.generic.steel.name=Stålblokk
+tile.railcraft.generic_stone_abyssal.name=Abyssal Stone
+tile.railcraft.generic_stone_quarried.name=Quarried Stone
+tile.railcraft.generic_brick_infernal.name=Infernalskmurstein (Obsolete)
+tile.railcraft.generic_brick_sandy.name=Sandmurstein (Obsolete)
+tile.railcraft.generic_coke.name=Block of Coal Coke
+tile.railcraft.generic_coke.tips=32,000 Fuel Units
+tile.railcraft.generic_concrete.name=Betongblokk
+tile.railcraft.generic_creosote.name=Creosote Wood Block
+tile.railcraft.generic_crushed_obsidian.name=Knust obsidian
+tile.railcraft.generic_crushed_obsidian.tips=Prevents Mob Spawns
+tile.railcraft.generic_steel.name=Stålblokk
 
 death.railcraft.bore.1=%s kom i veien for fremskritt
 death.railcraft.bore.2=%s kjempet mot borekronen, men tapte
@@ -209,13 +209,13 @@ item.railcraft.firestone.refined.tips.charged=Filled with energy,\n you need onl
 fluid.creosote=Kreosotolje
 fluid.steam=Damp
 
-item.railcraft.fluid_bottle_creosote.name=Kreosotflaske
-item.railcraft.fluid_bucket_creosote.name=Kreosotbøtte
+item.railcraft.fluid.bottle.creosote.name=Kreosotflaske
+item.railcraft.fluid.bucket.creosote.name=Kreosotbøtte
 item.railcraft.fluid.creosote.can.name=Kreosotkanne
 item.railcraft.fluid.creosote.cell.name=Kreosotcelle
 item.railcraft.fluid.creosote.refactory.name=Kreosotkapsel
 item.railcraft.fluid.creosote.wax.name=Kreosotkapsel
-item.railcraft.fluid_bottle_steam.name=Dampflaske
+item.railcraft.fluid.bottle.steam.name=Dampflaske
 
 item.railcraft.fuel.coke.name=Koks
 

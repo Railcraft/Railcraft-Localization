@@ -143,13 +143,13 @@ item.railcraft.firestone.refined.name=Piedrafuego Refinado
 item.railcraft.firestone.refined.tips.charged=Lleno de energía, \n solo necesitas ejercer\n tu voluntad en el \n para liberar su abrasador calor...
 item.railcraft.firestone.refined.tips.empty=Su energía controlada,\n podrían ser útil\n si consigues recargarlo...
 
-item.railcraft.fluid_bottle_creosote.name=Botella de Creosota
-item.railcraft.fluid_bucket_creosote.name=Balde de Creosota
+item.railcraft.fluid.bottle.creosote.name=Botella de Creosota
+item.railcraft.fluid.bucket.creosote.name=Balde de Creosota
 item.railcraft.fluid.creosote.can.name=Lata de Creosota
 item.railcraft.fluid.creosote.cell.name=Celda de Creosota
 item.railcraft.fluid.creosote.refactory.name=Cápsula de Creosota
 item.railcraft.fluid.creosote.wax.name=Cápsula de Creosota
-item.railcraft.fluid_bottle_steam.name=Botella de Vapor
+item.railcraft.fluid.bottle.steam.name=Botella de Vapor
 
 item.railcraft.fuel.coke.name=Fuel de Carbón
 
@@ -588,20 +588,20 @@ tile.railcraft.brick.sandy.etched.name=Piedra Arenosa Grabada
 tile.railcraft.brick.sandy.fitted.name=Piedra Arenosa Entallada
 tile.railcraft.brick.sandy.ornate.name=Piedra Arenosa Ornamentada
 
-tile.railcraft.generic.brick.infernal.name=Ladrillos Infernales (Obsoleto)
-tile.railcraft.generic.brick.sandy.name=Bloque Arenoso (Obsoleto)
-tile.railcraft.generic.coke.name=Bloque de Fuel de Carbón
-tile.railcraft.generic.coke.tips=32,000 Unidades de Combustible
-tile.railcraft.generic.concrete.name=Bloque de Cemento
-tile.railcraft.generic.copper.name=Bloque de Cobre
-tile.railcraft.generic.creosote.name=Bloque de Madera de Creosota
-tile.railcraft.generic.crushed.obsidian.name=Obsidiana Triturada
-tile.railcraft.generic.crushed.obsidian.tips=Previene Nacimiento de Mobs
-tile.railcraft.generic.lead.name=Bloque de Plomo
-tile.railcraft.generic.steel.name=Bloque de Acero
-tile.railcraft.generic.stone.abyssal.name=Piedra Abismal
-tile.railcraft.generic.stone.quarried.name=Piedra de Cantera
-tile.railcraft.generic.tin.name=Bloque de Estaño
+tile.railcraft.generic_brick_infernal.name=Ladrillos Infernales (Obsoleto)
+tile.railcraft.generic_brick_sandy.name=Bloque Arenoso (Obsoleto)
+tile.railcraft.generic_coke.name=Bloque de Fuel de Carbón
+tile.railcraft.generic_coke.tips=32,000 Unidades de Combustible
+tile.railcraft.generic_concrete.name=Bloque de Cemento
+tile.railcraft.generic_copper.name=Bloque de Cobre
+tile.railcraft.generic_creosote.name=Bloque de Madera de Creosota
+tile.railcraft.generic_crushed_obsidian.name=Obsidiana Triturada
+tile.railcraft.generic_crushed_obsidian.tips=Previene Nacimiento de Mobs
+tile.railcraft.generic_lead.name=Bloque de Plomo
+tile.railcraft.generic_steel.name=Bloque de Acero
+tile.railcraft.generic_stone_abyssal.name=Piedra Abismal
+tile.railcraft.generic_stone_quarried.name=Piedra de Cantera
+tile.railcraft.generic_tin.name=Bloque de Estaño
 
 tile.railcraft.detector.advanced.name=Detector - Avanzado
 tile.railcraft.detector.age.name=Detector - Era

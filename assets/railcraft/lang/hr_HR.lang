@@ -72,12 +72,12 @@ railcraft.color.red=Crveno/a/i
 railcraft.color.white=Bijelo/a/i
 railcraft.color.yellow=Žuto/a/i
 
-tile.railcraft.generic.brick.infernal.name=Paklena Cigla
-tile.railcraft.generic.brick.sandy.name=Piješćana Cigla
-tile.railcraft.generic.concrete.name=Blok Betona
-tile.railcraft.generic.crushed.obsidian.name=Zdrobljeni Obsidijan
-tile.railcraft.generic.steel.name=Blok Čelika
-tile.railcraft.generic.world.anchor.name=Svijetsko Sidro
+tile.railcraft.generic_brick_infernal.name=Paklena Cigla
+tile.railcraft.generic_brick_sandy.name=Piješćana Cigla
+tile.railcraft.generic_concrete.name=Blok Betona
+tile.railcraft.generic_crushed_obsidian.name=Zdrobljeni Obsidijan
+tile.railcraft.generic_steel.name=Blok Čelika
+tile.railcraft.generic_world.anchor.name=Svijetsko Sidro
 
 death.railcraft.bore.1=%s je stajao na putu napredka
 death.railcraft.bore.2=%s je pokušao zaustaviti Kopač
@@ -241,8 +241,8 @@ item.railcraft.ingot.steel.name=Čelična Poluga
 
 item.synthetic=Syntetički
 
-item.railcraft.fluid_bottle_creosote.name=Boca Kreozota
-item.railcraft.fluid_bucket_creosote.name=Kanta Kreozota
+item.railcraft.fluid.bottle.creosote.name=Boca Kreozota
+item.railcraft.fluid.bucket.creosote.name=Kanta Kreozota
 item.railcraft.fluid.creosote.can.name=Limenka Kreozota
 item.railcraft.fluid.creosote.cell.name=Ćelija Kreozota
 fluid.creosote=Kreozotno Ulje

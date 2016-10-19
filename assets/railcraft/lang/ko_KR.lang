@@ -115,14 +115,14 @@ railcraft.color.red=빨강
 railcraft.color.white=흰색
 railcraft.color.yellow=노랑
 
-tile.railcraft.generic.stone.abyssal.name=심해석
-tile.railcraft.generic.stone.quarried.name=정제석
-tile.railcraft.generic.brick.infernal.name=연옥석 (Obsolete)
-tile.railcraft.generic.brick.sandy.name=샌디스톤 (Obsolete)
-tile.railcraft.generic.coke.name=코크스 블록
-tile.railcraft.generic.concrete.name=콘크리트 블록
-tile.railcraft.generic.crushed.obsidian.name=흑요석 자갈
-tile.railcraft.generic.steel.name=강철 블록
+tile.railcraft.generic_stone_abyssal.name=심해석
+tile.railcraft.generic_stone_quarried.name=정제석
+tile.railcraft.generic_brick_infernal.name=연옥석 (Obsolete)
+tile.railcraft.generic_brick_sandy.name=샌디스톤 (Obsolete)
+tile.railcraft.generic_coke.name=코크스 블록
+tile.railcraft.generic_concrete.name=콘크리트 블록
+tile.railcraft.generic_crushed_obsidian.name=흑요석 자갈
+tile.railcraft.generic_steel.name=강철 블록
 
 railcraft.damage.bore.1=%s(이)가 터널 굴착기 사고를 당했습니다
 railcraft.damage.bore.2=%s(이)가 터널 굴착기를 정지하지 못했습니다
@@ -343,8 +343,8 @@ keybind.railcraft.loco.slower=기관차 감속 키
 keybind.railcraft.loco.mode=기관차 모드 키
 keybind.railcraft.loco.whistle=기관차 기적 키
 
-item.railcraft.fluid_bottle_creosote.name=크레오소트 병
-item.railcraft.fluid_bucket_creosote.name=크레오소트 양동이
+item.railcraft.fluid.bottle.creosote.name=크레오소트 병
+item.railcraft.fluid.bucket.creosote.name=크레오소트 양동이
 item.railcraft.fluid.creosote.can.name=크레오소트 캔
 item.railcraft.fluid.creosote.cell.name=크레오소트 셀
 fluid.creosote=크레오소트

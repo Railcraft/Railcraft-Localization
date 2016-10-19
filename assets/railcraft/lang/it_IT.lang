@@ -116,14 +116,14 @@ railcraft.color.red=Rosso
 railcraft.color.white=Bianco
 railcraft.color.yellow=Giallo
 
-tile.railcraft.generic.stone.abyssal.name=Pietra abissale
-tile.railcraft.generic.stone.quarried.name=Pietra cava
-tile.railcraft.generic.brick.infernal.name=Mattone infernale infernale (OBSOLETO)
-tile.railcraft.generic.brick.sandy.name=Mattone sabbioso (OBSOLETO)
-tile.railcraft.generic.coke.name=Blocco di Carbone da carburante
-tile.railcraft.generic.concrete.name=Blocco di Cemento
-tile.railcraft.generic.crushed.obsidian.name=Ossidiana distrutta
-tile.railcraft.generic.steel.name=Blocco d'Acciaio
+tile.railcraft.generic_stone_abyssal.name=Pietra abissale
+tile.railcraft.generic_stone_quarried.name=Pietra cava
+tile.railcraft.generic_brick_infernal.name=Mattone infernale infernale (OBSOLETO)
+tile.railcraft.generic_brick_sandy.name=Mattone sabbioso (OBSOLETO)
+tile.railcraft.generic_coke.name=Blocco di Carbone da carburante
+tile.railcraft.generic_concrete.name=Blocco di Cemento
+tile.railcraft.generic_crushed_obsidian.name=Ossidiana distrutta
+tile.railcraft.generic_steel.name=Blocco d'Acciaio
 
 death.railcraft.bore.1=%s è andato nella via del progresso
 death.railcraft.bore.2=%s ha provato a fermare la Scavatrice
@@ -344,8 +344,8 @@ keybind.railcraft.loco.slower=Chiave più lenta per Locomotiva
 keybind.railcraft.loco.mode=Chiave modalità per Locomotiva
 keybind.railcraft.loco.whistle=Chiave del fischio per Locomotiva
 
-item.railcraft.fluid_bottle_creosote.name=Bottiglia di creosoto
-item.railcraft.fluid_bucket_creosote.name=Secchio di creosoto
+item.railcraft.fluid.bottle.creosote.name=Bottiglia di creosoto
+item.railcraft.fluid.bucket.creosote.name=Secchio di creosoto
 item.railcraft.fluid.creosote.can.name=Tanica di creosoto
 item.railcraft.fluid.creosote.cell.name=Cella di creosoto
 fluid.creosote=Olio di creosoto

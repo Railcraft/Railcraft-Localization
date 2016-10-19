@@ -192,13 +192,13 @@ item.railcraft.firestone.refined.name=精煉火石
 item.railcraft.firestone.refined.tips.charged=充滿著能量\n只需要使用你的意志\n讓他放出炙熱...
 item.railcraft.firestone.refined.tips.empty=能量已受控制\n重新補充即可非常實用...
 
-item.railcraft.fluid_bottle_creosote.name=雜酚油瓶
-item.railcraft.fluid_bucket_creosote.name=雜酚油桶
+item.railcraft.fluid.bottle.creosote.name=雜酚油瓶
+item.railcraft.fluid.bucket.creosote.name=雜酚油桶
 item.railcraft.fluid.creosote.can.name=雜酚油罐
 item.railcraft.fluid.creosote.cell.name=雜酚油單元罐
 item.railcraft.fluid.creosote.refactory.name=雜酚油膠囊
 item.railcraft.fluid.creosote.wax.name=雜酚油膠囊
-item.railcraft.fluid_bottle_steam.name=蒸氣瓶
+item.railcraft.fluid.bottle.steam.name=蒸氣瓶
 
 item.railcraft.fuel.coke.name=焦炭
 
@@ -684,20 +684,20 @@ tile.railcraft.brick.sandy.etched.name=蝕刻砂石磚
 tile.railcraft.brick.sandy.fitted.name=砂石磚
 tile.railcraft.brick.sandy.ornate.name=華麗砂石磚
 
-tile.railcraft.generic.brick.infernal.name=煉獄磚(廢棄)
-tile.railcraft.generic.brick.sandy.name=砂磚(廢棄)
-tile.railcraft.generic.coke.name=焦炭磚
-tile.railcraft.generic.coke.tips=32,000個燃料單位
-tile.railcraft.generic.concrete.name=混凝土塊
-tile.railcraft.generic.copper.name=銅磚
-tile.railcraft.generic.creosote.name=雜酚油木塊
-tile.railcraft.generic.crushed.obsidian.name=碎裂黑曜石
-tile.railcraft.generic.crushed.obsidian.tips=防止怪物生成
-tile.railcraft.generic.lead.name=鉛磚
-tile.railcraft.generic.steel.name=鋼鐵磚
-tile.railcraft.generic.stone.abyssal.name=深淵石
-tile.railcraft.generic.stone.quarried.name=石料
-tile.railcraft.generic.tin.name=錫磚
+tile.railcraft.generic_brick_infernal.name=煉獄磚(廢棄)
+tile.railcraft.generic_brick_sandy.name=砂磚(廢棄)
+tile.railcraft.generic_coke.name=焦炭磚
+tile.railcraft.generic_coke.tips=32,000個燃料單位
+tile.railcraft.generic_concrete.name=混凝土塊
+tile.railcraft.generic_copper.name=銅磚
+tile.railcraft.generic_creosote.name=雜酚油木塊
+tile.railcraft.generic_crushed_obsidian.name=碎裂黑曜石
+tile.railcraft.generic_crushed_obsidian.tips=防止怪物生成
+tile.railcraft.generic_lead.name=鉛磚
+tile.railcraft.generic_steel.name=鋼鐵磚
+tile.railcraft.generic_stone_abyssal.name=深淵石
+tile.railcraft.generic_stone_quarried.name=石料
+tile.railcraft.generic_tin.name=錫磚
 
 tile.railcraft.detector.advanced.name=偵測器 - 進階
 tile.railcraft.detector.age.name=偵測器 - 年齡

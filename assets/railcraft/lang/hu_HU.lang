@@ -146,13 +146,13 @@ item.railcraft.firestone.refined.name=Kifinomult tűzkő
 item.railcraft.firestone.refined.tips.charged=Energiával töltve,\n csak gyakorolnod kell \n rajta, hogy szabadon engedd\n a pusztító hőséget...
 item.railcraft.firestone.refined.tips.empty=Kontrollálja az energiáit,\n ha újra tudod tölteni,\n akkor még használható lehet...
 
-item.railcraft.fluid_bottle_creosote.name=Karbolsavas üveg
-item.railcraft.fluid_bucket_creosote.name=Karbolsavas vödör
+item.railcraft.fluid.bottle.creosote.name=Karbolsavas üveg
+item.railcraft.fluid.bucket.creosote.name=Karbolsavas vödör
 item.railcraft.fluid.creosote.can.name=Karbolsavas kanna
 item.railcraft.fluid.creosote.cell.name=Karbolsavas rekesz
 item.railcraft.fluid.creosote.refactory.name=Karbolsavas kapszula
 item.railcraft.fluid.creosote.wax.name=Karbolsavas kapszula
-item.railcraft.fluid_bottle_steam.name=Gőzös üveg
+item.railcraft.fluid.bottle.steam.name=Gőzös üveg
 
 item.railcraft.fuel.coke.name=Koksz
 
@@ -594,20 +594,20 @@ tile.railcraft.brick.sandy.etched.name=Homokos mart kő
 tile.railcraft.brick.sandy.fitted.name=Homokos illesztett kő
 tile.railcraft.brick.sandy.ornate.name=Homokos ékes kő
 
-tile.railcraft.generic.brick.infernal.name=Pokolbéli tégla (Elavult)
-tile.railcraft.generic.brick.sandy.name=Homokos tégla (Elavult)
-tile.railcraft.generic.coke.name=Koksz tömb
-tile.railcraft.generic.coke.tips=32,000 Fűtési egység
-tile.railcraft.generic.concrete.name=Block of Concrete
-tile.railcraft.generic.copper.name=Réz tömb
-tile.railcraft.generic.creosote.name=Karbolsavas fatömb
-tile.railcraft.generic.crushed.obsidian.name=Tört obszidián
-tile.railcraft.generic.crushed.obsidian.tips=Szörnyek megidőzédésének gátlása
-tile.railcraft.generic.lead.name=Ólom tömb
-tile.railcraft.generic.steel.name=Acél tömb
-tile.railcraft.generic.stone.abyssal.name=Mélységi kő
-tile.railcraft.generic.stone.quarried.name=Fejtett kő
-tile.railcraft.generic.tin.name=Cin tömb
+tile.railcraft.generic_brick_infernal.name=Pokolbéli tégla (Elavult)
+tile.railcraft.generic_brick_sandy.name=Homokos tégla (Elavult)
+tile.railcraft.generic_coke.name=Koksz tömb
+tile.railcraft.generic_coke.tips=32,000 Fűtési egység
+tile.railcraft.generic_concrete.name=Block of Concrete
+tile.railcraft.generic_copper.name=Réz tömb
+tile.railcraft.generic_creosote.name=Karbolsavas fatömb
+tile.railcraft.generic_crushed_obsidian.name=Tört obszidián
+tile.railcraft.generic_crushed_obsidian.tips=Szörnyek megidőzédésének gátlása
+tile.railcraft.generic_lead.name=Ólom tömb
+tile.railcraft.generic_steel.name=Acél tömb
+tile.railcraft.generic_stone_abyssal.name=Mélységi kő
+tile.railcraft.generic_stone_quarried.name=Fejtett kő
+tile.railcraft.generic_tin.name=Cin tömb
 
 tile.railcraft.detector.advanced.name=Érzékelő - Fejlesztett
 tile.railcraft.detector.age.name=Érzékelő - Életkor

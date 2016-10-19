@@ -68,12 +68,12 @@ railcraft.color.red=Czerwony
 railcraft.color.white=Biały
 railcraft.color.yellow=Żółty
 
-tile.railcraft.generic.brick.infernal.name=Piekielne Cegly
-tile.railcraft.generic.brick.sandy.name=Piaskowe Cegly
-tile.railcraft.generic.concrete.name=Beton
-tile.railcraft.generic.crushed.obsidian.name=Rozdrobniony Obsydian
-tile.railcraft.generic.steel.name=Blok Stali
-tile.railcraft.generic.world.anchor.name=Kotwica Świata
+tile.railcraft.generic_brick_infernal.name=Piekielne Cegly
+tile.railcraft.generic_brick_sandy.name=Piaskowe Cegly
+tile.railcraft.generic_concrete.name=Beton
+tile.railcraft.generic_crushed_obsidian.name=Rozdrobniony Obsydian
+tile.railcraft.generic_steel.name=Blok Stali
+tile.railcraft.generic_world.anchor.name=Kotwica Świata
 
 death.railcraft.bore.1=%s wszedł w drogę postępowi
 death.railcraft.bore.2=%s próbował zatrzymac wiercenie
@@ -204,8 +204,8 @@ item.railcraft.ingot.steel.name=Sztabka Stali
 
 item.synthetic=Syntetyczny
 
-item.railcraft.fluid_bottle_creosote.name=Butelka Kreozotu
-item.railcraft.fluid_bucket_creosote.name=Wiadro Kreozotu
+item.railcraft.fluid.bottle.creosote.name=Butelka Kreozotu
+item.railcraft.fluid.bucket.creosote.name=Wiadro Kreozotu
 item.railcraft.fluid.creosote.can.name=Puszka Kreozotu
 item.railcraft.fluid.creosote.cell.name=Pojemnik z Kreozotem
 fluid.creosote=Kreozot

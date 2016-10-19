@@ -211,9 +211,9 @@ item.railcraft.firestone.refined.name=精炼火石
 item.railcraft.firestone.refined.tips.charged=充满了能量,\n你只需施加意志力\n来释放热量...
 item.railcraft.firestone.refined.tips.empty=它的能量是可控的,\n如果能进行再充能\n那就更有用了...
 
-item.railcraft.fluid_bottle_creosote.name=杂酚油瓶
-item.railcraft.fluid_bottle_steam.name=蒸汽瓶
-item.railcraft.fluid_bucket_creosote.name=杂酚油桶
+item.railcraft.fluid.bottle.creosote.name=杂酚油瓶
+item.railcraft.fluid.bottle.steam.name=蒸汽瓶
+item.railcraft.fluid.bucket.creosote.name=杂酚油桶
 item.railcraft.fluid.creosote.can.name=杂酚油罐
 item.railcraft.fluid.creosote.cell.name=杂酚油单元
 item.railcraft.fluid.creosote.refactory.name=杂酚油耐火胶囊
@@ -264,8 +264,8 @@ item.railcraft.signal.lamp.name=信号灯
 item.railcraft.tie.stone.name=枕石
 item.railcraft.tie.wood.name=枕木
 
-item.railcraft.track_parts.name=轨道零件
-item.railcraft.track_parts.tips=用于合成轨道套件
+item.railcraft.track.parts.name=轨道零件
+item.railcraft.track.parts.tips=用于合成轨道套件
 
 item.railcraft.turbine.blade.name=涡轮机轮叶
 item.railcraft.turbine.disk.name=涡轮机轮盘
@@ -299,7 +299,7 @@ item.railcraft.tool.signal.label.name=信号标签
 item.railcraft.tool.signal.label.tips=§9- 可在铁砧中重命名 -\n§o潜行时右击信号箱\n§o可为其命名
 item.railcraft.tool.signal.tuner.name=信号调谐器
 item.railcraft.tool.signal.tuner.tips=用于连接控制器与接收器
-item.railcraft.tool_stone_carver.name=石材切割工具
+item.railcraft.tool.stone.carver.name=石材切割工具
 item.railcraft.tool.axe.steel.name=钢斧
 item.railcraft.tool.hoe.steel.name=钢锄
 item.railcraft.tool.pickaxe.steel.name=钢镐
@@ -714,20 +714,20 @@ tile.railcraft.charge.feeder.ic2.tips=将IC电力转化为RC电力
 
 tile.railcraft.charge.trap.name=电力陷阱
 
-tile.railcraft.generic.brick.infernal.name=地狱砖块(废弃)
-tile.railcraft.generic.brick.sandy.name=沙岩砖块(废弃)
-tile.railcraft.generic.coke.name=焦煤方块
-tile.railcraft.generic.coke.tips=32,000燃料单位
-tile.railcraft.generic.concrete.name=混凝土块
-tile.railcraft.generic.copper.name=铜块
-tile.railcraft.generic.creosote.name=杂酚油木方块
-tile.railcraft.generic.crushed.obsidian.name=碎黑曜石
-tile.railcraft.generic.crushed.obsidian.tips=阻止生物生成
-tile.railcraft.generic.lead.name=铅块
-tile.railcraft.generic.steel.name=钢块
-tile.railcraft.generic.stone.abyssal.name=深渊砖块
-tile.railcraft.generic.stone.quarried.name=采掘砖块
-tile.railcraft.generic.tin.name=锡块
+tile.railcraft.generic_brick_infernal.name=地狱砖块(废弃)
+tile.railcraft.generic_brick_sandy.name=沙岩砖块(废弃)
+tile.railcraft.generic_coke.name=焦煤方块
+tile.railcraft.generic_coke.tips=32,000燃料单位
+tile.railcraft.generic_concrete.name=混凝土块
+tile.railcraft.generic_copper.name=铜块
+tile.railcraft.generic_creosote.name=杂酚油木方块
+tile.railcraft.generic_crushed_obsidian.name=碎黑曜石
+tile.railcraft.generic_crushed_obsidian.tips=阻止生物生成
+tile.railcraft.generic_lead.name=铅块
+tile.railcraft.generic_steel.name=钢块
+tile.railcraft.generic_stone_abyssal.name=深渊砖块
+tile.railcraft.generic_stone_quarried.name=采掘砖块
+tile.railcraft.generic_tin.name=锡块
 
 tile.railcraft.detector.advanced.name=矿车传感器-高级
 tile.railcraft.detector.age.name=矿车传感器-年龄
