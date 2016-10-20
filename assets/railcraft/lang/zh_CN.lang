@@ -395,7 +395,7 @@ railcraft.gui.box.controller.aspect.redstone=红石信号域:
 
 railcraft.gui.cart.tnt.fuse=导火线
 railcraft.gui.cart.track.relayer.pattern=模式
-railcraft.gui.cart.track.relayer.transfer.stock.name=库存
+railcraft.gui.cart.track.relayer.stock=库存
 railcraft.gui.cart.undercutter.pattern=模式
 railcraft.gui.cart.undercutter.sides=侧边
 railcraft.gui.cart.undercutter.transfer.stock.name=库存

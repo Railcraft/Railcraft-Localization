@@ -365,7 +365,7 @@ railcraft.gui.box.controller.aspect.redstone=充能信號:
 
 railcraft.gui.cart.tnt.fuse=導火線
 railcraft.gui.cart.track.relayer.pattern=樣式
-railcraft.gui.cart.track.relayer.transfer.stock.name=存量
+railcraft.gui.cart.track.relayer.stock=存量
 railcraft.gui.cart.undercutter.pattern=樣式
 railcraft.gui.cart.undercutter.sides=側邊
 railcraft.gui.cart.undercutter.transfer.stock.name=存量

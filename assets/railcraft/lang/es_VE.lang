@@ -245,7 +245,7 @@ railcraft.gui.box.controller.aspect.redstone=Aspecto Redstone:
 
 railcraft.gui.cart.tnt.fuse=Mecha
 railcraft.gui.cart.track.relayer.pattern=Patrón
-railcraft.gui.cart.track.relayer.transfer.stock.name=S
+railcraft.gui.cart.track.relayer.stock=S
 railcraft.gui.cart.undercutter.pattern=Patrón
 railcraft.gui.cart.undercutter.sides=Lados
 railcraft.gui.cart.undercutter.transfer.stock.name=S

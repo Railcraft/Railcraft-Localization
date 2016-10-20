@@ -395,7 +395,7 @@ railcraft.gui.box.controller.aspect.redstone=Redstone Aspect:
 
 railcraft.gui.cart.tnt.fuse=Fuse
 railcraft.gui.cart.track.relayer.pattern=Pattern
-railcraft.gui.cart.track.relayer.transfer.stock.name=Stock
+railcraft.gui.cart.track.relayer.stock=Stock
 railcraft.gui.cart.undercutter.pattern=Patterns
 railcraft.gui.cart.undercutter.sides=Sides
 railcraft.gui.cart.undercutter.transfer.stock.name=Stock

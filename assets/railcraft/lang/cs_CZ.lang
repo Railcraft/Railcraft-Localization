@@ -320,7 +320,7 @@ railcraft.gui.box.controller.aspect.redstone=Ruditový Aspect:
 
 railcraft.gui.cart.tnt.fuse=Pojistka
 railcraft.gui.cart.track.relayer.pattern=Vzor
-railcraft.gui.cart.track.relayer.transfer.stock.name=Sklad
+railcraft.gui.cart.track.relayer.stock=Sklad
 railcraft.gui.cart.undercutter.pattern=Vzory
 railcraft.gui.cart.undercutter.sides=Strany
 railcraft.gui.cart.undercutter.transfer.stock.name=Sklad

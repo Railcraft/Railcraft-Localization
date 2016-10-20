@@ -392,7 +392,7 @@ railcraft.gui.box.controller.aspect.redstone=Zustand bei Redstonesignal:
 
 railcraft.gui.cart.tnt.fuse=Zündung
 railcraft.gui.cart.track.relayer.pattern=Muster
-railcraft.gui.cart.track.relayer.transfer.stock.name=Vorrat
+railcraft.gui.cart.track.relayer.stock=Vorrat
 railcraft.gui.cart.undercutter.pattern=Muster
 railcraft.gui.cart.undercutter.sides=Seite
 railcraft.gui.cart.undercutter.transfer.stock.name=Vorrat

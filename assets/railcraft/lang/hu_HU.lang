@@ -295,7 +295,7 @@ railcraft.gui.box.controller.aspect.redstone=Vöröskö aspektus:
 
 railcraft.gui.cart.tnt.fuse=Biztosíték
 railcraft.gui.cart.track.relayer.pattern=Mintázat
-railcraft.gui.cart.track.relayer.transfer.stock.name=Készlet
+railcraft.gui.cart.track.relayer.stock=Készlet
 railcraft.gui.cart.undercutter.pattern=Mintázat
 railcraft.gui.cart.undercutter.sides=Oldalsó elemek
 railcraft.gui.cart.undercutter.transfer.stock.name=Készlet
