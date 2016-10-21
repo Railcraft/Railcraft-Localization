@@ -68,7 +68,7 @@ enchantment.railcraft.crowbar.wrecking=Demolice
 
 entity.railcraft.cart_anchor_admin.name=Kotva správce na vozíku
 entity.railcraft.cart_anchor.name=Kotva na vozíku
-entity.railcraft.cart_anchor.personal.name=Osobní kotva na vozíku
+entity.railcraft.cart_anchor_personal.name=Osobní kotva na vozíku
 entity.railcraft.cart_basic.name=Důlní vozík
 entity.railcraft.bore.name=Razič tunelů
 entity.railcraft.cart_chest.name=Bedna na vozíku

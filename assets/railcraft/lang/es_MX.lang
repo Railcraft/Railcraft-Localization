@@ -3,7 +3,7 @@
 
 entity.railcraft.cart_anchor_admin.name=Carro Ancla de Administrador
 entity.railcraft.cart_anchor.name=Carro Ancla
-entity.railcraft.cart_anchor.personal.name=Carro de Ancla Personal
+entity.railcraft.cart_anchor_personal.name=Carro de Ancla Personal
 entity.railcraft.cart_basic.name=Carro Minero
 entity.railcraft.bore.name=Agujereadora de Túneles
 entity.railcraft.cart_chest.name=Carro con Cofre

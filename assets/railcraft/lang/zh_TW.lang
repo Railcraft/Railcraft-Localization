@@ -87,7 +87,7 @@ enchantment.railcraft.crowbar.wrecking=揮擊
 
 entity.railcraft.cart_anchor_admin.name=管理錨車
 entity.railcraft.cart_anchor.name=世界錨車
-entity.railcraft.cart_anchor.personal.name=私人錨車
+entity.railcraft.cart_anchor_personal.name=私人錨車
 entity.railcraft.cart_basic.name=礦車
 entity.railcraft.bore.name=隧道鑽掘機
 entity.railcraft.cart_cargo.name=貨物礦車
@@ -102,7 +102,7 @@ entity.railcraft.locomotive_electric.name=電力機車
 entity.railcraft.locomotive_steam_solid.name=蒸氣機車
 entity.railcraft.locomotive_creative.name=亙古車頭
 entity.railcraft.cart_pumpkin.name=南瓜車
-entity.railcraft.cart_redstone.flux.name=Redstone Flux 儲能車
+entity.railcraft.cart_redstone_flux.name=Redstone Flux 儲能車
 entity.railcraft.cart_tank.name=蓄水車
 entity.railcraft.cart_tnt.name=TNT礦車
 entity.railcraft.cart_tnt_wood.name=木製TNT礦車

@@ -95,7 +95,7 @@ enchantment.railcraft.crowbar.wrecking=破击
 
 entity.railcraft.cart_anchor_admin.name=管理员锚车
 entity.railcraft.cart_anchor.name=世界锚车
-entity.railcraft.cart_anchor.personal.name=私用锚车
+entity.railcraft.cart_anchor_personal.name=私用锚车
 entity.railcraft.cart_basic.name=矿车
 entity.railcraft.bore.name=隧道盾构车
 entity.railcraft.cart_cargo.name=货运车
@@ -110,7 +110,7 @@ entity.railcraft.locomotive_electric.name=电力机车
 entity.railcraft.locomotive_steam_solid.name=蒸汽机车
 entity.railcraft.locomotive_creative.name=永动机车
 entity.railcraft.cart_pumpkin.name=南瓜车
-entity.railcraft.cart_redstone.flux.name=RF储能车
+entity.railcraft.cart_redstone_flux.name=RF储能车
 entity.railcraft.cart_tank.name=蓄水槽车
 entity.railcraft.cart_tnt.name=TNT车
 entity.railcraft.cart_tnt_wood.name=木质TNT矿车
