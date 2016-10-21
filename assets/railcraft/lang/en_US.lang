@@ -525,6 +525,8 @@ railcraft.gui.mag.glass.placedby=%1$s was placed by %2$s
 railcraft.gui.rolling.machine.tips.craft=§e§o-click to craft-
 
 railcraft.gui.routing.logic.blank=Blank Table
+railcraft.gui.routing.logic.constant.invalid=Invalid Constant
+railcraft.gui.routing.logic.operand.invalid=Invalid Operand
 railcraft.gui.routing.logic.insufficient.operands=Insufficient Operands
 railcraft.gui.routing.logic.malformed.syntax=Malformed Syntax
 railcraft.gui.routing.logic.regex.invalid=Invalid Regex Pattern
@@ -532,9 +534,9 @@ railcraft.gui.routing.logic.regex.unsupported=Regex Unsupported
 railcraft.gui.routing.logic.unrecognized.keyword=Unrecognized Keyword
 railcraft.gui.routing.slot.label=Routing Table
 railcraft.gui.routing.table.editor=Last edited by %s
-railcraft.gui.routing.table.manual.numPages=11
+railcraft.gui.routing.table.manual.numPages=12
 railcraft.gui.routing.table.manual.page1=The Routing Table when placed in a Routing Detector or Switch will define a set of rules that are used to match against any passing Locomotive. These rules are define using a simple logic syntax that allows you to create rules as simple or complex as you like. The syntax is a Prefix Notation script, the Operators are followed by the Operands. Only one keyword is allowed per line. If no Operator is specified, OR is assumed. Routing Tables can be copied by placing two or more in a crafting grid.
-railcraft.gui.routing.table.manual.page2=Operator Keywords:\n   AND - Two Operands, both must be true.\n   OR - Two Operands, one must be true.\n   NOT - Invert the following Operand.
+railcraft.gui.routing.table.manual.page2=Operator Keywords:\n   AND - Two Operands, both must be true.\n   OR - Two Operands, one must be true.\n   NOT - Invert the following Operand.\n   IF - Three Operands: cond, then, else.\n         If cond is true, use then;\n         otherwise, use else.
 railcraft.gui.routing.table.manual.page3=Condition Keywords:\n   Dest=<string>\n      If the Locomotive's Destination\n      string starts with this string,\n      the condition is true.\n      "Dest=null" will match carts\n      with no destination.\n   Owner=<username>\n      True if the Locomotive belongs\n      to this person.
 railcraft.gui.routing.table.manual.page4=Condition Keywords:\n   Name=<entityname>\n      True if it matches the\n      Minecart's name.\n      "Name=null" will match carts\n      with no custom name.\n   Type=<modid:itemname>\n      True if it matches the\n      Minecart's item name.
 railcraft.gui.routing.table.manual.page5=Condition Keywords:\n   Riding=<username>\n      True if the Train is ridden\n      by this person.\n   Ridden=<true/false>\n      True if the Train is\n      being ridden by a player.
@@ -544,6 +546,7 @@ railcraft.gui.routing.table.manual.page8=Condition Keywords:\n   Loco=<string>\n
 railcraft.gui.routing.table.manual.page9=Example Script:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
 railcraft.gui.routing.table.manual.page10=Result:\n   The script on the previous page will\n   match a Locomotive with a destination\n   of "TheFarLands/Milliways",\n   or that is painted black and red,\n   or that has a destination of\n   "SecretHideout/OceanEntrance",\n   but only if its not owned by RichardG.
 railcraft.gui.routing.table.manual.page11=Regular Expressions:\n   Some Conditions support\n   Regular Expressions.\n   To use a regex, add a '?' before the '='.\n   Rules are standard Java Patterns.\nSupporting Conditions:\n   Dest, Name\nExample:\n   Dest?=.*Hill
+railcraft.gui.routing.table.manual.page12=Analog Output:\n   IF can be used with integer constants for\n   analog output. Ints and IF can only be\n   used at top level, or as then or else to\n   IF. TRUE and FALSE are usable anywhere.\nExample:\n   IF\n   Dest=Town\n   8\n   IF\n   Dest=City\n   4\n   FALSE
 railcraft.gui.routing.table.manual.title=Routing Manual
 railcraft.gui.routing.table.name=Name
 railcraft.gui.routing.ticket.line1=This Ticket is valid
