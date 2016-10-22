@@ -214,6 +214,7 @@ item.railcraft.firestone.refined.tips.empty=它的能量是可控的,\n如果能
 item.railcraft.fluid.bottle.creosote.name=杂酚油瓶
 item.railcraft.fluid.bottle.steam.name=蒸汽瓶
 item.railcraft.fluid.bucket.creosote.name=杂酚油桶
+
 item.railcraft.fluid.creosote.can.name=杂酚油罐
 item.railcraft.fluid.creosote.cell.name=杂酚油单元
 item.railcraft.fluid.creosote.refactory.name=杂酚油耐火胶囊
@@ -228,18 +229,21 @@ item.railcraft.gear.steel.name=钢齿轮
 
 item.railcraft.ingot.copper.name=铜锭
 item.railcraft.ingot.lead.name=铅锭
+item.railcraft.ingot.silver.name=银锭
 item.railcraft.ingot.steel.name=钢锭
 item.railcraft.ingot.tin.name=锡锭
 
 item.railcraft.nugget.copper.name=铜粒
 item.railcraft.nugget.iron.name=铁粒
 item.railcraft.nugget.lead.name=铅粒
+item.railcraft.nugget.silver.name=银粒
 item.railcraft.nugget.steel.name=钢粒
 item.railcraft.nugget.tin.name=锡粒
 
 item.railcraft.plate.copper.name=铜板
 item.railcraft.plate.iron.name=铁板
 item.railcraft.plate.lead.name=铅板
+item.railcraft.plate.silver.name=银板
 item.railcraft.plate.steel.name=钢板
 item.railcraft.plate.tin.name=锡板
 
@@ -264,20 +268,15 @@ item.railcraft.signal.lamp.name=信号灯
 item.railcraft.tie.stone.name=枕石
 item.railcraft.tie.wood.name=枕木
 
-item.railcraft.track.parts.name=轨道零件
-item.railcraft.track.parts.tips=用于合成轨道套件
-
-item.railcraft.turbine.blade.name=涡轮机轮叶
-item.railcraft.turbine.disk.name=涡轮机轮盘
-item.railcraft.turbine.rotor.name=涡轮机转子
-
+item.railcraft.tool.axe.steel.name=钢斧
+item.railcraft.tool.charge.meter.name=电表
+item.railcraft.tool.charge.meter.tips=§o右击电力方块可获取其详细信息
 item.railcraft.tool.crowbar.magic.name=奥法撬棍
-item.railcraft.tool.crowbar.iron.name=撬棍
+item.railcraft.tool.crowbar.iron.name=铁制撬棍
 item.railcraft.tool.crowbar.steel.name=强化撬棍
 item.railcraft.tool.crowbar.tips=§o潜行时右键可链接车厢
 item.railcraft.tool.crowbar.void.name=虚空金属撬棍
-item.railcraft.tool.charge.meter.name=电表
-item.railcraft.tool.charge.meter.tips=§o右击Charge blocks可获得其详细信息
+item.railcraft.tool.hoe.steel.name=钢锄
 item.railcraft.tool.magnifying.glass.name=放大镜
 item.railcraft.tool.notepad.action.copy=已从%s复制设定
 item.railcraft.tool.notepad.action.copy.fail=没有可复制内容：目标无效。
@@ -295,20 +294,25 @@ item.railcraft.tool.notepad.tips.mode.cart.filter=矿车过滤器
 item.railcraft.tool.notepad.tips.mode.loader.filters=物品/流体过滤器
 item.railcraft.tool.notepad.tips.mode=粘贴模式：%s
 item.railcraft.tool.notepad.tips=§o右击以粘贴\n§o潜行时右击以复制\n§o潜行时对空中右击以清空
+item.railcraft.tool.pickaxe.steel.name=钢镐
+item.railcraft.tool.shears.steel.name=钢剪刀
+item.railcraft.tool.shovel.steel.name=钢铲
 item.railcraft.tool.signal.label.name=信号标签
 item.railcraft.tool.signal.label.tips=§9- 可在铁砧中重命名 -\n§o潜行时右击信号箱\n§o可为其命名
 item.railcraft.tool.signal.tuner.name=信号调谐器
 item.railcraft.tool.signal.tuner.tips=用于连接控制器与接收器
-item.railcraft.tool.stone.carver.name=石材切割工具
-item.railcraft.tool.axe.steel.name=钢斧
-item.railcraft.tool.hoe.steel.name=钢锄
-item.railcraft.tool.pickaxe.steel.name=钢镐
-item.railcraft.tool.shears.steel.name=钢剪刀
-item.railcraft.tool.shovel.steel.name=钢铲
-item.railcraft.tool.sword.steel.name=钢剑
 item.railcraft.tool.signal.surveyor.name=信号域监测仪
 item.railcraft.tool.signal.surveyor.tips=用于连接信号方块
+item.railcraft.tool.stone.carver.name=石材切割工具
+item.railcraft.tool.sword.steel.name=钢剑
 item.railcraft.tool.whistle.tuner.name=鸣笛调谐器
+
+item.railcraft.track.parts.name=轨道零件
+item.railcraft.track.parts.tips=用于合成轨道套件
+
+item.railcraft.turbine.blade.name=涡轮机轮叶
+item.railcraft.turbine.disk.name=涡轮机轮盘
+item.railcraft.turbine.rotor.name=涡轮机转子
 
 item.railcraft.upgrade.lapotron=兰波顿装载升级插件
 
@@ -491,10 +495,10 @@ gui.railcraft.manipulator.transfer.stock.tips=移动物品直到\n目标容器�
 gui.railcraft.manipulator.transfer.transfer.name=转移
 gui.railcraft.manipulator.transfer.transfer.tips=尽可能移动\n过滤设定中数量的物品
 
-railcraft.gui.link.broken=链接已损坏
-railcraft.gui.link.created=链接已创建
-railcraft.gui.link.failed=链接已失败
-railcraft.gui.link.started=链接已开始
+railcraft.gui.link.broken=连接已损坏
+railcraft.gui.link.created=连接已创建
+railcraft.gui.link.failed=连接已失败
+railcraft.gui.link.started=连接已开始
 
 railcraft.gui.liquid.capacity=容量
 
@@ -532,8 +536,8 @@ railcraft.gui.routing.logic.regex.unsupported=未支持正则表达式
 railcraft.gui.routing.logic.unrecognized.keyword=未识别关键字
 railcraft.gui.routing.slot.label=路由表
 railcraft.gui.routing.table.editor=由%s最后编辑
-railcraft.gui.routing.table.manual.numPages=10
-railcraft.gui.routing.table.manual.page1=放入路由探测器或转辙器中的列车时刻表定义了一组对过往机车进行匹配的规则.这些使用简单逻辑指令定义的脚本能够允许你任你所需创建出简单或复杂的控制规则.这种指令属于前缀符号脚本,指令需要放在操作数之后,每行限使用一个关键字.若没有写明指令,则默认使用OR指令.在工作台放置两个或更多列车时刻表可以复制其内容.
+railcraft.gui.routing.table.manual.numPages=11
+railcraft.gui.routing.table.manual.page1=放入路由传感器或路由转辙马达中的列车时刻表定义了一组对过往机车进行匹配的规则.这些使用简单逻辑指令定义的脚本能够允许你任你所需创建出简单或复杂的控制规则.这种指令属于前缀符号脚本,指令需要放在操作数之后,每行限使用一个关键字.若没有写明指令,则默认使用OR指令.在工作台放置两个或更多列车时刻表可以复制其内容.
 railcraft.gui.routing.table.manual.page2=指令关键字:\n   AND - 两个操作数,必须都为真..\n   OR - 两个操作数,一个必须为真.\n   NOT - 反转下一条指令.
 railcraft.gui.routing.table.manual.page3=条件关键字:\n   Dest=<字符串>\n      如果机车目的地\n      字符串以这条字符串开头,\n      则条件为真.\n      "Dest=null" 将匹配那些没有\n      目的地的矿车.\n   Owner=<用户名>\n      机车属于对应名称玩家\n      则为真.
 railcraft.gui.routing.table.manual.page4=条件关键字:\n   Name=<实体名>\n      当与矿车在铁砧中命名的\n      名称相同则为真.\n      "Name=null"将匹配没有自定义名称\n      的矿车.\n   Type=<modid:物品名称>\n      当与矿车物品名称相同\n      则为真.
@@ -542,7 +546,7 @@ railcraft.gui.routing.table.manual.page6=条件关键字:\n   Color=<车身色>,
 railcraft.gui.routing.table.manual.page7=条件关键字:\n   Redstone=<true/false>\n      路由方块被红石充能\n      则为真.
 railcraft.gui.routing.table.manual.page8=条件关键字:\n   Loco=<类型>\n      当机车类型与给定类型相同时则为真.\n      可允许的值: electric, steam, none.\n      若使用none,则仅当没有机车时为真.
 railcraft.gui.routing.table.manual.page9=脚本范例:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-railcraft.gui.routing.table.manual.page10=结果:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身色为黑,底盘色为红,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头.
+railcraft.gui.routing.table.manual.page10=结果:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身黑色,底盘红色,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头.
 railcraft.gui.routing.table.manual.page11=正则表达式:\n   某些条件关键字支持\n   使用正则表达式.\n   要使用正则表达,需要在'='前添加一个'?'.\n   语法参同标准的java正则表达式语法.\n支持的条件关键字:\n   Dest, Name\n范例:\n   Dest?=.*Hill
 railcraft.gui.routing.table.manual.title=路由手册
 railcraft.gui.routing.table.name=名称
@@ -560,7 +564,7 @@ railcraft.gui.routing.track.tips.slot=插入黄金车票
 railcraft.gui.routing.type.private.tips=将只导航e\n属于{owner}的列车.
 railcraft.gui.routing.type.private=私人铁路
 railcraft.gui.routing.type.public.tips=将导航任意列车.
-railcraft.gui.routing.type.public=共用铁路
+railcraft.gui.routing.type.public=公用铁路
 
 railcraft.gui.steam.boiler=蒸汽锅炉
 railcraft.gui.steam.oven=蒸汽炉
@@ -714,21 +718,6 @@ tile.railcraft.charge.feeder.ic2.tips=将IC电力转化为RC电力
 
 tile.railcraft.charge.trap.name=电力陷阱
 
-tile.railcraft.generic_brick_infernal.name=地狱砖块(废弃)
-tile.railcraft.generic_brick_sandy.name=沙岩砖块(废弃)
-tile.railcraft.generic_coke.name=焦煤方块
-tile.railcraft.generic_coke.tips=32,000燃料单位
-tile.railcraft.generic_concrete.name=混凝土块
-tile.railcraft.generic_copper.name=铜块
-tile.railcraft.generic_creosote.name=杂酚油木方块
-tile.railcraft.generic_crushed_obsidian.name=碎黑曜石
-tile.railcraft.generic_crushed_obsidian.tips=阻止生物生成
-tile.railcraft.generic_lead.name=铅块
-tile.railcraft.generic_steel.name=钢块
-tile.railcraft.generic_stone_abyssal.name=深渊砖块
-tile.railcraft.generic_stone_quarried.name=采掘砖块
-tile.railcraft.generic_tin.name=锡块
-
 tile.railcraft.detector.advanced.name=矿车传感器-高级
 tile.railcraft.detector.age.name=矿车传感器-年龄
 tile.railcraft.detector.animal.name=矿车传感器-动物
@@ -756,7 +745,39 @@ tile.railcraft.fluid.steam.name=蒸汽
 tile.railcraft.frame.name=线缆支撑框架
 tile.railcraft.frame.tips=用于将轨道放置在分路线缆上
 
+tile.railcraft.generic_coke.name=焦煤方块
+tile.railcraft.generic_coke.tips=32,000燃料单位
+tile.railcraft.generic_concrete.name=混凝土块
+tile.railcraft.generic_copper.name=铜块
+tile.railcraft.generic_creosote.name=杂酚油木方块
+tile.railcraft.generic_crushed_obsidian.name=碎黑曜石
+tile.railcraft.generic_crushed_obsidian.tips=阻止生物生成
+tile.railcraft.generic_lead.name=铅块
+tile.railcraft.generic_silver.name=银块
+tile.railcraft.generic_steel.name=钢块
+tile.railcraft.generic_stone_abyssal.name=深渊砖块
+tile.railcraft.generic_stone_quarried.name=采掘砖块
+tile.railcraft.generic_tin.name=锡块
+
 tile.railcraft.glass.name=强化玻璃
+
+tile.railcraft.lantern.metal.copper.name=铜灯
+tile.railcraft.lantern.metal.gold.name=金灯
+tile.railcraft.lantern.metal.iron.name=铁灯
+tile.railcraft.lantern.metal.lead.name=铅灯
+tile.railcraft.lantern.metal.steel.name=钢灯
+tile.railcraft.lantern.metal.tin.name=锡灯
+
+tile.railcraft.lantern.stone.abyssal.name=深渊石灯
+tile.railcraft.lantern.stone.bleachedbone.name=白骨石灯
+tile.railcraft.lantern.stone.bloodstained.name=污血石灯
+tile.railcraft.lantern.stone.frostbound.name=霜冻石灯
+tile.railcraft.lantern.stone.infernal.name=地狱石灯
+tile.railcraft.lantern.stone.nether.name=下界石灯
+tile.railcraft.lantern.stone.quarried.name=采掘石灯
+tile.railcraft.lantern.stone.sandstone.name=沙石灯
+tile.railcraft.lantern.stone.sandy.name=沙岩石灯
+tile.railcraft.lantern.stone.stone.name=石灯
 
 tile.railcraft.machine.alpha.anchor.admin.name=管理员锚
 tile.railcraft.machine.alpha.anchor.passive.name=被动锚
@@ -813,9 +834,6 @@ tile.railcraft.machine.beta.tank.steel.valve.tips=多方块结构:尺寸可变,�
 tile.railcraft.machine.beta.tank.steel.wall.name=钢质蓄水器壁板
 tile.railcraft.machine.beta.tank.steel.wall.tips=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
 
-tile.railcraft.machine.delta.wire.name=电力分路线缆
-tile.railcraft.machine.delta.wire.tips=跨距连接电轨\n配合线缆支撑框架可放置于轨道下方
-
 tile.railcraft.machine.epsilon.admin.steam.producer.name=管理员蒸汽供给单元
 tile.railcraft.machine.epsilon.admin.steam.producer.tips=提供无限的蒸汽
 tile.railcraft.machine.epsilon.engraving.bench.name=雕刻桌
@@ -849,18 +867,24 @@ tile.railcraft.manipulator.unloader.item.tips=为矿车卸载物品\n§o§c- 需
 tile.railcraft.manipulator.unloader.fluid.name=流体卸载机
 tile.railcraft.manipulator.unloader.fluid.tips=为矿车卸载流体\n§o§c- 需要放置在轨道下方 -
 
+tile.railcraft.ore.copper.name=铜矿石
 tile.railcraft.ore.dark.diamond.name=暗黑钻石矿石
 tile.railcraft.ore.dark.emerald.name=暗黑绿宝石矿石
 tile.railcraft.ore.dark.lapis.name=暗黑青金石矿石
-tile.railcraft.ore.firestone.name=火石矿石
-tile.railcraft.ore.firestone.tips.name=会烧毁除了腐肉外的所有东西,\n拿着它的时候,\n周围的空气都灼热起来...
+tile.railcraft.ore.lead.name=铅矿石
 tile.railcraft.ore.poor.copper.name=贫铜矿石
 tile.railcraft.ore.poor.gold.name=贫金矿石
 tile.railcraft.ore.poor.iron.name=贫铁矿石
 tile.railcraft.ore.poor.lead.name=贫铅矿石
+tile.railcraft.ore.poor.silver.name=贫银矿石
 tile.railcraft.ore.poor.tin.name=贫锡矿石
-tile.railcraft.ore.saltpeter.name=硝石
-tile.railcraft.ore.sulfur.name=硫磺
+tile.railcraft.ore.saltpeter.name=硝石矿石
+tile.railcraft.ore.silver.name=银矿石
+tile.railcraft.ore.sulfur.name=硫磺矿石
+tile.railcraft.ore.tin.name=锡矿石
+
+tile.railcraft.ore.magic.firestone.name=火石矿石
+tile.railcraft.ore.magic.firestone.tips.name=会烧毁除了肌肉外的所有东西,\n拿着它的时候,\n周围的空气都灼热起来...
 
 tile.railcraft.post.emblem.name=徽章桩
 tile.railcraft.post.metal.black.name=黑色金属桩
@@ -901,37 +925,6 @@ tile.railcraft.post.stone.name=石桩
 tile.railcraft.post.stone.platform.name=石头平台
 tile.railcraft.post.wood.name=木桩
 tile.railcraft.post.wood.platform.name=木头平台
-
-tile.railcraft.residual.heat.name=残余热量
-
-tile.railcraft.wayobject.block.signal.dual.name=双头信号盒
-#tile.railcraft.wayobject.block.signal.dual.tips=Detects Carts in Signal Block\nDisplays aspect of linked Controller\n§o§9Aerial Linkages:\n§o§9- 1x Signal Blocks\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Block Surveyor
-tile.railcraft.wayobject.block.signal.name=信号盒
-#tile.railcraft.wayobject.block.signal.tips=Detects Carts in Signal Block\n§o§9Aerial Linkages:\n§o§9- 1x Signal Block\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
-tile.railcraft.wayobject.box.analog.name=模拟信号控制盒
-#tile.railcraft.wayobject.box.analog.tips=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: None\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.box.block.relay.name=信号中继盒
-#tile.railcraft.wayobject.box.block.relay.tips=Creates chains of Signal Blocks\n§o§9Aerial Linkages: 2x Signal Block\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
-tile.railcraft.wayobject.box.capacitor.name=信号计数盒
-#tile.railcraft.wayobject.box.capacitor.tips=Sends signals to Receivers\n§o§9Aerial Linkages: None\n§o§9Adjacent Linkages: Listen, Emit\n§o§9Redstone Linkages: Listen to Repeater, Emit
-tile.railcraft.wayobject.box.controller.name=信号控制盒
-#tile.railcraft.wayobject.box.controller.tips=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: Listen\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.box.interlock.name=信号互锁盒
-#tile.railcraft.wayobject.box.interlock.tips=Permits only one aspect signal to pass\n§o§9Aerial Linkages:\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§9Adjacent Linkages:\n§o§9- Interlock\n§o§9- Listen (Limit Output)\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.box.receiver.name=信号接收盒
-#tile.railcraft.wayobject.box.receiver.tips=Listens to Controller signals\n§o§9Aerial Linkages: 1x Receiver\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.box.sequencer.name=信号同步盒
-#tile.railcraft.wayobject.box.sequencer.tips=Loops through adjacent blocks\n§o§9Adjacent Linkages:\n§o§9- Sequencer\n§o§9- Listen (Clock)\n§o§9- Emit\n§o§9Redstone Linkages:\n§o§9- Listen to Repeater (Clock)\n§o§9- Emit
-tile.railcraft.wayobject.distant.dual.name=双头远程信号
-#tile.railcraft.wayobject.distant.dual.tips=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.distant.name=远程信号
-#tile.railcraft.wayobject.distant.tips=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.switch.lever.name=转辙拉杆
-#tile.railcraft.wayobject.switch.lever.tips=Controls adjacent Switch Tracks\n§o§9Manual Operation
-tile.railcraft.wayobject.switch.motor.name=转辙马达
-#tile.railcraft.wayobject.switch.motor.tips=Controls adjacent Switch Tracks\n§o§9Aerial Linkages: 1x Receiver\n§o§9Redstone Linkage: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.switch.routing.name=路由转辙马达
-#tile.railcraft.wayobject.switch.routing.tips=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
 
 tile.railcraft.slab.abyssal.block.name=深渊台阶
 tile.railcraft.slab.abyssal.brick.name=深渊砖台阶
@@ -1023,23 +1016,37 @@ tile.railcraft.stair.snow.name=雪楼梯
 tile.railcraft.stair.steel.name=钢楼梯
 tile.railcraft.stair.tin.name=锡楼梯
 
-tile.railcraft.lantern.metal.copper.name=铜灯
-tile.railcraft.lantern.metal.gold.name=金灯
-tile.railcraft.lantern.metal.iron.name=铁灯
-tile.railcraft.lantern.metal.lead.name=铅灯
-tile.railcraft.lantern.metal.steel.name=钢灯
-tile.railcraft.lantern.metal.tin.name=锡灯
+tile.railcraft.signal.block.signal.dual.name=双头信号灯
+tile.railcraft.signal.block.signal.dual.tip=在信号区间中检测矿车\n显示连接的信号控制盒的信号\n§o§9远程连接:\n§o§9- 1x 信号灯s\n§o§9- 1x 控制盒\n§o§9- 1x 接收盒\n§o§c相关工具:\n§o§c-信号调谐器\n§o§c-信号域监测仪
+tile.railcraft.signal.block.signal.name=信号灯
+tile.railcraft.signal.block.signal.tip=在信号区间中检测矿车\n§o§9远程连接:\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§c相关工具:\n§o§c-信号域监测仪
+tile.railcraft.signal.box.analog.name=模拟信号控制盒
+tile.railcraft.signal.box.analog.tip=向信号接收盒发送信号\n§o§9远程连接: 1x 控制盒\n§o§9邻格连接: 无\n§o§9红石连接:\n§o§9接收红石信号\n§o§c相关工具:\n§o§c-信号调谐器
+tile.railcraft.signal.box.block.relay.name=信号中继盒
+tile.railcraft.signal.box.block.relay.tip=连接两个不在直线上的信号灯\n§o§9远程连接: 2x 信号灯\n§o§9邻格连接: 发出信号\n§o§9红石连接:\n§o§9发出红石信号\n§o§c相关工具:\n§o§c-信号域监测仪
+tile.railcraft.signal.box.capacitor.name=信号计数盒
+tile.railcraft.signal.box.capacitor.tip=向信号接收盒发送信号\n§o§9远程连接: 无\n§o§9邻格连接: 接收信号, 发出信号\n§o§9红石连接:\n§o§9- 监听红石中继器, 发出红石信号
+tile.railcraft.signal.box.controller.name=信号控制盒
+tile.railcraft.signal.box.controller.tip=向信号接收盒发送信号\n§o§9远程连接: 1x 控制盒\n§o§9邻格连接: 接收信号\n§o§9红石连接:\n§o§9接收红石信号\n§o§c相关工具:\n§o§c-信号调谐器
+tile.railcraft.signal.box.interlock.name=信号互锁盒
+tile.railcraft.signal.box.interlock.tip=只允许一种信号通过\n§o§9远程连接:\n§o§9- 1x 控制盒\n§o§9- 1x 接收盒\n§o§9邻格连接:\n§o§9- 互锁盒\n§o§9- 接收信号 (限制输出)\n§o§c相关工具:\n§o§c-信号调谐器
+tile.railcraft.signal.box.receiver.name=信号接收盒
+tile.railcraft.signal.box.receiver.tip=接收信号控制盒信号\n§o§9远程连接: 1x 接收盒\n§o§9邻格连接: 发出信号\n§o§9红石连接:\n§o§9发出红石信号\n§o§c相关工具:\n§o§c-信号调谐器
+tile.railcraft.signal.box.sequencer.name=信号记序盒
+tile.railcraft.signal.box.sequencer.tip=随计数接收不同邻格信号\n§o§9邻格连接:\n§o§9- 同步盒\n§o§9- 接收信号 (计数)\n§o§9- 发出信号\n§o§9红石连接:\n§o§9- 监听红石中继器 (计数)\n§o§9- 发出红石信号
+tile.railcraft.signal.distant.dual.name=双头远程信号灯
+tile.railcraft.signal.distant.dual.tip=显示连接的多个信号控制盒的信号\n§o§9远程连接: 2x 接收盒\n§o§c相关工具:\n§o§c-信号调谐器
+tile.railcraft.signal.distant.name=远程信号灯
+tile.railcraft.signal.distant.tip=显示连接的信号控制盒的信号\n§o§9远程连接: 1x 接收盒\n§o§c相关工具:\n§o§c-信号调谐器
+tile.railcraft.signal.switch.lever.name=转辙拉杆
+tile.railcraft.signal.switch.lever.tip=控制旁边一格的转辙轨道\n§o§9手动
+tile.railcraft.signal.switch.motor.name=转辙马达
+tile.railcraft.signal.switch.motor.tip=控制旁边一格的转辙轨道\n§o§9远程连接: 1x 接收盒\n§o§9红石连接:\n§o§9-接收红石信号\n§o§c相关工具:\n§o§c-信号调谐器
+tile.railcraft.signal.switch.routing.name=路由转辙马达
+tile.railcraft.signal.switch.routing.tip=控制旁边一格的转辙轨道\n§o§9实行由脚本控制的逻辑操作\n§o§c相关工具:\n§o§c-路由表
 
-tile.railcraft.lantern.stone.abyssal.name=深渊石灯
-tile.railcraft.lantern.stone.bleachedbone.name=白骨石灯
-tile.railcraft.lantern.stone.bloodstained.name=污血石灯
-tile.railcraft.lantern.stone.frostbound.name=霜冻石灯
-tile.railcraft.lantern.stone.infernal.name=地狱石灯
-tile.railcraft.lantern.stone.nether.name=下界石灯
-tile.railcraft.lantern.stone.quarried.name=采掘石灯
-tile.railcraft.lantern.stone.sandstone.name=沙石灯
-tile.railcraft.lantern.stone.sandy.name=沙岩石灯
-tile.railcraft.lantern.stone.stone.name=石灯
+tile.railcraft.machine.delta.wire.name=电力分路线缆
+tile.railcraft.machine.delta.wire.tips=跨距连接电轨\n配合线缆支撑框架可放置于轨道下方
 
 #Old Tracks (to be deleted)
 tile.railcraft.track.buffer.stop.name=缓停轨道
