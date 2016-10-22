@@ -47,7 +47,7 @@ enchantment.railcraft.crowbar.wrecking=Destrozar
 
 entity.railcraft.cart_anchor_admin.name=Vagoneta Ancla de Administrador
 entity.railcraft.cart_anchor.name=Vagoneta Ancla
-entity.railcraft.cart_anchor.personal.name=Vagoneta de Ancla Personal
+entity.railcraft.cart_anchor_personal.name=Vagoneta de Ancla Personal
 entity.railcraft.cart_basic.name=Vagoneta
 entity.railcraft.bore.name=Tuneladora
 entity.railcraft.cart_chest.name=Vagoneta con Cofre
@@ -291,7 +291,7 @@ railcraft.gui.box.controller.aspect.redstone=Aspecto Redstone:
 
 railcraft.gui.cart.tnt.fuse=Detonador
 railcraft.gui.cart.track.relayer.pattern=Patrón
-railcraft.gui.cart.track.relayer.transfer.stock.name=Stock
+railcraft.gui.cart.track.relayer.stock=Stock
 railcraft.gui.cart.undercutter.pattern=Patrón
 railcraft.gui.cart.undercutter.sides=Lados
 railcraft.gui.cart.undercutter.transfer.stock.name=Stock

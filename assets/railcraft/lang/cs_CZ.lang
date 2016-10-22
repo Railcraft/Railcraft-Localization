@@ -68,7 +68,7 @@ enchantment.railcraft.crowbar.wrecking=Demolice
 
 entity.railcraft.cart_anchor_admin.name=Kotva správce na vozíku
 entity.railcraft.cart_anchor.name=Kotva na vozíku
-entity.railcraft.cart_anchor.personal.name=Osobní kotva na vozíku
+entity.railcraft.cart_anchor_personal.name=Osobní kotva na vozíku
 entity.railcraft.cart_basic.name=Důlní vozík
 entity.railcraft.bore.name=Razič tunelů
 entity.railcraft.cart_chest.name=Bedna na vozíku
@@ -320,7 +320,7 @@ railcraft.gui.box.controller.aspect.redstone=Ruditový Aspect:
 
 railcraft.gui.cart.tnt.fuse=Pojistka
 railcraft.gui.cart.track.relayer.pattern=Vzor
-railcraft.gui.cart.track.relayer.transfer.stock.name=Sklad
+railcraft.gui.cart.track.relayer.stock=Sklad
 railcraft.gui.cart.undercutter.pattern=Vzory
 railcraft.gui.cart.undercutter.sides=Strany
 railcraft.gui.cart.undercutter.transfer.stock.name=Sklad
