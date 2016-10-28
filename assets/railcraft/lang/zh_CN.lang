@@ -843,9 +843,9 @@ tile.railcraft.machine.epsilon.force.track.emitter.name=轨道发射机
 tile.railcraft.machine.epsilon.force.track.emitter.tips=发射以RC电力为能量供应的镭射轨道
 
 tile.railcraft.manipulator.dispenser.cart.name=矿车分车站
-tile.railcraft.manipulator.dispenser.cart.tips=向轨道分配矿车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出矿车 -
+tile.railcraft.manipulator.dispenser.cart.tips=向轨道分配矿车\n§o§9- 可与控制轨道配对 -\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出矿车 -
 tile.railcraft.manipulator.dispenser.train.name=列车分车站
-tile.railcraft.manipulator.dispenser.train.tips=向轨道分配列车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出列车 -
+tile.railcraft.manipulator.dispenser.train.tips=向轨道分配列车\n§o§9- 可与控制轨道配对 -\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出列车 -
 tile.railcraft.manipulator.loader.energy.name=能量装载机
 tile.railcraft.manipulator.loader.energy.tips=为IC2能量运输矿车装载电力\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限Ic2电力
 tile.railcraft.manipulator.loader.rf.name=RF能量装载机
