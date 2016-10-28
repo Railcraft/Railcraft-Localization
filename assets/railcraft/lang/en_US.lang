@@ -839,9 +839,9 @@ tile.railcraft.machine.epsilon.force.track.emitter.name=Force Track Emitter
 tile.railcraft.machine.epsilon.force.track.emitter.tips=Projects energy-based tracks
 
 tile.railcraft.manipulator.dispenser.cart.name=Cart Dispenser
-tile.railcraft.manipulator.dispenser.cart.tips=Dispenses Carts onto Tracks\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Apply Redstone to dispense Cart -
+tile.railcraft.manipulator.dispenser.cart.tips=Dispenses Carts onto Tracks\n§o§9- Pair with Control Track -\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Apply Redstone to dispense Cart -
 tile.railcraft.manipulator.dispenser.train.name=Train Dispenser
-tile.railcraft.manipulator.dispenser.train.tips=Dispenses linked Trains onto Tracks\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Apply Redstone to dispense Train -
+tile.railcraft.manipulator.dispenser.train.tips=Dispenses linked Trains onto Tracks\n§o§9- Pair with Control Track -\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Apply Redstone to dispense Train -
 tile.railcraft.manipulator.loader.energy.name=Energy Loader
 tile.railcraft.manipulator.loader.energy.tips=Loads Energy into Ic2 Energy Carts\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Only accepts Ic2 power
 tile.railcraft.manipulator.loader.rf.name=Redstone Flux Loader
