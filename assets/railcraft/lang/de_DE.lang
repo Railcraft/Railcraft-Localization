@@ -225,18 +225,21 @@ item.railcraft.gear.steel.name=Stahlzahnrad
 
 item.railcraft.ingot.copper.name=Kupferbarren
 item.railcraft.ingot.lead.name=Bleibarren
+item.railcraft.ingot.silver.name=Silberbarren
 item.railcraft.ingot.steel.name=Stahlbarren
 item.railcraft.ingot.tin.name=Zinnbarren
 
 item.railcraft.nugget.copper.name=Kupfernugget
 item.railcraft.nugget.iron.name=Eisennugget
 item.railcraft.nugget.lead.name=Bleinugget
+item.railcraft.nugget.silver.name=Silbernugget
 item.railcraft.nugget.steel.name=Stahlnugget
 item.railcraft.nugget.tin.name=Zinnnugget
 
 item.railcraft.plate.copper.name=Kupferplatte
 item.railcraft.plate.iron.name=Eisenplatte
 item.railcraft.plate.lead.name=Bleiplatte
+item.railcraft.plate.silver.name=Silberplatte
 item.railcraft.plate.steel.name=Stahlplatte
 item.railcraft.plate.tin.name=Zinnplatte
 
@@ -472,13 +475,13 @@ railcraft.gui.ic2.energy.rate=Rate: %s EU
 
 gui.railcraft.manipulator.buffer=Puffer
 gui.railcraft.manipulator.redstone.complete.name=Komplett
-gui.railcraft.manipulator.redstone.complete.tips=Arbeiten, biss Waggon leer ist
+gui.railcraft.manipulator.redstone.complete.tips=Arbeiten, bis der Vorgang beendet ist
 gui.railcraft.manipulator.redstone.immediate.name=Sofort
 gui.railcraft.manipulator.redstone.immediate.tips=Arbeiten, bis Platz oder Gegenstände ausgehen
 gui.railcraft.manipulator.redstone.manual.name=Manuell
 gui.railcraft.manipulator.redstone.manual.tips=Niemals Redstone aussenden
 gui.railcraft.manipulator.redstone.partial.name=Teilweise
-gui.railcraft.manipulator.redstone.partial.tips=Arbeiten, bis Platz oder Gegenstände ausgehen,\n aber leere Waggons halten
+gui.railcraft.manipulator.redstone.partial.tips=Arbeiten, bis Platz oder Gegenstände ausgehen,\n aber unberührte Waggons halten
 gui.railcraft.manipulator.transfer.all.name=Alles
 gui.railcraft.manipulator.transfer.all.tips=Alle passenden Gegenstände bewegen
 gui.railcraft.manipulator.transfer.excess.name=Überschuss
@@ -711,21 +714,6 @@ tile.railcraft.charge.feeder.ic2.tips=Wandelt IndustrialCraft-Energie\n in Railc
 
 tile.railcraft.charge.trap.name=Stromfalle
 
-tile.railcraft.generic_brick_infernal.name=Verfluchter Ziegel (veraltet)
-tile.railcraft.generic_brick_sandy.name=Sandsteinziegel (veraltet)
-tile.railcraft.generic_coke.name=Koksblock
-tile.railcraft.generic_coke.tips=32,000 Brennstoffeinheiten
-tile.railcraft.generic_concrete.name=Betonblock
-tile.railcraft.generic_copper.name=Kupferblock
-tile.railcraft.generic_creosote.name=Teerölholzblock
-tile.railcraft.generic_crushed_obsidian.name=Obsidiankies
-tile.railcraft.generic_crushed_obsidian.tips=Verhindert Mob-Spawns
-tile.railcraft.generic_lead.name=Bleiblock
-tile.railcraft.generic_steel.name=Stahlblock
-tile.railcraft.generic_stone_abyssal.name=Abyss-Stein
-tile.railcraft.generic_stone_quarried.name=Brüchiger Stein
-tile.railcraft.generic_tin.name=Zinnblock
-
 tile.railcraft.detector.advanced.name=Gleissensor - Fortgeschritten
 tile.railcraft.detector.age.name=Gleissensor - Alter
 tile.railcraft.detector.animal.name=Gleissensor - Tiere
@@ -753,7 +741,39 @@ tile.railcraft.fluid.steam.name=Dampf
 tile.railcraft.frame.name=Kabelstützrahmen
 tile.railcraft.frame.tips=Verwende es, um Gleise auf Rangierkabeln zu platzieren
 
+tile.railcraft.generic_coke.name=Koksblock
+tile.railcraft.generic_coke.tips=32,000 Brennstoffeinheiten
+tile.railcraft.generic_concrete.name=Betonblock
+tile.railcraft.generic_copper.name=Kupferblock
+tile.railcraft.generic_creosote.name=Teerölholzblock
+tile.railcraft.generic_crushed_obsidian.name=Obsidiankies
+tile.railcraft.generic_crushed_obsidian.tips=Verhindert Mob-Spawns
+tile.railcraft.generic_lead.name=Bleiblock
+tile.railcraft.generic_silver.name=Silberblock
+tile.railcraft.generic_steel.name=Stahlblock
+tile.railcraft.generic_stone_abyssal.name=Abyss-Stein
+tile.railcraft.generic_stone_quarried.name=Brüchiger Stein
+tile.railcraft.generic_tin.name=Zinnblock
+
 tile.railcraft.glass.name=Gestärktes Glas
+
+tile.railcraft.lantern.metal.copper.name=Kupferlaterne
+tile.railcraft.lantern.metal.gold.name=Goldlaterne
+tile.railcraft.lantern.metal.iron.name=Eisenlaterne
+tile.railcraft.lantern.metal.lead.name=Bleilaterne
+tile.railcraft.lantern.metal.steel.name=Stahllaterne
+tile.railcraft.lantern.metal.tin.name=Zinnlaterne
+
+tile.railcraft.lantern.stone.abyssal.name=Abyss-Steinlaterne
+tile.railcraft.lantern.stone.bleachedbone.name=Gebleichte Knochen-Steinlaterne
+tile.railcraft.lantern.stone.bloodstained.name=Blutige Steinlaterne
+tile.railcraft.lantern.stone.frostbound.name=Frostige Steinlaterne
+tile.railcraft.lantern.stone.infernal.name=Höllische Steinlaterne
+tile.railcraft.lantern.stone.nether.name=Nether-Steinlaterne
+tile.railcraft.lantern.stone.quarried.name=Brüchige Steinlaterne
+tile.railcraft.lantern.stone.sandstone.name=Sandsteinlaterne
+tile.railcraft.lantern.stone.sandy.name=Sandige Steinlaterne
+tile.railcraft.lantern.stone.stone.name=Steinlaterne
 
 tile.railcraft.machine.alpha.anchor.admin.name=Admin-Anker
 tile.railcraft.machine.alpha.anchor.passive.name=Passivanker
@@ -810,9 +830,6 @@ tile.railcraft.machine.beta.tank.steel.valve.tips=Multiblock: muss in die untere
 tile.railcraft.machine.beta.tank.steel.wall.name=Stahltankwand
 tile.railcraft.machine.beta.tank.steel.wall.tips=Multiblock: variable Größe, Hohlraum\n Höhen: 4, 5, 6, 7, 8\n Abmessungen: 3, 5, 7, 9
 
-tile.railcraft.machine.delta.wire.name=Elektrisches Rangierkabel
-tile.railcraft.machine.delta.wire.tips=Verbindet Elektrische Gleise über Lücken\n Platziere unterhalb von Gleisen,\n die Kabelstützrahmen verwenden
-
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Admin-Dampfproduzent
 tile.railcraft.machine.epsilon.admin.steam.producer.tips=Gibt unendlich Dampf
 tile.railcraft.machine.epsilon.engraving.bench.name=Gravurwerkbank
@@ -822,9 +839,9 @@ tile.railcraft.machine.epsilon.force.track.emitter.name=Kraftfeldgleisemitter
 tile.railcraft.machine.epsilon.force.track.emitter.tips=Projeziert energiebasierte Gleise
 
 tile.railcraft.manipulator.dispenser.cart.name=Waggonspender
-tile.railcraft.manipulator.dispenser.cart.tips=Lädt Waggons direkt auf Gleise\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Waggon mit einem Redstone-Signal auf ein Gleis -
+tile.railcraft.manipulator.dispenser.cart.tips=Lädt Waggons direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Waggon mit einem Redstone-Signal auf ein Gleis -
 tile.railcraft.manipulator.dispenser.train.name=Zugspender
-tile.railcraft.manipulator.dispenser.train.tips=Lädt verbundene Züge direkt auf Gleise\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Zug mit einem Redstone-Signal auf ein Gleis -
+tile.railcraft.manipulator.dispenser.train.tips=Lädt verbundene Züge direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Zug mit einem Redstone-Signal auf ein Gleis -
 tile.railcraft.manipulator.loader.energy.name=Energielader
 tile.railcraft.manipulator.loader.energy.tips=Lädt Energy in IC2-Energiewaggons\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Akzeptiert nur IC2-Energie
 tile.railcraft.manipulator.loader.rf.name=Redstone-Flux-Lader
@@ -846,18 +863,24 @@ tile.railcraft.manipulator.unloader.item.tips=Entlädt Items aus Waggons\n§o§c
 tile.railcraft.manipulator.unloader.fluid.name=Flüssigkeitsentlader
 tile.railcraft.manipulator.unloader.fluid.tips=Entlädt Flüssigkeiten aus Waggons\n§o§c- Platziere unterhalb des Gleises -
 
+tile.railcraft.ore.copper.name=Kupfererz
 tile.railcraft.ore.dark.diamond.name=Dunkles Diamanterz
 tile.railcraft.ore.dark.emerald.name=Dunkles Smaragderz
 tile.railcraft.ore.dark.lapis.name=Dunkles Lapis-Lazuli-Erz
-tile.railcraft.ore.firestone.name=Flammsteinerz
-tile.railcraft.ore.firestone.tips.name=Brennt alles außer Fleisch,\n du kannst fühlen, wie sich die Luft\n um dich verändert, wenn du es hältst...
+tile.railcraft.ore.lead.name=Bleierz
 tile.railcraft.ore.poor.copper.name=Minderes Kupfererz
 tile.railcraft.ore.poor.gold.name=Minderes Golderz
 tile.railcraft.ore.poor.iron.name=Minderes Eisenerz
 tile.railcraft.ore.poor.lead.name=Minderes Bleierz
+tile.railcraft.ore.poor.silver.name=Minderes Silbererz
 tile.railcraft.ore.poor.tin.name=Minderes Zinnerz
 tile.railcraft.ore.saltpeter.name=Salpetererz
+tile.railcraft.ore.silver.name=Silbererz
 tile.railcraft.ore.sulfur.name=Schwefelerz
+tile.railcraft.ore.tin.name=Zinnerz
+
+tile.railcraft.ore.magic.firestone.name=Flammsteinerz
+tile.railcraft.ore.magic.firestone.tips.name=Verbrennt alles außer Fleisch;\n du kannst fühlen, wie sich die Luft\n um dich verändert, wenn du es hältst...
 
 tile.railcraft.post.emblem.name=Emblempfosten
 tile.railcraft.post.metal.black.name=Schwarzer Metallpfosten
@@ -898,37 +921,6 @@ tile.railcraft.post.stone.name=Steinpfosten
 tile.railcraft.post.stone.platform.name=Steinplattform
 tile.railcraft.post.wood.name=Holzpfosten
 tile.railcraft.post.wood.platform.name=Hölzerne Plattform
-
-tile.railcraft.residual.heat.name=Restwärme
-
-tile.railcraft.wayobject.block.signal.dual.name=Doppelkopf-Blocksignal
-tile.railcraft.wayobject.block.signal.dual.tips=Erkennt Schienenfahrzeuge im Signalblock\nZeigt Aspekt des verbundenen Controllers\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalblockvermesser
-tile.railcraft.wayobject.block.signal.name=Blocksignal
-tile.railcraft.wayobject.block.signal.tips=Erkennt Schienenfahrzeuge im Signalblock\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
-tile.railcraft.wayobject.box.analog.name=Analoge Signalsteuerbox
-tile.railcraft.wayobject.box.analog.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Keine\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.wayobject.box.block.relay.name=Signalrelaisbox
-tile.railcraft.wayobject.box.block.relay.tips=Ermöglicht Verkettung von Signalblöcken\n§o§9Fernverbindungen: 2x Signalblock\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
-tile.railcraft.wayobject.box.capacitor.name=Signalkondensatorbox
-tile.railcraft.wayobject.box.capacitor.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: Keine\n§o§9Direktverbindungen: Empfang, Senden\n§o§9Redstone-Verbindung: Empfang von Verstärker, Senden
-tile.railcraft.wayobject.box.controller.name=Signalsteuerbox
-tile.railcraft.wayobject.box.controller.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Empfang\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.wayobject.box.interlock.name=Signalverriegelungsbox
-tile.railcraft.wayobject.box.interlock.tips=Erlaubt nur einem Signal auf einmal, durchzukommen\n§o§9Fernverbindungen:\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§9Direktverbindungen:\n§o§9- Verriegelung\n§o§9- Empfang (Durchgang sperren)\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.wayobject.box.receiver.name=Signalempfängerbox
-tile.railcraft.wayobject.box.receiver.tips=Empfängt Signale von Controllern\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.wayobject.box.sequencer.name=Signalsequenzerbox
-tile.railcraft.wayobject.box.sequencer.tips=Aktiviert direkt verbundene Blöcke nacheinander\n§o§9Direktverbindungen:\n§o§9- Sequenzer\n§o§9- Empfang (Taktsignal)\n§o§9- Senden\n§o§9Redstone-Verbindung:\n§o§9- Empfang von Verstärker (Taktsignal)\n§o§9- Senden
-tile.railcraft.wayobject.distant.dual.name=Entferntes Doppelkopf-Blocksignal
-tile.railcraft.wayobject.distant.dual.tips=Zeigt Aspekte verbundener Controller\n§o§9Fernverbindungen: 2x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.wayobject.distant.name=Entferntes Signal
-tile.railcraft.wayobject.distant.tips=Zeigt Aspekt des verbundenen Controllers\n§o§9Fernverbindungen: 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.wayobject.switch.lever.name=Manueller Stellantrieb
-tile.railcraft.wayobject.switch.lever.tips=Steuert verbundene Weichen\n§o§9Manuelle Steuerung
-tile.railcraft.wayobject.switch.motor.name=Motorisierter Stellantrieb
-tile.railcraft.wayobject.switch.motor.tips=Steuert verbundene Weichen\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.wayobject.switch.routing.name=Routender Stellantrieb
-tile.railcraft.wayobject.switch.routing.tips=Steuert verbundene Weichen\n§o§9Steuerung durch Logikskript\n§o§cWichtiges Werkzeug:\n§o§c- Streckenplan
 
 tile.railcraft.slab.abyssal.block.name=Abyss-Blockstufe
 tile.railcraft.slab.abyssal.brick.name=Abyss-Ziegel-Stufe
@@ -1020,23 +1012,37 @@ tile.railcraft.stair.snow.name=Schneetreppe
 tile.railcraft.stair.steel.name=Stahltreppe
 tile.railcraft.stair.tin.name=Zinntreppe
 
-tile.railcraft.lantern.metal.copper.name=Kupferlaterne
-tile.railcraft.lantern.metal.gold.name=Goldlaterne
-tile.railcraft.lantern.metal.iron.name=Eisenlaterne
-tile.railcraft.lantern.metal.lead.name=Bleilaterne
-tile.railcraft.lantern.metal.steel.name=Stahllaterne
-tile.railcraft.lantern.metal.tin.name=Zinnlaterne
+tile.railcraft.wayobject.block.signal.dual.name=Doppelkopf-Blocksignal
+tile.railcraft.wayobject.block.signal.dual.tips=Erkennt Schienenfahrzeuge im Signalblock\nZeigt Aspekt des verbundenen Controllers\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalblockvermesser
+tile.railcraft.wayobject.block.signal.name=Blocksignal
+tile.railcraft.wayobject.block.signal.tips=Erkennt Schienenfahrzeuge im Signalblock\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
+tile.railcraft.wayobject.box.analog.name=Analoge Signalsteuerbox
+tile.railcraft.wayobject.box.analog.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Keine\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.box.block.relay.name=Signalrelaisbox
+tile.railcraft.wayobject.box.block.relay.tips=Ermöglicht Verkettung von Signalblöcken\n§o§9Fernverbindungen: 2x Signalblock\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
+tile.railcraft.wayobject.box.capacitor.name=Signalkondensatorbox
+tile.railcraft.wayobject.box.capacitor.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: Keine\n§o§9Direktverbindungen: Empfang, Senden\n§o§9Redstone-Verbindung: Empfang von Verstärker, Senden
+tile.railcraft.wayobject.box.controller.name=Signalsteuerbox
+tile.railcraft.wayobject.box.controller.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Empfang\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.box.interlock.name=Signalverriegelungsbox
+tile.railcraft.wayobject.box.interlock.tips=Erlaubt nur einem Signal auf einmal, durchzukommen\n§o§9Fernverbindungen:\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§9Direktverbindungen:\n§o§9- Verriegelung\n§o§9- Empfang (Durchgang sperren)\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.box.receiver.name=Signalempfängerbox
+tile.railcraft.wayobject.box.receiver.tips=Empfängt Signale von Controllern\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.box.sequencer.name=Signalsequenzerbox
+tile.railcraft.wayobject.box.sequencer.tips=Aktiviert direkt verbundene Blöcke nacheinander\n§o§9Direktverbindungen:\n§o§9- Sequenzer\n§o§9- Empfang (Taktsignal)\n§o§9- Senden\n§o§9Redstone-Verbindung:\n§o§9- Empfang von Verstärker (Taktsignal)\n§o§9- Senden
+tile.railcraft.wayobject.distant.dual.name=Entferntes Doppelkopf-Blocksignal
+tile.railcraft.wayobject.distant.dual.tips=Zeigt Aspekte verbundener Controller\n§o§9Fernverbindungen: 2x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.distant.name=Entferntes Signal
+tile.railcraft.wayobject.distant.tips=Zeigt Aspekt des verbundenen Controllers\n§o§9Fernverbindungen: 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.switch.lever.name=Manueller Stellantrieb
+tile.railcraft.wayobject.switch.lever.tips=Steuert verbundene Weichen\n§o§9Manuelle Steuerung
+tile.railcraft.wayobject.switch.motor.name=Motorisierter Stellantrieb
+tile.railcraft.wayobject.switch.motor.tips=Steuert verbundene Weichen\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.switch.routing.name=Routender Stellantrieb
+tile.railcraft.wayobject.switch.routing.tips=Steuert verbundene Weichen\n§o§9Steuerung durch Logikskript\n§o§cWichtiges Werkzeug:\n§o§c- Streckenplan
 
-tile.railcraft.lantern.stone.abyssal.name=Abyss-Steinlaterne
-tile.railcraft.lantern.stone.bleachedbone.name=Gebleichte Knochen-Steinlaterne
-tile.railcraft.lantern.stone.bloodstained.name=Blutige Steinlaterne
-tile.railcraft.lantern.stone.frostbound.name=Frostige Steinlaterne
-tile.railcraft.lantern.stone.infernal.name=Höllische Steinlaterne
-tile.railcraft.lantern.stone.nether.name=Nether-Steinlaterne
-tile.railcraft.lantern.stone.quarried.name=Brüchige Steinlaterne
-tile.railcraft.lantern.stone.sandstone.name=Sandsteinlaterne
-tile.railcraft.lantern.stone.sandy.name=Sandige Steinlaterne
-tile.railcraft.lantern.stone.stone.name=Steinlaterne
+tile.railcraft.wire.name=Ladungsrangierkabel
+tile.railcraft.wire.tips=Transportiert Ladung über kurze Distanzen\n Platziere unterhalb von Gleisen,\n die Kabelstützrahmen verwenden\n Sehr verlustreich
 
 #Old Tracks (to be deleted)
 tile.railcraft.track.buffer.stop.name=Prellbock
