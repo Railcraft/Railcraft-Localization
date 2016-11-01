@@ -1,0 +1,1268 @@
+﻿chat.railcraft.api.error=Probleem: Ou API, Gaan jou log na vir meer inligting
+command.railcraft.aliases=Aliases: %s
+command.railcraft.help=Tik '%s' vir help.
+command.railcraft.list=Available Sub-Commands:
+command.railcraft.permlevel=Permission Level: %s
+command.railcraft.noperms=Jy het nie premiesie vir hierdie bevel nie.
+
+command.railcraft.railcraft.help=Al die bevelle vir Railcraft.
+command.railcraft.railcraft.format=Format: /%s <sub-command>
+
+command.railcraft.railcraft.admin.desc=- %s : Adminastrator Tools
+command.railcraft.railcraft.admin.help=Gereedskap vir adminastrators.
+command.railcraft.railcraft.admin.format=Format: /%s
+
+command.railcraft.railcraft.admin.kill.desc=- %s : Kill Tasks
+command.railcraft.railcraft.admin.kill.help=Gereedskap om goed dood te maak.
+command.railcraft.railcraft.admin.kill.format=Format: /%s
+
+command.railcraft.railcraft.admin.kill.animals.desc=- %s : Kill animals
+command.railcraft.railcraft.admin.kill.animals.help=Maak alle diere in die heidige wêreld dood.
+command.railcraft.railcraft.admin.kill.animals.format=Format: /%s
+
+command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : Kill minecrarts
+command.railcraft.railcraft.admin.kill.minecarts.help=Maak alle mynkarre in die heidige wêreld dood.
+command.railcraft.railcraft.admin.kill.minecarts.format=Format: /%s
+
+command.railcraft.railcraft.debug.desc=- %s : Ontvout Gereedskap
+command.railcraft.railcraft.debug.help=Gereedskap om moeilike probleme op te los.
+command.railcraft.railcraft.debug.format=Format: /%s
+
+command.railcraft.railcraft.debug.tile.desc=- %s : Tile Debug Tools
+command.railcraft.railcraft.debug.tile.help=Gereedskap vir ontfouting van teëls.
+command.railcraft.railcraft.debug.tile.format=Format: /%s x y z
+
+command.railcraft.railcraft.debug.tile.controller.desc=- %s : Controller Debug Tools
+command.railcraft.railcraft.debug.tile.controller.help=Gereedskap vir ontfouting vir Kontroleur teëls.
+command.railcraft.railcraft.debug.tile.controller.format=Format: /%s x y z
+
+command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Receiver Debug Tools
+command.railcraft.railcraft.debug.tile.receiver.help=Gereedskap vir ontfouting Ontvanger teëls.
+command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s x y z
+
+
+death.railcraft.bore.1=%s het in die weg van vooruitgang
+death.railcraft.bore.2=%s het probeer om die gebaar te stop
+death.railcraft.bore.3=%s is verpletter deur die gebaar
+death.railcraft.bore.4=%s gedagte kan beter wees as hulle John Henry doen
+death.railcraft.bore.5=%s vasgeval tussen 'n rots en 'n harde plek
+death.railcraft.bore.6=%s is aan die verkeerde kant van die gang
+
+death.railcraft.crusher.1=%s swaar masjinerie geskakel naby
+death.railcraft.crusher.2=%s is nie die man van staal, net soos hulle verbrysel die res van ons
+death.railcraft.crusher.3=%s staar in die afgrond, dan gegly Hulle
+death.railcraft.crusher.4=%s gaan nodig het om hul dinge te vervang
+death.railcraft.crusher.5=%s geïgnoreer die "Kyk maar na jou stap!" tekens
+death.railcraft.crusher.6=Uitverkoop nou! % S Blood Jelly
+death.railcraft.crusher.7=%s is omskep in plak
+death.railcraft.crusher. =%s moes die handleiding gelees het
+
+death.railcraft.electric.1=%s sê hallo vir Nikola Tesla.
+death.railcraft.electric.2=%s ontdek die betekenis van "High Voltage"
+death.railcraft.electric.3=%s is verlig om wonders van elektrifisering
+death.railcraft.electric.4=%s lees die waarskuwing moes etiket
+death.railcraft.electric.5=%s het 'n skokkende openbaring
+death.railcraft.electric.6=%s iets geleer oor elektrisiteit, dit maak seer!
+
+death.railcraft.steam.1=%s het gekook, lekker en sappig
+death.railcraft.steam.2=%s is nie immuun teen hoë temperature, ten spyte van aansprake tot die teendeel
+death.railcraft.steam.3=%s ontdek hoe pynlik stoom kan wees
+death.railcraft.steam.4=%s Industrial het 'n ongeluk
+death.railcraft.steam.5=%s waarskynlik behoort nie trap Het daar
+death.railcraft.steam.6=%s stoombaddens ontdek wat die beste links na saunas
+
+death.railcraft.track.electric.1=%s dronk op 'n geëlektrifiseerde spoor
+death.railcraft.track.electric.2=%s ontdek die betekenis van "High Voltage"
+death.railcraft.track.electric.3=%s is verlig om wonders van elektrifisering
+death.railcraft.track.electric.4=%s geskakel op die derde spoor
+death.railcraft.track.electric.5=%s het 'n skokkende openbaring
+death.railcraft.track.electric.6=%s iets geleer oor elektrisiteit, dit maak seer!
+
+death.railcraft.train.1=%s het getref deur 'n trein
+death.railcraft.train.2=%s speel op die spore
+death.railcraft.train.3=%s het hoender met 'n trein; die trein het
+death.railcraft.train.4=%s gevang die verkeerde trein
+death.railcraft.train.5=%s het 'n one-way ticket na die hiernamaals
+death.railcraft.train.6 =% s gedra het en hul Oorpakke
+
+enchantment.railcraft.crowbar.destruction=Vernietiging
+enchantment.railcraft.crowbar.implosion=inploffing
+enchantment.railcraft.crowbar.wrecking=redding
+
+entity.railcraft.bore.name=Tonnel Boor
+entity.railcraft.cart_anchor_admin.name=Admin Anker Kar
+entity.railcraft.cart_anchor.name=Anker Kar
+entity.railcraft.cart_anchor_personal.name=Persoonlike Anker Kar
+entity.railcraft.cart_basic.name=Mynkar
+entity.railcraft.cart_cargo.name=Vrag Kar
+entity.railcraft.cart_chest.name=Kis Kar
+entity.railcraft.cart_furnace.name=Oond Kar
+entity.railcraft.cart_gift.name=Geskenk Kar
+entity.railcraft.cart_ic2_batbox.name=Batbox Kar
+entity.railcraft.cart_ic2_cesu.name=CESU Kar
+entity.railcraft.cart_ic2_mfe.name=MFE Kar
+entity.railcraft.cart_ic2_mfsu.name=MFSU Kar
+entity.railcraft.cart_pumpkin.name=Pampoen Kar
+entity.railcraft.cart_tank.name=Tenk Kar
+entity.railcraft.cart_redstone_flux.name=Redstone Flux Kar
+entity.railcraft.cart_tnt.name=TNT Kar
+entity.railcraft.cart_tnt_wood.name=Hout TNT Kar
+entity.railcraft.cart_work.name=Werk Kar
+entity.railcraft.locomotive_creative.name=Perpetuum Lokomotief
+entity.railcraft.locomotive_electric.name=Elektriese Lokomotief
+entity.railcraft.locomotive_steam_solid.name=Stoom Lokomotief
+entity.railcraft.mow_track_layer.name=Spoor Le Kar
+entity.railcraft.mow_track_relayer.name=Spoor Vervang Kar
+entity.railcraft.mow_track_remover.name=Spoor Wegvat Kar
+entity.railcraft.mow_undercutter.name=Basis veranderende Kar
+entity.Villager.trackman=Spoorman
+
+fluid.creosote=Kreosoot Olie
+fluid.steam=Stoom
+
+item.minecartChest.name=Kis Kar
+item.minecartFurnace.name=Oond Kar
+item.minecartTnt.name=TNT Kar
+item.minecartHopper.name=Voerer Kar
+
+item.railcraft.armor.boots.steel.name=Staal Skoene
+item.railcraft.armor.chestplate.steel.name=Staal Borsplaat
+item.railcraft.armor.goggles.name=Spoorman Se Oog Beskermer
+item.railcraft.armor.helmet.steel.name=Staal Helm
+item.railcraft.armor.leggings.steel.name=Staal Bene
+item.railcraft.armor.overalls.name=Ingeneer Se Oorpak
+item.railcraft.armor.overalls.tips=Beskeriming teen die\n gevare van Spoor-Werk.
+
+item.railcraft.backpack.apothecary.t1.name=Apteker Rugsak
+item.railcraft.backpack.apothecary.t2.name=Geweefde Apteker Rugsak
+item.railcraft.backpack.iceman.t1.name=Ysman Rugsak
+item.railcraft.backpack.iceman.t2.name=Geweefde Ysman's Rugsak
+item.railcraft.backpack.tips=Ontwerp deur Railcraft, Inc.
+item.railcraft.backpack.trackman.t1.name=Spoorman Rugsak
+item.railcraft.backpack.trackman.t2.name=Geweefde Spoorman Rugsak
+
+item.railcraft.bleached.clay.name=Gebleikte Klei
+
+item.railcraft.borehead.diamond.name=Diamand Boor Kop
+item.railcraft.borehead.iron.name=Yster Boor Kop
+item.railcraft.borehead.steel.name=Staal Boor Kop
+
+item.railcraft.circuit.controller.name=Beerheerende Stroombaan
+item.railcraft.circuit.receiver.name=Ontvangengde Stroombaan
+item.railcraft.circuit.signal.name=Syn Stroombaan
+
+item.railcraft.concrete.name=Sak Sement
+
+item.railcraft.dust.charcoal.name=Houtskool Stof
+item.railcraft.dust.obsidian.name=Obsidiaan Stof
+item.railcraft.dust.saltpeter.name=Salpeter
+item.railcraft.dust.slag.name=Gemaalde Hoogoond Afal
+item.railcraft.dust.sulfur.name=swael
+
+item.railcraft.emblem.name=Embleem
+
+item.railcraft.entity.bore.name=Tonnel Boor
+Anker item.railcraft.entity.cart.anchor.admin.name=Admin Kar
+item.railcraft.entity.cart.anchor.personal.name=Persoonlike Anker KarKar
+item.railcraft.entity.cart.anchor.world.name=Anker Kar
+item.railcraft.entity.cart.basic.name=Mijnkar
+item.railcraft.entity.cart.cargo.name=Vrag Kar
+item.railcraft.entity.cart.chest.name=Kis Kar
+item.railcraft.entity.cart.furnace.name=Oond Kar
+item.railcraft.entity.cart.gift.name=Persent Kar
+Geseënde Kersfees item.railcraft.entity.cart.gift.tips =
+item.railcraft.entity.cart.ic2.batbox.name=Batbox Kar
+item.railcraft.entity.cart.ic2.cesu.name=CESU Kar
+item.railcraft.entity.cart.ic2.mfe.name=MFE Kar
+item.railcraft.entity.cart.ic2.mfsu.name=MFSU Kar
+item.railcraft.entity.cart.pumpkin.name=Pampoen Kar
+item.railcraft.entity.cart.pumpkin.tips=Grap of lekker
+item.railcraft.entity.cart.redstone.flux.name=Redstone Flux Kar
+item.railcraft.entity.cart.tank.name=Tenk Kar
+item.railcraft.entity.cart.tnt.name=TNT Kar
+item.railcraft.entity.cart.tnt.wood.name=Hout TNT Kar
+item.railcraft.entity.cart.work.name=Werker
+item.railcraft.entity.locomotive.creative.name=Perpetuum Lokomotief
+Slegs item.railcraft.entity.locomotive.creative.tips=§o§9Creatief
+item.railcraft.entity.locomotive.electric.name=Elektriese Lokomotief
+item.railcraft.entity.locomotive.steam.solid.name=Stoomlokomotief
+item.railcraft.entity.mow.track.layer.name=Spoor Lê Kar
+item.railcraft.entity.mow.track.layer.tips=lê baan as dit beweeg
+item.railcraft.entity.mow.track.relayer.name=Spoor Vervang Kar
+item.railcraft.entity.mow.track.relayer.tips=Vervang een baan\n Met ander
+item.railcraft.entity.mow.track.remover.name=Spoor Wegvat Kar
+item.railcraft.entity.mow.track.remover.tips=Verwyder spore dit gaan oor
+item.railcraft.entity.mow.undercutter.name=Basis Veranderende Kar
+item.railcraft.entity.mow.undercutter.tips=Vervang die blokke\n onder die spoor
+
+item.railcraft.firestone.cracked.name=Gekraakte Vuursteen
+item.railcraft.firestone.cracked.tips.charged=Lekkende hitte, \n dit kan nog steeds gebruik word \n as jy versigtig is ...
+item.railcraft.firestone.cracked.tips.empty=Beskadig is, maar dit \n kan nog handig\n wees As jy dit kan herlaai ...
+item.railcraft.firestone.cut.name=Gekraakte Vuursteen
+item.railcraft.firestone.cut.tips=Nog steeds is sy energire\n Buite beheer
+item.railcraft.firestone.raw.name=Rou Vuursteen
+item.railcraft.firestone.raw.tips=Lewend in jou hande, \n jy kan dit voel in die \n baie lug rondom jou ...
+item.railcraft.firestone.refined.name=Verwerkte Vuursteen
+item.railcraft.firestone.refined.tips.charged=Gevul met energie, \n jy hoef net oefen \n julle wil daarop om \n striemende hitte vrylating ...
+item.railcraft.firestone.refined.tips.empty=Beheerd, \n Dit kan nuttig \n wees As jy dit kan herlaai ...
+
+item.railcraft.fluid.bottle.creosote.name=Kreosoot Bottle
+item.railcraft.fluid.bottle.steam.name=stoom bottel
+item.railcraft.fluid.bucket.creosote.name=Kreosoot emmer
+
+Kan item.railcraft.fluid.creosote.can.name=Kreosoot
+item.railcraft.fluid.creosote.cell.name=Kreosoot Cell
+item.railcraft.fluid.creosote.refactory.name=Kreosoot Capsule
+item.railcraft.fluid.creosote.wax.name=Kreosoot Capsule
+
+item.railcraft.fuel.coke.name=Steenkool Coke
+
+item.railcraft.gear.bushing.name=Tin Rat busing
+item.railcraft.gear.gold.plate.name=Goud-Geplate Rat
+item.railcraft.gear.iron.name=Yster Rat
+item.railcraft.gear.steel.name=STaal Rat
+
+item.railcraft.ingot.copper.name=Kopper Baar
+item.railcraft.ingot.lead.name=Lood Baar
+item.railcraft.ingot.silver.name=Silver Baar
+item.railcraft.ingot.steel.name=Staal Baar
+item.railcraft.ingot.tin.name=Tin Baar
+
+item.railcraft.nugget.copper.name=Kopper Klont
+item.railcraft.nugget.iron.name=Yster Klont
+item.railcraft.nugget.lead.name=Lood Klont
+item.railcraft.nugget.silver.name=Silver Klont
+item.railcraft.nugget.steel.name=Staal Klont
+item.railcraft.nugget.tin.name=Tin Klont
+
+item.railcraft.plate.copper.name=Kopper Plaat
+item.railcraft.plate.iron.name=Yster Plaat 
+item.railcraft.plate.lead.name=Lood plaat
+item.railcraft.plate.silver.name=Silver Plaat
+item.railcraft.plate.steel.name=Staal Plaat
+item.railcraft.plate.tin.name=Tin Plaat
+
+
+item.railcraft.rail.advanced.name=Gevorderde Spoor
+item.railcraft.rail.electric.name=Electrise Spoor
+item.railcraft.rail.reinforced.name=Gewapende Spoorbusing
+item.railcraft.rail.speed.name= H.S. Spoor
+item.railcraft.rail.standard.name=Standaard Spoor
+item.railcraft.rail.wood.name=Hout Spoor
+
+item.railcraft.railbed.stone.name=Kilp Spoorbed
+item.railcraft.railbed.wood.name=Hout Spoorbed
+
+item.railcraft.rebar.name=Wapening
+
+item.railcraft.routing.table.name=Routing Tabel
+Spoorweg item.railcraft.routing.ticket.gold.name=Golden Ticket
+item.railcraft.routing.ticket.name=Railway kaartjie
+
+item.railcraft.signal.lamp.name=sein lamp
+
+item.railcraft.tie.stone.name=Tie Stone
+item.railcraft.tie.wood.name=Wooden Tie
+
+item.railcraft.tool.axe.steel.name=Steel Byl
+item.railcraft.tool.charge.meter.name=Storm Meter
+item.railcraft.tool.charge.meter.tips=§oright klik op aanklag blokke te inspekteer
+item.railcraft.tool.crowbar.iron.name=Yster koevoet
+item.railcraft.tool.crowbar.magic.name=Thaumium koevoet
+item.railcraft.tool.crowbar.steel.name=Steel koevoet
+item.railcraft.tool.crowbar.tips=§oright klik terwyl sluip na skakel karre
+item.railcraft.tool.crowbar.void.name=Void metaal koevoet
+item.railcraft.tool.hoe.steel.name=Steel Hoe
+item.railcraft.tool.magnifying.glass.name=Vergrootglas
+item.railcraft.tool.notepad.action.copy.fail=Niks om te kopieer. Nie 'n geldige teiken.
+item.railcraft.tool.notepad.action.copy=Gekopieer instellings van% s
+item.railcraft.tool.notepad.action.empty=Niks om te plak. Skuif-kliek op 'n teiken te kopieer.
+item.railcraft.tool.notepad.action.paste.fail=Niks om te plak. Nie 'n geldige teiken.
+item.railcraft.tool.notepad.action.paste=Geplak instellings na% s
+item.railcraft.tool.notepad.name=TrackMan se Notepad
+item.railcraft.tool.notepad.tips.contents.empty=§4Empty
+item.railcraft.tool.notepad.tips.contents.filter.cart=§eCart Comments
+item.railcraft.tool.notepad.tips.contents.filter.fluid=§bFluid Comments
+item.railcraft.tool.notepad.tips.contents.filter.items=§2Item Comments
+item.railcraft.tool.notepad.tips.contents=Inhoud:% s
+item.railcraft.tool.notepad.tips.mode.transfer.all.name=alle
+item.railcraft.tool.notepad.tips.mode.cart.filter=Filter Carts
+item.railcraft.tool.notepad.tips.mode.loader.filters=Item / Fluid Comments
+item.railcraft.tool.notepad.tips.mode=Plak af:% s
+item.railcraft.tool.notepad.tips=§oright klik om te plak, regs kliek om te kopieer sneak \ n§osneak regs kliek om lug te suiwer
+item.railcraft.tool.pickaxe.steel.name=Steel pik
+item.railcraft.tool.shears.steel.name=Steel skêr
+item.railcraft.tool.shovel.steel.name=Steel Skop
+item.railcraft.tool.signal.label.name=Signal Label
+item.railcraft.tool.signal.label.tips=§9- hernoem in aambeeld - \ n§oright klik terwyl sluipen \ n§oto naam te sein of sein boks
+item.railcraft.tool.signal.surveyor.name=Blok Sein Landmeter
+item.railcraft.tool.signal.surveyor.tips=Links Seine in Signal Blocks
+item.railcraft.tool.signal.tuner.name=Signal ontvanger
+Controllers item.railcraft.tool.signal.tuner.tips=Skakels na Ontvangers
+item.railcraft.tool.stone.carver.name=Stone Carver
+item.railcraft.tool.sword.steel.name=Steel swaard
+item.railcraft.tool.whistle.tuner.name=Whistle ontvanger
+
+item.railcraft.track.parts.name=Parts Track
+item.railcraft.track.parts.tips=Gebruik in knutselen Track Kits
+
+item.railcraft.turbine.blade.name=Turbine Blade
+item.railcraft.turbine.disk.name=Turbine skyf
+item.railcraft.turbine.rotor.name=Turbine Rotor
+
+item.railcraft.upgrade.lapotron=Lapotron Loader Upgrade
+
+item.synthetic=Sintetiese
+
+itemGroup.railcraft.general=Railcraft
+Uitrustings itemGroup.railcraft.track=Railcraft Tracks
+
+railcraft.color.black=Swart
+railcraft.color.blue=Blou
+railcraft.color.brown=Brown
+railcraft.color.cyan=Siaan
+railcraft.color.gray=Gray
+railcraft.color.green=Green
+railcraft.color.light.blue=Ligblou
+railcraft.color.light.gray=Light Gray
+railcraft.color.lime=Lime
+railcraft.color.magenta=Magenta
+railcraft.color.orange=Orange
+railcraft.color.pink=Pink
+railcraft.color.purple=Purple
+railcraft.color.red=Rooi
+railcraft.color.white=Wit
+railcraft.color.yellow=Geel
+
+railcraft.gates.action.pause=Stop Werk
+railcraft.gates.action.sendcart=Stuur Cart
+
+railcraft.gates.trigger.aspect.green=Groen Aspek
+railcraft.gates.trigger.aspect.off=Off Aspek
+railcraft.gates.trigger.aspect.red.blink=Rooi Blink Aspek
+railcraft.gates.trigger.aspect.red=Rooi Aspek
+railcraft.gates.trigger.aspect.yellow.blink=Geel Blink Aspek
+railcraft.gates.trigger.aspect.yellow=Geel Aspek
+railcraft.gates.trigger.cart=Jy Mandje
+railcraft.gates.trigger.engine.blue=Engine Stage
+railcraft.gates.trigger.engine.green=Engine Stage
+railcraft.gates.trigger.engine.orange=Engine Stage
+railcraft.gates.trigger.engine.red=Engine Stage
+railcraft.gates.trigger.engine.yellow=Engine Stage
+railcraft.gates.trigger.fuel=Lae brandstof
+railcraft.gates.trigger.maintenance=Benodig Onderhoud
+railcraft.gates.trigger.temp.cold=Koue
+railcraft.gates.trigger.temp.hot=Hot
+railcraft.gates.trigger.temp.warm=Warm
+railcraft.gates.trigger.work=Jy Werk
+
+railcraft.gui.anchor.fuel.remaining =% s ure
+railcraft.gui.anchor.fuel=End Pearls
+railcraft.gui.anchor.pair.fail.alignment=@1$s~~V~~aux as word nie in lyn met daardie @ 2 $ s
+railcraft.gui.anchor.pair.fail.distance=@1$s is te ver om paar met Dat @ 2 $ s
+railcraft.gui.anchor.pair.fail.dimension =% s is in 'n ander dimensie as die teiken
+railcraft.gui.anchor.pair.fail.invalid=Dit is nie 'n geldige teiken vir paring met die% s
+railcraft.gui.anchor.pair.fail.unloaded=Doel is nie gelaai tydens 'n poging om paar met% s
+railcraft.gui.anchor.pair.cancel =% s paring is gekanselleer
+railcraft.gui.anchor.pair.start =% s paring geïnisieer
+railcraft.gui.anchor.pair.success =% s is suksesvol gepaar
+
+railcraft.gui.aspect.blink.red.name=Blink Netwerk
+railcraft.gui.aspect.blink.yellow.name=Blink Geel
+railcraft.gui.aspect.green.name=Green
+railcraft.gui.aspect.off.name=Off
+railcraft.gui.aspect.red.name=Rooi
+railcraft.gui.aspect.yellow.name=Geel
+
+railcraft.gui.aura.disable =% s Aura Off
+railcraft.gui.aura.enable =% s Aura Op
+
+railcraft.gui.blast.furnace=Blast Furnace
+
+railcraft.gui.bore.ballast=Ballast
+railcraft.gui.bore.fuel=brandstof
+railcraft.gui.bore.head=Hoof
+railcraft.gui.bore.track=Track
+
+railcraft.gui.box.aspect.action=uitstraal Redstone op Aspek
+railcraft.gui.box.capacitor.duration=uitstraal Redstone vir% s sekondes
+railcraft.gui.box.capacitor.redstone.immediate.name=Rising Edge
+railcraft.gui.box.capacitor.redstone.immediate.tips=Begin timer sodra die insetsein ontvang.
+railcraft.gui.box.capacitor.delayed=Val Edge
+railcraft.gui.box.capacitor.delayed.tips=Begin timer wanneer die laaste insetsein afgeskakel.
+railcraft.gui.box.controller.aspect.default=Standaard aspek:
+railcraft.gui.box.controller.aspect.redstone=Redstone aspek:
+
+railcraft.gui.cart.tnt.fuse=Fuse
+railcraft.gui.cart.track.relayer.pattern=Patroon
+railcraft.gui.cart.track.relayer.stock=Stock
+railcraft.gui.cart.undercutter.pattern=Patrone
+railcraft.gui.cart.undercutter.sides=kante
+railcraft.gui.cart.undercutter.transfer.stock.name=Stock
+Onder railcraft.gui.cart.undercutter.under =
+
+railcraft.gui.charge.meter.cart=Cart -> Koste:% s c | Teken:% s h / t | Verlies:% s h / t
+railcraft.gui.charge.meter.network=Netto -> Grootte:% s | Beheer:% s c | Teken:% s h / t | Verlies:% s h / t
+railcraft.gui.charge.meter.producer=Verskaf -> Koste:% s c | Produksie:% s h / t
+railcraft.gui.charge.meter.node=Node -> Teken:% s h / t | Verlies:% s h / t
+railcraft.gui.charge.meter.start=Opname data oor% s sekondes ...
+
+railcraft.gui.coke.oven=Coke Oven
+
+railcraft.gui.detector.item.analog=Analoog
+railcraft.gui.detector.item.anything=Enigiets
+railcraft.gui.detector.item.at_least=Ten minste
+railcraft.gui.detector.item.at_most=hoogstens
+railcraft.gui.detector.item.empty=Leë
+Presies railcraft.gui.detector.item.exactly =
+railcraft.gui.detector.item.filtered=Gefilter
+railcraft.gui.detector.item.full=Volle
+= Groter As railcraft.gui.detector.item.greater_than
+railcraft.gui.detector.item.less_than=minder as
+railcraft.gui.detector.item.not_empty=nie met leë hande
+railcraft.gui.detector.loco.primary=primêre kleur
+railcraft.gui.detector.loco.secondary=sekondêre kleur
+railcraft.gui.detector.tank.tips.analog=uitstraal Analoog Redstone \ N gebaseer op bedrag in tenk
+railcraft.gui.detector.tank.tips.empty=Match leë tenks
+railcraft.gui.detector.tank.tips.full=Pas vol tenks
+railcraft.gui.detector.tank.tips.half=Match meer as die helfte vol tenks
+railcraft.gui.detector.tank.tips.less.than.full=Pas minder as volle tenks
+railcraft.gui.detector.tank.tips.less.than.half=Match minder as die helfte vol tenks
+railcraft.gui.detector.tank.tips.less.than.most=Match minder as 3/4 volle tenks
+railcraft.gui.detector.tank.tips.less.than.quarter=Match minder as kwart vol tenks
+railcraft.gui.detector.tank.tips.most=Match meer as 3/4 volle tenks
+railcraft.gui.detector.tank.tips.not.empty=Pasmaat nie-leë tenks
+railcraft.gui.detector.tank.tips.quarter=Match meer as n kwart vol tenks
+railcraft.gui.detector.tank.tips.void=Pas enige bedrag
+Trein railcraft.gui.detector.train.size=size =% s
+railcraft.gui.detector.villager.any=Enige
+railcraft.gui.detector.villager.equals=gelyk aan
+railcraft.gui.detector.villager.none=Geen
+railcraft.gui.detector.villager.not=Nie
+
+Leë=Hou railcraft.gui.energy.loader.empty
+railcraft.gui.energy.loader.fill=Top Off
+Wag tot railcraft.gui.energy.unloader.wait=Leë
+
+railcraft.gui.engrave.entercode=Tik unlock code:
+railcraft.gui.engrave.getmore1=Besoek die onderstaande skakels
+railcraft.gui.engrave.getmore2=meer ontsluit kodes vind!
+railcraft.gui.engrave.openunlock=Ontsluit embleme
+railcraft.gui.engrave.unlock.exists=Dubbele!
+railcraft.gui.engrave.unlock.fail=Versuim!
+railcraft.gui.engrave.unlock.success=sukses!
+railcraft.gui.engrave.unlock=ontsluit!
+railcraft.gui.engrave=Engrave
+
+railcraft.gui.feed.station.feed=Voer
+
+railcraft.gui.filter=Filter
+railcraft.gui.filters.carts=Carts
+railcraft.gui.filters=Comments
+
+railcraft.gui.goggles.aura.anchor=Anker
+railcraft.gui.goggles.aura.none=Geen
+railcraft.gui.goggles.aura.signalling=Sein
+railcraft.gui.goggles.aura.surveying=Opmeting
+railcraft.gui.goggles.aura.tracking=dop
+railcraft.gui.goggles.aura.tuning=Tuning
+railcraft.gui.goggles.mode=Huidige Aura:% s
+railcraft.gui.goggles.tips=Gebruik Hotbar om te verander van auras
+
+railcraft.gui.help=Hulp
+
+railcraft.gui.ic2.energy.rate=Tempo:% s EU
+
+gui.railcraft.manipulator.buffer=Buffer
+gui.railcraft.manipulator.redstone.complete.name=Volledige
+Tot gui.railcraft.manipulator.redstone.complete.tips=Proses werking is voltooi
+gui.railcraft.manipulator.redstone.immediate.name=Onmiddellike
+gui.railcraft.manipulator.redstone.immediate.tips=proses totdat uit kamer of aanbod
+gui.railcraft.manipulator.redstone.manual.name=Handleiding
+gui.railcraft.manipulator.redstone.manual.tips=uitstraal Nooit Redstone
+gui.railcraft.manipulator.redstone.partial.name=Gedeeltelike
+gui.railcraft.manipulator.redstone.partial.tips=proses totdat uit kamer of aanbod, \ N maar hou ongerepte karre
+gui.railcraft.manipulator.transfer.all.name=Alle
+gui.railcraft.manipulator.transfer.all.tips=Skuif al wat ooreenstem met die items
+gui.railcraft.manipulator.transfer.excess.name=Oorskot
+gui.railcraft.manipulator.transfer.excess.tips=beweeg totdat die waentjie \ N ooreenstem met die filter
+gui.railcraft.manipulator.transfer.stock.name=Stock
+gui.railcraft.manipulator.transfer.stock.tips=beweeg totdat die bestemming \ N ooreenstem met die filter
+gui.railcraft.manipulator.transfer.transfer.name=Oordrag
+gui.railcraft.manipulator.transfer.transfer.tips=Move presies soveel \ N as in die filter
+
+railcraft.gui.link.broken=Link Broken
+railcraft.gui.link.created=Link geskep
+railcraft.gui.link.failed=Link Kon
+railcraft.gui.link.started=Link slag
+
+railcraft.gui.liquid.capacity=Kapasiteit
+
+railcraft.gui.locomotive.mode.idle=Idle
+railcraft.gui.locomotive.mode.running=Running
+railcraft.gui.locomotive.mode.shutdown=Afsluiting
+railcraft.gui.locomotive.electric.tips.button.mode.running=Maak die lokomotief beweeg.
+railcraft.gui.locomotive.electric.tips.button.mode.shutdown=Stop die lokomotief.
+railcraft.gui.locomotive.steam.tips.button.mode.idle=Lokomotief jy verminder brandstof \ N gebruik, maar die hou hitte. \ N As die trein gehou word deur 'n spoor, \ N dit optree asof Idle.
+railcraft.gui.locomotive.steam.tips.button.mode.running=Maak die lokomotief beweeg.
+railcraft.gui.locomotive.steam.tips.button.mode.shutdown=afgeskakel die lokomotief. \ N breek alle beweging en \ N Begin die afkoel en strek proses. \ N Dit kan enige tyd neem.
+railcraft.gui.locomotive.tips.button.locked=Hierdie wa is gesluit na \ N {eienaar}. \ N Dit sal slegs aanvaar Kaartjies \ N uitgereik deur hulle of 'n Op.
+railcraft.gui.locomotive.tips.button.private=Hierdie wa is privaat \ n {eienaar}. \ N Dit kan net beheer word \ N deur hulle of 'n Op.
+railcraft.gui.locomotive.tips.button.unlocked=Klik op te sluit Lokomotief. \ N Sodra gesluit, sal dit \ N aanvaar slegs Kaartjies \ N uitgereik deur u of 'n Op.
+railcraft.gui.locomotive.tips.item.emblem=§oEmblem: §r% s
+railcraft.gui.locomotive.tips.item.model.default=Standaard Model
+railcraft.gui.locomotive.tips.item.model=§oModel: §r% s
+railcraft.gui.locomotive.tips.item.owner=§oOwner: §r% s
+railcraft.gui.locomotive.tips.item.primary=§oPrimary Kleur: §r% s
+railcraft.gui.locomotive.tips.item.secondary=§oSecondary Kleur: §r% s
+railcraft.gui.locomotive.tips.item.whistle=§oWhistle Pitch: §r% s
+railcraft.gui.locomotive.tips.slot.ticket=Voeg kaartjie
+
+railcraft.gui.mag.glass.aspect=Die sein aspek is% s
+railcraft.gui.mag.glass.aspect.dual=Die sein aspek is% 1 $ s by die top en% 2 $ s aan die onderkant
+railcraft.gui.mag.glass.placedby =% 1 $ s is geplaas deur% 2 $ s
+
+railcraft.gui.rolling.machine.tips.craft=§e§o-klik om craft-
+
+railcraft.gui.routing.logic.blank=Blank Table
+railcraft.gui.routing.logic.insufficient.operands=Onvoldoende operande
+railcraft.gui.routing.logic.malformed.syntax=syntaxis fout
+railcraft.gui.routing.logic.regex.invalid=Ongeldige Regex Patroon
+railcraft.gui.routing.logic.regex.unsupported=Regex ondersteunde
+railcraft.gui.routing.logic.unrecognized.keyword=Onbekende Sleutelwoord
+railcraft.gui.routing.slot.label=Routing Tabel
+railcraft.gui.routing.table.editor=Geredigeer deur% s
+railcraft.gui.routing.table.manual.numPages=11
+railcraft.gui.routing.table.manual.page1=Die Routing Tabel wanneer geplaas in 'n detektor of Routing Skakel sal 'n stel reëls te definieer gebruik word om aan te pas sodat niemand meer heen Teen Lokomotief. Hierdie reëls word gedefinieer met behulp van eenvoudige logika sintaksis toelaat om te skep dat die reëls as 'n eenvoudige of komplekse as wat jy wil. Die sintaksis is 'n voorvoegsel notasie script, die operateurs is gevolg deur die operande. Slegs een navraag is toelaatbaar per lyn. As Operateur nie gespesifiseer word nie, OF aanvaar. Routing Tabelle kan gekopieer word deur twee of meer Plasing in 'n knutselen rooster.
+railcraft.gui.routing.table.manual.page2=Operateur Sleutelwoorde :. \ N EN - Twee operande, moet albei waar wees \ N OF - Twee operande, moet 'n mens ware \ N nie - Keer die volgende Operand ..
+railcraft.gui.routing.table.manual.page3=Toestand Sleutelwoorde :. \ N Dest=<string> \ N As die lokomotief se Destination \ N string begin met hierdie string, \ N die toestand is waar \ n "Dest=nul" karre sal pas \ N sonder bestemming. \ N Eienaar=<gebruikersnaam> \ N Waar indien die lokomotief behoort \ N om hierdie persoon.
+railcraft.gui.routing.table.manual.page4=Toestand Sleutelwoorde :. \ N Naam=<entityname> \ N Waar indien dit ooreenstem met die \ N Mijnkar se naam \ n "Naam=nul" sal pas karre \ N Sonder persoonlike naam . \ N Tipe=<modid: ITEMNAME> \ N Waar indien dit ooreenstem met die \ N item naam Mijnkar se.
+railcraft.gui.routing.table.manual.page5=Toestand Sleutelwoorde: \ n Riding=<gebruikersnaam> \ N Waar indien die trein gery \ N Nota: Deur Hierdie persoon \ N Ridden=<waar / onwaar> \ N Waar indien die. trein is \ n word gery deur 'n speler.
+railcraft.gui.routing.table.manual.page6=Toestand Sleutelwoorde: \ n color=<primêre> <sekondêre> \ N Waar indien die lokomotief se primêre \ N en sekondêre kleure wedstryd \ N Aanvaar "Enige" as 'n wildekaart .. \ N Kleure: Swart, Rooi, Groen, bruin, blou, \ N Purple, Siaan, lightGray, Gray, Pink, kalk, \ N Geel, hellblau, Magenta, Oranje, Wit \ N NeedsRefuel=<waar / onwaar> \ N As die lokomotief is laag op brandstof \ N dit sal Water of verlê nie.
+railcraft.gui.routing.table.manual.page7=Toestand Sleutelwoorde: \ n Redstone=<waar / onwaar> \ N Waar indien die Routing Blok \ N word aangedryf deur Redstone.
+railcraft.gui.routing.table.manual.page8=Toestand Sleutelwoorde: \ n Loco=<string> \ N Waar indien string parameter wedstryde lokomotief \ N Aanvaarde snare: .. elektriese, stoom, geen \ N Gebruik slegs parameter niemand sal terugkeer waar as daar geen lokomotief.
+railcraft.gui.routing.table.manual.page9=Voorbeeld Script: \ n Dest=TheFarLands \ N color=Swart, Rooi \ N en \ N nie \ N Eienaar=RichardG \ N Dest=SecretHideout / OceanEntrance
+railcraft.gui.routing.table.manual.page10=Die resultaat: \ n Die script op die vorige bladsy sal \ n Lokomotief wedstryd met 'n bestemming \ N van "TheFarLands / Milliways" \ n of wat swart en rooi geverf, \ n Dit of 'n bestemming van \ n "SecretHideout / OceanEntrance" \ n maar net as sy nie in besit van RichardG.
+railcraft.gui.routing.table.manual.page11=Gereelde Expressions :. \ N paar voorwaardes ondersteuning \ N Gereelde Expressions \ n Om 'n regex gebruik, voeg 'n "?" voor die '=' \ N Reëls is standaard Java Patrone \ nSupporting voorwaardes: .. \ N Dest, Naam \ n Voorbeeld: \ n Dest=* Hill ?.
+railcraft.gui.routing.table.manual.title=Routing Handleiding
+railcraft.gui.routing.table.name=Naam
+railcraft.gui.routing.ticket.line1=Hierdie kaartjie is geldig
+railcraft.gui.routing.ticket.line2=vir die volgende bestemming:
+railcraft.gui.routing.ticket.manual.title=Oor die Golden kaartjie
+railcraft.gui.routing.ticket.redstone.manual.name=Die Goue Kaartjie is 'n onbeperkte gebruik kaartjie kan gebruik word sodat 'n openbare trein te ry of trein wat besit word deur die uitgewer. Dit kan gekombineer word met papier ook enkel gebruik kaartjies te produseer.
+railcraft.gui.routing.ticket.tips.blank=Blank kaartjie
+railcraft.gui.routing.ticket.tips.dest=Bestemmings:
+railcraft.gui.routing.ticket.tips.issuer=Uitreiker:
+railcraft.gui.routing.ticket.title=Golden Ticket
+railcraft.gui.routing.tips.slot=Voeg Routing Tabel
+railcraft.gui.routing.track.slot.label=kaartjie
+railcraft.gui.routing.track.tips.slot=Voeg Golden Ticket
+railcraft.gui.routing.type.private.tips=Sal net roete \ N Lokomotiewe \ N Dit behoort aan \ n {eienaar}.
+railcraft.gui.routing.type.private=Private spoorweë
+railcraft.gui.routing.type.public.tips=enige Lokomotief roete.
+railcraft.gui.routing.type.public=Openbare Spoorweg
+
+railcraft.gui.steam.boiler=stoomketel
+railcraft.gui.steam.oven=stoom oond
+
+railcraft.gui.surveyor.abandon=Signal Blok verlate Survey
+railcraft.gui.surveyor.begin=Begin Blok Sein Survey
+railcraft.gui.surveyor.invalid=Signal Blok is nie geldig
+railcraft.gui.surveyor.lost=Eerste Signal nie meer bestaan ​​nie, laat vaar Survey
+railcraft.gui.surveyor.success=suksesvol gedefinieer Blok Sein
+railcraft.gui.surveyor.track=Geen spoor naby% s
+railcraft.gui.surveyor.unloaded=Eerste sein nie in 'n gelaaide Chunk
+railcraft.gui.surveyor.wrong=Nie 'n geldige Blok Sein
+
+railcraft.gui.switch.motor.action=Skakel Aspek
+railcraft.gui.switch.motor.redstone=Ignoreer Redstone
+
+railcraft.gui.tank.iron=Yster Tank
+railcraft.gui.tank.steel=staaltenk
+railcraft.gui.tank.water=Water Tank
+
+railcraft.gui.ticks=bosluise
+
+
+railcraft.gui.tips.button.lock.locked=Hierdie toestel is gesluit na \ N {eienaar}. \ N Slegs die eienaar of 'n Op \ N kan dit manipuleer.
+railcraft.gui.tips.button.lock.notowner=Jy is nie die \ N eienaar van hierdie toestel. \ N Dit behoort aan \ n {eienaar}.
+railcraft.gui.tips.button.lock.unlocked=Klik op toestel sluit. \ N Sodra gesluit, kan dit \ n net verkry word deur \ N jy of 'n Op.
+
+railcraft.gui.track.embarking.radius=radius
+railcraft.gui.track.mode.change=verander na% s af
+railcraft.gui.track.coupler.mode.auto.coupler=Auto-Coupler
+railcraft.gui.track.coupler.mode.coupler=Coupler
+railcraft.gui.track.coupler.mode.decoupler=Decoupler
+railcraft.gui.track.locking.mode.boarding.train=Trein Boarding
+railcraft.gui.track.locking.mode.boarding=Boarding
+railcraft.gui.track.locking.mode.holding.train=Trein Holding
+railcraft.gui.track.locking.mode.holding=Holding
+railcraft.gui.track.locking.mode.lockdown.train=Trein Lockdown
+railcraft.gui.track.locking.mode.lockdown=Lockdown
+railcraft.gui.track.priming.fuse=Fuse =% s bosluise
+railcraft.gui.track.launcher.force=Force =% s
+
+railcraft.gui.trade.station.dice.tips=Random Handel
+
+railcraft.gui.tuner.abandon.chunk=Controller is nie in 'n gelaaide Chunk, laat vaar paring
+railcraft.gui.tuner.abandon.gone=Kontroleur nie meer bestaan ​​nie, laat vaar paring
+railcraft.gui.tuner.abandon.player=Kontroleur paring Abandoned
+railcraft.gui.tuner.start =% s begin paring met 'n ontvanger
+railcraft.gui.tuner.stop% s=Gestop paring met 'n ontvanger
+railcraft.gui.tuner.success =% 1 $ s suksesvol saam met 2 $ s%
+
+railcraft.gui.turbine.output=Uitset:% s %%
+railcraft.gui.turbine.rotor=Rotor:
+railcraft.gui.turbine=stoomturbine
+
+railcraft.gui.update.message=Railcraft% s is beskikbaar by <http://railcraft.info>
+
+railcraft.keybind.aura.anchor=Anker Aura
+Opmeting railcraft.keybind.aura.surveying=Aura
+railcraft.keybind.aura.tuning=Tuning Aura
+
+keybind.railcraft.loco.faster=Lokomotief Faster
+keybind.railcraft.loco.mode=Lokomotief af
+Lokomotief keybind.railcraft.loco.reverse=Reverse
+keybind.railcraft.loco.slower=Lokomotief Stadiger
+keybind.railcraft.loco.whistle=Lokomotief Whistle
+
+railcraft.locomotive.model.electric.default.name=Standard Electric
+railcraft.locomotive.model.steam.magic.default.name=Standard Magic
+railcraft.locomotive.model.steam.solid.default.name=Standard Solid
+
+railcraft.multiblock.state.invalid.entity=entiteit in die pad:% s
+railcraft.multiblock.state.invalid.pattern=Voldoen nie ooreen patroon:% s
+railcraft.multiblock.state.unknown.unloaded=deel van die struktuur is nie gelaai nie:% s
+railcraft.multiblock.state.valid=Struktuur is geldig
+
+tc.research_category.RAILCRAFT=Traheremagy
+thaumcraft.research.RC_Crowbar.name=Thaumium koevoet
+Deur thaumcraft.research.RC_Crowbar.page.1=Vervang Thaumium vir Staal en imbuing dit met 'n tikkie van Orde, het jy ontdek hoe om 'n koevoet Dit is veel meer ontvanklik vir magic te skep.
+thaumcraft.research.RC_Crowbar.text=[RC] Ek dink jy dit laat val ...
+thaumcraft.research.RC_Crowbar_Void.name=Void metaal koevoet
+thaumcraft.research.RC_Crowbar_Void.page.1=Loop dinge 'n stap verder, het jy jou meester van arcane materiale gebruik is om die uiteindelike koevoet te skep.
+thaumcraft.research.RC_Crowbar_Void.text=[RC] Gordon sou trots wees ...
+
+tile.activatorRail.name=Activator Track
+tile.detectorRail.name=Aanwyser Track
+tile.goldenRail.name=Booster Track
+tile.rail.name=Track
+
+tile.railcraft.anvil.intact.name=Steel Anvil
+tile.railcraft.anvil.slightlyDamaged.name=Bietjie Damaged Anvil Steel
+tile.railcraft.anvil.veryDamaged.name=Baie Damaged Steel Anvil
+
+tile.railcraft.brick.abyssal.block.name=Abyssal Blok
+tile.railcraft.brick.abyssal.brick.name=Abyssal baksteen
+tile.railcraft.brick.abyssal.cobble.name=Abyssal Cobblestone
+tile.railcraft.brick.abyssal.etched.name=Gegraveerde Abyssal Stone
+tile.railcraft.brick.abyssal.fitted.name=toegerus Abyssal Stone
+tile.railcraft.brick.abyssal.ornate.name=Versierde Abyssal Stone
+
+tile.railcraft.brick.bleachedbone.block.name=Gebleik been Blok
+tile.railcraft.brick.bleachedbone.brick.name=Gebleik been baksteen
+tile.railcraft.brick.bleachedbone.cobble.name=Gebleik been Cobblestone
+tile.railcraft.brick.bleachedbone.etched.name=Gegraveerde Gebleik been Stone
+tile.railcraft.brick.bleachedbone.fitted.name=toegerus Gebleik been Stone
+tile.railcraft.brick.bleachedbone.ornate.name=Gebleik been Versierde Stone
+
+tile.railcraft.brick.bloodstained.block.name=bebloede Blok
+tile.railcraft.brick.bloodstained.brick.name=bebloede baksteen
+tile.railcraft.brick.bloodstained.cobble.name=bebloede Cobblestone
+tile.railcraft.brick.bloodstained.etched.name=Gegraveerde bebloede Stone
+tile.railcraft.brick.bloodstained.fitted.name=toegerus bebloede Stone
+tile.railcraft.brick.bloodstained.ornate.name=Versierde bebloede Stone
+
+tile.railcraft.brick.frostbound.block.name=Frost Bound Blok
+tile.railcraft.brick.frostbound.brick.name=Frost Bound baksteen
+Geplaveide tile.railcraft.brick.frostbound.cobble.name=Frost Bound
+tile.railcraft.brick.frostbound.etched.name=Gegraveerde Frost Stone Bound
+tile.railcraft.brick.frostbound.fitted.name=toegerus Frost Stone Bound
+tile.railcraft.brick.frostbound.ornate.name=Frost Bound Versierde Stone
+
+tile.railcraft.brick.infernal.block.name=Infernal Blok
+tile.railcraft.brick.infernal.brick.name=Infernal baksteen
+tile.railcraft.brick.infernal.cobble.name=Infernal Cobblestone
+tile.railcraft.brick.infernal.etched.name=Gegraveerde Infernal Stone
+tile.railcraft.brick.infernal.fitted.name=toegerus Infernal Stone
+tile.railcraft.brick.infernal.ornate.name=Versierde Infernal Stone
+
+tile.railcraft.brick.nether.block.name=Nether Blok
+tile.railcraft.brick.nether.cobble.name=Nether Cobblestone
+tile.railcraft.brick.nether.etched.name=Gegraveerde Nether Stone
+tile.railcraft.brick.nether.fitted.name=toegerus Nether Stone
+tile.railcraft.brick.nether.ornate.name=Versierde Nether Stone
+
+tile.railcraft.brick.quarried.block.name=ontgin Blok
+tile.railcraft.brick.quarried.brick.name=ontgin baksteen
+tile.railcraft.brick.quarried.cobble.name=ontgin Cobblestone
+Geëts Stone ontgin tile.railcraft.brick.quarried.etched.name =
+Stone ontgin Fitted tile.railcraft.brick.quarried.fitted.name =
+Versierde Stone ontgin tile.railcraft.brick.quarried.ornate.name =
+
+tile.railcraft.brick.sandy.block.name=Sandy Blok
+tile.railcraft.brick.sandy.brick.name=Sandy baksteen
+tile.railcraft.brick.sandy.cobble.name=Sandy Cobblestone
+tile.railcraft.brick.sandy.etched.name=Gegraveerde Sandy Stone
+tile.railcraft.brick.sandy.fitted.name=toegerus Sandy Stone
+tile.railcraft.brick.sandy.ornate.name=Versierde Sandy Stone
+
+tile.railcraft.charge.feeder.admin.name=Admin Heffing Feeder Eenheid
+tile.railcraft.charge.feeder.admin.tips=bied onbeperkte Railcraft Klag
+tile.railcraft.charge.feeder.ic2.name=IC2 Feeder eenheidslading
+tile.railcraft.charge.feeder.ic2.tips=Skakel IndustrialCraft \ N Elektrisiteit koste om Railcraft
+
+tile.railcraft.charge.trap.name=Klag Trap
+
+tile.railcraft.detector.advanced.name=Cart Aanwyser - Gevorderde
+tile.railcraft.detector.age.name=Cart Aanwyser - Ouderdom
+tile.railcraft.detector.animal.name=Cart Aanwyser - Animal
+tile.railcraft.detector.any.name=Cart Aanwyser - Enige
+tile.railcraft.detector.cart.name=Cart Aanwyser - Cart
+tile.railcraft.detector.empty.name=Cart Aanwyser - Leë
+tile.railcraft.detector.energy.name=Cart Aanwyser - Energie
+tile.railcraft.detector.explosive.name=Cart Aanwyser - Explosive
+tile.railcraft.detector.item.name=Cart Aanwyser - punt
+tile.railcraft.detector.locomotive.name=Cart Aanwyser - Lokomotief
+tile.railcraft.detector.mob.name=Cart Aanwyser - Mob
+tile.railcraft.detector.player.name=Cart Aanwyser - Player
+tile.railcraft.detector.powered.name=Cart Aanwyser - gedryf
+tile.railcraft.detector.routing.name=Cart Aanwyser - Routing
+tile.railcraft.detector.sheep.name=Cart Aanwyser - Skape
+tile.railcraft.detector.tank.name=Cart Aanwyser - Tank
+tile.railcraft.detector.train.name=Cart Aanwyser - Trein
+tile.railcraft.detector.villager.name=Cart Aanwyser - Villager
+
+tile.railcraft.firestone.recharge.name=herlaai Fire
+
+tile.railcraft.fluid.creosote.name=Kreosoot
+tile.railcraft.fluid.steam.name=stoom
+
+tile.railcraft.frame.name=draadraamwerk Support
+tile.railcraft.frame.tips=Gebruik to Track plaas op rangeer Wire
+
+tile.railcraft.generic_coke.name=Blok van steenkool Coke
+tile.railcraft.generic_coke.tips=32.000 Brandstof Eenhede
+tile.railcraft.generic_concrete.name=Blok van Beton
+tile.railcraft.generic_copper.name=Blok van Koper
+tile.railcraft.generic_creosote.name=Kreosoot Wood Blok
+tile.railcraft.generic_crushed_obsidian.name=Gebreekte Obsidian
+tile.railcraft.generic_crushed_obsidian.tips=Voorkom Mob toegevoeg
+tile.railcraft.generic_lead.name=Blok van Lood
+tile.railcraft.generic_silver.name=Blok van Silver
+tile.railcraft.generic_steel.name=Blok van Staal
+tile.railcraft.generic_stone_abyssal.name=Abyssal Stone
+Stone ontgin tile.railcraft.generic_stone_quarried.name =
+tile.railcraft.generic_tin.name=Blok van Tin
+
+tile.railcraft.glass.name=versterk Glas
+
+tile.railcraft.lantern.metal.copper.name=Koper Lantern
+tile.railcraft.lantern.metal.gold.name=Gold Lantern
+tile.railcraft.lantern.metal.iron.name=Yster Lantern
+tile.railcraft.lantern.metal.lead.name=Lood Lantern
+tile.railcraft.lantern.metal.steel.name=Steel Lantern
+tile.railcraft.lantern.metal.tin.name=Tin Lantern
+
+tile.railcraft.lantern.stone.abyssal.name=Abyssal Stone Lantern
+tile.railcraft.lantern.stone.bleachedbone.name=Gebleik been Stone Lantern
+tile.railcraft.lantern.stone.bloodstained.name=bebloede Stone Lantern
+tile.railcraft.lantern.stone.frostbound.name=frostbound Stone Lantern
+tile.railcraft.lantern.stone.infernal.name=Infernal Stone Lantern
+tile.railcraft.lantern.stone.nether.name=Nether Stone Lantern
+tile.railcraft.lantern.stone.quarried.name=ontgin Stone Lantern
+tile.railcraft.lantern.stone.sandstone.name=sandsteen Lantern
+tile.railcraft.lantern.stone.sandy.name=Sandy Stone Lantern
+tile.railcraft.lantern.stone.stone.name=Stone Lantern
+
+tile.railcraft.machine.alpha.anchor.admin.name=Admin Anker
+tile.railcraft.machine.alpha.anchor.passive.name=Passiewe Anker
+tile.railcraft.machine.alpha.anchor.personal.name=Persoonlike Anker
+tile.railcraft.machine.alpha.anchor.world.name=Wêreld Anker
+tile.railcraft.machine.alpha.blast.furnace.name=Blast Furnace baksteen
+tile.railcraft.machine.alpha.blast.furnace.tips=Multi-Blok: 3x4x3 (hol)
+Baksteen oond Coke tile.railcraft.machine.alpha.coke.oven.name =
+tile.railcraft.machine.alpha.coke.oven.tips=Multi-Blok: 3x3x3 (hol)
+tile.railcraft.machine.alpha.feed.station.name=Voer Stasie
+tile.railcraft.machine.alpha.rock.crusher.name=Rock breker
+tile.railcraft.machine.alpha.rock.crusher.tips=Multi-Blok: 3x2x2
+tile.railcraft.machine.alpha.rolling.machine.name=rollende masjien
+tile.railcraft.machine.alpha.smoker.name=roker
+tile.railcraft.machine.alpha.steam.oven.name=stoom oond
+tile.railcraft.machine.alpha.steam.oven.tips=Multi-Blok: 2x2x2
+tile.railcraft.machine.alpha.steam.trap.auto.name=outomatiese stoom lokval
+tile.railcraft.machine.alpha.steam.trap.name=Handleiding stoom lokval
+tile.railcraft.machine.alpha.tank.water.name=Water Tank Siding
+tile.railcraft.machine.alpha.tank.water.tips=Multi-Blok: 3x3x3 (hol)
+tile.railcraft.machine.alpha.trade.station.name=Handel Stasie
+tile.railcraft.machine.alpha.turbine.name=stoomturbine Behuising
+tile.railcraft.machine.alpha.turbine.tips=Multi-Blok: 3x2x2 \ N elektrisiteit opwek uit stoom \ nOutputs water aan die onderkant \ N Vereis 'n turbine rotor
+
+tile.railcraft.machine.beta.anchor.sentinel.name=Anker Sentinel
+tile.railcraft.machine.beta.boiler.firebox.liquid.name=vloeibare brandstof aangedrewe ketel Firebox
+tile.railcraft.machine.beta.boiler.firebox.liquid.tips=Multi-Blok Veranderlike grootte, Bottom Layer \ N Dimensies: 1x1, 2x2, 3x3
+tile.railcraft.machine.beta.boiler.firebox.solid.name=Solid aangevuur Boiler Firebox
+tile.railcraft.machine.beta.boiler.firebox.solid.tips=Multi-Blok Veranderlike grootte, Bottom Layer \ N Dimensies: 1x1, 2x2, 3x3
+tile.railcraft.machine.beta.boiler.tank.pressure.high.name=High druk ketel Tank
+tile.railcraft.machine.beta.boiler.tank.pressure.high.tips=Multi-Blok Veranderlike grootte, Bo Firebox \ N Dimensies: 1x1x1, 2x2x2, 2x3x2, \ N 3x2x3, 3x3x3, 3x4x3 \ N Produseer 20MB van stoom per blok
+tile.railcraft.machine.beta.boiler.tank.pressure.low.name=Lae druk ketel Tank
+tile.railcraft.machine.beta.boiler.tank.pressure.low.tips=Multi-Blok Veranderlike grootte, Bo Firebox \ N Dimensies: 1x1x1, 2x2x2, 2x3x2, \ N 3x2x3, 3x3x3, 3x4x3 \ N Produseer 10MB van stoom per blok
+tile.railcraft.machine.beta.chest.metals.name=Metals Chest
+Metale te kondenseer tile.railcraft.machine.beta.chest.metals.tips=Blocks
+tile.railcraft.machine.beta.chest.void.name=Void Chest
+tile.railcraft.machine.beta.chest.void.tips=Vee Items
+tile.railcraft.machine.beta.engine.steam.high.name=Industrial stoomenjin
+tile.railcraft.machine.beta.engine.steam.high.tips=Produseer 80 RF / t \ ​​N Gebruik 40MB van stoom per blok
+tile.railcraft.machine.beta.engine.steam.hobby.name=entoesias se stoomenjin
+tile.railcraft.machine.beta.engine.steam.hobby.tips=Produseer 20 RF / t \ ​​N Gebruik 10MB van stoom per blok
+tile.railcraft.machine.beta.engine.steam.low.name=Kommersiële stoomenjin
+tile.railcraft.machine.beta.engine.steam.low.tips=Produseer 40 RF / t \ ​​N Gebruik 20MB van stoom per blok
+tile.railcraft.machine.beta.tank.iron.gauge.name=Yster Tank Gauge
+tile.railcraft.machine.beta.tank.iron.gauge.tips=Multi-Blok: Wisselend Grootte, hol \ N Heights: 4, 5, 6, 7, 8 \ N Diameters: 3, 5, 7, 9
+tile.railcraft.machine.beta.tank.iron.valve.name=Yster Tank Valve
+tile.railcraft.machine.beta.tank.iron.valve.tips=Multi-Blok: Moet in onderkant \ N uitset twee vloeibare lae.
+tile.railcraft.machine.beta.tank.iron.wall.name=Yster Tank Wall
+tile.railcraft.machine.beta.tank.iron.wall.tips=Multi-Blok: Wisselend Grootte, hol \ N Heights: 4, 5, 6, 7, 8 \ N Diameters: 3, 5, 7, 9
+tile.railcraft.machine.beta.tank.steel.gauge.name=staaltenk Gauge
+tile.railcraft.machine.beta.tank.steel.gauge.tips=Multi-Blok: Wisselend Grootte, hol \ N Heights: 4, 5, 6, 7, 8 \ N Diameters: 3, 5, 7, 9
+tile.railcraft.machine.beta.tank.steel.valve.name=staaltenk Valve
+tile.railcraft.machine.beta.tank.steel.valve.tips=Multi-Blok: Moet in onderkant \ N uitset twee vloeibare lae.
+tile.railcraft.machine.beta.tank.steel.wall.name=staaltenk Wall
+tile.railcraft.machine.beta.tank.steel.wall.tips=Multi-Blok: Wisselend Grootte, hol \ N Heights: 4, 5, 6, 7, 8 \ N Diameters: 3, 5, 7, 9
+
+tile.railcraft.machine.epsilon.admin.steam.producer.name=Admin stoom Producer
+tile.railcraft.machine.epsilon.admin.steam.producer.tips=bied onbeperkte stoom
+tile.railcraft.machine.epsilon.engraving.bench.name=Engraving Bank
+tile.railcraft.machine.epsilon.flux.transformer.name=Flux transformator
+tile.railcraft.machine.epsilon.flux.transformer.tips=Multi-Blok: 2x2x2 \ N Skakel Redstone Flux om Railcraft Klag \ N 80% Doeltreffendheid
+tile.railcraft.machine.epsilon.force.track.emitter.name=Force Track Emitter
+tile.railcraft.machine.epsilon.force.track.emitter.tips=Projekte-energie gebaseer spore
+
+tile.railcraft.manipulator.dispenser.cart.name=Cart Dispenser
+Karre tile.railcraft.manipulator.dispenser.cart.tips=resepteer op Tracks \ n§o§9- beheer met Paar Track - \ n§o§9- treffer met koevoet te geaardheid verander - \ n§o§c- Pas Redstone to Cart afsien -
+tile.railcraft.manipulator.dispenser.train.name=Trein Dispenser
+Treine gekoppel tile.railcraft.manipulator.dispenser.train.tips=resepteer op Tracks \ n§o§9- beheer met Paar Track - \ n§o§9- treffer met koevoet te geaardheid verander - \ n§o§c- Pas Redstone om af te sien Trein -
+tile.railcraft.manipulator.loader.energy.name=Energie Loader
+tile.railcraft.manipulator.loader.energy.tips=Vragte in IC2 Energie Energie Carts \ n§o§9- treffer met koevoet te geaardheid verander - \ n§o§c- Slegs Aanvaar krag IC2
+tile.railcraft.manipulator.loader.rf.name=Redstone Flux Loader
+tile.railcraft.manipulator.loader.rf.tips=Vragte in RF RF Carts \ n§o§9- treffer met koevoet te geaardheid verander - \ n§o§c- Slegs Aanvaar RF krag
+tile.railcraft.manipulator.loader.item.advanced.name=adv. item-aanjaer
+Items tile.railcraft.manipulator.loader.item.advanced.tips=Vragte in Carts \ n§o§9- treffer met koevoet te geaardheid verander -
+tile.railcraft.manipulator.loader.item.name=Item Loader
+Items tile.railcraft.manipulator.loader.item.tips=Vragte in Carts \ n§o§c- Place oor Track -
+tile.railcraft.manipulator.loader.fluid.name=Fluid Loader
+Vloeistowwe tile.railcraft.manipulator.loader.fluid.tips=Vragte in Carts \ n§o§c- Plaas 1-2 blokke bo Track -
+tile.railcraft.manipulator.unloader.energy.name=Energie losser
+tile.railcraft.manipulator.unloader.energy.tips=ontlaai van IC2 Energie Energie Carts \ n§o§9- treffer met koevoet te geaardheid verander - \ n§o§c- Slegs straal krag IC2
+tile.railcraft.manipulator.unloader.rf.name=Redstone Flux losser
+tile.railcraft.manipulator.unloader.rf.tips=ontlaai RF van RF Carts \ n§o§9- treffer met koevoet te geaardheid verander - \ n§o§c- Slegs straal RF krag
+tile.railcraft.manipulator.unloader.item.advanced.name=adv. item losser
+tile.railcraft.manipulator.unloader.item.advanced.tips=ontlaai items uit Carts \ n§o§9- treffer met koevoet te geaardheid verander -
+tile.railcraft.manipulator.unloader.item.name=Item losser
+tile.railcraft.manipulator.unloader.item.tips=ontlaai items uit Carts \ n§o§c- Place onder Track -
+tile.railcraft.manipulator.unloader.fluid.name=Fluid losser
+tile.railcraft.manipulator.unloader.fluid.tips=ontlaai water uit Carts \ n§o§c- Place onder Track -
+
+tile.railcraft.ore.copper.name=kopererts
+tile.railcraft.ore.dark.diamond.name=Donker Diamond Ore
+tile.railcraft.ore.dark.emerald.name=Donker Emerald Ore
+Lapis lazuli tile.railcraft.ore.dark.lapis.name=Donker Ore
+tile.railcraft.ore.lead.name=Lood Ore
+tile.railcraft.ore.poor.copper.name=Swak kopererts
+tile.railcraft.ore.poor.gold.name=Swak gouderts
+tile.railcraft.ore.poor.iron.name=Swak ystererts
+tile.railcraft.ore.poor.lead.name=Swak Lood Ore
+tile.railcraft.ore.poor.silver.name=Swak Silwer Ore
+tile.railcraft.ore.poor.tin.name=Swak tinerts
+tile.railcraft.ore.saltpeter.name=Salt Peter Ore
+tile.railcraft.ore.silver.name=Silwer Ore
+tile.railcraft.ore.sulfur.name=Swael Ore
+tile.railcraft.ore.tin.name=tinerts
+
+tile.railcraft.ore.magic.firestone.name=Fire Ore
+tile.railcraft.ore.magic.firestone.tips.name=Brand alles behalwe vlees \ N kan jy die lug verandering \ N voel rondom jou as jy hou dit ...
+
+tile.railcraft.post.emblem.name=embleem Post
+tile.railcraft.post.metal.black.name=Black Metal Meesters
+tile.railcraft.post.metal.blue.name=Blou Metal Meesters
+tile.railcraft.post.metal.brown.name=Brown Metal Meesters
+tile.railcraft.post.metal.cyan.name=Siaan Metal Meesters
+tile.railcraft.post.metal.gray.name=Gray Metal Meesters
+tile.railcraft.post.metal.green.name=Groen Metal Meesters
+tile.railcraft.post.metal.light.blue.name=Ligblou Metal Meesters
+tile.railcraft.post.metal.light.gray.name=Light Gray Metal Meesters
+tile.railcraft.post.metal.lime.name=Lime Metal Meesters
+tile.railcraft.post.metal.magenta.name=Magenta Metal Meesters
+tile.railcraft.post.metal.unpainted.name=Metal Meesters
+tile.railcraft.post.metal.orange.name=Orange Metal Meesters
+tile.railcraft.post.metal.pink.name=Pink Metal Meesters
+tile.railcraft.post.metal.platform.black.name=Black Metal platform
+tile.railcraft.post.metal.platform.blue.name=Blou Metal platform
+tile.railcraft.post.metal.platform.brown.name=Brown Metal platform
+tile.railcraft.post.metal.platform.cyan.name=Siaan Metal platform
+tile.railcraft.post.metal.platform.gray.name=Gray Metal platform
+tile.railcraft.post.metal.platform.green.name=Groen Metal platform
+tile.railcraft.post.metal.platform.light.blue.name=Ligblou Metal platform
+tile.railcraft.post.metal.platform.light.gray.name=Light Gray Metal platform
+tile.railcraft.post.metal.platform.lime.name=Lime Metal platform
+tile.railcraft.post.metal.platform.magenta.name=Magenta Metal platform
+tile.railcraft.post.metal.platform.unpainted.name=Metal platform
+tile.railcraft.post.metal.platform.orange.name=Orange Metal platform
+tile.railcraft.post.metal.platform.pink.name=Pink Metal platform
+tile.railcraft.post.metal.platform.purple.name=Purple Metal platform
+tile.railcraft.post.metal.platform.red.name=Rooi Metal platform
+tile.railcraft.post.metal.platform.white.name=Wit Metal platform
+tile.railcraft.post.metal.platform.yellow.name=geel metaal platform
+tile.railcraft.post.metal.purple.name=Purple Metal Meesters
+tile.railcraft.post.metal.red.name=Rooi Metal Meesters
+tile.railcraft.post.metal.white.name=Wit Metal Meesters
+tile.railcraft.post.metal.yellow.name=geel metaal Post
+tile.railcraft.post.stone.name=Stone Post
+tile.railcraft.post.stone.platform.name=Stone Platform
+tile.railcraft.post.wood.name=Wooden Post
+tile.railcraft.post.wood.platform.name=houtplatform
+
+tile.railcraft.slab.abyssal.block.name=Abyssal Blok Slab
+tile.railcraft.slab.abyssal.brick.name=Abyssal baksteen Slab
+tile.railcraft.slab.abyssal.cobble.name=Abyssal Cobble Slab
+tile.railcraft.slab.abyssal.fitted.name=toegerus Abyssal klip plaat
+tile.railcraft.slab.bleachedbone.block.name=Gebleik been Blok Slab
+tile.railcraft.slab.bleachedbone.brick.name=Gebleik been baksteen Slab
+tile.railcraft.slab.bleachedbone.cobble.name=Gebleik been Cobble Slab
+tile.railcraft.slab.bleachedbone.fitted.name=toegerus Gebleik been klip plaat
+Bebloede tile.railcraft.slab.bloodstained.block.name=Blok Slab
+tile.railcraft.slab.bloodstained.brick.name=bebloede baksteen Slab
+tile.railcraft.slab.bloodstained.cobble.name=bebloede Cobble Slab
+Bebloede Toegerus tile.railcraft.slab.bloodstained.fitted.name=Stone Slab
+tile.railcraft.slab.concrete.name=Beton Slab
+tile.railcraft.slab.copper.name=Koper Slab
+Kreosoot tile.railcraft.slab.creosote.name=Blok Slab
+tile.railcraft.slab.diamond.name=Diamond Slab
+tile.railcraft.slab.frostbound.block.name=Frost Bound Slab Blok
+tile.railcraft.slab.frostbound.brick.name=Frost Bound baksteen Slab
+Cobble tile.railcraft.slab.frostbound.cobble.name=Frost Bound Slab
+Gebind tile.railcraft.slab.frostbound.fitted.name=toegerus Frost klip plaat
+tile.railcraft.slab.gold.name=Gold Slab
+tile.railcraft.slab.ice.name=Ice Slab
+tile.railcraft.slab.infernal.block.name=Infernal Blok Slab
+tile.railcraft.slab.infernal.brick.name=Infernal baksteen Slab
+tile.railcraft.slab.infernal.cobble.name=Infernal Cobble Slab
+tile.railcraft.slab.infernal.fitted.name=toegerus Infernal klip plaat
+tile.railcraft.slab.iron.name=Yster Slab
+tile.railcraft.slab.lead.name=Lood Slab
+tile.railcraft.slab.nether.block.name=Blok Slab Nether
+tile.railcraft.slab.nether.cobble.name=Cobble Slab Nether
+tile.railcraft.slab.nether.fitted.name=toegerus Nether klip plaat
+tile.railcraft.slab.obsidian.name=Obsidian Slab
+tile.railcraft.slab.packed.ice.name=Packed Ice Slab
+tile.railcraft.slab.quarried.block.name=ontgin Blok Slab
+tile.railcraft.slab.quarried.brick.name=ontgin baksteen Slab
+tile.railcraft.slab.quarried.cobble.name=ontgin Cobble Slab
+tile.railcraft.slab.quarried.fitted.name=toegerus ontgin klip plaat
+tile.railcraft.slab.sandy.block.name=Sandy Blok Slab
+tile.railcraft.slab.sandy.brick.name=Sandy baksteen Slab
+tile.railcraft.slab.sandy.cobble.name=Sandy Cobble Slab
+tile.railcraft.slab.sandy.fitted.name=toegerus Sandy Stone Slab
+tile.railcraft.slab.snow.name=Snow Slab
+tile.railcraft.slab.steel.name=Staal Plaat
+tile.railcraft.slab.tin.name=Tin Plaat
+
+tile.railcraft.stair.abyssal.block.name=Abyssal Blok Trap
+tile.railcraft.stair.abyssal.brick.name=Abyssal baksteen Trap
+tile.railcraft.stair.abyssal.cobble.name=Abyssal Cobble Trap
+tile.railcraft.stair.abyssal.fitted.name=toegerus Abyssal Stone Trap
+tile.railcraft.stair.bleachedbone.block.name=Gebleik been Blok Trap
+tile.railcraft.stair.bleachedbone.brick.name=Gebleik been baksteen Trap
+tile.railcraft.stair.bleachedbone.cobble.name=Gebleik been Cobble Trap
+tile.railcraft.stair.bleachedbone.fitted.name=toegerus Gebleik been Stone Trap
+Bebloede tile.railcraft.stair.bloodstained.block.name=Blok Trap
+tile.railcraft.stair.bloodstained.brick.name=bebloede baksteen Trap
+Cobble tile.railcraft.stair.bloodstained.cobble.name=bebloede Trap
+Bebloede Toegerus tile.railcraft.stair.bloodstained.fitted.name=Stone Trap
+tile.railcraft.stair.concrete.name=Beton trappe
+tile.railcraft.stair.copper.name=Koper Trap
+Kreosoot tile.railcraft.stair.creosote.name=Blok Trap
+tile.railcraft.stair.diamond.name=Diamond Trap
+tile.railcraft.stair.frostbound.block.name=Frost Bound Blok Trap
+tile.railcraft.stair.frostbound.brick.name=Frost Bound baksteen Trap
+tile.railcraft.stair.frostbound.cobble.name=Frost Bound Cobble Trap
+Gebind tile.railcraft.stair.frostbound.fitted.name=toegerus Frost Stone Trap
+tile.railcraft.stair.gold.name=Gold Trap
+tile.railcraft.stair.ice.name=Ice Trap
+tile.railcraft.stair.infernal.block.name=Infernal Blok Trap
+tile.railcraft.stair.infernal.brick.name=Infernal baksteen Trap
+tile.railcraft.stair.infernal.cobble.name=Infernal Cobble Trap
+tile.railcraft.stair.infernal.fitted.name=toegerus Infernal Stone Trap
+tile.railcraft.stair.iron.name=Yster Trap
+tile.railcraft.stair.lead.name=Lood Trap
+Onderste tile.railcraft.stair.nether.block.name=Blok Trap
+tile.railcraft.stair.nether.cobble.name=Nether Cobble Trap
+tile.railcraft.stair.nether.fitted.name=toegerus Nether Stone Trap
+tile.railcraft.stair.obsidian.name=Obsidian Trap
+tile.railcraft.stair.packed.ice.name=Packed Ice Trap
+tile.railcraft.stair.quarried.block.name=ontgin Blok Trap
+tile.railcraft.stair.quarried.brick.name=ontgin baksteen Trap
+tile.railcraft.stair.quarried.cobble.name=ontgin Cobble Trap
+tile.railcraft.stair.quarried.fitted.name=toegerus ontgin Stone Trap
+tile.railcraft.stair.sandy.block.name=Sandy Blok Trap
+tile.railcraft.stair.sandy.brick.name=Sandy baksteen Trap
+tile.railcraft.stair.sandy.cobble.name=Sandy Cobble Trap
+tile.railcraft.stair.sandy.fitted.name=toegerus Sandy Stone Trap
+tile.railcraft.stair.snow.name=Snow Trap
+tile.railcraft.stair.steel.name=Steel Trap
+tile.railcraft.stair.tin.name=Tin Trap
+
+tile.railcraft.wayobject.block.signal.dual.name=Dubbele-Hoof Blok Sein
+Karre in tile.railcraft.wayobject.block.signal.dual.tips=Detectie Signal Blok \ nDisplays aspek van gekoppelde Kontroleur \ n§o§9Aerial Skakeling: \ n§o§9- 1x Signal Blocks \ n§o§9- 1 kontroleerder \ n§o§9- 1x Ontvanger \ n§o§cRelevant gereedskap: \ n§o§c- Signal ontvanger \ n§o§c- Blok Sein Landmeter
+tile.railcraft.wayobject.block.signal.name=Blok Sein
+Karre in tile.railcraft.wayobject.block.signal.tips=Detectie Signal Blok \ n§o§9Aerial Skakeling: \ n§o§9- 1x Signal Blok \ n§o§9- 1 kontroleerder \ n§o§cRelevant gereedskap: \ n§o§c- Blok Sein Landmeter
+tile.railcraft.wayobject.box.analog.name=Analog Signal Kontroleur Box
+tile.railcraft.wayobject.box.analog.tips=stuur seine na ontvangers \ n§o§9Aerial Skakeling: 1 kontroleerder \ n§o§9Adjacent Skakeling: Geen \ n§o§9Redstone Skakeling: Luister \ n§o§cRelevant gereedskap: \ n§o§c- Signal ontvanger
+tile.railcraft.wayobject.box.block.relay.name=Blok Sein Relay Box
+tile.railcraft.wayobject.box.block.relay.tips=Skep kettings van Signal Blocks \ n§o§9Aerial Skakeling: 2x Signal Blok \ n§o§9Adjacent Skakeling: uitstraal \ n§o§9Redstone Skakeling: uitstraal \ N §o§cRelevant gereedskap: \ n§o§c- Blok Sein Landmeter
+Kapasitor tile.railcraft.wayobject.box.capacitor.name=Signal Box
+tile.railcraft.wayobject.box.capacitor.tips=stuur seine na ontvangers \ n§o§9Aerial Skakeling: Geen \ n§o§9Adjacent Skakeling: Luister, uitstraal \ n§o§9Redstone Skakeling: Luister na Herhalers, stoot
+tile.railcraft.wayobject.box.controller.name=Signal Kontroleur Box
+tile.railcraft.wayobject.box.controller.tips=stuur seine na ontvangers \ n§o§9Aerial Skakeling: 1 kontroleerder \ n§o§9Adjacent Skakeling: Luister \ n§o§9Redstone Skakeling: Luister \ n§o§cRelevant gereedskap: \ n§o§c- Signal ontvanger
+tile.railcraft.wayobject.box.interlock.name=Vergrendeling Signal Box
+tile.railcraft.wayobject.box.interlock.tips=laat slegs een aspek sein te slaag \ n§o§9Aerial Skakeling: \ n§o§9- 1 kontroleerder \ n§o§9- 1x Ontvanger \ n§o§ 9Adjacent Skakeling: \ n§o§9- Grendelskakelaars \ n§o§9- Luister (perk Uitgawe) \ n§o§cRelevant gereedskap: \ n§o§c- Signal ontvanger
+tile.railcraft.wayobject.box.receiver.name=Signal Ontvanger Box
+Luister na tile.railcraft.wayobject.box.receiver.tips=Kontroleur seine \ n§o§9Aerial Skakeling: 1x Ontvanger \ n§o§9Adjacent Skakeling: uitstraal \ n§o§9Redstone Skakeling: uitstraal \ n§o§cRelevant gereedskap: \ n§o§c- Signal ontvanger
+Sequencer tile.railcraft.wayobject.box.sequencer.name=Signal Box
+tile.railcraft.wayobject.box.sequencer.tips=Loops deur aangrensende blokke \ n§o§9Adjacent Skakeling: \ n§o§9- Sequencer \ n§o§9- Luister (horlosie) \ n§o§9- uitstraal \ n§o§9Redstone Skakeling: \ n§o§9- Luister na Herhalers (horlosie) \ n§o§9- uitstraal
+tile.railcraft.wayobject.distant.dual.name=Dubbele-Hoof Distant Signal
+tile.railcraft.wayobject.distant.dual.tips=Gee aspekte van gekoppelde Controllers \ n§o§9Aerial Skakeling: 2x Ontvanger \ n§o§cRelevant gereedskap: \ n§o§c- Signal ontvanger
+tile.railcraft.wayobject.distant.name=Distant Signal
+tile.railcraft.wayobject.distant.tips=Uitstallings aspek van gekoppelde Kontroleur \ n§o§9Aerial Skakeling: 1x Ontvanger \ n§o§cRelevant gereedskap: \ n§o§c- Signal ontvanger
+tile.railcraft.wayobject.switch.lever.name=Skakel Aktueerder Lever
+tile.railcraft.wayobject.switch.lever.tips=Beheer aangrensende Skakel Tracks \ n§o§9Manual Operasie
+tile.railcraft.wayobject.switch.motor.name=Skakel Aktueerder Motor
+tile.railcraft.wayobject.switch.motor.tips=Beheer aangrensende Skakel Tracks \ n§o§9Aerial Skakeling: 1x Ontvanger \ n§o§9Redstone Linkage: Luister \ n§o§cRelevant gereedskap: \ n§o§c- sein ontvanger
+tile.railcraft.wayobject.switch.routing.name=Routing Skakel Aktueerder Motor
+tile.railcraft.wayobject.switch.routing.tips=Beheer aangrensende Skakel Tracks \ n§o§9Scripted Logika Operasie \ n§o§cRelevant gereedskap: \ n§o§c- Routing Tabel
+
+Rangeer tile.railcraft.wire.name=Klag Wire
+tile.railcraft.wire.tips=Klag oor kort afstande Oordragte \ N Plaas onder Track behulp draad rame \ N Hoë verlies
+
+#Old Tracks (wat geskrap moet word)
+tile.railcraft.track.buffer.stop.name=Buffer Stop Track
+tile.railcraft.track.buffer.stop.tips=Einde van die Line \ n§o§9- treffer met koevoet om van rigting te verander -
+tile.railcraft.track.control.name=Beheer Track
+tile.railcraft.track.control.tips=toepassing op klein omni-directional hupstoot \ n§o§9- treffer met koevoet om van rigting te verander - \ n§o§c- Pas Redstone om van rigting te verander -
+tile.railcraft.track.coupler.name=Coupler Track
+tile.railcraft.track.coupler.tips=paartjies / ontkoppelt verby Carts \ n§o§9- treffer met koevoet om af te verander - \ n§o§c- Pas op Redstone in staat te stel -
+tile.railcraft.track.detector.direction.name=Directional Aanwyser Track
+tile.railcraft.track.detector.direction.tips=straal Redstone Wanneer 'n kar verby \ N in die aangeduide rigting \ n§o§9- treffer met koevoet om van rigting te verander -
+tile.railcraft.track.disembarking.name=afklim Track
+tile.railcraft.track.disembarking.tips=Klim ry in die rigting van pyl Entiteite \ n§o§9- treffer met koevoet om van rigting te verander - \ n§o§c- Pas op Redstone in staat te stel -
+tile.railcraft.track.disposal.name=Beskikking Track
+tile.railcraft.track.disposal.tips=afgestel spoor \ N Klim ry Entiteite
+tile.railcraft.track.electric.junction.name=Electric Junction Track
+tile.railcraft.track.electric.junction.tips=§9Danger: High Voltage \ N §rPowered deur Elektrisiteit \ N Gebruik met elektriese lokomotief \ N Gebruik Electric Feeder Eenhede aan bewind \ N Gebruik rangeer draad om gapings te oorbrug
+tile.railcraft.track.electric.switch.name=elektriese skakelaar Track
+tile.railcraft.track.electric.switch.tips=§9Danger: High Voltage \ N §rPowered deur Elektrisiteit \ N Gebruik met elektriese lokomotief \ N Gebruik Electric Feeder Eenhede aan bewind \ N Gebruik rangeer draad om gapings te oorbrug \ n§o§ vereis C- Motor Switch / Lever te skakel -
+tile.railcraft.track.electric.wye.name=Electric Wye Track
+tile.railcraft.track.electric.wye.tips=§9Danger: High Voltage \ N §rPowered deur Elektrisiteit \ N Gebruik met elektriese lokomotief \ N Gebruik Electric Feeder Eenhede aan bewind \ N Gebruik rangeer draad om gapings te oorbrug \ n§o§ vereis C- Motor Switch / Lever te skakel -
+tile.railcraft.track.elevator.name=Hysbak Track
+tile.railcraft.track.elevator.tips=Laat Mijnkar Vertikale beweging \ n§o§c- Pas op Redstone top optrek -
+tile.railcraft.track.embarking.name=begin Track
+tile.railcraft.track.embarking.tips=Vragte entiteite in Carts \ n§o§9- treffer met koevoet om verskeidenheid te verander - \ n§o§c- Pas op Redstone in staat te stel -
+tile.railcraft.track.force.name=Force Track
+tile.railcraft.track.gated.name=Toegangsbeheerde Track
+tile.railcraft.track.gated.oneway.name=Toegangsbeheerde One-Way Track
+tile.railcraft.track.gated.oneway.tips=Dit is 'n eenrigting-hek \ n§o§c- Pas Redstone oop te maak -
+Dit is 'n hek tile.railcraft.track.gated.tips=\ n§o§c- Pas Redstone oop te maak -
+tile.railcraft.track.holding.name=Holding Track
+tile.railcraft.track.holding.tips=Vervang deur Locking Track
+Hou tile.railcraft.track.holding.train.name=Treinspoor
+tile.railcraft.track.holding.train.tips=Vervang deur Locking Track
+tile.railcraft.track.junction.name=Junction Track
+tile.railcraft.track.launcher.name=Launcher Track
+tile.railcraft.track.launcher.tips=Maak karre vlieg \ n§o§c- Pas op Redstone in staat te stel -
+tile.railcraft.track.throttle.name=Throttle Track
+Pas die spoed tile.railcraft.track.throttle.tips=\ N van verbygaande Lokomotiewe \ n§o§9- treffer met koevoet om af te verander - \ n§o§c- Pas op Redstone in staat te stel -
+tile.railcraft.track.locking.name=Locking Track
+tile.railcraft.track.locking.tips=Tops en hou karre \ n§o§9- treffer met koevoet om af te verander - \ n§o§c- Pas op Redstone in staat te stel -
+tile.railcraft.track.locomotive.name=Lokomotief Track
+tile.railcraft.track.locomotive.tips=Begin / Stop Lokomotiewe \ n§o§9- treffer met koevoet om af te verander - \ n§o§c- Pas op Redstone in staat te stel -
+tile.railcraft.track.oneway.name=een-Way Track
+tile.railcraft.track.oneway.tips=Carts kan net slaag \ N in die rigting van die pyl \ n§o§9- treffer met koevoet om van rigting te verander -
+tile.railcraft.track.priming.name=priming Track
+tile.railcraft.track.priming.tips=ontbrand TNT Carts \ N verstelbare Fuse \ n§o§9- treffer met koevoet om lont te verander - \ n§o§c- Pas op Redstone in staat te stel -
+tile.railcraft.track.reinforced.boost.name=Gewapende Booster Track
+tile.railcraft.track.reinforced.boost.tips=125% van die spoed van die normale spoor \ N Explosion bestand \ n§o§c- Pas op Redstone in staat te stel -
+tile.railcraft.track.reinforced.junction.name=Gewapende Junction Track
+tile.railcraft.track.reinforced.junction.tips=125% van die spoed van die normale spoor \ N Explosion bestand
+tile.railcraft.track.reinforced.switch.name=Gewapende Track Skakel
+tile.railcraft.track.reinforced.switch.tips=125% van die spoed van die normale spoor \ N Explosion bestand \ n§o§c- Vereis Motor Switch / Lever te skakel -
+tile.railcraft.track.reinforced.wye.name=Gewapende Wye Track
+tile.railcraft.track.reinforced.wye.tips=125% van die spoed van die normale spoor \ N Explosion bestand \ n§o§c- Vereis Motor Switch / Lever te skakel -
+tile.railcraft.track.routing.name=Routing Track
+tile.railcraft.track.routing.tips=Stelle aan verbygaande Lokomotief se kaartjie \ n§o§9- treffer met koevoet kaartjie te verander -
+tile.railcraft.track.slow.boost.name=Wooden Booster Track
+tile.railcraft.track.slow.junction.name=Wooden Junction Track
+tile.railcraft.track.slow.junction.tips=30% van die spoed van die normale spoor
+tile.railcraft.track.slow.switch.name=Wooden Track Skakel
+tile.railcraft.track.slow.switch.tips=30% van die spoed van die normale spoor \ N §o§c- Vereis Motor Switch / Lever te skakel -
+tile.railcraft.track.slow.wye.name=Wooden Wye Track
+tile.railcraft.track.slow.wye.tips=30% van die spoed van die normale spoor \ N §o§c- Vereis Motor Switch / Lever te skakel -
+tile.railcraft.track.speed.boost.name=H.S. booster Track
+tile.railcraft.track.speed.boost.tips=§9Dangerous \ N §rMore as twee keer so vinnig as gereelde spoor \ N stel baie hoë spoed \ n§o§c- Pas Redstone n hupstoot te gee -
+tile.railcraft.track.speed.switch.name=H.S. track Skakel
+tile.railcraft.track.speed.switch.tips=§9Dangerous \ N Moenie probeer om verskille op High Speed ​​\ N §o§c- Vereis Motor Switch / Lever te skakel -
+tile.railcraft.track.speed.transition.name=H.S. oorgang Track
+Normale tile.railcraft.track.speed.transition.tips=§9Dangerous \ N §rMore as twee keer so vinnig as spoor \ N oorgange na / vanaf High Speed ​​\ n§o§c- Pas Redstone n hupstoot te gee -
+tile.railcraft.track.speed.wye.name=H.S. Wye Track
+tile.railcraft.track.speed.wye.tips=§9Dangerous \ N Moenie probeer om oor te steek by High Speed ​​\ N §o§c- Vereis Motor Switch / Lever te skakel -
+tile.railcraft.track.suspended.name=afgestel Track
+tile.railcraft.track.suspended.tips=ondersteun hieronder \ vereis N kan oorsteek gapings
+tile.railcraft.track.switch.name=Skakel Track
+tile.railcraft.track.switch.tips=§o§c- Vereis Motor Switch / Lever te skakel -
+tile.railcraft.track.whistle.name=Whistle Track
+Verbygaande Lokomotiewe tile.railcraft.track.whistle.tips=\ N Whistle sal blaas Hul \ n§o§c- Pas op Redstone in staat te stel -
+tile.railcraft.track.wye.name=Wye Track
+tile.railcraft.track.wye.tips=§o§c- Vereis Motor Switch / Lever te skakel -
+tile.railcraft.track.autolococoupler.name=Outomatiese Lokomotief Coupler
+tile.railcraft.track.autolococoupler.tips=Stelle Slaag Lokomotiewe Om nlink met die eerste Cart Hulle \ nCollide Met en dan outomaties \ NSwitch Om rangeer Spoed \ n§o§c- Pas op Redstone in staat stel \. -
+# end ou spore
+
+tile.railcraft.wall.abyssal.brick.name=Abyssal Brick Wall
+tile.railcraft.wall.bleachedbone.brick.name=Gebleik been Brick Wall
+tile.railcraft.wall.bloodstained.brick.name=bebloede Brick Wall
+tile.railcraft.wall.brick.name=Brick Wall
+tile.railcraft.wall.concrete.name=Beton Muur
+tile.railcraft.wall.diamond.name=Diamond Wall
+tile.railcraft.wall.frost.bound.brick.name=Frost Bound Brick Wall
+tile.railcraft.wall.gold.name=Gold Wall
+tile.railcraft.wall.ice.name=Ice Wall
+tile.railcraft.wall.infernal.brick.name=Infernal Brick Wall
+tile.railcraft.wall.iron.name=ystermuur
+tile.railcraft.wall.nether.brick.name=Nether Brick Wall
+tile.railcraft.wall.obsidian.name=Obsidian Wall
+tile.railcraft.wall.quarried.brick.name=ontgin Brick Wall
+tile.railcraft.wall.quartz.chiseled.name=chiseled Quartz Wall
+tile.railcraft.wall.quartz.name=Quartz Wall
+tile.railcraft.wall.sandstone.chiseled.name=chiseled sandsteen Wall
+tile.railcraft.wall.sandstone.name=sandsteen Wall
+tile.railcraft.wall.sandstone.smooth.name=Glad sandsteen Wall
+tile.railcraft.wall.sandy.brick.name=Sandy Brick Wall
+tile.railcraft.wall.snow.name=Snow Wall
+tile.railcraft.wall.stone.brick.chiseled.name=chiseled Stone Brick Wall
+tile.railcraft.wall.stone.brick.cracked.name=Gekraak Stone Brick Wall
+tile.railcraft.wall.stone.brick.mossy.name=mossig Stone Brick Wall
+tile.railcraft.wall.stone.brick.name=Stone Brick Wall
+
+tile.railcraft.worldlogic.name=Salt Peter Ore kuiter
+
+tooltip.wawla.tooltype.crowbar=koevoet
+
+
+################################################## ####################################
+# Flex Tracks
+################################################## ####################################
+
+tile.railcraft.track.flex.abandoned.name=Abandoned Track
+tile.railcraft.track.flex.abandoned.tips=§9Danger: ontsporing Risiko \ Ncan opgeskort oor gapings in terrein.
+
+tile.railcraft.track.flex.electric.name=Electric Track
+tile.railcraft.track.flex.electric.tips=§9Danger: High Voltage \ N §rPowered deur Elektrisiteit \ N Gebruik met elektriese lokomotief \ N Gebruik Electric Feeder Eenhede aan bewind \ N Gebruik rangeer draad om gapings te oorbrug
+
+tile.railcraft.track.flex.high.speed.name=High Speed ​​Track
+tile.railcraft.track.flex.high.speed.tips=§9Danger: High Speed ​​\ N §rVery Fast \ N Vereis Boosters / Oorgange te bereik spoed \ N Kan nie hoeke maak by High Speed
+
+tile.railcraft.track.flex.hs.electric.name=High Speed ​​Electric Track
+tile.railcraft.track.flex.hs.electric.tips=§9Danger: High Voltage / Spoed \ N §rVery Fast \ N §rPowered deur Elektrisiteit \ N Gebruik met elektriese lokomotief \ N Vereis Boosters / Oorgange na spoed \ N bereik Kan nie maak hoeke by High Speed
+
+tile.railcraft.track.flex.reinforced.name=Gewapende Track
+tile.railcraft.track.flex.reinforced.tips=125% van die spoed van die normale spoor \ N Explosion bestand
+
+tile.railcraft.track.flex.strap.iron.name=band Iron Track
+tile.railcraft.track.flex.strap.iron.tips=30% van die spoed van Yster Track
+
+
+################################################## ####################################
+# Track Kits & uitrustings Tracks
+# --------------------------------------------
+#
+# As jy wil Fyner beheer van die vertaling, kan jy ignoreer tags soos hieronder gesien.
+#
+# Ignoreer Tags:
+# Item.railcraft.track_kit.railcraft_activator.name=Activator Track Kit
+# Tile.railcraft.track_outfitted.railcraft_strap_iron.railcraft_activator.name=band Iron Activator Track
+#
+################################################## ####################################
+
+track_kit item.railcraft.track_kit.name={} Track Kit
+track_type tile.railcraft.track_outfitted.name={} {} Track track_kit
+
+track_kit.railcraft.railcraft_activator.name=Activator
+track_kit.railcraft.railcraft_activator.tips=Aktiveer verbygaande karre \ n§o§c- Pas op Redstone in staat te stel -
+
+track_kit.railcraft.railcraft_booster.name=Booster
+track_kit.railcraft.railcraft_booster.tips=toepassing op die krag hupstoot aan winkelwagen \ nSlows as unpowered \ n§o§c- Pas op Redstone in staat te stel -
+
+track_kit.railcraft.railcraft_buffer.name=Buffer Stop
+track_kit.railcraft.railcraft_buffer.tips=Einde van die Line \ n§o§9- treffer met koevoet om van rigting te verander -
+
+track_kit.railcraft.railcraft_control.name=Beheer
+track_kit.railcraft.railcraft_control.tips=Pas 'n klein krag om die wa \ n§o§9- treffer met koevoet om van rigting te verander - \ n§o§c- Pas Redstone om van rigting te verander -
+
+track_kit.railcraft.railcraft_coupler.name=Coupler
+track_kit.railcraft.railcraft_coupler.tips=paartjies / ontkoppelt verby Carts \ n§o§9- treffer met koevoet om af te verander - \ n§o§c- Pas op Redstone in staat te stel -
+
+track_kit.railcraft.railcraft_detector.name=Aanwyser
+track_kit.railcraft.railcraft_detector.tips=straal Redstone Wanneer 'n kar verby \ N in die aangeduide rigting \ n§o§9- treffer met koevoet om rigting opsporing verander -
+
+track_kit.railcraft.railcraft_disembarking.name=afklim
+track_kit.railcraft.railcraft_disembarking.tips=Klim ry in die rigting van pyl Entiteite \ n§o§9- treffer met koevoet om van rigting te verander - \ n§o§c- Pas op Redstone in staat te stel -
+
+track_kit.railcraft.railcraft_dumping.name=Storting
+track_kit.railcraft.railcraft_dumping.tips=afgestel spoor \ N druppels Items entiteite of deur die spoor \ n§o§c- Pas op Redstone skakel -
+
+track_kit.railcraft.railcraft_embarking.name=begin
+track_kit.railcraft.railcraft_embarking.tips=Vragte entiteite in Carts \ n§o§9- treffer met koevoet om verskeidenheid te verander - \ n§o§c- Pas op Redstone in staat te stel -
+
+track_kit.railcraft.railcraft_gated.name=Toegangsbeheerde
+track_kit.railcraft.railcraft_gated.tips=Track met ingeboude Gate \ n§o§c- Pas Redstone oop te maak -
+
+track_kit.railcraft.railcraft_gated_one_way.name=Toegangsbeheerde One-Way
+track_kit.railcraft.railcraft_gated_one_way.tips=Track met ingeboude One-Way Gate \ n§o§c- Pas Redstone oop te maak -
+
+track_kit.railcraft.railcraft_launcher.name=Launcher
+track_kit.railcraft.railcraft_launcher.tips=Maak karre vlieg \ n§o§c- Pas op Redstone in staat te stel! -
+
+track_kit.railcraft.railcraft_throttle.name=Throttle
+Pas die spoed track_kit.railcraft.railcraft_throttle.tips=\ N van verbygaande Lokomotiewe \ n§o§9- treffer met koevoet om af te verander - \ n§o§c- Pas op Redstone in staat te stel -
+
+track_kit.railcraft.railcraft_locking.name=Locking
+track_kit.railcraft.railcraft_locking.tips=Tops en hou karre \ n§o§9- treffer met koevoet om af te verander - \ n§o§c- Pas op Redstone in staat te stel -
+
+track_kit.railcraft.railcraft_locomotive.name=Lokomotief
+track_kit.railcraft.railcraft_locomotive.tips=Begin / Stop Lokomotiewe \ n§o§9- treffer met koevoet om af te verander - \ n§o§c- Pas op Redstone in staat te stel -
+
+track_kit.railcraft.railcraft_missing.name=Ongeldige
+track_kit.railcraft.railcraft_missing.tips=Plekhouer
+
+track_kit.railcraft.railcraft_one_way.name=One-Way
+track_kit.railcraft.railcraft_one_way.tips=Carts kan net slaag \ N in die rigting van die pyl \ n§o§9- treffer met koevoet om van rigting te verander -
+
+track_kit.railcraft.railcraft_priming.name=priming
+track_kit.railcraft.railcraft_priming.tips=ontbrand TNT Carts \ N verstelbare Fuse \ n§o§9- treffer met koevoet om lont te verander - \ n§o§c- Pas op Redstone in staat te stel -
+
+track_kit.railcraft.railcraft_routing.name=Routing
+track_kit.railcraft.railcraft_routing.tips=stelle verby Lokomotief se kaartjie \ n§o§9- treffer met koevoet kaartjie te verander -
+
+track_kit.railcraft.railcraft_transition.name=Oorgang
+track_kit.railcraft.railcraft_transition.tips=oorgange na / vanaf High Speed ​​\ n§o§c- Pas op Redstone in staat te stel -
+
+track_kit.railcraft.railcraft_whistle.name=Whistle
+Verbygaande Lokomotiewe track_kit.railcraft.railcraft_whistle.tips=\ N Whistle sal blaas Hul \ n§o§c- Pas op Redstone in staat te stel -
+
+track_type.railcraft.railcraft_iron.name=Yster
+track_type.railcraft.railcraft_strap_iron.name=band Iron
+track_type.railcraft.railcraft_abandoned.name=Abandoned
+track_type.railcraft.railcraft_reinforced.name=Gewapende
+track_type.railcraft.railcraft_high_speed.name=H. S.
+track_type.railcraft.railcraft_high_speed_electric.name=H. S.E.
+track_type.railcraft.railcraft_electric.name=Electric
