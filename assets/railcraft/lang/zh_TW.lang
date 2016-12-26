@@ -361,8 +361,8 @@ railcraft.gates.trigger.work=運作中
 
 railcraft.gui.anchor.fuel.remaining=%s小時
 railcraft.gui.anchor.fuel=終界珍珠
-railcraft.gui.anchor.pair.fail.alignment=@1$s 與 @2$s 不在同一條軸線上
-railcraft.gui.anchor.pair.fail.distance=@1$s 和 @2$s 相距過遠，無法配對
+railcraft.gui.anchor.pair.fail.alignment=%1$s 與 %2$s 不在同一條軸線上
+railcraft.gui.anchor.pair.fail.distance=%1$s 和 %2$s 相距過遠，無法配對
 railcraft.gui.anchor.pair.fail.dimension=%s 與目標處在不同的世界
 railcraft.gui.anchor.pair.fail.invalid=這不是一個可以與 %s 配對的目標
 railcraft.gui.anchor.pair.fail.unloaded=嘗試配對 %s 時目標並未被讀取
