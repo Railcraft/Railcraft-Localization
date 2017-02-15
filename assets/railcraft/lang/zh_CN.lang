@@ -787,10 +787,8 @@ tile.railcraft.machine.alpha.blast.furnace.name=高炉砖
 tile.railcraft.machine.alpha.blast.furnace.tips=多方块结构:3x4x3(中空)
 tile.railcraft.machine.alpha.coke.oven.name=焦炉砖
 tile.railcraft.machine.alpha.coke.oven.tips=多方块结构:3x3x3(中空)
-tile.railcraft.machine.simple.feed.station.name=饲育站
 tile.railcraft.machine.alpha.rock.crusher.name=碎石机
 tile.railcraft.machine.alpha.rock.crusher.tips=多方块结构:3x2x2
-tile.railcraft.machine.simple.rolling.machine.name=辊压机
 tile.railcraft.machine.alpha.smoker.name=发烟器
 tile.railcraft.machine.alpha.steam.oven.name=蒸汽炉
 tile.railcraft.machine.alpha.steam.oven.tips=多方块结构:2x2x2
@@ -841,6 +839,9 @@ tile.railcraft.machine.epsilon.flux.transformer.name=能量流转换机
 tile.railcraft.machine.epsilon.flux.transformer.tips=多方块结构: 2x2x2\n 将RF能量转换为RC电力\n 80%的效率
 tile.railcraft.machine.epsilon.force.track.emitter.name=轨道发射机
 tile.railcraft.machine.epsilon.force.track.emitter.tips=发射以RC电力为能量供应的镭射轨道
+
+tile.railcraft.machine.simple.feed.station.name=饲育站
+tile.railcraft.machine.simple.rolling.machine.name=辊压机
 
 tile.railcraft.manipulator.dispenser.cart.name=矿车分车站
 tile.railcraft.manipulator.dispenser.cart.tips=向轨道分配矿车\n§o§9- 可与控制轨道配对 -\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出矿车 -
