@@ -783,10 +783,8 @@ tile.railcraft.machine.alpha.blast.furnace.name=Hochofenziegel
 tile.railcraft.machine.alpha.blast.furnace.tips=Multiblock: 3x4x3 (Hohlraum)
 tile.railcraft.machine.alpha.coke.oven.name=Kokerei
 tile.railcraft.machine.alpha.coke.oven.tips=Multiblock: 3x3x3 (Hohlraum)
-tile.railcraft.machine.simple.feed.station.name=Futterstation
 tile.railcraft.machine.alpha.rock.crusher.name=Steinbrecher
 tile.railcraft.machine.alpha.rock.crusher.tips=Multiblock: 3x2x2
-tile.railcraft.machine.simple.rolling.machine.name=Walzmaschine
 tile.railcraft.machine.alpha.smoker.name=Schornstein
 tile.railcraft.machine.alpha.steam.oven.name=Dampfkessel
 tile.railcraft.machine.alpha.steam.oven.tips=Multiblock: 2x2x2
@@ -837,6 +835,9 @@ tile.railcraft.machine.epsilon.flux.transformer.name=Fluxtransformator
 tile.railcraft.machine.epsilon.flux.transformer.tips=Multi-Block: 2x2x2\n Wandelt Redstone Flux in Railcraft-Energie um\n 80% Effizienz
 tile.railcraft.machine.epsilon.force.track.emitter.name=Kraftfeldgleisemitter
 tile.railcraft.machine.epsilon.force.track.emitter.tips=Projeziert energiebasierte Gleise
+
+tile.railcraft.machine.simple.feed.station.name=Futterstation
+tile.railcraft.machine.simple.rolling.machine.name=Walzmaschine
 
 tile.railcraft.manipulator.dispenser.cart.name=Waggonspender
 tile.railcraft.manipulator.dispenser.cart.tips=Lädt Waggons direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Waggon mit einem Redstone-Signal auf ein Gleis -
