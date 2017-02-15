@@ -783,10 +783,8 @@ tile.railcraft.machine.alpha.blast.furnace.name=Blast Furnace Brick
 tile.railcraft.machine.alpha.blast.furnace.tips=Multi-Block: 3x4x3 (Hollow)
 tile.railcraft.machine.alpha.coke.oven.name=Coke Oven Brick
 tile.railcraft.machine.alpha.coke.oven.tips=Multi-Block: 3x3x3 (Hollow)
-tile.railcraft.machine.alpha.feed.station.name=Feed Station
 tile.railcraft.machine.alpha.rock.crusher.name=Rock Crusher
 tile.railcraft.machine.alpha.rock.crusher.tips=Multi-Block: 3x2x2
-tile.railcraft.machine.alpha.rolling.machine.name=Rolling Machine
 tile.railcraft.machine.alpha.smoker.name=Smoker
 tile.railcraft.machine.alpha.steam.oven.name=Steam Oven
 tile.railcraft.machine.alpha.steam.oven.tips=Multi-Block: 2x2x2
@@ -837,6 +835,9 @@ tile.railcraft.machine.epsilon.flux.transformer.name=Flux Transformer
 tile.railcraft.machine.epsilon.flux.transformer.tips=Multi-Block: 2x2x2\n Converts Redstone Flux to Railcraft Charge\n 80% Efficiency
 tile.railcraft.machine.epsilon.force.track.emitter.name=Force Track Emitter
 tile.railcraft.machine.epsilon.force.track.emitter.tips=Projects energy-based tracks
+
+tile.railcraft.machine.simple.feed.station.name=Feed Station
+tile.railcraft.machine.simple.rolling.machine.name=Rolling Machine
 
 tile.railcraft.manipulator.dispenser.cart.name=Cart Dispenser
 tile.railcraft.manipulator.dispenser.cart.tips=Dispenses Carts onto Tracks\n§o§9- Pair with Control Track -\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Apply Redstone to dispense Cart -

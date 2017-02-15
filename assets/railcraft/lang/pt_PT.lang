@@ -120,9 +120,9 @@ fluid.steam=Vapor
 
 tile.railcraft.machine.alpha.blast.furnace.name=Tijolo de Alto-Forno
 tile.railcraft.machine.alpha.coke.oven.name=Tijolo de Forno de Coque
-tile.railcraft.machine.alpha.feed.station.name=Estação de Alimentação
+tile.railcraft.machine.simple.feed.station.name=Estação de Alimentação
 tile.railcraft.machine.alpha.rock.crusher.name=Esmagador de Pedras
-tile.railcraft.machine.alpha.rolling.machine.name=Máquina de Enrolar
+tile.railcraft.machine.simple.rolling.machine.name=Máquina de Enrolar
 tile.railcraft.machine.alpha.tank.water.name=Bloco de Tanque de Água
 tile.railcraft.machine.alpha.turbine.name=Central da Turbina a Vapor
 tile.railcraft.machine.alpha.anchor.world.name=Ancorador
