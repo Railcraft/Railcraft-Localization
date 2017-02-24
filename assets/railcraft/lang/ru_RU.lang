@@ -13,6 +13,22 @@ command.railcraft.railcraft.debug.desc=- %s : Инструменты отлад�
 command.railcraft.railcraft.debug.help=Инструменты для отладки затруднительных проблем.
 command.railcraft.railcraft.debug.format=Формат: /%s
 
+command.railcraft.railcraft.admin.kill.desc=- %s : Задачи убийства(уничтожения/остановки)
+command.railcraft.railcraft.admin.kill.help=Инструменты для убийства вещей(грубый перевод).
+command.railcraft.railcraft.admin.kill.format=Формат: /%s
+
+command.railcraft.railcraft.admin.kill.animals.desc=- %s : Убить животных
+command.railcraft.railcraft.admin.kill.animals.help=Убивает всех животных в текущем мире.
+command.railcraft.railcraft.admin.kill.animals.format=Формат: /%s
+
+command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : Уничтожить(остановить) вагонетки
+command.railcraft.railcraft.admin.kill.minecarts.help=Уничтожает все вагонетки в текущем мире.
+command.railcraft.railcraft.admin.kill.minecarts.format=Формат: /%s
+
+command.railcraft.railcraft.debug.desc=- %s : Инструменты отладки
+command.railcraft.railcraft.debug.help=Инструменты для отладки сложных ошибок.
+command.railcraft.railcraft.debug.format=Формат: /%s
+
 command.railcraft.railcraft.debug.tile.desc=- %s : Инструменты отладки блоков
 command.railcraft.railcraft.debug.tile.help=Инструменты для отладки блоков.
 command.railcraft.railcraft.debug.tile.format=Формат: /%s x y z
@@ -41,6 +57,13 @@ death.railcraft.crusher.6=Сейчас на скидке! %s кровавое ж
 death.railcraft.crusher.7=%s превратился в пасту
 death.railcraft.crusher.8=%s был должен прочитать инструкцию
 
+death.railcraft.electric.1=%s передает привет Николе Тесла.
+death.railcraft.electric.2=%s изучил смысл выражения "Высокое напряжение"
+death.railcraft.electric.3=%s понял чудеса электрификации
+death.railcraft.electric.4=%s должен читать предупреждающие знаки
+death.railcraft.electric.5=%s сделал шокирующее откровение
+death.railcraft.electric.6=%s узнал кое-что о электричестве, ОНО БЬЁТ!
+
 death.railcraft.steam.1=%s был приготовлен, аппетитный и сочный
 death.railcraft.steam.2=%s не защищён от высоких температур, несмотря на заявления об обратном
 death.railcraft.steam.3=%s обнаружил, каким болезненным может быть пар
@@ -66,30 +89,34 @@ enchantment.railcraft.crowbar.destruction=Разрушение
 enchantment.railcraft.crowbar.implosion=Имплозия
 enchantment.railcraft.crowbar.wrecking=Уничтожение
 
-entity.railcraft.cart.anchor.admin.name=Вагонетка с якорем администратора
-entity.railcraft.cart.anchor.name=Вагонетка с мировым якорем
-entity.railcraft.cart.anchor.personal.name=Вагонетка с личным якорем
-entity.railcraft.cart.basic.name=Вагонетка
 entity.railcraft.bore.name=Проходческий щит
-entity.railcraft.cart.cargo.name=Грузовая вагонетка
-entity.railcraft.cart.chest.name=Вагонетка с сундуком
-entity.railcraft.cart.ic2.batbox.name=Вагонетка с энергохранителем
-entity.railcraft.cart.ic2.cesu.name=Вагонетка с ЦЭСУ
-entity.railcraft.cart.ic2.mfe.name=Вагонетка с МФЭ
-entity.railcraft.cart.ic2.mfsu.name=Вагонетка с МФСУ
-entity.railcraft.cart.furnace.name=Вагонетка с печью
-entity.railcraft.cart.gift.name=Вагонетка с подарком
-entity.railcraft.locomotive.electric.name=Электровоз
-entity.railcraft.locomotive.steam.solid.name=Паровой локомотив
-entity.railcraft.cart.pumpkin.name=Вагонетка с тыквой
-entity.railcraft.cart.tank.name=Вагонетка с цистерной
-entity.railcraft.cart.tnt.name=Вагонетка с динамитом
-entity.railcraft.cart.tnt.wood.name=Деревянная вагонетка с динамитом
-entity.railcraft.mow.track.layer.name=Укладчик путей
-entity.railcraft.mow.track.relayer.name=Переукладчик путей
-entity.railcraft.mow.track.remover.name=Убиратель путей
-entity.railcraft.mow.undercutter.name=Врубовая машина
-entity.railcraft.cart.work.name=Вагонетка с верстаком
+entity.railcraft.cart_anchor_admin.name=Вагонетка с якорем администратора
+entity.railcraft.cart_anchor.name=Вагонетка с мировым якорем
+entity.railcraft.cart_anchor_personal.name=Вагонетка с личным якорем
+entity.railcraft.cart_basic.name=Вагонетка
+entity.railcraft.cart_cargo.name=Грузовая вагонетка
+entity.railcraft.cart_chest.name=Вагонетка с сундуком
+entity.railcraft.cart_furnace.name=Вагонетка с печью
+entity.railcraft.cart_gift.name=Подарочная вагонетка
+entity.railcraft.cart_ic2_batbox.name=Вагонетка с энергохранилищем
+entity.railcraft.cart_ic2_cesu.name=Вагонетка с ЦЭСУ
+entity.railcraft.cart_ic2_mfe.name=Вагонетка с МФЭ
+entity.railcraft.cart_ic2_mfsu.name=Вагонетка с МФСУ
+entity.railcraft.cart_pumpkin.name=Вагонетка с тыквой
+entity.railcraft.cart_redstone_flux.name=Redstone Flux вагонетка
+entity.railcraft.cart_tank.name=Вагонетка с цистерной
+entity.railcraft.cart_tnt.name=Вагонетка с динамитом
+entity.railcraft.cart_tnt_wood.name=Деревянная вагонетка с динамитом
+entity.railcraft.cart_work.name=Вагонетка с верстаком
+entity.railcraft.locomotive_creative.name=Локомотив на вечном двигателе
+entity.railcraft.locomotive_electric.name=Электровоз
+entity.railcraft.locomotive_steam_solid.name=Паровой локомотив
+entity.railcraft.mow_track_layer.name=Укладчик путей
+entity.railcraft.mow_track_relayer.name=Переукладчик путей
+entity.railcraft.mow_track_remover.name=Демонтировщик путей
+entity.railcraft.mow_undercutter.name=Врубовая машина
+
+entity.Villager.trackman=Обходчик путей
 
 fluid.creosote=Креозотовое масло
 fluid.steam=Пар
@@ -99,13 +126,13 @@ item.minecartFurnace.name=Вагонетка с печью
 item.minecartTnt.name=Вагонетка с динамитом
 item.minecartHopper.name=Вагонетка с воронкой
 
-item.railcraft.armor.goggles.name=Очки обходчика путей
-item.railcraft.armor.overalls.name=Комбинезон инженера
-item.railcraft.armor.overalls.tip=Защита от\n опасностей работы с рельсами
 item.railcraft.armor.boots.steel.name=Стальные ботинки
+item.railcraft.armor.chestplate.steel.name=Стальная кираса
+item.railcraft.armor.goggles.name=Очки обходчика путей
 item.railcraft.armor.helmet.steel.name=Стальной шлем
 item.railcraft.armor.leggings.steel.name=Стальные поножи
-item.railcraft.armor.chestplate.steel.name=Стальная кираса
+item.railcraft.armor.overalls.name=Комбинезон инженера
+item.railcraft.armor.overalls.tips=Защита от\n опасностей работы с рельсами
 
 item.railcraft.backpack.apothecary.t1.name=Рюкзак фармацевта
 item.railcraft.backpack.apothecary.t2.name=Тканный рюкзак фармацевта
@@ -115,31 +142,51 @@ item.railcraft.backpack.tip=Дизайн Railcraft, Inc.
 item.railcraft.backpack.trackman.t1.name=Рюкзак обходчика путей
 item.railcraft.backpack.trackman.t2.name=Тканый рюкзак обходчика путей
 
+item.railcraft.bleached.clay.name=Отбеленная глина
+
 item.railcraft.borehead.diamond.name=Алмазная головка бура
 item.railcraft.borehead.iron.name=Железная головка бура
 item.railcraft.borehead.steel.name=Стальная головка бура
 
-item.railcraft.entity.cart.anchor.world.name=Вагонетка с мировым якорем
+item.railcraft.circuit.controller.name=Контрольная схема
+item.railcraft.circuit.receiver.name=Приёмная схема
+item.railcraft.circuit.signal.name=Сигнальная схема
+
+item.railcraft.concrete.name=Мешок цемента
+
+item.railcraft.dust.charcoal.name=Древесноугольная пыль
+item.railcraft.dust.obsidian.name=Обсидиановая пыль
+item.railcraft.dust.saltpeter.name=Селитра
+item.railcraft.dust.slag.name=Шлак из доменной печи
+item.railcraft.dust.sulfur.name=Сера
+
+item.railcraft.emblem.name=Эмблема
+
+item.railcraft.entity.bore.name=Проходческий щит
 item.railcraft.entity.cart.anchor.admin.name=Вагонетка с якорем администратора
 item.railcraft.entity.cart.anchor.personal.name=Вагонетка с личным якорем
+item.railcraft.entity.cart.anchor.world.name=Вагонетка с мировым якорем
 item.railcraft.entity.cart.basic.name=Вагонетка
-item.railcraft.entity.bore.name=Проходческий щит
 item.railcraft.entity.cart.cargo.name=Грузовая вагонетка
 item.railcraft.entity.cart.chest.name=Вагонетка с сундуком
+item.railcraft.entity.cart.furnace.name=Вагонетка с печью
+item.railcraft.entity.cart.gift.name=Вагонетка с подарком
+item.railcraft.entity.cart.gift.tip=Счастливого Рождества
 item.railcraft.entity.cart.ic2.batbox.name=Вагонетка с энергохранителем
 item.railcraft.entity.cart.ic2.cesu.name=Вагонетка с ЦЭСУ
 item.railcraft.entity.cart.ic2.mfe.name=Вагонетка с МФЭ
 item.railcraft.entity.cart.ic2.mfsu.name=Вагонетка с МФСУ
-item.railcraft.entity.cart.furnace.name=Вагонетка с печью
-item.railcraft.entity.cart.gift.name=Вагонетка с подарком
-item.railcraft.entity.cart.gift.tip=Счастливого Рождества
-item.railcraft.entity.locomotive.electric.name=Электровоз
-item.railcraft.entity.locomotive.steam.solid.name=Паровой локомотив
 item.railcraft.entity.cart.pumpkin.name=Вагонетка с тыквой
 item.railcraft.entity.cart.pumpkin.tip=Кошелёк или жизнь
+item.railcraft.entity.cart.redstone.flux.name=Redstone Flux Cart
 item.railcraft.entity.cart.tank.name=Вагонетка с цистерной
 item.railcraft.entity.cart.tnt.name=Вагонетка с динамитом
 item.railcraft.entity.cart.tnt.wood.name=Деревянная вагонетка с динамитом
+item.railcraft.entity.cart.work.name=Вагонетка с верстаком
+item.railcraft.entity.locomotive.creative.name=Локомотив на вечном двигателе
+item.railcraft.entity.locomotive.creative.tips=§o§9Creative Only
+item.railcraft.entity.locomotive.electric.name=Электровоз
+item.railcraft.entity.locomotive.steam.solid.name=Паровой локомотив
 item.railcraft.entity.mow.track.layer.name=Укладчик путей
 item.railcraft.entity.mow.track.layer.tip=Укладывает пути, когда движется
 item.railcraft.entity.mow.track.relayer.name=Переукладчик путей
@@ -148,14 +195,6 @@ item.railcraft.entity.mow.track.remover.name=Убиратель путей
 item.railcraft.entity.mow.track.remover.tip=Убирает пути, по которым движется
 item.railcraft.entity.mow.undercutter.name=Врубовая машина
 item.railcraft.entity.mow.undercutter.tip=Заменяет блоки\n под путями
-item.railcraft.entity.cart.work.name=Вагонетка с верстаком
-
-item.railcraft.dust.charcoal.name=Древесноугольная пыль
-item.railcraft.dust.obsidian.name=Обсидиановая пыль
-item.railcraft.dust.saltpeter.name=Селитра
-item.railcraft.dust.sulfur.name=Сера
-
-item.railcraft.emblem.name=Эмблема
 
 item.railcraft.firestone.cracked.name=Потрескавшийся огненный камень
 item.railcraft.firestone.cracked.tip.empty=Повреждённый, он\n всё ещё может быть полезным,\n если бы Вы могли зарядить его...
@@ -168,81 +207,115 @@ item.railcraft.firestone.refined.name=Очищенный огненный кам
 item.railcraft.firestone.refined.tip.empty=Его энергия контролируется,\n он мог бы быть полезным,\n если бы Вы могли зарядить его...
 item.railcraft.firestone.refined.tip.charged=Наполнен энергией,\n Вам нужно только приложить\n свою волю на то,\n чтобы выпустить тепло...
 
-item.railcraft.fluid.creosote.bottle.name=Бутылка креозотового масла
-item.railcraft.fluid.creosote.bucket.name=Ведро креозотового масла
+item.railcraft.fluid.bottle.creosote.name=Бутылка креозотового масла
+item.railcraft.fluid.bottle.steam.name=Бутылка пара
+item.railcraft.fluid.bucket.creosote.name=Ведро креозотового масла
+
 item.railcraft.fluid.creosote.can.name=Банка креозотового масла
 item.railcraft.fluid.creosote.cell.name=Капсула креозотового масла
 item.railcraft.fluid.creosote.refactory.name=Огнеупорная капсула креозотового масла
 item.railcraft.fluid.creosote.wax.name=Восковая капсула креозотового масла
-item.railcraft.fluid.steam.bottle.name=Бутылка пара
 
 item.railcraft.fuel.coke.name=Коксовый уголь
 
+item.railcraft.gear.bushing.name=Оловянная втулка шестерни
+item.railcraft.gear.gold.plate.name=Золотая шестерня
+item.railcraft.gear.iron.name=Железная шестерня
+item.railcraft.gear.steel.name=Стальная шестерня
+
 item.railcraft.ingot.copper.name=Медный слиток
 item.railcraft.ingot.lead.name=Свинцовый слиток
+item.railcraft.ingot.silver.name=Серебряный слиток
 item.railcraft.ingot.steel.name=Стальной слиток
 item.railcraft.ingot.tin.name=Оловянный слиток
 
 item.railcraft.nugget.copper.name=Медный самородок
 item.railcraft.nugget.iron.name=Железный самородок
 item.railcraft.nugget.lead.name=Свинцовый самородок
+item.railcraft.nugget.silver.name=Серебряный самородок
 item.railcraft.nugget.steel.name=Стальной самородок
 item.railcraft.nugget.tin.name=Оловянный самородок
 
-item.railcraft.bleached.clay.name=Отбеленная глина
-item.railcraft.circuit.controller.name=Контрольная схема
-item.railcraft.circuit.receiver.name=Приёмная схема
-item.railcraft.circuit.signal.name=Сигнальная схема
-item.railcraft.gear.bushing.name=Оловянная втулка шестерни
-item.railcraft.gear.gold.plate.name=Золотая шестерня
-item.railcraft.gear.iron.name=Железная шестерня
-item.railcraft.gear.steel.name=Стальная шестерня
 item.railcraft.plate.copper.name=Медная пластина
 item.railcraft.plate.iron.name=Железная пластина
+item.railcraft.plate.lead.name=Свинцовая пластина
+item.railcraft.plate.silver.name=Серебряная пластина
 item.railcraft.plate.steel.name=Стальная пластина
 item.railcraft.plate.tin.name=Оловянная пластина
+
 item.railcraft.rail.advanced.name=Продвинутый рельс
 item.railcraft.rail.electric.name=Электрический рельс
 item.railcraft.rail.reinforced.name=Укреплённый рельс
 item.railcraft.rail.speed.name=Высокоскоростной рельс
 item.railcraft.rail.standard.name=Стандартный рельс
 item.railcraft.rail.wood.name=Деревянный рельс
+
 item.railcraft.railbed.stone.name=Каменное полотно
 item.railcraft.railbed.wood.name=Деревянное полотно
+
 item.railcraft.rebar.name=Арматура
-item.railcraft.signal.lamp.name=Сигнальная лампа
-item.railcraft.tie.stone.name=Каменная шпала
-item.railcraft.tie.wood.name=Деревянная шпала
-item.railcraft.turbine.blade.name=Лопатка турбины
-item.railcraft.turbine.disk.name=Диск турбины
-item.railcraft.turbine.rotor.name=Ротор турбины
 
 item.railcraft.routing.table.name=Таблица маршрутизации
 item.railcraft.routing.ticket.gold.name=Золотой железнодорожный билет
 item.railcraft.routing.ticket.name=Железнодорожный билет
 
+item.railcraft.signal.lamp.name=Сигнальная лампа
+
+item.railcraft.tie.stone.name=Каменная шпала
+item.railcraft.tie.wood.name=Деревянная шпала
+
+item.railcraft.tool.axe.steel.name=Стальной топор
+item.railcraft.tool.charge.meter.name=Электросчётчик
+item.railcraft.tool.charge.meter.tips=§oright click on Charge blocks to inspect
+item.railcraft.tool.crowbar.iron.name=Железная монтировка
 item.railcraft.tool.crowbar.magic.name=Таум-монтировка
-item.railcraft.tool.crowbar.iron.name=Монтировка
-item.railcraft.tool.crowbar.steel.name=Армированная монтировка
+item.railcraft.tool.crowbar.steel.name=Стальная монтировка
 item.railcraft.tool.crowbar.tip=§oНажмите ПКМ, держа Shift, чтобы соединить вагонетки
 item.railcraft.tool.crowbar.void.name=Монтировка из пустотного металла
-item.railcraft.tool.charge.meter.name=Электросчётчик
-item.railcraft.tool.magnifying.glass.name=Лупа
-item.railcraft.tool.signal.tuner.name=Настройщик сигнала
-item.railcraft.tool.signal.tuner.tip=Соединяет контроллеры с приёмниками
-item.railcraft.tool.axe.steel.name=Стальной топор
 item.railcraft.tool.hoe.steel.name=Стальная мотыга
+item.railcraft.tool.magnifying.glass.name=Лупа
+item.railcraft.tool.notepad.action.copy.fail=Nothing to copy. Not a valid target.
+item.railcraft.tool.notepad.action.copy=Copied settings from %s
+item.railcraft.tool.notepad.action.empty=Nothing to paste. Shift-click on a target to copy.
+item.railcraft.tool.notepad.action.paste.fail=Nothing to paste. Not a valid target.
+item.railcraft.tool.notepad.action.paste=Pasted settings to %s
+item.railcraft.tool.notepad.name=Trackman's Notepad
+item.railcraft.tool.notepad.tips.contents.empty=§4Empty
+item.railcraft.tool.notepad.tips.contents.filter.cart=§eCart Filters
+item.railcraft.tool.notepad.tips.contents.filter.fluid=§bFluid Filters
+item.railcraft.tool.notepad.tips.contents.filter.items=§2Item Filters
+item.railcraft.tool.notepad.tips.contents=Contents: %s
+item.railcraft.tool.notepad.tips.mode.transfer.all.name=All
+item.railcraft.tool.notepad.tips.mode.cart.filter=Carts Filter
+item.railcraft.tool.notepad.tips.mode.loader.filters=Item/Fluid Filters
+item.railcraft.tool.notepad.tips.mode=Paste Mode: %s
+item.railcraft.tool.notepad.tips=§oright click to paste, sneak right click to copy \n§osneak right click air to clear
 item.railcraft.tool.pickaxe.steel.name=Стальная кирка
 item.railcraft.tool.shears.steel.name=Стальные ножницы
 item.railcraft.tool.shovel.steel.name=Стальная лопата
-item.railcraft.tool.sword.steel.name=Стальной меч
+item.railcraft.tool.signal.label.name=Сигнальная метка
+item.railcraft.tool.signal.label.tips=§9- rename in anvil -\n§oright click while sneaking\n§oto name a signal or signal box
 item.railcraft.tool.signal.surveyor.name=Блок сигнальной привязки
-item.railcraft.tool.signal.surveyor.tip=Соединяет сигналы в сигнальные блоки
+item.railcraft.tool.signal.surveyor.tips=Соединяет сигналы в сигнальные блоки
+item.railcraft.tool.signal.tuner.name=Настройщик сигнала
+item.railcraft.tool.signal.tuner.tip=Соединяет контроллеры с приёмниками
+item.railcraft.tool.stone.carver.name=Каменный резчик
+item.railcraft.tool.sword.steel.name=Стальной меч
 item.railcraft.tool.whistle.tuner.name=Настройщик свистка
+
+item.railcraft.track.parts.name=Track Parts
+item.railcraft.track.parts.tips=Used in crafting Track Kits
+
+item.railcraft.turbine.blade.name=Лопатка турбины
+item.railcraft.turbine.disk.name=Диск турбины
+item.railcraft.turbine.rotor.name=Ротор турбины
 
 item.railcraft.upgrade.lapotron=Лапотроновое улучшение энергоёмкости
 
 item.synthetic=Синтетика
+
+itemGroup.railcraft.general=Railcraft
+itemGroup.railcraft.track=Railcraft Outfitted Tracks
 
 railcraft.color.black=Чёрный
 railcraft.color.blue=Синий
@@ -328,6 +401,12 @@ railcraft.gui.cart.undercutter.sides=Стороны
 railcraft.gui.cart.undercutter.stock=Инвентарь
 railcraft.gui.cart.undercutter.under=Под
 
+railcraft.gui.charge.meter.cart=Cart -> Charge: %s c | Draw: %s c/t | Loss: %s c/t
+railcraft.gui.charge.meter.network=Net -> Size: %s | Charge: %s c | Draw: %s c/t | Loss: %s c/t
+railcraft.gui.charge.meter.producer=Supply -> Charge: %s c | Production: %s c/t
+railcraft.gui.charge.meter.node=Node -> Draw: %s c/t | Loss: %s c/t
+railcraft.gui.charge.meter.start=Recording data over %s seconds...
+
 railcraft.gui.coke.oven=Коксовая печь
 
 railcraft.gui.detector.item.analog=Аналоговый
@@ -394,23 +473,23 @@ railcraft.gui.help=Помощь
 
 railcraft.gui.ic2.energy.rate=Коэффициент: %s EU
 
-railcraft.gui.item.loader.all.tip=Переместить все подходящие предметы
-railcraft.gui.item.loader.all=Все
-railcraft.gui.item.loader.buffer=Буфер
-railcraft.gui.item.loader.complete.tip=Сигнал крас. камня по завершению
-railcraft.gui.item.loader.complete=Полностью
-railcraft.gui.item.loader.excess.tip=Оставить предметы из фильтра,\n переместить остальное
-railcraft.gui.item.loader.excess=Такие же
-railcraft.gui.item.loader.partial.tip=Сигнал крас. камня, если предметы не были перемещены\n и вагонетка не пустая
-railcraft.gui.item.loader.partial=Частично
-railcraft.gui.item.loader.immediate.tip=Сигнал крас. камня,\n если предметы не были перемещены
-railcraft.gui.item.loader.immediate=Немедленно
-railcraft.gui.item.loader.manual.tip=Никогда не излучать сигнал крас. камня
-railcraft.gui.item.loader.manual=Вручную
-railcraft.gui.item.loader.stock.tip=Перемещать предметы\n до совпадения с фильтром
-railcraft.gui.item.loader.stock=Содержимое
-railcraft.gui.item.loader.transfer.tip=Переместить в точности столько предметов,\n сколько их в фильтре
-railcraft.gui.item.loader.transfer=Количество
+gui.railcraft.manipulator.buffer=Буфер
+gui.railcraft.manipulator.redstone.complete.name=Завершено
+gui.railcraft.manipulator.redstone.complete.tips=Продолжать до конца операции
+gui.railcraft.manipulator.redstone.immediate.name=Immediate
+gui.railcraft.manipulator.redstone.immediate.tips=Process until out of room or supply
+gui.railcraft.manipulator.redstone.manual.name=Инструкция
+gui.railcraft.manipulator.redstone.manual.tips=Never emit Redstone
+gui.railcraft.manipulator.redstone.partial.name=Partial
+gui.railcraft.manipulator.redstone.partial.tips=Process until out of room or supply,\n but keep pristine carts
+gui.railcraft.manipulator.transfer.all.name=All
+gui.railcraft.manipulator.transfer.all.tips=Move all matching items
+gui.railcraft.manipulator.transfer.excess.name=Excess
+gui.railcraft.manipulator.transfer.excess.tips=Move until the Cart\n matches the filter
+gui.railcraft.manipulator.transfer.stock.name=Stock
+gui.railcraft.manipulator.transfer.stock.tips=Move until the destination\n matches the filter
+gui.railcraft.manipulator.transfer.transfer.name=Transfer
+gui.railcraft.manipulator.transfer.transfer.tips=Move exactly as much\n as is in the filter
 
 railcraft.gui.link.broken=Соединение сломано
 railcraft.gui.link.created=Соединение создано
@@ -418,20 +497,6 @@ railcraft.gui.link.failed=Соединение провалено
 railcraft.gui.link.started=Соединение запущено
 
 railcraft.gui.liquid.capacity=Ёмкость
-railcraft.gui.liquid.loader.empty.tip=Удерживать пустые вагонетки
-railcraft.gui.liquid.loader.empty=Пустые
-railcraft.gui.liquid.loader.fill.tip=Удерживать вагонетки\n до полного заполнения
-railcraft.gui.liquid.loader.fill=Заполнить
-railcraft.gui.liquid.loader.immediate.tip=Сигнал крас. камня,\n если жидкость не была перенесена
-railcraft.gui.liquid.loader.immediate=Немедленно
-railcraft.gui.liquid.loader.manual.tip=Никогда не излучать сигнал крас. камня
-railcraft.gui.liquid.loader.manual=Вручную
-railcraft.gui.liquid.unloader.empty.tip=Удерживать вагонетки\n до полного опустошения
-railcraft.gui.liquid.unloader.empty=Пустая
-railcraft.gui.liquid.unloader.immediate.tip=Сигнал крас. камня,\n если жидкость не была перенесена
-railcraft.gui.liquid.unloader.immediate=Немедленно
-railcraft.gui.liquid.unloader.manual.tip=Никогда не излучать сигнал крас. камня
-railcraft.gui.liquid.unloader.manual=Вручную
 
 railcraft.gui.locomotive.mode.idle=Холостой ход
 railcraft.gui.locomotive.mode.running=Работа
@@ -475,9 +540,10 @@ railcraft.gui.routing.table.manual.page4=Условные ключевые сл�
 railcraft.gui.routing.table.manual.page5=Условные ключевые слова:\n   Riding(верхом)=<имя пользователя>\n      Истинно, если в поезде\n      сидит этот человек.\n   Ridden(сидит)=<true/false>\n      Истинно, если в поезде\n      сидит игрок.
 railcraft.gui.routing.table.manual.page6=Условные ключевые слова:\n   Color(цвет)=<первичный цвет>,<вторичный цвет>\n      Истинно, если первичные\n      и вторичные цвета локомотива соответствуют.\n      Принимает "Any"(любой) в качестве шаблона.\n      Цвета: Black(чёрный), Red(красный), Green(зелёный),\n      Brown(коричневый), Blue(синий), Purple(фиолетовый),\n      Cyan(бирюзовый), LightGray(светло-серый), Gray(серый),\n      Pink(розовый), Lime(лаймовый), Yellow(жёлтый),\n      LightBlue(светло-синий), Magenta(сиреневый),\n      Orange(оранжевый), White(белый)\n   NeedsRefuel(необходимо заправить)=<true/false>\n      Если локомотиву не хватает топлива или воды.
 railcraft.gui.routing.table.manual.page7=Условные ключевые слова:\n   Redstone(Сигнал красного каменя)=<true/false>\n      Истинно, если блок маршрутизации\n      получает питание от красного камня.
-railcraft.gui.routing.table.manual.page8=Пример строки:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-railcraft.gui.routing.table.manual.page9=Результат:\n   Скрипт на предыдущей странице будет\n   соответствовать локомотиву с назначением\n   "TheFarLands/Milliways" \n   или тому, который окрашен в чёрный и красный цвет\n   или который имеет назначение\n   "SecretHideout/OceanEntrance",\n   но только, если он не принадлежит RichardG.
-railcraft.gui.routing.table.manual.page10=Регулярные выражения:\n   Некоторые условия поддерживают\n   регулярные выражения.\n   Чтобы использовать регулярное выражение, добавьте '?' перед '='.\n   Правилами являются стандартные шаблоны Java.\nПоддерживаемые условия:\n   Dest(пункт назначения), Name(имя)\nПример:\n   Dest?=.*Hill
+railcraft.gui.routing.table.manual.page8=Условные ключевые слова:\n   Loco=<string>\n      True if locomotive matches parameter string.\n      Accepted strings: electric, steam, none.\n      Using parameter none will only return true if there is no locomotive.
+railcraft.gui.routing.table.manual.page9=Пример строки:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+railcraft.gui.routing.table.manual.page10=Результат:\n   Скрипт на предыдущей странице будет\n   соответствовать локомотиву с назначением\n   "TheFarLands/Milliways" \n   или тому, который окрашен в чёрный и красный цвет\n   или который имеет назначение\n   "SecretHideout/OceanEntrance",\n   но только, если он не принадлежит RichardG.
+railcraft.gui.routing.table.manual.page11=Регулярные выражения:\n   Некоторые условия поддерживают\n   регулярные выражения.\n   Чтобы использовать регулярное выражение, добавьте '?' перед '='.\n   Правилами являются стандартные шаблоны Java.\nПоддерживаемые условия:\n   Dest(пункт назначения), Name(имя)\nПример:\n   Dest?=.*Hill
 railcraft.gui.routing.table.manual.title=Учебник по маршрутизации
 railcraft.gui.routing.table.name=Имя
 railcraft.gui.routing.ticket.line1=Этот билет действителен
@@ -509,6 +575,7 @@ railcraft.gui.surveyor.unloaded=Первый сигнал не в загруже
 railcraft.gui.surveyor.wrong=Неправильный сигнальный блок
 
 railcraft.gui.switch.motor.action=Переключить на аспект
+railcraft.gui.switch.motor.redstone=Игнорировать Redstone-сигнал
 
 railcraft.gui.tank.iron=Железный резервуар
 railcraft.gui.tank.steel=Стальной резервуар
@@ -522,6 +589,9 @@ railcraft.gui.tip.button.lock.unlocked=Нажмите, чтобы заблоки
 
 railcraft.gui.track.embarking.radius=Радиус
 railcraft.gui.track.mode.change=Изменён на режим %s
+railcraft.gui.track.coupler.mode.auto.coupler=Auto-Coupler
+railcraft.gui.track.coupler.mode.coupler=Coupler
+railcraft.gui.track.coupler.mode.decoupler=Decoupler
 railcraft.gui.track.locking.mode.boarding.train=Посадка поезда
 railcraft.gui.track.locking.mode.boarding=Посадка
 railcraft.gui.track.locking.mode.holding.train=Удерживание поезда
@@ -552,6 +622,7 @@ railcraft.keybind.aura.tuning=Аура настройки
 
 railcraft.keybind.loco.faster=Ускорение локомотива
 railcraft.keybind.loco.mode=Режим локомотива
+keybind.railcraft.loco.reverse=Реверс локомотива
 railcraft.keybind.loco.slower=Замедление локомотива
 railcraft.keybind.loco.whistle=Свисток локомотива
 
@@ -636,20 +707,12 @@ tile.railcraft.brick.sandy.etched.name=Гравированный песчаны
 tile.railcraft.brick.sandy.fitted.name=Крупный песчаный камень
 tile.railcraft.brick.sandy.ornate.name=Резной песчаный камень
 
-tile.railcraft.generic.brick.infernal.name=Дьявольский кирпич (устаревший)
-tile.railcraft.generic.brick.sandy.name=Песчаный кирпич (устаревший)
-tile.railcraft.generic.coke.name=Блок коксового угля
-tile.railcraft.generic.coke.tip=32,000 топливных единиц
-tile.railcraft.generic.concrete.name=Бетонный блок
-tile.railcraft.generic.copper.name=Медный блок
-tile.railcraft.generic.creosote.name=Блок пропитанной креозотом древесины
-tile.railcraft.generic.crushed.obsidian.name=Сыпучий обсидиан
-tile.railcraft.generic.crushed.obsidian.tip=Предотвращает появление мобов
-tile.railcraft.generic.lead.name=Свинцовый блок
-tile.railcraft.generic.steel.name=Стальной блок
-tile.railcraft.generic.stone.abyssal.name=Камень бездны
-tile.railcraft.generic.stone.quarried.name=Карьерный камень
-tile.railcraft.generic.tin.name=Оловянный блок
+tile.railcraft.charge.feeder.admin.name=Admin Charge Feeder Unit
+tile.railcraft.charge.feeder.admin.tips=Предоставляет безконечный Railcraft заряд
+tile.railcraft.charge.feeder.ic2.name=IC2 Charge Feeder Unit
+tile.railcraft.charge.feeder.ic2.tips=Converts IndustrialCraft\n Electricity to Railcraft Charge
+
+tile.railcraft.charge.trap.name=Charge Trap
 
 tile.railcraft.detector.advanced.name=Детектор - Продвинутый
 tile.railcraft.detector.age.name=Детектор - Взрослый
@@ -678,7 +741,39 @@ tile.railcraft.fluid.steam.name=Пар
 tile.railcraft.frame.name=Опорный каркас для шунтирующего провода
 tile.railcraft.frame.tip=Используйте для размещения путя на шунтирующий провод
 
+tile.railcraft.generic.coke.name=Блок коксового угля
+tile.railcraft.generic.coke.tip=32,000 топливных единиц
+tile.railcraft.generic.concrete.name=Бетонный блок
+tile.railcraft.generic.copper.name=Медный блок
+tile.railcraft.generic.creosote.name=Блок пропитанной креозотом древесины
+tile.railcraft.generic.crushed.obsidian.name=Сыпучий обсидиан
+tile.railcraft.generic.crushed.obsidian.tip=Предотвращает появление мобов
+tile.railcraft.generic.lead.name=Свинцовый блок
+tile.railcraft.generic_silver.name=Серебряный блок
+tile.railcraft.generic.steel.name=Стальной блок
+tile.railcraft.generic.stone.abyssal.name=Камень бездны
+tile.railcraft.generic.stone.quarried.name=Карьерный камень
+tile.railcraft.generic.tin.name=Оловянный блок
+
 tile.railcraft.glass.name=Армированное стекло
+
+tile.railcraft.lantern.metal.copper.name=Медный фонарь
+tile.railcraft.lantern.metal.gold.name=Золотой фонарь
+tile.railcraft.lantern.metal.iron.name=Железный фонарь
+tile.railcraft.lantern.metal.lead.name=Свинцовый фонарь
+tile.railcraft.lantern.metal.steel.name=Стальной фонарь
+tile.railcraft.lantern.metal.tin.name=Оловянный фонарь
+
+tile.railcraft.lantern.stone.abyssal.name=Фонарь из камня бездны
+tile.railcraft.lantern.stone.bleachedbone.name=Фонарь из костяного камня
+tile.railcraft.lantern.stone.bloodstained.name=Фонарь из кровавого камня
+tile.railcraft.lantern.stone.frostbound.name=Фонарь из заледеневшего камня
+tile.railcraft.lantern.stone.infernal.name=Фонарь из дьявольского камня
+tile.railcraft.lantern.stone.nether.name=Фонарь из камня Нижнего мира
+tile.railcraft.lantern.stone.quarried.name=Фонарь из карьерного камня
+tile.railcraft.lantern.stone.sandstone.name=Фонарь из песчаника
+tile.railcraft.lantern.stone.sandy.name=Фонарь из песчаного камня
+tile.railcraft.lantern.stone.stone.name=Фонарь из камня
 
 tile.railcraft.machine.alpha.anchor.admin.name=Якорь администратора
 tile.railcraft.machine.alpha.anchor.passive.name=Пассивный якорь
@@ -688,10 +783,8 @@ tile.railcraft.machine.alpha.blast.furnace.name=Доменный кирпич
 tile.railcraft.machine.alpha.blast.furnace.tip=Мульти-блок: 3x4x3 (Полый)
 tile.railcraft.machine.alpha.coke.oven.name=Кирпич коксовой печи
 tile.railcraft.machine.alpha.coke.oven.tip=Мульти-блок: 3x3x3 (Полый)
-tile.railcraft.machine.alpha.feed.station.name=Станция кормления
 tile.railcraft.machine.alpha.rock.crusher.name=Дробитель
 tile.railcraft.machine.alpha.rock.crusher.tip=Мульти-блок: 3x2x2
-tile.railcraft.machine.alpha.rolling.machine.name=Прокатный стан
 tile.railcraft.machine.alpha.smoker.name=Дымогенератор
 tile.railcraft.machine.alpha.steam.oven.name=Паровая печь
 tile.railcraft.machine.alpha.steam.oven.tip=Мульти-блок: 2x2x2
@@ -735,54 +828,60 @@ tile.railcraft.machine.beta.tank.steel.valve.tip=Мульти-блок: Долж
 tile.railcraft.machine.beta.tank.steel.wall.name=Обшивка стального резервуара
 tile.railcraft.machine.beta.tank.steel.wall.tip=Мульти-блок: Переменный размер, полый\n Высоты: 4, 5, 6, 7, 8\n Диаметры: 3, 5, 7, 9
 
-tile.railcraft.machine.delta.wire.name=Электрический шунтирующий провод
-tile.railcraft.machine.delta.wire.tip=Соединяет электрический путь через разрывы\n Проведите под путём, используя опорный каркас
-
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Производитель пара администратора
 tile.railcraft.machine.epsilon.admin.steam.producer.tip=Предоставляет бесконечный пар
-tile.railcraft.machine.epsilon.electric.feeder.admin.name=Питающее устройство администратора
-tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Предоставляет бесконечную энергию Railcraft
-tile.railcraft.machine.epsilon.electric.feeder.name=Электрическое питающее устройство
-tile.railcraft.machine.epsilon.electric.feeder.tip=Преобразует электричество\n IndustrialCraft в энергию Railcraft
 tile.railcraft.machine.epsilon.engraving.bench.name=Гравировальный верстак
 tile.railcraft.machine.epsilon.flux.transformer.name=Преобразователь флакса
 tile.railcraft.machine.epsilon.flux.transformer.tip=Мульти-блок: 2x2x2\n Преобразует Redstone Flux в энергию Railcraft\n Эффективность: 80%
 tile.railcraft.machine.epsilon.force.track.emitter.name=Излучатель силового пути
 tile.railcraft.machine.epsilon.force.track.emitter.tip=Проецирует пути за счёт энергии
 
-tile.railcraft.machine.gamma.dispenser.cart.name=Раздатчик вагонеток
-tile.railcraft.machine.gamma.dispenser.cart.tip=Распределяет вагонетки по путям\n§o§9- Ударьте монтировкой, чтобы изменить положение -\n§o§c- Примените сигнал красного камня, чтобы распределить вагонетку -
-tile.railcraft.machine.gamma.dispenser.train.name=Раздатчик поездов
-tile.railcraft.machine.gamma.dispenser.train.tip=Распределяет присоединённые поезда по путям\n§o§9- Ударьте монтировкой, чтобы изменить положение -\n§o§c- Примените сигнал красного камня, чтобы распределить поезд -
-tile.railcraft.machine.gamma.loader.energy.name=Загрузчик энергии
-tile.railcraft.machine.gamma.loader.energy.tip=Загружает энергию в энергетические вагонетки IC2\n§o§9- Ударьте монтировкой, чтобы изменить положение -\n§o§c- Принимает только энерги IC2
-tile.railcraft.machine.gamma.loader.item.advanced.name=Продвинутый загрузчик предметов
-tile.railcraft.machine.gamma.loader.item.advanced.tip=Загружает предметы в вагонетки\n§o§9- Ударьте монтировкой, чтобы изменить положение -
-tile.railcraft.machine.gamma.loader.item.name=Загрузчик предметов
-tile.railcraft.machine.gamma.loader.item.tip=Загружает предметы в вагонетки\n§o§c- Поместите над вагонеткой -
-tile.railcraft.machine.gamma.loader.liquid.name=Загрузчик жидкостей
-tile.railcraft.machine.gamma.loader.liquid.tip=Загружает жидкости в вагонетки\n§o§c- Поместите над вагонеткой -
-tile.railcraft.machine.gamma.unloader.energy.name=Разгрузчик энергии
-tile.railcraft.machine.gamma.unloader.energy.tip=Выгружает энергию из энергетических вагонеток IC2\n§o§9- Ударьте монтировкой, чтобы изменить положение -\n§o§c- Излучает только энергию IC2
-tile.railcraft.machine.gamma.unloader.item.advanced.name=Продвинутый разгрузчик предметов
-tile.railcraft.machine.gamma.unloader.item.advanced.tip=Разгружает предметы из вагонеток\n§o§9- Ударьте монтировкой, чтобы изменить положение -
-tile.railcraft.machine.gamma.unloader.item.name=Разгрузчик предметов
-tile.railcraft.machine.gamma.unloader.item.tip=Разгружает предметы из вагонеток\n§o§c- Поместите под вагонеткой -
-tile.railcraft.machine.gamma.unloader.liquid.name=Разгрузчик жидкостей
-tile.railcraft.machine.gamma.unloader.liquid.tip=Разгружает жидкости из вагонеток\n§o§c- Поместите под вагонеткой -
+tile.railcraft.machine.simple.feed.station.name=Станция кормления
+tile.railcraft.machine.simple.rolling.machine.name=Прокатный стан
 
+tile.railcraft.manipulator.dispenser.cart.name=Cart Dispenser
+tile.railcraft.manipulator.dispenser.cart.tips=Dispenses Carts onto Tracks\n§o§9- Pair with Control Track -\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Apply Redstone to dispense Cart -
+tile.railcraft.manipulator.dispenser.train.name=Train Dispenser
+tile.railcraft.manipulator.dispenser.train.tips=Dispenses linked Trains onto Tracks\n§o§9- Pair with Control Track -\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Apply Redstone to dispense Train -
+tile.railcraft.manipulator.loader.energy.name=Energy Loader
+tile.railcraft.manipulator.loader.energy.tips=Loads Energy into Ic2 Energy Carts\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Only accepts Ic2 power
+tile.railcraft.manipulator.loader.rf.name=Redstone Flux Loader
+tile.railcraft.manipulator.loader.rf.tips=Loads RF into RF Carts\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Only accepts RF power
+tile.railcraft.manipulator.loader.item.advanced.name=Adv. Item Loader
+tile.railcraft.manipulator.loader.item.advanced.tips=Loads Items into Carts\n§o§9- Hit with Crowbar to change orientation -
+tile.railcraft.manipulator.loader.item.name=Item Loader
+tile.railcraft.manipulator.loader.item.tips=Loads Items into Carts\n§o§c- Place over Track -
+tile.railcraft.manipulator.loader.fluid.name=Fluid Loader
+tile.railcraft.manipulator.loader.fluid.tips=Loads Fluids into Carts\n§o§c- Place 1-2 blocks above Track -
+tile.railcraft.manipulator.unloader.energy.name=Energy Unloader
+tile.railcraft.manipulator.unloader.energy.tips=Unloads Energy from Ic2 Energy Carts\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Only emits Ic2 power
+tile.railcraft.manipulator.unloader.rf.name=Redstone Flux Unloader
+tile.railcraft.manipulator.unloader.rf.tips=Unloads RF from RF Carts\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Only emits RF power
+tile.railcraft.manipulator.unloader.item.advanced.name=Adv. Item Unloader
+tile.railcraft.manipulator.unloader.item.advanced.tips=Unloads Items from Carts\n§o§9- Hit with Crowbar to change orientation -
+tile.railcraft.manipulator.unloader.item.name=Item Unloader
+tile.railcraft.manipulator.unloader.item.tips=Unloads Items from Carts\n§o§c- Place under Track -
+tile.railcraft.manipulator.unloader.fluid.name=Fluid Unloader
+tile.railcraft.manipulator.unloader.fluid.tips=Unloads Fluids from Carts\n§o§c- Place under Track -
+
+tile.railcraft.ore.copper.name=Медная руда
 tile.railcraft.ore.dark.diamond.name=Тёмная алмазная руда
 tile.railcraft.ore.dark.emerald.name=Тёмная изумрудная руда
 tile.railcraft.ore.dark.lapis.name=Тёмная лазуритовая руда
-tile.railcraft.ore.firestone.name=Руда огненного камня
-tile.railcraft.ore.firestone.tip.name=Поджигает всё, кроме плоти,\n Вы можете чувствовать изменение воздуха\n вокруг себя, когда держите это...
+tile.railcraft.ore.lead.name=Свинцовая руда
 tile.railcraft.ore.poor.copper.name=Низкосортная медная руда
 tile.railcraft.ore.poor.gold.name=Низкосортная золотая руда
 tile.railcraft.ore.poor.iron.name=Низкосортная железная руда
 tile.railcraft.ore.poor.lead.name=Низкосортная свинцовая руда
+tile.railcraft.ore.poor.silver.name=Низкосортная серебряная руда
 tile.railcraft.ore.poor.tin.name=Низкосортная оловянная руда
 tile.railcraft.ore.saltpeter.name=Селитровая руда
+tile.railcraft.ore.silver.name=Серебряная руда
 tile.railcraft.ore.sulfur.name=Серная руда
+tile.railcraft.ore.tin.name=Оловянная руда
+
+tile.railcraft.ore.firestone.name=Руда огненного камня
+tile.railcraft.ore.firestone.tip.name=Поджигает всё, кроме плоти,\n Вы можете чувствовать изменение воздуха\n вокруг себя, когда держите это...
 
 tile.railcraft.post.emblem.name=Столб с эмблемой
 tile.railcraft.post.metal.black.name=Чёрный металлический столб
@@ -823,23 +922,6 @@ tile.railcraft.post.stone.name=Каменный столб
 tile.railcraft.post.stone.platform.name=Каменная платформа
 tile.railcraft.post.wood.name=Деревянный столб
 tile.railcraft.post.wood.platform.name=Деревянная платформа
-
-tile.railcraft.residual.heat.name=Остаточное тепло
-
-tile.railcraft.wayobject.block.signal.dual.name=Спаренный сигнальный блок
-tile.railcraft.wayobject.block.signal.name=Сигнальный блок
-tile.railcraft.wayobject.box.analog.name=Контроллер аналогового сигнала
-tile.railcraft.wayobject.box.block.relay.name=Реле сигнального блока 
-tile.railcraft.wayobject.box.capacitor.name=Конденсатор сигнала
-tile.railcraft.wayobject.box.controller.name=Контроллер сигнала
-tile.railcraft.wayobject.box.interlock.name=Блокировщик сигнала
-tile.railcraft.wayobject.box.receiver.name=Приёмник сигнала
-tile.railcraft.wayobject.box.sequencer.name=Cеквенсор сигнала
-tile.railcraft.wayobject.distant.dual.name=Спаренный удалённый сигналоприёмный блок
-tile.railcraft.wayobject.distant.name=Удалённый сигналоприёмный блок
-tile.railcraft.wayobject.switch.lever.name=Стрелочный рычаг
-tile.railcraft.wayobject.switch.motor.name=Стрелочный электромотор
-tile.railcraft.wayobject.switch.routing.name=Маршрутный стрелочный электромотор
 
 tile.railcraft.slab.abyssal.block.name=Плита из блока бездны
 tile.railcraft.slab.abyssal.brick.name=Плита из кирпича бездны
@@ -931,43 +1013,51 @@ tile.railcraft.stair.snow.name=Снежные ступеньки
 tile.railcraft.stair.steel.name=Стальные ступеньки
 tile.railcraft.stair.tin.name=Оловянные ступеньки
 
-tile.railcraft.lantern.metal.copper.name=Медный фонарь
-tile.railcraft.lantern.metal.gold.name=Золотой фонарь
-tile.railcraft.lantern.metal.iron.name=Железный фонарь
-tile.railcraft.lantern.metal.lead.name=Свинцовый фонарь
-tile.railcraft.lantern.metal.steel.name=Стальной фонарь
-tile.railcraft.lantern.metal.tin.name=Оловянный фонарь
+tile.railcraft.wayobject.block.signal.dual.name=Спаренный сигнальный блок
+tile.railcraft.wayobject.block.signal.dual.tips=Detects Carts in Signal Block\nDisplays aspect of linked Controller\n§o§9Aerial Linkages:\n§o§9- 1x Signal Blocks\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Block Surveyor
+tile.railcraft.wayobject.block.signal.name=Сигнальный блок
+tile.railcraft.wayobject.block.signal.tips=Detects Carts in Signal Block\n§o§9Aerial Linkages:\n§o§9- 1x Signal Block\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
+tile.railcraft.wayobject.box.analog.name=Контроллер аналогового сигнала
+tile.railcraft.wayobject.box.analog.tips=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: None\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.box.block.relay.name=Реле сигнального блока 
+tile.railcraft.wayobject.box.block.relay.tips=Creates chains of Signal Blocks\n§o§9Aerial Linkages: 2x Signal Block\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
+tile.railcraft.wayobject.box.capacitor.name=Конденсатор сигнала
+tile.railcraft.wayobject.box.capacitor.tips=Sends signals to Receivers\n§o§9Aerial Linkages: None\n§o§9Adjacent Linkages: Listen, Emit\n§o§9Redstone Linkages: Listen to Repeater, Emit
+tile.railcraft.wayobject.box.controller.name=Контроллер сигнала
+tile.railcraft.wayobject.box.controller.tips=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: Listen\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.box.interlock.name=Блокировщик сигнала
+tile.railcraft.wayobject.box.interlock.tips=Permits only one aspect signal to pass\n§o§9Aerial Linkages:\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§9Adjacent Linkages:\n§o§9- Interlock\n§o§9- Listen (Limit Output)\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.box.receiver.name=Приёмник сигнала
+tile.railcraft.wayobject.box.receiver.tips=Listens to Controller signals\n§o§9Aerial Linkages: 1x Receiver\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.box.sequencer.name=Cеквенсор сигнала
+tile.railcraft.wayobject.box.sequencer.tips=Loops through adjacent blocks\n§o§9Adjacent Linkages:\n§o§9- Sequencer\n§o§9- Listen (Clock)\n§o§9- Emit\n§o§9Redstone Linkages:\n§o§9- Listen to Repeater (Clock)\n§o§9- Emit
+tile.railcraft.wayobject.distant.dual.name=Спаренный удалённый сигналоприёмный блок
+tile.railcraft.wayobject.distant.dual.tips=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.distant.name=Удалённый сигналоприёмный блок
+tile.railcraft.wayobject.distant.tips=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.switch.lever.name=Стрелочный рычаг
+tile.railcraft.wayobject.switch.lever.tips=Controls adjacent Switch Tracks\n§o§9Manual Operation
+tile.railcraft.wayobject.switch.motor.name=Стрелочный электромотор
+tile.railcraft.wayobject.switch.motor.tips=Controls adjacent Switch Tracks\n§o§9Aerial Linkages: 1x Receiver\n§o§9Redstone Linkage: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.switch.routing.name=Маршрутный стрелочный электромотор
+tile.railcraft.wayobject.switch.routing.tips=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
 
-tile.railcraft.lantern.stone.abyssal.name=Фонарь из камня бездны
-tile.railcraft.lantern.stone.bleachedbone.name=Фонарь из костяного камня
-tile.railcraft.lantern.stone.bloodstained.name=Фонарь из кровавого камня
-tile.railcraft.lantern.stone.frostbound.name=Фонарь из заледеневшего камня
-tile.railcraft.lantern.stone.infernal.name=Фонарь из дьявольского камня
-tile.railcraft.lantern.stone.nether.name=Фонарь из камня Нижнего мира
-tile.railcraft.lantern.stone.quarried.name=Фонарь из карьерного камня
-tile.railcraft.lantern.stone.sandstone.name=Фонарь из песчаника
-tile.railcraft.lantern.stone.sandy.name=Фонарь из песчаного камня
-tile.railcraft.lantern.stone.stone.name=Фонарь из камня
+tile.railcraft.wire.name=Электрический шунтирующий провод
+tile.railcraft.wire.tips=Соединяет электрический путь через разрывы\n Проведите под путём, используя опорный каркас
 
-tile.railcraft.track.boarding.name=Посадочный путь
-tile.railcraft.track.boarding.tip=Заменён замыкающим путём
-tile.railcraft.track.boarding.train.name=Посадочный путь поезда
-tile.railcraft.track.boarding.train.tip=Заменён замыкающим путём
+#Old Tracks (to be deleted)
 tile.railcraft.track.buffer.stop.name=Тупиковый путь
 tile.railcraft.track.buffer.stop.tip=Конец линии\n§o§9- Ударьте монтировкой, чтобы изменить направление -
 tile.railcraft.track.control.name=Управляющий путь
 tile.railcraft.track.control.tip=Применяет небольшой всенаправленный импульс\n§o§9- Ударьте монтировкой, чтобы изменить направление -\n§o§c- Примените красный камень, чтобы изменить направление -
 tile.railcraft.track.coupler.name=Сцепляющий путь
 tile.railcraft.track.coupler.tip=Соединяет/разъединяет проходящие вагонетки\n§o§9- Ударьте монтировкой, чтобы изменить режим -\n§o§c- Примените красный камень, чтобы активировать -
-tile.railcraft.track.decoupler.name=Расцепляющий путь
 tile.railcraft.track.detector.direction.name=Путевой детектор направления
 tile.railcraft.track.detector.direction.tip=Излучает красный камень, когда вагонетка проходит\n в указанном направление\n§o§9- Ударьте монтировкой, чтобы изменить направление -
 tile.railcraft.track.disembarking.name=Высаживающий путь
 tile.railcraft.track.disembarking.tip=Высаживает едущих существ по направлению стрелки\n§o§9- Ударьте монтировкой, чтобы изменить направление -\n§o§c- Примените красный камень, чтобы активировать -
 tile.railcraft.track.disposal.name=Сбрасывающий путь
 tile.railcraft.track.disposal.tip=Приостанавливающий путь\n Высаживает едущих существ
-tile.railcraft.track.electric.name=Электрический путь
-tile.railcraft.track.electric.tip=§9Опасно: Высокое напряжение\n §rПитается от электричества\n Используйте с электровозом\n Используйте электрические питающие устройства для подачи питания\n Используйте шунтирующий провод, чтобы соединить разрывы
 tile.railcraft.track.electric.junction.name=Электрический крестовой путь
 tile.railcraft.track.electric.junction.tip=§9Опасно: Высокое напряжение\n §rПитается от электричества\n Используйте с электровозом\n Используйте электрические питающие устройства для подачи питания\n Используйте шунтирующий провод, чтобы соединить разрывы
 tile.railcraft.track.electric.switch.name=Электрический стрелочный путь
@@ -990,12 +1080,8 @@ tile.railcraft.track.holding.train.tip=Заменён замыкающим пу�
 tile.railcraft.track.junction.name=Крестовой путь
 tile.railcraft.track.launcher.name=Пусковой путь
 tile.railcraft.track.launcher.tip=Делает так, чтобы вагонетки летели\n§o§c- Примените красный камень, чтобы активировать -
-tile.railcraft.track.limiter.name=Ограничивающий путь
-tile.railcraft.track.limiter.tip=Регулирует скорость\n проходящих локомотивов\n§o§9- Ударьте монтировкой, чтобы изменить режим -\n§o§c- Примените красный камень, чтобы активировать -
-tile.railcraft.track.lockdown.name=Блокирующий путь
-tile.railcraft.track.lockdown.tip=Заменён замыкающим путём
-tile.railcraft.track.lockdown.train.name=Поездной блокирующий путь
-tile.railcraft.track.lockdown.train.tip=Заменён замыкающим путём
+tile.railcraft.track.throttle.name=Throttle Track
+tile.railcraft.track.throttle.tips=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
 tile.railcraft.track.locking.name=Замыкающий путь
 tile.railcraft.track.locking.tip=Останавливает и удерживает вагонетки\n§o§9- Ударьте монтировкой, чтобы изменить режим -\n§o§c- Примените красный камень, чтобы активировать -
 tile.railcraft.track.locomotive.name=Локомотивный путь
@@ -1008,8 +1094,6 @@ tile.railcraft.track.reinforced.boost.name=Укреплённый ускоряю
 tile.railcraft.track.reinforced.boost.tip=125% скорости обычного путя\n Взрывоустойчив\n§o§c- Примените сигнал красного камня, чтобы включить -
 tile.railcraft.track.reinforced.junction.name=Укреплённый крестовой путь
 tile.railcraft.track.reinforced.junction.tip=125% скорости обычного путя\n Взрывоустойчив
-tile.railcraft.track.reinforced.name=Укреплённый путь
-tile.railcraft.track.reinforced.tip=125% скорости обычного путя\n Взрывоустойчив
 tile.railcraft.track.reinforced.switch.name=Укреплённый стрелочный путь
 tile.railcraft.track.reinforced.switch.tip=125% скорости обычного путя\n Взрывоустойчив\n§o§c- Требуется стрелочный электромотор/рычаг для переключения -
 tile.railcraft.track.reinforced.wye.name=Укреплённый треугольно-стрелочный путь
@@ -1019,16 +1103,12 @@ tile.railcraft.track.routing.tip=Задаёт место назначения п
 tile.railcraft.track.slow.boost.name=Деревянный ускоряющий путь
 tile.railcraft.track.slow.junction.name=Деревянный крестовой путь
 tile.railcraft.track.slow.junction.tip=30% скорости обычного путя
-tile.railcraft.track.slow.name=Деревянный путь
-tile.railcraft.track.slow.tip=30% скорости обычного путя
 tile.railcraft.track.slow.switch.name=Деревянный стрелочный путь
 tile.railcraft.track.slow.switch.tip=30% скорости обычного путя\n §o§c- Требуется стрелочный электромотор/рычаг для переключения -
 tile.railcraft.track.slow.wye.name=Деревянный треугольно-стрелочный путь
 tile.railcraft.track.slow.wye.tip=30% скорости обычного путя\n §o§c- Требуется стрелочный электромотор/рычаг для переключения -
 tile.railcraft.track.speed.boost.name=Высокоскоростной ускоряющий путь
 tile.railcraft.track.speed.boost.tip=§9Опасен\n §rБолее, чем в два раза быстрее нормального путя\n Поддерживает высокую скорость\n§o§c- Примените сигнал красного камня для ускорения -
-tile.railcraft.track.speed.name=Высокоскоростной путь
-tile.railcraft.track.speed.tip=§9Опасен\n §rБолее, чем в два раза быстрее нормального путя\n Требуется ускорение/переходы, чтобы достичь скорости\n Не может поворачивать на высокой скорости
 tile.railcraft.track.speed.switch.name=Высокоскоростной стрелочный путь
 tile.railcraft.track.speed.switch.tip=§9Опасен\n Не пытайтесь слезть на высокой скорости\n §o§c- Требуется стрелочный электромотор/рычаг для переключения -
 tile.railcraft.track.speed.transition.name=Высокоскоростной направленный ускоряющий путь
@@ -1043,6 +1123,9 @@ tile.railcraft.track.whistle.name=Свистковый путь
 tile.railcraft.track.whistle.tip=Проходящие локомотивы\n будут дуть в свои свистки\n§o§c- Примените красный камень, чтобы активировать -
 tile.railcraft.track.wye.name=Треугольно-стрелочный путь
 tile.railcraft.track.wye.tip=§o§c- Требуется стрелочный электромотор/рычаг для переключения -
+tile.railcraft.track.autolococoupler.name=Automatic Locomotive Coupler
+tile.railcraft.track.autolococoupler.tips=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- Apply Redstone to enable -
+#end old tracks
 
 tile.railcraft.wall.abyssal.brick.name=Стена из кирпича бездны
 tile.railcraft.wall.bleachedbone.brick.name=Стена из костяного кирпича
@@ -1073,3 +1156,113 @@ tile.railcraft.wall.stone.brick.name=Стена из каменного кирп
 tile.railcraft.worldlogic.name=Генератор селитровой руды
 
 tooltip.wawla.tooltype.crowbar=Монтировка
+
+
+######################################################################################
+#   Flex Tracks
+######################################################################################
+
+tile.railcraft.track.flex.abandoned.name=Abandoned Track
+tile.railcraft.track.flex.abandoned.tips=§9Danger: Derailment Risk\nCan be suspended over gaps in terrain.
+
+tile.railcraft.track.flex.electric.name=Electric Track
+tile.railcraft.track.flex.electric.tips=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps
+
+tile.railcraft.track.flex.high.speed.name=High Speed Track
+tile.railcraft.track.flex.high.speed.tips=§9Danger: High Speed\n §rVery Fast\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
+
+tile.railcraft.track.flex.hs.electric.name=High Speed Electric Track
+tile.railcraft.track.flex.hs.electric.tips=§9Danger: High Voltage/Speed\n §rVery Fast\n §rPowered by Electricity\n Use with Electric Locomotive\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
+
+tile.railcraft.track.flex.reinforced.name=Reinforced Track
+tile.railcraft.track.flex.reinforced.tips=125% of the speed of normal track\n Explosion resistant
+
+tile.railcraft.track.flex.strap.iron.name=Strap Iron Track
+tile.railcraft.track.flex.strap.iron.tips=30% of the speed of Iron Track
+
+
+######################################################################################
+#   Track Kits & Outfitted Tracks
+# --------------------------------------------
+#
+# If you wish finer control of the translation, you can use override tags as seen below.
+#
+# Override Tags:
+# item.railcraft.track_kit.railcraft_activator.name=Activator Track Kit
+# tile.railcraft.track_outfitted.railcraft_strap_iron.railcraft_activator.name=Strap Iron Activator Track
+#
+######################################################################################
+
+item.railcraft.track_kit.name={track_kit} Track Kit
+tile.railcraft.track_outfitted.name={track_type} {track_kit} Track
+
+track_kit.railcraft.railcraft_activator.name=Activator
+track_kit.railcraft.railcraft_activator.tips=Activates passing carts\n§o§c- Apply Redstone to enable -
+
+track_kit.railcraft.railcraft_booster.name=Booster
+track_kit.railcraft.railcraft_booster.tips=Applies a boost force to the cart\nSlows if unpowered\n§o§c- Apply Redstone to enable -
+
+track_kit.railcraft.railcraft_buffer.name=Buffer Stop
+track_kit.railcraft.railcraft_buffer.tips=End of the Line\n§o§9- Hit with Crowbar to change direction -
+
+track_kit.railcraft.railcraft_control.name=Control
+track_kit.railcraft.railcraft_control.tips=Applies a small force to the cart\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to change direction -
+
+track_kit.railcraft.railcraft_coupler.name=Coupler
+track_kit.railcraft.railcraft_coupler.tips=Couples/Decouples passing Carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+
+track_kit.railcraft.railcraft_detector.name=Detector
+track_kit.railcraft.railcraft_detector.tips=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Crowbar to change detection direction -
+
+track_kit.railcraft.railcraft_disembarking.name=Disembarking
+track_kit.railcraft.railcraft_disembarking.tips=Dismounts riding Entities in direction of arrow\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to enable -
+
+track_kit.railcraft.railcraft_dumping.name=Dumping
+track_kit.railcraft.railcraft_dumping.tips=Suspended track\n Drops Entities or Items through the track\n§o§c- Apply Redstone to disable -
+
+track_kit.railcraft.railcraft_embarking.name=Embarking
+track_kit.railcraft.railcraft_embarking.tips=Loads entities into Carts\n§o§9- Hit with Crowbar to change range -\n§o§c- Apply Redstone to enable -
+
+track_kit.railcraft.railcraft_gated.name=Gated
+track_kit.railcraft.railcraft_gated.tips=Track with built-in Gate\n§o§c- Apply Redstone to open -
+
+track_kit.railcraft.railcraft_gated_one_way.name=Gated One-Way
+track_kit.railcraft.railcraft_gated_one_way.tips=Track with built-in One-Way Gate\n§o§c- Apply Redstone to open -
+
+track_kit.railcraft.railcraft_launcher.name=Launcher
+track_kit.railcraft.railcraft_launcher.tips=Makes carts fly!\n§o§c- Apply Redstone to enable -
+
+track_kit.railcraft.railcraft_throttle.name=Throttle
+track_kit.railcraft.railcraft_throttle.tips=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+
+track_kit.railcraft.railcraft_locking.name=Locking
+track_kit.railcraft.railcraft_locking.tips=Stops and holds carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+
+track_kit.railcraft.railcraft_locomotive.name=Locomotive
+track_kit.railcraft.railcraft_locomotive.tips=Starts/Stops Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+
+track_kit.railcraft.railcraft_missing.name=Invalid
+track_kit.railcraft.railcraft_missing.tips=Placeholder
+
+track_kit.railcraft.railcraft_one_way.name=One-Way
+track_kit.railcraft.railcraft_one_way.tips=Carts can only pass\n in the direction of the arrow\n§o§9- Hit with Crowbar to change direction -
+
+track_kit.railcraft.railcraft_priming.name=Priming
+track_kit.railcraft.railcraft_priming.tips=Ignites TNT Carts\n Adjustable Fuse\n§o§9- Hit with Crowbar to change fuse -\n§o§c- Apply Redstone to enable -
+
+track_kit.railcraft.railcraft_routing.name=Routing
+track_kit.railcraft.railcraft_routing.tips=Sets a passing Locomotive's Ticket\n§o§9- Hit with Crowbar to change ticket -
+
+track_kit.railcraft.railcraft_transition.name=Transition
+track_kit.railcraft.railcraft_transition.tips=Transitions to/from High Speed\n§o§c- Apply Redstone to enable -
+
+track_kit.railcraft.railcraft_whistle.name=Whistle
+track_kit.railcraft.railcraft_whistle.tips=Passing Locomotives\n will blow their Whistle\n§o§c- Apply Redstone to enable -
+
+track_type.railcraft.railcraft_iron.name=Iron
+track_type.railcraft.railcraft_strap_iron.name=Strap Iron
+track_type.railcraft.railcraft_abandoned.name=Abandoned
+track_type.railcraft.railcraft_reinforced.name=Reinforced
+track_type.railcraft.railcraft_high_speed.name=H. S.
+track_type.railcraft.railcraft_high_speed_electric.name=H. S. E.
+track_type.railcraft.railcraft_electric.name=Electric
