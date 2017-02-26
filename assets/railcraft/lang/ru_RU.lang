@@ -1177,7 +1177,7 @@ tile.railcraft.track.flex.hs.electric.tips=§Опасно: Высокое нап
 tile.railcraft.track.flex.reinforced.name=Усиленный путь
 tile.railcraft.track.flex.reinforced.tips=125% скорости нормального пути\n Устойчивость ко взрывам
 
-tile.railcraft.track.flex.strap.iron.name=Присоедененный железный путь
+tile.railcraft.track.flex.strap.iron.name=Обшитый железом деревянный путь
 tile.railcraft.track.flex.strap.iron.tips=30% скорости железного пути
 
 
@@ -1260,9 +1260,9 @@ track_kit.railcraft.railcraft_whistle.name=Активатор свистка
 track_kit.railcraft.railcraft_whistle.tips=Проходящие локомотивы\n подуют в свисток\n§o§c- Необходим источник Redstone-сигнала -
 
 track_type.railcraft.railcraft_iron.name=Железный
-track_type.railcraft.railcraft_strap_iron.name=Strap Iron
+track_type.railcraft.railcraft_strap_iron.name=Обшитый железом деревянный
 track_type.railcraft.railcraft_abandoned.name=Заброшенный
 track_type.railcraft.railcraft_reinforced.name=Усилинный
-track_type.railcraft.railcraft_high_speed.name=H. S.
-track_type.railcraft.railcraft_high_speed_electric.name=H. S. E.
+track_type.railcraft.railcraft_high_speed.name=В. С.
+track_type.railcraft.railcraft_high_speed_electric.name=В. С. Э.
 track_type.railcraft.railcraft_electric.name=Электрифицированный
