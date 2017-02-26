@@ -295,8 +295,8 @@ item.railcraft.tool.shears.steel.name=Стальные ножницы
 item.railcraft.tool.shovel.steel.name=Стальная лопата
 item.railcraft.tool.signal.label.name=Сигнальная метка
 item.railcraft.tool.signal.label.tips=§9- переименуйте на наковальне -\n§oправый клик (ПКМ), удерживая Shift\n§oдля установки имени сигналу или сигнальному ящику
-item.railcraft.tool.signal.surveyor.name=Блок сигнальной привязки
-item.railcraft.tool.signal.surveyor.tips=Соединяет сигналы в сигнальные блоки
+item.railcraft.tool.signal.surveyor.name=Инспектор сигналов
+item.railcraft.tool.signal.surveyor.tips=Соединяет сигналы с сигнальными блоками
 item.railcraft.tool.signal.tuner.name=Настройщик сигнала
 item.railcraft.tool.signal.tuner.tip=Соединяет контроллеры с приёмниками
 item.railcraft.tool.stone.carver.name=Каменный резчик
@@ -532,7 +532,7 @@ railcraft.gui.routing.logic.regex.unsupported=Регулярное выраже�
 railcraft.gui.routing.logic.unrecognized.keyword=Нераспознанное ключевое слово
 railcraft.gui.routing.slot.label=Таблица маршрутизации
 railcraft.gui.routing.table.editor=Последний раз редактировалось игроком %s
-railcraft.gui.routing.table.manual.numPages=10
+railcraft.gui.routing.table.manual.numPages=11
 railcraft.gui.routing.table.manual.page1=Таблица маршрутизации при размещении в детектор маршрутизации или маршрутный стрелочный мотор определит набор правил, которые используются для сопоставления с любым проходящим локомотивом. Эти правила определяются с помощью простого логического синтаксиса, который позволяет Вам создавать правила, простым или сложным, как Вам нравится. Синтаксис - Prefix Notation script, Операторы следуют за Операндами. Только одно ключевое слово допускается в строке. Если ни один Оператор не указан или вымышлен. Таблицы маршрутизации могут быть скопированы путём размещения двух или более в сетке создания.
 railcraft.gui.routing.table.manual.page2=Ключевые слова Операторов:\n   AND(И) - Два Операнда, оба должны быть истинными.\n   OR(ИЛИ) - Два Операнда, хотя бы один должен быть истинным.\n   NOT(НЕ) - Инвертирует значение следующего Операнда.
 railcraft.gui.routing.table.manual.page3=Условные ключевые слова:\n   Dest(пункт назначения)=<строка>\n      Если место назначения локомотива\n      начинается с этой строки, условие истинно.\n  "Dest(пункт назначения)=null"\n      будет соответствовать вагонеткам без назначения.\n   Owner(владелец)=<имя пользователя>\n      Истинно, если локомотив принадлежит этому человеку.
@@ -712,7 +712,7 @@ tile.railcraft.charge.feeder.admin.tips=Предоставляет бескон�
 tile.railcraft.charge.feeder.ic2.name=IC2 модуль питания
 tile.railcraft.charge.feeder.ic2.tips=Конвертирует IndustrialCraft\n электричество в Railcraft заряд
 
-tile.railcraft.charge.trap.name=Charge Trap
+tile.railcraft.charge.trap.name=Заряженная ловушка
 
 tile.railcraft.detector.advanced.name=Детектор - Продвинутый
 tile.railcraft.detector.age.name=Детектор - Взрослый
@@ -1014,33 +1014,33 @@ tile.railcraft.stair.steel.name=Стальные ступеньки
 tile.railcraft.stair.tin.name=Оловянные ступеньки
 
 tile.railcraft.wayobject.block.signal.dual.name=Спаренный сигнальный блок
-tile.railcraft.wayobject.block.signal.dual.tips=Detects Carts in Signal Block\nDisplays aspect of linked Controller\n§o§9Aerial Linkages:\n§o§9- 1x Signal Blocks\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Block Surveyor
+tile.railcraft.wayobject.block.signal.dual.tips=Обнаруживает вагонетки в Сигнальном блоке\nОтображает аспект присоединенного контроллера\n§o§9Беспроводные связи:\n§o§9- 1x Сигнальный блок\n§o§9- 1x Контроллер\n§o§9- 1x Приемник\n§o§cСоответствующие инструменты:\n§o§c- Настройщик сигнала\n§o§c- Инспектор сигналов
 tile.railcraft.wayobject.block.signal.name=Сигнальный блок
-tile.railcraft.wayobject.block.signal.tips=Detects Carts in Signal Block\n§o§9Aerial Linkages:\n§o§9- 1x Signal Block\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
+tile.railcraft.wayobject.block.signal.tips=Обнаруживает вагонетки в Сигнальном блоке\n§o§9Беспроводные связи:\n§o§9- 1x Сигнальный блок\n§o§9- 1x Контроллер\n§o§cСоответствующие инструменты:\n§o§c- Инспектор сигналов
 tile.railcraft.wayobject.box.analog.name=Контроллер аналогового сигнала
-tile.railcraft.wayobject.box.analog.tips=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: None\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.box.analog.tips=Отправляет сигналы приемникам\n§o§9Беспроводные связи: 1x Контроллер\n§o§9Прилегающие связи: нет\n§o§9Redstone-связи: Прием\n§o§cСоответствующие инструменты:\n§o§c- Настройщик сигнала
 tile.railcraft.wayobject.box.block.relay.name=Реле сигнального блока 
-tile.railcraft.wayobject.box.block.relay.tips=Creates chains of Signal Blocks\n§o§9Aerial Linkages: 2x Signal Block\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
+tile.railcraft.wayobject.box.block.relay.tips=Создает цепочку сигнальных блоков\n§o§9Беспроводные связи: 2x Сигнальных блока\n§o§9Прилегающие связи: Излучение\n§o§9Redstone-связи: Излучатель\n§o§cСоответствующие инструменты:\n§o§c- Инспектор сигналов
 tile.railcraft.wayobject.box.capacitor.name=Конденсатор сигнала
-tile.railcraft.wayobject.box.capacitor.tips=Sends signals to Receivers\n§o§9Aerial Linkages: None\n§o§9Adjacent Linkages: Listen, Emit\n§o§9Redstone Linkages: Listen to Repeater, Emit
+tile.railcraft.wayobject.box.capacitor.tips=Отправляет сигналы приемникам\n§o§9Беспроводные связи: нет\n§o§9Прилегающие связи: Прием, Излучение\n§o§9Redstone-связи: Прием повторителя, Излучение
 tile.railcraft.wayobject.box.controller.name=Контроллер сигнала
-tile.railcraft.wayobject.box.controller.tips=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: Listen\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.box.controller.tips=Отправляет сигналы приемникам\n§o§9Беспроводные связи: 1x Controller\n§o§9Прилегающие связи: Прием\n§o§9Redstone-связи: Прием\n§o§cСоответствующие инструменты:\n§o§c- Настройщик сигнала
 tile.railcraft.wayobject.box.interlock.name=Блокировщик сигнала
-tile.railcraft.wayobject.box.interlock.tips=Permits only one aspect signal to pass\n§o§9Aerial Linkages:\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§9Adjacent Linkages:\n§o§9- Interlock\n§o§9- Listen (Limit Output)\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.box.interlock.tips=Разрешает только один аспект сигнала для прохода\n§o§9Беспроводные связи:\n§o§9- 1x Контроллер\n§o§9- 1x Приемник\n§o§9Прилегающие связи:\n§o§9- Блокировщик сигнала\n§o§9- Прием (Ограниченный вывод)\n§o§cСоответствующие инструменты:\n§o§c- Настройщик сигнала
 tile.railcraft.wayobject.box.receiver.name=Приёмник сигнала
-tile.railcraft.wayobject.box.receiver.tips=Listens to Controller signals\n§o§9Aerial Linkages: 1x Receiver\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.box.receiver.tips=Слушает сигналы контроллера\n§o§9Беспроводные связи: 1x Приемник\n§o§9Прилегающие связи: Излучение\n§o§9Redstone-связи: Излучение\n§o§cСоответствующие инструменты:\n§o§c- Настройщик сигнала
 tile.railcraft.wayobject.box.sequencer.name=Cеквенсор сигнала
-tile.railcraft.wayobject.box.sequencer.tips=Loops through adjacent blocks\n§o§9Adjacent Linkages:\n§o§9- Sequencer\n§o§9- Listen (Clock)\n§o§9- Emit\n§o§9Redstone Linkages:\n§o§9- Listen to Repeater (Clock)\n§o§9- Emit
+tile.railcraft.wayobject.box.sequencer.tips=Замыкания через прилегающие блоки\n§o§9Прилегающие связи:\n§o§9- Cеквенсор сигнала\n§o§9- Прием (Часы)\n§o§9- Излучение\n§o§9Redstone-связи:\n§o§9- Слушает повторитель (Часы)\n§o§9- Излучение
 tile.railcraft.wayobject.distant.dual.name=Спаренный удалённый сигналоприёмный блок
-tile.railcraft.wayobject.distant.dual.tips=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.distant.dual.tips=Отображает аспекты присоединенных контроллеров\n§o§9Беспроводные связи: 2x Примеников\n§o§cСоответствующие инструменты:\n§o§c- Настройщик сигнала
 tile.railcraft.wayobject.distant.name=Удалённый сигналоприёмный блок
-tile.railcraft.wayobject.distant.tips=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.distant.tips=Отображает аспекты присоединенных контроллеров\n§o§9Беспроводные связи: 1x Приемник\n§o§cСоответствующие инструменты:\n§o§c- Настройщик сигнала
 tile.railcraft.wayobject.switch.lever.name=Стрелочный рычаг
-tile.railcraft.wayobject.switch.lever.tips=Controls adjacent Switch Tracks\n§o§9Manual Operation
+tile.railcraft.wayobject.switch.lever.tips=Контролирует прилегающие стрелочные блоки\n§o§9Ручное управление
 tile.railcraft.wayobject.switch.motor.name=Стрелочный электромотор
-tile.railcraft.wayobject.switch.motor.tips=Controls adjacent Switch Tracks\n§o§9Aerial Linkages: 1x Receiver\n§o§9Redstone Linkage: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.wayobject.switch.motor.tips=Контролирует прилегающие стрелочные блоки\n§o§9Беспроводные связи: 1x Приемник\n§o§9Redstone-связи: Прием\n§o§cСоответствующие инструменты:\n§o§c- Настройщик сигнала
 tile.railcraft.wayobject.switch.routing.name=Маршрутный стрелочный электромотор
-tile.railcraft.wayobject.switch.routing.tips=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
+tile.railcraft.wayobject.switch.routing.tips=Контролирует прилегающие стрелочные блоки\n§o§9Описанное скриптом управление\n§o§cСоответствующие инструменты:\n§o§c- Таблица маршрутов
 
 tile.railcraft.wire.name=Электрический шунтирующий провод
 tile.railcraft.wire.tips=Соединяет электрический путь через разрывы\n Проведите под путём, используя опорный каркас
@@ -1080,8 +1080,8 @@ tile.railcraft.track.holding.train.tip=Заменён замыкающим пу�
 tile.railcraft.track.junction.name=Крестовой путь
 tile.railcraft.track.launcher.name=Пусковой путь
 tile.railcraft.track.launcher.tip=Делает так, чтобы вагонетки летели\n§o§c- Примените красный камень, чтобы активировать -
-tile.railcraft.track.throttle.name=Throttle Track
-tile.railcraft.track.throttle.tips=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.throttle.name=Дроссельный путь
+tile.railcraft.track.throttle.tips=Настраивает скорость\n проходящих локомотивов\n§o§9- Ударьте монтировкой, чтобы изменить режим -\n§o§c- Примените красный камень, чтобы активировать -
 tile.railcraft.track.locking.name=Замыкающий путь
 tile.railcraft.track.locking.tip=Останавливает и удерживает вагонетки\n§o§9- Ударьте монтировкой, чтобы изменить режим -\n§o§c- Примените красный камень, чтобы активировать -
 tile.railcraft.track.locomotive.name=Локомотивный путь
@@ -1123,8 +1123,8 @@ tile.railcraft.track.whistle.name=Свистковый путь
 tile.railcraft.track.whistle.tip=Проходящие локомотивы\n будут дуть в свои свистки\n§o§c- Примените красный камень, чтобы активировать -
 tile.railcraft.track.wye.name=Треугольно-стрелочный путь
 tile.railcraft.track.wye.tip=§o§c- Требуется стрелочный электромотор/рычаг для переключения -
-tile.railcraft.track.autolococoupler.name=Automatic Locomotive Coupler
-tile.railcraft.track.autolococoupler.tips=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.autolococoupler.name=Автоматический сцепщик локомотивов
+tile.railcraft.track.autolococoupler.tips=Заставляет проезжающие локомотивы\nсоединяться с вагонеткой с которой он \nстолкнется и затем автоматически\nпереключиться на маневровую скорость.\n§o§c- Необходим источник Redstone-сигнала -
 #end old tracks
 
 tile.railcraft.wall.abyssal.brick.name=Стена из кирпича бездны
@@ -1159,110 +1159,110 @@ tooltip.wawla.tooltype.crowbar=Монтировка
 
 
 ######################################################################################
-#   Flex Tracks
+#   Гибкие/Настраеваемые Пути
 ######################################################################################
 
-tile.railcraft.track.flex.abandoned.name=Abandoned Track
-tile.railcraft.track.flex.abandoned.tips=§9Danger: Derailment Risk\nCan be suspended over gaps in terrain.
+tile.railcraft.track.flex.abandoned.name=Заброшенный путь
+tile.railcraft.track.flex.abandoned.tips=§Опасно: Риск обвала\nМожет проходить через обвалы в земле.
 
-tile.railcraft.track.flex.electric.name=Electric Track
-tile.railcraft.track.flex.electric.tips=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps
+tile.railcraft.track.flex.electric.name=Электрифицированный путь
+tile.railcraft.track.flex.electric.tips=§9Опасно: Высокое напряжение\n §rЗапитано электричеством\n Используют электровозы\n Используйте блоки электрического питания\n Используйте шунтирующий кабель чтобы соеденить разрывы
 
-tile.railcraft.track.flex.high.speed.name=High Speed Track
-tile.railcraft.track.flex.high.speed.tips=§9Danger: High Speed\n §rVery Fast\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
+tile.railcraft.track.flex.high.speed.name=Высокоскоростной путь
+tile.railcraft.track.flex.high.speed.tips=§9Опасность: Высокая скорость\n §rОчень быстро\n Требует ускорителей/переходы для достижения скорости\n Нельзя поворачивать на скоростном пути
 
-tile.railcraft.track.flex.hs.electric.name=High Speed Electric Track
-tile.railcraft.track.flex.hs.electric.tips=§9Danger: High Voltage/Speed\n §rVery Fast\n §rPowered by Electricity\n Use with Electric Locomotive\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
+tile.railcraft.track.flex.hs.electric.name=Высокоскоростной электрифицированный путь
+tile.railcraft.track.flex.hs.electric.tips=§Опасно: Высокое напряжение/скорость\n §rОчень быстро\n §rЗапитано электричеством\n Используют электровозы\n Требует ускорителей/переходы для достижения скорости\n Нельзя поворачивать на скоростном пути
 
-tile.railcraft.track.flex.reinforced.name=Reinforced Track
-tile.railcraft.track.flex.reinforced.tips=125% of the speed of normal track\n Explosion resistant
+tile.railcraft.track.flex.reinforced.name=Усиленный путь
+tile.railcraft.track.flex.reinforced.tips=125% скорости нормального пути\n Устойчивость ко взрывам
 
-tile.railcraft.track.flex.strap.iron.name=Strap Iron Track
-tile.railcraft.track.flex.strap.iron.tips=30% of the speed of Iron Track
+tile.railcraft.track.flex.strap.iron.name=Присоедененный железный путь
+tile.railcraft.track.flex.strap.iron.tips=30% скорости железного пути
 
 
 ######################################################################################
 #   Track Kits & Outfitted Tracks
 # --------------------------------------------
 #
-# If you wish finer control of the translation, you can use override tags as seen below.
+# Если вы хотите тонкой настройки перевода, вы можете использовать перезапись тегов как видно ниже.
 #
-# Override Tags:
+# Перезаписанные теги:
 # item.railcraft.track_kit.railcraft_activator.name=Activator Track Kit
 # tile.railcraft.track_outfitted.railcraft_strap_iron.railcraft_activator.name=Strap Iron Activator Track
 #
 ######################################################################################
 
-item.railcraft.track_kit.name={track_kit} Track Kit
-tile.railcraft.track_outfitted.name={track_type} {track_kit} Track
+item.railcraft.track_kit.name={track_kit} набор путей
+tile.railcraft.track_outfitted.name={track_type} {track_kit} путь
 
-track_kit.railcraft.railcraft_activator.name=Activator
-track_kit.railcraft.railcraft_activator.tips=Activates passing carts\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_activator.name=Активатор
+track_kit.railcraft.railcraft_activator.tips=Активирует проходящие вагонетки\n§o§c- Необходим источник Redstone-сигнала -
 
-track_kit.railcraft.railcraft_booster.name=Booster
-track_kit.railcraft.railcraft_booster.tips=Applies a boost force to the cart\nSlows if unpowered\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_booster.name=Ускоритель
+track_kit.railcraft.railcraft_booster.tips=Ускоряет вагонетки\nЗамедляет если не включен\n§o§c- Необходим источник Redstone-сигнала -
 
-track_kit.railcraft.railcraft_buffer.name=Buffer Stop
-track_kit.railcraft.railcraft_buffer.tips=End of the Line\n§o§9- Hit with Crowbar to change direction -
+track_kit.railcraft.railcraft_buffer.name=Упорный остановщик
+track_kit.railcraft.railcraft_buffer.tips=Конец линии\n§o§9- Ударьте монтировкой, чтобы изменить направление -
 
-track_kit.railcraft.railcraft_control.name=Control
-track_kit.railcraft.railcraft_control.tips=Applies a small force to the cart\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to change direction -
+track_kit.railcraft.railcraft_control.name=Контроль
+track_kit.railcraft.railcraft_control.tips=Подталкивает вагонетку с малой силой\n§o§9- Ударьте монтировкой, чтобы изменить направление -\n§o§c- Необходим источник Redstone-сигнала для смены направления -
 
-track_kit.railcraft.railcraft_coupler.name=Coupler
-track_kit.railcraft.railcraft_coupler.tips=Couples/Decouples passing Carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_coupler.name=Сцепщик
+track_kit.railcraft.railcraft_coupler.tips=Сцепляет/Разцепляет проходящие вагонетки\n§o§9- Ударьте монтировкой, чтобы изменить режим -\n§o§c- Необходим источник Redstone-сигнала -
 
-track_kit.railcraft.railcraft_detector.name=Detector
-track_kit.railcraft.railcraft_detector.tips=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Crowbar to change detection direction -
+track_kit.railcraft.railcraft_detector.name=Детектор
+track_kit.railcraft.railcraft_detector.tips=Выдает Redstone-сигнал когда вагонетка проходит\n в указанном направлении\n§o§9- Ударьте монтировкой, чтобы изменить направление обнаружения -
 
-track_kit.railcraft.railcraft_disembarking.name=Disembarking
-track_kit.railcraft.railcraft_disembarking.tips=Dismounts riding Entities in direction of arrow\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_disembarking.name=Выгружатель
+track_kit.railcraft.railcraft_disembarking.tips=Выгружает загруженных существ в направлении стрелки\n§o§9- Ударьте монтировкой, чтобы изменить направление -\n§o§c- Необходим источник Redstone-сигнала -
 
-track_kit.railcraft.railcraft_dumping.name=Dumping
-track_kit.railcraft.railcraft_dumping.tips=Suspended track\n Drops Entities or Items through the track\n§o§c- Apply Redstone to disable -
+track_kit.railcraft.railcraft_dumping.name=Сбрасыватель
+track_kit.railcraft.railcraft_dumping.tips=Подвесной путь\n Выбрасывает существ или предметы под путь\n§o§c- Необходимо отсутствие источника Redstone-сигнала -
 
-track_kit.railcraft.railcraft_embarking.name=Embarking
-track_kit.railcraft.railcraft_embarking.tips=Loads entities into Carts\n§o§9- Hit with Crowbar to change range -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_embarking.name=Загрузчик
+track_kit.railcraft.railcraft_embarking.tips=Сажает существ в вагонетки\n§o§9- Ударьте монтировкой, чтобы изменить дальность -\n§o§c- Необходим источник Redstone-сигнала -
 
-track_kit.railcraft.railcraft_gated.name=Gated
-track_kit.railcraft.railcraft_gated.tips=Track with built-in Gate\n§o§c- Apply Redstone to open -
+track_kit.railcraft.railcraft_gated.name=Путь с воротами
+track_kit.railcraft.railcraft_gated.tips=Путь со встроенными воротами\n§o§c- Необходим источник Redstone-сигнала чтобы открыть -
 
-track_kit.railcraft.railcraft_gated_one_way.name=Gated One-Way
-track_kit.railcraft.railcraft_gated_one_way.tips=Track with built-in One-Way Gate\n§o§c- Apply Redstone to open -
+track_kit.railcraft.railcraft_gated_one_way.name=Путь с воротами (односторонний)
+track_kit.railcraft.railcraft_gated_one_way.tips=Путь со встроенными воротами пропускает только в одну сторону\n§o§c- Необходим источник Redstone-сигнала чтобы открыть -
 
-track_kit.railcraft.railcraft_launcher.name=Launcher
-track_kit.railcraft.railcraft_launcher.tips=Makes carts fly!\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_launcher.name=Запускатель
+track_kit.railcraft.railcraft_launcher.tips=Заставляет вагонетки летать!\n§o§c- Необходим источник Redstone-сигнала -
 
-track_kit.railcraft.railcraft_throttle.name=Throttle
-track_kit.railcraft.railcraft_throttle.tips=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_throttle.name=Дроссель
+track_kit.railcraft.railcraft_throttle.tips=Настраивает скорость\n проходящих локомотивов\n§o§9- Ударьте монтировкой, чтобы изменить режим -\n§o§c- Необходим источник Redstone-сигнала -
 
-track_kit.railcraft.railcraft_locking.name=Locking
-track_kit.railcraft.railcraft_locking.tips=Stops and holds carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_locking.name=Запиратель
+track_kit.railcraft.railcraft_locking.tips=Останавливает и удерживает вагонетки\n§o§9- Ударьте монтировкой, чтобы изменить режим -\n§o§c- Необходим источник Redstone-сигнала -
 
-track_kit.railcraft.railcraft_locomotive.name=Locomotive
-track_kit.railcraft.railcraft_locomotive.tips=Starts/Stops Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_locomotive.name=Вылючатель локомотивов
+track_kit.railcraft.railcraft_locomotive.tips=Запускает останавливает локомотивы\n§o§9- Ударьте монтировкой, чтобы изменить режим -\n§o§c- Необходим источник Redstone-сигнала -
 
-track_kit.railcraft.railcraft_missing.name=Invalid
-track_kit.railcraft.railcraft_missing.tips=Placeholder
+track_kit.railcraft.railcraft_missing.name=Неподходящий
+track_kit.railcraft.railcraft_missing.tips=Пустое описание
 
-track_kit.railcraft.railcraft_one_way.name=One-Way
-track_kit.railcraft.railcraft_one_way.tips=Carts can only pass\n in the direction of the arrow\n§o§9- Hit with Crowbar to change direction -
+track_kit.railcraft.railcraft_one_way.name=Односторонний ограничитель
+track_kit.railcraft.railcraft_one_way.tips=Вагонетки могут проходить\n только по направлению стрелки\n§o§9- Ударьте монтировкой, чтобы изменить направление -
 
-track_kit.railcraft.railcraft_priming.name=Priming
-track_kit.railcraft.railcraft_priming.tips=Ignites TNT Carts\n Adjustable Fuse\n§o§9- Hit with Crowbar to change fuse -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_priming.name=Воспламенитель
+track_kit.railcraft.railcraft_priming.tips=Поджигает вагонетки со взрывчаткой\n Изменяемый запал\n§o§9- Ударьте монтировкой, чтобы изменить запал -\n§o§c- Необходим источник Redstone-сигнала -
 
-track_kit.railcraft.railcraft_routing.name=Routing
-track_kit.railcraft.railcraft_routing.tips=Sets a passing Locomotive's Ticket\n§o§9- Hit with Crowbar to change ticket -
+track_kit.railcraft.railcraft_routing.name=Маршрутизатор
+track_kit.railcraft.railcraft_routing.tips=Устанавливает проходящему локомотиву билет\n§o§9- Ударьте монтировкой, чтобы изменить билет -
 
-track_kit.railcraft.railcraft_transition.name=Transition
-track_kit.railcraft.railcraft_transition.tips=Transitions to/from High Speed\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_transition.name=Переход
+track_kit.railcraft.railcraft_transition.tips=Переводит на/с Высокой скорости\n§o§c- Необходим источник Redstone-сигнала -
 
-track_kit.railcraft.railcraft_whistle.name=Whistle
-track_kit.railcraft.railcraft_whistle.tips=Passing Locomotives\n will blow their Whistle\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_whistle.name=Активатор свистка
+track_kit.railcraft.railcraft_whistle.tips=Проходящие локомотивы\n подуют в свисток\n§o§c- Необходим источник Redstone-сигнала -
 
-track_type.railcraft.railcraft_iron.name=Iron
+track_type.railcraft.railcraft_iron.name=Железный
 track_type.railcraft.railcraft_strap_iron.name=Strap Iron
-track_type.railcraft.railcraft_abandoned.name=Abandoned
-track_type.railcraft.railcraft_reinforced.name=Reinforced
+track_type.railcraft.railcraft_abandoned.name=Заброшенный
+track_type.railcraft.railcraft_reinforced.name=Усилинный
 track_type.railcraft.railcraft_high_speed.name=H. S.
 track_type.railcraft.railcraft_high_speed_electric.name=H. S. E.
-track_type.railcraft.railcraft_electric.name=Electric
+track_type.railcraft.railcraft_electric.name=Электрифицированный
