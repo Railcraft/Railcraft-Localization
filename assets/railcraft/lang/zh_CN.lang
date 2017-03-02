@@ -1236,6 +1236,8 @@ track_kit.railcraft.railcraft_gated.tips=内建门控装置的轨道\n§o§c- �
 track_kit.railcraft.railcraft_gated.one.way.name=单向门控
 track_kit.railcraft.railcraft_gated.one.way.tips=内建单向门控装置的轨道\n§o§c- 使用红石信号激活 -
 
+track_kit.railcraft.railcraft_junction.name=交接
+
 track_kit.railcraft.railcraft_launcher.name=发射
 track_kit.railcraft.railcraft_launcher.tips=让矿车一飞冲天~\n§o§c- 使用红石信号激活 -
 
