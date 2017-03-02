@@ -62,9 +62,9 @@ death.railcraft.train.4=%s chytil špatný vlak.
 death.railcraft.train.5=%s koupil jednosměrnou jízdenku na onen svět.
 death.railcraft.train.6=%s měl opotřebované montérky.
 
-enchantment.railcraft.crowbar.destruction=Destrukce
-enchantment.railcraft.crowbar.implosion=Imploze
-enchantment.railcraft.crowbar.wrecking=Demolice
+enchantment.railcraft.destruction=Destrukce
+enchantment.railcraft.implosion=Imploze
+enchantment.railcraft.wrecking=Demolice
 
 entity.railcraft.cart_anchor_admin.name=Kotva správce na vozíku
 entity.railcraft.cart_anchor.name=Kotva na vozíku

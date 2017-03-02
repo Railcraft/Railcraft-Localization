@@ -41,9 +41,9 @@ death.railcraft.train.4=%s cogió el tren equivocado
 death.railcraft.train.5=%s compro un boleto de ida a la vida eterna
 death.railcraft.train.6=%s se tenia que haber puesto su Mono
 
-enchantment.railcraft.crowbar.destruction=Destrucción
-enchantment.railcraft.crowbar.implosion=Implosión
-enchantment.railcraft.crowbar.wrecking=Destrozar
+enchantment.railcraft.destruction=Destrucción
+enchantment.railcraft.implosion=Implosión
+enchantment.railcraft.wrecking=Destrozar
 
 entity.railcraft.cart_anchor_admin.name=Vagoneta Ancla de Administrador
 entity.railcraft.cart_anchor.name=Vagoneta Ancla

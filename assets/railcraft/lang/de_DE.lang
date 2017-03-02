@@ -85,9 +85,9 @@ death.railcraft.train.4=%s nahm den falschen Zug
 death.railcraft.train.5=%s besorgte sich eine Fahrt ins Jenseits
 death.railcraft.train.6=%s hätte seinen Overall tragen sollen
 
-enchantment.railcraft.crowbar.destruction=Zerstörung
-enchantment.railcraft.crowbar.implosion=Implosion
-enchantment.railcraft.crowbar.wrecking=Zertrümmern
+enchantment.railcraft.destruction=Zerstörung
+enchantment.railcraft.implosion=Implosion
+enchantment.railcraft.wrecking=Zertrümmern
 
 entity.railcraft.bore.name=Tunnelbohrer
 entity.railcraft.cart_anchor_admin.name=Admin-Ankerwaggon

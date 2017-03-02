@@ -88,9 +88,9 @@ death.railcraft.train.4=%s 上錯了車
 death.railcraft.train.5=%s 買了一張前往來世的單行票
 death.railcraft.train.6=%s 應該穿上他的工作服
 
-enchantment.railcraft.crowbar.destruction=拆除
-enchantment.railcraft.crowbar.implosion=爆裂
-enchantment.railcraft.crowbar.wrecking=揮擊
+enchantment.railcraft.destruction=拆除
+enchantment.railcraft.implosion=爆裂
+enchantment.railcraft.wrecking=揮擊
 
 entity.railcraft.bore.name=隧道鑽掘機
 entity.railcraft.cart_anchor_admin.name=管理錨車

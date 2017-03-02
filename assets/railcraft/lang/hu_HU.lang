@@ -42,9 +42,9 @@ death.railcraft.train.4=%s rossz vonatra szállt
 death.railcraft.train.5=%s egy útra szóló jegyet vett a túlvilágra
 death.railcraft.train.6=%s viselnie kellett volna a munkaruhát
 
-enchantment.railcraft.crowbar.destruction=Megsemmisítés
-enchantment.railcraft.crowbar.implosion=Robbanás
-enchantment.railcraft.crowbar.wrecking=Tönkretevés
+enchantment.railcraft.destruction=Megsemmisítés
+enchantment.railcraft.implosion=Robbanás
+enchantment.railcraft.wrecking=Tönkretevés
 
 entity.railcraft.cart_anchor_admin.name=Admin Anchor Cart
 entity.railcraft.cart_anchor.name=Anchor Cart

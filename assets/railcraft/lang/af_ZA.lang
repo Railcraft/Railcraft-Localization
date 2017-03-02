@@ -85,9 +85,9 @@ death.railcraft.train.4=%s gevang die verkeerde trein
 death.railcraft.train.5=%s het 'n one-way ticket na die hiernamaals
 death.railcraft.train.6 =% s gedra het en hul Oorpakke
 
-enchantment.railcraft.crowbar.destruction=Vernietiging
-enchantment.railcraft.crowbar.implosion=inploffing
-enchantment.railcraft.crowbar.wrecking=redding
+enchantment.railcraft.destruction=Vernietiging
+enchantment.railcraft.implosion=inploffing
+enchantment.railcraft.wrecking=redding
 
 entity.railcraft.bore.name=Tonnel Boor
 entity.railcraft.cart_anchor_admin.name=Admin Anker Kar
