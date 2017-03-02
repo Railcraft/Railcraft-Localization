@@ -202,8 +202,8 @@ tile.railcraft.wayobject.box.receiver.name=Caixa Receptora de Sinal
 tile.railcraft.wayobject.block.signal.name=Bloco de Sinal
 tile.railcraft.wayobject.block.signal.dual.name=Bloco de Sinal Duplo
 tile.railcraft.wayobject.distant.name=Sinal Monitorizador
-tile.railcraft.wayobject.switch.lever.name=Agulha Manual
-tile.railcraft.wayobject.switch.motor.name=Agulha Motorizada
+tile.railcraft.actuator.lever.name=Agulha Manual
+tile.railcraft.actuator.motor.name=Agulha Motorizada
 
 item.railcraft.borehead.diamond.name=Broca de Diamante
 item.railcraft.borehead.iron.name=Broca de Ferro

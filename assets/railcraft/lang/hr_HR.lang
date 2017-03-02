@@ -347,8 +347,8 @@ tile.railcraft.wayobject.box.controller.name=Signalna Kontrolerska Kutija
 tile.railcraft.wayobject.box.receiver.name=Signalna Primateljska Kutija
 tile.railcraft.wayobject.distant.name=Udaljeni Signal
 tile.railcraft.wayobject.distant.dual.name=Dvoglavi Udaljeni Signal
-tile.railcraft.wayobject.switch.lever.name=Polužni Prekidač
-tile.railcraft.wayobject.switch.motor.name=Motorni Prekidač
+tile.railcraft.actuator.lever.name=Polužni Prekidač
+tile.railcraft.actuator.motor.name=Motorni Prekidač
 
 tile.railcraft.stair.concrete.name=Betonske Stepenice
 tile.railcraft.stair.ice.name=Ledene Stepenice

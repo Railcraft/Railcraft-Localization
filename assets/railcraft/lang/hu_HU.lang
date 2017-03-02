@@ -794,9 +794,9 @@ tile.railcraft.wayobject.box.receiver.name=Signal Receiver Box
 tile.railcraft.wayobject.box.sequencer.name=Signal Sequencer Box
 tile.railcraft.wayobject.distant.dual.name=Dual-Head Distant Signal
 tile.railcraft.wayobject.distant.name=Distant Signal
-tile.railcraft.wayobject.switch.lever.name=Switch Lever
-tile.railcraft.wayobject.switch.motor.name=Switch Motor
-tile.railcraft.wayobject.switch.routing.name=Routing Switch Motor
+tile.railcraft.actuator.lever.name=Switch Lever
+tile.railcraft.actuator.motor.name=Switch Motor
+tile.railcraft.actuator.routing.name=Routing Switch Motor
 
 tile.railcraft.slab.abyssal.block.name=Abyssal Block Slab
 tile.railcraft.slab.abyssal.brick.name=Abyssal Brick Slab

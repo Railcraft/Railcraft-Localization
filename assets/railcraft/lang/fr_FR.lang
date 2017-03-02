@@ -617,9 +617,9 @@ tile.railcraft.wayobject.box.sequencer.name=Boîte de signal séquenceur
 tile.railcraft.wayobject.box.receiver.name=Boîte de réception de signal
 tile.railcraft.wayobject.distant.name=Récepteur de dignal éloigné
 tile.railcraft.wayobject.distant.dual.name=Récepteur de signal à double tête
-tile.railcraft.wayobject.switch.lever.name=Levier changeur
-tile.railcraft.wayobject.switch.motor.name=Moteur changeur
-tile.railcraft.wayobject.switch.routing.name=Moteur changeur pour routeur
+tile.railcraft.actuator.lever.name=Levier changeur
+tile.railcraft.actuator.motor.name=Moteur changeur
+tile.railcraft.actuator.routing.name=Moteur changeur pour routeur
 
 tile.railcraft.slab.abyssal.brick.name=Dalle de brique abyssale
 tile.railcraft.slab.abyssal.fitted.name=Dalle abyssale adaptée

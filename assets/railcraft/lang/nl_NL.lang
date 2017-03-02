@@ -290,8 +290,8 @@ tile.railcraft.wayobject.block.signal.name=Signaalblok
 tile.railcraft.wayobject.box.controller.name=Signaal Controller
 tile.railcraft.wayobject.box.receiver.name=Signal Ontvanger
 tile.railcraft.wayobject.distant.name=Verrijkend Signaal
-tile.railcraft.wayobject.switch.lever.name=Schakel Hendel
-tile.railcraft.wayobject.switch.motor.name=Schakel Motor
+tile.railcraft.actuator.lever.name=Schakel Hendel
+tile.railcraft.actuator.motor.name=Schakel Motor
 
 item.railcraft.borehead.diamond.name=Diamanten Boor
 item.railcraft.borehead.iron.name=IJzeren Boor

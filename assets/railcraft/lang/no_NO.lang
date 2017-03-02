@@ -601,9 +601,9 @@ tile.railcraft.wayobject.box.sequencer.name=Signal Sequencer Box
 tile.railcraft.wayobject.box.receiver.name=Signal mottaker boks
 tile.railcraft.wayobject.distant.name=fjern Signal
 tile.railcraft.wayobject.distant.dual.name=Multihodet fjernsignal
-tile.railcraft.wayobject.switch.lever.name=Bryter spak
-tile.railcraft.wayobject.switch.motor.name=Bryter Motor
-tile.railcraft.wayobject.switch.routing.name=Routing Switch Motor
+tile.railcraft.actuator.lever.name=Bryter spak
+tile.railcraft.actuator.motor.name=Bryter Motor
+tile.railcraft.actuator.routing.name=Routing Switch Motor
 
 tile.railcraft.slab.abyssal.brick.name=Abyssal Brick Slab
 tile.railcraft.slab.abyssal.fitted.name=Fitted Abyssal Stone Slab

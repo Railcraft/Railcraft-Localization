@@ -704,9 +704,9 @@ tile.railcraft.wayobject.box.receiver.name=Caja Receptora de Señal
 tile.railcraft.wayobject.box.sequencer.name=Caja Secuenciadora de Señal
 tile.railcraft.wayobject.distant.dual.name=Señal Distante Doble-Cabeza
 tile.railcraft.wayobject.distant.name=Señal Distante
-tile.railcraft.wayobject.switch.lever.name=Palanca Conmutadora
-tile.railcraft.wayobject.switch.motor.name=Motor Conmutador
-tile.railcraft.wayobject.switch.routing.name=Motor de Cambio de Ruta
+tile.railcraft.actuator.lever.name=Palanca Conmutadora
+tile.railcraft.actuator.motor.name=Motor Conmutador
+tile.railcraft.actuator.routing.name=Motor de Cambio de Ruta
 
 tile.railcraft.slab.abyssal.block.name=Losa de Bloque Abismal
 tile.railcraft.slab.abyssal.brick.name=Losa de Ladrillos Abismales

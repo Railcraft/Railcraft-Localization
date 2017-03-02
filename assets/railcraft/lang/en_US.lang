@@ -651,6 +651,13 @@ tile.detectorRail.name=Detector Track
 tile.goldenRail.name=Booster Track
 tile.rail.name=Track
 
+tile.railcraft.actuator.lever.name=Switch Actuator Lever
+tile.railcraft.actuator.lever.tips=Controls adjacent Switch Tracks\n§o§9Manual Operation
+tile.railcraft.actuator.motor.name=Switch Actuator Motor
+tile.railcraft.actuator.motor.tips=Controls adjacent Switch Tracks\n§o§9Aerial Linkages: 1x Receiver\n§o§9Redstone Linkage: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.actuator.routing.name=Routing Switch Actuator Motor
+tile.railcraft.actuator.routing.tips=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
+
 tile.railcraft.anvil.intact.name=Steel Anvil
 tile.railcraft.anvil.slightlyDamaged.name=Slightly Damaged Steel Anvil
 tile.railcraft.anvil.veryDamaged.name=Very Damaged Steel Anvil
@@ -1038,12 +1045,6 @@ tile.railcraft.wayobject.distant.dual.name=Dual-Head Distant Signal
 tile.railcraft.wayobject.distant.dual.tips=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.wayobject.distant.name=Distant Signal
 tile.railcraft.wayobject.distant.tips=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.switch.lever.name=Switch Actuator Lever
-tile.railcraft.wayobject.switch.lever.tips=Controls adjacent Switch Tracks\n§o§9Manual Operation
-tile.railcraft.wayobject.switch.motor.name=Switch Actuator Motor
-tile.railcraft.wayobject.switch.motor.tips=Controls adjacent Switch Tracks\n§o§9Aerial Linkages: 1x Receiver\n§o§9Redstone Linkage: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.switch.routing.name=Routing Switch Actuator Motor
-tile.railcraft.wayobject.switch.routing.tips=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
 
 tile.railcraft.wire.name=Charge Shunting Wire
 tile.railcraft.wire.tips=Transfers Charge over short distances\n Place under Track using Wire Support Frames\n High loss

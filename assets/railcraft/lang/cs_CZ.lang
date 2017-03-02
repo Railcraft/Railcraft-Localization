@@ -835,9 +835,9 @@ tile.railcraft.wayobject.box.receiver.name=Signální přijímač
 tile.railcraft.wayobject.box.sequencer.name=Signální sekvencer
 tile.railcraft.wayobject.distant.dual.name=Dvojitý vzdálený signál
 tile.railcraft.wayobject.distant.name=Vzdálený signál
-tile.railcraft.wayobject.switch.lever.name=Přepínací páka
-tile.railcraft.wayobject.switch.motor.name=Přepínací motor
-tile.railcraft.wayobject.switch.routing.name=Routovací přepínací motor
+tile.railcraft.actuator.lever.name=Přepínací páka
+tile.railcraft.actuator.motor.name=Přepínací motor
+tile.railcraft.actuator.routing.name=Routovací přepínací motor
 
 tile.railcraft.slab.abyssal.block.name=Abyssal půlblok
 tile.railcraft.slab.abyssal.brick.name=Abyssal cihla deska

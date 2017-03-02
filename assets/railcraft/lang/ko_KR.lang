@@ -487,9 +487,9 @@ tile.railcraft.wayobject.box.controller.name=신호 제어 박스
 tile.railcraft.wayobject.box.receiver.name=신호 수신 박스
 tile.railcraft.wayobject.distant.name=원격 신호기
 tile.railcraft.wayobject.distant.dual.name=이중 원격 신호기
-tile.railcraft.wayobject.switch.lever.name=스위치 레버
-tile.railcraft.wayobject.switch.motor.name=스위치 모터
-tile.railcraft.wayobject.switch.routing.name=경로 스위치 모터
+tile.railcraft.actuator.lever.name=스위치 레버
+tile.railcraft.actuator.motor.name=스위치 모터
+tile.railcraft.actuator.routing.name=경로 스위치 모터
 
 tile.railcraft.slab.abyssal.brick.name=심해석 벽돌 반 블록
 tile.railcraft.slab.abyssal.fitted.name=심해석 큰 벽돌 반 블록

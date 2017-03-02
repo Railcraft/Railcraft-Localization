@@ -302,8 +302,8 @@ tile.railcraft.wayobject.block.signal.name=Blok Sygnałowy
 tile.railcraft.wayobject.box.controller.name=Budka Kontolera Sygnału
 tile.railcraft.wayobject.box.receiver.name=Budka Odbiornika Sygnału
 tile.railcraft.wayobject.distant.name=Odbiornik Sygnału z Dystansu
-tile.railcraft.wayobject.switch.lever.name=Ręczna Zwrotnica
-tile.railcraft.wayobject.switch.motor.name=Zwrotnica Automatyczna
+tile.railcraft.actuator.lever.name=Ręczna Zwrotnica
+tile.railcraft.actuator.motor.name=Zwrotnica Automatyczna
 
 item.railcraft.borehead.diamond.name=Diamentowa Głowica
 item.railcraft.borehead.iron.name=Żelazna Głowica

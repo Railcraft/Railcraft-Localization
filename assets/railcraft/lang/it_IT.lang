@@ -488,9 +488,9 @@ tile.railcraft.wayobject.box.controller.name=Scatola di controllo del segnale
 tile.railcraft.wayobject.box.receiver.name=Scatola ricevente il segnale
 tile.railcraft.wayobject.distant.name=Segnale distante
 tile.railcraft.wayobject.distant.dual.name=Segnale distante a doppia testa
-tile.railcraft.wayobject.switch.lever.name=Scambia-leve
-tile.railcraft.wayobject.switch.motor.name=Scambia-motori
-tile.railcraft.wayobject.switch.routing.name=Leva del motore d'avviamento
+tile.railcraft.actuator.lever.name=Scambia-leve
+tile.railcraft.actuator.motor.name=Scambia-motori
+tile.railcraft.actuator.routing.name=Leva del motore d'avviamento
 
 tile.railcraft.slab.abyssal.brick.name=Lastra di Mattoni abissali
 tile.railcraft.slab.abyssal.fitted.name=Lastra di Mattoni abissali da muro
