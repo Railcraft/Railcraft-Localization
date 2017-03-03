@@ -528,6 +528,8 @@ railcraft.gui.mag.glass.placedby=%1$s wurde platziert von %2$s
 railcraft.gui.rolling.machine.tips.craft=§e§o-Klicken zum Herstellen-
 
 railcraft.gui.routing.logic.blank=Leerer Fahrplan
+railcraft.gui.routing.logic.constant.invalid=Ungültige Konstante
+railcraft.gui.routing.logic.operand.invalid=Ungültiger Operand
 railcraft.gui.routing.logic.insufficient.operands=Zu wenig Operanden
 railcraft.gui.routing.logic.malformed.syntax=Fehlerhafte Syntax
 railcraft.gui.routing.logic.regex.invalid=Ungültiger Regulärer Ausdruck
@@ -535,9 +537,9 @@ railcraft.gui.routing.logic.regex.unsupported=Regex nicht unterstützt
 railcraft.gui.routing.logic.unrecognized.keyword=Unbekanntes Schlüsselwort
 railcraft.gui.routing.slot.label=Fahrplan
 railcraft.gui.routing.table.editor=Zuletzt bearbeitet von %s
-railcraft.gui.routing.table.manual.numPages=11
+railcraft.gui.routing.table.manual.numPages=12
 railcraft.gui.routing.table.manual.page1=Der Streckenplan, wenn in einem Richtungssensor oder Stellantrieb platziert, wird eine Sammlung von Regeln definieren, die bei jeder passierenden Lokomotive genutzt werden. Diese Regeln werden mit einer einfachen logischen Syntax definiert, die es dir erlaubt, Regeln zu erschaffen, so einfach oder komplex wie du willst. Die Syntax ist ein Präfix-Notationsscript, the Operatoren werden gefolgt von den Operanden. Nur ein Wort pro Zeile ist erlaubt. Wenn kein Operator spezifiziert wird, wird OR verwendet. Streckenpläne können kopiert werden, indem zwei oder mehr in ein Crafting-Gitter platziert werden.
-railcraft.gui.routing.table.manual.page2=Operator-Wörter:\n   AND - Zwei Operanden, beide müssen wahr sein.\n   OR - Zwei Operanden, einer muss wahr sein.\n   NOT - Kehrt den folgenden Operanden um.
+railcraft.gui.routing.table.manual.page2=Operator-Wörter:\n   AND - Zwei Operanden, beide müssen wahr sein.\n   OR - Zwei Operanden, einer muss wahr sein.\n   NOT - Kehrt den folgenden Operanden um.\n IF - Drei Operanden: cond, then, else.\n Wenn 'cond' wahr ist, wird 'then'\n verwendet, sonst 'else'.
 railcraft.gui.routing.table.manual.page3=Bedingungswörter:\n   Dest=<string>\n      Wenn das eingetragene Ziel der\n      Lokomotive mit diesem String startet,\n      ist die Bedingung wahr.\n      "Dest=null" wird Wagen ohne\n      Ziel entsprechen.\n   Owner=<Spielername>\n      Wahr, wenn die Lokomotive\n      dieser Person gehört.
 railcraft.gui.routing.table.manual.page4=Bedingungswörter:\n   Name=<entityname>\n      Wahr, wenn <entityname> dem Namen\n des Wagens entspricht.\n      "Name=null" wird zu Waggons\n      ohne speziellen Namen passen\n   Type=<modid:itemname>\n      Wahr, wenn dies zu dem\n      Item-Namen des\n      Waggons passt.
 railcraft.gui.routing.table.manual.page5=Bedingungswörter:\n   Riding=<username>\n      Wahr, wenn der Zug von\n      dieser Person gefahren wird.\n   Ridden=<true/false>\n      Wahr, wenn der Zug\n      von einem Spieler gefahren wird.
@@ -547,6 +549,7 @@ railcraft.gui.routing.table.manual.page8=Bedingungswörter:\n   Loco=<string>\n 
 railcraft.gui.routing.table.manual.page9=Beispielskript:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
 railcraft.gui.routing.table.manual.page10=Ergebnis:\n   Das Skript auf der vorherigen Seite wird\n   zu einer Lokomotive passen, die das Ziel\n   "TheFarLands/Milliways" hat\n   oder schwarz und rot gefärbt ist\n   oder das Ziel\n   "SecretHideout/OceanEntrance" hat,\n   aber nur, wenn sie nicht RichardG gehört.
 railcraft.gui.routing.table.manual.page11=Reguläre Ausdrücke:\n Einige Bedingungen unterstützen\n Reguläre Ausdrücke.\n Um Regex zu verwenden, füge ein '?' vor dem '=' ein.\n Es gelten die Standard-Java-Regeln für Regex.\nUnterstützte Bedingungen:\n Dest, Name\nBeispiel:\n Dest?=.*Hill
+railcraft.gui.routing.table.manual.page12=Analog-Signal:\n   IF kann mit ganzzahligen Konstanten für\n analoge Signale verwendet werden. Zahlen\n und IF können nicht verschachtelt werden,\n oder als 'then' oder 'else' in IF.\n TRUE und FALSE sind überall verwendbar.\nBeispiel:\n Dest=Town\n 8\n IF\n Dest=City\n 4\n FALSE
 railcraft.gui.routing.table.manual.title=Streckenplan-Handbuch
 railcraft.gui.routing.table.name=Name
 railcraft.gui.routing.ticket.line1=Dieses Ticket ist gültig
@@ -650,6 +653,13 @@ tile.activatorRail.name=Aktivierungsgleis
 tile.detectorRail.name=Sensorgleis
 tile.goldenRail.name=Antriebsgleis
 tile.rail.name=Gleis
+
+tile.railcraft.actuator.lever.name=Manueller Stellantrieb
+tile.railcraft.actuator.lever.tips=Steuert verbundene Weichen\n§o§9Manuelle Steuerung
+tile.railcraft.actuator.motor.name=Motorisierter Stellantrieb
+tile.railcraft.actuator.motor.tips=Steuert verbundene Weichen\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.actuator.routing.name=Routender Stellantrieb
+tile.railcraft.actuator.routing.tips=Steuert verbundene Weichen\n§o§9Steuerung durch Logikskript\n§o§cWichtiges Werkzeug:\n§o§c- Streckenplan
 
 tile.railcraft.anvil.intact.name=Stahlamboss
 tile.railcraft.anvil.slightlyDamaged.name=Leicht beschädigter Stahlamboss
@@ -1038,12 +1048,6 @@ tile.railcraft.wayobject.distant.dual.name=Entferntes Doppelkopf-Blocksignal
 tile.railcraft.wayobject.distant.dual.tips=Zeigt Aspekte verbundener Controller\n§o§9Fernverbindungen: 2x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
 tile.railcraft.wayobject.distant.name=Entferntes Signal
 tile.railcraft.wayobject.distant.tips=Zeigt Aspekt des verbundenen Controllers\n§o§9Fernverbindungen: 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.actuator.lever.name=Manueller Stellantrieb
-tile.railcraft.actuator.lever.tips=Steuert verbundene Weichen\n§o§9Manuelle Steuerung
-tile.railcraft.actuator.motor.name=Motorisierter Stellantrieb
-tile.railcraft.actuator.motor.tips=Steuert verbundene Weichen\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.actuator.routing.name=Routender Stellantrieb
-tile.railcraft.actuator.routing.tips=Steuert verbundene Weichen\n§o§9Steuerung durch Logikskript\n§o§cWichtiges Werkzeug:\n§o§c- Streckenplan
 
 tile.railcraft.wire.name=Ladungsrangierkabel
 tile.railcraft.wire.tips=Transportiert Ladung über kurze Distanzen\n Platziere unterhalb von Gleisen,\n die Kabelstützrahmen verwenden\n Sehr verlustreich
