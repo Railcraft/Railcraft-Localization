@@ -1269,6 +1269,8 @@ track_kit.railcraft.railcraft_transition.tips=用于高速与正常速度的过�
 track_kit.railcraft.railcraft_whistle.name=鸣笛
 track_kit.railcraft.railcraft_whistle.tips=经过的机车会鸣笛\n§o§c- 使用红石信号激活 -
 
+track_kit.railcraft.railcraft_wye.name=Y型
+
 track_type.railcraft.railcraft_iron.name=铁制
 track_type.railcraft.railcraft_strap_iron.name=镀铁
 track_type.railcraft.railcraft_abandoned.name=废弃
