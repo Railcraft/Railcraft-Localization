@@ -1069,7 +1069,7 @@ tile.railcraft.track.electric.junction.name=Elektrisches Schienenkreuz
 tile.railcraft.track.electric.junction.tips=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Stromumformer zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken
 tile.railcraft.track.electric.switch.name=Elektrische Weiche
 tile.railcraft.track.electric.switch.tips=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Stromumformer zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken\n§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
-tile.railcraft.track.electric.wye.name=Elektrische T-Weiche
+tile.railcraft.track.electric.wye.name=Elektrisches Gleisdreieck
 tile.railcraft.track.electric.wye.tips=§9Vorsicht: Hochspannung\n §rWird mit Strom betrieben\n Nutze mit Elektrischer Lokomotive\n Nutze Stromumformer zur Stromversorgung\n Nutze Rangierkabel, um Lücken zu überbrücken\n§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.elevator.name=Aufzugsgleis
 tile.railcraft.track.elevator.tips=Ermöglicht vertikale Waggonbewegung\n§o§c- Um nach oben zu fahren, gib Redstone-Signal an der Oberkante -
@@ -1103,7 +1103,7 @@ tile.railcraft.track.reinforced.junction.name=Verstärktes Schienenkreuz
 tile.railcraft.track.reinforced.junction.tips=125% der Geschwindigkeit eines normalen Gleises\n Explosionsresistent
 tile.railcraft.track.reinforced.switch.name=Verstärkte Weiche
 tile.railcraft.track.reinforced.switch.tips=125% der Geschwindigkeit eines normalen Gleises\n Explosionsresistent\n§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
-tile.railcraft.track.reinforced.wye.name=Verstärkte T-Weiche
+tile.railcraft.track.reinforced.wye.name=Verstärktes Gleisdreieck
 tile.railcraft.track.reinforced.wye.tips=125% der Geschwindigkeit eines normalen Gleises\n Explosionsresistent\n§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.routing.name=Routengleis
 tile.railcraft.track.routing.tips=Überschreibt das Ticket einer passierenden Lokomotive\n§o§9- Wechsle das zu übernehmende Ticket mit einem Brecheisen -
@@ -1112,7 +1112,7 @@ tile.railcraft.track.slow.junction.name=Hölzernes Schienenkreuz
 tile.railcraft.track.slow.junction.tips=30% der Geschwindigkeit eines normalen Gleises
 tile.railcraft.track.slow.switch.name=Hölzerne Weiche
 tile.railcraft.track.slow.switch.tips=30% der Geschwindigkeit eines normalen Gleises\n §o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
-tile.railcraft.track.slow.wye.name=Hölzerne T-Weiche
+tile.railcraft.track.slow.wye.name=Hölzernes Gleisdreieck
 tile.railcraft.track.slow.wye.tips=30% der Geschwindigkeit eines normalen Gleises\n §o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.speed.boost.name=Hochgeschw.-Antriebsgleis
 tile.railcraft.track.speed.boost.tips=§9Gefährlich\n §rMehr als doppelt so schnell wie ein normales Gleis\n Hält Hochgeschwindigkeit aufrecht\n§o§c- Aktiviere mit einem Redstone-Signal -
@@ -1120,7 +1120,7 @@ tile.railcraft.track.speed.switch.name=Hochgeschw.-Weiche
 tile.railcraft.track.speed.switch.tips=§9Gefährlich\n Versuche nicht, bei Hochgeschwindigkeit abzuweichen\n §o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.speed.transition.name=Hochgeschw.-Übergangsgleis
 tile.railcraft.track.speed.transition.tips=§9Gefährlich\n §rMehr als doppelt so schnell wie ein normales Gleis\n Sorgt für Übergang von/zu Hochgeschwindigkeit\n§o§c- Aktiviere mit einem Redstone-Signal -
-tile.railcraft.track.speed.wye.name=Hochgeschw.-T-Weiche
+tile.railcraft.track.speed.wye.name=Hochgeschw.-Gleisdreieck
 tile.railcraft.track.speed.wye.tips=§9Gefährlich\n Versuche nicht, bei Hochgeschwindigkeit abzuweichen\n §o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.suspended.name=Hängendes Gleis
 tile.railcraft.track.suspended.tips=Benötigt keine Stütze von unterhalb\n Kann Lücken überqueren
@@ -1128,7 +1128,7 @@ tile.railcraft.track.switch.name=Weiche
 tile.railcraft.track.switch.tips=§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.whistle.name=Pfeifgleis
 tile.railcraft.track.whistle.tips=Passierende Lokomotiven werden pfeifen\n§o§c- Aktiviere mit einem Redstone-Signal -
-tile.railcraft.track.wye.name=T-Weiche
+tile.railcraft.track.wye.name=Gleisdreieck
 tile.railcraft.track.wye.tips=§o§c- Benötigt Motorisierten/Manuellen Stellantrieb zum Schalten -
 tile.railcraft.track.autolococoupler.name=Automatischer Lokomotivenkoppler
 tile.railcraft.track.autolococoupler.tips=Sorgt dafür, dass passierende Lokomotiven mit\ndem ersten Wagen, mit dem sie\nkollidieren, koppeln und dann\nAuf Rangiergeschwindigkeit umschalten.\n§o§c- Aktiviere mit einem Redstone-Signal -
@@ -1200,71 +1200,75 @@ tile.railcraft.track.flex.strap.iron.tips=30% der Geschwindigkeit eines Eisengle
 #
 ######################################################################################
 
-item.railcraft.track_kit.name={track_kit}gleiszubehör
-tile.railcraft.track_outfitted.name={track_type}{track_kit}gleis
+item.railcraft.track_kit.name={track_kit}zubehör
+tile.railcraft.track_outfitted.name={track_type}{track_kit}
 
-track_kit.railcraft.railcraft_activator.name=Aktivierungs
+track_kit.railcraft.railcraft_activator.name=Aktivierungsgleis
 track_kit.railcraft.railcraft_activator.tips=Aktiviert vorbeifahrende Waggons\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_booster.name=Antriebs
+track_kit.railcraft.railcraft_booster.name=Antriebsgleis
 track_kit.railcraft.railcraft_booster.tips=Gibt Waggons einen Schub\nVerlangsamt, wenn deaktiviert\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_buffer.name=Prellbock
+track_kit.railcraft.railcraft_buffer.name=Prellbockgleis
 track_kit.railcraft.railcraft_buffer.tips=Endstation\n§o§9- Verändere die Richtung mit einem Brecheisen -
 
-track_kit.railcraft.railcraft_control.name=Steuer
+track_kit.railcraft.railcraft_control.name=Steuergleis
 track_kit.railcraft.railcraft_control.tips=Gibt Waggons einen kleinen Schub\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Verändere die Richtung mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_coupler.name=Koppel
+track_kit.railcraft.railcraft_coupler.name=Koppelgleis
 track_kit.railcraft.railcraft_coupler.tips=Koppelt/Entkoppelt passierende Waggons\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_detector.name=Sensor
+track_kit.railcraft.railcraft_detector.name=Sensorgleis
 track_kit.railcraft.railcraft_detector.tips=Sendet Redstone-Signal aus, wenn ein Waggon\n in der angezeigten Richtung passiert\n§o§9- Verändere die Richtung mit einem Brecheisen -
 
-track_kit.railcraft.railcraft_disembarking.name=Auswurf
+track_kit.railcraft.railcraft_disembarking.name=Auswurfgleis
 track_kit.railcraft.railcraft_disembarking.tips=Wirft fahrende Lebewesen in Richtung des Pfeils aus dem Waggon\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_dumping.name=Entsorgungs
+track_kit.railcraft.railcraft_dumping.name=Entsorgungsgleis
 track_kit.railcraft.railcraft_dumping.tips=Hängendes Gleis\n Wirft fahrende Lebewesen oder Items durch das Gleis hindurch\n§o§c- Deaktiviere mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_embarking.name=Aufnahme
+track_kit.railcraft.railcraft_embarking.name=Aufnahmegleis
 track_kit.railcraft.railcraft_embarking.tips=Lädt Lebewesen in Waggons hinein\n§o§9- Verändere die Reichweite mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_gated.name=Tor
+track_kit.railcraft.railcraft_gated.name=Torgleis
 track_kit.railcraft.railcraft_gated.tips=Mit eingebautem Tor\n§o§c- Öffne mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_gated_one_way.name=Fahrtrichtungstor
+track_kit.railcraft.railcraft_gated_one_way.name=Fahrtrichtungstorgleis
 track_kit.railcraft.railcraft_gated_one_way.tips=Mit einseitig öffnendem eingebautem Tor\n§o§c- Öffne mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_launcher.name=Katapult
+track_kit.railcraft.railcraft_junction.name=Schienenkreuz
+
+track_kit.railcraft.railcraft_launcher.name=Katapultgleis
 track_kit.railcraft.railcraft_launcher.tips=Verleiht Waggons Flügel... Beinahe.\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_throttle.name=Drossel
+track_kit.railcraft.railcraft_throttle.name=Drosselgleis
 track_kit.railcraft.railcraft_throttle.tips=Verstellt die Geschwindigkeit\n passierender Lokomotiven\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_locking.name=Sperr
+track_kit.railcraft.railcraft_locking.name=Sperrgleis
 track_kit.railcraft.railcraft_locking.tips=Hält Waggons fest\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_locomotive.name=Lokomotivsteuer
+track_kit.railcraft.railcraft_locomotive.name=Lokomotivsteuergleis
 track_kit.railcraft.railcraft_locomotive.tips=Startet/Stoppt Lokomotiven\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_missing.name=Ungültig
-track_kit.railcraft.railcraft_missing.tips=Platzhalter
+track_kit.railcraft.railcraft_missing.tips=Platzhaltergleis
 
-track_kit.railcraft.railcraft_one_way.name=Einbahn
+track_kit.railcraft.railcraft_one_way.name=Einbahngleis
 track_kit.railcraft.railcraft_one_way.tips=Waggons können nur\n in Pfeilrichtung passieren\n§o§9- Verändere die Richtung mit einem Brecheisen -
 
-track_kit.railcraft.railcraft_priming.name=Zünd
+track_kit.railcraft.railcraft_priming.name=Zündgleis
 track_kit.railcraft.railcraft_priming.tips=Entzündet TNT-Waggons\n Verstellbare Zünddauer\n§o§9- Verändere die Zündzeit mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_routing.name=Routen
+track_kit.railcraft.railcraft_routing.name=Routengleis
 track_kit.railcraft.railcraft_routing.tips=Überschreibt das Ticket einer passierenden Lokomotive\n§o§9- Wechsle das zu übernehmende Ticket mit einem Brecheisen -
 
-track_kit.railcraft.railcraft_transition.name=Übergangs
+track_kit.railcraft.railcraft_transition.name=Übergangsgleis
 track_kit.railcraft.railcraft_transition.tips=Sorgt für Übergang von/zu Hochgeschwindigkeit\n§o§c- Aktiviere mit einem Redstone-Signal -
 
-track_kit.railcraft.railcraft_whistle.name=Pfeif
+track_kit.railcraft.railcraft_whistle.name=Pfeifgleis
 track_kit.railcraft.railcraft_whistle.tips=Passierende Lokomotiven werden pfeifen\n§o§c- Aktiviere mit einem Redstone-Signal -
+
+track_kit.railcraft.railcraft_wye.name=Gleisdreieck
 
 track_type.railcraft.railcraft_iron.name=Eisernes 
 track_type.railcraft.railcraft_strap_iron.name=Flacheisen-
