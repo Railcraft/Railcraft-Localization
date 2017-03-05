@@ -1268,6 +1268,8 @@ track_kit.railcraft.railcraft_transition.tips=Transitions to/from High Speed\n§
 track_kit.railcraft.railcraft_whistle.name=Whistle
 track_kit.railcraft.railcraft_whistle.tips=Passing Locomotives\n will blow their Whistle\n§o§c- Apply Redstone to enable -
 
+track_kit.railcraft.railcraft_wye.name=Wye
+
 track_type.railcraft.railcraft_iron.name=Iron
 track_type.railcraft.railcraft_strap_iron.name=Strap Iron
 track_type.railcraft.railcraft_abandoned.name=Abandoned
