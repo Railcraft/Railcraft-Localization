@@ -1236,6 +1236,8 @@ track_kit.railcraft.railcraft_gated.tips=Track with built-in Gate\n§o§c- Apply
 track_kit.railcraft.railcraft_gated_one_way.name=Gated One-Way
 track_kit.railcraft.railcraft_gated_one_way.tips=Track with built-in One-Way Gate\n§o§c- Apply Redstone to open -
 
+track_kit.railcraft.railcraft_junction.name=Junction
+
 track_kit.railcraft.railcraft_launcher.name=Launcher
 track_kit.railcraft.railcraft_launcher.tips=Makes carts fly!\n§o§c- Apply Redstone to enable -
 
