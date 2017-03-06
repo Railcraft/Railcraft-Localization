@@ -529,6 +529,8 @@ railcraft.gui.mag.glass.aspect=信号灯颜色是%s.
 railcraft.gui.mag.glass.aspect.dual=信号灯顶部颜色是%1$s底部颜色是%2$s.
 railcraft.gui.mag.glass.placedby=%1$s被%2$s放置于此.
 
+railcraft.gui.message.set=成功将信息设为:
+
 railcraft.gui.rolling.machine.tips.craft=§e§o-点击以合成-
 
 railcraft.gui.routing.logic.blank=空白列车时刻表
@@ -1253,6 +1255,9 @@ track_kit.railcraft.railcraft_locomotive.tips=发动或停止机车\n§o§9- 通
 
 track_kit.railcraft.railcraft_missing.name=???
 track_kit.railcraft.railcraft_missing.tips=只是拿来占位的，这说明这个轨道出问题了
+
+track_kit.railcraft.railcraft_messenger.name=传信
+track_kit.railcraft.railcraft_messenger.tips=给经过车辆上的乘客发送一条信息\n§o§9- 使用已命名物品右键以更改信息 -\n§o§c- 使用红石信号激活 -
 
 track_kit.railcraft.railcraft_one.way.name=单向
 track_kit.railcraft.railcraft_one.way.tips=只允许矿车通向箭头标定方向\n§o§9- 通过撬棍敲击来变向 -
