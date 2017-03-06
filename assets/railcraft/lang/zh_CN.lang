@@ -532,6 +532,8 @@ railcraft.gui.mag.glass.placedby=%1$s被%2$s放置于此.
 railcraft.gui.rolling.machine.tips.craft=§e§o-点击以合成-
 
 railcraft.gui.routing.logic.blank=空白列车时刻表
+railcraft.gui.routing.logic.constant.invalid=无效常量
+railcraft.gui.routing.logic.operand.invalid=无效操作符
 railcraft.gui.routing.logic.insufficient.operands=无效操作数
 railcraft.gui.routing.logic.malformed.syntax=不符规范语法
 railcraft.gui.routing.logic.regex.invalid=无效正则表达式
@@ -539,7 +541,7 @@ railcraft.gui.routing.logic.regex.unsupported=未支持正则表达式
 railcraft.gui.routing.logic.unrecognized.keyword=未识别关键字
 railcraft.gui.routing.slot.label=路由表
 railcraft.gui.routing.table.editor=由%s最后编辑
-railcraft.gui.routing.table.manual.numPages=11
+railcraft.gui.routing.table.manual.numPages=12
 railcraft.gui.routing.table.manual.page1=放入路由传感器或路由转辙马达中的列车时刻表定义了一组对过往机车进行匹配的规则.这些使用简单逻辑指令定义的脚本能够允许你任你所需创建出简单或复杂的控制规则.这种指令属于前缀符号脚本,指令需要放在操作数之后,每行限使用一个关键字.若没有写明指令,则默认使用OR指令.在工作台放置两个或更多列车时刻表可以复制其内容.
 railcraft.gui.routing.table.manual.page2=指令关键字:\n   AND - 两个操作数,必须都为真..\n   OR - 两个操作数,一个必须为真.\n   NOT - 反转下一条指令.
 railcraft.gui.routing.table.manual.page3=条件关键字:\n   Dest=<字符串>\n      如果机车目的地\n      字符串以这条字符串开头,\n      则条件为真.\n      "Dest=null" 将匹配那些没有\n      目的地的矿车.\n   Owner=<用户名>\n      机车属于对应名称玩家\n      则为真.
@@ -551,6 +553,7 @@ railcraft.gui.routing.table.manual.page8=条件关键字:\n   Loco=<类型>\n   
 railcraft.gui.routing.table.manual.page9=脚本范例:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
 railcraft.gui.routing.table.manual.page10=结果:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身黑色,底盘红色,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头.
 railcraft.gui.routing.table.manual.page11=正则表达式:\n   某些条件关键字支持\n   使用正则表达式.\n   要使用正则表达,需要在'='前添加一个'?'.\n   语法参同标准的java正则表达式语法.\n支持的条件关键字:\n   Dest, Name\n范例:\n   Dest?=.*Hill
+railcraft.gui.routing.table.manual.page12=输出:\n   IF可以和整数常量一起使用\n   以产生模拟红石信号.整数和 IF 只能\n   在最高级使用,或者嵌套在 IF 中使用.\n   TRUE 和 FALSE 在任何地方都可以使用.\n范例:\n   IF\n   Dest=Town\n   8\n   IF\n   Dest=City\n   4\n   FALSE
 railcraft.gui.routing.table.manual.title=路由手册
 railcraft.gui.routing.table.name=名称
 railcraft.gui.routing.ticket.line1=车票有效
