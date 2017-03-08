@@ -1265,6 +1265,8 @@ track_kit.railcraft.railcraft_routing.tips=Sets a passing Locomotive's Ticket\n�
 track_kit.railcraft.railcraft_transition.name=Transition
 track_kit.railcraft.railcraft_transition.tips=Transitions to/from High Speed\n§o§c- Apply Redstone to enable -
 
+track_kit.railcraft.railcraft_turnout.name=Turnout
+
 track_kit.railcraft.railcraft_whistle.name=Whistle
 track_kit.railcraft.railcraft_whistle.tips=Passing Locomotives\n will blow their Whistle\n§o§c- Apply Redstone to enable -
 
