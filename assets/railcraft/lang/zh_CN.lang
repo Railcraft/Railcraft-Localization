@@ -1269,6 +1269,8 @@ track_kit.railcraft.railcraft_routing.tips=设置经过机车的车票\n§o§9- 
 track_kit.railcraft.railcraft_transition.name=过渡
 track_kit.railcraft.railcraft_transition.tips=用于高速与正常速度的过渡\n§o§c- 使用红石信号激活 -
 
+track_kit.railcraft.railcraft_turnout.name=分岔
+
 track_kit.railcraft.railcraft_whistle.name=鸣笛
 track_kit.railcraft.railcraft_whistle.tips=经过的机车会鸣笛\n§o§c- 使用红石信号激活 -
 
