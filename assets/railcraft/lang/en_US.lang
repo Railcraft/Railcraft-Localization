@@ -706,6 +706,12 @@ tile.railcraft.brick.nether.etched.name=Etched Nether Stone
 tile.railcraft.brick.nether.fitted.name=Fitted Nether Stone
 tile.railcraft.brick.nether.ornate.name=Ornate Nether Stone
 
+tile.railcraft.brick.red.nether.block.name=Red Nether Block
+tile.railcraft.brick.red.nether.cobble.name=Red Nether Cobblestone
+tile.railcraft.brick.red.nether.etched.name=Etched Red Nether Stone
+tile.railcraft.brick.red.nether.fitted.name=Fitted Red Nether Stone
+tile.railcraft.brick.red.nether.ornate.name=Ornate Red Nether Stone
+
 tile.railcraft.brick.quarried.block.name=Quarried Block
 tile.railcraft.brick.quarried.brick.name=Quarried Brick
 tile.railcraft.brick.quarried.cobble.name=Quarried Cobblestone
@@ -713,12 +719,37 @@ tile.railcraft.brick.quarried.etched.name=Etched Quarried Stone
 tile.railcraft.brick.quarried.fitted.name=Fitted Quarried Stone
 tile.railcraft.brick.quarried.ornate.name=Ornate Quarried Stone
 
+tile.railcraft.brick.granite.brick.name=Granite Brick
+tile.railcraft.brick.granite.cobble.name=Granite Cobblestone
+tile.railcraft.brick.granite.etched.name=Etched Granite
+tile.railcraft.brick.granite.fitted.name=Fitted Granite
+tile.railcraft.brick.granite.ornate.name=Ornate Granite
+
+tile.railcraft.brick.diorite.brick.name=Diorite Brick
+tile.railcraft.brick.diorite.cobble.name=Diorite Cobblestone
+tile.railcraft.brick.diorite.etched.name=Etched Diorite
+tile.railcraft.brick.diorite.fitted.name=Fitted Diorite
+tile.railcraft.brick.diorite.ornate.name=Ornate Diorite
+
+tile.railcraft.brick.andesite.brick.name=Andesite Brick
+tile.railcraft.brick.andesite.cobble.name=Andesite Cobblestone
+tile.railcraft.brick.andesite.etched.name=Etched Andesite
+tile.railcraft.brick.andesite.fitted.name=Fitted Andesite
+tile.railcraft.brick.andesite.ornate.name=Ornate Andesite
+
 tile.railcraft.brick.sandy.block.name=Sandy Block
 tile.railcraft.brick.sandy.brick.name=Sandy Brick
 tile.railcraft.brick.sandy.cobble.name=Sandy Cobblestone
 tile.railcraft.brick.sandy.etched.name=Etched Sandy Stone
 tile.railcraft.brick.sandy.fitted.name=Fitted Sandy Stone
 tile.railcraft.brick.sandy.ornate.name=Ornate Sandy Stone
+
+tile.railcraft.brick.red.sandy.block.name=Red Sandy Block
+tile.railcraft.brick.red.sandy.brick.name=Red Sandy Brick
+tile.railcraft.brick.red.sandy.cobble.name=Red Sandy Cobblestone
+tile.railcraft.brick.red.sandy.etched.name=Etched Red Sandy Stone
+tile.railcraft.brick.red.sandy.fitted.name=Fitted Red Sandy Stone
+tile.railcraft.brick.red.sandy.ornate.name=Ornate Red Sandy Stone
 
 tile.railcraft.charge.feeder.admin.name=Admin Charge Feeder Unit
 tile.railcraft.charge.feeder.admin.tips=Provides Unlimited Railcraft Charge
