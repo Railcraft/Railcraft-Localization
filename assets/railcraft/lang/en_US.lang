@@ -525,6 +525,8 @@ railcraft.gui.mag.glass.aspect=The signal aspect is %s
 railcraft.gui.mag.glass.aspect.dual=The signal aspect is %1$s at top and %2$s at bottom
 railcraft.gui.mag.glass.placedby=%1$s was placed by %2$s
 
+railcraft.gui.message.set=Successfully set the message of the Messenger track to:
+
 railcraft.gui.rolling.machine.tips.craft=§e§o-click to craft-
 
 railcraft.gui.routing.logic.blank=Blank Table
@@ -1283,6 +1285,9 @@ track_kit.railcraft.railcraft_locomotive.tips=Starts/Stops Locomotives\n§o§9- 
 
 track_kit.railcraft.railcraft_missing.name=Invalid
 track_kit.railcraft.railcraft_missing.tips=Placeholder
+
+track_kit.railcraft.railcraft_messenger.name=Messenger
+track_kit.railcraft.railcraft_messenger.tips=Sends a chat message to the riders\n of the minecart passing the track\n§o§9- Hit with an item with custom name to change message -\n§o§c- Apply Redstone to enable -
 
 track_kit.railcraft.railcraft_one_way.name=One-Way
 track_kit.railcraft.railcraft_one_way.tips=Carts can only pass\n in the direction of the arrow\n§o§9- Hit with Crowbar to change direction -
