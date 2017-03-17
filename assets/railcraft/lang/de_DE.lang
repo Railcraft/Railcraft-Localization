@@ -680,21 +680,21 @@ tile.railcraft.brick.bleachedbone.fitted.name=Gemeißelter gebleichter Knochen-S
 tile.railcraft.brick.bleachedbone.ornate.name=Verzierter gebleichter Knochen-Stein
 
 tile.railcraft.brick.bloodstained.block.name=Blutiger Block
-tile.railcraft.brick.bloodstained.brick.name=Blutiger Ziegel
+tile.railcraft.brick.bloodstained.brick.name=Blutige Ziegel
 tile.railcraft.brick.bloodstained.cobble.name=Blutiger Pflasterstein
 tile.railcraft.brick.bloodstained.etched.name=Geätzter Blutiger Stein
 tile.railcraft.brick.bloodstained.fitted.name=Gemeißelter Blutiger Stein
 tile.railcraft.brick.bloodstained.ornate.name=Verzierter Blutiger Stein
 
 tile.railcraft.brick.frostbound.block.name=Frostiger Block
-tile.railcraft.brick.frostbound.brick.name=Frostiger Ziegel
+tile.railcraft.brick.frostbound.brick.name=Frostige Ziegel
 tile.railcraft.brick.frostbound.cobble.name=Frostiger Pflasterstein
 tile.railcraft.brick.frostbound.etched.name=Veätzter Frostiger Stein
 tile.railcraft.brick.frostbound.fitted.name=Gemeißelter Frostiger Stein
 tile.railcraft.brick.frostbound.ornate.name=Verzierter Frostiger Stein
 
 tile.railcraft.brick.infernal.block.name=Höllischer Block
-tile.railcraft.brick.infernal.brick.name=Höllischer Ziegel
+tile.railcraft.brick.infernal.brick.name=Höllische Ziegel
 tile.railcraft.brick.infernal.cobble.name=Höllischer Pflasterstein
 tile.railcraft.brick.infernal.etched.name=Geätzter Höllischer Stein
 tile.railcraft.brick.infernal.fitted.name=Gemeißelter Höllischer Stein
@@ -706,12 +706,36 @@ tile.railcraft.brick.nether.etched.name=Gerätzter Netherstein
 tile.railcraft.brick.nether.fitted.name=Gemeißelter Netherstein
 tile.railcraft.brick.nether.ornate.name=Verzierter Netherstein
 
+tile.railcraft.brick.red.nether.block.name=Rotnetherblock
+tile.railcraft.brick.red.nether.cobble.name=Rotnetherpflasterstein
+tile.railcraft.brick.red.nether.etched.name=Geätzter Rotnetherstein
+tile.railcraft.brick.red.nether.fitted.name=Gemeißelter Rotnetherstein
+tile.railcraft.brick.red.nether.ornate.name=Verzierter Rotnetherstein
+
 tile.railcraft.brick.quarried.block.name=Brüchiger Block
-tile.railcraft.brick.quarried.brick.name=Brüchiger Ziegel
+tile.railcraft.brick.quarried.brick.name=Brüchige Ziegel
 tile.railcraft.brick.quarried.cobble.name=Brüchiger Pflasterstein
 tile.railcraft.brick.quarried.etched.name=Geätzter Brüchiger Stein
 tile.railcraft.brick.quarried.fitted.name=Gemeißelter Brüchiger Stein
 tile.railcraft.brick.quarried.ornate.name=Verzierter Brüchiger Stein
+
+tile.railcraft.brick.granite.brick.name=Ganitziegel
+tile.railcraft.brick.granite.cobble.name=Granitpflasterstein
+tile.railcraft.brick.granite.etched.name=Geätzter Granit
+tile.railcraft.brick.granite.fitted.name=Gemeißelter Granit
+tile.railcraft.brick.granite.ornate.name=Verzierter Granit
+
+tile.railcraft.brick.diorite.brick.name=Dioritziegel
+tile.railcraft.brick.diorite.cobble.name=Dioritpflasterstein
+tile.railcraft.brick.diorite.etched.name=Geätzter Diorit
+tile.railcraft.brick.diorite.fitted.name=Gemeißelter Diorit
+tile.railcraft.brick.diorite.ornate.name=Verzierter Diorit
+
+tile.railcraft.brick.andesite.brick.name=Andesitziegel
+tile.railcraft.brick.andesite.cobble.name=Andesitpflasterstein
+tile.railcraft.brick.andesite.etched.name=Geätzter Andesit
+tile.railcraft.brick.andesite.fitted.name=Gemeißelter ANdesit
+tile.railcraft.brick.andesite.ornate.name=Verzierter Andesit
 
 tile.railcraft.brick.sandy.block.name=Sandsteinblock
 tile.railcraft.brick.sandy.brick.name=Sandsteinziegel
@@ -719,6 +743,13 @@ tile.railcraft.brick.sandy.cobble.name=Sand-Pflasterstein
 tile.railcraft.brick.sandy.etched.name=Geätzter Sandstein
 tile.railcraft.brick.sandy.fitted.name=Gemeißelter Sandstein
 tile.railcraft.brick.sandy.ornate.name=Verzierter Sandstein
+
+tile.railcraft.brick.red.sandy.block.name=Roter Sandblock
+tile.railcraft.brick.red.sandy.brick.name=Rote Sandziegel
+tile.railcraft.brick.red.sandy.cobble.name=Roter Sand-Pflasterstein
+tile.railcraft.brick.red.sandy.etched.name=Geätzter Roter Sandstein
+tile.railcraft.brick.red.sandy.fitted.name=Gemeißelter Roter Sandstein
+tile.railcraft.brick.red.sandy.ornate.name=Verzierter Roter Sandstein
 
 tile.railcraft.charge.feeder.admin.name=Admin-Stromumformer
 tile.railcraft.charge.feeder.admin.tips=Eine endlose Quelle für Railcraft-Ladung
@@ -1264,6 +1295,8 @@ track_kit.railcraft.railcraft_routing.tips=Überschreibt das Ticket einer passie
 
 track_kit.railcraft.railcraft_transition.name=Übergangsgleis
 track_kit.railcraft.railcraft_transition.tips=Sorgt für Übergang von/zu Hochgeschwindigkeit\n§o§c- Aktiviere mit einem Redstone-Signal -
+
+track_kit.railcraft.railcraft_turnout.name=Weichen
 
 track_kit.railcraft.railcraft_whistle.name=Pfeifgleis
 track_kit.railcraft.railcraft_whistle.tips=Passierende Lokomotiven werden pfeifen\n§o§c- Aktiviere mit einem Redstone-Signal -
