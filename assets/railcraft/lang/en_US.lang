@@ -1250,7 +1250,7 @@ track_kit.railcraft.railcraft_coupler.name=Coupler
 track_kit.railcraft.railcraft_coupler.tips=Couples/Decouples passing Carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
 
 track_kit.railcraft.railcraft_detector.name=Detector
-track_kit.railcraft.railcraft_detector.tips=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Crowbar to change detection direction -
+track_kit.railcraft.railcraft_detector.tips=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Crowbar to change detection direction -\n§o§c- Can be used to get Comparator output from carts -
 
 track_kit.railcraft.railcraft_disembarking.name=Disembarking
 track_kit.railcraft.railcraft_disembarking.tips=Dismounts riding Entities in direction of arrow\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to enable -
