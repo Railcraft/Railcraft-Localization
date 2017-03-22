@@ -529,7 +529,7 @@ railcraft.gui.mag.glass.aspect=信号灯颜色是%s.
 railcraft.gui.mag.glass.aspect.dual=信号灯顶部颜色是%1$s底部颜色是%2$s.
 railcraft.gui.mag.glass.placedby=%1$s被%2$s放置于此.
 
-railcraft.gui.message.set=成功将信息设为:
+gui.railcraft.track_kit.messenger.set=成功将信息设为: %s
 
 railcraft.gui.rolling.machine.tips.craft=§e§o-点击以合成-
 

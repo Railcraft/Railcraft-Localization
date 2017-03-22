@@ -31,15 +31,27 @@ command.railcraft.railcraft.debug.format=Format: /%s
 
 command.railcraft.railcraft.debug.tile.desc=- %s : Tile Debug Tools
 command.railcraft.railcraft.debug.tile.help=Tools for debugging tiles.
-command.railcraft.railcraft.debug.tile.format=Format: /%s x y z
+command.railcraft.railcraft.debug.tile.format=Format: /%s <x> <y> <z>
 
 command.railcraft.railcraft.debug.tile.controller.desc=- %s : Controller Debug Tools
 command.railcraft.railcraft.debug.tile.controller.help=Tools for debugging Controller tiles.
-command.railcraft.railcraft.debug.tile.controller.format=Format: /%s x y z
+command.railcraft.railcraft.debug.tile.controller.format=Format: /%s <x> <y> <z>
 
 command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Receiver Debug Tools
 command.railcraft.railcraft.debug.tile.receiver.help=Tools for debugging Receiver tiles.
-command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s x y z
+command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s <x> <y> <z>
+
+command.railcraft.railcraft.track.desc=- %s : Track Tools
+command.railcraft.railcraft.track.help=Tools for tracks.
+command.railcraft.railcraft.track.format=Format: /%s
+
+command.railcraft.railcraft.track.message.desc=- %s : Messenger Track Title
+command.railcraft.railcraft.track.message.help=Sets the Messenger Track title.
+command.railcraft.railcraft.track.message.format=Format: /%s <x> <y> <z> <raw json message>
+
+command.railcraft.railcraft.track.message.subtitle.desc=- %s : Messenger Track Subtitle
+command.railcraft.railcraft.track.message.subtitle.help=Sets the Messenger Track subtitle.
+command.railcraft.railcraft.track.message.subtitle.format=Format: /%s <x> <y> <z> <raw json message>
 
 death.railcraft.bore.1=%s got in the way of progress
 death.railcraft.bore.2=%s tried to stop the Bore
@@ -359,6 +371,36 @@ railcraft.gates.trigger.temp.hot=Hot
 railcraft.gates.trigger.temp.warm=Warm
 railcraft.gates.trigger.work=Has Work
 
+gui.railcraft.manipulator.buffer=Buffer
+gui.railcraft.manipulator.redstone.complete.name=Complete
+gui.railcraft.manipulator.redstone.complete.tips=Process until operation is complete
+gui.railcraft.manipulator.redstone.immediate.name=Immediate
+gui.railcraft.manipulator.redstone.immediate.tips=Process until out of room or supply
+gui.railcraft.manipulator.redstone.manual.name=Manual
+gui.railcraft.manipulator.redstone.manual.tips=Never emit Redstone
+gui.railcraft.manipulator.redstone.partial.name=Partial
+gui.railcraft.manipulator.redstone.partial.tips=Process until out of room or supply,\n but keep pristine carts
+gui.railcraft.manipulator.transfer.all.name=All
+gui.railcraft.manipulator.transfer.all.tips=Move all matching items
+gui.railcraft.manipulator.transfer.excess.name=Excess
+gui.railcraft.manipulator.transfer.excess.tips=Move until the Cart\n matches the filter
+gui.railcraft.manipulator.transfer.stock.name=Stock
+gui.railcraft.manipulator.transfer.stock.tips=Move until the destination\n matches the filter
+gui.railcraft.manipulator.transfer.transfer.name=Transfer
+gui.railcraft.manipulator.transfer.transfer.tips=Move exactly as much\n as is in the filter
+
+gui.railcraft.track_kit.item.invalid.track_type=§c§oInvalid Track Type
+gui.railcraft.track_kit.item.invalid.slope=§c§oCannot be placed on slopes
+gui.railcraft.track_kit.item.invalid.curve=§c§oCannot be placed on curves
+gui.railcraft.track_kit.item.invalid.track=§c§oInvalid Track, not Flex Track or already outfitted
+
+gui.railcraft.track_kit.messenger.subtitle.default=§o§7To change, use "/rc track msg"
+gui.railcraft.track_kit.messenger.subtitle.standard=§o§7Track Message
+gui.railcraft.track_kit.messenger.subtitle.set=Subtitle set to: "%s"
+gui.railcraft.track_kit.messenger.title.default=No message set
+gui.railcraft.track_kit.messenger.title.set=Title set to: "%s"
+
+
 railcraft.gui.anchor.fuel.remaining=%s hours
 railcraft.gui.anchor.fuel=Ender Pearls
 railcraft.gui.anchor.pair.fail.alignment=@1$s is not axis aligned with that @2$s
@@ -476,24 +518,6 @@ railcraft.gui.help=Help
 
 railcraft.gui.ic2.energy.rate=Rate: %s EU
 
-gui.railcraft.manipulator.buffer=Buffer
-gui.railcraft.manipulator.redstone.complete.name=Complete
-gui.railcraft.manipulator.redstone.complete.tips=Process until operation is complete
-gui.railcraft.manipulator.redstone.immediate.name=Immediate
-gui.railcraft.manipulator.redstone.immediate.tips=Process until out of room or supply
-gui.railcraft.manipulator.redstone.manual.name=Manual
-gui.railcraft.manipulator.redstone.manual.tips=Never emit Redstone
-gui.railcraft.manipulator.redstone.partial.name=Partial
-gui.railcraft.manipulator.redstone.partial.tips=Process until out of room or supply,\n but keep pristine carts
-gui.railcraft.manipulator.transfer.all.name=All
-gui.railcraft.manipulator.transfer.all.tips=Move all matching items
-gui.railcraft.manipulator.transfer.excess.name=Excess
-gui.railcraft.manipulator.transfer.excess.tips=Move until the Cart\n matches the filter
-gui.railcraft.manipulator.transfer.stock.name=Stock
-gui.railcraft.manipulator.transfer.stock.tips=Move until the destination\n matches the filter
-gui.railcraft.manipulator.transfer.transfer.name=Transfer
-gui.railcraft.manipulator.transfer.transfer.tips=Move exactly as much\n as is in the filter
-
 railcraft.gui.link.broken=Link Broken
 railcraft.gui.link.created=Link Created
 railcraft.gui.link.failed=Link Failed
@@ -524,8 +548,6 @@ railcraft.gui.locomotive.tips.slot.ticket=Insert Ticket
 railcraft.gui.mag.glass.aspect=The signal aspect is %s
 railcraft.gui.mag.glass.aspect.dual=The signal aspect is %1$s at top and %2$s at bottom
 railcraft.gui.mag.glass.placedby=%1$s was placed by %2$s
-
-railcraft.gui.message.set=Successfully set the message of the Messenger track to:
 
 railcraft.gui.rolling.machine.tips.craft=§e§o-click to craft-
 
@@ -1287,7 +1309,7 @@ track_kit.railcraft.railcraft_missing.name=Invalid
 track_kit.railcraft.railcraft_missing.tips=Placeholder
 
 track_kit.railcraft.railcraft_messenger.name=Messenger
-track_kit.railcraft.railcraft_messenger.tips=Sends a chat message to the riders\n of the minecart passing the track\n§o§9- Hit with an item with custom name to change message -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_messenger.tips=Sends a message to the riders\n of the minecart passing the track\n§o§9- See chat command "/rc track msg help" for usage -\n§o§c- Apply Redstone to enable -
 
 track_kit.railcraft.railcraft_one_way.name=One-Way
 track_kit.railcraft.railcraft_one_way.tips=Carts can only pass\n in the direction of the arrow\n§o§9- Hit with Crowbar to change direction -
