@@ -346,10 +346,10 @@ tile.railcraft.post.wood.name=Drveni Stub
 
 tile.railcraft.wayobject.block.signal.dual.name=Dvostruki Signal
 tile.railcraft.wayobject.block.signal.name=Signal
-tile.railcraft.wayobject.box.block.relay.name=Signalna Relej Kutija
-tile.railcraft.wayobject.box.capacitor.name=Signalna Kapacitorska Kutija
-tile.railcraft.wayobject.box.controller.name=Signalna Kontrolerska Kutija
-tile.railcraft.wayobject.box.receiver.name=Signalna Prijemna Kutija
+tile.railcraft.signal.box.block.relay.name=Signalna Relej Kutija
+tile.railcraft.signal.box.capacitor.name=Signalna Kapacitorska Kutija
+tile.railcraft.signal.box.controller.name=Signalna Kontrolerska Kutija
+tile.railcraft.signal.box.receiver.name=Signalna Prijemna Kutija
 tile.railcraft.wayobject.distant.name=Daleki Signal
 tile.railcraft.wayobject.distant.dual.name=Dvostruki Daleki Signal
 tile.railcraft.actuator.lever.name=Prekidačka Ručica

@@ -299,8 +299,8 @@ tile.railcraft.post.wood.name=Drewniany Słupek
 
 tile.railcraft.wayobject.block.signal.dual.name=Podwójny Blok Sygnałowy
 tile.railcraft.wayobject.block.signal.name=Blok Sygnałowy
-tile.railcraft.wayobject.box.controller.name=Budka Kontolera Sygnału
-tile.railcraft.wayobject.box.receiver.name=Budka Odbiornika Sygnału
+tile.railcraft.signal.box.controller.name=Budka Kontolera Sygnału
+tile.railcraft.signal.box.receiver.name=Budka Odbiornika Sygnału
 tile.railcraft.wayobject.distant.name=Odbiornik Sygnału z Dystansu
 tile.railcraft.actuator.lever.name=Ręczna Zwrotnica
 tile.railcraft.actuator.motor.name=Zwrotnica Automatyczna

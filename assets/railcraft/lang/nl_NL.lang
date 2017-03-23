@@ -287,8 +287,8 @@ tile.railcraft.post.wood.name=Houten Paal
 
 tile.railcraft.wayobject.block.signal.dual.name=Tweerichting Signaalblok
 tile.railcraft.wayobject.block.signal.name=Signaalblok
-tile.railcraft.wayobject.box.controller.name=Signaal Controller
-tile.railcraft.wayobject.box.receiver.name=Signal Ontvanger
+tile.railcraft.signal.box.controller.name=Signaal Controller
+tile.railcraft.signal.box.receiver.name=Signal Ontvanger
 tile.railcraft.wayobject.distant.name=Verrijkend Signaal
 tile.railcraft.actuator.lever.name=Schakel Hendel
 tile.railcraft.actuator.motor.name=Schakel Motor

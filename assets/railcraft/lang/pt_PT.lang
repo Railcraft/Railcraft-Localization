@@ -197,8 +197,8 @@ tile.railcraft.post.metal.unpainted.name=Poste de Metal
 tile.railcraft.post.stone.name=Poste em Pedra
 tile.railcraft.post.wood.name=Poste em Madeira
 
-tile.railcraft.wayobject.box.controller.name=Caixa Controladora de Sinal
-tile.railcraft.wayobject.box.receiver.name=Caixa Receptora de Sinal
+tile.railcraft.signal.box.controller.name=Caixa Controladora de Sinal
+tile.railcraft.signal.box.receiver.name=Caixa Receptora de Sinal
 tile.railcraft.wayobject.block.signal.name=Bloco de Sinal
 tile.railcraft.wayobject.block.signal.dual.name=Bloco de Sinal Duplo
 tile.railcraft.wayobject.distant.name=Sinal Monitorizador

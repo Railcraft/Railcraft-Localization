@@ -481,10 +481,10 @@ railcraft.gui.routing.type.public=공공 철도
 
 tile.railcraft.wayobject.block.signal.dual.name=이중 블록 신호기
 tile.railcraft.wayobject.block.signal.name=블록 신호기
-tile.railcraft.wayobject.box.block.relay.name=신호 블록 릴레이 박스
-tile.railcraft.wayobject.box.capacitor.name=신호 커패시터 박스
-tile.railcraft.wayobject.box.controller.name=신호 제어 박스
-tile.railcraft.wayobject.box.receiver.name=신호 수신 박스
+tile.railcraft.signal.box.block.relay.name=신호 블록 릴레이 박스
+tile.railcraft.signal.box.capacitor.name=신호 커패시터 박스
+tile.railcraft.signal.box.controller.name=신호 제어 박스
+tile.railcraft.signal.box.receiver.name=신호 수신 박스
 tile.railcraft.wayobject.distant.name=원격 신호기
 tile.railcraft.wayobject.distant.dual.name=이중 원격 신호기
 tile.railcraft.actuator.lever.name=스위치 레버

@@ -482,10 +482,10 @@ railcraft.gui.routing.type.public=Ferrovia pubblica
 
 tile.railcraft.wayobject.block.signal.dual.name=Blocco segnale a doppia testa
 tile.railcraft.wayobject.block.signal.name=Blocco segnale
-tile.railcraft.wayobject.box.block.relay.name=Blocco scatola di ritardo del segnale
-tile.railcraft.wayobject.box.capacitor.name=Scatola di contenimento del segnale
-tile.railcraft.wayobject.box.controller.name=Scatola di controllo del segnale
-tile.railcraft.wayobject.box.receiver.name=Scatola ricevente il segnale
+tile.railcraft.signal.box.block.relay.name=Blocco scatola di ritardo del segnale
+tile.railcraft.signal.box.capacitor.name=Scatola di contenimento del segnale
+tile.railcraft.signal.box.controller.name=Scatola di controllo del segnale
+tile.railcraft.signal.box.receiver.name=Scatola ricevente il segnale
 tile.railcraft.wayobject.distant.name=Segnale distante
 tile.railcraft.wayobject.distant.dual.name=Segnale distante a doppia testa
 tile.railcraft.actuator.lever.name=Scambia-leve
