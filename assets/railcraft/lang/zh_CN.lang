@@ -615,12 +615,12 @@ railcraft.gui.track.launcher.force=发射力度 = %s
 
 railcraft.gui.trade.station.dice.tips=随机交易
 
-railcraft.gui.tuner.abandon.chunk=控制器不在载入区块内,配对失败
-railcraft.gui.tuner.abandon.gone=控制器不存在,配对失败
-railcraft.gui.tuner.abandon.player=放弃配对控制器
-railcraft.gui.tuner.start=开始配对%s到接收器
-railcraft.gui.tuner.stop=停止配对%s到接收器
-railcraft.gui.tuner.success=%1$s成功与%2$s配对
+gui.railcraft.tuner.abandon.chunk=控制器不在载入区块内,配对失败
+gui.railcraft.tuner.abandon.gone=控制器不存在,配对失败
+gui.railcraft.tuner.abandon.player=放弃配对控制器
+gui.railcraft.tuner.start=开始配对%s到接收器
+gui.railcraft.tuner.stop=停止配对%s到接收器
+gui.railcraft.tuner.success=%1$s成功与%2$s配对
 
 railcraft.gui.turbine.output=输出:%s%%
 railcraft.gui.turbine.rotor=转子:

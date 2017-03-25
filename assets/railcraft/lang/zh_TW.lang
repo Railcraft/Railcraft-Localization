@@ -606,12 +606,12 @@ railcraft.gui.track.launcher.force=彈跳強度 = %s
 
 railcraft.gui.trade.station.dice.tips=隨機的交易
 
-railcraft.gui.tuner.abandon.chunk=控制器未被讀取，終止配對
-railcraft.gui.tuner.abandon.gone=控制器不再存在，終止配對
-railcraft.gui.tuner.abandon.player=控制器配對終止
-railcraft.gui.tuner.start=開始 %s 與接收器的配對
-railcraft.gui.tuner.stop=停止 %s 與接收器的配對
-railcraft.gui.tuner.success=%1$s 與 %2$s 配對成功
+gui.railcraft.tuner.abandon.chunk=控制器未被讀取，終止配對
+gui.railcraft.tuner.abandon.gone=控制器不再存在，終止配對
+gui.railcraft.tuner.abandon.player=控制器配對終止
+gui.railcraft.tuner.start=開始 %s 與接收器的配對
+gui.railcraft.tuner.stop=停止 %s 與接收器的配對
+gui.railcraft.tuner.success=%1$s 與 %2$s 配對成功
 
 railcraft.gui.turbine.output=輸出: %s%%
 railcraft.gui.turbine.rotor=轉子:

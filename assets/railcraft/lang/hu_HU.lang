@@ -498,11 +498,11 @@ railcraft.gui.track.launcher.force=Érvényesítés = %s
 
 railcraft.gui.trade.station.dice.tips=Véletlenszerű kereskedelem
 
-railcraft.gui.tuner.abandon.chunk=Az irányító nem betöltött chunk-ban van, ezért a kapcsolat megszűnik
-railcraft.gui.tuner.abandon.gone=Az irányító már nem létezik, kapcsolat megszüntetése
-railcraft.gui.tuner.start= %s megkezdte a kapcsolatot a vevővel 
-railcraft.gui.tuner.stop= %s kapcsolata megszakadt a vevővel
-railcraft.gui.tuner.success=%1$s sikeresen összepárosítva a következővel %2$s
+gui.railcraft.tuner.abandon.chunk=Az irányító nem betöltött chunk-ban van, ezért a kapcsolat megszűnik
+gui.railcraft.tuner.abandon.gone=Az irányító már nem létezik, kapcsolat megszüntetése
+gui.railcraft.tuner.start= %s megkezdte a kapcsolatot a vevővel
+gui.railcraft.tuner.stop= %s kapcsolata megszakadt a vevővel
+gui.railcraft.tuner.success=%1$s sikeresen összepárosítva a következővel %2$s
 
 railcraft.gui.turbine.output=Kimenet: %s%%
 railcraft.gui.turbine.rotor=Rotor:

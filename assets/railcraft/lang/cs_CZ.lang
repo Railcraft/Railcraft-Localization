@@ -531,12 +531,12 @@ railcraft.gui.track.launcher.force=Platnost = %s
 
 railcraft.gui.trade.station.dice.tips=Náhodný obchod
 
-railcraft.gui.tuner.abandon.chunk=Kontroler není v načteném Chunku, párování zrušeno.
-railcraft.gui.tuner.abandon.gone=Kontroler již neexistuje, párování zrušeno.
-railcraft.gui.tuner.abandon.player=Kontroler párování zrušeno.
-railcraft.gui.tuner.start=Párování odstartováno %s s přijímačem 
-railcraft.gui.tuner.stop=Párování zastaveno %s s přijímačem
-railcraft.gui.tuner.success=%1$s úspěšně spárováno s %2$s
+gui.railcraft.tuner.abandon.chunk=Kontroler není v načteném Chunku, párování zrušeno.
+gui.railcraft.tuner.abandon.gone=Kontroler již neexistuje, párování zrušeno.
+gui.railcraft.tuner.abandon.player=Kontroler párování zrušeno.
+gui.railcraft.tuner.start=Párování odstartováno %s s přijímačem
+gui.railcraft.tuner.stop=Párování zastaveno %s s přijímačem
+gui.railcraft.tuner.success=%1$s úspěšně spárováno s %2$s
 
 railcraft.gui.turbine.output=Výstup: %s%%
 railcraft.gui.turbine.rotor=Rotor:

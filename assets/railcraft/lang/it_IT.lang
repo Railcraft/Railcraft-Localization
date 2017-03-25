@@ -324,11 +324,11 @@ tile.railcraft.machine.alpha.tank.water.tips=Multi-Blocco: 3x3x3 (Vuoto)
 tile.railcraft.machine.alpha.turbine.tips=Multi-Blocco: 3x2x2
 railcraft.gui.track.embarking.radius=Raggio
 railcraft.gui.track.priming.fuse=Miccia = %s tick
-railcraft.gui.tuner.start=Iniziato l'accoppiamento %s con un Ricevitore
-railcraft.gui.tuner.stop=Fermato l'accoppiamento %s con un Ricevitore
-railcraft.gui.tuner.success=%1$s accoppiato con successo con %2$s
-railcraft.gui.tuner.abandon.chunk=Il Controller non è in Chunk attualmente caricato, abbandono la sincronizzazione
-railcraft.gui.tuner.abandon.gone=Il Controller non esiste più, abbandono la sincronizzazione
+gui.railcraft.tuner.start=Iniziato l'accoppiamento %s con un Ricevitore
+gui.railcraft.tuner.stop=Fermato l'accoppiamento %s con un Ricevitore
+gui.railcraft.tuner.success=%1$s accoppiato con successo con %2$s
+gui.railcraft.tuner.abandon.chunk=Il Controller non è in Chunk attualmente caricato, abbandono la sincronizzazione
+gui.railcraft.tuner.abandon.gone=Il Controller non esiste più, abbandono la sincronizzazione
 railcraft.gui.turbine=Turbina a vapore
 railcraft.gui.turbine.output=Uscita: %s%%
 railcraft.gui.turbine.rotor=Rotore:

@@ -323,11 +323,11 @@ tile.railcraft.machine.alpha.tank.water.tips=배치: 3x3x3 (속이 빈 형태)
 tile.railcraft.machine.alpha.turbine.tips=배치: 3x2x2
 railcraft.gui.track.embarking.radius=반지름
 railcraft.gui.track.priming.fuse=점화 = %s 틱
-railcraft.gui.tuner.start=수신기와 %s의 페어링 시작
-railcraft.gui.tuner.stop=수신기와 %s의 페어링 중단
-railcraft.gui.tuner.success=%1$s와(과) %2$s의 페어링에 성공했습니다.
-railcraft.gui.tuner.abandon.chunk=로드된 청크 안에 제어기가 없습니다. 페어링을 중단합니다.
-railcraft.gui.tuner.abandon.gone=제어기가 없습니다. 페어링을 중단합니다.
+gui.railcraft.tuner.start=수신기와 %s의 페어링 시작
+gui.railcraft.tuner.stop=수신기와 %s의 페어링 중단
+gui.railcraft.tuner.success=%1$s와(과) %2$s의 페어링에 성공했습니다.
+gui.railcraft.tuner.abandon.chunk=로드된 청크 안에 제어기가 없습니다. 페어링을 중단합니다.
+gui.railcraft.tuner.abandon.gone=제어기가 없습니다. 페어링을 중단합니다.
 railcraft.gui.turbine=증기 터빈
 railcraft.gui.turbine.output=출력: %s%%
 railcraft.gui.turbine.rotor=로터:

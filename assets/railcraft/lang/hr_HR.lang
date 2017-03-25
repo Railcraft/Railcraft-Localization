@@ -226,11 +226,11 @@ tile.railcraft.machine.alpha.tank.water.tips=Više-Bločna Struktura: 3x3x3 (Šu
 tile.railcraft.machine.alpha.turbine.tips=Više-Bločna Struktura: 3x2x2
 railcraft.gui.track.embarking.radius=Radijus
 railcraft.gui.track.priming.fuse=Fuse = %s tikova
-railcraft.gui.tuner.start=Počinjem povezivanje %s s Primateljem
-railcraft.gui.tuner.stop=Stopped pairing %s s Primateljem
-railcraft.gui.tuner.success=%1$s uspješno povezan s %2$s
-railcraft.gui.tuner.abandon.chunk=Kontroler nije u učitanom Chunku, obustavljam spajanje
-railcraft.gui.tuner.abandon.gone=Kontroler više ne postoji, obustavljam spajanje
+gui.railcraft.tuner.start=Počinjem povezivanje %s s Primateljem
+gui.railcraft.tuner.stop=Stopped pairing %s s Primateljem
+gui.railcraft.tuner.success=%1$s uspješno povezan s %2$s
+gui.railcraft.tuner.abandon.chunk=Kontroler nije u učitanom Chunku, obustavljam spajanje
+gui.railcraft.tuner.abandon.gone=Kontroler više ne postoji, obustavljam spajanje
 railcraft.gui.turbine=Parna Turbina
 railcraft.gui.turbine.output=Izlaz: %s%%
 railcraft.gui.turbine.rotor=Rotor:

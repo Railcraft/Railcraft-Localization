@@ -492,11 +492,11 @@ railcraft.gui.track.launcher.force=Fuerza = %s
 
 railcraft.gui.trade.station.dice.tips=Comercio al Azar
 
-railcraft.gui.tuner.abandon.chunk=El controlador no está en un Chunk cargado, abandonando el acoplamiento
-railcraft.gui.tuner.abandon.gone=Controlador ya no existe, abandonando el acoplamiento
-railcraft.gui.tuner.start=Empezó a acoplar %s con un Receptor
-railcraft.gui.tuner.stop=Dejó de acoplar %s con un Receptor
-railcraft.gui.tuner.success=%1$s acoplado con éxito con %2$s
+gui.railcraft.tuner.abandon.chunk=El controlador no está en un Chunk cargado, abandonando el acoplamiento
+gui.railcraft.tuner.abandon.gone=Controlador ya no existe, abandonando el acoplamiento
+gui.railcraft.tuner.start=Empezó a acoplar %s con un Receptor
+gui.railcraft.tuner.stop=Dejó de acoplar %s con un Receptor
+gui.railcraft.tuner.success=%1$s acoplado con éxito con %2$s
 
 railcraft.gui.turbine.output=Salida: %s%%
 railcraft.gui.turbine.rotor=Rotor:

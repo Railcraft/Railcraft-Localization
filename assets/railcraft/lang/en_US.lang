@@ -633,12 +633,12 @@ railcraft.gui.track.launcher.force=Force = %s
 
 railcraft.gui.trade.station.dice.tips=Random Trade
 
-railcraft.gui.tuner.abandon.chunk=Controller is not in a loaded Chunk, abandoning pairing
-railcraft.gui.tuner.abandon.gone=Controller no longer exists, abandoning pairing
-railcraft.gui.tuner.abandon.player=Controller pairing Abandoned
-railcraft.gui.tuner.start=Started pairing %s with a Receiver
-railcraft.gui.tuner.stop=Stopped pairing %s with a Receiver
-railcraft.gui.tuner.success=%1$s successfully paired with %2$s
+gui.railcraft.tuner.abandon.chunk=Controller is not in a loaded Chunk, abandoning pairing
+gui.railcraft.tuner.abandon.gone=Controller no longer exists, abandoning pairing
+gui.railcraft.tuner.abandon.player=Controller pairing Abandoned
+gui.railcraft.tuner.start=Started pairing %s with a Receiver
+gui.railcraft.tuner.stop=Stopped pairing %s with a Receiver
+gui.railcraft.tuner.success=%1$s successfully paired with %2$s
 
 railcraft.gui.turbine.output=Output: %s%%
 railcraft.gui.turbine.rotor=Rotor:

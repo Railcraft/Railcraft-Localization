@@ -420,11 +420,11 @@ railcraft.gui.track.locking.mode.boarding=Embarquement
 railcraft.gui.track.locking.mode.boarding.train=Embarquement train
 railcraft.gui.track.priming.fuse=Fusible = %s tics
 railcraft.gui.trade.station.dice.tips=Commerce aléatoire
-railcraft.gui.tuner.start=Commencer le jumelage de %s avec un récepteur
-railcraft.gui.tuner.stop=Arrêté le jumelage de %s avec un récepteur
-railcraft.gui.tuner.success=%1$s jumelé avec succès à %2$s
-railcraft.gui.tuner.abandon.chunk=Le contrôleur n'est pas sur un Chunk chargé, jumelage abandonné
-railcraft.gui.tuner.abandon.gone=Le contrôleur n'existe plus, jumelage abandonné
+gui.railcraft.tuner.start=Commencer le jumelage de %s avec un récepteur
+gui.railcraft.tuner.stop=Arrêté le jumelage de %s avec un récepteur
+gui.railcraft.tuner.success=%1$s jumelé avec succès à %2$s
+gui.railcraft.tuner.abandon.chunk=Le contrôleur n'est pas sur un Chunk chargé, jumelage abandonné
+gui.railcraft.tuner.abandon.gone=Le contrôleur n'existe plus, jumelage abandonné
 railcraft.gui.turbine=Turbine à vapeur
 railcraft.gui.turbine.output=Sortie: %s%%
 railcraft.gui.turbine.rotor=Rotor:

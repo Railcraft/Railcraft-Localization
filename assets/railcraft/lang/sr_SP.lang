@@ -231,11 +231,11 @@ tile.railcraft.machine.alpha.tank.water.tips=Multi-Block: 3x3x3 (Šuplje)
 tile.railcraft.machine.alpha.turbine.tips=Multi-Blok: 3x2x2
 railcraft.gui.track.embarking.radius=Radius
 railcraft.gui.track.priming.fuse=Fuse = %s otkucaja
-railcraft.gui.tuner.start=Započeto vezivanje %s sa Primalcem
-railcraft.gui.tuner.stop=Zaustavljeno vezivanje %s sa Primalcem
-railcraft.gui.tuner.success=%1$s uspesno vezan za %2$s
-railcraft.gui.tuner.abandon.chunk=Kontroler nije u učitanom čanku, napuštam vezu
-railcraft.gui.tuner.abandon.gone=Kontroler više ne postoji, napušatm vezu
+gui.railcraft.tuner.start=Započeto vezivanje %s sa Primalcem
+gui.railcraft.tuner.stop=Zaustavljeno vezivanje %s sa Primalcem
+gui.railcraft.tuner.success=%1$s uspesno vezan za %2$s
+gui.railcraft.tuner.abandon.chunk=Kontroler nije u učitanom čanku, napuštam vezu
+gui.railcraft.tuner.abandon.gone=Kontroler više ne postoji, napušatm vezu
 railcraft.gui.turbine=Parna Turbina
 railcraft.gui.turbine.output=Izlaz: %s%%
 railcraft.gui.turbine.rotor=Rotor:

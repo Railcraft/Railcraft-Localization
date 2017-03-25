@@ -408,11 +408,11 @@ tile.railcraft.machine.alpha.tank.water.tips=MultiBlokk: 3x3x3 (Hul)
 tile.railcraft.machine.alpha.turbine.tips=MultiBlokk: 3x2x2
 railcraft.gui.track.embarking.radius=Radius
 railcraft.gui.track.priming.fuse=Fuse = %s ticks
-railcraft.gui.tuner.start=Startet sammenkobling av %s til en mottaker.
-railcraft.gui.tuner.stop=Stoppet sammenkobling av %s til en mottaker.
-railcraft.gui.tuner.success=%1$s ble koblet til %2$s
-railcraft.gui.tuner.abandon.chunk= Kontrolleren er ikke innlastet, avbryter tilkobling
-railcraft.gui.tuner.abandon.gone=Kontrolleren finnes ikke lengre, avbryter tilkobling
+gui.railcraft.tuner.start=Startet sammenkobling av %s til en mottaker.
+gui.railcraft.tuner.stop=Stoppet sammenkobling av %s til en mottaker.
+gui.railcraft.tuner.success=%1$s ble koblet til %2$s
+gui.railcraft.tuner.abandon.chunk= Kontrolleren er ikke innlastet, avbryter tilkobling
+gui.railcraft.tuner.abandon.gone=Kontrolleren finnes ikke lengre, avbryter tilkobling
 railcraft.gui.turbine=Dampturbin
 railcraft.gui.turbine.output=Ut: %s%%
 railcraft.gui.turbine.rotor=Rotor:

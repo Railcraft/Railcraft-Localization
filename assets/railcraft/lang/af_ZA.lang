@@ -604,12 +604,12 @@ railcraft.gui.track.launcher.force=Force =% s
 
 railcraft.gui.trade.station.dice.tips=Random Handel
 
-railcraft.gui.tuner.abandon.chunk=Controller is nie in 'n gelaaide Chunk, laat vaar paring
-railcraft.gui.tuner.abandon.gone=Kontroleur nie meer bestaan ​​nie, laat vaar paring
-railcraft.gui.tuner.abandon.player=Kontroleur paring Abandoned
-railcraft.gui.tuner.start =% s begin paring met 'n ontvanger
-railcraft.gui.tuner.stop% s=Gestop paring met 'n ontvanger
-railcraft.gui.tuner.success =% 1 $ s suksesvol saam met 2 $ s%
+gui.railcraft.tuner.abandon.chunk=Controller is nie in 'n gelaaide Chunk, laat vaar paring
+gui.railcraft.tuner.abandon.gone=Kontroleur nie meer bestaan ​​nie, laat vaar paring
+gui.railcraft.tuner.abandon.player=Kontroleur paring Abandoned
+gui.railcraft.tuner.start =% s begin paring met 'n ontvanger
+gui.railcraft.tuner.stop% s=Gestop paring met 'n ontvanger
+gui.railcraft.tuner.success =% 1 $ s suksesvol saam met 2 $ s%
 
 railcraft.gui.turbine.output=Uitset:% s %%
 railcraft.gui.turbine.rotor=Rotor:

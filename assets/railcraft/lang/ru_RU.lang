@@ -603,12 +603,12 @@ railcraft.gui.track.launcher.force=Сила = %s
 
 railcraft.gui.trade.station.dice.tip=Произвольная торговля
 
-railcraft.gui.tuner.abandon.chunk=Контроллер не в загруженном чанке, соединение прервано
-railcraft.gui.tuner.abandon.gone=Контроллера больше не существует, соединение прервано
-railcraft.gui.tuner.abandon.player=Соединение контролера прервано
-railcraft.gui.tuner.start=Начато соединение %s с приёмником
-railcraft.gui.tuner.stop=Остановлено соединение %s с приёмником
-railcraft.gui.tuner.success=%1$s Успешно соединено с %2$s
+gui.railcraft.tuner.abandon.chunk=Контроллер не в загруженном чанке, соединение прервано
+gui.railcraft.tuner.abandon.gone=Контроллера больше не существует, соединение прервано
+gui.railcraft.tuner.abandon.player=Соединение контролера прервано
+gui.railcraft.tuner.start=Начато соединение %s с приёмником
+gui.railcraft.tuner.stop=Остановлено соединение %s с приёмником
+gui.railcraft.tuner.success=%1$s Успешно соединено с %2$s
 
 railcraft.gui.turbine.output=Выход: %s%%
 railcraft.gui.turbine.rotor=Ротор:

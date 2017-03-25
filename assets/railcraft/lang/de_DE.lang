@@ -609,12 +609,12 @@ railcraft.gui.track.launcher.force=Kraft = %s
 
 railcraft.gui.trade.station.dice.tips=Zufälliger Handel
 
-railcraft.gui.tuner.abandon.chunk=Controller befindet sich in einem nichtgeladenen Chunk, Verbindung abgebrochen
-railcraft.gui.tuner.abandon.gone=Controller existiert nicht mehr, Verbindung abgebrochen
-railcraft.gui.tuner.abandon.player=Controller-Verbindung abgebrochen
-railcraft.gui.tuner.start=%s: Starte Verbindung mit einem Empfänger
-railcraft.gui.tuner.stop=%s: Stoppe Verbindung mit einem Empfänger
-railcraft.gui.tuner.success=%1$s erfolgreich verbunden mit %2$s
+gui.railcraft.tuner.abandon.chunk=Controller befindet sich in einem nichtgeladenen Chunk, Verbindung abgebrochen
+gui.railcraft.tuner.abandon.gone=Controller existiert nicht mehr, Verbindung abgebrochen
+gui.railcraft.tuner.abandon.player=Controller-Verbindung abgebrochen
+gui.railcraft.tuner.start=%s: Starte Verbindung mit einem Empfänger
+gui.railcraft.tuner.stop=%s: Stoppe Verbindung mit einem Empfänger
+gui.railcraft.tuner.success=%1$s erfolgreich verbunden mit %2$s
 
 railcraft.gui.turbine.output=Leistung: %s%%
 railcraft.gui.turbine.rotor=Rotor:
