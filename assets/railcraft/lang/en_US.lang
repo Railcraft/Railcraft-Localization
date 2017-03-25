@@ -775,6 +775,13 @@ tile.railcraft.brick.red.sandy.etched.name=Etched Red Sandy Stone
 tile.railcraft.brick.red.sandy.fitted.name=Fitted Red Sandy Stone
 tile.railcraft.brick.red.sandy.ornate.name=Ornate Red Sandy Stone
 
+tile.railcraft.brick.pearlized.block.name=Pearlized Block
+tile.railcraft.brick.pearlized.brick.name=Pearlized Brick
+tile.railcraft.brick.pearlized.cobble.name=Pearlized Cobblestone
+tile.railcraft.brick.pearlized.etched.name=Etched Pearlized Stone
+tile.railcraft.brick.pearlized.fitted.name=Fitted Pearlized Stone
+tile.railcraft.brick.pearlized.ornate.name=Ornate Pearlized Stone
+
 tile.railcraft.charge.feeder.admin.name=Admin Charge Feeder Unit
 tile.railcraft.charge.feeder.admin.tips=Provides Unlimited Railcraft Charge
 tile.railcraft.charge.feeder.ic2.name=IC2 Charge Feeder Unit
