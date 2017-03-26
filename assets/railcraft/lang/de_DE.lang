@@ -9,7 +9,7 @@ command.railcraft.noperms=Du hast nicht die erforderlichen Berechtigungen, um di
 command.railcraft.railcraft.help=Verschiedene Befehle für Railcraft
 command.railcraft.railcraft.format=Format: /%s <Sub-Befehl>
 
-command.railcraft.railcraft.admin.desc=- %s : Admin-Werkzeug
+command.railcraft.railcraft.admin.desc=- %s : Admin-Befehle
 command.railcraft.railcraft.admin.help=Dinge zur Administration
 command.railcraft.railcraft.admin.format=Format: /%s
 
@@ -25,21 +25,33 @@ command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : Loren töten
 command.railcraft.railcraft.admin.kill.minecarts.help=Entfernt alle Loren und Waggons aus der aktuellen Welt.
 command.railcraft.railcraft.admin.kill.minecarts.format=Format: /%s
 
-command.railcraft.railcraft.debug.desc=- %s : Debug-Werkzeug
-command.railcraft.railcraft.debug.help=Werkzeuge, um schwierigen Problemen nachzugehen.
+command.railcraft.railcraft.debug.desc=- %s : Debug-Befehle
+command.railcraft.railcraft.debug.help=Befehle, um schwierigen Problemen nachzugehen.
 command.railcraft.railcraft.debug.format=Format: /%s
 
-command.railcraft.railcraft.debug.tile.desc=- %s : Tile-Debug-Werkzeug
-command.railcraft.railcraft.debug.tile.help=Werkzeug zum Überprüfen von Tiles.
-command.railcraft.railcraft.debug.tile.format=Format: /%s x y z
+command.railcraft.railcraft.debug.tile.desc=- %s : Tile-Debug-Befehle
+command.railcraft.railcraft.debug.tile.help=Befehle zum Überprüfen von Tiles.
+command.railcraft.railcraft.debug.tile.format=Format: /%s <x> <y> <z>
 
-command.railcraft.railcraft.debug.tile.controller.desc=- %s : Controller-Debug-Werkzeug
+command.railcraft.railcraft.debug.tile.controller.desc=- %s : Controller-Debug-Befehle
 command.railcraft.railcraft.debug.tile.controller.help=Wergzeug zum Überprüfen von Controller-Tiles.
-command.railcraft.railcraft.debug.tile.controller.format=Format: /%s x y z
+command.railcraft.railcraft.debug.tile.controller.format=Format: /%s <x> <y> <z>
 
-command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Empfänger-Debug-Werkzeug
-command.railcraft.railcraft.debug.tile.receiver.help=Wergzeug zum Überprüfen von Empfänger-Tiles.
-command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s x y z
+command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Empfänger-Debug-Befehle
+command.railcraft.railcraft.debug.tile.receiver.help=Befehle zum Überprüfen von Empfänger-Tiles.
+command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s <x> <y> <z>
+
+command.railcraft.railcraft.track.desc=- %s : Gleisbefehle
+command.railcraft.railcraft.track.help=Befehle für Gleise.
+command.railcraft.railcraft.track.format=Format: /%s
+
+command.railcraft.railcraft.track.message.desc=- %s : Botengleistitel
+command.railcraft.railcraft.track.message.help=Bestimmt den Titel des Botengleises
+command.railcraft.railcraft.track.message.format=Format: /%s <x> <y> <z> <JSON-Rohnachricht>
+
+command.railcraft.railcraft.track.message.subtitle.desc=- %s : Botengleisuntertitel
+command.railcraft.railcraft.track.message.subtitle.help=Bestimmt den Untertitel des Botengleises
+command.railcraft.railcraft.track.message.subtitle.format=Format: /%s <x> <y> <z> <JSON-Rohnachricht>
 
 death.railcraft.bore.1=%s war dem Fortschritt im Weg
 death.railcraft.bore.2=%s legte sich mit einem Bohrkopf an und verlor
@@ -359,6 +371,35 @@ railcraft.gates.trigger.temp.hot=Heiß
 railcraft.gates.trigger.temp.warm=Warm
 railcraft.gates.trigger.work=Hat Arbeit
 
+gui.railcraft.manipulator.buffer=Puffer
+gui.railcraft.manipulator.redstone.complete.name=Komplett
+gui.railcraft.manipulator.redstone.complete.tips=Arbeiten, bis der Vorgang beendet ist
+gui.railcraft.manipulator.redstone.immediate.name=Sofort
+gui.railcraft.manipulator.redstone.immediate.tips=Arbeiten, bis Platz oder Gegenstände ausgehen
+gui.railcraft.manipulator.redstone.manual.name=Manuell
+gui.railcraft.manipulator.redstone.manual.tips=Niemals Redstone aussenden
+gui.railcraft.manipulator.redstone.partial.name=Teilweise
+gui.railcraft.manipulator.redstone.partial.tips=Arbeiten, bis Platz oder Gegenstände ausgehen,\n aber unberührte Waggons halten
+gui.railcraft.manipulator.transfer.all.name=Alles
+gui.railcraft.manipulator.transfer.all.tips=Alle passenden Gegenstände bewegen
+gui.railcraft.manipulator.transfer.excess.name=Überschuss
+gui.railcraft.manipulator.transfer.excess.tips=Bewegen, bis der\n Waggon dem Filter entspricht
+gui.railcraft.manipulator.transfer.stock.name=Vorrat
+gui.railcraft.manipulator.transfer.stock.tips=Bewegen, bis das Ziel\n dem Filter entspricht
+gui.railcraft.manipulator.transfer.transfer.name=Übertragen
+gui.railcraft.manipulator.transfer.transfer.tips=Bewege exakt so viel,\n wie im Filter sind
+
+gui.railcraft.track_kit.item.invalid.track_type=§c§oUngültiger Gleistyp
+gui.railcraft.track_kit.item.invalid.slope=§c§oKann nicht an Hängen installiert werden
+gui.railcraft.track_kit.item.invalid.curve=§c§oKann nicht in Kurven installiert werden
+gui.railcraft.track_kit.item.invalid.track=§c§oUngültiges Gleis; nicht aufrüstbares oder bereits aufgerüstetes Gleis
+
+gui.railcraft.track_kit.messenger.subtitle.default=§o§7Verwende "/rc track msg" zum Ändern
+gui.railcraft.track_kit.messenger.subtitle.standard=§o§7Gleisnachricht
+gui.railcraft.track_kit.messenger.subtitle.set=Untertitel ist nun "%s"
+gui.railcraft.track_kit.messenger.title.default=Keine Nachricht festgelegt
+gui.railcraft.track_kit.messenger.title.set=Titel ist nun "%s"
+
 gui.railcraft.anchor.fuel.remaining=%s Stunden
 gui.railcraft.anchor.fuel=Enderperlen
 gui.railcraft.anchor.pair.fail.alignment=@1$s ist nicht auf der selben Achse wie @2$s
@@ -475,24 +516,6 @@ gui.railcraft.goggles.tips=Verwende von der Hotbar aus, um Sichtbares zu ändern
 gui.railcraft.help=Hilfe
 
 gui.railcraft.ic2.energy.rate=Rate: %s EU
-
-gui.railcraft.manipulator.buffer=Puffer
-gui.railcraft.manipulator.redstone.complete.name=Komplett
-gui.railcraft.manipulator.redstone.complete.tips=Arbeiten, bis der Vorgang beendet ist
-gui.railcraft.manipulator.redstone.immediate.name=Sofort
-gui.railcraft.manipulator.redstone.immediate.tips=Arbeiten, bis Platz oder Gegenstände ausgehen
-gui.railcraft.manipulator.redstone.manual.name=Manuell
-gui.railcraft.manipulator.redstone.manual.tips=Niemals Redstone aussenden
-gui.railcraft.manipulator.redstone.partial.name=Teilweise
-gui.railcraft.manipulator.redstone.partial.tips=Arbeiten, bis Platz oder Gegenstände ausgehen,\n aber unberührte Waggons halten
-gui.railcraft.manipulator.transfer.all.name=Alles
-gui.railcraft.manipulator.transfer.all.tips=Alle passenden Gegenstände bewegen
-gui.railcraft.manipulator.transfer.excess.name=Überschuss
-gui.railcraft.manipulator.transfer.excess.tips=Bewegen, bis der\n Waggon dem Filter entspricht
-gui.railcraft.manipulator.transfer.stock.name=Vorrat
-gui.railcraft.manipulator.transfer.stock.tips=Bewegen, bis das Ziel\n dem Filter entspricht
-gui.railcraft.manipulator.transfer.transfer.name=Übertragen
-gui.railcraft.manipulator.transfer.transfer.tips=Bewege exakt so viel,\n wie im Filter sind
 
 gui.railcraft.link.broken=Verbindung getrennt
 gui.railcraft.link.created=Verbindung hergestellt
@@ -751,6 +774,13 @@ tile.railcraft.brick.red.sandy.etched.name=Geätzter Roter Sandstein
 tile.railcraft.brick.red.sandy.fitted.name=Gemeißelter Roter Sandstein
 tile.railcraft.brick.red.sandy.ornate.name=Verzierter Roter Sandstein
 
+tile.railcraft.brick.pearlized.block.name=Perlsteinblock
+tile.railcraft.brick.pearlized.brick.name=Perlziegel
+tile.railcraft.brick.pearlized.cobble.name=Perlpflasterstein
+tile.railcraft.brick.pearlized.etched.name=Geätzter Perlstein
+tile.railcraft.brick.pearlized.fitted.name=Gemeißelter Perlstein
+tile.railcraft.brick.pearlized.ornate.name=Verzierter Perlstein
+
 tile.railcraft.charge.feeder.admin.name=Admin-Stromumformer
 tile.railcraft.charge.feeder.admin.tips=Eine endlose Quelle für Railcraft-Ladung
 tile.railcraft.charge.feeder.ic2.name=IC2-Stromumformer
@@ -887,7 +917,7 @@ tile.railcraft.manipulator.dispenser.cart.name=Waggonspender
 tile.railcraft.manipulator.dispenser.cart.tips=Lädt Waggons direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Waggon mit einem Redstone-Signal auf ein Gleis -
 tile.railcraft.manipulator.dispenser.train.name=Zugspender
 tile.railcraft.manipulator.dispenser.train.tips=Lädt verbundene Züge direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Zug mit einem Redstone-Signal auf ein Gleis -
-tile.railcraft.manipulator.loader.ic2.name=Energielader
+tile.railcraft.manipulator.loader.ic2.name=IC2-Energielader
 tile.railcraft.manipulator.loader.ic2.tips=Lädt Energy in IC2-Energiewaggons\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Akzeptiert nur IC2-Energie
 tile.railcraft.manipulator.loader.rf.name=Redstone-Flux-Lader
 tile.railcraft.manipulator.loader.rf.tips=Lädt RF in RF-Waggons\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Akzeptiert nur RF-Energie
@@ -897,7 +927,7 @@ tile.railcraft.manipulator.loader.item.name=Itemlader
 tile.railcraft.manipulator.loader.item.tips=Lädt Items in Waggons\n§o§c- Platziere oberhalb des Gleises -
 tile.railcraft.manipulator.loader.fluid.name=Flüssigkeitslader
 tile.railcraft.manipulator.loader.fluid.tips=Lädt Flüssigkeiten in Waggons\n§o§c- Platziere 1-2 Blöcke oberhalb des Gleises -
-tile.railcraft.manipulator.unloader.ic2.name=Energieentlader
+tile.railcraft.manipulator.unloader.ic2.name=IC2-Energieentlader
 tile.railcraft.manipulator.unloader.ic2.tips=Entlädt Energie aus IC2-Energiewaggons\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Sendet nur IC2-Energie
 tile.railcraft.manipulator.unloader.rf.name=Redstone-Flux-Entlader
 tile.railcraft.manipulator.unloader.rf.tips=Entlädt RF aus RF-Waggons\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Sendet nur RF-Energie
@@ -1091,7 +1121,7 @@ tile.railcraft.track.control.tips=Gibt einen kleinen, allseitigen Schub\n§o§9-
 tile.railcraft.track.coupler.name=Kopplungsgleis
 tile.railcraft.track.coupler.tips=Koppelt/Entkoppelt passierende Waggons\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.detector.direction.name=Fahrtrichtungssensorgleis
-tile.railcraft.track.detector.direction.tips=Sendet Redstone-Signal aus, wenn ein Waggon\n in der gewählten Richtung passiert\n§o§9- Verändere die Richtung mit einem Brecheisen -
+tile.railcraft.track.detector.direction.tips=Sendet Redstone-Signal aus, wenn ein Waggon\n in der gewählten Richtung passiert\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Zur Detektion von Komparator-Signalen aus Waggons  -
 tile.railcraft.track.disembarking.name=Auswurfgleis
 tile.railcraft.track.disembarking.tips=Wirft fahrende Lebewesen aus dem Waggon, in Richtung des Pfeils\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.disposal.name=Entsorgungsgleis
@@ -1283,6 +1313,9 @@ track_kit.railcraft.railcraft_locomotive.tips=Startet/Stoppt Lokomotiven\n§o§9
 
 track_kit.railcraft.railcraft_missing.name=Ungültig
 track_kit.railcraft.railcraft_missing.tips=Platzhaltergleis
+
+track_kit.railcraft.railcraft_messenger.name=Botengleis
+track_kit.railcraft.railcraft_messenger.tips=Sendet eine Nachricht an Fahrer\n von passierenden Waggons\n§o§9- Siehe Befehl "/rc track msg help" für Verwendung -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_one_way.name=Einbahngleis
 track_kit.railcraft.railcraft_one_way.tips=Waggons können nur\n in Pfeilrichtung passieren\n§o§9- Verändere die Richtung mit einem Brecheisen -
