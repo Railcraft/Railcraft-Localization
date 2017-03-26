@@ -359,122 +359,122 @@ railcraft.gates.trigger.temp.hot=燙
 railcraft.gates.trigger.temp.warm=熱
 railcraft.gates.trigger.work=運作中
 
-railcraft.gui.anchor.fuel.remaining=%s小時
-railcraft.gui.anchor.fuel=終界珍珠
-railcraft.gui.anchor.pair.fail.alignment=%1$s 與 %2$s 不在同一條軸線上
-railcraft.gui.anchor.pair.fail.distance=%1$s 和 %2$s 相距過遠，無法配對
-railcraft.gui.anchor.pair.fail.dimension=%s 與目標處在不同的世界
-railcraft.gui.anchor.pair.fail.invalid=這不是一個可以與 %s 配對的目標
-railcraft.gui.anchor.pair.fail.unloaded=嘗試配對 %s 時目標並未被讀取
-railcraft.gui.anchor.pair.cancel=%s 的配對取消
-railcraft.gui.anchor.pair.start=%s 開始配對
-railcraft.gui.anchor.pair.success=%s 已成功配對
+gui.railcraft.anchor.fuel.remaining=%s小時
+gui.railcraft.anchor.fuel=終界珍珠
+gui.railcraft.anchor.pair.fail.alignment=%1$s 與 %2$s 不在同一條軸線上
+gui.railcraft.anchor.pair.fail.distance=%1$s 和 %2$s 相距過遠，無法配對
+gui.railcraft.anchor.pair.fail.dimension=%s 與目標處在不同的世界
+gui.railcraft.anchor.pair.fail.invalid=這不是一個可以與 %s 配對的目標
+gui.railcraft.anchor.pair.fail.unloaded=嘗試配對 %s 時目標並未被讀取
+gui.railcraft.anchor.pair.cancel=%s 的配對取消
+gui.railcraft.anchor.pair.start=%s 開始配對
+gui.railcraft.anchor.pair.success=%s 已成功配對
 
-railcraft.gui.aspect.blink.red.name=閃紅燈
-railcraft.gui.aspect.blink.yellow.name=閃黃燈
-railcraft.gui.aspect.green.name=綠燈
-railcraft.gui.aspect.off.name=關閉
-railcraft.gui.aspect.red.name=紅燈
-railcraft.gui.aspect.yellow.name=黃燈
+gui.railcraft.aspect.blink.red.name=閃紅燈
+gui.railcraft.aspect.blink.yellow.name=閃黃燈
+gui.railcraft.aspect.green.name=綠燈
+gui.railcraft.aspect.off.name=關閉
+gui.railcraft.aspect.red.name=紅燈
+gui.railcraft.aspect.yellow.name=黃燈
 
-railcraft.gui.aura.disable=%s 效果關閉
-railcraft.gui.aura.enable=%s 效果開啟
+gui.railcraft.aura.disable=%s 效果關閉
+gui.railcraft.aura.enable=%s 效果開啟
 
-railcraft.gui.blast.furnace=鼓風爐
+gui.railcraft.blast.furnace=鼓風爐
 
-railcraft.gui.bore.ballast=鋪路材料
-railcraft.gui.bore.fuel=燃料
-railcraft.gui.bore.head=鑽頭
-railcraft.gui.bore.track=鐵軌
+gui.railcraft.bore.ballast=鋪路材料
+gui.railcraft.bore.fuel=燃料
+gui.railcraft.bore.head=鑽頭
+gui.railcraft.bore.track=鐵軌
 
-railcraft.gui.box.aspect.action=輸出條件
-railcraft.gui.box.capacitor.duration=輸出 %s 秒紅石訊號
-railcraft.gui.box.capacitor.redstone.immediate.name=上升緣
-railcraft.gui.box.capacitor.redstone.immediate.tips=收到輸入訊號即開始計時
-railcraft.gui.box.capacitor.delayed=下降緣
-railcraft.gui.box.capacitor.delayed.tips=輸入訊號結束才開始計時
-railcraft.gui.box.controller.aspect.default=預設信號:
-railcraft.gui.box.controller.aspect.redstone=充能信號:
+gui.railcraft.box.aspect.action=輸出條件
+gui.railcraft.box.capacitor.duration=輸出 %s 秒紅石訊號
+gui.railcraft.box.capacitor.rising.name=上升緣
+gui.railcraft.box.capacitor.rising.tips=收到輸入訊號即開始計時
+gui.railcraft.box.capacitor.falling.name=下降緣
+gui.railcraft.box.capacitor.falling.tips=輸入訊號結束才開始計時
+gui.railcraft.box.controller.aspect.default=預設信號:
+gui.railcraft.box.controller.aspect.redstone=充能信號:
 
-railcraft.gui.cart.tnt.fuse=導火線
-railcraft.gui.cart.track.relayer.pattern=樣式
-railcraft.gui.cart.track.relayer.stock=存量
-railcraft.gui.cart.undercutter.pattern=樣式
-railcraft.gui.cart.undercutter.sides=側邊
-railcraft.gui.cart.undercutter.transfer.stock.name=存量
-railcraft.gui.cart.undercutter.under=底下
+gui.railcraft.cart.tnt.fuse=導火線
+gui.railcraft.cart.track.relayer.pattern=樣式
+gui.railcraft.cart.track.relayer.stock=存量
+gui.railcraft.cart.undercutter.pattern=樣式
+gui.railcraft.cart.undercutter.sides=側邊
+gui.railcraft.cart.undercutter.transfer.stock.name=存量
+gui.railcraft.cart.undercutter.under=底下
 
-railcraft.gui.charge.meter.cart=Cart -> Charge: %s c | Draw: %s c/t | Loss: %s c/t
-railcraft.gui.charge.meter.network=Net -> Size: %s | Charge: %s c | Draw: %s c/t | Loss: %s c/t
-railcraft.gui.charge.meter.producer=Supply -> Charge: %s c | Production: %s c/t
-railcraft.gui.charge.meter.node=Node -> Draw: %s c/t | Loss: %s c/t
-railcraft.gui.charge.meter.start=Recording data over %s seconds...
+gui.railcraft.charge.meter.cart=Cart -> Charge: %s c | Draw: %s c/t | Loss: %s c/t
+gui.railcraft.charge.meter.network=Net -> Size: %s | Charge: %s c | Draw: %s c/t | Loss: %s c/t
+gui.railcraft.charge.meter.producer=Supply -> Charge: %s c | Production: %s c/t
+gui.railcraft.charge.meter.node=Node -> Draw: %s c/t | Loss: %s c/t
+gui.railcraft.charge.meter.start=Recording data over %s seconds...
 
-railcraft.gui.coke.oven=焦炭爐
+gui.railcraft.coke.oven=焦炭爐
 
-railcraft.gui.detector.item.analog=類比
-railcraft.gui.detector.item.anything=隨意
-railcraft.gui.detector.item.at_least=至少
-railcraft.gui.detector.item.at_most=最多
-railcraft.gui.detector.item.empty=空車
-railcraft.gui.detector.item.exactly=剛好
-railcraft.gui.detector.item.filtered=篩選
-railcraft.gui.detector.item.full=滿載
-railcraft.gui.detector.item.greater_than=多於
-railcraft.gui.detector.item.less_than=少於
-railcraft.gui.detector.item.not_empty=有物品
-railcraft.gui.detector.loco.primary=車身顏色
-railcraft.gui.detector.loco.secondary=底盤顏色
-railcraft.gui.detector.tank.tips.analog=根據水箱車的液體多寡\n輸出類比訊號
-railcraft.gui.detector.tank.tips.empty=偵測空的蓄水車
-railcraft.gui.detector.tank.tips.full=偵測滿載的蓄水車
-railcraft.gui.detector.tank.tips.half=偵測液體多於一半的蓄水車
-railcraft.gui.detector.tank.tips.less.than.full=偵測沒有裝滿的蓄水車
-railcraft.gui.detector.tank.tips.less.than.half=偵測液體低於一半的蓄水車
-railcraft.gui.detector.tank.tips.less.than.most=偵測液體低於3/4的蓄水車
-railcraft.gui.detector.tank.tips.less.than.quarter=偵測液體低於4/1的蓄水車
-railcraft.gui.detector.tank.tips.most=偵測液體多於3/4的蓄水車
-railcraft.gui.detector.tank.tips.not.empty=偵測任何有液體的蓄水車
-railcraft.gui.detector.tank.tips.quarter=偵測液體多於4/1的蓄水車
-railcraft.gui.detector.tank.tips.void=偵測任意容量
-railcraft.gui.detector.train.size=列車長度 = %s
-railcraft.gui.detector.villager.any=任意
-railcraft.gui.detector.villager.equals=相同
-railcraft.gui.detector.villager.none=皆非
-railcraft.gui.detector.villager.not=不同
+gui.railcraft.detector.item.analog=類比
+gui.railcraft.detector.item.anything=隨意
+gui.railcraft.detector.item.at_least=至少
+gui.railcraft.detector.item.at_most=最多
+gui.railcraft.detector.item.empty=空車
+gui.railcraft.detector.item.exactly=剛好
+gui.railcraft.detector.item.filtered=篩選
+gui.railcraft.detector.item.full=滿載
+gui.railcraft.detector.item.greater_than=多於
+gui.railcraft.detector.item.less_than=少於
+gui.railcraft.detector.item.not_empty=有物品
+gui.railcraft.detector.loco.primary=車身顏色
+gui.railcraft.detector.loco.secondary=底盤顏色
+gui.railcraft.detector.tank.tips.analog=根據水箱車的液體多寡\n輸出類比訊號
+gui.railcraft.detector.tank.tips.empty=偵測空的蓄水車
+gui.railcraft.detector.tank.tips.full=偵測滿載的蓄水車
+gui.railcraft.detector.tank.tips.half=偵測液體多於一半的蓄水車
+gui.railcraft.detector.tank.tips.less.than.full=偵測沒有裝滿的蓄水車
+gui.railcraft.detector.tank.tips.less.than.half=偵測液體低於一半的蓄水車
+gui.railcraft.detector.tank.tips.less.than.most=偵測液體低於3/4的蓄水車
+gui.railcraft.detector.tank.tips.less.than.quarter=偵測液體低於4/1的蓄水車
+gui.railcraft.detector.tank.tips.most=偵測液體多於3/4的蓄水車
+gui.railcraft.detector.tank.tips.not.empty=偵測任何有液體的蓄水車
+gui.railcraft.detector.tank.tips.quarter=偵測液體多於4/1的蓄水車
+gui.railcraft.detector.tank.tips.void=偵測任意容量
+gui.railcraft.detector.train.size=列車長度 = %s
+gui.railcraft.detector.villager.any=任意
+gui.railcraft.detector.villager.equals=相同
+gui.railcraft.detector.villager.none=皆非
+gui.railcraft.detector.villager.not=不同
 
-railcraft.gui.energy.loader.empty=留空車
-railcraft.gui.energy.loader.fill=裝到滿
-railcraft.gui.energy.unloader.wait=抽乾
+gui.railcraft.energy.loader.empty=留空車
+gui.railcraft.energy.loader.fill=裝到滿
+gui.railcraft.energy.unloader.wait=抽乾
 
-railcraft.gui.engrave.entercode=輸入解鎖密碼:
-railcraft.gui.engrave.getmore1=拜訪以下連結
-railcraft.gui.engrave.getmore2=找到更多解鎖密碼!
-railcraft.gui.engrave.openunlock=解鎖標誌
-railcraft.gui.engrave.unlock.exists=已存在!
-railcraft.gui.engrave.unlock.fail=失敗!
-railcraft.gui.engrave.unlock.success=成功!
-railcraft.gui.engrave.unlock=解鎖!
-railcraft.gui.engrave=雕刻
+gui.railcraft.engrave.entercode=輸入解鎖密碼:
+gui.railcraft.engrave.getmore1=拜訪以下連結
+gui.railcraft.engrave.getmore2=找到更多解鎖密碼!
+gui.railcraft.engrave.openunlock=解鎖標誌
+gui.railcraft.engrave.unlock.exists=已存在!
+gui.railcraft.engrave.unlock.fail=失敗!
+gui.railcraft.engrave.unlock.success=成功!
+gui.railcraft.engrave.unlock=解鎖!
+gui.railcraft.engrave=雕刻
 
-railcraft.gui.feed.station.feed=飼料
+gui.railcraft.feed.station.feed=飼料
 
-railcraft.gui.filter=篩選
-railcraft.gui.filters.carts=車種
-railcraft.gui.filters=篩選
+gui.railcraft.filter=篩選
+gui.railcraft.filters.carts=車種
+gui.railcraft.filters=篩選
 
-railcraft.gui.goggles.aura.anchor=世界錨範圍
-railcraft.gui.goggles.aura.none=停用
-railcraft.gui.goggles.aura.signalling=信號途徑
-railcraft.gui.goggles.aura.surveying=號誌區間
-railcraft.gui.goggles.aura.tracking=移動路徑
-railcraft.gui.goggles.aura.tuning=號誌調諧
-railcraft.gui.goggles.mode=目前類型: %s
-railcraft.gui.goggles.tips=手持右鍵可改變類型
+gui.railcraft.goggles.aura.anchor=世界錨範圍
+gui.railcraft.goggles.aura.none=停用
+gui.railcraft.goggles.aura.signalling=信號途徑
+gui.railcraft.goggles.aura.surveying=號誌區間
+gui.railcraft.goggles.aura.tracking=移動路徑
+gui.railcraft.goggles.aura.tuning=號誌調諧
+gui.railcraft.goggles.mode=目前類型: %s
+gui.railcraft.goggles.tips=手持右鍵可改變類型
 
-railcraft.gui.help=幫助
+gui.railcraft.help=幫助
 
-railcraft.gui.ic2.energy.rate=速率: %s EU
+gui.railcraft.ic2.energy.rate=速率: %s EU
 
 gui.railcraft.manipulator.buffer=緩衝
 gui.railcraft.manipulator.redstone.complete.name=完整
@@ -494,117 +494,117 @@ gui.railcraft.manipulator.transfer.stock.tips=移動物品直到目標擁有的\
 gui.railcraft.manipulator.transfer.transfer.name=移動
 gui.railcraft.manipulator.transfer.transfer.tips=移動篩選欄中指定\n數量的物品
 
-railcraft.gui.link.broken=連結解除
-railcraft.gui.link.created=連結成功
-railcraft.gui.link.failed=連結失敗
-railcraft.gui.link.started=開始連結
+gui.railcraft.link.broken=連結解除
+gui.railcraft.link.created=連結成功
+gui.railcraft.link.failed=連結失敗
+gui.railcraft.link.started=開始連結
 
-railcraft.gui.liquid.capacity=容量
+gui.railcraft.liquid.capacity=容量
 
-railcraft.gui.locomotive.mode.idle=閒置
-railcraft.gui.locomotive.mode.running=運轉
-railcraft.gui.locomotive.mode.shutdown=關閉
-railcraft.gui.locomotive.electric.tips.button.mode.running=使火車頭開始移動
-railcraft.gui.locomotive.electric.tips.button.mode.shutdown=使火車頭停下
-railcraft.gui.locomotive.steam.tips.button.mode.idle=火車頭減少燃料的使用量\n僅維持溫度，如果列車停駐在\n軌道上，它就像被閒置一樣
-railcraft.gui.locomotive.steam.tips.button.mode.running=使火車頭開始移動
-railcraft.gui.locomotive.steam.tips.button.mode.shutdown=關閉火車頭\n停止所有動作，開始進入降溫過程\n可能會需要一段時間
-railcraft.gui.locomotive.tips.button.locked=這輛車已經被 {owner} 上鎖\n只接受擁有者發行的車票或Op控制
-railcraft.gui.locomotive.tips.button.private=這輛車為 {owner} 私人所有\n只有所有人或Op能夠控制
-railcraft.gui.locomotive.tips.button.unlocked=點擊以上鎖火車頭\n 一旦上鎖，將只能放入擁有者\n發行的車票或Op才能控制
-railcraft.gui.locomotive.tips.item.emblem=§o標誌:§r %s
-railcraft.gui.locomotive.tips.item.model.default=預設模型
-railcraft.gui.locomotive.tips.item.model=§o模型:§r %s
-railcraft.gui.locomotive.tips.item.owner=§o擁有者:§r %s
-railcraft.gui.locomotive.tips.item.primary=§o車身顏色:§r %s
-railcraft.gui.locomotive.tips.item.secondary=§o底盤顏色:§r %s
-railcraft.gui.locomotive.tips.item.whistle=§o汽笛音高:§r %s
-railcraft.gui.locomotive.tips.slot.ticket=放入車票
+gui.railcraft.locomotive.mode.idle=閒置
+gui.railcraft.locomotive.mode.running=運轉
+gui.railcraft.locomotive.mode.shutdown=關閉
+gui.railcraft.locomotive.electric.tips.button.mode.running=使火車頭開始移動
+gui.railcraft.locomotive.electric.tips.button.mode.shutdown=使火車頭停下
+gui.railcraft.locomotive.steam.tips.button.mode.idle=火車頭減少燃料的使用量\n僅維持溫度，如果列車停駐在\n軌道上，它就像被閒置一樣
+gui.railcraft.locomotive.steam.tips.button.mode.running=使火車頭開始移動
+gui.railcraft.locomotive.steam.tips.button.mode.shutdown=關閉火車頭\n停止所有動作，開始進入降溫過程\n可能會需要一段時間
+gui.railcraft.locomotive.tips.button.locked=這輛車已經被 {owner} 上鎖\n只接受擁有者發行的車票或Op控制
+gui.railcraft.locomotive.tips.button.private=這輛車為 {owner} 私人所有\n只有所有人或Op能夠控制
+gui.railcraft.locomotive.tips.button.unlocked=點擊以上鎖火車頭\n 一旦上鎖，將只能放入擁有者\n發行的車票或Op才能控制
+gui.railcraft.locomotive.tips.item.emblem=§o標誌:§r %s
+gui.railcraft.locomotive.tips.item.model.default=預設模型
+gui.railcraft.locomotive.tips.item.model=§o模型:§r %s
+gui.railcraft.locomotive.tips.item.owner=§o擁有者:§r %s
+gui.railcraft.locomotive.tips.item.primary=§o車身顏色:§r %s
+gui.railcraft.locomotive.tips.item.secondary=§o底盤顏色:§r %s
+gui.railcraft.locomotive.tips.item.whistle=§o汽笛音高:§r %s
+gui.railcraft.locomotive.tips.slot.ticket=放入車票
 
-railcraft.gui.mag.glass.aspect=此號誌的狀態是 %s
-railcraft.gui.mag.glass.aspect.dual=此號誌上半部狀態為 %1$s ;下半部為 %2$s
-railcraft.gui.mag.glass.placedby=由 %2$s 放置的 %1$s
+gui.railcraft.mag.glass.aspect=此號誌的狀態是 %s
+gui.railcraft.mag.glass.aspect.dual=此號誌上半部狀態為 %1$s ;下半部為 %2$s
+gui.railcraft.mag.glass.placedby=由 %2$s 放置的 %1$s
 
-railcraft.gui.rolling.machine.tips.craft=§e§o-點擊開始合成-
+gui.railcraft.rolling.machine.tips.craft=§e§o-點擊開始合成-
 
-railcraft.gui.routing.logic.blank=空白的路由表
-railcraft.gui.routing.logic.insufficient.operands=運算元不足
-railcraft.gui.routing.logic.malformed.syntax=語法錯誤
-railcraft.gui.routing.logic.regex.invalid=無效的正規表達式
-railcraft.gui.routing.logic.regex.unsupported=不支援的正規表達式
-railcraft.gui.routing.logic.unrecognized.keyword=未知的關鍵字
-railcraft.gui.routing.slot.label=路由表
-railcraft.gui.routing.table.editor=最後編輯由 %s
-railcraft.gui.routing.table.manual.numPages=11
-railcraft.gui.routing.table.manual.page1=當路由表被放在路由偵測器或路由轉轍器裡面，他將會定義出一組規則，可以用來偵測任何經過的火車頭是否符合那組規定。\n只要使用簡單的邏輯語法就可以制定規則，讓你可以隨你的喜好創造出複雜或簡單的規定。 這個語法遵從前序表示法，運算子跟在運算元後面。每行中只允許出現一個關鍵字。如果沒有指定運算子，就會被視為OR。\n如果要複製路由表，可同時將多個路由表放入合成欄中合成
-railcraft.gui.routing.table.manual.page2=運算符關鍵字:\n   AND - 兩個運算元，兩者皆必須為「真」\n   OR - 兩個運算元，只有一個必須為「真」\n   NOT - 反轉在其之下的運算元
-railcraft.gui.routing.table.manual.page3=狀況關鍵字:\n   Dest=<字串>\n      如果火車頭的目的地以此字串\n      開頭，則該狀況為「真」\n      "Dest=null" 將會偵測未設定\n      目的地的車輛\n   Owner=<玩家名>\n      如果火車頭屬於該玩家的話\n      該狀況會判定為「真」
-railcraft.gui.routing.table.manual.page4=狀況關鍵字:\n   Name=<實體名稱>\n      當實體名稱與礦車的名稱相同\n      此狀況便為「真」\n      "Name=null" 將會偵測沒有\n      自定義名稱的礦車\n   Type=<模組ID:物品名稱>\n      若該名稱與礦車的物品相同\n      就會判定此狀況為「真」
-railcraft.gui.routing.table.manual.page5=狀況關鍵字:\n   Riding=<玩家名稱>\n      如果列車載著這個玩家\n      則該狀況為「真」\n   Ridden=<true/false>\n      如果列車上有任何玩家\n      將判定為「真」
-railcraft.gui.routing.table.manual.page6=狀況關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身、底盤顏色與\n      指定顏色相符，該狀況為「真」\n      可用”Any”指定所有顏色\n      顏色: Black(黑), LightGray(淺灰), Gray(灰), Red(紅),\n      Brown(褐), Blue(藍), Purple(紫), Cyan(青), Green(綠),\n      Pink(粉紅), Lime(淺綠), Yellow(黃), LightBlue(淺藍),\n      Magenta(洋紅), Orange(橘), White(白)\n   NeedsRefuel=<true/false>\n      若火車頭缺水或燃料不足\n      將會使其改道
-railcraft.gui.routing.table.manual.page7=狀況關鍵字:\n   Redstone=<true/false>\n      如果路由方塊正被紅石充能\n      則該狀況為「真」
-railcraft.gui.routing.table.manual.page8=狀況關鍵字:\n   Loco=<字串>\n      若火車頭吻合給予的參數字串，則為「真」\n      接受字串: electric(電力), steam(蒸氣), none(無).\n      參數 none 將只在列車\n      沒有火車頭時傳回「真」
-railcraft.gui.routing.table.manual.page9=實例範本:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-railcraft.gui.routing.table.manual.page10=效果:\n   上一頁的例子中將會偵測一台\n   以"TheFarLands/Milliways"為目的地\n   或是被漆成紅色和黑色，抑或是即將\n   開往"SecretHideout/OceanEntrance"的火車頭\n   但是都會忽略屬於RichardG的火車頭
-railcraft.gui.routing.table.manual.page11=正規表達式:\n   某些狀況關鍵字支援使用正規表達式\n   要使用正規表達式，需要在'='之前加上一個'?'\n   其語法與Java正規表達式相同\n\n支援的關鍵字:\n   Dest, Name\n\n範例:\n   Dest?=.*Hill
-railcraft.gui.routing.table.manual.title=路由手冊
-railcraft.gui.routing.table.name=命名
-railcraft.gui.routing.ticket.line1=這張車票適用於
-railcraft.gui.routing.ticket.line2=以下列出的所有目的地:
-railcraft.gui.routing.ticket.manual.title=關於金色車票
-railcraft.gui.routing.ticket.redstone.manual.name=金色車票是一種可以無限次數使用的車票，帶著它，你可以搭乘任何公共或發行者私有的列車。金色車票亦可以放在合成桌上，和紙張一起合成，複製出一模一樣的一次性車票
-railcraft.gui.routing.ticket.tips.blank=空白的車票
-railcraft.gui.routing.ticket.tips.dest=目的地:
-railcraft.gui.routing.ticket.tips.issuer=發行人:
-railcraft.gui.routing.ticket.title=金色車票
-railcraft.gui.routing.tips.slot=放入路由表
-railcraft.gui.routing.track.slot.label=車票
-railcraft.gui.routing.track.tips.slot=放入金色車票
-railcraft.gui.routing.type.private.tips=只檢查屬於\n{owner} 的火車頭
-railcraft.gui.routing.type.private=私有鐵路
-railcraft.gui.routing.type.public.tips=檢查任何經過的火車頭
-railcraft.gui.routing.type.public=公共鐵路
+gui.railcraft.routing.logic.blank=空白的路由表
+gui.railcraft.routing.logic.insufficient.operands=運算元不足
+gui.railcraft.routing.logic.malformed.syntax=語法錯誤
+gui.railcraft.routing.logic.regex.invalid=無效的正規表達式
+gui.railcraft.routing.logic.regex.unsupported=不支援的正規表達式
+gui.railcraft.routing.logic.unrecognized.keyword=未知的關鍵字
+gui.railcraft.routing.slot.label=路由表
+gui.railcraft.routing.table.editor=最後編輯由 %s
+gui.railcraft.routing.table.manual.numPages=11
+gui.railcraft.routing.table.manual.page1=當路由表被放在路由偵測器或路由轉轍器裡面，他將會定義出一組規則，可以用來偵測任何經過的火車頭是否符合那組規定。\n只要使用簡單的邏輯語法就可以制定規則，讓你可以隨你的喜好創造出複雜或簡單的規定。 這個語法遵從前序表示法，運算子跟在運算元後面。每行中只允許出現一個關鍵字。如果沒有指定運算子，就會被視為OR。\n如果要複製路由表，可同時將多個路由表放入合成欄中合成
+gui.railcraft.routing.table.manual.page2=運算符關鍵字:\n   AND - 兩個運算元，兩者皆必須為「真」\n   OR - 兩個運算元，只有一個必須為「真」\n   NOT - 反轉在其之下的運算元
+gui.railcraft.routing.table.manual.page3=狀況關鍵字:\n   Dest=<字串>\n      如果火車頭的目的地以此字串\n      開頭，則該狀況為「真」\n      "Dest=null" 將會偵測未設定\n      目的地的車輛\n   Owner=<玩家名>\n      如果火車頭屬於該玩家的話\n      該狀況會判定為「真」
+gui.railcraft.routing.table.manual.page4=狀況關鍵字:\n   Name=<實體名稱>\n      當實體名稱與礦車的名稱相同\n      此狀況便為「真」\n      "Name=null" 將會偵測沒有\n      自定義名稱的礦車\n   Type=<模組ID:物品名稱>\n      若該名稱與礦車的物品相同\n      就會判定此狀況為「真」
+gui.railcraft.routing.table.manual.page5=狀況關鍵字:\n   Riding=<玩家名稱>\n      如果列車載著這個玩家\n      則該狀況為「真」\n   Ridden=<true/false>\n      如果列車上有任何玩家\n      將判定為「真」
+gui.railcraft.routing.table.manual.page6=狀況關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身、底盤顏色與\n      指定顏色相符，該狀況為「真」\n      可用”Any”指定所有顏色\n      顏色: Black(黑), LightGray(淺灰), Gray(灰), Red(紅),\n      Brown(褐), Blue(藍), Purple(紫), Cyan(青), Green(綠),\n      Pink(粉紅), Lime(淺綠), Yellow(黃), LightBlue(淺藍),\n      Magenta(洋紅), Orange(橘), White(白)\n   NeedsRefuel=<true/false>\n      若火車頭缺水或燃料不足\n      將會使其改道
+gui.railcraft.routing.table.manual.page7=狀況關鍵字:\n   Redstone=<true/false>\n      如果路由方塊正被紅石充能\n      則該狀況為「真」
+gui.railcraft.routing.table.manual.page8=狀況關鍵字:\n   Loco=<字串>\n      若火車頭吻合給予的參數字串，則為「真」\n      接受字串: electric(電力), steam(蒸氣), none(無).\n      參數 none 將只在列車\n      沒有火車頭時傳回「真」
+gui.railcraft.routing.table.manual.page9=實例範本:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+gui.railcraft.routing.table.manual.page10=效果:\n   上一頁的例子中將會偵測一台\n   以"TheFarLands/Milliways"為目的地\n   或是被漆成紅色和黑色，抑或是即將\n   開往"SecretHideout/OceanEntrance"的火車頭\n   但是都會忽略屬於RichardG的火車頭
+gui.railcraft.routing.table.manual.page11=正規表達式:\n   某些狀況關鍵字支援使用正規表達式\n   要使用正規表達式，需要在'='之前加上一個'?'\n   其語法與Java正規表達式相同\n\n支援的關鍵字:\n   Dest, Name\n\n範例:\n   Dest?=.*Hill
+gui.railcraft.routing.table.manual.title=路由手冊
+gui.railcraft.routing.table.name=命名
+gui.railcraft.routing.ticket.line1=這張車票適用於
+gui.railcraft.routing.ticket.line2=以下列出的所有目的地:
+gui.railcraft.routing.ticket.manual.title=關於金色車票
+gui.railcraft.routing.ticket.redstone.manual.name=金色車票是一種可以無限次數使用的車票，帶著它，你可以搭乘任何公共或發行者私有的列車。金色車票亦可以放在合成桌上，和紙張一起合成，複製出一模一樣的一次性車票
+gui.railcraft.routing.ticket.tips.blank=空白的車票
+gui.railcraft.routing.ticket.tips.dest=目的地:
+gui.railcraft.routing.ticket.tips.issuer=發行人:
+gui.railcraft.routing.ticket.title=金色車票
+gui.railcraft.routing.tips.slot=放入路由表
+gui.railcraft.routing.track.slot.label=車票
+gui.railcraft.routing.track.tips.slot=放入金色車票
+gui.railcraft.routing.type.private.tips=只檢查屬於\n{owner} 的火車頭
+gui.railcraft.routing.type.private=私有鐵路
+gui.railcraft.routing.type.public.tips=檢查任何經過的火車頭
+gui.railcraft.routing.type.public=公共鐵路
 
-railcraft.gui.steam.boiler=蒸氣鍋爐
-railcraft.gui.steam.oven=蒸氣爐
+gui.railcraft.steam.boiler=蒸氣鍋爐
+gui.railcraft.steam.oven=蒸氣爐
 
-railcraft.gui.surveyor.abandon=終止測量號誌區間
-railcraft.gui.surveyor.begin=開始號誌區間的測量
-railcraft.gui.surveyor.invalid=無效的號誌區間
-railcraft.gui.surveyor.lost=第一個號誌不存在，終止測量
-railcraft.gui.surveyor.success=成功定義一個號誌區間
-railcraft.gui.surveyor.track= %s 的附近沒有鐵軌
-railcraft.gui.surveyor.unloaded=第一個號誌方塊未被讀取
-railcraft.gui.surveyor.wrong=無效的號誌方塊
+gui.railcraft.surveyor.abandon=終止測量號誌區間
+gui.railcraft.surveyor.begin=開始號誌區間的測量
+gui.railcraft.surveyor.invalid=無效的號誌區間
+gui.railcraft.surveyor.lost=第一個號誌不存在，終止測量
+gui.railcraft.surveyor.success=成功定義一個號誌區間
+gui.railcraft.surveyor.track= %s 的附近沒有鐵軌
+gui.railcraft.surveyor.unloaded=第一個號誌方塊未被讀取
+gui.railcraft.surveyor.wrong=無效的號誌方塊
 
-railcraft.gui.switch.motor.action=轉轍條件
-railcraft.gui.switch.motor.redstone=無視紅石
+gui.railcraft.switch.motor.action=轉轍條件
+gui.railcraft.switch.motor.redstone=無視紅石
 
-railcraft.gui.tank.iron=鐵製蓄水槽
-railcraft.gui.tank.steel=鋼製蓄水槽
-railcraft.gui.tank.water=水塔
+gui.railcraft.tank.iron=鐵製蓄水槽
+gui.railcraft.tank.steel=鋼製蓄水槽
+gui.railcraft.tank.water=水塔
 
-railcraft.gui.ticks=ticks
+gui.railcraft.ticks=ticks
 
-railcraft.gui.tips.button.lock.locked=此設備已經被 {owner} 上鎖\n 只有所有人或Op能夠操控它
-railcraft.gui.tips.button.lock.notowner=你並不是該設備的所有人\n 它是屬於 {owner} 的財產
-railcraft.gui.tips.button.lock.unlocked=點擊以上鎖這個設備\n 一旦上鎖，僅所有人或Op能夠存取
+gui.railcraft.tips.button.lock.locked=此設備已經被 {owner} 上鎖\n 只有所有人或Op能夠操控它
+gui.railcraft.tips.button.lock.notowner=你並不是該設備的所有人\n 它是屬於 {owner} 的財產
+gui.railcraft.tips.button.lock.unlocked=點擊以上鎖這個設備\n 一旦上鎖，僅所有人或Op能夠存取
 
-railcraft.gui.track.embarking.radius=半徑
-railcraft.gui.track.mode.change=改變成 %s 模式
-railcraft.gui.track.coupler.mode.auto.coupler=自動連結
-railcraft.gui.track.coupler.mode.coupler=連結
-railcraft.gui.track.coupler.mode.decoupler=解除連結
-railcraft.gui.track.locking.mode.boarding.train=列車發車
-railcraft.gui.track.locking.mode.boarding=發車
-railcraft.gui.track.locking.mode.holding.train=列車臨停
-railcraft.gui.track.locking.mode.holding=臨停
-railcraft.gui.track.locking.mode.lockdown.train=列車鎖定
-railcraft.gui.track.locking.mode.lockdown=鎖定
-railcraft.gui.track.priming.fuse=點燃秒數 = %s ticks
-railcraft.gui.track.launcher.force=彈跳強度 = %s
+gui.railcraft.track.embarking.radius=半徑
+gui.railcraft.track.mode.change=改變成 %s 模式
+gui.railcraft.track.coupler.mode.auto.coupler=自動連結
+gui.railcraft.track.coupler.mode.coupler=連結
+gui.railcraft.track.coupler.mode.decoupler=解除連結
+gui.railcraft.track.locking.mode.boarding.train=列車發車
+gui.railcraft.track.locking.mode.boarding=發車
+gui.railcraft.track.locking.mode.holding.train=列車臨停
+gui.railcraft.track.locking.mode.holding=臨停
+gui.railcraft.track.locking.mode.lockdown.train=列車鎖定
+gui.railcraft.track.locking.mode.lockdown=鎖定
+gui.railcraft.track.priming.fuse=點燃秒數 = %s ticks
+gui.railcraft.track.launcher.force=彈跳強度 = %s
 
-railcraft.gui.trade.station.dice.tips=隨機的交易
+gui.railcraft.trade.station.dice.tips=隨機的交易
 
 gui.railcraft.tuner.abandon.chunk=控制器未被讀取，終止配對
 gui.railcraft.tuner.abandon.gone=控制器不再存在，終止配對
@@ -613,11 +613,11 @@ gui.railcraft.tuner.start=開始 %s 與接收器的配對
 gui.railcraft.tuner.stop=停止 %s 與接收器的配對
 gui.railcraft.tuner.success=%1$s 與 %2$s 配對成功
 
-railcraft.gui.turbine.output=輸出: %s%%
-railcraft.gui.turbine.rotor=轉子:
-railcraft.gui.turbine=蒸氣渦輪
+gui.railcraft.turbine.output=輸出: %s%%
+gui.railcraft.turbine.rotor=轉子:
+gui.railcraft.turbine=蒸氣渦輪
 
-railcraft.gui.update.message=Railcraft %s 已經發布，來自 <http://railcraft.info>
+gui.railcraft.update.message=Railcraft %s 已經發布，來自 <http://railcraft.info>
 
 railcraft.keybind.aura.anchor=世界錨效果
 railcraft.keybind.aura.surveying=號誌區間效果
@@ -1021,8 +1021,8 @@ tile.railcraft.wayobject.block.signal.name=號誌區間燈
 tile.railcraft.wayobject.block.signal.tips=偵測號誌區間內的車輛\n§o§9無線聯繫:\n§o§9- 1x 號誌燈\n§o§9- 1x 控制器\n§o§c對應工具:\n§o§c- 號誌測量器
 tile.railcraft.signal.box.analog.name=類比號誌控制箱
 tile.railcraft.signal.box.analog.tips=傳送信號至接收器\n§o§9無線聯繫: 1x 控制器\n§o§9相鄰聯繫: 無\n§o§9紅石聯繫: 傾聽\n§o§c對應工具:\n§o§c- 信號調頻器
-tile.railcraft.signal.box.block.relay.name=號誌中繼箱
-tile.railcraft.signal.box.block.relay.tips=建立多個號誌區間的連結\n§o§9無線聯繫: 2x 號誌燈\n§o§9相鄰聯繫: 輸出\n§o§9紅石聯繫: 輸出\n§o§c對應工具:\n§o§c- 號誌測量器
+tile.railcraft.signal.box.relay.name=號誌中繼箱
+tile.railcraft.signal.box.relay.tips=建立多個號誌區間的連結\n§o§9無線聯繫: 2x 號誌燈\n§o§9相鄰聯繫: 輸出\n§o§9紅石聯繫: 輸出\n§o§c對應工具:\n§o§c- 號誌測量器
 tile.railcraft.signal.box.capacitor.name=號誌電容箱
 tile.railcraft.signal.box.capacitor.tips=傳送信號至接收器\n§o§9無線聯繫: 無\n§o§9相鄰聯繫: 傾聽, 輸出\n§o§9紅石聯繫: 傾聽中繼器, 輸出
 tile.railcraft.signal.box.controller.name=號誌控制箱

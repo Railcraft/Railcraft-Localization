@@ -356,122 +356,122 @@ railcraft.gates.trigger.temp.hot=Котёл горячий
 railcraft.gates.trigger.temp.warm=Котёл тёплый
 railcraft.gates.trigger.work=Работает
 
-railcraft.gui.anchor.fuel.remaining=%s часов
-railcraft.gui.anchor.fuel=Жемчужины Края
-railcraft.gui.anchor.pair.fail.alignment=%1$s не на одной линии с %2$s
-railcraft.gui.anchor.pair.fail.distance=%1$s слишком далеко, чтобы соединиться с %2$s
-railcraft.gui.anchor.pair.fail.dimension=%1$s в другом измерении
-railcraft.gui.anchor.pair.fail.invalid=Этот объект нельзя соединить с %s
-railcraft.gui.anchor.pair.fail.unloaded=Цель была выгружена, во время попытки соединения с %s
-railcraft.gui.anchor.pair.cancel=%s соединение было отменено
-railcraft.gui.anchor.pair.start=%s соединение начато
-railcraft.gui.anchor.pair.success=%s успешно соединены
+gui.railcraft.anchor.fuel.remaining=%s часов
+gui.railcraft.anchor.fuel=Жемчужины Края
+gui.railcraft.anchor.pair.fail.alignment=%1$s не на одной линии с %2$s
+gui.railcraft.anchor.pair.fail.distance=%1$s слишком далеко, чтобы соединиться с %2$s
+gui.railcraft.anchor.pair.fail.dimension=%1$s в другом измерении
+gui.railcraft.anchor.pair.fail.invalid=Этот объект нельзя соединить с %s
+gui.railcraft.anchor.pair.fail.unloaded=Цель была выгружена, во время попытки соединения с %s
+gui.railcraft.anchor.pair.cancel=%s соединение было отменено
+gui.railcraft.anchor.pair.start=%s соединение начато
+gui.railcraft.anchor.pair.success=%s успешно соединены
 
-railcraft.gui.aspect.blink.red.name=Мерцающий красный
-railcraft.gui.aspect.blink.yellow.name=Мерцающий жёлтый
-railcraft.gui.aspect.green.name=Зелёный
-railcraft.gui.aspect.off.name=Откл.
-railcraft.gui.aspect.red.name=Красный
-railcraft.gui.aspect.yellow.name=Жёлтый
+gui.railcraft.aspect.blink.red.name=Мерцающий красный
+gui.railcraft.aspect.blink.yellow.name=Мерцающий жёлтый
+gui.railcraft.aspect.green.name=Зелёный
+gui.railcraft.aspect.off.name=Откл.
+gui.railcraft.aspect.red.name=Красный
+gui.railcraft.aspect.yellow.name=Жёлтый
 
-railcraft.gui.aura.enable=Аура "%s" включена
-railcraft.gui.aura.disable=Аура "%s" выключена
+gui.railcraft.aura.enable=Аура "%s" включена
+gui.railcraft.aura.disable=Аура "%s" выключена
 
-railcraft.gui.blast.furnace=Доменная печь
+gui.railcraft.blast.furnace=Доменная печь
 
-railcraft.gui.bore.ballast=Балласт
-railcraft.gui.bore.fuel=Топливо
-railcraft.gui.bore.head=Головка
-railcraft.gui.bore.track=Пути
+gui.railcraft.bore.ballast=Балласт
+gui.railcraft.bore.fuel=Топливо
+gui.railcraft.bore.head=Головка
+gui.railcraft.bore.track=Пути
 
-railcraft.gui.box.aspect.action=Сигнал красн. камня на аспект
-railcraft.gui.box.capacitor.duration=Сигнал красн. камня на %s секунд
-railcraft.gui.box.capacitor.immediate=Незамедлительно
-railcraft.gui.box.capacitor.immediate.tip=Запустить таймер как только будет получен входной сигнал.
-railcraft.gui.box.capacitor.delayed=С задержкой
-railcraft.gui.box.capacitor.delayed.tip=Запустить таймер, когда последний входной сигнал закончится.
-railcraft.gui.box.controller.aspect.default=Стандартный аспект:
-railcraft.gui.box.controller.aspect.redstone=Аспект на сигнал кр. камня:
+gui.railcraft.box.aspect.action=Сигнал красн. камня на аспект
+gui.railcraft.box.capacitor.duration=Сигнал красн. камня на %s секунд
+gui.railcraft.box.capacitor.immediate=Незамедлительно
+gui.railcraft.box.capacitor.rising.tip=Запустить таймер как только будет получен входной сигнал.
+gui.railcraft.box.capacitor.falling.name=С задержкой
+gui.railcraft.box.capacitor.falling.tip=Запустить таймер, когда последний входной сигнал закончится.
+gui.railcraft.box.controller.aspect.default=Стандартный аспект:
+gui.railcraft.box.controller.aspect.redstone=Аспект на сигнал кр. камня:
 
-railcraft.gui.cart.tnt.fuse=Запал
-railcraft.gui.cart.track.relayer.pattern=Шаблон
-railcraft.gui.cart.track.relayer.stock=Инвентарь
-railcraft.gui.cart.undercutter.pattern=Шаблоны
-railcraft.gui.cart.undercutter.sides=Стороны
-railcraft.gui.cart.undercutter.stock=Инвентарь
-railcraft.gui.cart.undercutter.under=Под
+gui.railcraft.cart.tnt.fuse=Запал
+gui.railcraft.cart.track.relayer.pattern=Шаблон
+gui.railcraft.cart.track.relayer.stock=Инвентарь
+gui.railcraft.cart.undercutter.pattern=Шаблоны
+gui.railcraft.cart.undercutter.sides=Стороны
+gui.railcraft.cart.undercutter.stock=Инвентарь
+gui.railcraft.cart.undercutter.under=Под
 
-railcraft.gui.charge.meter.cart=Вагонетка -> Заряд: %s c | Подача: %s c/t | Потеря: %s c/t
-railcraft.gui.charge.meter.network=Сеть -> Размер: %s | Заряд: %s c | Подача: %s c/t | Потеря: %s c/t
-railcraft.gui.charge.meter.producer=Питание -> Заряд: %s c | Производство: %s c/t
-railcraft.gui.charge.meter.node=Node -> Подача: %s c/t | Потеря: %s c/t
-railcraft.gui.charge.meter.start=Запись данных через %s секунд...
+gui.railcraft.charge.meter.cart=Вагонетка -> Заряд: %s c | Подача: %s c/t | Потеря: %s c/t
+gui.railcraft.charge.meter.network=Сеть -> Размер: %s | Заряд: %s c | Подача: %s c/t | Потеря: %s c/t
+gui.railcraft.charge.meter.producer=Питание -> Заряд: %s c | Производство: %s c/t
+gui.railcraft.charge.meter.node=Node -> Подача: %s c/t | Потеря: %s c/t
+gui.railcraft.charge.meter.start=Запись данных через %s секунд...
 
-railcraft.gui.coke.oven=Коксовая печь
+gui.railcraft.coke.oven=Коксовая печь
 
-railcraft.gui.detector.item.analog=Аналоговый
-railcraft.gui.detector.item.anything=Любое количество
-railcraft.gui.detector.item.at_least=Не менее
-railcraft.gui.detector.item.at_most=Не более
-railcraft.gui.detector.item.empty=Пустой инвентарь
-railcraft.gui.detector.item.exactly=Точное количество
-railcraft.gui.detector.item.filtered=Фильтр
-railcraft.gui.detector.item.full=Полный инвентарь
-railcraft.gui.detector.item.greater_than=Больше чем
-railcraft.gui.detector.item.less_than=Меньше чем
-railcraft.gui.detector.item.not_empty=Не пусто
-railcraft.gui.detector.loco.primary=Основной цвет
-railcraft.gui.detector.loco.secondary=Вторичный цвет
-railcraft.gui.detector.tank.tip.analog=Аналоговый сигнал красного камня\n в зависимости от уровня в цистерне
-railcraft.gui.detector.tank.tip.empty=Подходят пустые цистерны
-railcraft.gui.detector.tank.tip.full=Подходят полные цистерны
-railcraft.gui.detector.tank.tip.half=Подходят более, чем наполовину полные цистерны
-railcraft.gui.detector.tank.tip.less.than.quarter=Подходят менее, чем на четверть полные цистерны
-railcraft.gui.detector.tank.tip.less.than.half=Подходят менее, чем наполовину полные цистерны
-railcraft.gui.detector.tank.tip.less.than.most=Подходят менее, чем на 3/4 полные цистерны
-railcraft.gui.detector.tank.tip.less.than.full=Подходят неполные цистерны
-railcraft.gui.detector.tank.tip.most=Подходят более, чем на 3/4 полные цистерны
-railcraft.gui.detector.tank.tip.not.empty=Подходят непустые цистерны
-railcraft.gui.detector.tank.tip.quarter=Подходят более, чем на четверть полные цистерны
-railcraft.gui.detector.tank.tip.void=Подходит любое количество
-railcraft.gui.detector.train.size=Размер поезда = %s
-railcraft.gui.detector.villager.any=Любой
-railcraft.gui.detector.villager.equals=Равно
-railcraft.gui.detector.villager.none=Никто
-railcraft.gui.detector.villager.not=Нет
+gui.railcraft.detector.item.analog=Аналоговый
+gui.railcraft.detector.item.anything=Любое количество
+gui.railcraft.detector.item.at_least=Не менее
+gui.railcraft.detector.item.at_most=Не более
+gui.railcraft.detector.item.empty=Пустой инвентарь
+gui.railcraft.detector.item.exactly=Точное количество
+gui.railcraft.detector.item.filtered=Фильтр
+gui.railcraft.detector.item.full=Полный инвентарь
+gui.railcraft.detector.item.greater_than=Больше чем
+gui.railcraft.detector.item.less_than=Меньше чем
+gui.railcraft.detector.item.not_empty=Не пусто
+gui.railcraft.detector.loco.primary=Основной цвет
+gui.railcraft.detector.loco.secondary=Вторичный цвет
+gui.railcraft.detector.tank.tip.analog=Аналоговый сигнал красного камня\n в зависимости от уровня в цистерне
+gui.railcraft.detector.tank.tip.empty=Подходят пустые цистерны
+gui.railcraft.detector.tank.tip.full=Подходят полные цистерны
+gui.railcraft.detector.tank.tip.half=Подходят более, чем наполовину полные цистерны
+gui.railcraft.detector.tank.tip.less.than.quarter=Подходят менее, чем на четверть полные цистерны
+gui.railcraft.detector.tank.tip.less.than.half=Подходят менее, чем наполовину полные цистерны
+gui.railcraft.detector.tank.tip.less.than.most=Подходят менее, чем на 3/4 полные цистерны
+gui.railcraft.detector.tank.tip.less.than.full=Подходят неполные цистерны
+gui.railcraft.detector.tank.tip.most=Подходят более, чем на 3/4 полные цистерны
+gui.railcraft.detector.tank.tip.not.empty=Подходят непустые цистерны
+gui.railcraft.detector.tank.tip.quarter=Подходят более, чем на четверть полные цистерны
+gui.railcraft.detector.tank.tip.void=Подходит любое количество
+gui.railcraft.detector.train.size=Размер поезда = %s
+gui.railcraft.detector.villager.any=Любой
+gui.railcraft.detector.villager.equals=Равно
+gui.railcraft.detector.villager.none=Никто
+gui.railcraft.detector.villager.not=Нет
 
-railcraft.gui.energy.loader.empty=Удерживать пустые
-railcraft.gui.energy.loader.fill=Заполнить
-railcraft.gui.energy.unloader.wait=Ждать до опустошения
+gui.railcraft.energy.loader.empty=Удерживать пустые
+gui.railcraft.energy.loader.fill=Заполнить
+gui.railcraft.energy.unloader.wait=Ждать до опустошения
 
-railcraft.gui.engrave.entercode=Введите код разблокировки:
-railcraft.gui.engrave.getmore1=Посетите ссылки ниже,
-railcraft.gui.engrave.getmore2=чтобы найти больше кодов разблокировки!
-railcraft.gui.engrave.openunlock=Разблокировать эмблемы
-railcraft.gui.engrave.unlock=Разблокировать!
-railcraft.gui.engrave.unlock.exists=Копия!
-railcraft.gui.engrave.unlock.fail=Ошибка!
-railcraft.gui.engrave.unlock.success=Успех!
-railcraft.gui.engrave=Гравировать
+gui.railcraft.engrave.entercode=Введите код разблокировки:
+gui.railcraft.engrave.getmore1=Посетите ссылки ниже,
+gui.railcraft.engrave.getmore2=чтобы найти больше кодов разблокировки!
+gui.railcraft.engrave.openunlock=Разблокировать эмблемы
+gui.railcraft.engrave.unlock=Разблокировать!
+gui.railcraft.engrave.unlock.exists=Копия!
+gui.railcraft.engrave.unlock.fail=Ошибка!
+gui.railcraft.engrave.unlock.success=Успех!
+gui.railcraft.engrave=Гравировать
 
-railcraft.gui.feed.station.feed=Корм
+gui.railcraft.feed.station.feed=Корм
 
-railcraft.gui.filter=Фильтр
-railcraft.gui.filters.carts=Вагонетки
-railcraft.gui.filters=Фильтры
+gui.railcraft.filter=Фильтр
+gui.railcraft.filters.carts=Вагонетки
+gui.railcraft.filters=Фильтры
 
-railcraft.gui.goggles.aura.anchor=Якорь
-railcraft.gui.goggles.aura.none=Ничего
-railcraft.gui.goggles.aura.signalling=Сигнал
-railcraft.gui.goggles.aura.surveying=Геодезия
-railcraft.gui.goggles.aura.tracking=Отслеживание
-railcraft.gui.goggles.aura.tuning=Связка
-railcraft.gui.goggles.mode=Текущая аура: %s
-railcraft.gui.goggles.tip=Используйте панель быстрого доступа для смены ауры
+gui.railcraft.goggles.aura.anchor=Якорь
+gui.railcraft.goggles.aura.none=Ничего
+gui.railcraft.goggles.aura.signalling=Сигнал
+gui.railcraft.goggles.aura.surveying=Геодезия
+gui.railcraft.goggles.aura.tracking=Отслеживание
+gui.railcraft.goggles.aura.tuning=Связка
+gui.railcraft.goggles.mode=Текущая аура: %s
+gui.railcraft.goggles.tip=Используйте панель быстрого доступа для смены ауры
 
-railcraft.gui.help=Помощь
+gui.railcraft.help=Помощь
 
-railcraft.gui.ic2.energy.rate=Коэффициент: %s EU
+gui.railcraft.ic2.energy.rate=Коэффициент: %s EU
 
 gui.railcraft.manipulator.buffer=Буфер
 gui.railcraft.manipulator.redstone.complete.name=Завершено
@@ -491,117 +491,117 @@ gui.railcraft.manipulator.transfer.stock.tips=Двигать пока назна
 gui.railcraft.manipulator.transfer.transfer.name=Перенос
 gui.railcraft.manipulator.transfer.transfer.tips=Передавать ровно столько\n сколько указано в фильтре
 
-railcraft.gui.link.broken=Соединение сломано
-railcraft.gui.link.created=Соединение создано
-railcraft.gui.link.failed=Соединение провалено
-railcraft.gui.link.started=Соединение запущено
+gui.railcraft.link.broken=Соединение сломано
+gui.railcraft.link.created=Соединение создано
+gui.railcraft.link.failed=Соединение провалено
+gui.railcraft.link.started=Соединение запущено
 
-railcraft.gui.liquid.capacity=Ёмкость
+gui.railcraft.liquid.capacity=Ёмкость
 
-railcraft.gui.locomotive.mode.idle=Холостой ход
-railcraft.gui.locomotive.mode.running=Работа
-railcraft.gui.locomotive.mode.shutdown=Выключение
-railcraft.gui.locomotive.electric.tip.button.mode.running=Заставляет локомотив двигаться.
-railcraft.gui.locomotive.electric.tip.button.mode.shutdown=Останавливает локомотив.
-railcraft.gui.locomotive.steam.tip.button.mode.idle=Локомотив снижает\n расход топлива, но сохраняет своё тепло.\n Если поезд на блокирующих рельсах,\n локомотив ведёт себя, как при простое.
-railcraft.gui.locomotive.steam.tip.button.mode.running=Заставляет локомотив двигаться.
-railcraft.gui.locomotive.steam.tip.button.mode.shutdown=Отключает локомотив.\n Останавливает движение и\n начинает процесс охлаждения.\n Это может занять некоторое время.
-railcraft.gui.locomotive.tip.button.locked=Эта вагонетка закрыта\n {owner}.\n Она будет принимать только билеты\n выпущенные Вами или Оператором.
-railcraft.gui.locomotive.tip.button.private=Эта вагонетка принадлежит\n {owner}.\n Она может управляться только\n им или Оператором.
-railcraft.gui.locomotive.tip.button.unlocked=Нажмите, чтобы заблокировать локомотив.\n После закрытия, он будет\n принимать только билеты\n выпущенные Вами или Оператором.
-railcraft.gui.locomotive.tip.item.emblem=§oЭмблема:§r %s
-railcraft.gui.locomotive.tip.item.model.default=Стандартная модель
-railcraft.gui.locomotive.tip.item.model=§oМодель:§r %s
-railcraft.gui.locomotive.tip.item.owner=§oЦвет владельца:§r %s
-railcraft.gui.locomotive.tip.item.primary=§oОсновной цвет:§r %s
-railcraft.gui.locomotive.tip.item.secondary=§oВторичный цвет:§r %s
-railcraft.gui.locomotive.tip.item.whistle=§oТон свистка:§r %s
-railcraft.gui.locomotive.tip.slot.ticket=Вставьте билет
+gui.railcraft.locomotive.mode.idle=Холостой ход
+gui.railcraft.locomotive.mode.running=Работа
+gui.railcraft.locomotive.mode.shutdown=Выключение
+gui.railcraft.locomotive.electric.tip.button.mode.running=Заставляет локомотив двигаться.
+gui.railcraft.locomotive.electric.tip.button.mode.shutdown=Останавливает локомотив.
+gui.railcraft.locomotive.steam.tip.button.mode.idle=Локомотив снижает\n расход топлива, но сохраняет своё тепло.\n Если поезд на блокирующих рельсах,\n локомотив ведёт себя, как при простое.
+gui.railcraft.locomotive.steam.tip.button.mode.running=Заставляет локомотив двигаться.
+gui.railcraft.locomotive.steam.tip.button.mode.shutdown=Отключает локомотив.\n Останавливает движение и\n начинает процесс охлаждения.\n Это может занять некоторое время.
+gui.railcraft.locomotive.tip.button.locked=Эта вагонетка закрыта\n {owner}.\n Она будет принимать только билеты\n выпущенные Вами или Оператором.
+gui.railcraft.locomotive.tip.button.private=Эта вагонетка принадлежит\n {owner}.\n Она может управляться только\n им или Оператором.
+gui.railcraft.locomotive.tip.button.unlocked=Нажмите, чтобы заблокировать локомотив.\n После закрытия, он будет\n принимать только билеты\n выпущенные Вами или Оператором.
+gui.railcraft.locomotive.tip.item.emblem=§oЭмблема:§r %s
+gui.railcraft.locomotive.tip.item.model.default=Стандартная модель
+gui.railcraft.locomotive.tip.item.model=§oМодель:§r %s
+gui.railcraft.locomotive.tip.item.owner=§oЦвет владельца:§r %s
+gui.railcraft.locomotive.tip.item.primary=§oОсновной цвет:§r %s
+gui.railcraft.locomotive.tip.item.secondary=§oВторичный цвет:§r %s
+gui.railcraft.locomotive.tip.item.whistle=§oТон свистка:§r %s
+gui.railcraft.locomotive.tip.slot.ticket=Вставьте билет
 
-railcraft.gui.mag.glass.aspect=Аспект сигнала %s
-railcraft.gui.mag.glass.aspect.dual=Аспект сигнала %1$sсверху и %2$sснизу
-railcraft.gui.mag.glass.placedby=%1$s был размещён игроком %2$s
+gui.railcraft.mag.glass.aspect=Аспект сигнала %s
+gui.railcraft.mag.glass.aspect.dual=Аспект сигнала %1$sсверху и %2$sснизу
+gui.railcraft.mag.glass.placedby=%1$s был размещён игроком %2$s
 
-railcraft.gui.rolling.machine.tip.craft=§e§o-нажмите, чтобы создать-
+gui.railcraft.rolling.machine.tip.craft=§e§o-нажмите, чтобы создать-
 
-railcraft.gui.routing.logic.blank=Пустая таблица
-railcraft.gui.routing.logic.insufficient.operands=Неполный Операнд
-railcraft.gui.routing.logic.malformed.syntax=Искажённый синтаксис
-railcraft.gui.routing.logic.regex.invalid=Неверный шаблон регулярного выражения
-railcraft.gui.routing.logic.regex.unsupported=Регулярное выражение не поддерживается
-railcraft.gui.routing.logic.unrecognized.keyword=Нераспознанное ключевое слово
-railcraft.gui.routing.slot.label=Таблица маршрутизации
-railcraft.gui.routing.table.editor=Последний раз редактировалось игроком %s
-railcraft.gui.routing.table.manual.numPages=11
-railcraft.gui.routing.table.manual.page1=Таблица маршрутизации при размещении в детектор маршрутизации или маршрутный стрелочный мотор определит набор правил, которые используются для сопоставления с любым проходящим локомотивом. Эти правила определяются с помощью простого логического синтаксиса, который позволяет Вам создавать правила, простым или сложным, как Вам нравится. Синтаксис - Prefix Notation script, Операторы следуют за Операндами. Только одно ключевое слово допускается в строке. Если ни один Оператор не указан или вымышлен. Таблицы маршрутизации могут быть скопированы путём размещения двух или более в сетке создания.
-railcraft.gui.routing.table.manual.page2=Ключевые слова Операторов:\n   AND(И) - Два Операнда, оба должны быть истинными.\n   OR(ИЛИ) - Два Операнда, хотя бы один должен быть истинным.\n   NOT(НЕ) - Инвертирует значение следующего Операнда.
-railcraft.gui.routing.table.manual.page3=Условные ключевые слова:\n   Dest(пункт назначения)=<строка>\n      Если место назначения локомотива\n      начинается с этой строки, условие истинно.\n  "Dest(пункт назначения)=null"\n      будет соответствовать вагонеткам без назначения.\n   Owner(владелец)=<имя пользователя>\n      Истинно, если локомотив принадлежит этому человеку.
-railcraft.gui.routing.table.manual.page4=Условные ключевые слова:\n   Name(имя)=<имя сущности>\n      Истинно, если соответствует\n      названию вагонетки.\n      "Name=null" будет подходить вагонеткам\n      без пользовательского имени.\n   Type(тип)=<modid:itemname>\n      Истинно, если соответствует\n      предметному имени вагонетки.
-railcraft.gui.routing.table.manual.page5=Условные ключевые слова:\n   Riding(верхом)=<имя пользователя>\n      Истинно, если в поезде\n      сидит этот человек.\n   Ridden(сидит)=<true/false>\n      Истинно, если в поезде\n      сидит игрок.
-railcraft.gui.routing.table.manual.page6=Условные ключевые слова:\n   Color(цвет)=<первичный цвет>,<вторичный цвет>\n      Истинно, если первичные\n      и вторичные цвета локомотива соответствуют.\n      Принимает "Any"(любой) в качестве шаблона.\n      Цвета: Black(чёрный), Red(красный), Green(зелёный),\n      Brown(коричневый), Blue(синий), Purple(фиолетовый),\n      Cyan(бирюзовый), LightGray(светло-серый), Gray(серый),\n      Pink(розовый), Lime(лаймовый), Yellow(жёлтый),\n      LightBlue(светло-синий), Magenta(сиреневый),\n      Orange(оранжевый), White(белый)\n   NeedsRefuel(необходимо заправить)=<true/false>\n      Если локомотиву не хватает топлива или воды.
-railcraft.gui.routing.table.manual.page7=Условные ключевые слова:\n   Redstone(Сигнал красного каменя)=<true/false>\n      Истинно, если блок маршрутизации\n      получает питание от красного камня.
-railcraft.gui.routing.table.manual.page8=Условные ключевые слова:\n   Loco=<string>\n      Истинно если локомотив совпадает со строкой параметров.\n      Подходящие строки: electric, steam, none.\n      Использование параметра none будет возвращать истину если локомотив отсутствует.
-railcraft.gui.routing.table.manual.page9=Пример строки:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-railcraft.gui.routing.table.manual.page10=Результат:\n   Скрипт на предыдущей странице будет\n   соответствовать локомотиву с назначением\n   "TheFarLands/Milliways" \n   или тому, который окрашен в чёрный и красный цвет\n   или который имеет назначение\n   "SecretHideout/OceanEntrance",\n   но только, если он не принадлежит RichardG.
-railcraft.gui.routing.table.manual.page11=Регулярные выражения:\n   Некоторые условия поддерживают\n   регулярные выражения.\n   Чтобы использовать регулярное выражение, добавьте '?' перед '='.\n   Правилами являются стандартные шаблоны Java.\nПоддерживаемые условия:\n   Dest(пункт назначения), Name(имя)\nПример:\n   Dest?=.*Hill
-railcraft.gui.routing.table.manual.title=Учебник по маршрутизации
-railcraft.gui.routing.table.name=Имя
-railcraft.gui.routing.ticket.line1=Этот билет действителен
-railcraft.gui.routing.ticket.line2=для следующего пункта назначения:
-railcraft.gui.routing.ticket.manual.title=О золотом билете
-railcraft.gui.routing.ticket.manual=Золотой билет может использоваться бесконечное число раз, его можно использовать, чтобы ездить на любом общественном поезде или на поезде того, кто выпустил билет. Он также может быть скомбинирован с бумагой для создания одноразовых билетов.
-railcraft.gui.routing.ticket.tip.blank=Незаполненный билет
-railcraft.gui.routing.ticket.tip.dest=Место назначения:
-railcraft.gui.routing.ticket.tip.issuer=Выпустил:
-railcraft.gui.routing.ticket.title=Золотой билет
-railcraft.gui.routing.tip.slot=Вставьте таблицу маршрутизации
-railcraft.gui.routing.track.slot.label=Билет
-railcraft.gui.routing.track.tip.slot=Вставьте золотой билет
-railcraft.gui.routing.type.private.tip=Будет направлять только локомотивы,\n которые принадлежат\n {owner}.
-railcraft.gui.routing.type.private=Частная железная дорога
-railcraft.gui.routing.type.public.tip=Будет направлять любой локомотив.
-railcraft.gui.routing.type.public=Общественная железная дорога
+gui.railcraft.routing.logic.blank=Пустая таблица
+gui.railcraft.routing.logic.insufficient.operands=Неполный Операнд
+gui.railcraft.routing.logic.malformed.syntax=Искажённый синтаксис
+gui.railcraft.routing.logic.regex.invalid=Неверный шаблон регулярного выражения
+gui.railcraft.routing.logic.regex.unsupported=Регулярное выражение не поддерживается
+gui.railcraft.routing.logic.unrecognized.keyword=Нераспознанное ключевое слово
+gui.railcraft.routing.slot.label=Таблица маршрутизации
+gui.railcraft.routing.table.editor=Последний раз редактировалось игроком %s
+gui.railcraft.routing.table.manual.numPages=11
+gui.railcraft.routing.table.manual.page1=Таблица маршрутизации при размещении в детектор маршрутизации или маршрутный стрелочный мотор определит набор правил, которые используются для сопоставления с любым проходящим локомотивом. Эти правила определяются с помощью простого логического синтаксиса, который позволяет Вам создавать правила, простым или сложным, как Вам нравится. Синтаксис - Prefix Notation script, Операторы следуют за Операндами. Только одно ключевое слово допускается в строке. Если ни один Оператор не указан или вымышлен. Таблицы маршрутизации могут быть скопированы путём размещения двух или более в сетке создания.
+gui.railcraft.routing.table.manual.page2=Ключевые слова Операторов:\n   AND(И) - Два Операнда, оба должны быть истинными.\n   OR(ИЛИ) - Два Операнда, хотя бы один должен быть истинным.\n   NOT(НЕ) - Инвертирует значение следующего Операнда.
+gui.railcraft.routing.table.manual.page3=Условные ключевые слова:\n   Dest(пункт назначения)=<строка>\n      Если место назначения локомотива\n      начинается с этой строки, условие истинно.\n  "Dest(пункт назначения)=null"\n      будет соответствовать вагонеткам без назначения.\n   Owner(владелец)=<имя пользователя>\n      Истинно, если локомотив принадлежит этому человеку.
+gui.railcraft.routing.table.manual.page4=Условные ключевые слова:\n   Name(имя)=<имя сущности>\n      Истинно, если соответствует\n      названию вагонетки.\n      "Name=null" будет подходить вагонеткам\n      без пользовательского имени.\n   Type(тип)=<modid:itemname>\n      Истинно, если соответствует\n      предметному имени вагонетки.
+gui.railcraft.routing.table.manual.page5=Условные ключевые слова:\n   Riding(верхом)=<имя пользователя>\n      Истинно, если в поезде\n      сидит этот человек.\n   Ridden(сидит)=<true/false>\n      Истинно, если в поезде\n      сидит игрок.
+gui.railcraft.routing.table.manual.page6=Условные ключевые слова:\n   Color(цвет)=<первичный цвет>,<вторичный цвет>\n      Истинно, если первичные\n      и вторичные цвета локомотива соответствуют.\n      Принимает "Any"(любой) в качестве шаблона.\n      Цвета: Black(чёрный), Red(красный), Green(зелёный),\n      Brown(коричневый), Blue(синий), Purple(фиолетовый),\n      Cyan(бирюзовый), LightGray(светло-серый), Gray(серый),\n      Pink(розовый), Lime(лаймовый), Yellow(жёлтый),\n      LightBlue(светло-синий), Magenta(сиреневый),\n      Orange(оранжевый), White(белый)\n   NeedsRefuel(необходимо заправить)=<true/false>\n      Если локомотиву не хватает топлива или воды.
+gui.railcraft.routing.table.manual.page7=Условные ключевые слова:\n   Redstone(Сигнал красного каменя)=<true/false>\n      Истинно, если блок маршрутизации\n      получает питание от красного камня.
+gui.railcraft.routing.table.manual.page8=Условные ключевые слова:\n   Loco=<string>\n      Истинно если локомотив совпадает со строкой параметров.\n      Подходящие строки: electric, steam, none.\n      Использование параметра none будет возвращать истину если локомотив отсутствует.
+gui.railcraft.routing.table.manual.page9=Пример строки:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+gui.railcraft.routing.table.manual.page10=Результат:\n   Скрипт на предыдущей странице будет\n   соответствовать локомотиву с назначением\n   "TheFarLands/Milliways" \n   или тому, который окрашен в чёрный и красный цвет\n   или который имеет назначение\n   "SecretHideout/OceanEntrance",\n   но только, если он не принадлежит RichardG.
+gui.railcraft.routing.table.manual.page11=Регулярные выражения:\n   Некоторые условия поддерживают\n   регулярные выражения.\n   Чтобы использовать регулярное выражение, добавьте '?' перед '='.\n   Правилами являются стандартные шаблоны Java.\nПоддерживаемые условия:\n   Dest(пункт назначения), Name(имя)\nПример:\n   Dest?=.*Hill
+gui.railcraft.routing.table.manual.title=Учебник по маршрутизации
+gui.railcraft.routing.table.name=Имя
+gui.railcraft.routing.ticket.line1=Этот билет действителен
+gui.railcraft.routing.ticket.line2=для следующего пункта назначения:
+gui.railcraft.routing.ticket.manual.title=О золотом билете
+gui.railcraft.routing.ticket.manual=Золотой билет может использоваться бесконечное число раз, его можно использовать, чтобы ездить на любом общественном поезде или на поезде того, кто выпустил билет. Он также может быть скомбинирован с бумагой для создания одноразовых билетов.
+gui.railcraft.routing.ticket.tip.blank=Незаполненный билет
+gui.railcraft.routing.ticket.tip.dest=Место назначения:
+gui.railcraft.routing.ticket.tip.issuer=Выпустил:
+gui.railcraft.routing.ticket.title=Золотой билет
+gui.railcraft.routing.tip.slot=Вставьте таблицу маршрутизации
+gui.railcraft.routing.track.slot.label=Билет
+gui.railcraft.routing.track.tip.slot=Вставьте золотой билет
+gui.railcraft.routing.type.private.tip=Будет направлять только локомотивы,\n которые принадлежат\n {owner}.
+gui.railcraft.routing.type.private=Частная железная дорога
+gui.railcraft.routing.type.public.tip=Будет направлять любой локомотив.
+gui.railcraft.routing.type.public=Общественная железная дорога
 
-railcraft.gui.steam.boiler=Паровой котёл
-railcraft.gui.steam.oven=Паровая печь
+gui.railcraft.steam.boiler=Паровой котёл
+gui.railcraft.steam.oven=Паровая печь
 
-railcraft.gui.surveyor.abandon=Обследование сигнального блока остановлено
-railcraft.gui.surveyor.begin=Обследование сигнального блока начато
-railcraft.gui.surveyor.invalid=Сигнальный блок недействителен
-railcraft.gui.surveyor.lost=Первого сигнала больше не существует, отказ от обследования
-railcraft.gui.surveyor.success=Сигнальный блок удачно определён
-railcraft.gui.surveyor.track=Пути не найдены около %s
-railcraft.gui.surveyor.unloaded=Первый сигнал не в загруженном чанке
-railcraft.gui.surveyor.wrong=Неправильный сигнальный блок
+gui.railcraft.surveyor.abandon=Обследование сигнального блока остановлено
+gui.railcraft.surveyor.begin=Обследование сигнального блока начато
+gui.railcraft.surveyor.invalid=Сигнальный блок недействителен
+gui.railcraft.surveyor.lost=Первого сигнала больше не существует, отказ от обследования
+gui.railcraft.surveyor.success=Сигнальный блок удачно определён
+gui.railcraft.surveyor.track=Пути не найдены около %s
+gui.railcraft.surveyor.unloaded=Первый сигнал не в загруженном чанке
+gui.railcraft.surveyor.wrong=Неправильный сигнальный блок
 
-railcraft.gui.switch.motor.action=Переключить на аспект
-railcraft.gui.switch.motor.redstone=Игнорировать Redstone-сигнал
+gui.railcraft.switch.motor.action=Переключить на аспект
+gui.railcraft.switch.motor.redstone=Игнорировать Redstone-сигнал
 
-railcraft.gui.tank.iron=Железный резервуар
-railcraft.gui.tank.steel=Стальной резервуар
-railcraft.gui.tank.water=Резервуар для воды
+gui.railcraft.tank.iron=Железный резервуар
+gui.railcraft.tank.steel=Стальной резервуар
+gui.railcraft.tank.water=Резервуар для воды
 
-railcraft.gui.ticks=Такты
+gui.railcraft.ticks=Такты
 
-railcraft.gui.tip.button.lock.locked=Это устройство заблокировано\n {owner}.\n Только владелец или Оператор\n может управлять им.
-railcraft.gui.tip.button.lock.notowner=Вы не\n владелец этого устройства.\n Это принадлежит\n {owner}.
-railcraft.gui.tip.button.lock.unlocked=Нажмите, чтобы заблокировать устройство.\n После закрытия оно может\n быть доступно только\n для Вас или для Оператора.
+gui.railcraft.tip.button.lock.locked=Это устройство заблокировано\n {owner}.\n Только владелец или Оператор\n может управлять им.
+gui.railcraft.tip.button.lock.notowner=Вы не\n владелец этого устройства.\n Это принадлежит\n {owner}.
+gui.railcraft.tip.button.lock.unlocked=Нажмите, чтобы заблокировать устройство.\n После закрытия оно может\n быть доступно только\n для Вас или для Оператора.
 
-railcraft.gui.track.embarking.radius=Радиус
-railcraft.gui.track.mode.change=Изменён на режим %s
-railcraft.gui.track.coupler.mode.auto.coupler=Автосцепка
-railcraft.gui.track.coupler.mode.coupler=Сцепка
-railcraft.gui.track.coupler.mode.decoupler=Расцепка
-railcraft.gui.track.locking.mode.boarding.train=Посадка поезда
-railcraft.gui.track.locking.mode.boarding=Посадка
-railcraft.gui.track.locking.mode.holding.train=Удерживание поезда
-railcraft.gui.track.locking.mode.holding=Удерживание
-railcraft.gui.track.locking.mode.lockdown.train=Блокировка поезда
-railcraft.gui.track.locking.mode.lockdown=Блокировка
-railcraft.gui.track.priming.fuse=Запал = %s тактов
-railcraft.gui.track.launcher.force=Сила = %s
+gui.railcraft.track.embarking.radius=Радиус
+gui.railcraft.track.mode.change=Изменён на режим %s
+gui.railcraft.track.coupler.mode.auto.coupler=Автосцепка
+gui.railcraft.track.coupler.mode.coupler=Сцепка
+gui.railcraft.track.coupler.mode.decoupler=Расцепка
+gui.railcraft.track.locking.mode.boarding.train=Посадка поезда
+gui.railcraft.track.locking.mode.boarding=Посадка
+gui.railcraft.track.locking.mode.holding.train=Удерживание поезда
+gui.railcraft.track.locking.mode.holding=Удерживание
+gui.railcraft.track.locking.mode.lockdown.train=Блокировка поезда
+gui.railcraft.track.locking.mode.lockdown=Блокировка
+gui.railcraft.track.priming.fuse=Запал = %s тактов
+gui.railcraft.track.launcher.force=Сила = %s
 
-railcraft.gui.trade.station.dice.tip=Произвольная торговля
+gui.railcraft.trade.station.dice.tip=Произвольная торговля
 
 gui.railcraft.tuner.abandon.chunk=Контроллер не в загруженном чанке, соединение прервано
 gui.railcraft.tuner.abandon.gone=Контроллера больше не существует, соединение прервано
@@ -610,11 +610,11 @@ gui.railcraft.tuner.start=Начато соединение %s с приёмни
 gui.railcraft.tuner.stop=Остановлено соединение %s с приёмником
 gui.railcraft.tuner.success=%1$s Успешно соединено с %2$s
 
-railcraft.gui.turbine.output=Выход: %s%%
-railcraft.gui.turbine.rotor=Ротор:
-railcraft.gui.turbine=Паровая турбина
+gui.railcraft.turbine.output=Выход: %s%%
+gui.railcraft.turbine.rotor=Ротор:
+gui.railcraft.turbine=Паровая турбина
 
-railcraft.gui.update.message=Railcraft %s доступен на <http://railcraft.info>
+gui.railcraft.update.message=Railcraft %s доступен на <http://railcraft.info>
 
 railcraft.keybind.aura.anchor=Аура якоря
 railcraft.keybind.aura.surveying=Геодезическая аура
@@ -1019,8 +1019,8 @@ tile.railcraft.wayobject.block.signal.name=Сигнальный блок
 tile.railcraft.wayobject.block.signal.tips=Обнаруживает вагонетки в Сигнальном блоке\n§o§9Беспроводные связи:\n§o§9- 1x Сигнальный блок\n§o§9- 1x Контроллер\n§o§cСоответствующие инструменты:\n§o§c- Инспектор сигналов
 tile.railcraft.signal.box.analog.name=Контроллер аналогового сигнала
 tile.railcraft.signal.box.analog.tips=Отправляет сигналы приемникам\n§o§9Беспроводные связи: 1x Контроллер\n§o§9Прилегающие связи: нет\n§o§9Redstone-связи: Прием\n§o§cСоответствующие инструменты:\n§o§c- Настройщик сигнала
-tile.railcraft.signal.box.block.relay.name=Реле сигнального блока
-tile.railcraft.signal.box.block.relay.tips=Создает цепочку сигнальных блоков\n§o§9Беспроводные связи: 2x Сигнальных блока\n§o§9Прилегающие связи: Излучение\n§o§9Redstone-связи: Излучатель\n§o§cСоответствующие инструменты:\n§o§c- Инспектор сигналов
+tile.railcraft.signal.box.relay.name=Реле сигнального блока
+tile.railcraft.signal.box.relay.tips=Создает цепочку сигнальных блоков\n§o§9Беспроводные связи: 2x Сигнальных блока\n§o§9Прилегающие связи: Излучение\n§o§9Redstone-связи: Излучатель\n§o§cСоответствующие инструменты:\n§o§c- Инспектор сигналов
 tile.railcraft.signal.box.capacitor.name=Конденсатор сигнала
 tile.railcraft.signal.box.capacitor.tips=Отправляет сигналы приемникам\n§o§9Беспроводные связи: нет\n§o§9Прилегающие связи: Прием, Излучение\n§o§9Redstone-связи: Прием повторителя, Излучение
 tile.railcraft.signal.box.controller.name=Контроллер сигнала

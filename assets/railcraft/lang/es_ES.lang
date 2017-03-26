@@ -256,108 +256,108 @@ railcraft.gates.trigger.temp.hot=Caliente
 railcraft.gates.trigger.temp.warm=Templado
 railcraft.gates.trigger.work=Tiene Trabajo
 
-railcraft.gui.anchor.fuel.remaining=%s horas
-railcraft.gui.anchor.fuel=Perlas de Ender
-railcraft.gui.anchor.pair.fail.alignment=%1$s no esta alineado con ese %2$s
-railcraft.gui.anchor.pair.fail.distance=%1$s esta demasiado lejos para unirse %2$s
-railcraft.gui.anchor.pair.fail.dimension=%1$s esta en una dimensión diferente que el objetivo
-railcraft.gui.anchor.pair.fail.invalid=No es un blanco valido para unirse con %s
-railcraft.gui.anchor.pair.fail.unloaded=El objetivo se desconecto al intentar unirse con %s
-railcraft.gui.anchor.pair.cancel=%s unión cancelada
-railcraft.gui.anchor.pair.start=%s unión iniciada
-railcraft.gui.anchor.pair.success=%s ha sido unido con éxito
+gui.railcraft.anchor.fuel.remaining=%s horas
+gui.railcraft.anchor.fuel=Perlas de Ender
+gui.railcraft.anchor.pair.fail.alignment=%1$s no esta alineado con ese %2$s
+gui.railcraft.anchor.pair.fail.distance=%1$s esta demasiado lejos para unirse %2$s
+gui.railcraft.anchor.pair.fail.dimension=%1$s esta en una dimensión diferente que el objetivo
+gui.railcraft.anchor.pair.fail.invalid=No es un blanco valido para unirse con %s
+gui.railcraft.anchor.pair.fail.unloaded=El objetivo se desconecto al intentar unirse con %s
+gui.railcraft.anchor.pair.cancel=%s unión cancelada
+gui.railcraft.anchor.pair.start=%s unión iniciada
+gui.railcraft.anchor.pair.success=%s ha sido unido con éxito
 
-railcraft.gui.aspect.blink.red.name=Parpadeo Rojo
-railcraft.gui.aspect.blink.yellow.name=Parpadeo Amarillo
-railcraft.gui.aspect.green.name=Verde
-railcraft.gui.aspect.off.name=Apagado
-railcraft.gui.aspect.red.name=Rojo
-railcraft.gui.aspect.yellow.name=Amarillo
+gui.railcraft.aspect.blink.red.name=Parpadeo Rojo
+gui.railcraft.aspect.blink.yellow.name=Parpadeo Amarillo
+gui.railcraft.aspect.green.name=Verde
+gui.railcraft.aspect.off.name=Apagado
+gui.railcraft.aspect.red.name=Rojo
+gui.railcraft.aspect.yellow.name=Amarillo
 
-railcraft.gui.aura.disable=%s Aura Apagada
-railcraft.gui.aura.enable=%s Aura Encendida
+gui.railcraft.aura.disable=%s Aura Apagada
+gui.railcraft.aura.enable=%s Aura Encendida
 
-railcraft.gui.blast.furnace=Alto Horno
+gui.railcraft.blast.furnace=Alto Horno
 
-railcraft.gui.bore.ballast=Lastre
-railcraft.gui.bore.fuel=Combustible
-railcraft.gui.bore.head=Cabeza
-railcraft.gui.bore.track=Vía
+gui.railcraft.bore.ballast=Lastre
+gui.railcraft.bore.fuel=Combustible
+gui.railcraft.bore.head=Cabeza
+gui.railcraft.bore.track=Vía
 
-railcraft.gui.box.aspect.action=Emitir Redstone en Aspecto
-railcraft.gui.box.capacitor.duration=Emitir Redstone por %s segundos
-railcraft.gui.box.controller.aspect.default=Aspecto por Defecto:
-railcraft.gui.box.controller.aspect.redstone=Aspecto Redstone:
+gui.railcraft.box.aspect.action=Emitir Redstone en Aspecto
+gui.railcraft.box.capacitor.duration=Emitir Redstone por %s segundos
+gui.railcraft.box.controller.aspect.default=Aspecto por Defecto:
+gui.railcraft.box.controller.aspect.redstone=Aspecto Redstone:
 
-railcraft.gui.cart.tnt.fuse=Detonador
-railcraft.gui.cart.track.relayer.pattern=Patrón
-railcraft.gui.cart.track.relayer.stock=Stock
-railcraft.gui.cart.undercutter.pattern=Patrón
-railcraft.gui.cart.undercutter.sides=Lados
-railcraft.gui.cart.undercutter.transfer.stock.name=Stock
-railcraft.gui.cart.undercutter.under=Debajo
+gui.railcraft.cart.tnt.fuse=Detonador
+gui.railcraft.cart.track.relayer.pattern=Patrón
+gui.railcraft.cart.track.relayer.stock=Stock
+gui.railcraft.cart.undercutter.pattern=Patrón
+gui.railcraft.cart.undercutter.sides=Lados
+gui.railcraft.cart.undercutter.transfer.stock.name=Stock
+gui.railcraft.cart.undercutter.under=Debajo
 
-railcraft.gui.coke.oven=Horno de Fuel
+gui.railcraft.coke.oven=Horno de Fuel
 
-railcraft.gui.detector.item.analog=Analógico
-railcraft.gui.detector.item.anything=Cualquier Cosa
-railcraft.gui.detector.item.at_least=Al menos
-railcraft.gui.detector.item.at_most=Como Máximo
-railcraft.gui.detector.item.empty=Vacío
-railcraft.gui.detector.item.exactly=Exactamente
-railcraft.gui.detector.item.filtered=Filtrado
-railcraft.gui.detector.item.full=Lleno
-railcraft.gui.detector.item.not_empty=No Vacío
-railcraft.gui.detector.loco.primary=Color Primario
-railcraft.gui.detector.loco.secondary=Color secundario
-railcraft.gui.detector.tank.tips.analog=Emite Redstone Analógico\n basado en el cantidad del tanque
-railcraft.gui.detector.tank.tips.empty=Igualar con tanque vacío
-railcraft.gui.detector.tank.tips.full=Igualar con tanque lleno
-railcraft.gui.detector.tank.tips.half=Igualar con mas de medio tanque lleno
-railcraft.gui.detector.tank.tips.less.than.full=Igualar con tanque casi lleno
-railcraft.gui.detector.tank.tips.less.than.half=Igualar con menos de la mitad del tanque lleno
-railcraft.gui.detector.tank.tips.less.than.most=Igualar menos de 3/4 del tanque lleno
-railcraft.gui.detector.tank.tips.less.than.quarter=Igualar con menos de un cuarto del tanque lleno
-railcraft.gui.detector.tank.tips.most=Igualar con mas de 3/4 del tanque lleno
-railcraft.gui.detector.tank.tips.not.empty=Igualar con tanque no vacío
-railcraft.gui.detector.tank.tips.quarter=Igualar con mas de un cuarto del tanque lleno
-railcraft.gui.detector.tank.tips.void=Igualar con cualquier cantidad
-railcraft.gui.detector.train.size=Tamaño del tren = %s
-railcraft.gui.detector.villager.any=Cualquiera
-railcraft.gui.detector.villager.equals=Igual
-railcraft.gui.detector.villager.none=Ninguna
-railcraft.gui.detector.villager.not=No
+gui.railcraft.detector.item.analog=Analógico
+gui.railcraft.detector.item.anything=Cualquier Cosa
+gui.railcraft.detector.item.at_least=Al menos
+gui.railcraft.detector.item.at_most=Como Máximo
+gui.railcraft.detector.item.empty=Vacío
+gui.railcraft.detector.item.exactly=Exactamente
+gui.railcraft.detector.item.filtered=Filtrado
+gui.railcraft.detector.item.full=Lleno
+gui.railcraft.detector.item.not_empty=No Vacío
+gui.railcraft.detector.loco.primary=Color Primario
+gui.railcraft.detector.loco.secondary=Color secundario
+gui.railcraft.detector.tank.tips.analog=Emite Redstone Analógico\n basado en el cantidad del tanque
+gui.railcraft.detector.tank.tips.empty=Igualar con tanque vacío
+gui.railcraft.detector.tank.tips.full=Igualar con tanque lleno
+gui.railcraft.detector.tank.tips.half=Igualar con mas de medio tanque lleno
+gui.railcraft.detector.tank.tips.less.than.full=Igualar con tanque casi lleno
+gui.railcraft.detector.tank.tips.less.than.half=Igualar con menos de la mitad del tanque lleno
+gui.railcraft.detector.tank.tips.less.than.most=Igualar menos de 3/4 del tanque lleno
+gui.railcraft.detector.tank.tips.less.than.quarter=Igualar con menos de un cuarto del tanque lleno
+gui.railcraft.detector.tank.tips.most=Igualar con mas de 3/4 del tanque lleno
+gui.railcraft.detector.tank.tips.not.empty=Igualar con tanque no vacío
+gui.railcraft.detector.tank.tips.quarter=Igualar con mas de un cuarto del tanque lleno
+gui.railcraft.detector.tank.tips.void=Igualar con cualquier cantidad
+gui.railcraft.detector.train.size=Tamaño del tren = %s
+gui.railcraft.detector.villager.any=Cualquiera
+gui.railcraft.detector.villager.equals=Igual
+gui.railcraft.detector.villager.none=Ninguna
+gui.railcraft.detector.villager.not=No
 
-railcraft.gui.energy.loader.empty=Mantener Vacío
-railcraft.gui.energy.loader.fill=Completar
-railcraft.gui.energy.unloader.wait=Esperar a que se vacíe
+gui.railcraft.energy.loader.empty=Mantener Vacío
+gui.railcraft.energy.loader.fill=Completar
+gui.railcraft.energy.unloader.wait=Esperar a que se vacíe
 
-railcraft.gui.engrave.entercode=Ingresa el Código:
-railcraft.gui.engrave.getmore1=Visita los vínculos
-railcraft.gui.engrave.getmore2=para encontrar mas códigos de desbloqueo!
-railcraft.gui.engrave.openunlock=Desbloquear Emblemas
-railcraft.gui.engrave.unlock.exists=Duplicado!
-railcraft.gui.engrave.unlock.fail=Fallo!
-railcraft.gui.engrave.unlock.success=Éxito!
-railcraft.gui.engrave.unlock=Desbloqueado!
-railcraft.gui.engrave=Estampar
+gui.railcraft.engrave.entercode=Ingresa el Código:
+gui.railcraft.engrave.getmore1=Visita los vínculos
+gui.railcraft.engrave.getmore2=para encontrar mas códigos de desbloqueo!
+gui.railcraft.engrave.openunlock=Desbloquear Emblemas
+gui.railcraft.engrave.unlock.exists=Duplicado!
+gui.railcraft.engrave.unlock.fail=Fallo!
+gui.railcraft.engrave.unlock.success=Éxito!
+gui.railcraft.engrave.unlock=Desbloqueado!
+gui.railcraft.engrave=Estampar
 
-railcraft.gui.feed.station.feed=Alimento
+gui.railcraft.feed.station.feed=Alimento
 
-railcraft.gui.filter=Filtro
-railcraft.gui.filters.carts=Vagonetas
-railcraft.gui.filters=Filtros
+gui.railcraft.filter=Filtro
+gui.railcraft.filters.carts=Vagonetas
+gui.railcraft.filters=Filtros
 
-railcraft.gui.goggles.aura.anchor=Ancla
-railcraft.gui.goggles.aura.none=Ninguna
-railcraft.gui.goggles.aura.tracking=Rastreando
-railcraft.gui.goggles.aura.tuning=Sintonizando
-railcraft.gui.goggles.mode=Aura actual: %s
-railcraft.gui.goggles.tips=Usar desde la barra para cambiar Auras
+gui.railcraft.goggles.aura.anchor=Ancla
+gui.railcraft.goggles.aura.none=Ninguna
+gui.railcraft.goggles.aura.tracking=Rastreando
+gui.railcraft.goggles.aura.tuning=Sintonizando
+gui.railcraft.goggles.mode=Aura actual: %s
+gui.railcraft.goggles.tips=Usar desde la barra para cambiar Auras
 
-railcraft.gui.help=Ayuda
+gui.railcraft.help=Ayuda
 
-railcraft.gui.ic2.energy.rate=Tasa: %s EU
+gui.railcraft.ic2.energy.rate=Tasa: %s EU
 
 gui.railcraft.manipulator.transfer.all.tips=Mover todos los objetos que coincidan
 gui.railcraft.manipulator.transfer.all.name=Todo
@@ -377,120 +377,120 @@ gui.railcraft.manipulator.transfer.stock.name=Stock
 gui.railcraft.manipulator.transfer.transfer.tips=Mueve exactamente tantos\n objetos como hay en el filtro
 gui.railcraft.manipulator.transfer.transfer.name=Transferir
 
-railcraft.gui.link.broken=Enlace roto
-railcraft.gui.link.created=Enlace creado
-railcraft.gui.link.failed=Enlace fallado
-railcraft.gui.link.started=Enlace iniciado
+gui.railcraft.link.broken=Enlace roto
+gui.railcraft.link.created=Enlace creado
+gui.railcraft.link.failed=Enlace fallado
+gui.railcraft.link.started=Enlace iniciado
 
-railcraft.gui.liquid.capacity=Capacidad
-
-
+gui.railcraft.liquid.capacity=Capacidad
 
 
 
 
 
 
-railcraft.gui.liquid.unloader.empty.tips=Mantener vagoneta hasta\n estar vacía
-railcraft.gui.liquid.unloader.empty=Vacío
-railcraft.gui.liquid.unloader.redstone.immediate.tips=Emitir Redstone si no\n se ha vaciado liquido
-railcraft.gui.liquid.unloader.redstone.immediate.name=Inmediato
-railcraft.gui.liquid.unloader.redstone.manual.tips=Nunca emitir Redstone
-railcraft.gui.liquid.unloader.redstone.manual.name=Manual
 
-railcraft.gui.locomotive.mode.idle=En reposo
-railcraft.gui.locomotive.mode.running=Funcionando
-railcraft.gui.locomotive.mode.shutdown=Apagado
-railcraft.gui.locomotive.electric.tips.button.mode.running=Hace que la locomotora se mueva
-railcraft.gui.locomotive.electric.tips.button.mode.shutdown=Para la locomotora
-railcraft.gui.locomotive.steam.tips.button.mode.idle=La locomotora reduce el consumo\n de fuel, pero retiene el calor.\n Si el tren esta sobre una vía,\n permanece en reposo
-railcraft.gui.locomotive.steam.tips.button.mode.running=Hace que la locomotora se mueva
-railcraft.gui.locomotive.steam.tips.button.mode.shutdown=Para la locomotora.\n Detiene el movimiento y\n empieza a enfriarse.\n Puede llevar un tiempo.
-railcraft.gui.locomotive.tips.button.locked=Este carro esta bloqueado por\n {owner}.\n Solo acepta tickets\n emitidos por el o un Op.
-railcraft.gui.locomotive.tips.button.private=Este carro es de\n {owner}.\n Sólo puede ser controlado\n por el dueño o un Op.
-railcraft.gui.locomotive.tips.button.unlocked=Click para bloquear la locomotora.\n Una vez bloqueada, solo aceptara\n tickets emitidos por ti o un Op.
-railcraft.gui.locomotive.tips.item.emblem=§oEmblema:§r %s
-railcraft.gui.locomotive.tips.item.model.default=Modelo Predeterminado
-railcraft.gui.locomotive.tips.item.model=§oModelo:§r %s
-railcraft.gui.locomotive.tips.item.owner=§oDueño:§r %s
-railcraft.gui.locomotive.tips.item.primary=§oColor Primario:§r %s
-railcraft.gui.locomotive.tips.item.secondary=§oColor Secundario:§r %s
-railcraft.gui.locomotive.tips.item.whistle=§oTono del Silbido:§r %s
-railcraft.gui.locomotive.tips.slot.ticket=Inserte Ticket
 
-railcraft.gui.mag.glass.aspect=La apariencia de la señal es %s
-railcraft.gui.mag.glass.aspect.dual=La apariencia de la señal es %1$sat arriba y %2$sat abajo
-railcraft.gui.mag.glass.placedby=%1$s ha sido colocado por %2$s
+gui.railcraft.liquid.unloader.empty.tips=Mantener vagoneta hasta\n estar vacía
+gui.railcraft.liquid.unloader.empty=Vacío
+gui.railcraft.liquid.unloader.redstone.immediate.tips=Emitir Redstone si no\n se ha vaciado liquido
+gui.railcraft.liquid.unloader.redstone.immediate.name=Inmediato
+gui.railcraft.liquid.unloader.redstone.manual.tips=Nunca emitir Redstone
+gui.railcraft.liquid.unloader.redstone.manual.name=Manual
 
-railcraft.gui.rolling.machine.tips.craft=§e§o-Click para crear-
+gui.railcraft.locomotive.mode.idle=En reposo
+gui.railcraft.locomotive.mode.running=Funcionando
+gui.railcraft.locomotive.mode.shutdown=Apagado
+gui.railcraft.locomotive.electric.tips.button.mode.running=Hace que la locomotora se mueva
+gui.railcraft.locomotive.electric.tips.button.mode.shutdown=Para la locomotora
+gui.railcraft.locomotive.steam.tips.button.mode.idle=La locomotora reduce el consumo\n de fuel, pero retiene el calor.\n Si el tren esta sobre una vía,\n permanece en reposo
+gui.railcraft.locomotive.steam.tips.button.mode.running=Hace que la locomotora se mueva
+gui.railcraft.locomotive.steam.tips.button.mode.shutdown=Para la locomotora.\n Detiene el movimiento y\n empieza a enfriarse.\n Puede llevar un tiempo.
+gui.railcraft.locomotive.tips.button.locked=Este carro esta bloqueado por\n {owner}.\n Solo acepta tickets\n emitidos por el o un Op.
+gui.railcraft.locomotive.tips.button.private=Este carro es de\n {owner}.\n Sólo puede ser controlado\n por el dueño o un Op.
+gui.railcraft.locomotive.tips.button.unlocked=Click para bloquear la locomotora.\n Una vez bloqueada, solo aceptara\n tickets emitidos por ti o un Op.
+gui.railcraft.locomotive.tips.item.emblem=§oEmblema:§r %s
+gui.railcraft.locomotive.tips.item.model.default=Modelo Predeterminado
+gui.railcraft.locomotive.tips.item.model=§oModelo:§r %s
+gui.railcraft.locomotive.tips.item.owner=§oDueño:§r %s
+gui.railcraft.locomotive.tips.item.primary=§oColor Primario:§r %s
+gui.railcraft.locomotive.tips.item.secondary=§oColor Secundario:§r %s
+gui.railcraft.locomotive.tips.item.whistle=§oTono del Silbido:§r %s
+gui.railcraft.locomotive.tips.slot.ticket=Inserte Ticket
 
-railcraft.gui.routing.logic.blank=Mesa vacía
-railcraft.gui.routing.logic.insufficient.operands=Operandos insuficientes
-railcraft.gui.routing.logic.malformed.syntax=Sintaxis mal formada
-railcraft.gui.routing.logic.unrecognized.keyword=Palabra clave no reconocida
-railcraft.gui.routing.slot.label=Planificador de Ruta
-railcraft.gui.routing.table.editor=Última edición por %s
-railcraft.gui.routing.table.manual.page1=El planificador de ruta cuando se coloca en un interruptor o detector de ruta define un conjunto de reglas que se utilizan para que coincida con cualquier locomotora que pase. Estas reglas se definen utilizando una sintaxis simple que te permite crear reglas tan simples o complejas como quieras. La sintaxis es un script de notación de prefijo, los operandos siguen a los operadores. Por línea sólo se permite una palabra clave. Si no se especifica ningún operador, sera OR. Los planificadores de ruta se pueden copiar colocando dos o más en una cuadrícula de elaboración.
-railcraft.gui.routing.table.manual.page2=Operadores:\n AND - Dos operandos, ambos deben ser ciertos.\n OR - Dos operandos, uno debe ser cierto.\n NOT - Invierte el siguiente operando.
-railcraft.gui.routing.table.manual.page3=Condiciones:\n   Dest=<texto>\n     Si el destino de la locomotora\n      comienza con este texto,\n      la condición es cierta.\n      "Dest=null" coincidirá con vagonetas\n      sin destino.\n   Owner=<username>\n      Cierto si la locomotora pertenece\n      a esa persona.\n   Name=<entityname>\n      Cierto si coincide con\n      el nombre de la vagoneta.
-railcraft.gui.routing.table.manual.page4=Condiciones 2:\n   Color=<primario>,<secundario>\n      cierto si el color primario y secundario\n      de la locomotora coinciden.\n      Acepta "Any" como comodín.\n      Colores: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White\n   NeedsRefuel=<true/false>\n      Si la locomotora tiene poco combustible\n      o agua este sera desviado.
-railcraft.gui.routing.table.manual.page5=Condiciones 3:\n   Redstone=<true/false>\n      cierto si el Planificador\n de Ruta esta alimentado por Redstone.
-railcraft.gui.routing.table.manual.page6=Script de Ejemplo:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-railcraft.gui.routing.table.manual.page7=Resultado:\n   El script de la pagina anterior coincidirá\n   con una locomotora con el destino\n   "TheFarLands/Milliways",\n   o si esta pintada de negro y rojo,\n   pero que no su destino no sea\n   "SecretHideout/OceanEntrance",\n   o que no sea de RichardG.
-railcraft.gui.routing.table.manual.title=Manual de Ruta
-railcraft.gui.routing.table.name=Nombre
-railcraft.gui.routing.ticket.line1=Este ticket es válido
-railcraft.gui.routing.ticket.line2=para el siguiente destino:
-railcraft.gui.routing.ticket.manual.title=Sobre los Tickets Dorados
-railcraft.gui.routing.ticket.redstone.manual.name=El Ticket Dorado es un ticket de uso ilimitado que puede ser utilizado para subirse a cualquier tren publico o tren del dueño del ticket. Puede ser combinado con papel para producir un tickets de un solo uso.
-railcraft.gui.routing.ticket.tips.blank=Ticket en Blanco
-railcraft.gui.routing.ticket.tips.dest=Destino:
-railcraft.gui.routing.ticket.tips.issuer=Emisor:
-railcraft.gui.routing.ticket.title=Ticket Dorado
-railcraft.gui.routing.tips.slot=Insertar Planificador de Ruta
-railcraft.gui.routing.track.slot.label=Ticket
-railcraft.gui.routing.track.tips.slot=Insertar Ticket Dorado
-railcraft.gui.routing.type.private.tips=Solamente planificara\n locomotoras\n que pertenezcan a\n {owner}.
-railcraft.gui.routing.type.private=Linea Privada
-railcraft.gui.routing.type.public.tips=Planificara cualquier locomotora.
-railcraft.gui.routing.type.public=Linea Publica
+gui.railcraft.mag.glass.aspect=La apariencia de la señal es %s
+gui.railcraft.mag.glass.aspect.dual=La apariencia de la señal es %1$sat arriba y %2$sat abajo
+gui.railcraft.mag.glass.placedby=%1$s ha sido colocado por %2$s
 
-railcraft.gui.steam.boiler=Caldera de Vapor
-railcraft.gui.steam.oven=Horno a Vapor
+gui.railcraft.rolling.machine.tips.craft=§e§o-Click para crear-
 
-railcraft.gui.surveyor.abandon=Inspección de Bloque de Señal abandonado
-railcraft.gui.surveyor.begin=Comenzando inspección de Bloque de Señal
-railcraft.gui.surveyor.invalid=Bloque de Señal no válido
-railcraft.gui.surveyor.lost=No existe la Primera Señal, abandonando inspección
-railcraft.gui.surveyor.success=Bloque de Señal definido con éxito
-railcraft.gui.surveyor.track=Ninguna vía encontrada cerca de %s
-railcraft.gui.surveyor.unloaded=La Primera Señal no esta en un Chunk cargado
-railcraft.gui.surveyor.wrong=No es un Bloque de Señal válido
+gui.railcraft.routing.logic.blank=Mesa vacía
+gui.railcraft.routing.logic.insufficient.operands=Operandos insuficientes
+gui.railcraft.routing.logic.malformed.syntax=Sintaxis mal formada
+gui.railcraft.routing.logic.unrecognized.keyword=Palabra clave no reconocida
+gui.railcraft.routing.slot.label=Planificador de Ruta
+gui.railcraft.routing.table.editor=Última edición por %s
+gui.railcraft.routing.table.manual.page1=El planificador de ruta cuando se coloca en un interruptor o detector de ruta define un conjunto de reglas que se utilizan para que coincida con cualquier locomotora que pase. Estas reglas se definen utilizando una sintaxis simple que te permite crear reglas tan simples o complejas como quieras. La sintaxis es un script de notación de prefijo, los operandos siguen a los operadores. Por línea sólo se permite una palabra clave. Si no se especifica ningún operador, sera OR. Los planificadores de ruta se pueden copiar colocando dos o más en una cuadrícula de elaboración.
+gui.railcraft.routing.table.manual.page2=Operadores:\n AND - Dos operandos, ambos deben ser ciertos.\n OR - Dos operandos, uno debe ser cierto.\n NOT - Invierte el siguiente operando.
+gui.railcraft.routing.table.manual.page3=Condiciones:\n   Dest=<texto>\n     Si el destino de la locomotora\n      comienza con este texto,\n      la condición es cierta.\n      "Dest=null" coincidirá con vagonetas\n      sin destino.\n   Owner=<username>\n      Cierto si la locomotora pertenece\n      a esa persona.\n   Name=<entityname>\n      Cierto si coincide con\n      el nombre de la vagoneta.
+gui.railcraft.routing.table.manual.page4=Condiciones 2:\n   Color=<primario>,<secundario>\n      cierto si el color primario y secundario\n      de la locomotora coinciden.\n      Acepta "Any" como comodín.\n      Colores: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White\n   NeedsRefuel=<true/false>\n      Si la locomotora tiene poco combustible\n      o agua este sera desviado.
+gui.railcraft.routing.table.manual.page5=Condiciones 3:\n   Redstone=<true/false>\n      cierto si el Planificador\n de Ruta esta alimentado por Redstone.
+gui.railcraft.routing.table.manual.page6=Script de Ejemplo:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+gui.railcraft.routing.table.manual.page7=Resultado:\n   El script de la pagina anterior coincidirá\n   con una locomotora con el destino\n   "TheFarLands/Milliways",\n   o si esta pintada de negro y rojo,\n   pero que no su destino no sea\n   "SecretHideout/OceanEntrance",\n   o que no sea de RichardG.
+gui.railcraft.routing.table.manual.title=Manual de Ruta
+gui.railcraft.routing.table.name=Nombre
+gui.railcraft.routing.ticket.line1=Este ticket es válido
+gui.railcraft.routing.ticket.line2=para el siguiente destino:
+gui.railcraft.routing.ticket.manual.title=Sobre los Tickets Dorados
+gui.railcraft.routing.ticket.redstone.manual.name=El Ticket Dorado es un ticket de uso ilimitado que puede ser utilizado para subirse a cualquier tren publico o tren del dueño del ticket. Puede ser combinado con papel para producir un tickets de un solo uso.
+gui.railcraft.routing.ticket.tips.blank=Ticket en Blanco
+gui.railcraft.routing.ticket.tips.dest=Destino:
+gui.railcraft.routing.ticket.tips.issuer=Emisor:
+gui.railcraft.routing.ticket.title=Ticket Dorado
+gui.railcraft.routing.tips.slot=Insertar Planificador de Ruta
+gui.railcraft.routing.track.slot.label=Ticket
+gui.railcraft.routing.track.tips.slot=Insertar Ticket Dorado
+gui.railcraft.routing.type.private.tips=Solamente planificara\n locomotoras\n que pertenezcan a\n {owner}.
+gui.railcraft.routing.type.private=Linea Privada
+gui.railcraft.routing.type.public.tips=Planificara cualquier locomotora.
+gui.railcraft.routing.type.public=Linea Publica
 
-railcraft.gui.switch.motor.action=Encender Aspecto
+gui.railcraft.steam.boiler=Caldera de Vapor
+gui.railcraft.steam.oven=Horno a Vapor
 
-railcraft.gui.tank.iron=Tanque de Hierro
-railcraft.gui.tank.steel=Tanque de Acero
-railcraft.gui.tank.water=Tanque de Agua
+gui.railcraft.surveyor.abandon=Inspección de Bloque de Señal abandonado
+gui.railcraft.surveyor.begin=Comenzando inspección de Bloque de Señal
+gui.railcraft.surveyor.invalid=Bloque de Señal no válido
+gui.railcraft.surveyor.lost=No existe la Primera Señal, abandonando inspección
+gui.railcraft.surveyor.success=Bloque de Señal definido con éxito
+gui.railcraft.surveyor.track=Ninguna vía encontrada cerca de %s
+gui.railcraft.surveyor.unloaded=La Primera Señal no esta en un Chunk cargado
+gui.railcraft.surveyor.wrong=No es un Bloque de Señal válido
 
-railcraft.gui.ticks=ticks
+gui.railcraft.switch.motor.action=Encender Aspecto
 
-railcraft.gui.tips.button.lock.locked=Este dispositivo esta restringido a\n {owner}.\n Solo el dueño o un Op\n puede manipularlo.
-railcraft.gui.tips.button.lock.notowner=No eres el dueño\n de este dispositivo.\n Pertenece a\n {owner}.
-railcraft.gui.tips.button.lock.unlocked=Clic para bloquear dispositivo.\n Una vez bloqueado,\n sólo puede ser usado por\n ti o un Op.
+gui.railcraft.tank.iron=Tanque de Hierro
+gui.railcraft.tank.steel=Tanque de Acero
+gui.railcraft.tank.water=Tanque de Agua
 
-railcraft.gui.track.embarking.radius=Radio
-railcraft.gui.track.mode.change=Cambiar al modo %s
-railcraft.gui.track.locking.mode.boarding.train=Tren Embarcando
-railcraft.gui.track.locking.mode.boarding=Embarcando
-railcraft.gui.track.locking.mode.holding.train=Tren en Espera
-railcraft.gui.track.locking.mode.holding=En espera
-railcraft.gui.track.locking.mode.lockdown.train=Tren Bloqueado
-railcraft.gui.track.locking.mode.lockdown=Bloqueado
-railcraft.gui.track.priming.fuse=Detonador = %s ticks
-railcraft.gui.track.launcher.force=Fuerza = %s
+gui.railcraft.ticks=ticks
 
-railcraft.gui.trade.station.dice.tips=Comercio al Azar
+gui.railcraft.tips.button.lock.locked=Este dispositivo esta restringido a\n {owner}.\n Solo el dueño o un Op\n puede manipularlo.
+gui.railcraft.tips.button.lock.notowner=No eres el dueño\n de este dispositivo.\n Pertenece a\n {owner}.
+gui.railcraft.tips.button.lock.unlocked=Clic para bloquear dispositivo.\n Una vez bloqueado,\n sólo puede ser usado por\n ti o un Op.
+
+gui.railcraft.track.embarking.radius=Radio
+gui.railcraft.track.mode.change=Cambiar al modo %s
+gui.railcraft.track.locking.mode.boarding.train=Tren Embarcando
+gui.railcraft.track.locking.mode.boarding=Embarcando
+gui.railcraft.track.locking.mode.holding.train=Tren en Espera
+gui.railcraft.track.locking.mode.holding=En espera
+gui.railcraft.track.locking.mode.lockdown.train=Tren Bloqueado
+gui.railcraft.track.locking.mode.lockdown=Bloqueado
+gui.railcraft.track.priming.fuse=Detonador = %s ticks
+gui.railcraft.track.launcher.force=Fuerza = %s
+
+gui.railcraft.trade.station.dice.tips=Comercio al Azar
 
 gui.railcraft.tuner.abandon.chunk=El controlador no está en un Chunk cargado, abandonando el acoplamiento
 gui.railcraft.tuner.abandon.gone=Controlador ya no existe, abandonando el acoplamiento
@@ -498,9 +498,9 @@ gui.railcraft.tuner.start=Empezó a acoplar %s con un Receptor
 gui.railcraft.tuner.stop=Dejó de acoplar %s con un Receptor
 gui.railcraft.tuner.success=%1$s acoplado con éxito con %2$s
 
-railcraft.gui.turbine.output=Salida: %s%%
-railcraft.gui.turbine.rotor=Rotor:
-railcraft.gui.turbine=Turbina a Vapor
+gui.railcraft.turbine.output=Salida: %s%%
+gui.railcraft.turbine.rotor=Rotor:
+gui.railcraft.turbine=Turbina a Vapor
 
 railcraft.keybind.aura.anchor=Aura de Anclaje
 railcraft.keybind.aura.tuning=Sintonizador de Aura
@@ -780,7 +780,7 @@ tile.railcraft.residual.heat.name=Calor Residual
 tile.railcraft.wayobject.block.signal.dual.name=Bloque de Señal Doble-Cabeza
 tile.railcraft.wayobject.block.signal.name=Bloque de Señal
 tile.railcraft.signal.box.analog.name=Caja controladora de Señal Analógica
-tile.railcraft.signal.box.block.relay.name=Caja de Relés de Bloques de Señales
+tile.railcraft.signal.box.relay.name=Caja de Relés de Bloques de Señales
 tile.railcraft.signal.box.capacitor.name=Caja de Condensador de Señal
 tile.railcraft.signal.box.controller.name=Caja Controladora de Señales
 tile.railcraft.signal.box.interlock.name=Caja de bloqueo de Señales

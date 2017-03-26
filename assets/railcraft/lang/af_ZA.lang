@@ -356,122 +356,122 @@ railcraft.gates.trigger.temp.hot=Hot
 railcraft.gates.trigger.temp.warm=Warm
 railcraft.gates.trigger.work=Jy Werk
 
-railcraft.gui.anchor.fuel.remaining =% s ure
-railcraft.gui.anchor.fuel=End Pearls
-railcraft.gui.anchor.pair.fail.alignment=@1$s~~V~~aux as word nie in lyn met daardie @ 2 $ s
-railcraft.gui.anchor.pair.fail.distance=@1$s is te ver om paar met Dat @ 2 $ s
-railcraft.gui.anchor.pair.fail.dimension =% s is in 'n ander dimensie as die teiken
-railcraft.gui.anchor.pair.fail.invalid=Dit is nie 'n geldige teiken vir paring met die% s
-railcraft.gui.anchor.pair.fail.unloaded=Doel is nie gelaai tydens 'n poging om paar met% s
-railcraft.gui.anchor.pair.cancel =% s paring is gekanselleer
-railcraft.gui.anchor.pair.start =% s paring geïnisieer
-railcraft.gui.anchor.pair.success =% s is suksesvol gepaar
+gui.railcraft.anchor.fuel.remaining =% s ure
+gui.railcraft.anchor.fuel=End Pearls
+gui.railcraft.anchor.pair.fail.alignment=@1$s~~V~~aux as word nie in lyn met daardie @ 2 $ s
+gui.railcraft.anchor.pair.fail.distance=@1$s is te ver om paar met Dat @ 2 $ s
+gui.railcraft.anchor.pair.fail.dimension =% s is in 'n ander dimensie as die teiken
+gui.railcraft.anchor.pair.fail.invalid=Dit is nie 'n geldige teiken vir paring met die% s
+gui.railcraft.anchor.pair.fail.unloaded=Doel is nie gelaai tydens 'n poging om paar met% s
+gui.railcraft.anchor.pair.cancel =% s paring is gekanselleer
+gui.railcraft.anchor.pair.start =% s paring geïnisieer
+gui.railcraft.anchor.pair.success =% s is suksesvol gepaar
 
-railcraft.gui.aspect.blink.red.name=Blink Netwerk
-railcraft.gui.aspect.blink.yellow.name=Blink Geel
-railcraft.gui.aspect.green.name=Green
-railcraft.gui.aspect.off.name=Off
-railcraft.gui.aspect.red.name=Rooi
-railcraft.gui.aspect.yellow.name=Geel
+gui.railcraft.aspect.blink.red.name=Blink Netwerk
+gui.railcraft.aspect.blink.yellow.name=Blink Geel
+gui.railcraft.aspect.green.name=Green
+gui.railcraft.aspect.off.name=Off
+gui.railcraft.aspect.red.name=Rooi
+gui.railcraft.aspect.yellow.name=Geel
 
-railcraft.gui.aura.disable =% s Aura Off
-railcraft.gui.aura.enable =% s Aura Op
+gui.railcraft.aura.disable =% s Aura Off
+gui.railcraft.aura.enable =% s Aura Op
 
-railcraft.gui.blast.furnace=Blast Furnace
+gui.railcraft.blast.furnace=Blast Furnace
 
-railcraft.gui.bore.ballast=Ballast
-railcraft.gui.bore.fuel=brandstof
-railcraft.gui.bore.head=Hoof
-railcraft.gui.bore.track=Track
+gui.railcraft.bore.ballast=Ballast
+gui.railcraft.bore.fuel=brandstof
+gui.railcraft.bore.head=Hoof
+gui.railcraft.bore.track=Track
 
-railcraft.gui.box.aspect.action=uitstraal Redstone op Aspek
-railcraft.gui.box.capacitor.duration=uitstraal Redstone vir% s sekondes
-railcraft.gui.box.capacitor.redstone.immediate.name=Rising Edge
-railcraft.gui.box.capacitor.redstone.immediate.tips=Begin timer sodra die insetsein ontvang.
-railcraft.gui.box.capacitor.delayed=Val Edge
-railcraft.gui.box.capacitor.delayed.tips=Begin timer wanneer die laaste insetsein afgeskakel.
-railcraft.gui.box.controller.aspect.default=Standaard aspek:
-railcraft.gui.box.controller.aspect.redstone=Redstone aspek:
+gui.railcraft.box.aspect.action=uitstraal Redstone op Aspek
+gui.railcraft.box.capacitor.duration=uitstraal Redstone vir% s sekondes
+gui.railcraft.box.capacitor.rising.name=Rising Edge
+gui.railcraft.box.capacitor.rising.tips=Begin timer sodra die insetsein ontvang.
+gui.railcraft.box.capacitor.falling.name=Val Edge
+gui.railcraft.box.capacitor.falling.tips=Begin timer wanneer die laaste insetsein afgeskakel.
+gui.railcraft.box.controller.aspect.default=Standaard aspek:
+gui.railcraft.box.controller.aspect.redstone=Redstone aspek:
 
-railcraft.gui.cart.tnt.fuse=Fuse
-railcraft.gui.cart.track.relayer.pattern=Patroon
-railcraft.gui.cart.track.relayer.stock=Stock
-railcraft.gui.cart.undercutter.pattern=Patrone
-railcraft.gui.cart.undercutter.sides=kante
-railcraft.gui.cart.undercutter.transfer.stock.name=Stock
-Onder railcraft.gui.cart.undercutter.under =
+gui.railcraft.cart.tnt.fuse=Fuse
+gui.railcraft.cart.track.relayer.pattern=Patroon
+gui.railcraft.cart.track.relayer.stock=Stock
+gui.railcraft.cart.undercutter.pattern=Patrone
+gui.railcraft.cart.undercutter.sides=kante
+gui.railcraft.cart.undercutter.transfer.stock.name=Stock
+Onder gui.railcraft.cart.undercutter.under =
 
-railcraft.gui.charge.meter.cart=Cart -> Koste:% s c | Teken:% s h / t | Verlies:% s h / t
-railcraft.gui.charge.meter.network=Netto -> Grootte:% s | Beheer:% s c | Teken:% s h / t | Verlies:% s h / t
-railcraft.gui.charge.meter.producer=Verskaf -> Koste:% s c | Produksie:% s h / t
-railcraft.gui.charge.meter.node=Node -> Teken:% s h / t | Verlies:% s h / t
-railcraft.gui.charge.meter.start=Opname data oor% s sekondes ...
+gui.railcraft.charge.meter.cart=Cart -> Koste:% s c | Teken:% s h / t | Verlies:% s h / t
+gui.railcraft.charge.meter.network=Netto -> Grootte:% s | Beheer:% s c | Teken:% s h / t | Verlies:% s h / t
+gui.railcraft.charge.meter.producer=Verskaf -> Koste:% s c | Produksie:% s h / t
+gui.railcraft.charge.meter.node=Node -> Teken:% s h / t | Verlies:% s h / t
+gui.railcraft.charge.meter.start=Opname data oor% s sekondes ...
 
-railcraft.gui.coke.oven=Coke Oven
+gui.railcraft.coke.oven=Coke Oven
 
-railcraft.gui.detector.item.analog=Analoog
-railcraft.gui.detector.item.anything=Enigiets
-railcraft.gui.detector.item.at_least=Ten minste
-railcraft.gui.detector.item.at_most=hoogstens
-railcraft.gui.detector.item.empty=Leë
-Presies railcraft.gui.detector.item.exactly =
-railcraft.gui.detector.item.filtered=Gefilter
-railcraft.gui.detector.item.full=Volle
-= Groter As railcraft.gui.detector.item.greater_than
-railcraft.gui.detector.item.less_than=minder as
-railcraft.gui.detector.item.not_empty=nie met leë hande
-railcraft.gui.detector.loco.primary=primêre kleur
-railcraft.gui.detector.loco.secondary=sekondêre kleur
-railcraft.gui.detector.tank.tips.analog=uitstraal Analoog Redstone \ N gebaseer op bedrag in tenk
-railcraft.gui.detector.tank.tips.empty=Match leë tenks
-railcraft.gui.detector.tank.tips.full=Pas vol tenks
-railcraft.gui.detector.tank.tips.half=Match meer as die helfte vol tenks
-railcraft.gui.detector.tank.tips.less.than.full=Pas minder as volle tenks
-railcraft.gui.detector.tank.tips.less.than.half=Match minder as die helfte vol tenks
-railcraft.gui.detector.tank.tips.less.than.most=Match minder as 3/4 volle tenks
-railcraft.gui.detector.tank.tips.less.than.quarter=Match minder as kwart vol tenks
-railcraft.gui.detector.tank.tips.most=Match meer as 3/4 volle tenks
-railcraft.gui.detector.tank.tips.not.empty=Pasmaat nie-leë tenks
-railcraft.gui.detector.tank.tips.quarter=Match meer as n kwart vol tenks
-railcraft.gui.detector.tank.tips.void=Pas enige bedrag
-Trein railcraft.gui.detector.train.size=size =% s
-railcraft.gui.detector.villager.any=Enige
-railcraft.gui.detector.villager.equals=gelyk aan
-railcraft.gui.detector.villager.none=Geen
-railcraft.gui.detector.villager.not=Nie
+gui.railcraft.detector.item.analog=Analoog
+gui.railcraft.detector.item.anything=Enigiets
+gui.railcraft.detector.item.at_least=Ten minste
+gui.railcraft.detector.item.at_most=hoogstens
+gui.railcraft.detector.item.empty=Leë
+Presies gui.railcraft.detector.item.exactly =
+gui.railcraft.detector.item.filtered=Gefilter
+gui.railcraft.detector.item.full=Volle
+= Groter As gui.railcraft.detector.item.greater_than
+gui.railcraft.detector.item.less_than=minder as
+gui.railcraft.detector.item.not_empty=nie met leë hande
+gui.railcraft.detector.loco.primary=primêre kleur
+gui.railcraft.detector.loco.secondary=sekondêre kleur
+gui.railcraft.detector.tank.tips.analog=uitstraal Analoog Redstone \ N gebaseer op bedrag in tenk
+gui.railcraft.detector.tank.tips.empty=Match leë tenks
+gui.railcraft.detector.tank.tips.full=Pas vol tenks
+gui.railcraft.detector.tank.tips.half=Match meer as die helfte vol tenks
+gui.railcraft.detector.tank.tips.less.than.full=Pas minder as volle tenks
+gui.railcraft.detector.tank.tips.less.than.half=Match minder as die helfte vol tenks
+gui.railcraft.detector.tank.tips.less.than.most=Match minder as 3/4 volle tenks
+gui.railcraft.detector.tank.tips.less.than.quarter=Match minder as kwart vol tenks
+gui.railcraft.detector.tank.tips.most=Match meer as 3/4 volle tenks
+gui.railcraft.detector.tank.tips.not.empty=Pasmaat nie-leë tenks
+gui.railcraft.detector.tank.tips.quarter=Match meer as n kwart vol tenks
+gui.railcraft.detector.tank.tips.void=Pas enige bedrag
+Trein gui.railcraft.detector.train.size=size =% s
+gui.railcraft.detector.villager.any=Enige
+gui.railcraft.detector.villager.equals=gelyk aan
+gui.railcraft.detector.villager.none=Geen
+gui.railcraft.detector.villager.not=Nie
 
-Leë=Hou railcraft.gui.energy.loader.empty
-railcraft.gui.energy.loader.fill=Top Off
-Wag tot railcraft.gui.energy.unloader.wait=Leë
+Leë=Hou gui.railcraft.energy.loader.empty
+gui.railcraft.energy.loader.fill=Top Off
+Wag tot gui.railcraft.energy.unloader.wait=Leë
 
-railcraft.gui.engrave.entercode=Tik unlock code:
-railcraft.gui.engrave.getmore1=Besoek die onderstaande skakels
-railcraft.gui.engrave.getmore2=meer ontsluit kodes vind!
-railcraft.gui.engrave.openunlock=Ontsluit embleme
-railcraft.gui.engrave.unlock.exists=Dubbele!
-railcraft.gui.engrave.unlock.fail=Versuim!
-railcraft.gui.engrave.unlock.success=sukses!
-railcraft.gui.engrave.unlock=ontsluit!
-railcraft.gui.engrave=Engrave
+gui.railcraft.engrave.entercode=Tik unlock code:
+gui.railcraft.engrave.getmore1=Besoek die onderstaande skakels
+gui.railcraft.engrave.getmore2=meer ontsluit kodes vind!
+gui.railcraft.engrave.openunlock=Ontsluit embleme
+gui.railcraft.engrave.unlock.exists=Dubbele!
+gui.railcraft.engrave.unlock.fail=Versuim!
+gui.railcraft.engrave.unlock.success=sukses!
+gui.railcraft.engrave.unlock=ontsluit!
+gui.railcraft.engrave=Engrave
 
-railcraft.gui.feed.station.feed=Voer
+gui.railcraft.feed.station.feed=Voer
 
-railcraft.gui.filter=Filter
-railcraft.gui.filters.carts=Carts
-railcraft.gui.filters=Comments
+gui.railcraft.filter=Filter
+gui.railcraft.filters.carts=Carts
+gui.railcraft.filters=Comments
 
-railcraft.gui.goggles.aura.anchor=Anker
-railcraft.gui.goggles.aura.none=Geen
-railcraft.gui.goggles.aura.signalling=Sein
-railcraft.gui.goggles.aura.surveying=Opmeting
-railcraft.gui.goggles.aura.tracking=dop
-railcraft.gui.goggles.aura.tuning=Tuning
-railcraft.gui.goggles.mode=Huidige Aura:% s
-railcraft.gui.goggles.tips=Gebruik Hotbar om te verander van auras
+gui.railcraft.goggles.aura.anchor=Anker
+gui.railcraft.goggles.aura.none=Geen
+gui.railcraft.goggles.aura.signalling=Sein
+gui.railcraft.goggles.aura.surveying=Opmeting
+gui.railcraft.goggles.aura.tracking=dop
+gui.railcraft.goggles.aura.tuning=Tuning
+gui.railcraft.goggles.mode=Huidige Aura:% s
+gui.railcraft.goggles.tips=Gebruik Hotbar om te verander van auras
 
-railcraft.gui.help=Hulp
+gui.railcraft.help=Hulp
 
-railcraft.gui.ic2.energy.rate=Tempo:% s EU
+gui.railcraft.ic2.energy.rate=Tempo:% s EU
 
 gui.railcraft.manipulator.buffer=Buffer
 gui.railcraft.manipulator.redstone.complete.name=Volledige
@@ -491,118 +491,118 @@ gui.railcraft.manipulator.transfer.stock.tips=beweeg totdat die bestemming \ N o
 gui.railcraft.manipulator.transfer.transfer.name=Oordrag
 gui.railcraft.manipulator.transfer.transfer.tips=Move presies soveel \ N as in die filter
 
-railcraft.gui.link.broken=Link Broken
-railcraft.gui.link.created=Link geskep
-railcraft.gui.link.failed=Link Kon
-railcraft.gui.link.started=Link slag
+gui.railcraft.link.broken=Link Broken
+gui.railcraft.link.created=Link geskep
+gui.railcraft.link.failed=Link Kon
+gui.railcraft.link.started=Link slag
 
-railcraft.gui.liquid.capacity=Kapasiteit
+gui.railcraft.liquid.capacity=Kapasiteit
 
-railcraft.gui.locomotive.mode.idle=Idle
-railcraft.gui.locomotive.mode.running=Running
-railcraft.gui.locomotive.mode.shutdown=Afsluiting
-railcraft.gui.locomotive.electric.tips.button.mode.running=Maak die lokomotief beweeg.
-railcraft.gui.locomotive.electric.tips.button.mode.shutdown=Stop die lokomotief.
-railcraft.gui.locomotive.steam.tips.button.mode.idle=Lokomotief jy verminder brandstof \ N gebruik, maar die hou hitte. \ N As die trein gehou word deur 'n spoor, \ N dit optree asof Idle.
-railcraft.gui.locomotive.steam.tips.button.mode.running=Maak die lokomotief beweeg.
-railcraft.gui.locomotive.steam.tips.button.mode.shutdown=afgeskakel die lokomotief. \ N breek alle beweging en \ N Begin die afkoel en strek proses. \ N Dit kan enige tyd neem.
-railcraft.gui.locomotive.tips.button.locked=Hierdie wa is gesluit na \ N {eienaar}. \ N Dit sal slegs aanvaar Kaartjies \ N uitgereik deur hulle of 'n Op.
-railcraft.gui.locomotive.tips.button.private=Hierdie wa is privaat \ n {eienaar}. \ N Dit kan net beheer word \ N deur hulle of 'n Op.
-railcraft.gui.locomotive.tips.button.unlocked=Klik op te sluit Lokomotief. \ N Sodra gesluit, sal dit \ N aanvaar slegs Kaartjies \ N uitgereik deur u of 'n Op.
-railcraft.gui.locomotive.tips.item.emblem=§oEmblem: §r% s
-railcraft.gui.locomotive.tips.item.model.default=Standaard Model
-railcraft.gui.locomotive.tips.item.model=§oModel: §r% s
-railcraft.gui.locomotive.tips.item.owner=§oOwner: §r% s
-railcraft.gui.locomotive.tips.item.primary=§oPrimary Kleur: §r% s
-railcraft.gui.locomotive.tips.item.secondary=§oSecondary Kleur: §r% s
-railcraft.gui.locomotive.tips.item.whistle=§oWhistle Pitch: §r% s
-railcraft.gui.locomotive.tips.slot.ticket=Voeg kaartjie
+gui.railcraft.locomotive.mode.idle=Idle
+gui.railcraft.locomotive.mode.running=Running
+gui.railcraft.locomotive.mode.shutdown=Afsluiting
+gui.railcraft.locomotive.electric.tips.button.mode.running=Maak die lokomotief beweeg.
+gui.railcraft.locomotive.electric.tips.button.mode.shutdown=Stop die lokomotief.
+gui.railcraft.locomotive.steam.tips.button.mode.idle=Lokomotief jy verminder brandstof \ N gebruik, maar die hou hitte. \ N As die trein gehou word deur 'n spoor, \ N dit optree asof Idle.
+gui.railcraft.locomotive.steam.tips.button.mode.running=Maak die lokomotief beweeg.
+gui.railcraft.locomotive.steam.tips.button.mode.shutdown=afgeskakel die lokomotief. \ N breek alle beweging en \ N Begin die afkoel en strek proses. \ N Dit kan enige tyd neem.
+gui.railcraft.locomotive.tips.button.locked=Hierdie wa is gesluit na \ N {eienaar}. \ N Dit sal slegs aanvaar Kaartjies \ N uitgereik deur hulle of 'n Op.
+gui.railcraft.locomotive.tips.button.private=Hierdie wa is privaat \ n {eienaar}. \ N Dit kan net beheer word \ N deur hulle of 'n Op.
+gui.railcraft.locomotive.tips.button.unlocked=Klik op te sluit Lokomotief. \ N Sodra gesluit, sal dit \ N aanvaar slegs Kaartjies \ N uitgereik deur u of 'n Op.
+gui.railcraft.locomotive.tips.item.emblem=§oEmblem: §r% s
+gui.railcraft.locomotive.tips.item.model.default=Standaard Model
+gui.railcraft.locomotive.tips.item.model=§oModel: §r% s
+gui.railcraft.locomotive.tips.item.owner=§oOwner: §r% s
+gui.railcraft.locomotive.tips.item.primary=§oPrimary Kleur: §r% s
+gui.railcraft.locomotive.tips.item.secondary=§oSecondary Kleur: §r% s
+gui.railcraft.locomotive.tips.item.whistle=§oWhistle Pitch: §r% s
+gui.railcraft.locomotive.tips.slot.ticket=Voeg kaartjie
 
-railcraft.gui.mag.glass.aspect=Die sein aspek is% s
-railcraft.gui.mag.glass.aspect.dual=Die sein aspek is% 1 $ s by die top en% 2 $ s aan die onderkant
-railcraft.gui.mag.glass.placedby =% 1 $ s is geplaas deur% 2 $ s
+gui.railcraft.mag.glass.aspect=Die sein aspek is% s
+gui.railcraft.mag.glass.aspect.dual=Die sein aspek is% 1 $ s by die top en% 2 $ s aan die onderkant
+gui.railcraft.mag.glass.placedby =% 1 $ s is geplaas deur% 2 $ s
 
-railcraft.gui.rolling.machine.tips.craft=§e§o-klik om craft-
+gui.railcraft.rolling.machine.tips.craft=§e§o-klik om craft-
 
-railcraft.gui.routing.logic.blank=Blank Table
-railcraft.gui.routing.logic.insufficient.operands=Onvoldoende operande
-railcraft.gui.routing.logic.malformed.syntax=syntaxis fout
-railcraft.gui.routing.logic.regex.invalid=Ongeldige Regex Patroon
-railcraft.gui.routing.logic.regex.unsupported=Regex ondersteunde
-railcraft.gui.routing.logic.unrecognized.keyword=Onbekende Sleutelwoord
-railcraft.gui.routing.slot.label=Routing Tabel
-railcraft.gui.routing.table.editor=Geredigeer deur% s
-railcraft.gui.routing.table.manual.numPages=11
-railcraft.gui.routing.table.manual.page1=Die Routing Tabel wanneer geplaas in 'n detektor of Routing Skakel sal 'n stel reëls te definieer gebruik word om aan te pas sodat niemand meer heen Teen Lokomotief. Hierdie reëls word gedefinieer met behulp van eenvoudige logika sintaksis toelaat om te skep dat die reëls as 'n eenvoudige of komplekse as wat jy wil. Die sintaksis is 'n voorvoegsel notasie script, die operateurs is gevolg deur die operande. Slegs een navraag is toelaatbaar per lyn. As Operateur nie gespesifiseer word nie, OF aanvaar. Routing Tabelle kan gekopieer word deur twee of meer Plasing in 'n knutselen rooster.
-railcraft.gui.routing.table.manual.page2=Operateur Sleutelwoorde :. \ N EN - Twee operande, moet albei waar wees \ N OF - Twee operande, moet 'n mens ware \ N nie - Keer die volgende Operand ..
-railcraft.gui.routing.table.manual.page3=Toestand Sleutelwoorde :. \ N Dest=<string> \ N As die lokomotief se Destination \ N string begin met hierdie string, \ N die toestand is waar \ n "Dest=nul" karre sal pas \ N sonder bestemming. \ N Eienaar=<gebruikersnaam> \ N Waar indien die lokomotief behoort \ N om hierdie persoon.
-railcraft.gui.routing.table.manual.page4=Toestand Sleutelwoorde :. \ N Naam=<entityname> \ N Waar indien dit ooreenstem met die \ N Mijnkar se naam \ n "Naam=nul" sal pas karre \ N Sonder persoonlike naam . \ N Tipe=<modid: ITEMNAME> \ N Waar indien dit ooreenstem met die \ N item naam Mijnkar se.
-railcraft.gui.routing.table.manual.page5=Toestand Sleutelwoorde: \ n Riding=<gebruikersnaam> \ N Waar indien die trein gery \ N Nota: Deur Hierdie persoon \ N Ridden=<waar / onwaar> \ N Waar indien die. trein is \ n word gery deur 'n speler.
-railcraft.gui.routing.table.manual.page6=Toestand Sleutelwoorde: \ n color=<primêre> <sekondêre> \ N Waar indien die lokomotief se primêre \ N en sekondêre kleure wedstryd \ N Aanvaar "Enige" as 'n wildekaart .. \ N Kleure: Swart, Rooi, Groen, bruin, blou, \ N Purple, Siaan, lightGray, Gray, Pink, kalk, \ N Geel, hellblau, Magenta, Oranje, Wit \ N NeedsRefuel=<waar / onwaar> \ N As die lokomotief is laag op brandstof \ N dit sal Water of verlê nie.
-railcraft.gui.routing.table.manual.page7=Toestand Sleutelwoorde: \ n Redstone=<waar / onwaar> \ N Waar indien die Routing Blok \ N word aangedryf deur Redstone.
-railcraft.gui.routing.table.manual.page8=Toestand Sleutelwoorde: \ n Loco=<string> \ N Waar indien string parameter wedstryde lokomotief \ N Aanvaarde snare: .. elektriese, stoom, geen \ N Gebruik slegs parameter niemand sal terugkeer waar as daar geen lokomotief.
-railcraft.gui.routing.table.manual.page9=Voorbeeld Script: \ n Dest=TheFarLands \ N color=Swart, Rooi \ N en \ N nie \ N Eienaar=RichardG \ N Dest=SecretHideout / OceanEntrance
-railcraft.gui.routing.table.manual.page10=Die resultaat: \ n Die script op die vorige bladsy sal \ n Lokomotief wedstryd met 'n bestemming \ N van "TheFarLands / Milliways" \ n of wat swart en rooi geverf, \ n Dit of 'n bestemming van \ n "SecretHideout / OceanEntrance" \ n maar net as sy nie in besit van RichardG.
-railcraft.gui.routing.table.manual.page11=Gereelde Expressions :. \ N paar voorwaardes ondersteuning \ N Gereelde Expressions \ n Om 'n regex gebruik, voeg 'n "?" voor die '=' \ N Reëls is standaard Java Patrone \ nSupporting voorwaardes: .. \ N Dest, Naam \ n Voorbeeld: \ n Dest=* Hill ?.
-railcraft.gui.routing.table.manual.title=Routing Handleiding
-railcraft.gui.routing.table.name=Naam
-railcraft.gui.routing.ticket.line1=Hierdie kaartjie is geldig
-railcraft.gui.routing.ticket.line2=vir die volgende bestemming:
-railcraft.gui.routing.ticket.manual.title=Oor die Golden kaartjie
-railcraft.gui.routing.ticket.redstone.manual.name=Die Goue Kaartjie is 'n onbeperkte gebruik kaartjie kan gebruik word sodat 'n openbare trein te ry of trein wat besit word deur die uitgewer. Dit kan gekombineer word met papier ook enkel gebruik kaartjies te produseer.
-railcraft.gui.routing.ticket.tips.blank=Blank kaartjie
-railcraft.gui.routing.ticket.tips.dest=Bestemmings:
-railcraft.gui.routing.ticket.tips.issuer=Uitreiker:
-railcraft.gui.routing.ticket.title=Golden Ticket
-railcraft.gui.routing.tips.slot=Voeg Routing Tabel
-railcraft.gui.routing.track.slot.label=kaartjie
-railcraft.gui.routing.track.tips.slot=Voeg Golden Ticket
-railcraft.gui.routing.type.private.tips=Sal net roete \ N Lokomotiewe \ N Dit behoort aan \ n {eienaar}.
-railcraft.gui.routing.type.private=Private spoorweë
-railcraft.gui.routing.type.public.tips=enige Lokomotief roete.
-railcraft.gui.routing.type.public=Openbare Spoorweg
+gui.railcraft.routing.logic.blank=Blank Table
+gui.railcraft.routing.logic.insufficient.operands=Onvoldoende operande
+gui.railcraft.routing.logic.malformed.syntax=syntaxis fout
+gui.railcraft.routing.logic.regex.invalid=Ongeldige Regex Patroon
+gui.railcraft.routing.logic.regex.unsupported=Regex ondersteunde
+gui.railcraft.routing.logic.unrecognized.keyword=Onbekende Sleutelwoord
+gui.railcraft.routing.slot.label=Routing Tabel
+gui.railcraft.routing.table.editor=Geredigeer deur% s
+gui.railcraft.routing.table.manual.numPages=11
+gui.railcraft.routing.table.manual.page1=Die Routing Tabel wanneer geplaas in 'n detektor of Routing Skakel sal 'n stel reëls te definieer gebruik word om aan te pas sodat niemand meer heen Teen Lokomotief. Hierdie reëls word gedefinieer met behulp van eenvoudige logika sintaksis toelaat om te skep dat die reëls as 'n eenvoudige of komplekse as wat jy wil. Die sintaksis is 'n voorvoegsel notasie script, die operateurs is gevolg deur die operande. Slegs een navraag is toelaatbaar per lyn. As Operateur nie gespesifiseer word nie, OF aanvaar. Routing Tabelle kan gekopieer word deur twee of meer Plasing in 'n knutselen rooster.
+gui.railcraft.routing.table.manual.page2=Operateur Sleutelwoorde :. \ N EN - Twee operande, moet albei waar wees \ N OF - Twee operande, moet 'n mens ware \ N nie - Keer die volgende Operand ..
+gui.railcraft.routing.table.manual.page3=Toestand Sleutelwoorde :. \ N Dest=<string> \ N As die lokomotief se Destination \ N string begin met hierdie string, \ N die toestand is waar \ n "Dest=nul" karre sal pas \ N sonder bestemming. \ N Eienaar=<gebruikersnaam> \ N Waar indien die lokomotief behoort \ N om hierdie persoon.
+gui.railcraft.routing.table.manual.page4=Toestand Sleutelwoorde :. \ N Naam=<entityname> \ N Waar indien dit ooreenstem met die \ N Mijnkar se naam \ n "Naam=nul" sal pas karre \ N Sonder persoonlike naam . \ N Tipe=<modid: ITEMNAME> \ N Waar indien dit ooreenstem met die \ N item naam Mijnkar se.
+gui.railcraft.routing.table.manual.page5=Toestand Sleutelwoorde: \ n Riding=<gebruikersnaam> \ N Waar indien die trein gery \ N Nota: Deur Hierdie persoon \ N Ridden=<waar / onwaar> \ N Waar indien die. trein is \ n word gery deur 'n speler.
+gui.railcraft.routing.table.manual.page6=Toestand Sleutelwoorde: \ n color=<primêre> <sekondêre> \ N Waar indien die lokomotief se primêre \ N en sekondêre kleure wedstryd \ N Aanvaar "Enige" as 'n wildekaart .. \ N Kleure: Swart, Rooi, Groen, bruin, blou, \ N Purple, Siaan, lightGray, Gray, Pink, kalk, \ N Geel, hellblau, Magenta, Oranje, Wit \ N NeedsRefuel=<waar / onwaar> \ N As die lokomotief is laag op brandstof \ N dit sal Water of verlê nie.
+gui.railcraft.routing.table.manual.page7=Toestand Sleutelwoorde: \ n Redstone=<waar / onwaar> \ N Waar indien die Routing Blok \ N word aangedryf deur Redstone.
+gui.railcraft.routing.table.manual.page8=Toestand Sleutelwoorde: \ n Loco=<string> \ N Waar indien string parameter wedstryde lokomotief \ N Aanvaarde snare: .. elektriese, stoom, geen \ N Gebruik slegs parameter niemand sal terugkeer waar as daar geen lokomotief.
+gui.railcraft.routing.table.manual.page9=Voorbeeld Script: \ n Dest=TheFarLands \ N color=Swart, Rooi \ N en \ N nie \ N Eienaar=RichardG \ N Dest=SecretHideout / OceanEntrance
+gui.railcraft.routing.table.manual.page10=Die resultaat: \ n Die script op die vorige bladsy sal \ n Lokomotief wedstryd met 'n bestemming \ N van "TheFarLands / Milliways" \ n of wat swart en rooi geverf, \ n Dit of 'n bestemming van \ n "SecretHideout / OceanEntrance" \ n maar net as sy nie in besit van RichardG.
+gui.railcraft.routing.table.manual.page11=Gereelde Expressions :. \ N paar voorwaardes ondersteuning \ N Gereelde Expressions \ n Om 'n regex gebruik, voeg 'n "?" voor die '=' \ N Reëls is standaard Java Patrone \ nSupporting voorwaardes: .. \ N Dest, Naam \ n Voorbeeld: \ n Dest=* Hill ?.
+gui.railcraft.routing.table.manual.title=Routing Handleiding
+gui.railcraft.routing.table.name=Naam
+gui.railcraft.routing.ticket.line1=Hierdie kaartjie is geldig
+gui.railcraft.routing.ticket.line2=vir die volgende bestemming:
+gui.railcraft.routing.ticket.manual.title=Oor die Golden kaartjie
+gui.railcraft.routing.ticket.redstone.manual.name=Die Goue Kaartjie is 'n onbeperkte gebruik kaartjie kan gebruik word sodat 'n openbare trein te ry of trein wat besit word deur die uitgewer. Dit kan gekombineer word met papier ook enkel gebruik kaartjies te produseer.
+gui.railcraft.routing.ticket.tips.blank=Blank kaartjie
+gui.railcraft.routing.ticket.tips.dest=Bestemmings:
+gui.railcraft.routing.ticket.tips.issuer=Uitreiker:
+gui.railcraft.routing.ticket.title=Golden Ticket
+gui.railcraft.routing.tips.slot=Voeg Routing Tabel
+gui.railcraft.routing.track.slot.label=kaartjie
+gui.railcraft.routing.track.tips.slot=Voeg Golden Ticket
+gui.railcraft.routing.type.private.tips=Sal net roete \ N Lokomotiewe \ N Dit behoort aan \ n {eienaar}.
+gui.railcraft.routing.type.private=Private spoorweë
+gui.railcraft.routing.type.public.tips=enige Lokomotief roete.
+gui.railcraft.routing.type.public=Openbare Spoorweg
 
-railcraft.gui.steam.boiler=stoomketel
-railcraft.gui.steam.oven=stoom oond
+gui.railcraft.steam.boiler=stoomketel
+gui.railcraft.steam.oven=stoom oond
 
-railcraft.gui.surveyor.abandon=Signal Blok verlate Survey
-railcraft.gui.surveyor.begin=Begin Blok Sein Survey
-railcraft.gui.surveyor.invalid=Signal Blok is nie geldig
-railcraft.gui.surveyor.lost=Eerste Signal nie meer bestaan ​​nie, laat vaar Survey
-railcraft.gui.surveyor.success=suksesvol gedefinieer Blok Sein
-railcraft.gui.surveyor.track=Geen spoor naby% s
-railcraft.gui.surveyor.unloaded=Eerste sein nie in 'n gelaaide Chunk
-railcraft.gui.surveyor.wrong=Nie 'n geldige Blok Sein
+gui.railcraft.surveyor.abandon=Signal Blok verlate Survey
+gui.railcraft.surveyor.begin=Begin Blok Sein Survey
+gui.railcraft.surveyor.invalid=Signal Blok is nie geldig
+gui.railcraft.surveyor.lost=Eerste Signal nie meer bestaan ​​nie, laat vaar Survey
+gui.railcraft.surveyor.success=suksesvol gedefinieer Blok Sein
+gui.railcraft.surveyor.track=Geen spoor naby% s
+gui.railcraft.surveyor.unloaded=Eerste sein nie in 'n gelaaide Chunk
+gui.railcraft.surveyor.wrong=Nie 'n geldige Blok Sein
 
-railcraft.gui.switch.motor.action=Skakel Aspek
-railcraft.gui.switch.motor.redstone=Ignoreer Redstone
+gui.railcraft.switch.motor.action=Skakel Aspek
+gui.railcraft.switch.motor.redstone=Ignoreer Redstone
 
-railcraft.gui.tank.iron=Yster Tank
-railcraft.gui.tank.steel=staaltenk
-railcraft.gui.tank.water=Water Tank
+gui.railcraft.tank.iron=Yster Tank
+gui.railcraft.tank.steel=staaltenk
+gui.railcraft.tank.water=Water Tank
 
-railcraft.gui.ticks=bosluise
+gui.railcraft.ticks=bosluise
 
 
-railcraft.gui.tips.button.lock.locked=Hierdie toestel is gesluit na \ N {eienaar}. \ N Slegs die eienaar of 'n Op \ N kan dit manipuleer.
-railcraft.gui.tips.button.lock.notowner=Jy is nie die \ N eienaar van hierdie toestel. \ N Dit behoort aan \ n {eienaar}.
-railcraft.gui.tips.button.lock.unlocked=Klik op toestel sluit. \ N Sodra gesluit, kan dit \ n net verkry word deur \ N jy of 'n Op.
+gui.railcraft.tips.button.lock.locked=Hierdie toestel is gesluit na \ N {eienaar}. \ N Slegs die eienaar of 'n Op \ N kan dit manipuleer.
+gui.railcraft.tips.button.lock.notowner=Jy is nie die \ N eienaar van hierdie toestel. \ N Dit behoort aan \ n {eienaar}.
+gui.railcraft.tips.button.lock.unlocked=Klik op toestel sluit. \ N Sodra gesluit, kan dit \ n net verkry word deur \ N jy of 'n Op.
 
-railcraft.gui.track.embarking.radius=radius
-railcraft.gui.track.mode.change=verander na% s af
-railcraft.gui.track.coupler.mode.auto.coupler=Auto-Coupler
-railcraft.gui.track.coupler.mode.coupler=Coupler
-railcraft.gui.track.coupler.mode.decoupler=Decoupler
-railcraft.gui.track.locking.mode.boarding.train=Trein Boarding
-railcraft.gui.track.locking.mode.boarding=Boarding
-railcraft.gui.track.locking.mode.holding.train=Trein Holding
-railcraft.gui.track.locking.mode.holding=Holding
-railcraft.gui.track.locking.mode.lockdown.train=Trein Lockdown
-railcraft.gui.track.locking.mode.lockdown=Lockdown
-railcraft.gui.track.priming.fuse=Fuse =% s bosluise
-railcraft.gui.track.launcher.force=Force =% s
+gui.railcraft.track.embarking.radius=radius
+gui.railcraft.track.mode.change=verander na% s af
+gui.railcraft.track.coupler.mode.auto.coupler=Auto-Coupler
+gui.railcraft.track.coupler.mode.coupler=Coupler
+gui.railcraft.track.coupler.mode.decoupler=Decoupler
+gui.railcraft.track.locking.mode.boarding.train=Trein Boarding
+gui.railcraft.track.locking.mode.boarding=Boarding
+gui.railcraft.track.locking.mode.holding.train=Trein Holding
+gui.railcraft.track.locking.mode.holding=Holding
+gui.railcraft.track.locking.mode.lockdown.train=Trein Lockdown
+gui.railcraft.track.locking.mode.lockdown=Lockdown
+gui.railcraft.track.priming.fuse=Fuse =% s bosluise
+gui.railcraft.track.launcher.force=Force =% s
 
-railcraft.gui.trade.station.dice.tips=Random Handel
+gui.railcraft.trade.station.dice.tips=Random Handel
 
 gui.railcraft.tuner.abandon.chunk=Controller is nie in 'n gelaaide Chunk, laat vaar paring
 gui.railcraft.tuner.abandon.gone=Kontroleur nie meer bestaan ​​nie, laat vaar paring
@@ -611,11 +611,11 @@ gui.railcraft.tuner.start =% s begin paring met 'n ontvanger
 gui.railcraft.tuner.stop% s=Gestop paring met 'n ontvanger
 gui.railcraft.tuner.success =% 1 $ s suksesvol saam met 2 $ s%
 
-railcraft.gui.turbine.output=Uitset:% s %%
-railcraft.gui.turbine.rotor=Rotor:
-railcraft.gui.turbine=stoomturbine
+gui.railcraft.turbine.output=Uitset:% s %%
+gui.railcraft.turbine.rotor=Rotor:
+gui.railcraft.turbine=stoomturbine
 
-railcraft.gui.update.message=Railcraft% s is beskikbaar by <http://railcraft.info>
+gui.railcraft.update.message=Railcraft% s is beskikbaar by <http://railcraft.info>
 
 railcraft.keybind.aura.anchor=Anker Aura
 Opmeting railcraft.keybind.aura.surveying=Aura
@@ -1019,8 +1019,8 @@ tile.railcraft.wayobject.block.signal.name=Blok Sein
 Karre in tile.railcraft.wayobject.block.signal.tips=Detectie Signal Blok \ n§o§9Aerial Skakeling: \ n§o§9- 1x Signal Blok \ n§o§9- 1 kontroleerder \ n§o§cRelevant gereedskap: \ n§o§c- Blok Sein Landmeter
 tile.railcraft.signal.box.analog.name=Analog Signal Kontroleur Box
 tile.railcraft.signal.box.analog.tips=stuur seine na ontvangers \ n§o§9Aerial Skakeling: 1 kontroleerder \ n§o§9Adjacent Skakeling: Geen \ n§o§9Redstone Skakeling: Luister \ n§o§cRelevant gereedskap: \ n§o§c- Signal ontvanger
-tile.railcraft.signal.box.block.relay.name=Blok Sein Relay Box
-tile.railcraft.signal.box.block.relay.tips=Skep kettings van Signal Blocks \ n§o§9Aerial Skakeling: 2x Signal Blok \ n§o§9Adjacent Skakeling: uitstraal \ n§o§9Redstone Skakeling: uitstraal \ N §o§cRelevant gereedskap: \ n§o§c- Blok Sein Landmeter
+tile.railcraft.signal.box.relay.name=Blok Sein Relay Box
+tile.railcraft.signal.box.relay.tips=Skep kettings van Signal Blocks \ n§o§9Aerial Skakeling: 2x Signal Blok \ n§o§9Adjacent Skakeling: uitstraal \ n§o§9Redstone Skakeling: uitstraal \ N §o§cRelevant gereedskap: \ n§o§c- Blok Sein Landmeter
 Kapasitor tile.railcraft.signal.box.capacitor.name=Signal Box
 tile.railcraft.signal.box.capacitor.tips=stuur seine na ontvangers \ n§o§9Aerial Skakeling: Geen \ n§o§9Adjacent Skakeling: Luister, uitstraal \ n§o§9Redstone Skakeling: Luister na Herhalers, stoot
 tile.railcraft.signal.box.controller.name=Signal Kontroleur Box
