@@ -371,7 +371,7 @@ railcraft.gates.trigger.temp.hot=Heiß
 railcraft.gates.trigger.temp.warm=Warm
 railcraft.gates.trigger.work=Hat Arbeit
 
-gui.railcraft.actuator.motor.action=Weiche mit Zustand stellen
+gui.railcraft.actuator.motor.action=Weiche mit Signal stellen
 gui.railcraft.actuator.motor.redstone=Redstone ignorieren
 
 gui.railcraft.anchor.fuel.remaining=%s Stunden
