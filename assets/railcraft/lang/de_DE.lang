@@ -371,43 +371,17 @@ railcraft.gates.trigger.temp.hot=Heiß
 railcraft.gates.trigger.temp.warm=Warm
 railcraft.gates.trigger.work=Hat Arbeit
 
-gui.railcraft.manipulator.buffer=Puffer
-gui.railcraft.manipulator.redstone.complete.name=Komplett
-gui.railcraft.manipulator.redstone.complete.tips=Arbeiten, bis der Vorgang beendet ist
-gui.railcraft.manipulator.redstone.immediate.name=Sofort
-gui.railcraft.manipulator.redstone.immediate.tips=Arbeiten, bis Platz oder Gegenstände ausgehen
-gui.railcraft.manipulator.redstone.manual.name=Manuell
-gui.railcraft.manipulator.redstone.manual.tips=Niemals Redstone aussenden
-gui.railcraft.manipulator.redstone.partial.name=Teilweise
-gui.railcraft.manipulator.redstone.partial.tips=Arbeiten, bis Platz oder Gegenstände ausgehen,\n aber unberührte Waggons halten
-gui.railcraft.manipulator.transfer.all.name=Alles
-gui.railcraft.manipulator.transfer.all.tips=Alle passenden Gegenstände bewegen
-gui.railcraft.manipulator.transfer.excess.name=Überschuss
-gui.railcraft.manipulator.transfer.excess.tips=Bewegen, bis der\n Waggon dem Filter entspricht
-gui.railcraft.manipulator.transfer.stock.name=Vorrat
-gui.railcraft.manipulator.transfer.stock.tips=Bewegen, bis das Ziel\n dem Filter entspricht
-gui.railcraft.manipulator.transfer.transfer.name=Übertragen
-gui.railcraft.manipulator.transfer.transfer.tips=Bewege exakt so viel,\n wie im Filter sind
-
-gui.railcraft.track_kit.item.invalid.track_type=§c§oUngültiger Gleistyp
-gui.railcraft.track_kit.item.invalid.slope=§c§oKann nicht an Hängen installiert werden
-gui.railcraft.track_kit.item.invalid.curve=§c§oKann nicht in Kurven installiert werden
-gui.railcraft.track_kit.item.invalid.track=§c§oUngültiges Gleis; nicht aufrüstbares oder bereits aufgerüstetes Gleis
-
-gui.railcraft.track_kit.messenger.subtitle.default=§o§7Verwende "/rc track msg" zum Ändern
-gui.railcraft.track_kit.messenger.subtitle.standard=§o§7Gleisnachricht
-gui.railcraft.track_kit.messenger.subtitle.set=Untertitel ist nun "%s"
-gui.railcraft.track_kit.messenger.title.default=Keine Nachricht festgelegt
-gui.railcraft.track_kit.messenger.title.set=Titel ist nun "%s"
+gui.railcraft.actuator.motor.action=Weiche mit Zustand stellen
+gui.railcraft.actuator.motor.redstone=Redstone ignorieren
 
 gui.railcraft.anchor.fuel.remaining=%s Stunden
 gui.railcraft.anchor.fuel=Enderperlen
+gui.railcraft.anchor.pair.cancel=Verbindung wurde abgebrochen: %s
 gui.railcraft.anchor.pair.fail.alignment=@1$s ist nicht auf der selben Achse wie @2$s
-gui.railcraft.anchor.pair.fail.distance=@1$s ist zu weit weg, um mit @2$s gekoppelt zu werden
 gui.railcraft.anchor.pair.fail.dimension=%s ist in einer anderen Dimension als das Ziel
+gui.railcraft.anchor.pair.fail.distance=@1$s ist zu weit weg, um mit @2$s gekoppelt zu werden
 gui.railcraft.anchor.pair.fail.invalid=Dies ist kein gültiges Ziel für eine Verbindung: %s
 gui.railcraft.anchor.pair.fail.unloaded=Ziel ist nicht geladen, während versucht wurde, zu verbinden: %s
-gui.railcraft.anchor.pair.cancel=Verbindung wurde abgebrochen: %s
 gui.railcraft.anchor.pair.start=Kopplung eingeleitet: %s
 gui.railcraft.anchor.pair.success=Erfolgreich gekoppelt: %s
 
@@ -430,10 +404,10 @@ gui.railcraft.bore.track=Gleis
 
 gui.railcraft.box.aspect.action=Redstonesignal bei Zustand
 gui.railcraft.box.capacitor.duration=Redstonesignal für %s Sekunden
-gui.railcraft.box.capacitor.rising.name=Steigende Flanke
-gui.railcraft.box.capacitor.rising.tips=Timer sofort starten, wenn ein Signal kommt.
 gui.railcraft.box.capacitor.falling.name=Fallende Flanke
 gui.railcraft.box.capacitor.falling.tips=Timer starten, wenn das letzte Signal abschaltet.
+gui.railcraft.box.capacitor.rising.name=Steigende Flanke
+gui.railcraft.box.capacitor.rising.tips=Timer sofort starten, wenn ein Signal kommt.
 gui.railcraft.box.controller.aspect.default=Standardzustand:
 gui.railcraft.box.controller.aspect.redstone=Zustand bei Redstonesignal:
 
@@ -447,8 +421,8 @@ gui.railcraft.cart.undercutter.under=Unten
 
 gui.railcraft.charge.meter.cart=Waggon -> Ladung: %s c | Entzug: %s c/t | Verlust: %s c/t
 gui.railcraft.charge.meter.network=Netz -> Größe: %s | Ladung: %s c | Entzug: %s c/t | Verlust: %s c/t
-gui.railcraft.charge.meter.producer=Versorgung -> Ladung: %s c | Produktion: %s c/t
 gui.railcraft.charge.meter.node=Knoten -> Entzug: %s c/t | Verlust: %s c/t
+gui.railcraft.charge.meter.producer=Versorgung -> Ladung: %s c | Produktion: %s c/t
 gui.railcraft.charge.meter.start=Messung der Daten für %s Sekunden...
 
 gui.railcraft.coke.oven=Kokerei
@@ -524,11 +498,11 @@ gui.railcraft.link.started=Verbindung begonnen
 
 gui.railcraft.liquid.capacity=Kapazität
 
+gui.railcraft.locomotive.electric.tips.button.mode.running=Lässt die Lokomotive abfahren.
+gui.railcraft.locomotive.electric.tips.button.mode.shutdown=Stoppt die Lokomotive.
 gui.railcraft.locomotive.mode.idle=Bereit
 gui.railcraft.locomotive.mode.running=Fahrt
 gui.railcraft.locomotive.mode.shutdown=Abschalten
-gui.railcraft.locomotive.electric.tips.button.mode.running=Lässt die Lokomotive abfahren.
-gui.railcraft.locomotive.electric.tips.button.mode.shutdown=Stoppt die Lokomotive.
 gui.railcraft.locomotive.steam.tips.button.mode.idle=Lokomotive reduziert Kraftstoffverbrauch,\n behält aber die aktuelle Temperatur bei.\n Wenn der Zug auf einem Gleis angehalten wird,\n verhält er sich wie in diesem Modus.
 gui.railcraft.locomotive.steam.tips.button.mode.running=Lässt die Lokomotive abfahren.
 gui.railcraft.locomotive.steam.tips.button.mode.shutdown=Schaltet die Lokomotive aus.\n Stoppt jegliche Bewegung und\n beginnt den Abkühlprozess.\n Dies kann einge Zeit dauern.
@@ -544,21 +518,41 @@ gui.railcraft.locomotive.tips.item.secondary=§oSekundärfarbe:§r %s
 gui.railcraft.locomotive.tips.item.whistle=§oPfeifen-Tonhöhe:§r %s
 gui.railcraft.locomotive.tips.slot.ticket=Ticket einfügen
 
-gui.railcraft.mag.glass.aspect=Der Signalaspekt ist %s
-gui.railcraft.mag.glass.aspect.dual=Der Signalaspekt ist oben %1$s und unten %2$s
+gui.railcraft.mag.glass.aspect.dual=Der Signalzustand ist oben %1$s und unten %2$s
+gui.railcraft.mag.glass.aspect=Der Signalzustand ist %s
 gui.railcraft.mag.glass.placedby=%1$s wurde platziert von %2$s
+
+gui.railcraft.manipulator.buffer=Puffer
+gui.railcraft.manipulator.redstone.complete.name=Komplett
+gui.railcraft.manipulator.redstone.complete.tips=Arbeiten, bis der Vorgang beendet ist
+gui.railcraft.manipulator.redstone.immediate.name=Sofort
+gui.railcraft.manipulator.redstone.immediate.tips=Arbeiten, bis Platz oder Gegenstände ausgehen
+gui.railcraft.manipulator.redstone.manual.name=Manuell
+gui.railcraft.manipulator.redstone.manual.tips=Niemals Redstone aussenden
+gui.railcraft.manipulator.redstone.partial.name=Teilweise
+gui.railcraft.manipulator.redstone.partial.tips=Arbeiten, bis Platz oder Gegenstände ausgehen,\n aber unberührte Waggons halten
+gui.railcraft.manipulator.transfer.all.name=Alles
+gui.railcraft.manipulator.transfer.all.tips=Alle passenden Gegenstände bewegen
+gui.railcraft.manipulator.transfer.excess.name=Überschuss
+gui.railcraft.manipulator.transfer.excess.tips=Bewegen, bis der\n Waggon dem Filter entspricht
+gui.railcraft.manipulator.transfer.stock.name=Vorrat
+gui.railcraft.manipulator.transfer.stock.tips=Bewegen, bis das Ziel\n dem Filter entspricht
+gui.railcraft.manipulator.transfer.transfer.name=Übertragen
+gui.railcraft.manipulator.transfer.transfer.tips=Bewege exakt so viel,\n wie im Filter sind
 
 gui.railcraft.rolling.machine.tips.craft=§e§o-Klicken zum Herstellen-
 
 gui.railcraft.routing.logic.blank=Leerer Fahrplan
 gui.railcraft.routing.logic.constant.invalid=Ungültige Konstante
-gui.railcraft.routing.logic.operand.invalid=Ungültiger Operand
 gui.railcraft.routing.logic.insufficient.operands=Zu wenig Operanden
 gui.railcraft.routing.logic.malformed.syntax=Fehlerhafte Syntax
+gui.railcraft.routing.logic.operand.invalid=Ungültiger Operand
 gui.railcraft.routing.logic.regex.invalid=Ungültiger Regulärer Ausdruck
 gui.railcraft.routing.logic.regex.unsupported=Regex nicht unterstützt
 gui.railcraft.routing.logic.unrecognized.keyword=Unbekanntes Schlüsselwort
+
 gui.railcraft.routing.slot.label=Fahrplan
+
 gui.railcraft.routing.table.editor=Zuletzt bearbeitet von %s
 gui.railcraft.routing.table.manual.numPages=12
 gui.railcraft.routing.table.manual.page1=Der Streckenplan, wenn in einem Richtungssensor oder Stellantrieb platziert, wird eine Sammlung von Regeln definieren, die bei jeder passierenden Lokomotive genutzt werden. Diese Regeln werden mit einer einfachen logischen Syntax definiert, die es dir erlaubt, Regeln zu erschaffen, so einfach oder komplex wie du willst. Die Syntax ist ein Präfix-Notationsscript, the Operatoren werden gefolgt von den Operanden. Nur ein Wort pro Zeile ist erlaubt. Wenn kein Operator spezifiziert wird, wird OR verwendet. Streckenpläne können kopiert werden, indem zwei oder mehr in ein Crafting-Gitter platziert werden.
@@ -575,6 +569,7 @@ gui.railcraft.routing.table.manual.page11=Reguläre Ausdrücke:\n Einige Bedingu
 gui.railcraft.routing.table.manual.page12=Analog-Signal:\n   IF kann mit ganzzahligen Konstanten für\n analoge Signale verwendet werden. Zahlen\n und IF können nicht verschachtelt werden,\n oder als 'then' oder 'else' in IF.\n TRUE und FALSE sind überall verwendbar.\nBeispiel:\n Dest=Town\n 8\n IF\n Dest=City\n 4\n FALSE
 gui.railcraft.routing.table.manual.title=Streckenplan-Handbuch
 gui.railcraft.routing.table.name=Name
+
 gui.railcraft.routing.ticket.line1=Dieses Ticket ist gültig
 gui.railcraft.routing.ticket.line2=für das folgende Ziel:
 gui.railcraft.routing.ticket.manual.title=Über das goldene Ticket
@@ -583,6 +578,7 @@ gui.railcraft.routing.ticket.tips.blank=Leeres Ticket
 gui.railcraft.routing.ticket.tips.dest=Ziel:
 gui.railcraft.routing.ticket.tips.issuer=Aussteller:
 gui.railcraft.routing.ticket.title=Goldenes Ticket
+
 gui.railcraft.routing.tips.slot=Streckenplan einfügen
 gui.railcraft.routing.track.slot.label=Ticket
 gui.railcraft.routing.track.tips.slot=Füge Goldenes Ticket ein
@@ -603,9 +599,6 @@ gui.railcraft.surveyor.track=keine Gleise in der Nähe von %s
 gui.railcraft.surveyor.unloaded=das erste Signal befindet sich nicht in einem geladenen Chunk
 gui.railcraft.surveyor.wrong=Kein gültiger Signalblock
 
-gui.railcraft.switch.motor.action=Weiche stellen bei:
-gui.railcraft.switch.motor.redstone=Redstone ignorieren
-
 gui.railcraft.tank.iron=Eisentank
 gui.railcraft.tank.steel=Stahltank
 gui.railcraft.tank.water=Wassertank
@@ -616,19 +609,29 @@ gui.railcraft.tips.button.lock.locked=Ist gesperrt von\n {owner}.\n Nur der Eige
 gui.railcraft.tips.button.lock.notowner=Du bist nicht der\n Eigentümer der Lokomotive.\n Sie gehört\n {owner}.
 gui.railcraft.tips.button.lock.unlocked=Klicken um zu sperren.\n Wenn gesperrt, kann\n nur von Dir oder ein Op\n benutzt werden.
 
-gui.railcraft.track.embarking.radius=Radius
-gui.railcraft.track.mode.change=Gewechselt zum %smodus
 gui.railcraft.track.coupler.mode.auto.coupler=Auto-Koppel
 gui.railcraft.track.coupler.mode.coupler=Koppel
 gui.railcraft.track.coupler.mode.decoupler=Entkoppel
+gui.railcraft.track.embarking.radius=Radius
+gui.railcraft.track.launcher.force=Kraft = %s
 gui.railcraft.track.locking.mode.boarding.train=Zugeinstiegs
 gui.railcraft.track.locking.mode.boarding=Einstiegs
 gui.railcraft.track.locking.mode.holding.train=Zughalte
 gui.railcraft.track.locking.mode.holding=Halte
 gui.railcraft.track.locking.mode.lockdown.train=Zugsperr
 gui.railcraft.track.locking.mode.lockdown=Sperr
+gui.railcraft.track.mode.change=Gewechselt zum %smodus
 gui.railcraft.track.priming.fuse=Absicherung = %s ticks
-gui.railcraft.track.launcher.force=Kraft = %s
+
+gui.railcraft.track_kit.item.invalid.curve=§c§oKann nicht in Kurven installiert werden
+gui.railcraft.track_kit.item.invalid.slope=§c§oKann nicht an Hängen installiert werden
+gui.railcraft.track_kit.item.invalid.track=§c§oUngültiges Gleis; nicht aufrüstbares oder bereits aufgerüstetes Gleis
+gui.railcraft.track_kit.item.invalid.track_type=§c§oUngültiger Gleistyp
+gui.railcraft.track_kit.messenger.subtitle.default=§o§7Verwende "/rc track msg" zum Ändern
+gui.railcraft.track_kit.messenger.subtitle.set=Untertitel ist nun "%s"
+gui.railcraft.track_kit.messenger.subtitle.standard=§o§7Gleisnachricht
+gui.railcraft.track_kit.messenger.title.default=Keine Nachricht festgelegt
+gui.railcraft.track_kit.messenger.title.set=Titel ist nun "%s"
 
 gui.railcraft.trade.station.dice.tips=Zufälliger Handel
 
@@ -997,6 +1000,21 @@ tile.railcraft.post.stone.platform.name=Steinplattform
 tile.railcraft.post.wood.name=Holzpfosten
 tile.railcraft.post.wood.platform.name=Hölzerne Plattform
 
+tile.railcraft.signal.box.analog.name=Analoge Signalsteuerbox
+tile.railcraft.signal.box.analog.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Keine\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.signal.box.relay.name=Signalrelaisbox
+tile.railcraft.signal.box.relay.tips=Ermöglicht Verkettung von Signalblöcken\n§o§9Fernverbindungen: 2x Signalblock\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
+tile.railcraft.signal.box.capacitor.name=Signalkondensatorbox
+tile.railcraft.signal.box.capacitor.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: Keine\n§o§9Direktverbindungen: Empfang, Senden\n§o§9Redstone-Verbindung: Empfang von Verstärker, Senden
+tile.railcraft.signal.box.controller.name=Signalsteuerbox
+tile.railcraft.signal.box.controller.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Empfang\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.signal.box.interlock.name=Signalverriegelungsbox
+tile.railcraft.signal.box.interlock.tips=Erlaubt nur einem Signal auf einmal, durchzukommen\n§o§9Fernverbindungen:\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§9Direktverbindungen:\n§o§9- Verriegelung\n§o§9- Empfang (Durchgang sperren)\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.signal.box.receiver.name=Signalempfängerbox
+tile.railcraft.signal.box.receiver.tips=Empfängt Signale von Controllern\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.signal.box.sequencer.name=Signalsequenzerbox
+tile.railcraft.signal.box.sequencer.tips=Aktiviert direkt verbundene Blöcke nacheinander\n§o§9Direktverbindungen:\n§o§9- Sequenzer\n§o§9- Empfang (Taktsignal)\n§o§9- Senden\n§o§9Redstone-Verbindung:\n§o§9- Empfang von Verstärker (Taktsignal)\n§o§9- Senden
+
 tile.railcraft.slab.abyssal.block.name=Abyss-Blockstufe
 tile.railcraft.slab.abyssal.brick.name=Abyss-Ziegel-Stufe
 tile.railcraft.slab.abyssal.cobble.name=Abyss-Pflastersteinstufe
@@ -1088,27 +1106,13 @@ tile.railcraft.stair.steel.name=Stahltreppe
 tile.railcraft.stair.tin.name=Zinntreppe
 
 tile.railcraft.wayobject.block.signal.dual.name=Doppelkopf-Blocksignal
-tile.railcraft.wayobject.block.signal.dual.tips=Erkennt Schienenfahrzeuge im Signalblock\nZeigt Aspekt des verbundenen Controllers\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalblockvermesser
+tile.railcraft.wayobject.block.signal.dual.tips=Erkennt Schienenfahrzeuge im Signalblock\nZeigt Zustand des verbundenen Controllers\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalblockvermesser
 tile.railcraft.wayobject.block.signal.name=Blocksignal
 tile.railcraft.wayobject.block.signal.tips=Erkennt Schienenfahrzeuge im Signalblock\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
-tile.railcraft.signal.box.analog.name=Analoge Signalsteuerbox
-tile.railcraft.signal.box.analog.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Keine\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.signal.box.relay.name=Signalrelaisbox
-tile.railcraft.signal.box.relay.tips=Ermöglicht Verkettung von Signalblöcken\n§o§9Fernverbindungen: 2x Signalblock\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
-tile.railcraft.signal.box.capacitor.name=Signalkondensatorbox
-tile.railcraft.signal.box.capacitor.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: Keine\n§o§9Direktverbindungen: Empfang, Senden\n§o§9Redstone-Verbindung: Empfang von Verstärker, Senden
-tile.railcraft.signal.box.controller.name=Signalsteuerbox
-tile.railcraft.signal.box.controller.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Empfang\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.signal.box.interlock.name=Signalverriegelungsbox
-tile.railcraft.signal.box.interlock.tips=Erlaubt nur einem Signal auf einmal, durchzukommen\n§o§9Fernverbindungen:\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§9Direktverbindungen:\n§o§9- Verriegelung\n§o§9- Empfang (Durchgang sperren)\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.signal.box.receiver.name=Signalempfängerbox
-tile.railcraft.signal.box.receiver.tips=Empfängt Signale von Controllern\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.signal.box.sequencer.name=Signalsequenzerbox
-tile.railcraft.signal.box.sequencer.tips=Aktiviert direkt verbundene Blöcke nacheinander\n§o§9Direktverbindungen:\n§o§9- Sequenzer\n§o§9- Empfang (Taktsignal)\n§o§9- Senden\n§o§9Redstone-Verbindung:\n§o§9- Empfang von Verstärker (Taktsignal)\n§o§9- Senden
 tile.railcraft.wayobject.distant.dual.name=Entferntes Doppelkopf-Blocksignal
-tile.railcraft.wayobject.distant.dual.tips=Zeigt Aspekte verbundener Controller\n§o§9Fernverbindungen: 2x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.distant.dual.tips=Zeigt Zustände verbundener Controller\n§o§9Fernverbindungen: 2x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
 tile.railcraft.wayobject.distant.name=Entferntes Signal
-tile.railcraft.wayobject.distant.tips=Zeigt Aspekt des verbundenen Controllers\n§o§9Fernverbindungen: 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.wayobject.distant.tips=Zeigt Zustand des verbundenen Controllers\n§o§9Fernverbindungen: 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
 
 tile.railcraft.wire.name=Ladungsrangierkabel
 tile.railcraft.wire.tips=Transportiert Ladung über kurze Distanzen\n Platziere unterhalb von Gleisen,\n die Kabelstützrahmen verwenden\n Sehr verlustreich
