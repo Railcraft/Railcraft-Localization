@@ -787,9 +787,9 @@ tile.railcraft.brick.pearlized.fitted.name=Gemeißelter Perlstein
 tile.railcraft.brick.pearlized.ornate.name=Verzierter Perlstein
 
 tile.railcraft.charge.feeder.admin.name=Admin-Stromumformer
-tile.railcraft.charge.feeder.admin.tips=Eine endlose Quelle für Railcraft-Ladung
+tile.railcraft.charge.feeder.admin.tips=Eine endlose Quelle für Railcraft-Ladung\n§o§c- Erfordert Redstone-Signal -
 tile.railcraft.charge.feeder.ic2.name=IC2-Stromumformer
-tile.railcraft.charge.feeder.ic2.tips=Wandelt IndustrialCraft-Energie\n in Railcraft-Ladung um
+tile.railcraft.charge.feeder.ic2.tips=Wandelt IndustrialCraft-Energie\n in Railcraft-Ladung um\n§o§c- Erfordert Redstone-Signal -
 
 tile.railcraft.charge.trap.name=Stromfalle
 
@@ -916,7 +916,11 @@ tile.railcraft.machine.epsilon.force.track.emitter.name=Kraftfeldgleisemitter
 tile.railcraft.machine.epsilon.force.track.emitter.tips=Projeziert energiebasierte Gleise
 
 tile.railcraft.machine.simple.feed.station.name=Futterstation
+tile.railcraft.machine.simple.feed.station.desc=Ermöglicht das automatische Füttern von Tieren. Kann mit einem Redstone-Signal deaktiviert werden. Pausiert Fütterung, wenn zu viele Tiere in der Nähe sind, um Überbevölkerung zu vermeiden.
+tile.railcraft.machine.simple.feed.station.tips=Füttert Tiere\n§o§c- Mit Redstone-Signal deaktiviert -
 tile.railcraft.machine.simple.rolling.machine.name=Walzmaschine
+tile.railcraft.machine.simple.rolling.machine.desc=Maschine zum Walzen verschiedener metallener Formen. Kann durch Rohrsysteme und Ähnliches automatisiert werden. Wenn nur genug Materialien für einen Durchlauf in der Maschine vorhanden sind, kannst du zum Fertigen auf die Produktanzeige klicken.
+tile.railcraft.machine.simple.rolling.machine.tips=Ermöglicht Produktion verschiedener metallener Dinge.
 
 tile.railcraft.manipulator.dispenser.cart.name=Waggonspender
 tile.railcraft.manipulator.dispenser.cart.tips=Lädt Waggons direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Waggon mit einem Redstone-Signal auf ein Gleis -
