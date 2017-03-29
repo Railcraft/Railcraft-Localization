@@ -787,9 +787,9 @@ tile.railcraft.brick.pearlized.fitted.name=Fitted Pearlized Stone
 tile.railcraft.brick.pearlized.ornate.name=Ornate Pearlized Stone
 
 tile.railcraft.charge.feeder.admin.name=Admin Charge Feeder Unit
-tile.railcraft.charge.feeder.admin.tips=Provides Unlimited Railcraft Charge
+tile.railcraft.charge.feeder.admin.tips=Provides Unlimited Railcraft Charge\n§o§c- Requires Redstone input -
 tile.railcraft.charge.feeder.ic2.name=IC2 Charge Feeder Unit
-tile.railcraft.charge.feeder.ic2.tips=Converts IndustrialCraft\n Electricity to Railcraft Charge
+tile.railcraft.charge.feeder.ic2.tips=Converts IndustrialCraft\n Electricity to Railcraft Charge\n§o§c- Requires Redstone input -
 
 tile.railcraft.charge.trap.name=Charge Trap
 
@@ -935,9 +935,9 @@ tile.railcraft.manipulator.loader.fluid.tips=Loads Fluids into Carts\n§o§c- Pl
 tile.railcraft.manipulator.unloader.ic2.name=Ic2 EU Unloader
 tile.railcraft.manipulator.unloader.ic2.tips=Unloads EU from Ic2 Energy Carts\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Only emits Ic2 power
 tile.railcraft.manipulator.unloader.rf.name=Redstone Flux Unloader
-tile.railcraft.manipulator.unloader.rf.tips=Unloads RF from RF Carts\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Only emits RF power
+tile.railcraft.manipulator.unloader.rf.tips=Unloads RF from RF Carts\n§o§9- Hit with Crowbar to rotate -\n§o§c- Only emits RF power
 tile.railcraft.manipulator.unloader.item.advanced.name=Adv. Item Unloader
-tile.railcraft.manipulator.unloader.item.advanced.tips=Unloads Items from Carts\n§o§9- Hit with Crowbar to change orientation -
+tile.railcraft.manipulator.unloader.item.advanced.tips=Unloads Items from Carts\n§o§9- Hit with Crowbar to rotate -
 tile.railcraft.manipulator.unloader.item.name=Item Unloader
 tile.railcraft.manipulator.unloader.item.tips=Unloads Items from Carts\n§o§c- Place under Track -
 tile.railcraft.manipulator.unloader.fluid.name=Fluid Unloader
