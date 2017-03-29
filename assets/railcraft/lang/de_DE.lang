@@ -491,6 +491,8 @@ gui.railcraft.help=Hilfe
 
 gui.railcraft.ic2.energy.rate=Rate: %s EU
 
+gui.railcraft.jei.category.rollingMachine=Walzen
+
 gui.railcraft.link.broken=Verbindung getrennt
 gui.railcraft.link.created=Verbindung hergestellt
 gui.railcraft.link.failed=Verbindung fehlgeschlagen
