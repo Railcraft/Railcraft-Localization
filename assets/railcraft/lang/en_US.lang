@@ -916,7 +916,11 @@ tile.railcraft.machine.epsilon.force.track.emitter.name=Force Track Emitter
 tile.railcraft.machine.epsilon.force.track.emitter.tips=Projects energy-based tracks
 
 tile.railcraft.machine.simple.feed.station.name=Feed Station
+tile.railcraft.machine.simple.feed.station.desc=Allows you to feed nearby animals automatically. Can be disabled with Redstone. Will stop feeding if there are too many animals nearby to prevent over-population.
+tile.railcraft.machine.simple.feed.station.tips=Feeds animals\n§o§c- Redstone will disable -
 tile.railcraft.machine.simple.rolling.machine.name=Rolling Machine
+tile.railcraft.machine.simple.rolling.machine.desc=Machine for rolling various shapes of metal. Can be automated by simply piping items in and out. If there is only enough items in the grid for one cycle, you can click the output display to force crafting.
+tile.railcraft.machine.simple.rolling.machine.tips=Crafting bench for various metal items
 
 tile.railcraft.manipulator.dispenser.cart.name=Cart Dispenser
 tile.railcraft.manipulator.dispenser.cart.tips=Dispenses Carts onto Tracks\n§o§9- Pair with Control Track -\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Apply Redstone to dispense Cart -
