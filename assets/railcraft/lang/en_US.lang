@@ -491,6 +491,8 @@ gui.railcraft.help=Help
 
 gui.railcraft.ic2.energy.rate=Rate: %s EU
 
+gui.railcraft.jei.category.rollingMachine=Metal Rolling
+
 gui.railcraft.link.broken=Link Broken
 gui.railcraft.link.created=Link Created
 gui.railcraft.link.failed=Link Failed
