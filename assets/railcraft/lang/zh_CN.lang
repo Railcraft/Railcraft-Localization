@@ -495,7 +495,7 @@ gui.railcraft.help=帮助
 
 gui.railcraft.ic2.energy.rate=速率：%s EU
 
-gui.railcraft.jei.category.rolling=金属辊轧
+gui.railcraft.jei.category.rolling=金属辊压
 
 gui.railcraft.link.broken=连接已损坏
 gui.railcraft.link.created=连接已创建
@@ -509,19 +509,19 @@ gui.railcraft.locomotive.electric.tips.button.mode.shutdown=关闭电车。
 gui.railcraft.locomotive.mode.idle=空闲
 gui.railcraft.locomotive.mode.running=运行
 gui.railcraft.locomotive.mode.shutdown=停机
-gui.railcraft.locomotive.steam.tips.button.mode.idle=机车会持续消耗燃料\n来保持热量.\n如果列车停驻于轨道上,\n它将处于空闲状态.
-gui.railcraft.locomotive.steam.tips.button.mode.running=运行列车.
-gui.railcraft.locomotive.steam.tips.button.mode.shutdown=关闭机车.\n 暂停一切运动,且\n开始进行冷却.\n这个过程会花一点时间.
-gui.railcraft.locomotive.tips.button.locked=该车已经被\n{owner}绑定,\n 它只接受op或者绑定人的\n车票.
-gui.railcraft.locomotive.tips.button.private=该车为{owner}私人所有.\n 仅受op或它的主人控制.
-gui.railcraft.locomotive.tips.button.unlocked=点击来绑定列车.\n绑定后,它只接受op或者\n你的车票.
-gui.railcraft.locomotive.tips.item.emblem=§o徽章:§r %s
+gui.railcraft.locomotive.steam.tips.button.mode.idle=机车会持续消耗燃料\n来保持热量。\n如果列车停驻于轨道上，\n它将处于空闲状态。
+gui.railcraft.locomotive.steam.tips.button.mode.running=运行列车。
+gui.railcraft.locomotive.steam.tips.button.mode.shutdown=关闭机车。\n 暂停一切运动,且\n开始进行冷却。\n这个过程会花一点时间。
+gui.railcraft.locomotive.tips.button.locked=该车已经被\n{owner}绑定，\n 它只接受op或者绑定人的\n车票。
+gui.railcraft.locomotive.tips.button.private=该车为{owner}私人所有。\n 仅受op或它的主人控制。
+gui.railcraft.locomotive.tips.button.unlocked=点击来绑定列车。\n绑定后，它只接受op或者\n你的车票。
+gui.railcraft.locomotive.tips.item.emblem=§o徽章：§r %s
 gui.railcraft.locomotive.tips.item.model.default=默认模板
-gui.railcraft.locomotive.tips.item.model=§o模板:§r %s
-gui.railcraft.locomotive.tips.item.owner=§o主人:§r %s
-gui.railcraft.locomotive.tips.item.primary=§o车身颜色:§r %s
-gui.railcraft.locomotive.tips.item.secondary=§o底盘颜色:§r %s
-gui.railcraft.locomotive.tips.item.whistle=§o鸣笛音高:§r %s
+gui.railcraft.locomotive.tips.item.model=§o模板：§r %s
+gui.railcraft.locomotive.tips.item.owner=§o主人：§r %s
+gui.railcraft.locomotive.tips.item.primary=§o车身颜色：§r %s
+gui.railcraft.locomotive.tips.item.secondary=§o底盘颜色：§r %s
+gui.railcraft.locomotive.tips.item.whistle=§o鸣笛音高：§r %s
 gui.railcraft.locomotive.tips.slot.ticket=插入车票
 
 gui.railcraft.mag.glass.aspect.dual=信号灯顶部颜色为%1$s，底部颜色为%2$s。
