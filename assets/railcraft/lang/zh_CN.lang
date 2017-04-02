@@ -2,7 +2,7 @@
 # Translated by crafteverywhere, et al
 # Parent Language: zh_TW
 
-chat.railcraft.api.error=错误:API过期，请检查游戏后台记录以了解详情。
+chat.railcraft.api.error=错误：API过期，请检查游戏后台记录以了解详情。
 
 command.railcraft.aliases=命令别名：%s
 command.railcraft.help=输入 %s 以查看帮助。
@@ -13,21 +13,21 @@ command.railcraft.noperms=你没有使用该命令的权限。
 command.railcraft.railcraft.help=Railcraft 的可用命令
 command.railcraft.railcraft.format=格式：/%s <sub-command>
 
-command.railcraft.railcraft.admin.desc=- %s: 管理员工具
+command.railcraft.railcraft.admin.desc=- %s：管理员工具
 command.railcraft.railcraft.admin.help=为管理员准备的工具
-command.railcraft.railcraft.admin.format=格式: /%s
+command.railcraft.railcraft.admin.format=格式：/%s
 
-command.railcraft.railcraft.admin.kill.desc=- %s: 清理任务
+command.railcraft.railcraft.admin.kill.desc=- %s：清理任务
 command.railcraft.railcraft.admin.kill.help=用于清理各种东西的工具
-command.railcraft.railcraft.admin.kill.format=格式: /%s
+command.railcraft.railcraft.admin.kill.format=格式：/%s
 
-command.railcraft.railcraft.admin.kill.animals.desc=- %s: 清理动物
+command.railcraft.railcraft.admin.kill.animals.desc=- %s：清理动物
 command.railcraft.railcraft.admin.kill.animals.help=可击杀当前世界中的所有动物
-command.railcraft.railcraft.admin.kill.animals.format=格式: /%s
+command.railcraft.railcraft.admin.kill.animals.format=格式：/%s
 
-command.railcraft.railcraft.admin.kill.minecarts.desc=- %s: 清理矿车
+command.railcraft.railcraft.admin.kill.minecarts.desc=- %s：清理矿车
 command.railcraft.railcraft.admin.kill.minecarts.help=可“击杀”当前世界中的所有矿车
-command.railcraft.railcraft.admin.kill.minecarts.format=格式: /%s
+command.railcraft.railcraft.admin.kill.minecarts.format=格式：/%s
 
 command.railcraft.railcraft.debug.desc=-%s: 调试工具
 command.railcraft.railcraft.debug.help=用于调试困难问题的工具.
@@ -234,7 +234,7 @@ item.railcraft.fluid.creosote.wax.name=杂酚油蜡胶囊
 
 item.railcraft.fuel.coke.name=焦煤
 
-item.railcraft.gear.bushing.name=锡齿轮轴套
+item.railcraft.gear.bushing.name=齿轮轴套
 item.railcraft.gear.gold.plate.name=金板齿轮
 item.railcraft.gear.iron.name=铁齿轮
 item.railcraft.gear.steel.name=钢齿轮
@@ -375,7 +375,7 @@ railcraft.gates.trigger.temp.hot=热
 railcraft.gates.trigger.temp.warm=暖
 railcraft.gates.trigger.work=工作
 
-gui.railcraft.actuator.motor.action=根据信号域换轨
+gui.railcraft.actuator.motor.action=根据信号域来转辙轨道
 gui.railcraft.actuator.motor.redstone=忽略红石信号
 
 gui.railcraft.anchor.fuel.remaining=%s小时
@@ -406,14 +406,14 @@ gui.railcraft.bore.fuel=燃料
 gui.railcraft.bore.head=钻头
 gui.railcraft.bore.track=轨道
 
-gui.railcraft.box.aspect.action=对应信号域来发送红石信号
+gui.railcraft.box.aspect.action=根据信号域发送红石信号
 gui.railcraft.box.capacitor.duration=持续发送红石信号%s秒
 gui.railcraft.box.capacitor.rising.name=同步
-gui.railcraft.box.capacitor.rising.tips=在收到红石信号同时开始计时.
+gui.railcraft.box.capacitor.rising.tips=在收到红石信号同时开始计时。
 gui.railcraft.box.capacitor.falling.name=延迟
-gui.railcraft.box.capacitor.falling.tips=在上一个红石信号结束时开始计时.
-gui.railcraft.box.controller.aspect.default=默认信号域:
-gui.railcraft.box.controller.aspect.redstone=红石信号域:
+gui.railcraft.box.capacitor.falling.tips=在上一个红石信号结束时开始计时。
+gui.railcraft.box.controller.aspect.default=默认信号域：
+gui.railcraft.box.controller.aspect.redstone=红石信号域：
 
 gui.railcraft.cart.tnt.fuse=导火线
 gui.railcraft.cart.track.relayer.pattern=模式
@@ -575,20 +575,22 @@ gui.railcraft.routing.table.manual.page11=正则表达式:\n   某些条件关�
 gui.railcraft.routing.table.manual.page12=输出:\n   IF可以和整数常量一起使用\n   以产生模拟红石信号.整数和 IF 只能\n   在最高级使用,或者嵌套在 IF 中使用.\n   TRUE 和 FALSE 在任何地方都可以使用.\n范例:\n   IF\n   Dest=Town\n   8\n   IF\n   Dest=City\n   4\n   FALSE
 gui.railcraft.routing.table.manual.title=路由手册
 gui.railcraft.routing.table.name=名称
+
 gui.railcraft.routing.ticket.line1=车票有效
-gui.railcraft.routing.ticket.line2=前往以下目的地:
+gui.railcraft.routing.ticket.line2=前往以下目的地：
 gui.railcraft.routing.ticket.manual.title=关于黄金车票
-gui.railcraft.routing.ticket.redstone.manual.name=黄金车票是一种在任何共有/私人列车上都可以无限使用的车票,还可以用它拓印纸张来制造一次性车票.
+gui.railcraft.routing.ticket.redstone.manual.name=黄金车票是一种在任何共有/私人列车上都可以无限使用的车票，还可以用它拓印纸张来制造一次性车票。
 gui.railcraft.routing.ticket.tips.blank=空白车票
 gui.railcraft.routing.ticket.tips.dest=空白车票
 gui.railcraft.routing.ticket.tips.issuer=发行人：
 gui.railcraft.routing.ticket.title=黄金车票
+
 gui.railcraft.routing.tips.slot=插入列车时刻表
 gui.railcraft.routing.track.slot.label=车票
 gui.railcraft.routing.track.tips.slot=插入黄金车票
-gui.railcraft.routing.type.private.tips=将只导航e\n属于{owner}的列车.
+gui.railcraft.routing.type.private.tips=将只导航\n属于{owner}的列车。
 gui.railcraft.routing.type.private=私人铁路
-gui.railcraft.routing.type.public.tips=将导航任意列车.
+gui.railcraft.routing.type.public.tips=将导航任意列车。
 gui.railcraft.routing.type.public=公用铁路
 
 gui.railcraft.steam.boiler=蒸汽锅炉
@@ -603,18 +605,15 @@ gui.railcraft.surveyor.track=没有与%s比邻的轨道
 gui.railcraft.surveyor.unloaded=第一个信号不在游戏加载区域内
 gui.railcraft.surveyor.wrong=并非有效信号盒
 
-gui.railcraft.switch.motor.action=对应信号域来转辙轨道
-gui.railcraft.switch.motor.redstone=忽略红石信号
-
 gui.railcraft.tank.iron=铁质蓄水罐
 gui.railcraft.tank.steel=钢制蓄水罐
 gui.railcraft.tank.water=蓄水罐
 
 gui.railcraft.ticks=刻
 
-gui.railcraft.tips.button.lock.locked=该设备被\n{owner}绑定,\n它只接受其拥有者或op的操作.
-gui.railcraft.tips.button.lock.notowner=你不是这台设备\n的主人.它属于{owner}.
-gui.railcraft.tips.button.lock.unlocked=点击来绑定设备.\n绑定后,它只接受你或者op的操作.
+gui.railcraft.tips.button.lock.locked=该设备被\n{owner}绑定，\n它只接受其拥有者或管理员的操作。
+gui.railcraft.tips.button.lock.notowner=你不是这台设备\n的主人。它属于{owner}。
+gui.railcraft.tips.button.lock.unlocked=点击来绑定设备。\n绑定后，它只接受你或者管理员的操作。
 
 gui.railcraft.track.coupler.mode.auto.coupler=自动耦合
 gui.railcraft.track.coupler.mode.coupler=耦合
@@ -649,8 +648,8 @@ gui.railcraft.tuner.start=开始配对%s到接收器
 gui.railcraft.tuner.stop=停止配对%s到接收器
 gui.railcraft.tuner.success=%1$s成功与%2$s配对
 
-gui.railcraft.turbine.output=输出:%s%%
-gui.railcraft.turbine.rotor=转子:
+gui.railcraft.turbine.output=输出：%s%%
+gui.railcraft.turbine.rotor=转子：
 gui.railcraft.turbine=蒸汽涡轮机
 
 gui.railcraft.update.message=最新版本Railcraft %s已经可用,欢迎前往<http://railcraft.info>下载.
@@ -864,53 +863,52 @@ tile.railcraft.machine.alpha.anchor.passive.name=被动锚
 tile.railcraft.machine.alpha.anchor.personal.name=个人锚
 tile.railcraft.machine.alpha.anchor.world.name=世界锚
 tile.railcraft.machine.alpha.blast.furnace.name=高炉砖
-tile.railcraft.machine.alpha.blast.furnace.tips=多方块结构:3x4x3(中空)
+tile.railcraft.machine.alpha.blast.furnace.tips=多方块结构：3x4x3（中空）
 tile.railcraft.machine.alpha.coke.oven.name=焦炉砖
-tile.railcraft.machine.alpha.coke.oven.tips=多方块结构:3x3x3(中空)
+tile.railcraft.machine.alpha.coke.oven.tips=多方块结构：3x3x3（中空）
 tile.railcraft.machine.alpha.rock.crusher.name=碎石机
-tile.railcraft.machine.alpha.rock.crusher.tips=多方块结构:3x2x2
-tile.railcraft.equipment.smoker.name=发烟器
+tile.railcraft.machine.alpha.rock.crusher.tips=多方块结构：3x2x2
 tile.railcraft.machine.alpha.steam.oven.name=蒸汽炉
-tile.railcraft.machine.alpha.steam.oven.tips=多方块结构:2x2x2
+tile.railcraft.machine.alpha.steam.oven.tips=多方块结构：2x2x2
 tile.railcraft.machine.alpha.steam.trap.auto.name=自动蒸汽陷阱
 tile.railcraft.machine.alpha.steam.trap.name=手动蒸汽陷阱
 tile.railcraft.machine.alpha.tank.water.name=蓄水器壁板
-tile.railcraft.machine.alpha.tank.water.tips=多方块结构:3x3x3(中空)
+tile.railcraft.machine.alpha.tank.water.tips=多方块结构：3x3x3（中空）
 tile.railcraft.machine.alpha.trade.station.name=贸易站
 tile.railcraft.machine.alpha.turbine.name=蒸汽涡轮机壳
-tile.railcraft.machine.alpha.turbine.tips=多方块结构:3x2x2\n用蒸汽发电\n从底部输出水\n需要一个涡轮机转子
+tile.railcraft.machine.alpha.turbine.tips=多方块结构：3x2x2\n用蒸汽发电\n从底部输出水\n需要一个涡轮机转子
 
 tile.railcraft.machine.beta.anchor.sentinel.name=拱卫之锚
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=液态燃料燃烧室
-tile.railcraft.machine.beta.boiler.firebox.liquid.tips=多方块结构:尺寸可变\n底座规格可选:1x1, 2x2, 3x3
+tile.railcraft.machine.beta.boiler.firebox.liquid.tips=多方块结构：尺寸可变\n底座规格可选：1x1, 2x2, 3x3
 tile.railcraft.machine.beta.boiler.firebox.solid.name=固态燃料燃烧室
-tile.railcraft.machine.beta.boiler.firebox.solid.tips=多方块结构:尺寸可变\n底座规格可选:1x1, 2x2, 3x3
+tile.railcraft.machine.beta.boiler.firebox.solid.tips=多方块结构：尺寸可变\n底座规格可选：1x1, 2x2, 3x3
 tile.railcraft.machine.beta.boiler.tank.pressure.high.name=高压锅炉
-tile.railcraft.machine.beta.boiler.tank.pressure.high.tips=多方块结构:尺寸可变\n燃烧室规格可选:1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n 每tick产生10mB蒸汽
+tile.railcraft.machine.beta.boiler.tank.pressure.high.tips=多方块结构：尺寸可变\n燃烧室规格可选：1x1x1、2x2x2、2x3x2、\n3x2x3、3x3x3、3x4x3\n每tick产生 20 mB 蒸汽
 tile.railcraft.machine.beta.boiler.tank.pressure.low.name=低压锅炉
-tile.railcraft.machine.beta.boiler.tank.pressure.low.tips=多方块结构:尺寸可变\n燃烧室规格可选:1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n 每tick产生20mB蒸汽
+tile.railcraft.machine.beta.boiler.tank.pressure.low.tips=多方块结构：尺寸可变\n燃烧室规格可选：1x1x1、2x2x2、2x3x2、\n3x2x3、3x3x3、3x4x3\n每tick产生 10 mB 蒸汽
 tile.railcraft.machine.beta.chest.metals.name=金属箱子
-tile.railcraft.machine.beta.chest.metals.tips=将金属浓缩成方块
+tile.railcraft.machine.beta.chest.metals.tips=将金属压缩成方块
 tile.railcraft.machine.beta.chest.void.name=虚空箱子
 tile.railcraft.machine.beta.chest.void.tips=销毁物品
 tile.railcraft.machine.beta.engine.steam.high.name=工业蒸汽引擎
-tile.railcraft.machine.beta.engine.steam.high.tips=输出为80 RF/t\n 每tick消耗40 mB蒸汽
+tile.railcraft.machine.beta.engine.steam.high.tips=输出为 80 RF/t\n 每tick消耗 40 mB 蒸汽
 tile.railcraft.machine.beta.engine.steam.hobby.name=民科蒸汽引擎
-tile.railcraft.machine.beta.engine.steam.hobby.tips=输出为20 RF/t\n 每tick消耗10 mB蒸汽
+tile.railcraft.machine.beta.engine.steam.hobby.tips=输出为 20 RF/t\n 每tick消耗 10 mB 蒸汽
 tile.railcraft.machine.beta.engine.steam.low.name=商用蒸汽引擎
-tile.railcraft.machine.beta.engine.steam.low.tips=输出为40 RF/t\n 每tick消耗20 mB蒸汽
+tile.railcraft.machine.beta.engine.steam.low.tips=输出为 40 RF/t\n 每tick消耗 20 mB 蒸汽
 tile.railcraft.machine.beta.tank.iron.gauge.name=铁质蓄水器量计
-tile.railcraft.machine.beta.tank.iron.gauge.tips=多方块结构:尺寸可变\n必须在底部两层输出液体.
+tile.railcraft.machine.beta.tank.iron.gauge.tips=多方块结构：尺寸可变\n必须在底部两层输出液体.
 tile.railcraft.machine.beta.tank.iron.valve.name=铁质蓄水器阀门
-tile.railcraft.machine.beta.tank.iron.valve.tips=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.beta.tank.iron.valve.tips=多方块结构：尺寸可变，中空\n高度可选：4、5、6、7、8\n长宽可选：3、5、7、9
 tile.railcraft.machine.beta.tank.iron.wall.name=铁质蓄水器壁板
-tile.railcraft.machine.beta.tank.iron.wall.tips=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.beta.tank.iron.wall.tips=多方块结构：尺寸可变，中空\n高度可选：4、5、6、7、8\n长宽可选：3、5、7、9
 tile.railcraft.machine.beta.tank.steel.gauge.name=钢制蓄水器量计
-tile.railcraft.machine.beta.tank.steel.gauge.tips=多方块结构:尺寸可变\n必须在底部两层输出液体.
+tile.railcraft.machine.beta.tank.steel.gauge.tips=多方块结构：尺寸可变\n必须在底部两层输出液体。
 tile.railcraft.machine.beta.tank.steel.valve.name=钢质蓄水器阀门
-tile.railcraft.machine.beta.tank.steel.valve.tips=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.beta.tank.steel.valve.tips=多方块结构：尺寸可变，中空\n高度可选：4、5、6、7、8\n长宽可选: 3、5、7、9
 tile.railcraft.machine.beta.tank.steel.wall.name=钢质蓄水器壁板
-tile.railcraft.machine.beta.tank.steel.wall.tips=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.beta.tank.steel.wall.tips=多方块结构：尺寸可变，中空\n高度可选：4、5、6、7、8\n长宽可选: 3、5、7、9
 
 tile.railcraft.machine.epsilon.admin.steam.producer.name=管理员蒸汽供给单元
 tile.railcraft.machine.epsilon.admin.steam.producer.tips=提供无限的蒸汽
@@ -920,12 +918,19 @@ tile.railcraft.machine.epsilon.flux.transformer.tips=多方块结构：2x2x2\n�
 tile.railcraft.machine.epsilon.force.track.emitter.name=轨道发射机
 tile.railcraft.machine.epsilon.force.track.emitter.tips=发射以RC电力为能量供应的镭射轨道
 
-tile.railcraft.machine.simple.feed.station.name=饲育站
-tile.railcraft.machine.simple.feed.station.desc=可用于自动喂养动物。可用红石信号关闭；附加动物密度过大时也会自动停止工作。
-tile.railcraft.machine.simple.feed.station.tips=用于喂养动物\n§o§c- 通入红石信号可关闭 -
-tile.railcraft.machine.simple.rolling.machine.name=辊压机
-tile.railcraft.machine.simple.rolling.machine.desc=可用于轧制各种形状的金属材料。可用管道等手段自动化。当材料数量只可合成一个物品时，可点击输出强制开始合成。
-tile.railcraft.machine.simple.rolling.machine.tips=加工金属用的机器
+tile.railcraft.equipment.feed.station.name=饲育站
+tile.railcraft.equipment.feed.station.desc=可用于自动喂养动物。可用红石信号关闭；附加动物密度过大时也会自动停止工作。
+tile.railcraft.equipment.feed.station.tips=用于喂养动物\n§o§c- 通入红石信号可关闭 -
+tile.railcraft.equipment.rolling.manual.name=人力辊压机
+tile.railcraft.equipment.rolling.manual.desc=可用于轧制各种形状的金属材料。当材料数量只可合成一个物品时，可点击输出强制开始合成。
+tile.railcraft.equipment.rolling.manual.tips=加工金属用的机器
+tile.railcraft.equipment.rolling.powered.name=辊压机
+tile.railcraft.equipment.rolling.powered.desc=可用于轧制各种形状的金属材料。可用管道等手段自动化。当材料数量只可合成一个物品时，可点击输出强制开始合成。
+tile.railcraft.equipment.rolling.powered.tips=加工金属用的机器
+tile.railcraft.equipment.smoker.name=发烟器
+tile.railcraft.equipment.smoker.tips=产生烟雾粒子效果。\n§o§c- 通入红石信号可关闭 -
+tile.railcraft.equipment.smoker.desc=产生烟雾粒子效果。通入红石信号可关闭该设备。
+
 
 tile.railcraft.manipulator.dispenser.cart.name=矿车分车站
 tile.railcraft.manipulator.dispenser.cart.tips=向轨道分配矿车\n§o§9- 可与控制轨道配对 -\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出矿车 -
