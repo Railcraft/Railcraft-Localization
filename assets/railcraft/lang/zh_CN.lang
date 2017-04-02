@@ -920,7 +920,7 @@ tile.railcraft.machine.epsilon.force.track.emitter.name=轨道发射机
 tile.railcraft.machine.epsilon.force.track.emitter.tips=发射以RC电力为能量供应的镭射轨道
 
 tile.railcraft.equipment.feed.station.name=饲育站
-tile.railcraft.equipment.feed.station.desc=可用于自动喂养动物。可用红石信号关闭；附加动物密度过大时也会自动停止工作。
+tile.railcraft.equipment.feed.station.desc=可用于自动喂养动物。可用红石信号关闭；附近动物密度过大时也会自动停止工作。
 tile.railcraft.equipment.feed.station.tips=用于喂养动物\n§o§c- 通入红石信号可关闭 -
 tile.railcraft.equipment.rolling.manual.name=人力辊压机
 tile.railcraft.equipment.rolling.manual.desc=可用于轧制各种形状的金属材料。当材料数量只可合成一个物品时，可点击输出强制开始合成。
@@ -975,7 +975,7 @@ tile.railcraft.ore.sulfur.name=硫磺矿石
 tile.railcraft.ore.tin.name=锡矿石
 
 tile.railcraft.ore.magic.firestone.name=火石矿石
-tile.railcraft.ore.magic.firestone.tips.name=会烧毁除了肌肉外的所有东西,\n拿着它的时候,\n周围的空气都灼热起来...
+tile.railcraft.ore.magic.firestone.tips.name=会烧毁除了肌肉外的所有东西，\n拿着它的时候，\n周围的空气都灼热起来……
 
 tile.railcraft.post.emblem.name=徽章桩
 tile.railcraft.post.metal.black.name=黑色金属桩
