@@ -864,7 +864,7 @@ tile.railcraft.machine.alpha.coke.oven.name=Kokerei
 tile.railcraft.machine.alpha.coke.oven.tips=Multiblock: 3x3x3 (Hohlraum)
 tile.railcraft.machine.alpha.rock.crusher.name=Steinbrecher
 tile.railcraft.machine.alpha.rock.crusher.tips=Multiblock: 3x2x2
-tile.railcraft.machine.alpha.smoker.name=Schornstein
+tile.railcraft.equipment.smoker.name=Schornstein
 tile.railcraft.machine.alpha.steam.oven.name=Dampfkessel
 tile.railcraft.machine.alpha.steam.oven.tips=Multiblock: 2x2x2
 tile.railcraft.machine.alpha.steam.trap.auto.name=Automatische Dampf-Falle
@@ -915,12 +915,12 @@ tile.railcraft.machine.epsilon.flux.transformer.tips=Multi-Block: 2x2x2\n Wandel
 tile.railcraft.machine.epsilon.force.track.emitter.name=Kraftfeldgleisemitter
 tile.railcraft.machine.epsilon.force.track.emitter.tips=Projeziert energiebasierte Gleise
 
-tile.railcraft.machine.simple.feed.station.name=Futterstation
-tile.railcraft.machine.simple.feed.station.desc=Ermöglicht das automatische Füttern von Tieren. Kann mit einem Redstone-Signal deaktiviert werden. Pausiert Fütterung, wenn zu viele Tiere in der Nähe sind, um Überbevölkerung zu vermeiden.
-tile.railcraft.machine.simple.feed.station.tips=Füttert Tiere\n§o§c- Mit Redstone-Signal deaktiviert -
-tile.railcraft.machine.simple.rolling.machine.name=Walzmaschine
-tile.railcraft.machine.simple.rolling.machine.desc=Maschine zum Walzen verschiedener metallener Formen. Kann durch Rohrsysteme und Ähnliches automatisiert werden. Wenn nur genug Materialien für einen Durchlauf in der Maschine vorhanden sind, kannst du zum Fertigen auf die Produktanzeige klicken.
-tile.railcraft.machine.simple.rolling.machine.tips=Ermöglicht Produktion verschiedener metallener Dinge.
+tile.railcraft.equipment.feed.station.name=Futterstation
+tile.railcraft.equipment.feed.station.desc=Ermöglicht das automatische Füttern von Tieren. Kann mit einem Redstone-Signal deaktiviert werden. Pausiert Fütterung, wenn zu viele Tiere in der Nähe sind, um Überbevölkerung zu vermeiden.
+tile.railcraft.equipment.feed.station.tips=Füttert Tiere\n§o§c- Mit Redstone-Signal deaktiviert -
+tile.railcraft.equipment.rolling.powered.name=Walzmaschine
+tile.railcraft.equipment.rolling.powered.desc=Maschine zum Walzen verschiedener metallener Formen. Kann durch Rohrsysteme und Ähnliches automatisiert werden. Wenn nur genug Materialien für einen Durchlauf in der Maschine vorhanden sind, kannst du zum Fertigen auf die Produktanzeige klicken.
+tile.railcraft.equipment.rolling.powered.tips=Ermöglicht Produktion verschiedener metallener Dinge.
 
 tile.railcraft.manipulator.dispenser.cart.name=Waggonspender
 tile.railcraft.manipulator.dispenser.cart.tips=Lädt Waggons direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Waggon mit einem Redstone-Signal auf ein Gleis -

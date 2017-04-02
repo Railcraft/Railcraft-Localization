@@ -204,10 +204,10 @@ fluid.steam=Stoom
 
 tile.railcraft.machine.alpha.blast.furnace.name=Bakstenen Hoogoven
 tile.railcraft.machine.alpha.coke.oven.name=Bakstenen Cokesoven
-tile.railcraft.machine.simple.feed.station.name=Voedingsstation
+tile.railcraft.equipment.feed.station.name=Voedingsstation
 tile.railcraft.machine.alpha.anchor.personal.name=Persoonlijk wereldanker
 tile.railcraft.machine.alpha.rock.crusher.name=Stenen Pers
-tile.railcraft.machine.simple.rolling.machine.name=Rollermachine
+tile.railcraft.equipment.rolling.powered.name=Rollermachine
 tile.railcraft.machine.alpha.tank.water.name=Watertank Versterking
 tile.railcraft.machine.alpha.turbine.name=Stoomturbine Compartiment
 tile.railcraft.machine.alpha.anchor.world.name=Wereldanker

@@ -215,10 +215,10 @@ fluid.steam=Para Wodna
 
 tile.railcraft.machine.alpha.blast.furnace.name=Cegła Pieca Hutniczego
 tile.railcraft.machine.alpha.coke.oven.name=Cegła Pieca Koksowniczego
-tile.railcraft.machine.simple.feed.station.name=Karmnik
+tile.railcraft.equipment.feed.station.name=Karmnik
 tile.railcraft.machine.alpha.anchor.personal.name=Osobista Kotwica
 tile.railcraft.machine.alpha.rock.crusher.name=Zgniatarka Skał
-tile.railcraft.machine.simple.rolling.machine.name=Maszyna do Walcowania
+tile.railcraft.equipment.rolling.powered.name=Maszyna do Walcowania
 tile.railcraft.machine.alpha.tank.water.name=Deski Zbiornika Wody
 tile.railcraft.machine.alpha.turbine.name=Obudowa Turbiny Parowej
 tile.railcraft.machine.alpha.anchor.world.name=Kotwica Swiata
