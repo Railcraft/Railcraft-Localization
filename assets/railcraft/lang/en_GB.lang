@@ -3,3 +3,44 @@
 item.railcraft.dust.sulfur.name=Sulphur
 
 tile.railcraft.ore.sulfur.name=Sulphur Ore
+
+item.railcraft.tool.crowbar.iron.name=Iron Jemmy
+item.railcraft.tool.crowbar.magic.name=Thaumium Jemmy
+item.railcraft.tool.crowbar.steel.name=Steel Jemmy
+item.railcraft.tool.crowbar.void.name=Void Metal Jemmy
+
+thaumcraft.research.RC_Crowbar.page.1=By substituting Thaumium for Steel and imbuing it with a touch of Order, you have discovered how to create a Jemmy that is far more receptive to magic.
+thaumcraft.research.RC_Crowbar_Void.page.1=Taking things one step further, you have applied your master of arcane materials to create the ultimate Jemmy.
+tile.railcraft.manipulator.dispenser.cart.tips=Dispenses Carts onto Tracks\n§o§9- Pair with Control Track -\n§o§9- Hit with Jemmy to change orientation -\n§o§c- Apply Redstone to dispense Cart -
+tile.railcraft.manipulator.dispenser.train.tips=Dispenses linked Trains onto Tracks\n§o§9- Pair with Control Track -\n§o§9- Hit with Jemmy to change orientation -\n§o§c- Apply Redstone to dispense Train -
+tile.railcraft.manipulator.loader.ic2.tips=Loads EU into Ic2 Energy Carts\n§o§9- Hit with Jemmy to change orientation -\n§o§c- Only accepts Ic2 power
+tile.railcraft.manipulator.loader.rf.tips=Loads RF into RF Carts\n§o§9- Hit with Jemmy to change orientation -\n§o§c- Only accepts RF power
+tile.railcraft.manipulator.loader.item.advanced.tips=Loads Items into Carts\n§o§9- Hit with Jemmy to change orientation -
+tile.railcraft.manipulator.unloader.ic2.tips=Unloads EU from Ic2 Energy Carts\n§o§9- Hit with Jemmy to change orientation -\n§o§c- Only emits Ic2 power
+tile.railcraft.manipulator.unloader.rf.tips=Unloads RF from RF Carts\n§o§9- Hit with Jemmy to rotate -\n§o§c- Only emits RF power
+tile.railcraft.manipulator.unloader.item.advanced.tips=Unloads Items from Carts\n§o§9- Hit with Jemmy to rotate -
+tile.railcraft.track.buffer.stop.tips=End of the Line\n§o§9- Hit with Jemmy to change direction -
+tile.railcraft.track.control.tips=Applies a small omni-directional boost\n§o§9- Hit with Jemmy to change direction -\n§o§c- Apply Redstone to change direction -
+tile.railcraft.track.coupler.tips=Couples/Decouples passing Carts\n§o§9- Hit with Jemmy to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.detector.direction.tips=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Jemmy to change direction -
+tile.railcraft.track.disembarking.tips=Dismounts riding Entities in direction of arrow\n§o§9- Hit with Jemmy to change direction -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.embarking.tips=Loads entities into Carts\n§o§9- Hit with Jemmy to change range -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.throttle.tips=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Jemmy to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.locking.tips=Stops and holds carts\n§o§9- Hit with Jemmy to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.locomotive.tips=Starts/Stops Locomotives\n§o§9- Hit with Jemmy to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.oneway.tips=Carts can only pass\n in the direction of the arrow\n§o§9- Hit with Jemmy to change direction -
+tile.railcraft.track.priming.tips=Ignites TNT Carts\n Adjustable Fuse\n§o§9- Hit with Jemmy to change fuse -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.routing.tips=Sets a passing Locomotive's Ticket\n§o§9- Hit with Jemmy to change ticket -
+tooltip.wawla.tooltype.crowbar=Jemmy
+track_kit.railcraft.railcraft_buffer.tips=End of the Line\n§o§9- Hit with Jemmy to change direction -
+track_kit.railcraft.railcraft_control.tips=Applies a small force to the cart\n§o§9- Hit with Jemmy to change direction -\n§o§c- Apply Redstone to change direction -
+track_kit.railcraft.railcraft_coupler.tips=Couples/Decouples passing Carts\n§o§9- Hit with Jemmy to change mode -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_detector.tips=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Jemmy to change detection direction -\n§o§c- Can be used to get Comparator output from carts -
+track_kit.railcraft.railcraft_disembarking.tips=Dismounts riding Entities in direction of arrow\n§o§9- Hit with Jemmy to change direction -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_embarking.tips=Loads entities into Carts\n§o§9- Hit with Jemmy to change range -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_throttle.tips=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Jemmy to change mode -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_locking.tips=Stops and holds carts\n§o§9- Hit with Jemmy to change mode -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_locomotive.tips=Starts/Stops Locomotives\n§o§9- Hit with Jemmy to change mode -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_one_way.tips=Carts can only pass\n in the direction of the arrow\n§o§9- Hit with Jemmy to change direction -
+track_kit.railcraft.railcraft_priming.tips=Ignites TNT Carts\n Adjustable Fuse\n§o§9- Hit with Jemmy to change fuse -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_routing.tips=Sets a passing Locomotive's Ticket\n§o§9- Hit with Jemmy to change ticket -
