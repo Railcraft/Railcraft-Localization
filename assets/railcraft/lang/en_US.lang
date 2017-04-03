@@ -234,12 +234,14 @@ item.railcraft.gear.bushing.name=Gear Bushing
 item.railcraft.gear.gold.plate.name=Gold-Plate Gear
 item.railcraft.gear.iron.name=Iron Gear
 item.railcraft.gear.steel.name=Steel Gear
+item.railcraft.gear.bronze.name=Bronze Gear
 
 item.railcraft.ingot.copper.name=Copper Ingot
 item.railcraft.ingot.lead.name=Lead Ingot
 item.railcraft.ingot.silver.name=Silver Ingot
 item.railcraft.ingot.steel.name=Steel Ingot
 item.railcraft.ingot.tin.name=Tin Ingot
+item.railcraft.ingot.bronze.name=Bronze Ingot
 
 item.railcraft.nugget.copper.name=Copper Nugget
 item.railcraft.nugget.iron.name=Iron Nugget
@@ -247,6 +249,7 @@ item.railcraft.nugget.lead.name=Lead Nugget
 item.railcraft.nugget.silver.name=Silver Nugget
 item.railcraft.nugget.steel.name=Steel Nugget
 item.railcraft.nugget.tin.name=Tin Nugget
+item.railcraft.nugget.bronze.name=Bronze Nugget
 
 item.railcraft.plate.copper.name=Copper Plate
 item.railcraft.plate.gold.name=Gold Plate
@@ -255,6 +258,7 @@ item.railcraft.plate.lead.name=Lead Plate
 item.railcraft.plate.silver.name=Silver Plate
 item.railcraft.plate.steel.name=Steel Plate
 item.railcraft.plate.tin.name=Tin Plate
+item.railcraft.plate.bronze.name=Bronze Plate
 
 item.railcraft.rail.advanced.name=Advanced Rail
 item.railcraft.rail.electric.name=Electric Rail
@@ -284,7 +288,7 @@ item.railcraft.tool.crowbar.iron.name=Iron Crowbar
 item.railcraft.tool.crowbar.magic.name=Thaumium Crowbar
 item.railcraft.tool.crowbar.steel.name=Steel Crowbar
 item.railcraft.tool.crowbar.tips=§oright click while sneaking to link carts
-item.railcraft.tool.crowbar.void.name=Void metal Crowbar
+item.railcraft.tool.crowbar.void.name=Void Metal Crowbar
 item.railcraft.tool.hoe.steel.name=Steel Hoe
 item.railcraft.tool.magnifying.glass.name=Magnifying Glass
 item.railcraft.tool.notepad.action.copy.fail=Nothing to copy. Not a valid target.
@@ -834,6 +838,7 @@ tile.railcraft.generic_steel.name=Block of Steel
 tile.railcraft.generic_stone_abyssal.name=Abyssal Stone
 tile.railcraft.generic_stone_quarried.name=Quarried Stone
 tile.railcraft.generic_tin.name=Block of Tin
+tile.railcraft.generic_bronze.name=Block of Bronze
 
 tile.railcraft.glass.name=Strengthened Glass
 
