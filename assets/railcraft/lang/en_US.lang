@@ -838,6 +838,7 @@ tile.railcraft.generic_steel.name=Block of Steel
 tile.railcraft.generic_stone_abyssal.name=Abyssal Stone
 tile.railcraft.generic_stone_quarried.name=Quarried Stone
 tile.railcraft.generic_tin.name=Block of Tin
+tile.railcraft.generic_bronze.name=Block of Bronze
 
 tile.railcraft.glass.name=Strengthened Glass
 
