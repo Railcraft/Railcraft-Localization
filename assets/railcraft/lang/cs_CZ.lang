@@ -774,11 +774,11 @@ tile.railcraft.ore.dark.emerald.name=Temný emeraldový kámen
 tile.railcraft.ore.dark.lapis.name=Temný lapis lazulitový kámen
 tile.railcraft.ore.firestone.name=Ruda ohnivého kamene
 tile.railcraft.ore.firestone.tips.name=Spálí všechno kromě masa,\n můžeš cítit změnu ve vzduchu\n kolem sebe, když ji budeš držet...
-tile.railcraft.ore.poor.copper.name=Chudá měděná ruda
-tile.railcraft.ore.poor.gold.name=Chudá zlatá ruda
-tile.railcraft.ore.poor.iron.name=Chudá železná ruda
-tile.railcraft.ore.poor.lead.name=Chudá olověná ruda
-tile.railcraft.ore.poor.tin.name=Chudá cínová ruda
+tile.railcraft.ore.metal.poor.copper.name=Chudá měděná ruda
+tile.railcraft.ore.metal.poor.gold.name=Chudá zlatá ruda
+tile.railcraft.ore.metal.poor.iron.name=Chudá železná ruda
+tile.railcraft.ore.metal.poor.lead.name=Chudá olověná ruda
+tile.railcraft.ore.metal.poor.tin.name=Chudá cínová ruda
 tile.railcraft.ore.saltpeter.name=Ledková ruda
 tile.railcraft.ore.sulfur.name=Sírová ruda
 

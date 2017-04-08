@@ -733,11 +733,11 @@ tile.railcraft.ore.dark.emerald.name=Dark Emerald Ore
 tile.railcraft.ore.dark.lapis.name=Dark Lapis Lazuli Ore
 tile.railcraft.ore.firestone.name=Firestone Ore
 tile.railcraft.ore.firestone.tips.name=Burning everything except flesh,\n you can feel the air change\n around you as you hold it...
-tile.railcraft.ore.poor.copper.name=Poor Copper Ore
-tile.railcraft.ore.poor.gold.name=Poor Gold Ore
-tile.railcraft.ore.poor.iron.name=Poor Iron Ore
-tile.railcraft.ore.poor.lead.name=Poor Lead Ore
-tile.railcraft.ore.poor.tin.name=Poor Tin Ore
+tile.railcraft.ore.metal.poor.copper.name=Poor Copper Ore
+tile.railcraft.ore.metal.poor.gold.name=Poor Gold Ore
+tile.railcraft.ore.metal.poor.iron.name=Poor Iron Ore
+tile.railcraft.ore.metal.poor.lead.name=Poor Lead Ore
+tile.railcraft.ore.metal.poor.tin.name=Poor Tin Ore
 tile.railcraft.ore.saltpeter.name=Saltpeter Ore
 tile.railcraft.ore.sulfur.name=Sulfur Ore
 

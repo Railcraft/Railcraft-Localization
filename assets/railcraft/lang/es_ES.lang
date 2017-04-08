@@ -727,11 +727,11 @@ tile.railcraft.ore.dark.emerald.name=Mineral de Esmeralda Oscura
 tile.railcraft.ore.dark.lapis.name=Mineral de Lapislázuli Oscuro
 tile.railcraft.ore.firestone.name=Mineral de Piedrafuego
 tile.railcraft.ore.firestone.tips.name=Quemando todo excepto carne, \n puedes sentir el aire cambiando\n a tu alrededor mientras lo sostienes...
-tile.railcraft.ore.poor.copper.name=Mineral de Cobre Pobre
-tile.railcraft.ore.poor.gold.name=Mineral del Oro Pobre
-tile.railcraft.ore.poor.iron.name=Mineral de Hierro Pobre
-tile.railcraft.ore.poor.lead.name=Mineral de Plomo Pobre
-tile.railcraft.ore.poor.tin.name=Mineral de Estaño Pobre
+tile.railcraft.ore.metal.poor.copper.name=Mineral de Cobre Pobre
+tile.railcraft.ore.metal.poor.gold.name=Mineral del Oro Pobre
+tile.railcraft.ore.metal.poor.iron.name=Mineral de Hierro Pobre
+tile.railcraft.ore.metal.poor.lead.name=Mineral de Plomo Pobre
+tile.railcraft.ore.metal.poor.tin.name=Mineral de Estaño Pobre
 tile.railcraft.ore.saltpeter.name=Mineral de Salitre
 tile.railcraft.ore.sulfur.name=Mineral de Azufre
 
