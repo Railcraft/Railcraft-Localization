@@ -230,35 +230,42 @@ item.railcraft.fluid.creosote.wax.name=Creosote Capsule
 
 item.railcraft.fuel.coke.name=Coal Coke
 
+item.railcraft.gear.bronze.name=Bronze Gear
 item.railcraft.gear.bushing.name=Gear Bushing
 item.railcraft.gear.gold.plate.name=Gold-Plate Gear
+item.railcraft.gear.invar.name=Invar Gear
 item.railcraft.gear.iron.name=Iron Gear
 item.railcraft.gear.steel.name=Steel Gear
-item.railcraft.gear.bronze.name=Bronze Gear
 
+item.railcraft.ingot.bronze.name=Bronze Ingot
 item.railcraft.ingot.copper.name=Copper Ingot
+item.railcraft.ingot.invar.name=Invar Ingot
 item.railcraft.ingot.lead.name=Lead Ingot
+item.railcraft.ingot.nickel.name=Nickel Ingot
 item.railcraft.ingot.silver.name=Silver Ingot
 item.railcraft.ingot.steel.name=Steel Ingot
 item.railcraft.ingot.tin.name=Tin Ingot
-item.railcraft.ingot.bronze.name=Bronze Ingot
 
+item.railcraft.nugget.bronze.name=Bronze Nugget
 item.railcraft.nugget.copper.name=Copper Nugget
+item.railcraft.nugget.invar.name=Invar Nugget
 item.railcraft.nugget.iron.name=Iron Nugget
 item.railcraft.nugget.lead.name=Lead Nugget
+item.railcraft.nugget.nickel.name=Nickel Nugget
 item.railcraft.nugget.silver.name=Silver Nugget
 item.railcraft.nugget.steel.name=Steel Nugget
 item.railcraft.nugget.tin.name=Tin Nugget
-item.railcraft.nugget.bronze.name=Bronze Nugget
 
+item.railcraft.plate.bronze.name=Bronze Plate
 item.railcraft.plate.copper.name=Copper Plate
 item.railcraft.plate.gold.name=Gold Plate
+item.railcraft.plate.invar.name=Invar Plate
 item.railcraft.plate.iron.name=Iron Plate
 item.railcraft.plate.lead.name=Lead Plate
+item.railcraft.plate.nickel.name=Nickel Plate
 item.railcraft.plate.silver.name=Silver Plate
 item.railcraft.plate.steel.name=Steel Plate
 item.railcraft.plate.tin.name=Tin Plate
-item.railcraft.plate.bronze.name=Bronze Plate
 
 item.railcraft.rail.advanced.name=Advanced Rail
 item.railcraft.rail.electric.name=Electric Rail
@@ -825,6 +832,7 @@ tile.railcraft.fluid.steam.name=Steam
 tile.railcraft.frame.name=Wire Support Frame
 tile.railcraft.frame.tips=Use to place Track on Shunting Wire
 
+tile.railcraft.generic_bronze.name=Block of Bronze
 tile.railcraft.generic_coke.name=Block of Coal Coke
 tile.railcraft.generic_coke.tips=32,000 Fuel Units
 tile.railcraft.generic_concrete.name=Block of Concrete
@@ -832,13 +840,14 @@ tile.railcraft.generic_copper.name=Block of Copper
 tile.railcraft.generic_creosote.name=Creosote Wood Block
 tile.railcraft.generic_crushed_obsidian.name=Crushed Obsidian
 tile.railcraft.generic_crushed_obsidian.tips=Prevents Mob Spawns
+tile.railcraft.generic_invar.name=Block of Invar
 tile.railcraft.generic_lead.name=Block of Lead
+tile.railcraft.generic_nickel.name=Block of Nickel
 tile.railcraft.generic_silver.name=Block of Silver
 tile.railcraft.generic_steel.name=Block of Steel
 tile.railcraft.generic_stone_abyssal.name=Abyssal Stone
 tile.railcraft.generic_stone_quarried.name=Quarried Stone
 tile.railcraft.generic_tin.name=Block of Tin
-tile.railcraft.generic_bronze.name=Block of Bronze
 
 tile.railcraft.glass.name=Strengthened Glass
 
@@ -970,6 +979,7 @@ tile.railcraft.ore.magic.firestone.tips.name=Burning everything except flesh,\n 
 
 tile.railcraft.ore.metal.copper.name=Copper Ore
 tile.railcraft.ore.metal.lead.name=Lead Ore
+tile.railcraft.ore.metal.nickel.name=Nickel Ore
 tile.railcraft.ore.metal.silver.name=Silver Ore
 tile.railcraft.ore.metal.tin.name=Tin Ore
 
@@ -977,6 +987,7 @@ tile.railcraft.ore.metal.poor.copper.name=Poor Copper Ore
 tile.railcraft.ore.metal.poor.gold.name=Poor Gold Ore
 tile.railcraft.ore.metal.poor.iron.name=Poor Iron Ore
 tile.railcraft.ore.metal.poor.lead.name=Poor Lead Ore
+tile.railcraft.ore.metal.poor.nickel.name=Poor Nickel Ore
 tile.railcraft.ore.metal.poor.silver.name=Poor Silver Ore
 tile.railcraft.ore.metal.poor.tin.name=Poor Tin Ore
 
