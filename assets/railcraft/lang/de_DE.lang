@@ -230,27 +230,39 @@ item.railcraft.fluid.creosote.wax.name=Teerölkapsel
 
 item.railcraft.fuel.coke.name=Koks
 
-item.railcraft.gear.bushing.name=Zinn-Zahnradbuchse
+item.railcraft.gear.bronze.name=Bronzezahnrad
+item.railcraft.gear.bushing.name=Zahnradbuchse
 item.railcraft.gear.gold.plate.name=Vergoldetes Zahnrad
+item.railcraft.gear.invar.name=Invarzahnrad
 item.railcraft.gear.iron.name=Eisenzahnrad
 item.railcraft.gear.steel.name=Stahlzahnrad
 
+item.railcraft.ingot.bronze.name=Bronzebarren
 item.railcraft.ingot.copper.name=Kupferbarren
+item.railcraft.ingot.invar.name=Invarbarren
 item.railcraft.ingot.lead.name=Bleibarren
+item.railcraft.ingot.nickel.name=Nickelbarren
 item.railcraft.ingot.silver.name=Silberbarren
 item.railcraft.ingot.steel.name=Stahlbarren
 item.railcraft.ingot.tin.name=Zinnbarren
 
+item.railcraft.nugget.bronze.name=Bronzenugget
 item.railcraft.nugget.copper.name=Kupfernugget
+item.railcraft.nugget.invar.name=Invarnugget
 item.railcraft.nugget.iron.name=Eisennugget
 item.railcraft.nugget.lead.name=Bleinugget
+item.railcraft.nugget.nickel.name=Nickelnugget
 item.railcraft.nugget.silver.name=Silbernugget
 item.railcraft.nugget.steel.name=Stahlnugget
 item.railcraft.nugget.tin.name=Zinnnugget
 
+item.railcraft.plate.bronze.name=Bronzeplatte
 item.railcraft.plate.copper.name=Kupferplatte
+item.railcraft.plate.gold.name=Goldplatte
+item.railcraft.plate.invar.name=Invarplatte
 item.railcraft.plate.iron.name=Eisenplatte
 item.railcraft.plate.lead.name=Bleiplatte
+item.railcraft.plate.nickel.name=Nickelplatte
 item.railcraft.plate.silver.name=Silberplatte
 item.railcraft.plate.steel.name=Stahlplatte
 item.railcraft.plate.tin.name=Zinnplatte
@@ -820,6 +832,7 @@ tile.railcraft.fluid.steam.name=Dampf
 tile.railcraft.frame.name=Kabelstützrahmen
 tile.railcraft.frame.tips=Verwende es, um Gleise auf Rangierkabeln zu platzieren
 
+tile.railcraft.generic_bronze.name=Bronzeblock
 tile.railcraft.generic_coke.name=Koksblock
 tile.railcraft.generic_coke.tips=32,000 Brennstoffeinheiten
 tile.railcraft.generic_concrete.name=Betonblock
@@ -827,7 +840,9 @@ tile.railcraft.generic_copper.name=Kupferblock
 tile.railcraft.generic_creosote.name=Teerölholzblock
 tile.railcraft.generic_crushed_obsidian.name=Obsidiankies
 tile.railcraft.generic_crushed_obsidian.tips=Verhindert Mob-Spawns
+tile.railcraft.generic_invar.name=Invarblock
 tile.railcraft.generic_lead.name=Bleiblock
+tile.railcraft.generic_nickel.name=Nickelblock
 tile.railcraft.generic_silver.name=Silberblock
 tile.railcraft.generic_steel.name=Stahlblock
 tile.railcraft.generic_stone_abyssal.name=Abyss-Stein
@@ -864,7 +879,6 @@ tile.railcraft.machine.alpha.coke.oven.name=Kokerei
 tile.railcraft.machine.alpha.coke.oven.tips=Multiblock: 3x3x3 (Hohlraum)
 tile.railcraft.machine.alpha.rock.crusher.name=Steinbrecher
 tile.railcraft.machine.alpha.rock.crusher.tips=Multiblock: 3x2x2
-tile.railcraft.equipment.smoker.name=Schornstein
 tile.railcraft.machine.alpha.steam.oven.name=Dampfkessel
 tile.railcraft.machine.alpha.steam.oven.tips=Multiblock: 2x2x2
 tile.railcraft.machine.alpha.steam.trap.auto.name=Automatische Dampf-Falle
@@ -918,9 +932,16 @@ tile.railcraft.machine.epsilon.force.track.emitter.tips=Projeziert energiebasier
 tile.railcraft.equipment.feed.station.name=Futterstation
 tile.railcraft.equipment.feed.station.desc=Ermöglicht das automatische Füttern von Tieren. Kann mit einem Redstone-Signal deaktiviert werden. Pausiert Fütterung, wenn zu viele Tiere in der Nähe sind, um Überbevölkerung zu vermeiden.
 tile.railcraft.equipment.feed.station.tips=Füttert Tiere\n§o§c- Mit Redstone-Signal deaktiviert -
+tile.railcraft.equipment.rolling.manual.name=Handbetriebene Walzmaschine
+tile.railcraft.equipment.rolling.manual.desc=Maschine zum Walzen verschiedener metallener Formen. Wenn nur genug Materialien für einen Durchlauf in der Maschine vorhanden sind, kannst du zum Fertigen auf die Produktanzeige klicken.
+tile.railcraft.equipment.rolling.manual.tips=Ermöglicht Produktion verschiedener metallener Dinge.
 tile.railcraft.equipment.rolling.powered.name=Walzmaschine
 tile.railcraft.equipment.rolling.powered.desc=Maschine zum Walzen verschiedener metallener Formen. Kann durch Rohrsysteme und Ähnliches automatisiert werden. Wenn nur genug Materialien für einen Durchlauf in der Maschine vorhanden sind, kannst du zum Fertigen auf die Produktanzeige klicken.
 tile.railcraft.equipment.rolling.powered.tips=Ermöglicht Produktion verschiedener metallener Dinge.
+tile.railcraft.equipment.smoker.name=Schornstein
+tile.railcraft.equipment.smoker.tips=Stößt Rauch aus\n§o§c- Mit Redstone-Signal deaktiviert -
+tile.railcraft.equipment.smoker.desc=Stößt Rauch aus. Kann mit einem Redstone-Signal deaktiviert werden.
+
 
 tile.railcraft.manipulator.dispenser.cart.name=Waggonspender
 tile.railcraft.manipulator.dispenser.cart.tips=Lädt Waggons direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Waggon mit einem Redstone-Signal auf ein Gleis -
@@ -947,24 +968,28 @@ tile.railcraft.manipulator.unloader.item.tips=Entlädt Items aus Waggons\n§o§c
 tile.railcraft.manipulator.unloader.fluid.name=Flüssigkeitsentlader
 tile.railcraft.manipulator.unloader.fluid.tips=Entlädt Flüssigkeiten aus Waggons\n§o§c- Platziere unterhalb des Gleises -
 
-tile.railcraft.ore.metal.copper.name=Kupfererz
 tile.railcraft.ore.dark.diamond.name=Dunkles Diamanterz
 tile.railcraft.ore.dark.emerald.name=Dunkles Smaragderz
 tile.railcraft.ore.dark.lapis.name=Dunkles Lapis-Lazuli-Erz
+tile.railcraft.ore.saltpeter.name=Salpetererz
+tile.railcraft.ore.sulfur.name=Schwefelerz
+
+tile.railcraft.ore.magic.firestone.name=Flammsteinerz
+tile.railcraft.ore.magic.firestone.tips.name=Verbrennt alles außer Fleisch;\n du kannst fühlen, wie sich die Luft\n um dich verändert, wenn du es hältst...
+
+tile.railcraft.ore.metal.copper.name=Kupfererz
 tile.railcraft.ore.metal.lead.name=Bleierz
+tile.railcraft.ore.metal.nickel.name=Nickelerz
+tile.railcraft.ore.metal.silver.name=Silbererz
+tile.railcraft.ore.metal.tin.name=Zinnerz
+
 tile.railcraft.ore.metal.poor.copper.name=Minderes Kupfererz
 tile.railcraft.ore.metal.poor.gold.name=Minderes Golderz
 tile.railcraft.ore.metal.poor.iron.name=Minderes Eisenerz
 tile.railcraft.ore.metal.poor.lead.name=Minderes Bleierz
+tile.railcraft.ore.metal.poor.nickel.name=Minderes Nickelerz
 tile.railcraft.ore.metal.poor.silver.name=Minderes Silbererz
 tile.railcraft.ore.metal.poor.tin.name=Minderes Zinnerz
-tile.railcraft.ore.saltpeter.name=Salpetererz
-tile.railcraft.ore.metal.silver.name=Silbererz
-tile.railcraft.ore.sulfur.name=Schwefelerz
-tile.railcraft.ore.metal.tin.name=Zinnerz
-
-tile.railcraft.ore.magic.firestone.name=Flammsteinerz
-tile.railcraft.ore.magic.firestone.tips.name=Verbrennt alles außer Fleisch;\n du kannst fühlen, wie sich die Luft\n um dich verändert, wenn du es hältst...
 
 tile.railcraft.post.emblem.name=Emblempfosten
 tile.railcraft.post.metal.black.name=Schwarzer Metallpfosten
