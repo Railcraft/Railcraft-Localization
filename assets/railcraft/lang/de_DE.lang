@@ -110,6 +110,7 @@ entity.railcraft.cart_cargo.name=Frachtwaggon
 entity.railcraft.cart_chest.name=Güterwaggon
 entity.railcraft.cart_furnace.name=Triebwagen
 entity.railcraft.cart_gift.name=Geschenkwagen
+entity.railcraft.cart_hopper.name=Trichterwaggon
 entity.railcraft.cart_ic2_batbox.name=Batbox-Waggon
 entity.railcraft.cart_ic2_cesu.name=CESU-Waggon
 entity.railcraft.cart_ic2_mfe.name=MFE-Waggon
