@@ -1163,7 +1163,7 @@ tooltip.wawla.tooltype.crowbar=Монтировка
 ######################################################################################
 
 tile.railcraft.track.flex.abandoned.name=Заброшенный путь
-tile.railcraft.track.flex.abandoned.tips=§Опасно: Риск обвала\nМожет проходить через обвалы в земле.
+tile.railcraft.track.flex.abandoned.tips=§9Опасно: Риск обвала\nМожет проходить через обвалы в земле.
 
 tile.railcraft.track.flex.electric.name=Электрифицированный путь
 tile.railcraft.track.flex.electric.tips=§9Опасно: Высокое напряжение\n §rЗапитано электричеством\n Используют электровозы\n Используйте блоки электрического питания\n Используйте шунтирующий кабель чтобы соеденить разрывы
