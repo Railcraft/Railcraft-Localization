@@ -590,7 +590,7 @@ gui.railcraft.routing.ticket.line2=前往以下目的地：
 gui.railcraft.routing.ticket.manual.title=关于黄金车票
 gui.railcraft.routing.ticket.redstone.manual.name=黄金车票是一种在任何共有/私人列车上都可以无限使用的车票，还可以用它拓印纸张来制造一次性车票。
 gui.railcraft.routing.ticket.tips.blank=空白车票
-gui.railcraft.routing.ticket.tips.dest=空白车票
+gui.railcraft.routing.ticket.tips.dest=目的地：
 gui.railcraft.routing.ticket.tips.issuer=发行人：
 gui.railcraft.routing.ticket.title=黄金车票
 
