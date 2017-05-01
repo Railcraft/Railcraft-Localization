@@ -148,12 +148,23 @@ item.railcraft.armor.overalls.name=Engineer's Overalls
 item.railcraft.armor.overalls.tips=Protection against the\n dangers of track-working
 
 item.railcraft.backpack.apothecary.t1.name=Apothecary's Backpack
+item.railcraft.backpack.apothecary.t1.desc=Extra inventory that automatically picks up potion-related items.
 item.railcraft.backpack.apothecary.t2.name=Woven Apothecary's Backpack
+item.railcraft.backpack.apothecary.t2.desc=Extra inventory that automatically picks up potion-related items.
 item.railcraft.backpack.iceman.t1.name=Iceman's Backpack
+item.railcraft.backpack.iceman.t1.desc=Extra inventory that automatically picks up snow, ice, and other related items.
 item.railcraft.backpack.iceman.t2.name=Woven Iceman's Backpack
-item.railcraft.backpack.tips=Designed by Railcraft, Inc.
+item.railcraft.backpack.iceman.t2.desc=Extra inventory that automatically picks up snow, ice, and other related items.
 item.railcraft.backpack.trackman.t1.name=Trackman's Backpack
+item.railcraft.backpack.trackman.t1.desc=Extra inventory that automatically picks up rails, carts, and other related items.
 item.railcraft.backpack.trackman.t2.name=Woven Trackman's Backpack
+item.railcraft.backpack.trackman.t2.desc=Extra inventory that automatically picks up rails, carts, and other related items.
+item.railcraft.backpack.signalman.t1.name=Signalman's Backpack
+item.railcraft.backpack.signalman.t1.desc=Extra inventory that automatically picks up signals, detectors, and other related items.
+item.railcraft.backpack.signalman.t2.name=Woven Signalman's Backpack
+item.railcraft.backpack.signalman.t2.desc=Extra inventory that automatically picks up signals, detectors, and other related items.
+
+item.railcraft.backpack.tips=Designed by Railcraft, Inc.
 
 item.railcraft.bleached.clay.name=Bleached Clay
 
