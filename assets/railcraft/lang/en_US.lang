@@ -493,6 +493,7 @@ gui.railcraft.filters=Filters
 
 gui.railcraft.goggles.aura.anchor=Anchor
 gui.railcraft.goggles.aura.none=None
+gui.railcraft.goggles.aura.shunting=Shunting
 gui.railcraft.goggles.aura.signalling=Signalling
 gui.railcraft.goggles.aura.surveying=Surveying
 gui.railcraft.goggles.aura.tracking=Tracking
