@@ -493,6 +493,7 @@ gui.railcraft.filters=过滤
 
 gui.railcraft.goggles.aura.anchor=锚
 gui.railcraft.goggles.aura.none=无
+gui.railcraft.goggles.aura.shunting=调车
 gui.railcraft.goggles.aura.signalling=信号
 gui.railcraft.goggles.aura.surveying=检测
 gui.railcraft.goggles.aura.tracking=踪迹
