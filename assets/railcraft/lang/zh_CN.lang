@@ -231,13 +231,14 @@ item.railcraft.fluid.creosote.wax.name=杂酚油蜡胶囊
 
 item.railcraft.fuel.coke.name=焦煤
 
+item.railcraft.gear.brass.name=黄铜齿轮
 item.railcraft.gear.bronze.name=青铜齿轮
 item.railcraft.gear.bushing.name=齿轮轴套
-item.railcraft.gear.gold.plate.name=金板齿轮
 item.railcraft.gear.invar.name=殷钢齿轮
 item.railcraft.gear.iron.name=铁齿轮
 item.railcraft.gear.steel.name=钢齿轮
 
+item.railcraft.ingot.brass.name=黄铜锭
 item.railcraft.ingot.bronze.name=青铜锭
 item.railcraft.ingot.copper.name=铜锭
 item.railcraft.ingot.invar.name=殷钢锭
@@ -246,7 +247,9 @@ item.railcraft.ingot.nickel.name=镍锭
 item.railcraft.ingot.silver.name=银锭
 item.railcraft.ingot.steel.name=钢锭
 item.railcraft.ingot.tin.name=锡锭
+item.railcraft.ingot.zinc.name=锌锭
 
+item.railcraft.nugget.brass.name=黄铜粒
 item.railcraft.nugget.bronze.name=青铜粒
 item.railcraft.nugget.copper.name=铜粒
 item.railcraft.nugget.invar.name=殷钢粒
@@ -256,7 +259,9 @@ item.railcraft.nugget.nickel.name=镍粒
 item.railcraft.nugget.silver.name=银粒
 item.railcraft.nugget.steel.name=钢粒
 item.railcraft.nugget.tin.name=锡粒
+item.railcraft.nugget.zinc.name=锌粒
 
+item.railcraft.plate.brass.name=黄铜板
 item.railcraft.plate.bronze.name=青铜板
 item.railcraft.plate.copper.name=铜板
 item.railcraft.plate.gold.name=金板
@@ -267,6 +272,7 @@ item.railcraft.plate.nickel.name=镍板
 item.railcraft.plate.silver.name=银板
 item.railcraft.plate.steel.name=钢板
 item.railcraft.plate.tin.name=锡板
+item.railcraft.plate.zinc.name=锌板
 
 item.railcraft.rail.advanced.name=高级导轨
 item.railcraft.rail.electric.name=电力导轨
@@ -834,6 +840,7 @@ tile.railcraft.fluid.steam.name=蒸汽
 tile.railcraft.frame.name=线缆支撑框架
 tile.railcraft.frame.tips=用于将轨道放置在分路线缆上
 
+tile.railcraft.generic_brass.name=黄铜块
 tile.railcraft.generic_bronze.name=青铜块
 tile.railcraft.generic_coke.name=焦煤方块
 tile.railcraft.generic_coke.tips=32,000燃料单位
@@ -850,6 +857,7 @@ tile.railcraft.generic_steel.name=钢块
 tile.railcraft.generic_stone_abyssal.name=深渊砖块
 tile.railcraft.generic_stone_quarried.name=采掘砖块
 tile.railcraft.generic_tin.name=锡块
+tile.railcraft.generic_zinc.name=锌块
 
 tile.railcraft.glass.name=强化玻璃
 
