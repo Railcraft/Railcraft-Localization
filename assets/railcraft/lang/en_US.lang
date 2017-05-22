@@ -709,6 +709,19 @@ tile.railcraft.actuator.motor.tips=Controls adjacent Switch Tracks\n§o§9Aerial
 tile.railcraft.actuator.routing.name=Routing Switch Actuator Motor
 tile.railcraft.actuator.routing.tips=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
 
+tile.railcraft.anchor.admin.desc=Loads a 3x3 area of chunks at world load and keeps them loaded. Cannot be crafted and never requires fuel.
+tile.railcraft.anchor.admin.name=Admin Anchor
+tile.railcraft.anchor.admin.tips=Chunkloader\n§o§c- Redstone will disable -
+tile.railcraft.anchor.passive.desc=Keeps a 3x3 area of chunks loaded, but will not load them at world load. May require fuel depending on config settings.
+tile.railcraft.anchor.passive.name=Passive Anchor
+tile.railcraft.anchor.passive.tips=Chunkloader\n§o§c- Redstone will disable -
+tile.railcraft.anchor.personal.desc=Keeps a 3x3 area of chunks loaded, but will not load them at world load. Additionally it stops keeping them loaded when the owner logs off, however other things make continue to keep the chunks active anyway. May require fuel depending on config settings.
+tile.railcraft.anchor.personal.name=Personal Anchor
+tile.railcraft.anchor.personal.tips=Chunkloader\n§o§c- Redstone will disable -
+tile.railcraft.anchor.world.desc=Loads a 3x3 area of chunks at world load and keeps them loaded. May require fuel depending on config settings.
+tile.railcraft.anchor.world.name=World Anchor
+tile.railcraft.anchor.world.tips=Chunkloader\n§o§c- Redstone will disable -
+
 tile.railcraft.anvil.intact.name=Steel Anvil
 tile.railcraft.anvil.slightlyDamaged.name=Slightly Damaged Steel Anvil
 tile.railcraft.anvil.veryDamaged.name=Very Damaged Steel Anvil
@@ -879,10 +892,6 @@ tile.railcraft.lantern.stone.sandstone.name=Sandstone Lantern
 tile.railcraft.lantern.stone.sandy.name=Sandy Stone Lantern
 tile.railcraft.lantern.stone.stone.name=Stone Lantern
 
-tile.railcraft.machine.alpha.anchor.admin.name=Admin Anchor
-tile.railcraft.machine.alpha.anchor.passive.name=Passive Anchor
-tile.railcraft.machine.alpha.anchor.personal.name=Personal Anchor
-tile.railcraft.machine.alpha.anchor.world.name=World Anchor
 tile.railcraft.machine.alpha.blast.furnace.name=Blast Furnace Brick
 tile.railcraft.machine.alpha.blast.furnace.tips=Multi-Block: 3x4x3 (Hollow)
 tile.railcraft.machine.alpha.coke.oven.name=Coke Oven Brick

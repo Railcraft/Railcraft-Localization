@@ -632,9 +632,9 @@ tile.railcraft.frame.tips=Úsalo para poner vías sobre el cable
 
 tile.railcraft.glass.name=Vidrio Endurecido
 
-tile.railcraft.machine.alpha.anchor.admin.name=Ancla de Administrador
-tile.railcraft.machine.alpha.anchor.personal.name=Ancla Personal
-tile.railcraft.machine.alpha.anchor.world.name=Ancla de Mundo
+tile.railcraft.anchor.admin.name=Ancla de Administrador
+tile.railcraft.anchor.personal.name=Ancla Personal
+tile.railcraft.anchor.world.name=Ancla de Mundo
 tile.railcraft.machine.alpha.blast.furnace.name=Ladrillos de Alto Horno
 tile.railcraft.machine.alpha.blast.furnace.tips=Multi-Bloque: 3x4x3 (Hueco)
 tile.railcraft.machine.alpha.coke.oven.name=Ladrillos para Horno de Fuel

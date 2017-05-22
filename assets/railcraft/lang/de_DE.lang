@@ -870,10 +870,10 @@ tile.railcraft.lantern.stone.sandstone.name=Sandsteinlaterne
 tile.railcraft.lantern.stone.sandy.name=Sandige Steinlaterne
 tile.railcraft.lantern.stone.stone.name=Steinlaterne
 
-tile.railcraft.machine.alpha.anchor.admin.name=Admin-Anker
-tile.railcraft.machine.alpha.anchor.passive.name=Passivanker
-tile.railcraft.machine.alpha.anchor.personal.name=Persönlicher Anker
-tile.railcraft.machine.alpha.anchor.world.name=Weltanker
+tile.railcraft.anchor.admin.name=Admin-Anker
+tile.railcraft.anchor.passive.name=Passivanker
+tile.railcraft.anchor.personal.name=Persönlicher Anker
+tile.railcraft.anchor.world.name=Weltanker
 tile.railcraft.machine.alpha.blast.furnace.name=Hochofenziegel
 tile.railcraft.machine.alpha.blast.furnace.tips=Multiblock: 3x4x3 (Hohlraum)
 tile.railcraft.machine.alpha.coke.oven.name=Kokerei

@@ -431,9 +431,9 @@ keybind.railcraft.loco.whistle=Locomotive Whistle Key
 railcraft.locomotive.model.steam.solid.default.name=Default Solid
 railcraft.locomotive.model.steam.magic.default.name=Default Magic
 
-tile.railcraft.machine.alpha.anchor.admin.name=Admin Anker
-tile.railcraft.machine.alpha.anchor.personal.name=Personlig Anker
-tile.railcraft.machine.alpha.anchor.world.name=Verdens Anker
+tile.railcraft.anchor.admin.name=Admin Anker
+tile.railcraft.anchor.personal.name=Personlig Anker
+tile.railcraft.anchor.world.name=Verdens Anker
 tile.railcraft.machine.alpha.blast.furnace.name=Masovnmurstein
 tile.railcraft.machine.alpha.coke.oven.name=Koksovnsmurstein
 tile.railcraft.machine.epsilon.engraving.bench.name=Engraving Bench

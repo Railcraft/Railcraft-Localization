@@ -216,12 +216,12 @@ fluid.steam=Para Wodna
 tile.railcraft.machine.alpha.blast.furnace.name=Cegła Pieca Hutniczego
 tile.railcraft.machine.alpha.coke.oven.name=Cegła Pieca Koksowniczego
 tile.railcraft.equipment.feed.station.name=Karmnik
-tile.railcraft.machine.alpha.anchor.personal.name=Osobista Kotwica
+tile.railcraft.anchor.personal.name=Osobista Kotwica
 tile.railcraft.machine.alpha.rock.crusher.name=Zgniatarka Skał
 tile.railcraft.equipment.rolling.powered.name=Maszyna do Walcowania
 tile.railcraft.machine.alpha.tank.water.name=Deski Zbiornika Wody
 tile.railcraft.machine.alpha.turbine.name=Obudowa Turbiny Parowej
-tile.railcraft.machine.alpha.anchor.world.name=Kotwica Swiata
+tile.railcraft.anchor.world.name=Kotwica Swiata
 
 tile.railcraft.machine.beta.anchor.sentinel.name=Słup Kotwica
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Palenisko Na Płyn

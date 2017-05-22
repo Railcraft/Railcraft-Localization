@@ -353,9 +353,9 @@ item.railcraft.fluid.creosote.refactory.name=Capsula di creosoto
 item.railcraft.fluid.creosote.wax.name=Capsula di creosoto
 fluid.steam=Vapore
 
-tile.railcraft.machine.alpha.anchor.admin.name=Ancora dell'amministratore
-tile.railcraft.machine.alpha.anchor.personal.name=Ancora personale
-tile.railcraft.machine.alpha.anchor.world.name=Ancora del mondo
+tile.railcraft.anchor.admin.name=Ancora dell'amministratore
+tile.railcraft.anchor.personal.name=Ancora personale
+tile.railcraft.anchor.world.name=Ancora del mondo
 tile.railcraft.machine.alpha.blast.furnace.name=Mattone dell'alto forno
 tile.railcraft.machine.alpha.coke.oven.name=Mattone del forno per carburante
 tile.railcraft.equipment.feed.station.name=Mangiatoia

@@ -250,9 +250,9 @@ item.railcraft.fluid.creosote.refactory.name=Kapsula Kreozota
 item.railcraft.fluid.creosote.wax.name=Kapsula Kreozota
 fluid.steam=Para
 
-tile.railcraft.machine.alpha.anchor.admin.name=Adminovo Sidro
-tile.railcraft.machine.alpha.anchor.personal.name=Osobno Sidro
-tile.railcraft.machine.alpha.anchor.world.name=Svijetsko Sidro
+tile.railcraft.anchor.admin.name=Adminovo Sidro
+tile.railcraft.anchor.personal.name=Osobno Sidro
+tile.railcraft.anchor.world.name=Svijetsko Sidro
 tile.railcraft.machine.alpha.blast.furnace.name=Cigla Eksplozivne Peći
 tile.railcraft.machine.alpha.coke.oven.name=Cigla Koksne Peći
 tile.railcraft.equipment.feed.station.name=Stanica za Utovar

@@ -352,9 +352,9 @@ item.railcraft.fluid.creosote.refactory.name=크레오소트 캡슐
 item.railcraft.fluid.creosote.wax.name=크레오소트 캡슐
 fluid.steam=증기
 
-tile.railcraft.machine.alpha.anchor.admin.name=관리자 앵커
-tile.railcraft.machine.alpha.anchor.personal.name=개인 앵커
-tile.railcraft.machine.alpha.anchor.world.name=세계 앵커
+tile.railcraft.anchor.admin.name=관리자 앵커
+tile.railcraft.anchor.personal.name=개인 앵커
+tile.railcraft.anchor.world.name=세계 앵커
 tile.railcraft.machine.alpha.blast.furnace.name=고로 블록
 tile.railcraft.machine.alpha.coke.oven.name=코크스 화로 블록
 tile.railcraft.equipment.feed.station.name=먹이통

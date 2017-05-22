@@ -879,10 +879,10 @@ tile.railcraft.lantern.stone.sandstone.name=沙石灯
 tile.railcraft.lantern.stone.sandy.name=沙岩石灯
 tile.railcraft.lantern.stone.stone.name=石灯
 
-tile.railcraft.machine.alpha.anchor.admin.name=管理员锚
-tile.railcraft.machine.alpha.anchor.passive.name=被动锚
-tile.railcraft.machine.alpha.anchor.personal.name=个人锚
-tile.railcraft.machine.alpha.anchor.world.name=世界锚
+tile.railcraft.anchor.admin.name=管理员锚
+tile.railcraft.anchor.passive.name=被动锚
+tile.railcraft.anchor.personal.name=个人锚
+tile.railcraft.anchor.world.name=世界锚
 tile.railcraft.machine.alpha.blast.furnace.name=高炉砖
 tile.railcraft.machine.alpha.blast.furnace.tips=多方块结构：3x4x3（中空）
 tile.railcraft.machine.alpha.coke.oven.name=焦炉砖
