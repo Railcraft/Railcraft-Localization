@@ -98,7 +98,7 @@ death.railcraft.train.5=%s买了一张通向来生的单程票.
 death.railcraft.train.6=%s应该穿上背带裤.
 
 enchantment.railcraft.destruction=拆除
-enchantment.railcraft.implosion=防爆
+enchantment.railcraft.implosion=克爆
 enchantment.railcraft.wrecking=破击
 
 entity.railcraft.cart_anchor_admin.name=管理员锚车
