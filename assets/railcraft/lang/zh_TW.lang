@@ -778,10 +778,10 @@ tile.railcraft.lantern.stone.sandstone.name=砂岩石燈
 tile.railcraft.lantern.stone.sandy.name=砂石製燈
 tile.railcraft.lantern.stone.stone.name=石燈
 
-tile.railcraft.machine.alpha.anchor.admin.name=管理錨
-tile.railcraft.machine.alpha.anchor.passive.name=被動錨
-tile.railcraft.machine.alpha.anchor.personal.name=私人錨
-tile.railcraft.machine.alpha.anchor.world.name=世界錨
+tile.railcraft.anchor.admin.name=管理錨
+tile.railcraft.anchor.passive.name=被動錨
+tile.railcraft.anchor.personal.name=私人錨
+tile.railcraft.anchor.world.name=世界錨
 tile.railcraft.machine.alpha.blast.furnace.name=鼓風爐磚
 tile.railcraft.machine.alpha.blast.furnace.tips=多重方塊: 3x4x3 (中空)
 tile.railcraft.machine.alpha.coke.oven.name=焦炭爐磚

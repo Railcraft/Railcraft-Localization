@@ -776,10 +776,10 @@ tile.railcraft.lantern.stone.sandstone.name=sandsteen Lantern
 tile.railcraft.lantern.stone.sandy.name=Sandy Stone Lantern
 tile.railcraft.lantern.stone.stone.name=Stone Lantern
 
-tile.railcraft.machine.alpha.anchor.admin.name=Admin Anker
-tile.railcraft.machine.alpha.anchor.passive.name=Passiewe Anker
-tile.railcraft.machine.alpha.anchor.personal.name=Persoonlike Anker
-tile.railcraft.machine.alpha.anchor.world.name=Wêreld Anker
+tile.railcraft.anchor.admin.name=Admin Anker
+tile.railcraft.anchor.passive.name=Passiewe Anker
+tile.railcraft.anchor.personal.name=Persoonlike Anker
+tile.railcraft.anchor.world.name=Wêreld Anker
 tile.railcraft.machine.alpha.blast.furnace.name=Blast Furnace baksteen
 tile.railcraft.machine.alpha.blast.furnace.tips=Multi-Blok: 3x4x3 (hol)
 tile.railcraft.machine.alpha.coke.oven.name=Baksteen oond Coke

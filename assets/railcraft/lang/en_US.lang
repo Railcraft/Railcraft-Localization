@@ -1,4 +1,4 @@
-﻿chat.railcraft.api.error=Error: Outdated API, please check your log for more info.
+chat.railcraft.api.error=Error: Outdated API, please check your log for more info.
 
 command.railcraft.aliases=Aliases: %s
 command.railcraft.help=Type '%s' for help.
@@ -231,13 +231,14 @@ item.railcraft.fluid.creosote.wax.name=Creosote Capsule
 
 item.railcraft.fuel.coke.name=Coal Coke
 
+item.railcraft.gear.brass.name=Brass Gear
 item.railcraft.gear.bronze.name=Bronze Gear
 item.railcraft.gear.bushing.name=Gear Bushing
-item.railcraft.gear.gold.plate.name=Gold-Plate Gear
 item.railcraft.gear.invar.name=Invar Gear
 item.railcraft.gear.iron.name=Iron Gear
 item.railcraft.gear.steel.name=Steel Gear
 
+item.railcraft.ingot.brass.name=Brass Ingot
 item.railcraft.ingot.bronze.name=Bronze Ingot
 item.railcraft.ingot.copper.name=Copper Ingot
 item.railcraft.ingot.invar.name=Invar Ingot
@@ -246,7 +247,9 @@ item.railcraft.ingot.nickel.name=Nickel Ingot
 item.railcraft.ingot.silver.name=Silver Ingot
 item.railcraft.ingot.steel.name=Steel Ingot
 item.railcraft.ingot.tin.name=Tin Ingot
+item.railcraft.ingot.zinc.name=Zinc Ingot
 
+item.railcraft.nugget.brass.name=Brass Nugget
 item.railcraft.nugget.bronze.name=Bronze Nugget
 item.railcraft.nugget.copper.name=Copper Nugget
 item.railcraft.nugget.invar.name=Invar Nugget
@@ -256,7 +259,9 @@ item.railcraft.nugget.nickel.name=Nickel Nugget
 item.railcraft.nugget.silver.name=Silver Nugget
 item.railcraft.nugget.steel.name=Steel Nugget
 item.railcraft.nugget.tin.name=Tin Nugget
+item.railcraft.nugget.zinc.name=Zinc Nugget
 
+item.railcraft.plate.brass.name=Brass Plate
 item.railcraft.plate.bronze.name=Bronze Plate
 item.railcraft.plate.copper.name=Copper Plate
 item.railcraft.plate.gold.name=Gold Plate
@@ -267,6 +272,7 @@ item.railcraft.plate.nickel.name=Nickel Plate
 item.railcraft.plate.silver.name=Silver Plate
 item.railcraft.plate.steel.name=Steel Plate
 item.railcraft.plate.tin.name=Tin Plate
+item.railcraft.plate.zinc.name=Zinc Plate
 
 item.railcraft.rail.advanced.name=Advanced Rail
 item.railcraft.rail.electric.name=Electric Rail
@@ -493,6 +499,7 @@ gui.railcraft.filters=Filters
 
 gui.railcraft.goggles.aura.anchor=Anchor
 gui.railcraft.goggles.aura.none=None
+gui.railcraft.goggles.aura.shunting=Shunting
 gui.railcraft.goggles.aura.signalling=Signalling
 gui.railcraft.goggles.aura.surveying=Surveying
 gui.railcraft.goggles.aura.tracking=Tracking
@@ -702,6 +709,19 @@ tile.railcraft.actuator.motor.tips=Controls adjacent Switch Tracks\n§o§9Aerial
 tile.railcraft.actuator.routing.name=Routing Switch Actuator Motor
 tile.railcraft.actuator.routing.tips=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
 
+tile.railcraft.anchor.admin.desc=Loads a 3x3 area of chunks at world load and keeps them loaded. Cannot be crafted and never requires fuel.
+tile.railcraft.anchor.admin.name=Admin Anchor
+tile.railcraft.anchor.admin.tips=Chunkloader\n§o§c- Redstone will disable -
+tile.railcraft.anchor.passive.desc=Keeps a 3x3 area of chunks loaded, but will not load them at world load. May require fuel depending on config settings.
+tile.railcraft.anchor.passive.name=Passive Anchor
+tile.railcraft.anchor.passive.tips=Chunkloader\n§o§c- Redstone will disable -
+tile.railcraft.anchor.personal.desc=Keeps a 3x3 area of chunks loaded, but will not load them at world load. Additionally it stops keeping them loaded when the owner logs off, however other things make continue to keep the chunks active anyway. May require fuel depending on config settings.
+tile.railcraft.anchor.personal.name=Personal Anchor
+tile.railcraft.anchor.personal.tips=Chunkloader\n§o§c- Redstone will disable -
+tile.railcraft.anchor.world.desc=Loads a 3x3 area of chunks at world load and keeps them loaded. May require fuel depending on config settings.
+tile.railcraft.anchor.world.name=World Anchor
+tile.railcraft.anchor.world.tips=Chunkloader\n§o§c- Redstone will disable -
+
 tile.railcraft.anvil.intact.name=Steel Anvil
 tile.railcraft.anvil.slightlyDamaged.name=Slightly Damaged Steel Anvil
 tile.railcraft.anvil.veryDamaged.name=Very Damaged Steel Anvil
@@ -833,6 +853,7 @@ tile.railcraft.fluid.steam.name=Steam
 tile.railcraft.frame.name=Wire Support Frame
 tile.railcraft.frame.tips=Use to place Track on Shunting Wire
 
+tile.railcraft.generic_brass.name=Block of Brass
 tile.railcraft.generic_bronze.name=Block of Bronze
 tile.railcraft.generic_coke.name=Block of Coal Coke
 tile.railcraft.generic_coke.tips=32,000 Fuel Units
@@ -849,6 +870,7 @@ tile.railcraft.generic_steel.name=Block of Steel
 tile.railcraft.generic_stone_abyssal.name=Abyssal Stone
 tile.railcraft.generic_stone_quarried.name=Quarried Stone
 tile.railcraft.generic_tin.name=Block of Tin
+tile.railcraft.generic_zinc.name=Block of Zinc
 
 tile.railcraft.glass.name=Strengthened Glass
 
@@ -870,10 +892,6 @@ tile.railcraft.lantern.stone.sandstone.name=Sandstone Lantern
 tile.railcraft.lantern.stone.sandy.name=Sandy Stone Lantern
 tile.railcraft.lantern.stone.stone.name=Stone Lantern
 
-tile.railcraft.machine.alpha.anchor.admin.name=Admin Anchor
-tile.railcraft.machine.alpha.anchor.passive.name=Passive Anchor
-tile.railcraft.machine.alpha.anchor.personal.name=Personal Anchor
-tile.railcraft.machine.alpha.anchor.world.name=World Anchor
 tile.railcraft.machine.alpha.blast.furnace.name=Blast Furnace Brick
 tile.railcraft.machine.alpha.blast.furnace.tips=Multi-Block: 3x4x3 (Hollow)
 tile.railcraft.machine.alpha.coke.oven.name=Coke Oven Brick

@@ -775,10 +775,10 @@ tile.railcraft.lantern.stone.sandstone.name=Фонарь из песчаника
 tile.railcraft.lantern.stone.sandy.name=Фонарь из песчаного камня
 tile.railcraft.lantern.stone.stone.name=Фонарь из камня
 
-tile.railcraft.machine.alpha.anchor.admin.name=Якорь администратора
-tile.railcraft.machine.alpha.anchor.passive.name=Пассивный якорь
-tile.railcraft.machine.alpha.anchor.personal.name=Личный якорь
-tile.railcraft.machine.alpha.anchor.world.name=Мировой якорь
+tile.railcraft.anchor.admin.name=Якорь администратора
+tile.railcraft.anchor.passive.name=Пассивный якорь
+tile.railcraft.anchor.personal.name=Личный якорь
+tile.railcraft.anchor.world.name=Мировой якорь
 tile.railcraft.machine.alpha.blast.furnace.name=Доменный кирпич
 tile.railcraft.machine.alpha.blast.furnace.tip=Мульти-блок: 3x4x3 (Полый)
 tile.railcraft.machine.alpha.coke.oven.name=Кирпич коксовой печи
@@ -1163,7 +1163,7 @@ tooltip.wawla.tooltype.crowbar=Монтировка
 ######################################################################################
 
 tile.railcraft.track.flex.abandoned.name=Заброшенный путь
-tile.railcraft.track.flex.abandoned.tips=§Опасно: Риск обвала\nМожет проходить через обвалы в земле.
+tile.railcraft.track.flex.abandoned.tips=§9Опасно: Риск обвала\nМожет проходить через обвалы в земле.
 
 tile.railcraft.track.flex.electric.name=Электрифицированный путь
 tile.railcraft.track.flex.electric.tips=§9Опасно: Высокое напряжение\n §rЗапитано электричеством\n Используют электровозы\n Используйте блоки электрического питания\n Используйте шунтирующий кабель чтобы соеденить разрывы

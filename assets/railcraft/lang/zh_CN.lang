@@ -98,7 +98,7 @@ death.railcraft.train.5=%s买了一张通向来生的单程票.
 death.railcraft.train.6=%s应该穿上背带裤.
 
 enchantment.railcraft.destruction=拆除
-enchantment.railcraft.implosion=防爆
+enchantment.railcraft.implosion=克爆
 enchantment.railcraft.wrecking=破击
 
 entity.railcraft.cart_anchor_admin.name=管理员锚车
@@ -231,13 +231,14 @@ item.railcraft.fluid.creosote.wax.name=杂酚油蜡胶囊
 
 item.railcraft.fuel.coke.name=焦煤
 
+item.railcraft.gear.brass.name=黄铜齿轮
 item.railcraft.gear.bronze.name=青铜齿轮
 item.railcraft.gear.bushing.name=齿轮轴套
-item.railcraft.gear.gold.plate.name=金板齿轮
 item.railcraft.gear.invar.name=殷钢齿轮
 item.railcraft.gear.iron.name=铁齿轮
 item.railcraft.gear.steel.name=钢齿轮
 
+item.railcraft.ingot.brass.name=黄铜锭
 item.railcraft.ingot.bronze.name=青铜锭
 item.railcraft.ingot.copper.name=铜锭
 item.railcraft.ingot.invar.name=殷钢锭
@@ -246,7 +247,9 @@ item.railcraft.ingot.nickel.name=镍锭
 item.railcraft.ingot.silver.name=银锭
 item.railcraft.ingot.steel.name=钢锭
 item.railcraft.ingot.tin.name=锡锭
+item.railcraft.ingot.zinc.name=锌锭
 
+item.railcraft.nugget.brass.name=黄铜粒
 item.railcraft.nugget.bronze.name=青铜粒
 item.railcraft.nugget.copper.name=铜粒
 item.railcraft.nugget.invar.name=殷钢粒
@@ -256,7 +259,9 @@ item.railcraft.nugget.nickel.name=镍粒
 item.railcraft.nugget.silver.name=银粒
 item.railcraft.nugget.steel.name=钢粒
 item.railcraft.nugget.tin.name=锡粒
+item.railcraft.nugget.zinc.name=锌粒
 
+item.railcraft.plate.brass.name=黄铜板
 item.railcraft.plate.bronze.name=青铜板
 item.railcraft.plate.copper.name=铜板
 item.railcraft.plate.gold.name=金板
@@ -267,6 +272,7 @@ item.railcraft.plate.nickel.name=镍板
 item.railcraft.plate.silver.name=银板
 item.railcraft.plate.steel.name=钢板
 item.railcraft.plate.tin.name=锡板
+item.railcraft.plate.zinc.name=锌板
 
 item.railcraft.rail.advanced.name=高级导轨
 item.railcraft.rail.electric.name=电力导轨
@@ -493,6 +499,7 @@ gui.railcraft.filters=过滤
 
 gui.railcraft.goggles.aura.anchor=锚
 gui.railcraft.goggles.aura.none=无
+gui.railcraft.goggles.aura.shunting=调车
 gui.railcraft.goggles.aura.signalling=信号
 gui.railcraft.goggles.aura.surveying=检测
 gui.railcraft.goggles.aura.tracking=踪迹
@@ -590,7 +597,7 @@ gui.railcraft.routing.ticket.line2=前往以下目的地：
 gui.railcraft.routing.ticket.manual.title=关于黄金车票
 gui.railcraft.routing.ticket.redstone.manual.name=黄金车票是一种在任何共有/私人列车上都可以无限使用的车票，还可以用它拓印纸张来制造一次性车票。
 gui.railcraft.routing.ticket.tips.blank=空白车票
-gui.railcraft.routing.ticket.tips.dest=空白车票
+gui.railcraft.routing.ticket.tips.dest=目的地：
 gui.railcraft.routing.ticket.tips.issuer=发行人：
 gui.railcraft.routing.ticket.title=黄金车票
 
@@ -833,6 +840,7 @@ tile.railcraft.fluid.steam.name=蒸汽
 tile.railcraft.frame.name=线缆支撑框架
 tile.railcraft.frame.tips=用于将轨道放置在分路线缆上
 
+tile.railcraft.generic_brass.name=黄铜块
 tile.railcraft.generic_bronze.name=青铜块
 tile.railcraft.generic_coke.name=焦煤方块
 tile.railcraft.generic_coke.tips=32,000燃料单位
@@ -849,6 +857,7 @@ tile.railcraft.generic_steel.name=钢块
 tile.railcraft.generic_stone_abyssal.name=深渊砖块
 tile.railcraft.generic_stone_quarried.name=采掘砖块
 tile.railcraft.generic_tin.name=锡块
+tile.railcraft.generic_zinc.name=锌块
 
 tile.railcraft.glass.name=强化玻璃
 
@@ -870,10 +879,10 @@ tile.railcraft.lantern.stone.sandstone.name=沙石灯
 tile.railcraft.lantern.stone.sandy.name=沙岩石灯
 tile.railcraft.lantern.stone.stone.name=石灯
 
-tile.railcraft.machine.alpha.anchor.admin.name=管理员锚
-tile.railcraft.machine.alpha.anchor.passive.name=被动锚
-tile.railcraft.machine.alpha.anchor.personal.name=个人锚
-tile.railcraft.machine.alpha.anchor.world.name=世界锚
+tile.railcraft.anchor.admin.name=管理员锚
+tile.railcraft.anchor.passive.name=被动锚
+tile.railcraft.anchor.personal.name=个人锚
+tile.railcraft.anchor.world.name=世界锚
 tile.railcraft.machine.alpha.blast.furnace.name=高炉砖
 tile.railcraft.machine.alpha.blast.furnace.tips=多方块结构：3x4x3（中空）
 tile.railcraft.machine.alpha.coke.oven.name=焦炉砖
