@@ -17,6 +17,6 @@ You may notice some translation entries have strange characters such as "@s" or 
 More information can be found [here](http://docs.oracle.com/javase/8/docs/api/java/util/Formatter.html).
 
 ### Minecraft Formatting Tags
-You may also notice some stuff like "�r" or "�5". These are Minecraft Formatting Tags and are generally used to set the text color and italicize/bold pieces of text.
+You may also notice some stuff like "§r" or "§5". These are Minecraft Formatting Tags and are generally used to set the text color and italicize/bold pieces of text.
 
 More information can be found [here](http://minecraft.gamepedia.com/Formatting_codes).
