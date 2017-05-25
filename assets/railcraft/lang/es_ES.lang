@@ -45,9 +45,9 @@ enchantment.railcraft.destruction=Destrucción
 enchantment.railcraft.implosion=Implosión
 enchantment.railcraft.wrecking=Destrozar
 
-entity.railcraft.cart_anchor_admin.name=Vagoneta Ancla de Administrador
-entity.railcraft.cart_anchor.name=Vagoneta Ancla
-entity.railcraft.cart_anchor_personal.name=Vagoneta de Ancla Personal
+entity.railcraft.cart_worldspike_admin.name=Vagoneta Ancla de Administrador
+entity.railcraft.cart_worldspike_standard.name=Vagoneta Ancla
+entity.railcraft.cart_worldspike_personal.name=Vagoneta de Ancla Personal
 entity.railcraft.cart_basic.name=Vagoneta
 entity.railcraft.bore.name=Tuneladora
 entity.railcraft.cart_chest.name=Vagoneta con Cofre
@@ -96,9 +96,9 @@ item.railcraft.borehead.diamond.name=Cabeza de Tuneladora de Diamante
 item.railcraft.borehead.iron.name=Cabeza de Tuneladora de Hierro
 item.railcraft.borehead.steel.name=Cabeza de Tuneladora de Acero
 
-item.railcraft.entity.cart.anchor.admin.name=Vagoneta Ancla de Administrador
-item.railcraft.entity.cart.anchor.world.name=Vagoneta Ancla
-item.railcraft.entity.cart.anchor.personal.name=Vagoneta de Ancla Personal
+item.railcraft.entity.cart.worldspike.admin.name=Vagoneta Ancla de Administrador
+item.railcraft.entity.cart.worldspike.standard.name=Vagoneta Ancla
+item.railcraft.entity.cart.worldspike.personal.name=Vagoneta de Ancla Personal
 item.railcraft.entity.cart.basic.name=Vagoneta
 item.railcraft.entity.bore.name=Tuneladora
 item.railcraft.entity.cart.chest.name=Vagoneta con Cofre
@@ -256,16 +256,16 @@ railcraft.gates.trigger.temp.hot=Caliente
 railcraft.gates.trigger.temp.warm=Templado
 railcraft.gates.trigger.work=Tiene Trabajo
 
-gui.railcraft.anchor.fuel.remaining=%s horas
-gui.railcraft.anchor.fuel=Perlas de Ender
-gui.railcraft.anchor.pair.fail.alignment=%1$s no esta alineado con ese %2$s
-gui.railcraft.anchor.pair.fail.distance=%1$s esta demasiado lejos para unirse %2$s
-gui.railcraft.anchor.pair.fail.dimension=%1$s esta en una dimensión diferente que el objetivo
-gui.railcraft.anchor.pair.fail.invalid=No es un blanco valido para unirse con %s
-gui.railcraft.anchor.pair.fail.unloaded=El objetivo se desconecto al intentar unirse con %s
-gui.railcraft.anchor.pair.cancel=%s unión cancelada
-gui.railcraft.anchor.pair.start=%s unión iniciada
-gui.railcraft.anchor.pair.success=%s ha sido unido con éxito
+gui.railcraft.worldspike.fuel.remaining=%s horas
+gui.railcraft.worldspike.fuel=Perlas de Ender
+gui.railcraft.worldspike.pair.fail.alignment=%1$s no esta alineado con ese %2$s
+gui.railcraft.worldspike.pair.fail.distance=%1$s esta demasiado lejos para unirse %2$s
+gui.railcraft.worldspike.pair.fail.dimension=%1$s esta en una dimensión diferente que el objetivo
+gui.railcraft.worldspike.pair.fail.invalid=No es un blanco valido para unirse con %s
+gui.railcraft.worldspike.pair.fail.unloaded=El objetivo se desconecto al intentar unirse con %s
+gui.railcraft.worldspike.pair.cancel=%s unión cancelada
+gui.railcraft.worldspike.pair.start=%s unión iniciada
+gui.railcraft.worldspike.pair.success=%s ha sido unido con éxito
 
 gui.railcraft.aspect.blink.red.name=Parpadeo Rojo
 gui.railcraft.aspect.blink.yellow.name=Parpadeo Amarillo
@@ -348,7 +348,7 @@ gui.railcraft.filter=Filtro
 gui.railcraft.filters.carts=Vagonetas
 gui.railcraft.filters=Filtros
 
-gui.railcraft.goggles.aura.anchor=Ancla
+gui.railcraft.goggles.aura.worldspike=Ancla
 gui.railcraft.goggles.aura.none=Ninguna
 gui.railcraft.goggles.aura.tracking=Rastreando
 gui.railcraft.goggles.aura.tuning=Sintonizando
@@ -502,7 +502,7 @@ gui.railcraft.turbine.output=Salida: %s%%
 gui.railcraft.turbine.rotor=Rotor:
 gui.railcraft.turbine=Turbina a Vapor
 
-railcraft.keybind.aura.anchor=Aura de Anclaje
+railcraft.keybind.aura.worldspike=Aura de Anclaje
 railcraft.keybind.aura.tuning=Sintonizador de Aura
 
 keybind.railcraft.loco.faster=Locomotora más rápido
@@ -632,9 +632,9 @@ tile.railcraft.frame.tips=Úsalo para poner vías sobre el cable
 
 tile.railcraft.glass.name=Vidrio Endurecido
 
-tile.railcraft.anchor.admin.name=Ancla de Administrador
-tile.railcraft.anchor.personal.name=Ancla Personal
-tile.railcraft.anchor.world.name=Ancla de Mundo
+tile.railcraft.worldspike.admin.name=Ancla de Administrador
+tile.railcraft.worldspike.personal.name=Ancla Personal
+tile.railcraft.worldspike.standard.name=Ancla de Mundo
 tile.railcraft.machine.alpha.blast.furnace.name=Ladrillos de Alto Horno
 tile.railcraft.machine.alpha.blast.furnace.tips=Multi-Bloque: 3x4x3 (Hueco)
 tile.railcraft.machine.alpha.coke.oven.name=Ladrillos para Horno de Fuel
@@ -655,7 +655,7 @@ tile.railcraft.machine.alpha.trade.station.name=Estación de Comercio
 tile.railcraft.machine.alpha.turbine.name=Cubierta para Turbina a Vapor
 tile.railcraft.machine.alpha.turbine.tips=Multi-Bloque: 3x2x2\n Genera electricidad con vapor\n Vierte agua por el fondo\n Requiere un Rotor de Turbina
 
-tile.railcraft.machine.beta.anchor.sentinel.name=Ancla Centinela
+tile.railcraft.worldspike.point.name=Ancla Centinela
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Caldera de Combustión - Líquidos
 tile.railcraft.machine.beta.boiler.firebox.liquid.tips=Multi-Bloque: Tamaño Variable, Capa Inferior\n Dimensiones: 1x1, 2x2, 3x3
 tile.railcraft.machine.beta.boiler.firebox.solid.name=Caldera de Combustión - Sólidos

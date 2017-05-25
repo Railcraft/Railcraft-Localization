@@ -102,9 +102,9 @@ enchantment.railcraft.implosion=Implosion
 enchantment.railcraft.wrecking=Zertrümmern
 
 entity.railcraft.bore.name=Tunnelbohrer
-entity.railcraft.cart_anchor_admin.name=Admin-Ankerwaggon
-entity.railcraft.cart_anchor.name=Ankerwaggon
-entity.railcraft.cart_anchor_personal.name=Persönlicher Ankerwaggon
+entity.railcraft.cart_worldspike_admin.name=Admin-Ankerwaggon
+entity.railcraft.cart_worldspike_standard.name=Ankerwaggon
+entity.railcraft.cart_worldspike_personal.name=Persönlicher Ankerwaggon
 entity.railcraft.cart_basic.name=Lore
 entity.railcraft.cart_cargo.name=Frachtwaggon
 entity.railcraft.cart_chest.name=Güterwaggon
@@ -176,9 +176,9 @@ item.railcraft.dust.sulfur.name=Schwefel
 item.railcraft.emblem.name=Emblem
 
 item.railcraft.entity.bore.name=Tunnelbohrer
-item.railcraft.entity.cart.anchor.admin.name=Admin-Ankerwaggon
-item.railcraft.entity.cart.anchor.personal.name=Persönlicher Ankerwaggon
-item.railcraft.entity.cart.anchor.world.name=Ankerwaggon
+item.railcraft.entity.cart.worldspike.admin.name=Admin-Ankerwaggon
+item.railcraft.entity.cart.worldspike.personal.name=Persönlicher Ankerwaggon
+item.railcraft.entity.cart.worldspike.standard.name=Ankerwaggon
 item.railcraft.entity.cart.basic.name=Lore
 item.railcraft.entity.cart.cargo.name=Frachtwaggon
 item.railcraft.entity.cart.chest.name=Güterwaggon
@@ -387,16 +387,16 @@ railcraft.gates.trigger.work=Hat Arbeit
 gui.railcraft.actuator.motor.action=Weiche mit Signal stellen
 gui.railcraft.actuator.motor.redstone=Redstone ignorieren
 
-gui.railcraft.anchor.fuel.remaining=%s Stunden
-gui.railcraft.anchor.fuel=Enderperlen
-gui.railcraft.anchor.pair.cancel=Verbindung wurde abgebrochen: %s
-gui.railcraft.anchor.pair.fail.alignment=@1$s ist nicht auf der selben Achse wie @2$s
-gui.railcraft.anchor.pair.fail.dimension=%s ist in einer anderen Dimension als das Ziel
-gui.railcraft.anchor.pair.fail.distance=@1$s ist zu weit weg, um mit @2$s gekoppelt zu werden
-gui.railcraft.anchor.pair.fail.invalid=Dies ist kein gültiges Ziel für eine Verbindung: %s
-gui.railcraft.anchor.pair.fail.unloaded=Ziel ist nicht geladen, während versucht wurde, zu verbinden: %s
-gui.railcraft.anchor.pair.start=Kopplung eingeleitet: %s
-gui.railcraft.anchor.pair.success=Erfolgreich gekoppelt: %s
+gui.railcraft.worldspike.fuel.remaining=%s Stunden
+gui.railcraft.worldspike.fuel=Enderperlen
+gui.railcraft.worldspike.pair.cancel=Verbindung wurde abgebrochen: %s
+gui.railcraft.worldspike.pair.fail.alignment=@1$s ist nicht auf der selben Achse wie @2$s
+gui.railcraft.worldspike.pair.fail.dimension=%s ist in einer anderen Dimension als das Ziel
+gui.railcraft.worldspike.pair.fail.distance=@1$s ist zu weit weg, um mit @2$s gekoppelt zu werden
+gui.railcraft.worldspike.pair.fail.invalid=Dies ist kein gültiges Ziel für eine Verbindung: %s
+gui.railcraft.worldspike.pair.fail.unloaded=Ziel ist nicht geladen, während versucht wurde, zu verbinden: %s
+gui.railcraft.worldspike.pair.start=Kopplung eingeleitet: %s
+gui.railcraft.worldspike.pair.success=Erfolgreich gekoppelt: %s
 
 gui.railcraft.aspect.blink.red.name=Rot blinkend
 gui.railcraft.aspect.blink.yellow.name=Gelb blinkend
@@ -491,7 +491,7 @@ gui.railcraft.filter=Filter
 gui.railcraft.filters.carts=Waggons
 gui.railcraft.filters=Filter
 
-gui.railcraft.goggles.aura.anchor=Anker
+gui.railcraft.goggles.aura.worldspike=Anker
 gui.railcraft.goggles.aura.none=nichts
 gui.railcraft.goggles.aura.signalling=Signale
 gui.railcraft.goggles.aura.surveying=Vermessung
@@ -663,7 +663,7 @@ gui.railcraft.turbine=Dampfturbine
 
 gui.railcraft.update.message=Railcraft %s ist verfügbar auf <http://railcraft.info>
 
-railcraft.keybind.aura.anchor=Anker-Aura
+railcraft.keybind.aura.worldspike=Anker-Aura
 railcraft.keybind.aura.surveying=Vermessungsaura
 railcraft.keybind.aura.tuning=Tuning-Aura
 
@@ -870,10 +870,10 @@ tile.railcraft.lantern.stone.sandstone.name=Sandsteinlaterne
 tile.railcraft.lantern.stone.sandy.name=Sandige Steinlaterne
 tile.railcraft.lantern.stone.stone.name=Steinlaterne
 
-tile.railcraft.anchor.admin.name=Admin-Anker
-tile.railcraft.anchor.passive.name=Passivanker
-tile.railcraft.anchor.personal.name=Persönlicher Anker
-tile.railcraft.anchor.world.name=Weltanker
+tile.railcraft.worldspike.admin.name=Admin-Anker
+tile.railcraft.worldspike.passive.name=Passivanker
+tile.railcraft.worldspike.personal.name=Persönlicher Anker
+tile.railcraft.worldspike.standard.name=Weltanker
 tile.railcraft.machine.alpha.blast.furnace.name=Hochofenziegel
 tile.railcraft.machine.alpha.blast.furnace.tips=Multiblock: 3x4x3 (Hohlraum)
 tile.railcraft.machine.alpha.coke.oven.name=Kokerei
@@ -890,7 +890,7 @@ tile.railcraft.machine.alpha.trade.station.name=Handelsstation
 tile.railcraft.machine.alpha.turbine.name=Dampfturbinengehäuse
 tile.railcraft.machine.alpha.turbine.tips=Multiblock: 3x2x2\n Generiert Elektrizität aus Dampf\nGibt unten Wasser ab\n Benötigt einen Turbinenrotor
 
-tile.railcraft.machine.beta.anchor.sentinel.name=Anker-Markierung
+tile.railcraft.worldspike.point.name=Anker-Markierung
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Öl-Dampfkessel-Feuerbüchse
 tile.railcraft.machine.beta.boiler.firebox.liquid.tips=Multiblock: variable Größe, unterste Ebene\n Abmessung: 1x1, 2x2, 3x3
 tile.railcraft.machine.beta.boiler.firebox.solid.name=Kohle-Dampfkessel-Feuerbüchse

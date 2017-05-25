@@ -101,9 +101,9 @@ enchantment.railcraft.destruction=拆除
 enchantment.railcraft.implosion=克爆
 enchantment.railcraft.wrecking=破击
 
-entity.railcraft.cart_anchor_admin.name=管理员锚车
-entity.railcraft.cart_anchor.name=世界锚车
-entity.railcraft.cart_anchor_personal.name=私用锚车
+entity.railcraft.cart_worldspike_admin.name=管理员锚车
+entity.railcraft.cart_worldspike_standard.name=世界锚车
+entity.railcraft.cart_worldspike_personal.name=私用锚车
 entity.railcraft.cart_basic.name=矿车
 entity.railcraft.bore.name=隧道盾构车
 entity.railcraft.cart_cargo.name=货运车
@@ -175,9 +175,9 @@ item.railcraft.dust.sulfur.name=硫磺
 
 item.railcraft.emblem.name=徽章
 
-item.railcraft.entity.cart.anchor.admin.name=管理员锚车
-item.railcraft.entity.cart.anchor.world.name=世界锚车
-item.railcraft.entity.cart.anchor.personal.name=私用锚车
+item.railcraft.entity.cart.worldspike.admin.name=管理员锚车
+item.railcraft.entity.cart.worldspike.standard.name=世界锚车
+item.railcraft.entity.cart.worldspike.personal.name=私用锚车
 item.railcraft.entity.cart.basic.name=矿车
 item.railcraft.entity.bore.name=隧道盾构车
 item.railcraft.entity.cart.cargo.name=货运车
@@ -393,16 +393,16 @@ railcraft.gates.trigger.work=工作
 gui.railcraft.actuator.motor.action=根据信号域来转辙轨道
 gui.railcraft.actuator.motor.redstone=忽略红石信号
 
-gui.railcraft.anchor.fuel.remaining=%s小时
-gui.railcraft.anchor.fuel=末影珍珠
-gui.railcraft.anchor.pair.fail.alignment=%1$s与%2$s不匹配
-gui.railcraft.anchor.pair.fail.distance=%1$s与%2$s距离过远,无法配对
-gui.railcraft.anchor.pair.fail.dimension=%1$s与目标在不同的世界维度
-gui.railcraft.anchor.pair.fail.invalid=这不是一个可以与%s配对的目标
-gui.railcraft.anchor.pair.fail.unloaded=在与%s配对时目标不在加载的区块中
-gui.railcraft.anchor.pair.cancel=%s的配对已经取消
-gui.railcraft.anchor.pair.start=%s配对开始
-gui.railcraft.anchor.pair.success=%s已经成功配对
+gui.railcraft.worldspike.fuel.remaining=%s小时
+gui.railcraft.worldspike.fuel=末影珍珠
+gui.railcraft.worldspike.pair.fail.alignment=%1$s与%2$s不匹配
+gui.railcraft.worldspike.pair.fail.distance=%1$s与%2$s距离过远,无法配对
+gui.railcraft.worldspike.pair.fail.dimension=%1$s与目标在不同的世界维度
+gui.railcraft.worldspike.pair.fail.invalid=这不是一个可以与%s配对的目标
+gui.railcraft.worldspike.pair.fail.unloaded=在与%s配对时目标不在加载的区块中
+gui.railcraft.worldspike.pair.cancel=%s的配对已经取消
+gui.railcraft.worldspike.pair.start=%s配对开始
+gui.railcraft.worldspike.pair.success=%s已经成功配对
 
 gui.railcraft.aspect.blink.red.name=闪烁红色
 gui.railcraft.aspect.blink.yellow.name=闪烁黄色
@@ -497,7 +497,7 @@ gui.railcraft.filter=过滤
 gui.railcraft.filters.carts=轨道车
 gui.railcraft.filters=过滤
 
-gui.railcraft.goggles.aura.anchor=锚
+gui.railcraft.goggles.aura.worldspike=锚
 gui.railcraft.goggles.aura.none=无
 gui.railcraft.goggles.aura.shunting=调车
 gui.railcraft.goggles.aura.signalling=信号
@@ -670,7 +670,7 @@ gui.railcraft.turbine=蒸汽涡轮机
 
 gui.railcraft.update.message=最新版本Railcraft %s已经可用,欢迎前往<http://railcraft.info>下载.
 
-railcraft.keybind.aura.anchor=锚光环
+railcraft.keybind.aura.worldspike=锚光环
 railcraft.keybind.aura.surveying=检测光环
 railcraft.keybind.aura.tuning=调谐光环
 
@@ -879,10 +879,10 @@ tile.railcraft.lantern.stone.sandstone.name=沙石灯
 tile.railcraft.lantern.stone.sandy.name=沙岩石灯
 tile.railcraft.lantern.stone.stone.name=石灯
 
-tile.railcraft.anchor.admin.name=管理员锚
-tile.railcraft.anchor.passive.name=被动锚
-tile.railcraft.anchor.personal.name=个人锚
-tile.railcraft.anchor.world.name=世界锚
+tile.railcraft.worldspike.admin.name=管理员锚
+tile.railcraft.worldspike.passive.name=被动锚
+tile.railcraft.worldspike.personal.name=个人锚
+tile.railcraft.worldspike.standard.name=世界锚
 tile.railcraft.machine.alpha.blast.furnace.name=高炉砖
 tile.railcraft.machine.alpha.blast.furnace.tips=多方块结构：3x4x3（中空）
 tile.railcraft.machine.alpha.coke.oven.name=焦炉砖
@@ -899,7 +899,7 @@ tile.railcraft.machine.alpha.trade.station.name=贸易站
 tile.railcraft.machine.alpha.turbine.name=蒸汽涡轮机壳
 tile.railcraft.machine.alpha.turbine.tips=多方块结构：3x2x2\n用蒸汽发电\n从底部输出水\n需要一个涡轮机转子
 
-tile.railcraft.machine.beta.anchor.sentinel.name=拱卫之锚
+tile.railcraft.worldspike.point.name=拱卫之锚
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=液态燃料燃烧室
 tile.railcraft.machine.beta.boiler.firebox.liquid.tips=多方块结构：尺寸可变\n底座规格可选：1x1, 2x2, 3x3
 tile.railcraft.machine.beta.boiler.firebox.solid.name=固态燃料燃烧室

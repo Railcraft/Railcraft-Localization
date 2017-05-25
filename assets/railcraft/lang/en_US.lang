@@ -102,9 +102,9 @@ enchantment.railcraft.implosion=Implosion
 enchantment.railcraft.wrecking=Wrecking
 
 entity.railcraft.bore.name=Tunnel Bore
-entity.railcraft.cart_anchor_admin.name=Admin Anchor Cart
-entity.railcraft.cart_anchor.name=Anchor Cart
-entity.railcraft.cart_anchor_personal.name=Personal Anchor Cart
+entity.railcraft.cart_worldspike_admin.name=Admin Worldspike Cart
+entity.railcraft.cart_worldspike_standard.name=Standard Worldspike Cart
+entity.railcraft.cart_worldspike_personal.name=Personal Worldspike Cart
 entity.railcraft.cart_basic.name=Minecart
 entity.railcraft.cart_cargo.name=Cargo Cart
 entity.railcraft.cart_chest.name=Chest Cart
@@ -175,10 +175,17 @@ item.railcraft.dust.sulfur.name=Sulfur
 
 item.railcraft.emblem.name=Emblem
 
+item.railcraft.entity.bore.desc=Machine designed for digging tunnels and laying track.
 item.railcraft.entity.bore.name=Tunnel Bore
-item.railcraft.entity.cart.anchor.admin.name=Admin Anchor Cart
-item.railcraft.entity.cart.anchor.personal.name=Personal Anchor Cart
-item.railcraft.entity.cart.anchor.world.name=Anchor Cart
+item.railcraft.entity.cart.worldspike.admin.desc=Loads a 5x5 area of chunks at world load and keeps them loaded. Cannot be crafted and never requires fuel.
+item.railcraft.entity.cart.worldspike.admin.name=Admin Worldspike Cart
+item.railcraft.entity.cart.worldspike.admin.tips=Chunkloader\n§o§c- Activator Track will disable -
+item.railcraft.entity.cart.worldspike.personal.desc=Keeps a 5x5 area of chunks loaded, but will not load them at world load. Additionally it stops keeping them loaded when the owner logs off. May require fuel depending on config settings.
+item.railcraft.entity.cart.worldspike.personal.name=Personal Worldspike Cart
+item.railcraft.entity.cart.worldspike.personal.tips=Chunkloader\n§o§c- Activator Track will disable -
+item.railcraft.entity.cart.worldspike.standard.desc=Loads a 5x5 area of chunks at world load and keeps them loaded. May require fuel depending on config settings.
+item.railcraft.entity.cart.worldspike.standard.name=Standard Worldspike Cart
+item.railcraft.entity.cart.worldspike.standard.tips=Chunkloader\n§o§c- Activator Track will disable -
 item.railcraft.entity.cart.basic.name=Minecart
 item.railcraft.entity.cart.cargo.name=Cargo Cart
 item.railcraft.entity.cart.chest.name=Chest Cart
@@ -393,16 +400,16 @@ railcraft.gates.trigger.work=Has Work
 gui.railcraft.actuator.motor.action=Switch on Aspect
 gui.railcraft.actuator.motor.redstone=Ignore Redstone
 
-gui.railcraft.anchor.fuel.remaining=%s hours
-gui.railcraft.anchor.fuel=Ender Pearls
-gui.railcraft.anchor.pair.cancel=%s pairing was cancelled
-gui.railcraft.anchor.pair.fail.alignment=@1$s is not axis aligned with that @2$s
-gui.railcraft.anchor.pair.fail.dimension=%s is in a different dimension than the target
-gui.railcraft.anchor.pair.fail.distance=@1$s is too far to pair with that @2$s
-gui.railcraft.anchor.pair.fail.invalid=This is not a valid target for pairing with the %s
-gui.railcraft.anchor.pair.fail.unloaded=Target was unloaded while attempting to pair with %s
-gui.railcraft.anchor.pair.start=%s pairing was initiated
-gui.railcraft.anchor.pair.success=%s was successfully paired
+gui.railcraft.worldspike.fuel.remaining=%s hours
+gui.railcraft.worldspike.fuel=Ender Pearls
+gui.railcraft.worldspike.pair.cancel=%s pairing was cancelled
+gui.railcraft.worldspike.pair.fail.alignment=@1$s is not axis aligned with that @2$s
+gui.railcraft.worldspike.pair.fail.dimension=%s is in a different dimension than the target
+gui.railcraft.worldspike.pair.fail.distance=@1$s is too far to pair with that @2$s
+gui.railcraft.worldspike.pair.fail.invalid=This is not a valid target for pairing with the %s
+gui.railcraft.worldspike.pair.fail.unloaded=Target was unloaded while attempting to pair with %s
+gui.railcraft.worldspike.pair.start=%s pairing was initiated
+gui.railcraft.worldspike.pair.success=%s was successfully paired
 
 gui.railcraft.aspect.blink.red.name=Blink Red
 gui.railcraft.aspect.blink.yellow.name=Blink Yellow
@@ -497,7 +504,7 @@ gui.railcraft.filter=Filter
 gui.railcraft.filters.carts=Carts
 gui.railcraft.filters=Filters
 
-gui.railcraft.goggles.aura.anchor=Anchor
+gui.railcraft.goggles.aura.worldspike=Worldspike
 gui.railcraft.goggles.aura.none=None
 gui.railcraft.goggles.aura.shunting=Shunting
 gui.railcraft.goggles.aura.signalling=Signalling
@@ -670,7 +677,7 @@ gui.railcraft.turbine=Steam Turbine
 
 gui.railcraft.update.message=Railcraft %s is available from <http://railcraft.info>
 
-railcraft.keybind.aura.anchor=Anchor Aura
+railcraft.keybind.aura.worldspike=Worldspike Aura
 railcraft.keybind.aura.surveying=Surveying Aura
 railcraft.keybind.aura.tuning=Tuning Aura
 
@@ -708,19 +715,6 @@ tile.railcraft.actuator.motor.name=Switch Actuator Motor
 tile.railcraft.actuator.motor.tips=Controls adjacent Switch Tracks\n§o§9Aerial Linkages: 1x Receiver\n§o§9Redstone Linkage: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.actuator.routing.name=Routing Switch Actuator Motor
 tile.railcraft.actuator.routing.tips=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
-
-tile.railcraft.anchor.admin.desc=Loads a 3x3 area of chunks at world load and keeps them loaded. Cannot be crafted and never requires fuel.
-tile.railcraft.anchor.admin.name=Admin Anchor
-tile.railcraft.anchor.admin.tips=Chunkloader\n§o§c- Redstone will disable -
-tile.railcraft.anchor.passive.desc=Keeps a 3x3 area of chunks loaded, but will not load them at world load. May require fuel depending on config settings.
-tile.railcraft.anchor.passive.name=Passive Anchor
-tile.railcraft.anchor.passive.tips=Chunkloader\n§o§c- Redstone will disable -
-tile.railcraft.anchor.personal.desc=Keeps a 3x3 area of chunks loaded, but will not load them at world load. Additionally it stops keeping them loaded when the owner logs off, however other things make continue to keep the chunks active anyway. May require fuel depending on config settings.
-tile.railcraft.anchor.personal.name=Personal Anchor
-tile.railcraft.anchor.personal.tips=Chunkloader\n§o§c- Redstone will disable -
-tile.railcraft.anchor.world.desc=Loads a 3x3 area of chunks at world load and keeps them loaded. May require fuel depending on config settings.
-tile.railcraft.anchor.world.name=World Anchor
-tile.railcraft.anchor.world.tips=Chunkloader\n§o§c- Redstone will disable -
 
 tile.railcraft.anvil.intact.name=Steel Anvil
 tile.railcraft.anvil.slightlyDamaged.name=Slightly Damaged Steel Anvil
@@ -908,7 +902,6 @@ tile.railcraft.machine.alpha.trade.station.name=Trade Station
 tile.railcraft.machine.alpha.turbine.name=Steam Turbine Housing
 tile.railcraft.machine.alpha.turbine.tips=Multi-Block: 3x2x2\n Generates Electricity from Steam\nOutputs water to the bottom\n Requires a Turbine Rotor
 
-tile.railcraft.machine.beta.anchor.sentinel.name=Anchor Sentinel
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Liquid Fueled Boiler Firebox
 tile.railcraft.machine.beta.boiler.firebox.liquid.tips=Multi-Block: Variable Size, Bottom Layer\n Dimensions: 1x1, 2x2, 3x3
 tile.railcraft.machine.beta.boiler.firebox.solid.name=Solid Fueled Boiler Firebox
@@ -1276,6 +1269,22 @@ tile.railcraft.wall.stone.brick.mossy.name=Mossy Stone Brick Wall
 tile.railcraft.wall.stone.brick.name=Stone Brick Wall
 
 tile.railcraft.worldlogic.name=Saltpeter Ore Spawner
+
+tile.railcraft.worldspike.admin.desc=Loads a 3x3 area of chunks at world load and keeps them loaded. Cannot be crafted and never requires fuel.
+tile.railcraft.worldspike.admin.name=Admin Worldspike
+tile.railcraft.worldspike.admin.tips=Chunkloader\n§o§c- Redstone will disable -
+tile.railcraft.worldspike.passive.desc=Keeps a 3x3 area of chunks loaded, but will not load them at world load. May require fuel depending on config settings.
+tile.railcraft.worldspike.passive.name=Passive Worldspike
+tile.railcraft.worldspike.passive.tips=Chunkloader\n§o§c- Redstone will disable -
+tile.railcraft.worldspike.personal.desc=Keeps a 3x3 area of chunks loaded, but will not load them at world load. Additionally it stops keeping them loaded when the owner logs off, however other things make continue to keep the chunks active anyway. May require fuel depending on config settings.
+tile.railcraft.worldspike.personal.name=Personal Worldspike
+tile.railcraft.worldspike.personal.tips=Chunkloader\n§o§c- Redstone will disable -
+tile.railcraft.worldspike.standard.desc=Loads a 3x3 area of chunks at world load and keeps them loaded. May require fuel depending on config settings.
+tile.railcraft.worldspike.standard.name=Standard Worldspike
+tile.railcraft.worldspike.standard.tips=Chunkloader\n§o§c- Redstone will disable -
+tile.railcraft.worldspike.point.desc=The Worldspike Point can be paired to a Worldspike to load a single line of chunks over a great distance.
+tile.railcraft.worldspike.point.name=Worldspike Point
+tile.railcraft.worldspike.point.tips=Expands Worldspike Chunkload area\n§o§9- Pair to Worldspike using Crowbar -
 
 tooltip.wawla.tooltype.crowbar=Crowbar
 

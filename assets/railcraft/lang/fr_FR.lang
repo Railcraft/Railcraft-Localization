@@ -81,12 +81,12 @@ tile.railcraft.brick.sandy.ornate.name=Roche sablée taillée
 tile.railcraft.brick.sandy.etched.name=Roche sablée gravée
 tile.railcraft.brick.sandy.cobble.name=Pierre sablé
 
-item.railcraft.entity.cart.anchor.world.name=Wagonnet avec ancre
-entity.railcraft.cart_anchor.name=Wagonnet avec ancre
-item.railcraft.entity.cart.anchor.admin.name=Wagonnet avec ancre d'admin
-entity.railcraft.cart_anchor_admin.name=Wagonnet avec ancre d'admin
-item.railcraft.entity.cart.anchor.personal.name=Wagonnet avec ancre personnelle
-entity.railcraft.cart_anchor_personal.name=Wagonnet avec ancre personnelle
+item.railcraft.entity.cart.worldspike.standard.name=Wagonnet avec ancre
+entity.railcraft.cart_worldspike_standard.name=Wagonnet avec ancre
+item.railcraft.entity.cart.worldspike.admin.name=Wagonnet avec ancre d'admin
+entity.railcraft.cart_worldspike_admin.name=Wagonnet avec ancre d'admin
+item.railcraft.entity.cart.worldspike.personal.name=Wagonnet avec ancre personnelle
+entity.railcraft.cart_worldspike_personal.name=Wagonnet avec ancre personnelle
 item.railcraft.entity.cart.basic.name=Wagonnet
 entity.railcraft.cart_basic.name=Wagonnet
 item.railcraft.entity.bore.name=Tunnelier
@@ -243,12 +243,12 @@ railcraft.gates.trigger.temp.hot=Brûlant
 
 tile.railcraft.glass.name=Verre renforcé
 
-gui.railcraft.anchor.pair.fail.alignment=@1$s n'est pas aligné avec l'axe de @2$s
-gui.railcraft.anchor.pair.fail.distance=@1$s est trop loin de @2$s pour faire une paire
-gui.railcraft.anchor.pair.start=Jumelage de %s a été lancé
-gui.railcraft.anchor.pair.success=%s a été jumelé avec succès
-gui.railcraft.anchor.fuel=Perles de l'end
-gui.railcraft.anchor.fuel.remaining=%s heures
+gui.railcraft.worldspike.pair.fail.alignment=@1$s n'est pas aligné avec l'axe de @2$s
+gui.railcraft.worldspike.pair.fail.distance=@1$s est trop loin de @2$s pour faire une paire
+gui.railcraft.worldspike.pair.start=Jumelage de %s a été lancé
+gui.railcraft.worldspike.pair.success=%s a été jumelé avec succès
+gui.railcraft.worldspike.fuel=Perles de l'end
+gui.railcraft.worldspike.fuel.remaining=%s heures
 gui.railcraft.aura.enable=%s Aura activé
 gui.railcraft.aura.disable=%s Aura désactivé
 gui.railcraft.blast.furnace=Haut fourneau
@@ -311,7 +311,7 @@ gui.railcraft.feed.station.feed=Nourriture
 gui.railcraft.filter=Filtre
 gui.railcraft.filters=Filtres
 gui.railcraft.filters.carts=Wagonnet
-gui.railcraft.goggles.aura.anchor=Ancre
+gui.railcraft.goggles.aura.worldspike=Ancre
 gui.railcraft.goggles.aura.none=Aucun
 gui.railcraft.goggles.aura.tracking=Localisation
 gui.railcraft.goggles.aura.tuning=Réglage
@@ -435,7 +435,7 @@ item.railcraft.ingot.steel.name=Lingot d'acier
 
 item.synthetic=Synthétique
 
-railcraft.keybind.aura.anchor=Ancre aura
+railcraft.keybind.aura.worldspike=Ancre aura
 railcraft.keybind.aura.tuning=Réglage aura
 
 keybind.railcraft.loco.faster=Clé locomotive rapide
@@ -446,9 +446,9 @@ keybind.railcraft.loco.whistle=Clé sifflet de locomotive
 railcraft.locomotive.model.steam.solid.default.name=Défaut Solide
 railcraft.locomotive.model.steam.magic.default.name=Défaut Magique
 
-tile.railcraft.anchor.admin.name=Ancre des administrateur
-tile.railcraft.anchor.personal.name=Ancre personnelle
-tile.railcraft.anchor.world.name=Ancre mondiale
+tile.railcraft.worldspike.admin.name=Ancre des administrateur
+tile.railcraft.worldspike.personal.name=Ancre personnelle
+tile.railcraft.worldspike.standard.name=Ancre mondiale
 tile.railcraft.machine.alpha.blast.furnace.name=Brique de haut fourneau
 tile.railcraft.machine.alpha.coke.oven.name=Brique de four à coke
 tile.railcraft.machine.epsilon.engraving.bench.name=Gravure banquette
@@ -463,7 +463,7 @@ tile.railcraft.machine.alpha.tank.water.name=Revêtement de réservoir d'eau
 tile.railcraft.machine.alpha.trade.station.name=Station de commerce
 tile.railcraft.machine.alpha.turbine.name=Emplacement pour turbine à vapeur
 
-tile.railcraft.machine.beta.anchor.sentinel.name=Ancre sentinel
+tile.railcraft.worldspike.point.name=Ancre sentinel
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Chambre à combustible liquide
 tile.railcraft.machine.beta.boiler.firebox.solid.name=Chambre à combustible solide 
 tile.railcraft.machine.beta.boiler.tank.pressure.high.name=Chaudière à haute pression

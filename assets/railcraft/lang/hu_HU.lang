@@ -46,9 +46,9 @@ enchantment.railcraft.destruction=Megsemmisítés
 enchantment.railcraft.implosion=Robbanás
 enchantment.railcraft.wrecking=Tönkretevés
 
-entity.railcraft.cart_anchor_admin.name=Admin Anchor Cart
-entity.railcraft.cart_anchor.name=Anchor Cart
-entity.railcraft.cart_anchor_personal.name=Personal Anchor Cart
+entity.railcraft.cart_worldspike_admin.name=Admin Anchor Cart
+entity.railcraft.cart_worldspike_standard.name=Anchor Cart
+entity.railcraft.cart_worldspike_personal.name=Personal Anchor Cart
 entity.railcraft.cart_basic.name=Csille
 entity.railcraft.bore.name=Alagútfúró
 entity.railcraft.cart_chest.name=Tárolócsille
@@ -98,9 +98,9 @@ item.railcraft.borehead.diamond.name=Gyémánt fúrópajzs
 item.railcraft.borehead.iron.name=Vas fúrópajzs
 item.railcraft.borehead.steel.name=Acél fúrópajzs
 
-item.railcraft.entity.cart.anchor.admin.name=Admin Anchor Cart
-item.railcraft.entity.cart.anchor.world.name=Anchor Cart
-item.railcraft.entity.cart.anchor.personal.name=Personal Anchor Cart
+item.railcraft.entity.cart.worldspike.admin.name=Admin Anchor Cart
+item.railcraft.entity.cart.worldspike.standard.name=Anchor Cart
+item.railcraft.entity.cart.worldspike.personal.name=Personal Anchor Cart
 item.railcraft.entity.cart.basic.name=Csille
 item.railcraft.entity.bore.name=Alagútfúró
 item.railcraft.entity.cart.chest.name=Tárolócsille
@@ -260,16 +260,16 @@ railcraft.gates.trigger.temp.hot=Forró
 railcraft.gates.trigger.temp.warm=Meleg
 railcraft.gates.trigger.work=Van munkája
 
-gui.railcraft.anchor.fuel.remaining=%s óra
-gui.railcraft.anchor.fuel=Végzet gyöngye
-gui.railcraft.anchor.pair.fail.alignment=%1$s tengelyei nincsenek összehangolva %2$s tengelyeivel
-gui.railcraft.anchor.pair.fail.distance=%1$s túl messze van a következőtől: %2$s
-gui.railcraft.anchor.pair.fail.dimension=%1$s más dimenzióban van, mint a célpont
-gui.railcraft.anchor.pair.fail.invalid=Ez nem kapcsolható össze a következővel: %s
-gui.railcraft.anchor.pair.fail.unloaded=A célpont nem volt betöltve, mikor össze akartad kapcsolni a következővel: %s
-gui.railcraft.anchor.pair.cancel=%s az összekapcsolás törölve lett
-gui.railcraft.anchor.pair.start=%s összekapcsolás kezdeményezése
-gui.railcraft.anchor.pair.success=%s sikeresen összekapcsolva
+gui.railcraft.worldspike.fuel.remaining=%s óra
+gui.railcraft.worldspike.fuel=Végzet gyöngye
+gui.railcraft.worldspike.pair.fail.alignment=%1$s tengelyei nincsenek összehangolva %2$s tengelyeivel
+gui.railcraft.worldspike.pair.fail.distance=%1$s túl messze van a következőtől: %2$s
+gui.railcraft.worldspike.pair.fail.dimension=%1$s más dimenzióban van, mint a célpont
+gui.railcraft.worldspike.pair.fail.invalid=Ez nem kapcsolható össze a következővel: %s
+gui.railcraft.worldspike.pair.fail.unloaded=A célpont nem volt betöltve, mikor össze akartad kapcsolni a következővel: %s
+gui.railcraft.worldspike.pair.cancel=%s az összekapcsolás törölve lett
+gui.railcraft.worldspike.pair.start=%s összekapcsolás kezdeményezése
+gui.railcraft.worldspike.pair.success=%s sikeresen összekapcsolva
 
 gui.railcraft.aspect.blink.red.name=Villogó piros
 gui.railcraft.aspect.blink.yellow.name=Villogó sárga
@@ -354,7 +354,7 @@ gui.railcraft.filter=Szűrő
 gui.railcraft.filters.carts=Csillék
 gui.railcraft.filters=Szűrők
 
-gui.railcraft.goggles.aura.anchor=Anchor
+gui.railcraft.goggles.aura.worldspike=Anchor
 gui.railcraft.goggles.aura.none=Semmi
 gui.railcraft.goggles.aura.tracking=Nyomkövető
 gui.railcraft.goggles.aura.tuning=Fejlesztett
@@ -508,7 +508,7 @@ gui.railcraft.turbine.output=Kimenet: %s%%
 gui.railcraft.turbine.rotor=Rotor:
 gui.railcraft.turbine=Gőzturbina
 
-railcraft.keybind.aura.anchor=Anchor Aura
+railcraft.keybind.aura.worldspike=Anchor Aura
 railcraft.keybind.aura.tuning=Tuning Aura
 
 keybind.railcraft.loco.faster=Mozdony gyorsítása
@@ -638,9 +638,9 @@ tile.railcraft.frame.tips=Use to place Track on Shunting Wire
 
 tile.railcraft.glass.name=Strengthened Glass
 
-tile.railcraft.anchor.admin.name=Admin Anchor
-tile.railcraft.anchor.personal.name=Personal Anchor
-tile.railcraft.anchor.world.name=World Anchor
+tile.railcraft.worldspike.admin.name=Admin Anchor
+tile.railcraft.worldspike.personal.name=Personal Anchor
+tile.railcraft.worldspike.standard.name=World Anchor
 tile.railcraft.machine.alpha.blast.furnace.name=Blast Furnace Brick
 tile.railcraft.machine.alpha.blast.furnace.tips=Multi-Block: 3x4x3 (Hollow)
 tile.railcraft.machine.alpha.coke.oven.name=Coke Oven Brick
@@ -661,7 +661,7 @@ tile.railcraft.machine.alpha.trade.station.name=Trade Station
 tile.railcraft.machine.alpha.turbine.name=Steam Turbine Housing
 tile.railcraft.machine.alpha.turbine.tips=Multi-Block: 3x2x2\n Generates Electricity from Steam\nOutputs water to the bottom\n Requires a Turbine Rotor
 
-tile.railcraft.machine.beta.anchor.sentinel.name=Anchor Sentinel
+tile.railcraft.worldspike.point.name=Anchor Sentinel
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Liquid Fueled Boiler Firebox
 tile.railcraft.machine.beta.boiler.firebox.liquid.tips=Multi-Block: Variable Size, Bottom Layer\n Dimensions: 1x1, 2x2, 3x3
 tile.railcraft.machine.beta.boiler.firebox.solid.name=Solid Fueled Boiler Firebox
