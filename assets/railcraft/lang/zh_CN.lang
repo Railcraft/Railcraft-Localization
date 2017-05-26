@@ -99,6 +99,7 @@ death.railcraft.train.6=%s应该穿上背带裤.
 
 enchantment.railcraft.destruction=拆除
 enchantment.railcraft.implosion=克爆
+enchantment.railcraft.smack=推车
 enchantment.railcraft.wrecking=破击
 
 entity.railcraft.cart_worldspike_admin.name=管理员锚车
