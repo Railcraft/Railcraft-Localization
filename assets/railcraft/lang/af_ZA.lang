@@ -90,9 +90,9 @@ enchantment.railcraft.implosion=inploffing
 enchantment.railcraft.wrecking=redding
 
 entity.railcraft.bore.name=Tonnel Boor
-entity.railcraft.cart_anchor_admin.name=Admin Anker Kar
-entity.railcraft.cart_anchor.name=Anker Kar
-entity.railcraft.cart_anchor_personal.name=Persoonlike Anker Kar
+entity.railcraft.cart_worldspike_admin.name=Admin Anker Kar
+entity.railcraft.cart_worldspike_standard.name=Anker Kar
+entity.railcraft.cart_worldspike_personal.name=Persoonlike Anker Kar
 entity.railcraft.cart_basic.name=Mynkar
 entity.railcraft.cart_cargo.name=Vrag Kar
 entity.railcraft.cart_chest.name=Kis Kar
@@ -162,9 +162,9 @@ item.railcraft.dust.sulfur.name=swael
 item.railcraft.emblem.name=Embleem
 
 item.railcraft.entity.bore.name=Tonnel Boor
-Anker item.railcraft.entity.cart.anchor.admin.name=Admin Kar
-item.railcraft.entity.cart.anchor.personal.name=Persoonlike Anker KarKar
-item.railcraft.entity.cart.anchor.world.name=Anker Kar
+Anker item.railcraft.entity.cart.worldspike.admin.name=Admin Kar
+item.railcraft.entity.cart.worldspike.personal.name=Persoonlike Anker KarKar
+item.railcraft.entity.cart.worldspike.standard.name=Anker Kar
 item.railcraft.entity.cart.basic.name=Mijnkar
 item.railcraft.entity.cart.cargo.name=Vrag Kar
 item.railcraft.entity.cart.chest.name=Kis Kar
@@ -356,16 +356,16 @@ railcraft.gates.trigger.temp.hot=Hot
 railcraft.gates.trigger.temp.warm=Warm
 railcraft.gates.trigger.work=Jy Werk
 
-gui.railcraft.anchor.fuel.remaining =% s ure
-gui.railcraft.anchor.fuel=End Pearls
-gui.railcraft.anchor.pair.fail.alignment=@1$s~~V~~aux as word nie in lyn met daardie @ 2 $ s
-gui.railcraft.anchor.pair.fail.distance=@1$s is te ver om paar met Dat @ 2 $ s
-gui.railcraft.anchor.pair.fail.dimension =% s is in 'n ander dimensie as die teiken
-gui.railcraft.anchor.pair.fail.invalid=Dit is nie 'n geldige teiken vir paring met die% s
-gui.railcraft.anchor.pair.fail.unloaded=Doel is nie gelaai tydens 'n poging om paar met% s
-gui.railcraft.anchor.pair.cancel =% s paring is gekanselleer
-gui.railcraft.anchor.pair.start =% s paring geïnisieer
-gui.railcraft.anchor.pair.success =% s is suksesvol gepaar
+gui.railcraft.worldspike.fuel.remaining =% s ure
+gui.railcraft.worldspike.fuel=End Pearls
+gui.railcraft.worldspike.pair.fail.alignment=@1$s~~V~~aux as word nie in lyn met daardie @ 2 $ s
+gui.railcraft.worldspike.pair.fail.distance=@1$s is te ver om paar met Dat @ 2 $ s
+gui.railcraft.worldspike.pair.fail.dimension =% s is in 'n ander dimensie as die teiken
+gui.railcraft.worldspike.pair.fail.invalid=Dit is nie 'n geldige teiken vir paring met die% s
+gui.railcraft.worldspike.pair.fail.unloaded=Doel is nie gelaai tydens 'n poging om paar met% s
+gui.railcraft.worldspike.pair.cancel =% s paring is gekanselleer
+gui.railcraft.worldspike.pair.start =% s paring geïnisieer
+gui.railcraft.worldspike.pair.success =% s is suksesvol gepaar
 
 gui.railcraft.aspect.blink.red.name=Blink Netwerk
 gui.railcraft.aspect.blink.yellow.name=Blink Geel
@@ -460,7 +460,7 @@ gui.railcraft.filter=Filter
 gui.railcraft.filters.carts=Carts
 gui.railcraft.filters=Comments
 
-gui.railcraft.goggles.aura.anchor=Anker
+gui.railcraft.goggles.aura.worldspike=Anker
 gui.railcraft.goggles.aura.none=Geen
 gui.railcraft.goggles.aura.signalling=Sein
 gui.railcraft.goggles.aura.surveying=Opmeting
@@ -617,7 +617,7 @@ gui.railcraft.turbine=stoomturbine
 
 gui.railcraft.update.message=Railcraft% s is beskikbaar by <http://railcraft.info>
 
-railcraft.keybind.aura.anchor=Anker Aura
+railcraft.keybind.aura.worldspike=Anker Aura
 Opmeting railcraft.keybind.aura.surveying=Aura
 railcraft.keybind.aura.tuning=Tuning Aura
 
@@ -776,10 +776,10 @@ tile.railcraft.lantern.stone.sandstone.name=sandsteen Lantern
 tile.railcraft.lantern.stone.sandy.name=Sandy Stone Lantern
 tile.railcraft.lantern.stone.stone.name=Stone Lantern
 
-tile.railcraft.machine.alpha.anchor.admin.name=Admin Anker
-tile.railcraft.machine.alpha.anchor.passive.name=Passiewe Anker
-tile.railcraft.machine.alpha.anchor.personal.name=Persoonlike Anker
-tile.railcraft.machine.alpha.anchor.world.name=Wêreld Anker
+tile.railcraft.worldspike.admin.name=Admin Anker
+tile.railcraft.worldspike.passive.name=Passiewe Anker
+tile.railcraft.worldspike.personal.name=Persoonlike Anker
+tile.railcraft.worldspike.standard.name=Wêreld Anker
 tile.railcraft.machine.alpha.blast.furnace.name=Blast Furnace baksteen
 tile.railcraft.machine.alpha.blast.furnace.tips=Multi-Blok: 3x4x3 (hol)
 tile.railcraft.machine.alpha.coke.oven.name=Baksteen oond Coke
@@ -799,7 +799,7 @@ tile.railcraft.machine.alpha.trade.station.name=Handel Stasie
 tile.railcraft.machine.alpha.turbine.name=stoomturbine Behuising
 tile.railcraft.machine.alpha.turbine.tips=Multi-Blok: 3x2x2 \ N elektrisiteit opwek uit stoom \ nOutputs water aan die onderkant \ N Vereis 'n turbine rotor
 
-tile.railcraft.machine.beta.anchor.sentinel.name=Anker Sentinel
+tile.railcraft.worldspike.point.name=Anker Sentinel
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=vloeibare brandstof aangedrewe ketel Firebox
 tile.railcraft.machine.beta.boiler.firebox.liquid.tips=Multi-Blok Veranderlike grootte, Bottom Layer \ N Dimensies: 1x1, 2x2, 3x3
 tile.railcraft.machine.beta.boiler.firebox.solid.name=Solid aangevuur Boiler Firebox

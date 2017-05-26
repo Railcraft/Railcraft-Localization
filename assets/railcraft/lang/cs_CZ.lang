@@ -66,9 +66,9 @@ enchantment.railcraft.destruction=Destrukce
 enchantment.railcraft.implosion=Imploze
 enchantment.railcraft.wrecking=Demolice
 
-entity.railcraft.cart_anchor_admin.name=Kotva správce na vozíku
-entity.railcraft.cart_anchor.name=Kotva na vozíku
-entity.railcraft.cart_anchor_personal.name=Osobní kotva na vozíku
+entity.railcraft.cart_worldspike_admin.name=Kotva správce na vozíku
+entity.railcraft.cart_worldspike_standard.name=Kotva na vozíku
+entity.railcraft.cart_worldspike_personal.name=Osobní kotva na vozíku
 entity.railcraft.cart_basic.name=Důlní vozík
 entity.railcraft.bore.name=Razič tunelů
 entity.railcraft.cart_chest.name=Bedna na vozíku
@@ -118,9 +118,9 @@ item.railcraft.borehead.diamond.name=Diamantová hlava raziče
 item.railcraft.borehead.iron.name=Železná hlava raziče
 item.railcraft.borehead.steel.name=Ocelová hlava raziče
 
-item.railcraft.entity.cart.anchor.admin.name=Kotva správce na vozíku
-item.railcraft.entity.cart.anchor.world.name=Mobilní kotva na vozíku
-item.railcraft.entity.cart.anchor.personal.name=Osobní kotva na vozíku
+item.railcraft.entity.cart.worldspike.admin.name=Kotva správce na vozíku
+item.railcraft.entity.cart.worldspike.standard.name=Mobilní kotva na vozíku
+item.railcraft.entity.cart.worldspike.personal.name=Osobní kotva na vozíku
 item.railcraft.entity.cart.basic.name=Důlní vozík
 item.railcraft.entity.bore.name=Razič tunelů
 item.railcraft.entity.cart.chest.name=Bedna na vozíku
@@ -281,16 +281,16 @@ railcraft.gates.trigger.temp.hot=Horký
 railcraft.gates.trigger.temp.warm=Teplý
 railcraft.gates.trigger.work=Má práci
 
-gui.railcraft.anchor.fuel.remaining=%s hodiny
-gui.railcraft.anchor.fuel=Ender perly
-gui.railcraft.anchor.pair.fail.alignment=%1$s není osa zarovnána s %2$s
-gui.railcraft.anchor.pair.fail.distance=%1$s je příliš daleko ke spárování s %2$s
-gui.railcraft.anchor.pair.fail.dimension=%1$s je v jiné dimenzi než cíl
-gui.railcraft.anchor.pair.fail.invalid=Toto není platný cíl pro spárování s %s
-gui.railcraft.anchor.pair.fail.unloaded=Cíl byl vyložen při pokusu o spárování s %s
-gui.railcraft.anchor.pair.cancel=%s párování bylo ukončeno
-gui.railcraft.anchor.pair.start=%s párování bylo zahájeno
-gui.railcraft.anchor.pair.success=%s byly úspěšně spárovány
+gui.railcraft.worldspike.fuel.remaining=%s hodiny
+gui.railcraft.worldspike.fuel=Ender perly
+gui.railcraft.worldspike.pair.fail.alignment=%1$s není osa zarovnána s %2$s
+gui.railcraft.worldspike.pair.fail.distance=%1$s je příliš daleko ke spárování s %2$s
+gui.railcraft.worldspike.pair.fail.dimension=%1$s je v jiné dimenzi než cíl
+gui.railcraft.worldspike.pair.fail.invalid=Toto není platný cíl pro spárování s %s
+gui.railcraft.worldspike.pair.fail.unloaded=Cíl byl vyložen při pokusu o spárování s %s
+gui.railcraft.worldspike.pair.cancel=%s párování bylo ukončeno
+gui.railcraft.worldspike.pair.start=%s párování bylo zahájeno
+gui.railcraft.worldspike.pair.success=%s byly úspěšně spárovány
 
 gui.railcraft.aspect.blink.red.name=Červené blikání
 gui.railcraft.aspect.blink.yellow.name=Žluté blikání
@@ -379,7 +379,7 @@ gui.railcraft.filter=Filtr
 gui.railcraft.filters.carts=Vozíky
 gui.railcraft.filters=Filtry
 
-gui.railcraft.goggles.aura.anchor=Kotva
+gui.railcraft.goggles.aura.worldspike=Kotva
 gui.railcraft.goggles.aura.none=Nikdo
 gui.railcraft.goggles.aura.signalling=Signalizace
 gui.railcraft.goggles.aura.surveying=Zaměřování
@@ -544,7 +544,7 @@ gui.railcraft.turbine=Parní turbína:
 
 gui.railcraft.update.message=Railcraft %s je dostupný na <http://railcraft.info>
 
-railcraft.keybind.aura.anchor=Aura kotvy
+railcraft.keybind.aura.worldspike=Aura kotvy
 railcraft.keybind.aura.surveying=Zaměřovací Aura
 railcraft.keybind.aura.tuning=Nastavení aury
 
@@ -678,10 +678,10 @@ tile.railcraft.frame.tips=-Wire Support Frame-\n Použij k položení kolejí na
 
 tile.railcraft.glass.name=Tvrzené sklo
 
-tile.railcraft.machine.alpha.anchor.admin.name=Kotva správce
-tile.railcraft.machine.alpha.anchor.passive.name=Pasivní kotva
-tile.railcraft.machine.alpha.anchor.personal.name=Osobní kotva
-tile.railcraft.machine.alpha.anchor.world.name=Světová kotva
+tile.railcraft.worldspike.admin.name=Kotva správce
+tile.railcraft.worldspike.passive.name=Pasivní kotva
+tile.railcraft.worldspike.personal.name=Osobní kotva
+tile.railcraft.worldspike.standard.name=Světová kotva
 tile.railcraft.machine.alpha.blast.furnace.name=Cihlová vysoká pec
 tile.railcraft.machine.alpha.blast.furnace.tips=Multi-blok: 3x4x3 (dutý)
 tile.railcraft.machine.alpha.coke.oven.name=Cihlová koksovací pec
@@ -701,7 +701,7 @@ tile.railcraft.machine.alpha.trade.station.name=Obchodní stanice
 tile.railcraft.machine.alpha.turbine.name=Kryt parní turbíny
 tile.railcraft.machine.alpha.turbine.tips=-Steam Turbine Housing-\n Multi-blok: 3x2x2\n Generuje elektřinu z páry\n Výstupní materiál je voda\n Vyžaduje Rotor turbíny
 
-tile.railcraft.machine.beta.anchor.sentinel.name=Strážní kotva
+tile.railcraft.worldspike.point.name=Strážní kotva
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Hořák boileru na tekuté palivo
 tile.railcraft.machine.beta.boiler.firebox.liquid.tips=-Liquid Fueled Boiler Firebox-\n Multi-blok: Různé velikosti, spodní vrstva\n Rozměry: 1x1, 2x2, 3x3
 tile.railcraft.machine.beta.boiler.firebox.solid.name=Hořák boileru na pevné palivo

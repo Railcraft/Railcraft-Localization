@@ -102,9 +102,9 @@ enchantment.railcraft.implosion=Implosion
 enchantment.railcraft.wrecking=Zertrümmern
 
 entity.railcraft.bore.name=Tunnelbohrer
-entity.railcraft.cart_anchor_admin.name=Admin-Ankerwaggon
-entity.railcraft.cart_anchor.name=Ankerwaggon
-entity.railcraft.cart_anchor_personal.name=Persönlicher Ankerwaggon
+entity.railcraft.cart_worldspike_admin.name=Admin-Weltennagelwaggon
+entity.railcraft.cart_worldspike_standard.name=Weltennagelwaggon
+entity.railcraft.cart_worldspike_personal.name=Persönlicher Weltennagelwaggon
 entity.railcraft.cart_basic.name=Lore
 entity.railcraft.cart_cargo.name=Frachtwaggon
 entity.railcraft.cart_chest.name=Güterwaggon
@@ -175,10 +175,17 @@ item.railcraft.dust.sulfur.name=Schwefel
 
 item.railcraft.emblem.name=Emblem
 
+item.railcraft.entity.bore.desc=Zum Gaben von Tunneln und Legen von Gleisen gedachte Maschine.
 item.railcraft.entity.bore.name=Tunnelbohrer
-item.railcraft.entity.cart.anchor.admin.name=Admin-Ankerwaggon
-item.railcraft.entity.cart.anchor.personal.name=Persönlicher Ankerwaggon
-item.railcraft.entity.cart.anchor.world.name=Ankerwaggon
+item.railcraft.entity.cart.worldspike.admin.desc=Lädt beim Start der Welt einen 5x5-Bereich von Chunks und hält ihn geladen. Kann nicht hergestellt werden und verbraucht keine Energie.
+item.railcraft.entity.cart.worldspike.admin.name=Admin-Weltennagelwaggon
+item.railcraft.entity.cart.worldspike.admin.tips=Chunkloader\n§o§c- Deaktiviere mit Aktivierungsgleis -
+item.railcraft.entity.cart.worldspike.personal.desc=Hält einen 5x5-Bereich von Chunks geladen, wird sie aber nicht beim Start der Welt laden. Hält Chunks nur geladen, bis der Eigentümer das Spiel verlässt. Kann Treibstoff verbrauchen.
+item.railcraft.entity.cart.worldspike.personal.name=Persönlicher Weltennagelwaggon
+item.railcraft.entity.cart.worldspike.personal.tips=Chunkloader\n§o§c- Deaktiviere mit Aktivierungsgleis -
+item.railcraft.entity.cart.worldspike.standard.desc=Lädt beim Start der Welt einen 5x5-Bereich von Chunks und hält ihn geladen. Kann Treibstoff verbrauchen.
+item.railcraft.entity.cart.worldspike.standard.name=Weltennagelwaggon
+item.railcraft.entity.cart.worldspike.standard.tips=Chunkloader\n§o§c- Deaktiviere mit Aktivierungsgleis -
 item.railcraft.entity.cart.basic.name=Lore
 item.railcraft.entity.cart.cargo.name=Frachtwaggon
 item.railcraft.entity.cart.chest.name=Güterwaggon
@@ -231,13 +238,14 @@ item.railcraft.fluid.creosote.wax.name=Teerölkapsel
 
 item.railcraft.fuel.coke.name=Koks
 
+item.railcraft.gear.brass.name=Messingzahnrad
 item.railcraft.gear.bronze.name=Bronzezahnrad
 item.railcraft.gear.bushing.name=Zahnradbuchse
-item.railcraft.gear.gold.plate.name=Vergoldetes Zahnrad
 item.railcraft.gear.invar.name=Invarzahnrad
 item.railcraft.gear.iron.name=Eisenzahnrad
 item.railcraft.gear.steel.name=Stahlzahnrad
 
+item.railcraft.ingot.brass.name=Messingbarren
 item.railcraft.ingot.bronze.name=Bronzebarren
 item.railcraft.ingot.copper.name=Kupferbarren
 item.railcraft.ingot.invar.name=Invarbarren
@@ -246,7 +254,9 @@ item.railcraft.ingot.nickel.name=Nickelbarren
 item.railcraft.ingot.silver.name=Silberbarren
 item.railcraft.ingot.steel.name=Stahlbarren
 item.railcraft.ingot.tin.name=Zinnbarren
+item.railcraft.ingot.zinc.name=Tinkbarren
 
+item.railcraft.nugget.brass.name=Messingnugget
 item.railcraft.nugget.bronze.name=Bronzenugget
 item.railcraft.nugget.copper.name=Kupfernugget
 item.railcraft.nugget.invar.name=Invarnugget
@@ -256,7 +266,9 @@ item.railcraft.nugget.nickel.name=Nickelnugget
 item.railcraft.nugget.silver.name=Silbernugget
 item.railcraft.nugget.steel.name=Stahlnugget
 item.railcraft.nugget.tin.name=Zinnnugget
+item.railcraft.nugget.zinc.name=Zinknugget
 
+item.railcraft.plate.brass.name=Messingplatte
 item.railcraft.plate.bronze.name=Bronzeplatte
 item.railcraft.plate.copper.name=Kupferplatte
 item.railcraft.plate.gold.name=Goldplatte
@@ -267,6 +279,7 @@ item.railcraft.plate.nickel.name=Nickelplatte
 item.railcraft.plate.silver.name=Silberplatte
 item.railcraft.plate.steel.name=Stahlplatte
 item.railcraft.plate.tin.name=Zinnplatte
+item.railcraft.plate.zinc.name=Zinkplatte
 
 item.railcraft.rail.advanced.name=Verbesserte Schiene
 item.railcraft.rail.electric.name=Elektrische Schiene
@@ -387,16 +400,16 @@ railcraft.gates.trigger.work=Hat Arbeit
 gui.railcraft.actuator.motor.action=Weiche mit Signal stellen
 gui.railcraft.actuator.motor.redstone=Redstone ignorieren
 
-gui.railcraft.anchor.fuel.remaining=%s Stunden
-gui.railcraft.anchor.fuel=Enderperlen
-gui.railcraft.anchor.pair.cancel=Verbindung wurde abgebrochen: %s
-gui.railcraft.anchor.pair.fail.alignment=@1$s ist nicht auf der selben Achse wie @2$s
-gui.railcraft.anchor.pair.fail.dimension=%s ist in einer anderen Dimension als das Ziel
-gui.railcraft.anchor.pair.fail.distance=@1$s ist zu weit weg, um mit @2$s gekoppelt zu werden
-gui.railcraft.anchor.pair.fail.invalid=Dies ist kein gültiges Ziel für eine Verbindung: %s
-gui.railcraft.anchor.pair.fail.unloaded=Ziel ist nicht geladen, während versucht wurde, zu verbinden: %s
-gui.railcraft.anchor.pair.start=Kopplung eingeleitet: %s
-gui.railcraft.anchor.pair.success=Erfolgreich gekoppelt: %s
+gui.railcraft.worldspike.fuel.remaining=%s Stunden
+gui.railcraft.worldspike.fuel=Enderperlen
+gui.railcraft.worldspike.pair.cancel=Verbindung wurde abgebrochen: %s
+gui.railcraft.worldspike.pair.fail.alignment=@1$s ist nicht auf der selben Achse wie @2$s
+gui.railcraft.worldspike.pair.fail.dimension=%s ist in einer anderen Dimension als das Ziel
+gui.railcraft.worldspike.pair.fail.distance=@1$s ist zu weit weg, um mit @2$s gekoppelt zu werden
+gui.railcraft.worldspike.pair.fail.invalid=Dies ist kein gültiges Ziel für eine Verbindung: %s
+gui.railcraft.worldspike.pair.fail.unloaded=Ziel ist nicht geladen, während versucht wurde, zu verbinden: %s
+gui.railcraft.worldspike.pair.start=Kopplung eingeleitet: %s
+gui.railcraft.worldspike.pair.success=Erfolgreich gekoppelt: %s
 
 gui.railcraft.aspect.blink.red.name=Rot blinkend
 gui.railcraft.aspect.blink.yellow.name=Gelb blinkend
@@ -491,8 +504,9 @@ gui.railcraft.filter=Filter
 gui.railcraft.filters.carts=Waggons
 gui.railcraft.filters=Filter
 
-gui.railcraft.goggles.aura.anchor=Anker
+gui.railcraft.goggles.aura.worldspike=Weltennagel
 gui.railcraft.goggles.aura.none=nichts
+gui.railcraft.goggles.aura.shunting=Rangieren
 gui.railcraft.goggles.aura.signalling=Signale
 gui.railcraft.goggles.aura.surveying=Vermessung
 gui.railcraft.goggles.aura.tracking=Tracking
@@ -663,7 +677,7 @@ gui.railcraft.turbine=Dampfturbine
 
 gui.railcraft.update.message=Railcraft %s ist verfügbar auf <http://railcraft.info>
 
-railcraft.keybind.aura.anchor=Anker-Aura
+railcraft.keybind.aura.worldspike=Weltennagelaura
 railcraft.keybind.aura.surveying=Vermessungsaura
 railcraft.keybind.aura.tuning=Tuning-Aura
 
@@ -833,6 +847,7 @@ tile.railcraft.fluid.steam.name=Dampf
 tile.railcraft.frame.name=Kabelstützrahmen
 tile.railcraft.frame.tips=Verwende es, um Gleise auf Rangierkabeln zu platzieren
 
+tile.railcraft.generic_brass.name=Messingblock
 tile.railcraft.generic_bronze.name=Bronzeblock
 tile.railcraft.generic_coke.name=Koksblock
 tile.railcraft.generic_coke.tips=32,000 Brennstoffeinheiten
@@ -849,6 +864,7 @@ tile.railcraft.generic_steel.name=Stahlblock
 tile.railcraft.generic_stone_abyssal.name=Abyss-Stein
 tile.railcraft.generic_stone_quarried.name=Brüchiger Stein
 tile.railcraft.generic_tin.name=Zinnblock
+tile.railcraft.generic_zinc.name=Zinkblock
 
 tile.railcraft.glass.name=Gestärktes Glas
 
@@ -870,10 +886,6 @@ tile.railcraft.lantern.stone.sandstone.name=Sandsteinlaterne
 tile.railcraft.lantern.stone.sandy.name=Sandige Steinlaterne
 tile.railcraft.lantern.stone.stone.name=Steinlaterne
 
-tile.railcraft.machine.alpha.anchor.admin.name=Admin-Anker
-tile.railcraft.machine.alpha.anchor.passive.name=Passivanker
-tile.railcraft.machine.alpha.anchor.personal.name=Persönlicher Anker
-tile.railcraft.machine.alpha.anchor.world.name=Weltanker
 tile.railcraft.machine.alpha.blast.furnace.name=Hochofenziegel
 tile.railcraft.machine.alpha.blast.furnace.tips=Multiblock: 3x4x3 (Hohlraum)
 tile.railcraft.machine.alpha.coke.oven.name=Kokerei
@@ -890,7 +902,6 @@ tile.railcraft.machine.alpha.trade.station.name=Handelsstation
 tile.railcraft.machine.alpha.turbine.name=Dampfturbinengehäuse
 tile.railcraft.machine.alpha.turbine.tips=Multiblock: 3x2x2\n Generiert Elektrizität aus Dampf\nGibt unten Wasser ab\n Benötigt einen Turbinenrotor
 
-tile.railcraft.machine.beta.anchor.sentinel.name=Anker-Markierung
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Öl-Dampfkessel-Feuerbüchse
 tile.railcraft.machine.beta.boiler.firebox.liquid.tips=Multiblock: variable Größe, unterste Ebene\n Abmessung: 1x1, 2x2, 3x3
 tile.railcraft.machine.beta.boiler.firebox.solid.name=Kohle-Dampfkessel-Feuerbüchse
@@ -1258,6 +1269,22 @@ tile.railcraft.wall.stone.brick.mossy.name=Moosige Ziegelmauer
 tile.railcraft.wall.stone.brick.name=Steinziegelmauer
 
 tile.railcraft.worldlogic.name=Salpetererz-Spawner
+
+tile.railcraft.worldspike.admin.desc=Lädt beim Start der Welt einen 3x3-Bereich von Chunks und hält ihn geladen. Kann nicht hergestellt werden und verbraucht keine Energie.
+tile.railcraft.worldspike.admin.name=Admin-Weltennagel
+tile.railcraft.worldspike.admin.tips=Chunkloader\n§o§c- Deaktiviere mit einem Redstone-Signal -
+tile.railcraft.worldspike.passive.desc=Hält einen 3x3-Bereich von Chunks geladen, wird sie aber nicht beim Start der Welt laden. Kann Treibstoff verbrauchen.
+tile.railcraft.worldspike.passive.name=Passivweltennagel
+tile.railcraft.worldspike.passive.tips=Chunkloader\n§o§c- Deaktiviere mit einem Redstone-Signal -
+tile.railcraft.worldspike.personal.desc=Hält einen 3x3-Bereich von Chunks geladen, wird sie aber nicht beim Start der Welt laden. Hält Chunks nur geladen, bis der Eigentümer das Spiel verlässt, andere Dinge könnten den Stopp aber verhindern. Kann Treibstoff verbrauchen.
+tile.railcraft.worldspike.personal.name=Persönlicher Weltennagel
+tile.railcraft.worldspike.personal.tips=Chunkloader\n§o§c- Deaktiviere mit einem Redstone-Signal -
+tile.railcraft.worldspike.standard.desc=Lädt beim Start der Welt einen 3x3-Bereich von Chunks und hält ihn geladen. Kann Treibstoff verbrauchen.
+tile.railcraft.worldspike.standard.name=Weltennagel
+tile.railcraft.worldspike.standard.tips=Chunkloader\n§o§c- Deaktiviere mit einem Redstone-Signal -
+tile.railcraft.worldspike.point.desc=Die Weltennagelspitze kann mit einem Weltennagel verbunden werden, um eine einzelne Linie von Chunks über große Distanz zu laden.
+tile.railcraft.worldspike.point.name=Weltennagelspitze
+tile.railcraft.worldspike.point.tips=Erhöht die Reichweite eines Weltennagels\n§o§9- Benutze ein Brecheisen zum Verbinden mit einem Weltennagel -
 
 tooltip.wawla.tooltype.crowbar=Brecheisen
 

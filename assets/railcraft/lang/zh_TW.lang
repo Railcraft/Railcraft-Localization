@@ -93,9 +93,9 @@ enchantment.railcraft.implosion=爆裂
 enchantment.railcraft.wrecking=揮擊
 
 entity.railcraft.bore.name=隧道鑽掘機
-entity.railcraft.cart_anchor_admin.name=管理錨車
-entity.railcraft.cart_anchor.name=世界錨車
-entity.railcraft.cart_anchor_personal.name=私人錨車
+entity.railcraft.cart_worldspike_admin.name=管理錨車
+entity.railcraft.cart_worldspike_standard.name=世界錨車
+entity.railcraft.cart_worldspike_personal.name=私人錨車
 entity.railcraft.cart_basic.name=礦車
 entity.railcraft.cart_cargo.name=貨物礦車
 entity.railcraft.cart_chest.name=運輸礦車
@@ -166,9 +166,9 @@ item.railcraft.dust.sulfur.name=硫磺
 item.railcraft.emblem.name=標誌
 
 item.railcraft.entity.bore.name=隧道鑽掘機
-item.railcraft.entity.cart.anchor.admin.name=管理錨車
-item.railcraft.entity.cart.anchor.personal.name=私人錨車
-item.railcraft.entity.cart.anchor.world.name=世界錨車
+item.railcraft.entity.cart.worldspike.admin.name=管理錨車
+item.railcraft.entity.cart.worldspike.personal.name=私人錨車
+item.railcraft.entity.cart.worldspike.standard.name=世界錨車
 item.railcraft.entity.cart.basic.name=礦車
 item.railcraft.entity.cart.cargo.name=貨物礦車
 item.railcraft.entity.cart.chest.name=運輸礦車
@@ -359,16 +359,16 @@ railcraft.gates.trigger.temp.hot=燙
 railcraft.gates.trigger.temp.warm=熱
 railcraft.gates.trigger.work=運作中
 
-gui.railcraft.anchor.fuel.remaining=%s小時
-gui.railcraft.anchor.fuel=終界珍珠
-gui.railcraft.anchor.pair.fail.alignment=%1$s 與 %2$s 不在同一條軸線上
-gui.railcraft.anchor.pair.fail.distance=%1$s 和 %2$s 相距過遠，無法配對
-gui.railcraft.anchor.pair.fail.dimension=%s 與目標處在不同的世界
-gui.railcraft.anchor.pair.fail.invalid=這不是一個可以與 %s 配對的目標
-gui.railcraft.anchor.pair.fail.unloaded=嘗試配對 %s 時目標並未被讀取
-gui.railcraft.anchor.pair.cancel=%s 的配對取消
-gui.railcraft.anchor.pair.start=%s 開始配對
-gui.railcraft.anchor.pair.success=%s 已成功配對
+gui.railcraft.worldspike.fuel.remaining=%s小時
+gui.railcraft.worldspike.fuel=終界珍珠
+gui.railcraft.worldspike.pair.fail.alignment=%1$s 與 %2$s 不在同一條軸線上
+gui.railcraft.worldspike.pair.fail.distance=%1$s 和 %2$s 相距過遠，無法配對
+gui.railcraft.worldspike.pair.fail.dimension=%s 與目標處在不同的世界
+gui.railcraft.worldspike.pair.fail.invalid=這不是一個可以與 %s 配對的目標
+gui.railcraft.worldspike.pair.fail.unloaded=嘗試配對 %s 時目標並未被讀取
+gui.railcraft.worldspike.pair.cancel=%s 的配對取消
+gui.railcraft.worldspike.pair.start=%s 開始配對
+gui.railcraft.worldspike.pair.success=%s 已成功配對
 
 gui.railcraft.aspect.blink.red.name=閃紅燈
 gui.railcraft.aspect.blink.yellow.name=閃黃燈
@@ -463,7 +463,7 @@ gui.railcraft.filter=篩選
 gui.railcraft.filters.carts=車種
 gui.railcraft.filters=篩選
 
-gui.railcraft.goggles.aura.anchor=世界錨範圍
+gui.railcraft.goggles.aura.worldspike=世界錨範圍
 gui.railcraft.goggles.aura.none=停用
 gui.railcraft.goggles.aura.signalling=信號途徑
 gui.railcraft.goggles.aura.surveying=號誌區間
@@ -619,7 +619,7 @@ gui.railcraft.turbine=蒸氣渦輪
 
 gui.railcraft.update.message=Railcraft %s 已經發布，來自 <http://railcraft.info>
 
-railcraft.keybind.aura.anchor=世界錨效果
+railcraft.keybind.aura.worldspike=世界錨效果
 railcraft.keybind.aura.surveying=號誌區間效果
 railcraft.keybind.aura.tuning=號誌調諧效果
 
@@ -778,10 +778,10 @@ tile.railcraft.lantern.stone.sandstone.name=砂岩石燈
 tile.railcraft.lantern.stone.sandy.name=砂石製燈
 tile.railcraft.lantern.stone.stone.name=石燈
 
-tile.railcraft.machine.alpha.anchor.admin.name=管理錨
-tile.railcraft.machine.alpha.anchor.passive.name=被動錨
-tile.railcraft.machine.alpha.anchor.personal.name=私人錨
-tile.railcraft.machine.alpha.anchor.world.name=世界錨
+tile.railcraft.worldspike.admin.name=管理錨
+tile.railcraft.worldspike.passive.name=被動錨
+tile.railcraft.worldspike.personal.name=私人錨
+tile.railcraft.worldspike.standard.name=世界錨
 tile.railcraft.machine.alpha.blast.furnace.name=鼓風爐磚
 tile.railcraft.machine.alpha.blast.furnace.tips=多重方塊: 3x4x3 (中空)
 tile.railcraft.machine.alpha.coke.oven.name=焦炭爐磚
@@ -801,7 +801,7 @@ tile.railcraft.machine.alpha.trade.station.name=交易站
 tile.railcraft.machine.alpha.turbine.name=蒸氣渦輪機殼
 tile.railcraft.machine.alpha.turbine.tips=多重方塊: 3x2x2\n 利用蒸氣產生電力\n會在底部產出水分\n 需要一個渦輪轉子
 
-tile.railcraft.machine.beta.anchor.sentinel.name=錨哨兵
+tile.railcraft.worldspike.point.name=錨哨兵
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=液體燃燒室
 tile.railcraft.machine.beta.boiler.firebox.liquid.tips=多重方塊: 大小可變, 位居底部\n 尺寸: 1x1, 2x2, 3x3
 tile.railcraft.machine.beta.boiler.firebox.solid.name=固體燃燒室
