@@ -217,6 +217,14 @@ item.railcraft.entity.mow.track.remover.tips=Removes tracks it passes over
 item.railcraft.entity.mow.undercutter.name=Undercutter Cart
 item.railcraft.entity.mow.undercutter.tips=Replaces the blocks\n under the track
 
+item.railcraft.filter.blank.desc=Blank Filter
+item.railcraft.filter.blank.name=Blank Filter
+item.railcraft.filter.ore.dict.desc=Can be used in Item (Un)Loaders and Item Detectors to match any item that shares an Ore Dictionary tag with the prototype item. Craft with Ore Dictionary tagged item to set prototype.
+item.railcraft.filter.ore.dict.name=Ore Dictionary Filter
+item.railcraft.filter.ore.dict.tips=Craft with Ore Dictionary\n tagged item to set prototype.
+item.railcraft.filter.ore.dict.tips.prototype=§aPrototype Item:
+item.railcraft.filter.ore.dict.tips.tags=§aTags matched:
+
 item.railcraft.firestone.cracked.name=Cracked Firestone
 item.railcraft.firestone.cracked.tips.charged=Leaking heat,\n it can still be used\n if you are careful...
 item.railcraft.firestone.cracked.tips.empty=Damaged, but it\n could still be useful\n if you could recharge it...
