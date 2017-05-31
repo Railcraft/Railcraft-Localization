@@ -222,8 +222,11 @@ item.railcraft.filter.blank.name=Blank Filter
 item.railcraft.filter.ore.dict.desc=Can be used in Item (Un)Loaders and Item Detectors to match any item that shares an Ore Dictionary tag with the prototype item. Craft with Ore Dictionary tagged item to set prototype.
 item.railcraft.filter.ore.dict.name=Ore Dictionary Filter
 item.railcraft.filter.ore.dict.tips=Craft with Ore Dictionary\n tagged item to set prototype.
-item.railcraft.filter.ore.dict.tips.prototype=§aPrototype Item:
 item.railcraft.filter.ore.dict.tips.tags=§aTags matched:
+item.railcraft.filter.type.desc=Can be used in Item (Un)Loaders and Item Detectors to match any item that shares an Item class. In other words, it ignores Metadata and NBT. Craft with any item to set prototype.
+item.railcraft.filter.type.name=Item Type Filter
+item.railcraft.filter.type.tips=Craft with any\n item to set prototype.
+item.railcraft.filter.tips.prototype=§aPrototype Item:
 
 item.railcraft.firestone.cracked.name=Cracked Firestone
 item.railcraft.firestone.cracked.tips.charged=Leaking heat,\n it can still be used\n if you are careful...
