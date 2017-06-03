@@ -169,10 +169,13 @@ item.railcraft.circuit.signal.name=Signal Circuit
 item.railcraft.concrete.name=Bag of Concrete
 
 item.railcraft.dust.charcoal.name=Charcoal Dust
+item.railcraft.dust.coal.name=Coal Dust
+item.railcraft.dust.ender.name=Ender Powder
 item.railcraft.dust.obsidian.name=Obsidian Dust
 item.railcraft.dust.saltpeter.name=Saltpeter
 item.railcraft.dust.slag.name=Ground Blast Furnace Slag
 item.railcraft.dust.sulfur.name=Sulfur
+item.railcraft.dust.void.name=Void Powder
 
 item.railcraft.emblem.name=Emblem
 
@@ -424,7 +427,7 @@ gui.railcraft.actuator.motor.action=Switch on Aspect
 gui.railcraft.actuator.motor.redstone=Ignore Redstone
 
 gui.railcraft.worldspike.fuel.remaining=%s hours
-gui.railcraft.worldspike.fuel=Ender Pearls
+gui.railcraft.worldspike.fuel=Worldspike Fuel
 gui.railcraft.worldspike.pair.cancel=%s pairing was cancelled
 gui.railcraft.worldspike.pair.fail.alignment=@1$s is not axis aligned with that @2$s
 gui.railcraft.worldspike.pair.fail.dimension=%s is in a different dimension than the target
@@ -638,6 +641,8 @@ gui.railcraft.routing.type.private.tips=Will only route\n Locomotives\n that bel
 gui.railcraft.routing.type.private=Private Railway
 gui.railcraft.routing.type.public.tips=Will route any Locomotive.
 gui.railcraft.routing.type.public=Public Railway
+
+gui.railcraft.slot.map.valid=Valid Items:
 
 gui.railcraft.steam.boiler=Steam Boiler
 gui.railcraft.steam.oven=Steam Oven
