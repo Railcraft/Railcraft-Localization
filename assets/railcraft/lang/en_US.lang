@@ -217,6 +217,17 @@ item.railcraft.entity.mow.track.remover.tips=Removes tracks it passes over
 item.railcraft.entity.mow.undercutter.name=Undercutter Cart
 item.railcraft.entity.mow.undercutter.tips=Replaces the blocks\n under the track
 
+item.railcraft.filter.bee.desc=Can be used in Item (Un)Loaders and Item Detectors to match any bee.
+item.railcraft.filter.bee.name=Bee Filter
+item.railcraft.filter.bee.tips=Matches any Bee.
+item.railcraft.filter.bee.genome.desc=Can be used in Item (Un)Loaders and Item Detectors to match analyzed bees. Craft with analyzed bees to setup. Bee above sets the type of bee, left sets the active allele, right sets the inactive. You don't need to have a bee in each slot, missing bees will be treated as wildcards. Use the filter from the hotbar to cycle the Chromosome.
+item.railcraft.filter.bee.genome.name=Bee Genome Filter
+item.railcraft.filter.bee.genome.tips=Craft with analyzed\n bees to setup filter.\n Use to cycle Chromosome.
+item.railcraft.filter.bee.genome.tips.type=§aBee Type: §7%s
+item.railcraft.filter.bee.genome.tips.chromosome=§aChromosome: §7%s
+item.railcraft.filter.bee.genome.tips.active=§aActive Allele: §7%s
+item.railcraft.filter.bee.genome.tips.inactive=§aInactive Allele: §7%s
+item.railcraft.filter.bee.genome.tips.wildcard=Any
 item.railcraft.filter.blank.desc=Blank Filter
 item.railcraft.filter.blank.name=Blank Filter
 item.railcraft.filter.ore.dict.desc=Can be used in Item (Un)Loaders and Item Detectors to match any item that shares an Ore Dictionary tag with the prototype item. Craft with Ore Dictionary tagged item to set prototype.
@@ -1418,3 +1429,7 @@ track_type.railcraft.railcraft_reinforced.name=Reinforced
 track_type.railcraft.railcraft_high_speed.name=H. S.
 track_type.railcraft.railcraft_high_speed_electric.name=H. S. E.
 track_type.railcraft.railcraft_electric.name=Electric
+
+# remove these at some future point
+forestry.allele.true=Yes
+forestry.allele.false=No
