@@ -217,6 +217,28 @@ item.railcraft.entity.mow.track.remover.tips=Entfernt Schienen, über die er fä
 item.railcraft.entity.mow.undercutter.name=Schienenbett-Ersetzer
 item.railcraft.entity.mow.undercutter.tips=Ersetzt die Blöcke\n unterhalb des Gleises
 
+item.railcraft.filter.bee.desc=Kann in Item(ent)ladern und Gleissensoren Bienen erkennen.
+item.railcraft.filter.bee.name=Bienenfilter
+item.railcraft.filter.bee.tips=Akzeptiert Bienen.
+item.railcraft.filter.bee.genome.desc=Kann in Item(ent)ladern und Gleissensoren analysierte Bienen erkennen. Wird konfiguriert über Verbinden mit analysierten Bienen: Biene oberhalb bestimmt den Typ, links das aktive Allel, rechts das inaktive. Nicht jeder Slot muss eine Biene beinhalten, standardmäßig wird alles akzeptiert. Rechtsklick auf den Filter wechselt durch Chromosomen.
+item.railcraft.filter.bee.genome.name=Bienengenomfilter
+item.railcraft.filter.bee.genome.tips=Wird konfiguriert über\nVerbinden mit analysierten Bienen.\n Rechtsklick zum Ändern der Chromosomen.
+item.railcraft.filter.bee.genome.tips.type=§aBienentyp: §7%s
+item.railcraft.filter.bee.genome.tips.chromosome=§aChromosom: §7%s
+item.railcraft.filter.bee.genome.tips.active=§aAktives Allel: §7%s
+item.railcraft.filter.bee.genome.tips.inactive=§aInaktives Allel: §7%s
+item.railcraft.filter.bee.genome.tips.wildcard=Egal
+item.railcraft.filter.blank.desc=Leerer Filter
+item.railcraft.filter.blank.name=Leerer Filter
+item.railcraft.filter.ore.dict.desc=Kann in Item(ent)ladern und Gleissensoren Items, die im Ore Dictionary zum Prototypen passen, erkennen. Verbinde mit einem entsprechenden Item, um den Prototyp festzulegen.
+item.railcraft.filter.ore.dict.name= Ore-Dictionary-Filter
+item.railcraft.filter.ore.dict.tips=Verbinde mit einem im\n Ore Dictionary registrierten Item,\n um den Prototypen festzulegen.
+item.railcraft.filter.ore.dict.tips.tags=§aErkannte Tags:
+item.railcraft.filter.type.desc=Kann in Item(ent)ladern und Gleissensoren zum Prototypen passende Items erkennen. Ignoriert Metadaten und NBT. Verbinde mit einem Item, um den Prototyp festzulegen.
+item.railcraft.filter.type.name=Itemtypenfilter
+item.railcraft.filter.type.tips=Verbinde mit einem Item,\n um den Prototypen festzulegen.
+item.railcraft.filter.tips.prototype=§aItemprototyp:
+
 item.railcraft.firestone.cracked.name=Rissiger Flammstein
 item.railcraft.firestone.cracked.tips.charged=Hitze verlierend,\n kann er noch immer genutzt werden,\n wenn du vorsichtig bist...
 item.railcraft.firestone.cracked.tips.empty=Beschädigt, aber er\n könnte noch immer nützlich sein,\n wenn du ihn wiederaufladen könntest...
@@ -1416,3 +1438,7 @@ tile.railcraft.track_outfitted.railcraft_reinforced.railcraft_missing.name=Ungü
 tile.railcraft.track_outfitted.railcraft_high_speed.railcraft_missing.name=Ungültiges Hochgeschwindigkeitsgleis
 tile.railcraft.track_outfitted.railcraft_high_speed_electric.railcraft_missing.name=Ungültiges Elektrisches Hochgeschwindigkeitsgleis
 tile.railcraft.track_outfitted.railcraft_electric.railcraft_missing.name=Ungültiges Elektrisch Gleis
+
+# remove these at some future point
+forestry.allele.true=Ja
+forestry.allele.false=Nein
