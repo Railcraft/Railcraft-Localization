@@ -1,6 +1,7 @@
 chat.railcraft.api.error=Error: Veraltete API, bitte überprüfe das Log für mehr Info.
 
 command.railcraft.aliases=Aliase: %s
+command.railcraft.block.notFound=Kein gültiger Block an Zielposition gefunden.
 command.railcraft.help=Gib für weitere Hilfe '%s' ein.
 command.railcraft.list=Verfügbare Sub-Befehle:
 command.railcraft.permlevel=Berechtigungslevel: %s
@@ -31,15 +32,15 @@ command.railcraft.railcraft.debug.format=Format: /%s
 
 command.railcraft.railcraft.debug.tile.desc=- %s : Tile-Debug-Befehle
 command.railcraft.railcraft.debug.tile.help=Befehle zum Überprüfen von Tiles.
-command.railcraft.railcraft.debug.tile.format=Format: /%s <x> <y> <z>
+command.railcraft.railcraft.debug.tile.format=Format: /%s [<x> <y> <z>]
 
 command.railcraft.railcraft.debug.tile.controller.desc=- %s : Controller-Debug-Befehle
 command.railcraft.railcraft.debug.tile.controller.help=Wergzeug zum Überprüfen von Controller-Tiles.
-command.railcraft.railcraft.debug.tile.controller.format=Format: /%s <x> <y> <z>
+command.railcraft.railcraft.debug.tile.controller.format=Format: /%s [<x> <y> <z>]
 
 command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Empfänger-Debug-Befehle
 command.railcraft.railcraft.debug.tile.receiver.help=Befehle zum Überprüfen von Empfänger-Tiles.
-command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s <x> <y> <z>
+command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s [<x> <y> <z>]
 
 command.railcraft.railcraft.track.desc=- %s : Gleisbefehle
 command.railcraft.railcraft.track.help=Befehle für Gleise.
@@ -47,11 +48,11 @@ command.railcraft.railcraft.track.format=Format: /%s
 
 command.railcraft.railcraft.track.message.desc=- %s : Botengleistitel
 command.railcraft.railcraft.track.message.help=Bestimmt den Titel des Botengleises
-command.railcraft.railcraft.track.message.format=Format: /%s <x> <y> <z> <JSON-Rohnachricht>
+command.railcraft.railcraft.track.message.format=Format: /%s [<x> <y> <z>] <JSON-Rohnachricht>
 
 command.railcraft.railcraft.track.message.subtitle.desc=- %s : Botengleisuntertitel
 command.railcraft.railcraft.track.message.subtitle.help=Bestimmt den Untertitel des Botengleises
-command.railcraft.railcraft.track.message.subtitle.format=Format: /%s <x> <y> <z> <JSON-Rohnachricht>
+command.railcraft.railcraft.track.message.subtitle.format=Format: /%s [<x> <y> <z>] <JSON-Rohnachricht>
 
 death.railcraft.bore.1=%s war dem Fortschritt im Weg
 death.railcraft.bore.2=%s legte sich mit einem Bohrkopf an und verlor
