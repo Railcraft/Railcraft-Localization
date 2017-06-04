@@ -1,6 +1,7 @@
 chat.railcraft.api.error=Error: Outdated API, please check your log for more info.
 
 command.railcraft.aliases=Aliases: %s
+command.railcraft.block.notFound=No valid block was found at the target location.
 command.railcraft.help=Type '%s' for help.
 command.railcraft.list=Available Sub-Commands:
 command.railcraft.permlevel=Permission Level: %s
@@ -31,15 +32,15 @@ command.railcraft.railcraft.debug.format=Format: /%s
 
 command.railcraft.railcraft.debug.tile.desc=- %s : Tile Debug Tools
 command.railcraft.railcraft.debug.tile.help=Tools for debugging tiles.
-command.railcraft.railcraft.debug.tile.format=Format: /%s <x> <y> <z>
+command.railcraft.railcraft.debug.tile.format=Format: /%s [<x> <y> <z>]
 
 command.railcraft.railcraft.debug.tile.controller.desc=- %s : Controller Debug Tools
 command.railcraft.railcraft.debug.tile.controller.help=Tools for debugging Controller tiles.
-command.railcraft.railcraft.debug.tile.controller.format=Format: /%s <x> <y> <z>
+command.railcraft.railcraft.debug.tile.controller.format=Format: /%s [<x> <y> <z>]
 
 command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Receiver Debug Tools
 command.railcraft.railcraft.debug.tile.receiver.help=Tools for debugging Receiver tiles.
-command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s <x> <y> <z>
+command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s [<x> <y> <z>]
 
 command.railcraft.railcraft.track.desc=- %s : Track Tools
 command.railcraft.railcraft.track.help=Tools for tracks.
@@ -47,11 +48,11 @@ command.railcraft.railcraft.track.format=Format: /%s
 
 command.railcraft.railcraft.track.message.desc=- %s : Messenger Track Title
 command.railcraft.railcraft.track.message.help=Sets the Messenger Track title.
-command.railcraft.railcraft.track.message.format=Format: /%s <x> <y> <z> <raw json message>
+command.railcraft.railcraft.track.message.format=Format: /%s [<x> <y> <z>] <raw json message>
 
 command.railcraft.railcraft.track.message.subtitle.desc=- %s : Messenger Track Subtitle
 command.railcraft.railcraft.track.message.subtitle.help=Sets the Messenger Track subtitle.
-command.railcraft.railcraft.track.message.subtitle.format=Format: /%s <x> <y> <z> <raw json message>
+command.railcraft.railcraft.track.message.subtitle.format=Format: /%s [<x> <y> <z>] <raw json message>
 
 death.railcraft.bore.1=%s got in the way of progress
 death.railcraft.bore.2=%s tried to stop the Bore
