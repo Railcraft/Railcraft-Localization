@@ -169,10 +169,13 @@ item.railcraft.circuit.signal.name=Signalstromkreis
 item.railcraft.concrete.name=Zementbeutel
 
 item.railcraft.dust.charcoal.name=Holzkohlestaub
+item.railcraft.dust.coal.name=Kohlestaub
+item.railcraft.dust.ender.name=Enderstaub
 item.railcraft.dust.obsidian.name=Obsidianstaub
 item.railcraft.dust.saltpeter.name=Salpeter
 item.railcraft.dust.slag.name=Gemahlene Hochofenschlacke
 item.railcraft.dust.sulfur.name=Schwefel
+item.railcraft.dust.void.name=Leerstaub
 
 item.railcraft.emblem.name=Emblem
 
@@ -424,7 +427,7 @@ gui.railcraft.actuator.motor.action=Weiche mit Signal stellen
 gui.railcraft.actuator.motor.redstone=Redstone ignorieren
 
 gui.railcraft.worldspike.fuel.remaining=%s Stunden
-gui.railcraft.worldspike.fuel=Enderperlen
+gui.railcraft.worldspike.fuel=Weltennagel-Treibstoff
 gui.railcraft.worldspike.pair.cancel=Verbindung wurde abgebrochen: %s
 gui.railcraft.worldspike.pair.fail.alignment=@1$s ist nicht auf der selben Achse wie @2$s
 gui.railcraft.worldspike.pair.fail.dimension=%s ist in einer anderen Dimension als das Ziel
@@ -638,6 +641,8 @@ gui.railcraft.routing.type.private.tips=Wird nur Lokomotiven\n steuern, die zu\n
 gui.railcraft.routing.type.private=Privates Gleis
 gui.railcraft.routing.type.public.tips=Kann von jedem Zug benutzt werden.
 gui.railcraft.routing.type.public=Öffentliches Gleis
+
+gui.railcraft.slot.map.valid=Erlaubte Items:
 
 gui.railcraft.steam.boiler=Dampfkessel
 gui.railcraft.steam.oven=Dampfofen
