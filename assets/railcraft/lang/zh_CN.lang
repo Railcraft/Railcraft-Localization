@@ -1,6 +1,7 @@
 chat.railcraft.api.error=错误：API过期，请检查游戏后台记录以了解详情。
 
 command.railcraft.aliases=命令别名：%s
+command.railcraft.block.notFound=无法在指定位置找到有效方块。
 command.railcraft.help=输入 %s 以查看帮助。
 command.railcraft.list=可用子命令：
 command.railcraft.permlevel=权限级别：%s
@@ -31,15 +32,15 @@ command.railcraft.railcraft.debug.format=格式: /%s
 
 command.railcraft.railcraft.debug.tile.desc=- %s：方块调试工具。
 command.railcraft.railcraft.debug.tile.help=用于调试方块。
-command.railcraft.railcraft.debug.tile.format=格式：/%s <x> <y> <z>
+command.railcraft.railcraft.debug.tile.format=格式：/%s [<x> <y> <z>]
 
 command.railcraft.railcraft.debug.tile.controller.desc=- %s：控制器调试工具
 command.railcraft.railcraft.debug.tile.controller.help=用于调试信号控制器方块。
-command.railcraft.railcraft.debug.tile.controller.format=格式：/%s <x> <y> <z>
+command.railcraft.railcraft.debug.tile.controller.format=格式：/%s [<x> <y> <z>]
 
 command.railcraft.railcraft.debug.tile.receiver.desc=- %s：接收器调试工具
 command.railcraft.railcraft.debug.tile.receiver.help=用于调试信号接收器方块。
-command.railcraft.railcraft.debug.tile.receiver.format=格式：/%s <x> <y> <z>
+command.railcraft.railcraft.debug.tile.receiver.format=格式：/%s [<x> <y> <z>]
 
 command.railcraft.railcraft.track.desc=- %s：轨道工具
 command.railcraft.railcraft.track.help=用于调试轨道。
@@ -47,11 +48,11 @@ command.railcraft.railcraft.track.format=格式：/%s
 
 command.railcraft.railcraft.track.message.desc=- %s：设定发信轨道标题
 command.railcraft.railcraft.track.message.help=用于设定发信轨道
-command.railcraft.railcraft.track.message.format=格式：/%s <x> <y> <z> <JSON格式信息>
+command.railcraft.railcraft.track.message.format=格式：/%s [<x> <y> <z>] <JSON格式信息>
 
 command.railcraft.railcraft.track.message.subtitle.desc=- %s：发信轨道字幕
 command.railcraft.railcraft.track.message.subtitle.help=用于设定发信轨道发信时显示的字幕
-command.railcraft.railcraft.track.message.subtitle.format=格式：/%s <x> <y> <z> <JSON格式信息>
+command.railcraft.railcraft.track.message.subtitle.format=格式：/%s [<x> <y> <z>] <JSON格式信息>
 
 death.railcraft.bore.1=%s阻碍了前进的道路.
 death.railcraft.bore.2=%s试图螳臂当车.
@@ -102,11 +103,11 @@ enchantment.railcraft.implosion=克爆
 enchantment.railcraft.smack=推车
 enchantment.railcraft.wrecking=破击
 
+entity.railcraft.bore.name=隧道盾构车
 entity.railcraft.cart_worldspike_admin.name=管理员锚车
 entity.railcraft.cart_worldspike_standard.name=世界锚车
 entity.railcraft.cart_worldspike_personal.name=私用锚车
 entity.railcraft.cart_basic.name=矿车
-entity.railcraft.bore.name=隧道盾构车
 entity.railcraft.cart_cargo.name=货运车
 entity.railcraft.cart_chest.name=箱子车
 entity.railcraft.cart_furnace.name=熔炉车
@@ -169,37 +170,48 @@ item.railcraft.circuit.signal.name=信号电路
 item.railcraft.concrete.name=水泥袋
 
 item.railcraft.dust.charcoal.name=木炭粉
+item.railcraft.dust.coal.name=煤炭粉
+item.railcraft.dust.ender.name=末影珍珠粉
 item.railcraft.dust.obsidian.name=黑曜石粉
 item.railcraft.dust.saltpeter.name=硝石
 item.railcraft.dust.slag.name=高炉炉渣粉
 item.railcraft.dust.sulfur.name=硫磺
+item.railcraft.dust.void.name=虚空粉
 
 item.railcraft.emblem.name=徽章
 
-item.railcraft.entity.cart.worldspike.admin.name=管理员锚车
-item.railcraft.entity.cart.worldspike.standard.name=世界锚车
-item.railcraft.entity.cart.worldspike.personal.name=私用锚车
-item.railcraft.entity.cart.basic.name=矿车
+item.railcraft.entity.bore.desc=专门用来挖隧道的机械设备，同时还有铺设铁轨的功能。
 item.railcraft.entity.bore.name=隧道盾构车
+item.railcraft.entity.cart.worldspike.admin.desc=加载其所在区块为中心的 5x5 的区块，并使其保持加载。不可合成；不需要燃料。
+item.railcraft.entity.cart.worldspike.admin.name=管理员锚车
+item.railcraft.entity.cart.worldspike.admin.tips=区块加载器\n§o§c- 可用激活铁轨关闭 -
+item.railcraft.entity.cart.worldspike.personal.desc=加载其所在区块为中心的 5x5 的区块，但在整个世界加载时不会主动生效。其主人处于离线状态时不会工作。根据配置文件的不同，其运行时可能需要燃料。
+item.railcraft.entity.cart.worldspike.personal.name=私人锚车
+item.railcraft.entity.cart.worldspike.personal.tips=区块加载器\n§o§c- 可用激活铁轨关闭 -
+item.railcraft.entity.cart.worldspike.standard.desc=加载其所在区块为中心的 5x5 的区块，并使其保持加载。根据配置文件的不同，其运行时可能需要燃料。
+item.railcraft.entity.cart.worldspike.standard.name=世界锚车
+item.railcraft.entity.cart.worldspike.standard.tips=区块加载器\n§o§c- 可用激活铁轨关闭 -
+item.railcraft.entity.cart.basic.name=矿车
 item.railcraft.entity.cart.cargo.name=货运车
 item.railcraft.entity.cart.chest.name=箱子车
+item.railcraft.entity.cart.furnace.name=熔炉车
+item.railcraft.entity.cart.gift.name=礼物车
+item.railcraft.entity.cart.gift.tips=圣诞快乐
 item.railcraft.entity.cart.ic2.batbox.name=储电车
 item.railcraft.entity.cart.ic2.cesu.name=CESU储电车
 item.railcraft.entity.cart.ic2.mfe.name=MFE储电车
 item.railcraft.entity.cart.ic2.mfsu.name=MFSU储电车
-item.railcraft.entity.cart.furnace.name=熔炉车
-item.railcraft.entity.cart.gift.name=礼物车
-item.railcraft.entity.cart.gift.tips=圣诞快乐
-item.railcraft.entity.locomotive.electric.name=电力机车
-item.railcraft.entity.locomotive.steam.solid.name=蒸汽机车
-item.railcraft.entity.locomotive.creative.name=永动机车
-item.railcraft.entity.locomotive.creative.tips=§o§9创造模式限定
 item.railcraft.entity.cart.pumpkin.name=南瓜车
 item.railcraft.entity.cart.pumpkin.tips=没礼物就捣蛋
 item.railcraft.entity.cart.redstone.flux.name=RF储能车
 item.railcraft.entity.cart.tank.name=蓄水槽车
 item.railcraft.entity.cart.tnt.name=TNT车
 item.railcraft.entity.cart.tnt.wood.name=木质TNT矿车
+item.railcraft.entity.cart.work.name=工作台车
+item.railcraft.entity.locomotive.creative.name=永动机车
+item.railcraft.entity.locomotive.creative.tips=§o§9创造模式限定
+item.railcraft.entity.locomotive.electric.name=电力机车
+item.railcraft.entity.locomotive.steam.solid.name=蒸汽机车
 item.railcraft.entity.mow.track.layer.name=轨道铺设车
 item.railcraft.entity.mow.track.layer.tips=在移动时铺设轨道
 item.railcraft.entity.mow.track.relayer.name=轨道替换车
@@ -208,7 +220,28 @@ item.railcraft.entity.mow.track.remover.name=轨道拆除车
 item.railcraft.entity.mow.track.remover.tips=拆除它经过的轨道
 item.railcraft.entity.mow.undercutter.name=路基替换车
 item.railcraft.entity.mow.undercutter.tips=改变轨道下方的方块
-item.railcraft.entity.cart.work.name=工作台车
+
+item.railcraft.filter.bee.desc=可令物品装／卸载机匹配任意蜜蜂。
+item.railcraft.filter.bee.name=蜜蜂过滤器
+item.railcraft.filter.bee.tips=匹配任意蜜蜂
+item.railcraft.filter.bee.genome.desc=可令物品装／卸载机匹配分析过的蜜蜂。将这个过滤器和分析过的蜜蜂合成一下以完成其配置工作。上面的蜜蜂设定类型，左边的蜜蜂设定活跃性状，右边的蜜蜂设定非活跃性状。留空的地方视作通配符，换言之即不作过滤。直接使用此过滤器可在不同染色体之间来回切换。
+item.railcraft.filter.bee.genome.name=蜜蜂基因过滤器
+item.railcraft.filter.bee.genome.tips=与分析过的蜜蜂合成\n以完成其配置工作。\n直接使用以切换待过滤染色体。
+item.railcraft.filter.bee.genome.tips.type=§a蜜蜂种类：§7%s
+item.railcraft.filter.bee.genome.tips.chromosome=§a染色体：§7%s
+item.railcraft.filter.bee.genome.tips.active=§a活跃性状：§7%s
+item.railcraft.filter.bee.genome.tips.inactive=§a非活跃性状：§7%s
+item.railcraft.filter.bee.genome.tips.wildcard=任意
+item.railcraft.filter.blank.desc=空白过滤器
+item.railcraft.filter.blank.name=空白过滤器
+item.railcraft.filter.ore.dict.desc=可令物品装／卸载机或物品探测器匹配有相同矿物词典标签的物品。使用前需要与某个充当原型的物品合成，以确定要匹配的矿物词典名。
+item.railcraft.filter.ore.dict.name=矿物词典过滤器
+item.railcraft.filter.ore.dict.tips=与带矿物词典标签的物品合成\n以设定物品原型
+item.railcraft.filter.ore.dict.tips.tags=§a匹配下列标签：
+item.railcraft.filter.type.desc=可令物品装／卸载机或物品探测器匹配类型一致的物品；换言之：忽略元数据 (Metadata) 和 NBT 标签来匹配物品。使用前需要与某个物品合成以确定原型。
+item.railcraft.filter.type.name=物品类型过滤器
+item.railcraft.filter.type.tips=与任意物品合成\n以确定物品原型
+item.railcraft.filter.tips.prototype=§a物品原型：
 
 item.railcraft.firestone.cracked.name=碎裂火石
 item.railcraft.firestone.cracked.tips.charged=能量在外泄,\n小心操作的话\n它就依然很有用...
@@ -358,12 +391,12 @@ railcraft.color.brown=棕色
 railcraft.color.cyan=青色
 railcraft.color.gray=灰色
 railcraft.color.green=绿色
-railcraft.color.light_blue=浅蓝色
-railcraft.color.light_gray=浅灰色
-railcraft.color.lime=柠檬色
+railcraft.color.light_blue=淡蓝色
+railcraft.color.light_gray=淡灰色
+railcraft.color.lime=黄绿色
 railcraft.color.magenta=品红色
 railcraft.color.orange=桔色
-railcraft.color.pink=粉色
+railcraft.color.pink=粉红色
 railcraft.color.purple=紫色
 railcraft.color.red=红色
 railcraft.color.white=白色
@@ -395,7 +428,7 @@ gui.railcraft.actuator.motor.action=根据信号域来转辙轨道
 gui.railcraft.actuator.motor.redstone=忽略红石信号
 
 gui.railcraft.worldspike.fuel.remaining=%s小时
-gui.railcraft.worldspike.fuel=末影珍珠
+gui.railcraft.worldspike.fuel=世界锚燃料
 gui.railcraft.worldspike.pair.fail.alignment=%1$s与%2$s不匹配
 gui.railcraft.worldspike.pair.fail.distance=%1$s与%2$s距离过远,无法配对
 gui.railcraft.worldspike.pair.fail.dimension=%1$s与目标在不同的世界维度
@@ -610,6 +643,8 @@ gui.railcraft.routing.type.private=私人铁路
 gui.railcraft.routing.type.public.tips=将导航任意列车。
 gui.railcraft.routing.type.public=公用铁路
 
+gui.railcraft.slot.map.valid=有效物品：
+
 gui.railcraft.steam.boiler=蒸汽锅炉
 gui.railcraft.steam.oven=蒸汽炉
 
@@ -669,7 +704,7 @@ gui.railcraft.turbine.output=输出：%s%%
 gui.railcraft.turbine.rotor=转子：
 gui.railcraft.turbine=蒸汽涡轮机
 
-gui.railcraft.update.message=最新版本Railcraft %s已经可用,欢迎前往<http://railcraft.info>下载.
+gui.railcraft.update.message=Railcraft %s 已经发布，欢迎前往 <http://railcraft.info> 下载。
 
 railcraft.keybind.aura.worldspike=锚光环
 railcraft.keybind.aura.surveying=检测光环
@@ -685,9 +720,9 @@ railcraft.locomotive.model.electric.default.name=标准电力
 railcraft.locomotive.model.steam.magic.default.name=标准魔力
 railcraft.locomotive.model.steam.solid.default.name=标准固态燃料
 
-railcraft.multiblock.state.invalid.entity=有实体拦住了路: %s
-railcraft.multiblock.state.invalid.pattern=未能匹配模版: %s
-railcraft.multiblock.state.unknown.unloaded=结构的一部分未能加载: %s
+railcraft.multiblock.state.invalid.entity=有实体挡路：%s
+railcraft.multiblock.state.invalid.pattern=未能匹配模版：%s
+railcraft.multiblock.state.unknown.unloaded=结构的一部分未能加载：%s
 railcraft.multiblock.state.valid=结构无效
 
 tc.research_category.RAILCRAFT=神秘铁道工
@@ -814,24 +849,24 @@ tile.railcraft.charge.feeder.ic2.tips=将IC电力转化为RC电力\n§o§c- 需�
 
 tile.railcraft.charge.trap.name=电力陷阱
 
-tile.railcraft.detector.advanced.name=矿车传感器-高级
-tile.railcraft.detector.age.name=矿车传感器-年龄
-tile.railcraft.detector.animal.name=矿车传感器-动物
-tile.railcraft.detector.any.name=矿车传感器-任意
-tile.railcraft.detector.cart.name=矿车传感器-矿车
-tile.railcraft.detector.empty.name=矿车传感器-空
-tile.railcraft.detector.energy.name=矿车传感器-能量
-tile.railcraft.detector.explosive.name=矿车传感器-爆炸
-tile.railcraft.detector.item.name=矿车传感器-物品
-tile.railcraft.detector.locomotive.name=矿车传感器-火车头
-tile.railcraft.detector.mob.name=矿车传感器-生物
-tile.railcraft.detector.player.name=矿车传感器-玩家
-tile.railcraft.detector.powered.name=矿车传感器-动力
-tile.railcraft.detector.routing.name=矿车传感器-路由
-tile.railcraft.detector.sheep.name=矿车传感器-羊
-tile.railcraft.detector.tank.name=矿车传感器-蓄水槽
-tile.railcraft.detector.train.name=矿车传感器-列车
-tile.railcraft.detector.villager.name=矿车传感器-村民
+tile.railcraft.detector.advanced.name=矿车传感器 - 高级
+tile.railcraft.detector.age.name=矿车传感器 - 年龄
+tile.railcraft.detector.animal.name=矿车传感器 - 动物
+tile.railcraft.detector.any.name=矿车传感器 - 任意
+tile.railcraft.detector.cart.name=矿车传感器 - 矿车
+tile.railcraft.detector.empty.name=矿车传感器 - 空
+tile.railcraft.detector.energy.name=矿车传感器 - 能量
+tile.railcraft.detector.explosive.name=矿车传感器 - 爆炸
+tile.railcraft.detector.item.name=矿车传感器 - 物品
+tile.railcraft.detector.locomotive.name=矿车传感器 - 火车头
+tile.railcraft.detector.mob.name=矿车传感器 - 生物
+tile.railcraft.detector.player.name=矿车传感器 - 玩家
+tile.railcraft.detector.powered.name=矿车传感器 - 动力
+tile.railcraft.detector.routing.name=矿车传感器 - 路由
+tile.railcraft.detector.sheep.name=矿车传感器 - 羊
+tile.railcraft.detector.tank.name=矿车传感器 - 蓄水槽
+tile.railcraft.detector.train.name=矿车传感器 - 列车
+tile.railcraft.detector.villager.name=矿车传感器 - 村民
 
 tile.railcraft.firestone.recharge.name=再充能火石
 
@@ -844,7 +879,7 @@ tile.railcraft.frame.tips=用于将轨道放置在分路线缆上
 tile.railcraft.generic_brass.name=黄铜块
 tile.railcraft.generic_bronze.name=青铜块
 tile.railcraft.generic_coke.name=焦煤方块
-tile.railcraft.generic_coke.tips=32,000燃料单位
+tile.railcraft.generic_coke.tips=32 000 燃料单位
 tile.railcraft.generic_concrete.name=混凝土块
 tile.railcraft.generic_copper.name=铜块
 tile.railcraft.generic_creosote.name=杂酚油木方块
@@ -880,10 +915,6 @@ tile.railcraft.lantern.stone.sandstone.name=沙石灯
 tile.railcraft.lantern.stone.sandy.name=沙岩石灯
 tile.railcraft.lantern.stone.stone.name=石灯
 
-tile.railcraft.worldspike.admin.name=管理员锚
-tile.railcraft.worldspike.passive.name=被动锚
-tile.railcraft.worldspike.personal.name=个人锚
-tile.railcraft.worldspike.standard.name=世界锚
 tile.railcraft.machine.alpha.blast.furnace.name=高炉砖
 tile.railcraft.machine.alpha.blast.furnace.tips=多方块结构：3x4x3（中空）
 tile.railcraft.machine.alpha.coke.oven.name=焦炉砖
@@ -900,7 +931,6 @@ tile.railcraft.machine.alpha.trade.station.name=贸易站
 tile.railcraft.machine.alpha.turbine.name=蒸汽涡轮机壳
 tile.railcraft.machine.alpha.turbine.tips=多方块结构：3x2x2\n用蒸汽发电\n从底部输出水\n需要一个涡轮机转子
 
-tile.railcraft.worldspike.point.name=拱卫之锚
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=液态燃料燃烧室
 tile.railcraft.machine.beta.boiler.firebox.liquid.tips=多方块结构：尺寸可变\n底座规格可选：1x1, 2x2, 3x3
 tile.railcraft.machine.beta.boiler.firebox.solid.name=固态燃料燃烧室
@@ -1268,6 +1298,22 @@ tile.railcraft.wall.stone.brick.mossy.name=苔石砖墙
 tile.railcraft.wall.stone.brick.name=石砖墙
 
 tile.railcraft.worldlogic.name=硝石刷新器
+
+tile.railcraft.worldspike.admin.desc=加载其所在区块为中心的 3x3 的区块，并使其保持加载。不可合成；不需要燃料。
+tile.railcraft.worldspike.admin.name=管理员锚
+tile.railcraft.worldspike.admin.tips=区块加载器\n§o§c- 通入红石信号可关闭 -
+tile.railcraft.worldspike.passive.desc=加载其所在区块为中心的 3x3 的区块，但在整个世界加载时不会主动生效。根据配置文件的不同，其运行时可能需要燃料。
+tile.railcraft.worldspike.passive.name=被动锚
+tile.railcraft.worldspike.passive.tips=区块加载器\n§o§c- 通入红石信号可关闭 -
+tile.railcraft.worldspike.personal.desc=加载其所在区块为中心的 3x3 的区块，但在整个世界加载时不会主动生效。其主人处于离线状态时不会工作。根据配置文件的不同，其运行时可能需要燃料。
+tile.railcraft.worldspike.personal.name=个人锚
+tile.railcraft.worldspike.personal.tips=区块加载器\n§o§c- 通入红石信号可关闭 -
+tile.railcraft.worldspike.standard.desc=加载其所在区块为中心的 3x3 的区块，并使其保持加载。根据配置文件的不同，其运行时可能需要燃料。
+tile.railcraft.worldspike.standard.name=世界锚
+tile.railcraft.worldspike.standard.tips=区块加载器\n§o§c- 通入红石信号可关闭 -
+tile.railcraft.worldspike.point.desc=与世界锚搭配使用时，可加载一条直线上的区块。
+tile.railcraft.worldspike.point.name=拱卫之锚
+tile.railcraft.worldspike.point.tips=扩展世界锚的加载范围\n§o§9- 用撬棍来与世界锚进行配对 -
 
 tooltip.wawla.tooltype.crowbar=撬棍
 
