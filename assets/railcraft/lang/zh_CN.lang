@@ -950,7 +950,7 @@ tile.railcraft.machine.beta.engine.steam.hobby.tips=输出为 20 RF/t\n 每tick�
 tile.railcraft.machine.beta.engine.steam.low.name=商用蒸汽引擎
 tile.railcraft.machine.beta.engine.steam.low.tips=输出为 40 RF/t\n 每tick消耗 20 mB 蒸汽
 tile.railcraft.machine.beta.tank.iron.gauge.name=铁质蓄水器量计
-tile.railcraft.machine.beta.tank.iron.gauge.tips=多方块结构：尺寸可变\n必须在底部两层输出液体.
+tile.railcraft.machine.beta.tank.iron.gauge.tips=多方块结构：尺寸可变\n必须在底部两层输出液体。
 tile.railcraft.machine.beta.tank.iron.valve.name=铁质蓄水器阀门
 tile.railcraft.machine.beta.tank.iron.valve.tips=多方块结构：尺寸可变，中空\n高度可选：4、5、6、7、8\n长宽可选：3、5、7、9
 tile.railcraft.machine.beta.tank.iron.wall.name=铁质蓄水器壁板
@@ -1023,6 +1023,7 @@ tile.railcraft.ore.metal.lead.name=铅矿石
 tile.railcraft.ore.metal.nickel.name=镍矿石
 tile.railcraft.ore.metal.silver.name=银矿石
 tile.railcraft.ore.metal.tin.name=锡矿石
+tile.railcraft.ore.metal.zinc.name=锌矿石
 
 tile.railcraft.ore.metal.poor.copper.name=贫铜矿石
 tile.railcraft.ore.metal.poor.gold.name=贫金矿石
@@ -1031,6 +1032,7 @@ tile.railcraft.ore.metal.poor.lead.name=贫铅矿石
 tile.railcraft.ore.metal.poor.nickel.name=贫镍矿石
 tile.railcraft.ore.metal.poor.silver.name=贫银矿石
 tile.railcraft.ore.metal.poor.tin.name=贫锡矿石
+tile.railcraft.ore.metal.poor.zinc.name=贫锌矿石
 
 tile.railcraft.post.emblem.name=徽章桩
 tile.railcraft.post.metal.black.name=黑色金属桩
