@@ -686,10 +686,10 @@ gui.railcraft.track_kit.item.invalid.slope=§c§oCannot be placed on slopes
 gui.railcraft.track_kit.item.invalid.track=§c§oInvalid Track, not Flex Track or already outfitted
 gui.railcraft.track_kit.item.invalid.track_type=§c§oInvalid Track Type
 gui.railcraft.track_kit.messenger.subtitle.default=§o§7To change, use "/rc track msg"
-gui.railcraft.track_kit.messenger.subtitle.set=Subtitle set to: "%s"
+gui.railcraft.track_kit.messenger.subtitle.set=Track subtitle set
 gui.railcraft.track_kit.messenger.subtitle.standard=§o§7Track Message
 gui.railcraft.track_kit.messenger.title.default=No message set
-gui.railcraft.track_kit.messenger.title.set=Title set to: "%s"
+gui.railcraft.track_kit.messenger.title.set=Track title set
 
 gui.railcraft.trade.station.dice.tips=Random Trade
 
