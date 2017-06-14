@@ -686,10 +686,10 @@ gui.railcraft.track_kit.item.invalid.slope=§c§o不能放置于斜坡上
 gui.railcraft.track_kit.item.invalid.track=§c§o轨道无效：目标轨道不是基础轨道，或已安装轨道套件
 gui.railcraft.track_kit.item.invalid.track_type=§c§o轨道类型无效
 gui.railcraft.track_kit.messenger.subtitle.default=§o§7使用指令 /rc track msg 设定发信内容
-gui.railcraft.track_kit.messenger.subtitle.set=成功将字幕设定为：“%s”
+gui.railcraft.track_kit.messenger.subtitle.set=设定新字幕成功
 gui.railcraft.track_kit.messenger.subtitle.standard=§o§7轨道：发信
 gui.railcraft.track_kit.messenger.title.default=没有设定信息
-gui.railcraft.track_kit.messenger.title.set=成功将信息设为：“%s”
+gui.railcraft.track_kit.messenger.title.set=设定新信息成功
 
 gui.railcraft.trade.station.dice.tips=随机交易
 
