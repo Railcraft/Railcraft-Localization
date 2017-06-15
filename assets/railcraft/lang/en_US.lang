@@ -478,6 +478,8 @@ gui.railcraft.charge.meter.node=Node -> Draw: %s c/t | Loss: %s c/t
 gui.railcraft.charge.meter.producer=Supply -> Charge: %s c | Production: %s c/t
 gui.railcraft.charge.meter.start=Recording data over %s seconds...
 
+gui.railcraft.charge.network.usage=Network Usage: {percent}
+
 gui.railcraft.coke.oven=Coke Oven
 
 gui.railcraft.detector.item.analog=Analog
