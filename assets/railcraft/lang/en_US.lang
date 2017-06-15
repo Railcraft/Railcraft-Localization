@@ -1023,6 +1023,7 @@ tile.railcraft.ore.metal.lead.name=Lead Ore
 tile.railcraft.ore.metal.nickel.name=Nickel Ore
 tile.railcraft.ore.metal.silver.name=Silver Ore
 tile.railcraft.ore.metal.tin.name=Tin Ore
+tile.railcraft.ore.metal.zinc.name=Zinc Ore
 
 tile.railcraft.ore.metal.poor.copper.name=Poor Copper Ore
 tile.railcraft.ore.metal.poor.gold.name=Poor Gold Ore
@@ -1031,6 +1032,7 @@ tile.railcraft.ore.metal.poor.lead.name=Poor Lead Ore
 tile.railcraft.ore.metal.poor.nickel.name=Poor Nickel Ore
 tile.railcraft.ore.metal.poor.silver.name=Poor Silver Ore
 tile.railcraft.ore.metal.poor.tin.name=Poor Tin Ore
+tile.railcraft.ore.metal.poor.zinc.name=Poor Zinc Ore
 
 tile.railcraft.post.emblem.name=Emblem Post
 tile.railcraft.post.metal.black.name=Black Metal Post
