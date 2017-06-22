@@ -163,6 +163,12 @@ item.railcraft.borehead.diamond.name=钻石钻头
 item.railcraft.borehead.iron.name=铁钻头
 item.railcraft.borehead.steel.name=钢钻头
 
+item.railcraft.charge.coil.name=电线圈
+item.railcraft.charge.motor.name=电马达
+item.railcraft.charge.terminal.name=电力终端
+item.railcraft.charge.spool.large.name=大号电线线轴
+item.railcraft.charge.spool.small.name=小号电线线轴
+
 item.railcraft.circuit.controller.name=控制器电路
 item.railcraft.circuit.receiver.name=接收器电路
 item.railcraft.circuit.signal.name=信号电路
@@ -364,8 +370,8 @@ item.railcraft.tool.signal.surveyor.name=信号域监测仪
 item.railcraft.tool.signal.surveyor.tips=用于连接信号方块
 item.railcraft.tool.signal.tuner.name=信号调谐器
 item.railcraft.tool.signal.tuner.tips=用于连接控制器与接收器
-item.railcraft.tool.spike.maul.iron.name=铁道钉锤
-item.railcraft.tool.spike.maul.steel.name=钢道钉锤
+item.railcraft.tool.spike.maul.iron.name=铁制道钉锤
+item.railcraft.tool.spike.maul.steel.name=钢制道钉锤
 item.railcraft.tool.spike.maul.tips=将普通轨道转化为转辙、交接轨道
 item.railcraft.tool.stone.carver.name=石材切割工具
 item.railcraft.tool.sword.steel.name=钢剑
@@ -472,11 +478,13 @@ gui.railcraft.cart.undercutter.sides=侧边
 gui.railcraft.cart.undercutter.transfer.stock.name=库存
 gui.railcraft.cart.undercutter.under=下方
 
-gui.railcraft.charge.meter.cart=矿车 -> 电力: %s c | 抽取: %s c/t | 损耗: %s c/t
-gui.railcraft.charge.meter.network=全网 -> 规模: %s | 电力: %s c | 抽取: %s c/t | 损耗: %s c/t
-gui.railcraft.charge.meter.producer=供应 -> 电力: %s c | 产出: %s c/t
-gui.railcraft.charge.meter.node=节点 -> 抽取: %s c/t | 损耗: %s c/t
+gui.railcraft.charge.meter.cart=矿车 -> 电力：%s c | 抽取：%s c/t | 损耗：%s c/t
+gui.railcraft.charge.meter.network=全网 -> 规模：%s | 电力：%s c | 抽取：%s c/t | 损耗：%s c/t
+gui.railcraft.charge.meter.producer=供应 -> 电力：%s c | 产出：%s c/t
+gui.railcraft.charge.meter.node=节点 -> 抽取：%s c/t | 损耗：%s c/t
 gui.railcraft.charge.meter.start=正在记录%s秒内的数据...
+
+gui.railcraft.charge.network.usage=全网用量：{percent}
 
 gui.railcraft.coke.oven=焦炉
 
