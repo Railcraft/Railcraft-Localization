@@ -54,6 +54,19 @@ command.railcraft.railcraft.track.message.subtitle.desc=- %s : Messenger Track S
 command.railcraft.railcraft.track.message.subtitle.help=Sets the Messenger Track subtitle.
 command.railcraft.railcraft.track.message.subtitle.format=Format: /%s [<x> <y> <z>] <raw json message>
 
+command.railcraft.railcraft.tile.desc=- %s : Tile Tools
+command.railcraft.railcraft.tile.help=Tools for tiles.
+command.railcraft.railcraft.tile.format=Format: /%s
+
+command.railcraft.railcraft.tile.owner.desc=- %s : Block Owner
+command.railcraft.railcraft.tile.owner.help=Prints the block owner.
+command.railcraft.railcraft.tile.owner.format=Format: /%s [<x> <y> <z>]
+command.railcraft.railcraft.tile.owner.message=Owner: %s
+
+command.railcraft.railcraft.tile.owner.clear.desc=- %s : Clear Block Owner
+command.railcraft.railcraft.tile.owner.clear.help=Sets the block owner to [railcraft].
+command.railcraft.railcraft.tile.owner.clear.format=Format: /%s [<x> <y> <z>]
+
 death.railcraft.bore.1=%s got in the way of progress
 death.railcraft.bore.2=%s tried to stop the Bore
 death.railcraft.bore.3=%s was crushed by the Bore
@@ -922,6 +935,10 @@ tile.railcraft.lantern.stone.quarried.name=Quarried Stone Lantern
 tile.railcraft.lantern.stone.sandstone.name=Sandstone Lantern
 tile.railcraft.lantern.stone.sandy.name=Sandy Stone Lantern
 tile.railcraft.lantern.stone.stone.name=Stone Lantern
+
+tile.railcraft.logbook.name=Logbook
+tile.railcraft.logbook.desc=The Logbook records any player that passes within a 16 block radius of the block and they day they visited. It can only be broken by the owner.
+tile.railcraft.logbook.tips=Records visitors
 
 tile.railcraft.machine.alpha.blast.furnace.name=Blast Furnace Brick
 tile.railcraft.machine.alpha.blast.furnace.tips=Multi-Block: 3x4x3 (Hollow)
