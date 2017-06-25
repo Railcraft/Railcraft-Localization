@@ -177,9 +177,12 @@ item.railcraft.borehead.iron.name=Iron Bore Head
 item.railcraft.borehead.steel.name=Steel Bore Head
 
 item.railcraft.charge.coil.name=Charge Coil
+item.railcraft.charge.electrode.iron.name=Iron Electrode
+item.railcraft.charge.electrode.nickel.name=Nickel Electrode
 item.railcraft.charge.motor.name=Charge Motor
 item.railcraft.charge.terminal.name=Charge Terminal
 item.railcraft.charge.spool.large.name=Large Charge Wire Spool
+item.railcraft.charge.spool.medium.name=Medium Charge Wire Spool
 item.railcraft.charge.spool.small.name=Small Charge Wire Spool
 
 item.railcraft.circuit.controller.name=Controller Circuit
@@ -492,9 +495,9 @@ gui.railcraft.cart.undercutter.transfer.stock.name=Stock
 gui.railcraft.cart.undercutter.under=Under
 
 gui.railcraft.charge.meter.cart=Cart -> Charge: %s c | Draw: %s c/t | Loss: %s c/t
-gui.railcraft.charge.meter.network=Net -> Size: %s | Charge: %s c | Draw: %s c/t | Loss: %s c/t
+gui.railcraft.charge.meter.network=Net -> Size: %s | Charge: %s c | Draw: %s c/t | MaxDraw: %s c/t | Loss: %s c/t | Eff: %s%%
 gui.railcraft.charge.meter.node=Node -> Draw: %s c/t | Loss: %s c/t
-gui.railcraft.charge.meter.producer=Supply -> Charge: %s c | Production: %s c/t
+gui.railcraft.charge.meter.producer=Supply -> Charge: %s c | Production: %s c/t | MaxDraw: %s c/t | Loss: %s c/t | Eff: %s%%
 gui.railcraft.charge.meter.start=Recording data over %s seconds...
 
 gui.railcraft.charge.network.usage=Network Usage: {percent}
@@ -862,6 +865,13 @@ tile.railcraft.brick.pearlized.cobble.name=Pearlized Cobblestone
 tile.railcraft.brick.pearlized.etched.name=Etched Pearlized Stone
 tile.railcraft.brick.pearlized.fitted.name=Fitted Pearlized Stone
 tile.railcraft.brick.pearlized.ornate.name=Ornate Pearlized Stone
+
+tile.railcraft.charge.battery.nickel.iron.name=Nickel-Iron Charge Battery
+tile.railcraft.charge.battery.nickel.iron.desc=A battery designed to work with the charge network.
+tile.railcraft.charge.battery.tips.capacity=Capacity: %s c
+tile.railcraft.charge.battery.tips.efficiency=Efficiency: %s%%
+tile.railcraft.charge.battery.tips.maxdraw=MaxDraw: %s c/t
+tile.railcraft.charge.battery.tips.loss=Loss: %s  c/t
 
 tile.railcraft.charge.feeder.admin.name=Admin Charge Feeder Unit
 tile.railcraft.charge.feeder.admin.tips=Provides Unlimited Railcraft Charge\n§o§c- Requires Redstone input -
