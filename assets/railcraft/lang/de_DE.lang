@@ -54,6 +54,19 @@ command.railcraft.railcraft.track.message.subtitle.desc=- %s : Botengleisunterti
 command.railcraft.railcraft.track.message.subtitle.help=Bestimmt den Untertitel des Botengleises
 command.railcraft.railcraft.track.message.subtitle.format=Format: /%s [<x> <y> <z>] <JSON-Rohnachricht>
 
+command.railcraft.railcraft.tile.desc=- %s : Blockbefehle
+command.railcraft.railcraft.tile.help=Befehle für Blöcke.
+command.railcraft.railcraft.tile.format=Format: /%s
+
+command.railcraft.railcraft.tile.owner.desc=- %s : Blockeigentümer
+command.railcraft.railcraft.tile.owner.help=Klärt über den Eigentümer des Blocks auf.
+command.railcraft.railcraft.tile.owner.format=Format: /%s [<x> <y> <z>]
+command.railcraft.railcraft.tile.owner.message=Eigentümer: %s
+
+command.railcraft.railcraft.tile.owner.clear.desc=- %s : Blockeigentümer festlegen
+command.railcraft.railcraft.tile.owner.clear.help=Setzt den Blockeigentümer auf [railcraft].
+command.railcraft.railcraft.tile.owner.clear.format=Format: /%s [<x> <y> <z>]
+
 death.railcraft.bore.1=%s war dem Fortschritt im Weg
 death.railcraft.bore.2=%s legte sich mit einem Bohrkopf an und verlor
 death.railcraft.bore.3=%s wurde von einem Bohrer zerquetscht
@@ -162,6 +175,12 @@ item.railcraft.bleached.clay.name=Gebleichter Lehm
 item.railcraft.borehead.diamond.name=Diamantbohrkopf
 item.railcraft.borehead.iron.name=Eisenbohrkopf
 item.railcraft.borehead.steel.name=Stahlbohrkopf
+
+item.railcraft.charge.coil.name=Ladungsspule
+item.railcraft.charge.motor.name=Ladungsmotor
+item.railcraft.charge.terminal.name=Ladungsterminal
+item.railcraft.charge.spool.large.name=Große Ladungsdrahtlrolle
+item.railcraft.charge.spool.small.name=Kleine Ladungsdrahtrolle
 
 item.railcraft.circuit.controller.name=Steuerschaltung
 item.railcraft.circuit.receiver.name=Empfängerschaltung
@@ -478,6 +497,8 @@ gui.railcraft.charge.meter.node=Knoten -> Entzug: %s c/t | Verlust: %s c/t
 gui.railcraft.charge.meter.producer=Versorgung -> Ladung: %s c | Produktion: %s c/t
 gui.railcraft.charge.meter.start=Messung der Daten für %s Sekunden...
 
+gui.railcraft.charge.network.usage=Netzwerknutzung: {percent}
+
 gui.railcraft.coke.oven=Kokerei
 
 gui.railcraft.detector.item.analog=Analog
@@ -686,10 +707,10 @@ gui.railcraft.track_kit.item.invalid.slope=§c§oKann nicht an Hängen installie
 gui.railcraft.track_kit.item.invalid.track=§c§oUngültiges Gleis; nicht aufrüstbares oder bereits aufgerüstetes Gleis
 gui.railcraft.track_kit.item.invalid.track_type=§c§oUngültiger Gleistyp
 gui.railcraft.track_kit.messenger.subtitle.default=§o§7Verwende "/rc track msg" zum Ändern
-gui.railcraft.track_kit.messenger.subtitle.set=Untertitel ist nun "%s"
+gui.railcraft.track_kit.messenger.subtitle.set=Untertitel geändert
 gui.railcraft.track_kit.messenger.subtitle.standard=§o§7Gleisnachricht
 gui.railcraft.track_kit.messenger.title.default=Keine Nachricht festgelegt
-gui.railcraft.track_kit.messenger.title.set=Titel ist nun "%s"
+gui.railcraft.track_kit.messenger.title.set=Titel geändert
 
 gui.railcraft.trade.station.dice.tips=Zufälliger Handel
 
@@ -915,6 +936,10 @@ tile.railcraft.lantern.stone.sandstone.name=Sandsteinlaterne
 tile.railcraft.lantern.stone.sandy.name=Sandige Steinlaterne
 tile.railcraft.lantern.stone.stone.name=Steinlaterne
 
+tile.railcraft.logbook.name=Logbuch
+tile.railcraft.logbook.desc=Das Logbuch zeichnet jegliche Spieler, die in einem 16-Block-Umkreis um den Block passieren, zusammen mit dem Tag des Besuches auf. Kann nur vom Eigentümer zerstört werden.
+tile.railcraft.logbook.tips=Zeichnet Besucher auf
+
 tile.railcraft.machine.alpha.blast.furnace.name=Hochofenziegel
 tile.railcraft.machine.alpha.blast.furnace.tips=Multiblock: 3x4x3 (Hohlraum)
 tile.railcraft.machine.alpha.coke.oven.name=Kokerei
@@ -1023,6 +1048,7 @@ tile.railcraft.ore.metal.lead.name=Bleierz
 tile.railcraft.ore.metal.nickel.name=Nickelerz
 tile.railcraft.ore.metal.silver.name=Silbererz
 tile.railcraft.ore.metal.tin.name=Zinnerz
+tile.railcraft.ore.metal.zinc.name=Zinkerz
 
 tile.railcraft.ore.metal.poor.copper.name=Minderes Kupfererz
 tile.railcraft.ore.metal.poor.gold.name=Minderes Golderz
@@ -1031,6 +1057,7 @@ tile.railcraft.ore.metal.poor.lead.name=Minderes Bleierz
 tile.railcraft.ore.metal.poor.nickel.name=Minderes Nickelerz
 tile.railcraft.ore.metal.poor.silver.name=Minderes Silbererz
 tile.railcraft.ore.metal.poor.tin.name=Minderes Zinnerz
+tile.railcraft.ore.metal.poor.zinc.name=Minderes Zinkerz
 
 tile.railcraft.post.emblem.name=Emblempfosten
 tile.railcraft.post.metal.black.name=Schwarzer Metallpfosten
