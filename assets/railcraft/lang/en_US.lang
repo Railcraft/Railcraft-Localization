@@ -867,9 +867,9 @@ tile.railcraft.brick.pearlized.fitted.name=Fitted Pearlized Stone
 tile.railcraft.brick.pearlized.ornate.name=Ornate Pearlized Stone
 
 tile.railcraft.charge.battery.nickel.iron.name=Nickel-Iron Charge Battery
-tile.railcraft.charge.battery.nickel.iron.desc=A battery designed to work with the charge network.
+tile.railcraft.charge.battery.nickel.iron.desc=A battery designed to work with the charge network. Good for general purpose usage.
 tile.railcraft.charge.battery.nickel.zinc.name=Nickel-Zinc Charge Battery
-tile.railcraft.charge.battery.nickel.zinc.desc=A battery designed to work with the charge network.
+tile.railcraft.charge.battery.nickel.zinc.desc=A battery designed to work with the charge network. Good for low draw, long term storage.
 tile.railcraft.charge.battery.tips.capacity=Capacity: %s c
 tile.railcraft.charge.battery.tips.efficiency=Efficiency: %s%%
 tile.railcraft.charge.battery.tips.maxdraw=MaxDraw: %s c/t
