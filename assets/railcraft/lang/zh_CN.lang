@@ -47,56 +47,69 @@ command.railcraft.railcraft.track.help=用于调试轨道。
 command.railcraft.railcraft.track.format=格式：/%s
 
 command.railcraft.railcraft.track.message.desc=- %s：设定发信轨道标题
-command.railcraft.railcraft.track.message.help=用于设定发信轨道
-command.railcraft.railcraft.track.message.format=格式：/%s [<x> <y> <z>] <JSON格式信息>
+command.railcraft.railcraft.track.message.help=用于设定发信轨道。
+command.railcraft.railcraft.track.message.format=格式：/%s [<x> <y> <z>] <JSON 格式信息>
 
 command.railcraft.railcraft.track.message.subtitle.desc=- %s：发信轨道字幕
-command.railcraft.railcraft.track.message.subtitle.help=用于设定发信轨道发信时显示的字幕
-command.railcraft.railcraft.track.message.subtitle.format=格式：/%s [<x> <y> <z>] <JSON格式信息>
+command.railcraft.railcraft.track.message.subtitle.help=用于设定发信轨道发信时显示的字幕。
+command.railcraft.railcraft.track.message.subtitle.format=格式：/%s [<x> <y> <z>] <JSON 格式信息>
 
-death.railcraft.bore.1=%s阻碍了前进的道路.
-death.railcraft.bore.2=%s试图螳臂当车.
-death.railcraft.bore.3=%s被碾碎了.
-death.railcraft.bore.4=%s认为自己比约翰·亨利还厉害.
-death.railcraft.bore.5=%s陷入了进退维谷的境地.
-death.railcraft.bore.6=%s在工程车前站错了位置.
+command.railcraft.railcraft.tile.desc=- %s：TileEntity 工具
+command.railcraft.railcraft.tile.help=用于调试 TileEntity/BlockEntity 的工具。
+command.railcraft.railcraft.tile.format=格式：/%s
 
-death.railcraft.crusher.1=%s在重型机械边失足.
-death.railcraft.crusher.2=%s并非钢铁之躯,他和我们其他人一样被碾碎了.
-death.railcraft.crusher.3=%s凝视着深渊,然后脚滑了.
-death.railcraft.crusher.4=%s马上就得换一套家当了.
-death.railcraft.crusher.5=%s没留意“当心脚下”的告示牌.
-death.railcraft.crusher.6=热销中!%s的鲜血果冻!
-death.railcraft.crusher.7=%s被砸成了浆糊.
-death.railcraft.crusher.8=%s应该读下安全手册.
+command.railcraft.railcraft.tile.owner.desc=- %s：方块所有者
+command.railcraft.railcraft.tile.owner.help=输出方块所有者的信息。
+command.railcraft.railcraft.tile.owner.format=格式：/%s [<x> <y> <z>]
+command.railcraft.railcraft.tile.owner.message=此方块的所有者是 '%s'
 
-death.railcraft.electric.1=%s向尼古拉特斯拉问好.
-death.railcraft.electric.2=%s发现了“高压电”的真谛.
-death.railcraft.electric.3=%s顿悟了电之所以为奇迹.
-death.railcraft.electric.4=%s没注意旁边的警示牌.
-death.railcraft.electric.5=%s深受震动.(英文双关:即死于电击)
-death.railcraft.electric.6=%s学到了一些关于电的东西,它会伤人!
+command.railcraft.railcraft.tile.owner.clear.desc=- %s：清除方块所有者
+command.railcraft.railcraft.tile.owner.clear.help=将指定方块的所有者设定为 [railcraft]。
+command.railcraft.railcraft.tile.owner.clear.format=格式：/%s [<x> <y> <z>]
 
-death.railcraft.steam.1=%s被蒸熟了,鲜美多汁.
-death.railcraft.steam.2=%s没像他吹牛说的那样免疫高温伤害!
-death.railcraft.steam.3=%s发现了蒸汽烫伤会有多么的痛苦!
-death.railcraft.steam.4=%s出了工业事故.
-death.railcraft.steam.5=%s可能踩到了不该踩的东西.
-death.railcraft.steam.6=%s发现蒸气浴还是在桑拿时享受为妙.
+death.railcraft.bore.1=%s 阻碍了前进的道路。
+death.railcraft.bore.2=%s 试图螳臂当车。
+death.railcraft.bore.3=%s 被碾碎了。
+death.railcraft.bore.4=%s 认为自己比约翰·亨利还厉害。
+death.railcraft.bore.5=%s 陷入了进退维谷的境地。
+death.railcraft.bore.6=%s 在工程车前站错了位置。
 
-death.railcraft.track.electric.1=%s在电轨上小便.
-death.railcraft.track.electric.2=%s发现了“高压电”的真谛.
-death.railcraft.track.electric.3=%s顿悟了电之所以为奇迹.
-death.railcraft.track.electric.4=%s迷失于第三轨道.
-death.railcraft.track.electric.5=%s深受震动.(英文双关:即死于电击)
-death.railcraft.track.electric.6=%s学到了一些关于电的东西,它会伤人!
+death.railcraft.crusher.1=%s 在重型机械边失足。
+death.railcraft.crusher.2=%s 并非钢铁之躯，他和我们其他人一样被碾碎了。
+death.railcraft.crusher.3=%s 凝视着深渊，然后脚滑了。
+death.railcraft.crusher.4=%s 马上就得换一套家当了。
+death.railcraft.crusher.5=%s 没留意“当心脚下”的告示牌。
+death.railcraft.crusher.6=热销中！%s 的鲜血果冻！
+death.railcraft.crusher.7=%s 被砸成了浆糊。
+death.railcraft.crusher.8=%s 应该读下安全手册。
 
-death.railcraft.train.1=%s被列车撞了.
-death.railcraft.train.2=%s在轨道上玩耍.
-death.railcraft.train.3=%s在轨道上和列车单挑,列车赢了.
-death.railcraft.train.4=%s上错车了.
-death.railcraft.train.5=%s买了一张通向来生的单程票.
-death.railcraft.train.6=%s应该穿上背带裤.
+death.railcraft.electric.1=%s 向尼古拉特斯拉问好。
+death.railcraft.electric.2=%s 发现了“高压电”的真谛。
+death.railcraft.electric.3=%s 顿悟了电之所以为奇迹。
+death.railcraft.electric.4=%s 没注意旁边的警示牌。
+death.railcraft.electric.5=%s 深受震动。（英文双关：即死于电击）
+death.railcraft.electric.6=%s 学到了一些关于电的东西，它会伤人！
+
+death.railcraft.steam.1=%s 被蒸熟了，鲜美多汁。
+death.railcraft.steam.2=%s 没像他吹牛说的那样免疫高温伤害！
+death.railcraft.steam.3=%s 发现了蒸汽烫伤会有多么的痛苦！
+death.railcraft.steam.4=%s 出了工业事故。
+death.railcraft.steam.5=%s 可能踩到了不该踩的东西。
+death.railcraft.steam.6=%s 发现蒸气浴还是在桑拿时享受为妙。
+
+death.railcraft.track.electric.1=%s 在电轨上小便。
+death.railcraft.track.electric.2=%s 发现了“高压电”的真谛。
+death.railcraft.track.electric.3=%s 顿悟了电之所以为奇迹。
+death.railcraft.track.electric.4=%s 迷失于第三轨道。
+death.railcraft.track.electric.5=%s 深受震动。（英文双关：即死于电击）
+death.railcraft.track.electric.6=%s 学到了一些关于电的东西，它会伤人！
+
+death.railcraft.train.1=%s 被列车撞了。
+death.railcraft.train.2=%s 在轨道上玩耍。
+death.railcraft.train.3=%s 在轨道上和列车单挑，列车赢了。
+death.railcraft.train.4=%s 上错车了。
+death.railcraft.train.5=%s 买了一张通向来生的单程票。
+death.railcraft.train.6=%s 应该穿上背带裤。
 
 enchantment.railcraft.destruction=拆除
 enchantment.railcraft.implosion=克爆
@@ -164,9 +177,12 @@ item.railcraft.borehead.iron.name=铁钻头
 item.railcraft.borehead.steel.name=钢钻头
 
 item.railcraft.charge.coil.name=电线圈
+item.railcraft.charge.electrode.iron.name=铁电极
+item.railcraft.charge.electrode.nickel.name=镍电极
 item.railcraft.charge.motor.name=电马达
 item.railcraft.charge.terminal.name=电线头
 item.railcraft.charge.spool.large.name=大号电线线轴
+item.railcraft.charge.spool.medium.name=中号电线线轴
 item.railcraft.charge.spool.small.name=小号电线线轴
 
 item.railcraft.circuit.controller.name=控制器电路
@@ -338,24 +354,24 @@ item.railcraft.tie.wood.name=枕木
 item.railcraft.tool.axe.steel.name=钢斧
 item.railcraft.tool.charge.meter.name=电表
 item.railcraft.tool.charge.meter.tips=§o右击电力方块可获取其详细信息
-item.railcraft.tool.crowbar.magic.name=奥法撬棍
 item.railcraft.tool.crowbar.iron.name=铁制撬棍
+item.railcraft.tool.crowbar.magic.name=奥法撬棍
 item.railcraft.tool.crowbar.steel.name=强化撬棍
 item.railcraft.tool.crowbar.tips=§o潜行时右键可链接车厢
 item.railcraft.tool.crowbar.void.name=虚空金属撬棍
 item.railcraft.tool.hoe.steel.name=钢锄
 item.railcraft.tool.magnifying.glass.name=放大镜
-item.railcraft.tool.notepad.action.copy=已从%s复制设定
 item.railcraft.tool.notepad.action.copy.fail=没有可复制内容：目标无效。
+item.railcraft.tool.notepad.action.copy=已从%s复制设定
 item.railcraft.tool.notepad.action.empty=没有可粘贴内容：按住Shift右击以复制。
-item.railcraft.tool.notepad.action.paste=将设定粘贴至%s
 item.railcraft.tool.notepad.action.paste.fail=没有可粘贴内容：目标无效。
+item.railcraft.tool.notepad.action.paste=将设定粘贴至%s
 item.railcraft.tool.notepad.name=铁路工笔记本
-item.railcraft.tool.notepad.tips.contents=内容：%s
-item.railcraft.tool.notepad.tips.contents.filter.items=§2物品过滤器
-item.railcraft.tool.notepad.tips.contents.filter.fluid=§b流体过滤器
-item.railcraft.tool.notepad.tips.contents.filter.cart=§e矿车过滤器
 item.railcraft.tool.notepad.tips.contents.empty=§4空
+item.railcraft.tool.notepad.tips.contents.filter.cart=§e矿车过滤器
+item.railcraft.tool.notepad.tips.contents.filter.fluid=§b流体过滤器
+item.railcraft.tool.notepad.tips.contents.filter.items=§2物品过滤器
+item.railcraft.tool.notepad.tips.contents=内容：%s
 item.railcraft.tool.notepad.tips.mode.all=全部
 item.railcraft.tool.notepad.tips.mode.cart.filter=矿车过滤器
 item.railcraft.tool.notepad.tips.mode.loader.filters=物品/流体过滤器
@@ -435,12 +451,12 @@ gui.railcraft.actuator.motor.redstone=忽略红石信号
 
 gui.railcraft.worldspike.fuel.remaining=%s小时
 gui.railcraft.worldspike.fuel=世界锚燃料
+gui.railcraft.worldspike.pair.cancel=%s的配对已经取消
 gui.railcraft.worldspike.pair.fail.alignment=%1$s与%2$s不匹配
-gui.railcraft.worldspike.pair.fail.distance=%1$s与%2$s距离过远,无法配对
 gui.railcraft.worldspike.pair.fail.dimension=%1$s与目标在不同的世界维度
+gui.railcraft.worldspike.pair.fail.distance=%1$s与%2$s距离过远,无法配对
 gui.railcraft.worldspike.pair.fail.invalid=这不是一个可以与%s配对的目标
 gui.railcraft.worldspike.pair.fail.unloaded=在与%s配对时目标不在加载的区块中
-gui.railcraft.worldspike.pair.cancel=%s的配对已经取消
 gui.railcraft.worldspike.pair.start=%s配对开始
 gui.railcraft.worldspike.pair.success=%s已经成功配对
 
@@ -463,10 +479,10 @@ gui.railcraft.bore.track=轨道
 
 gui.railcraft.box.aspect.action=根据信号域发送红石信号
 gui.railcraft.box.capacitor.duration=持续发送红石信号%s秒
-gui.railcraft.box.capacitor.rising.name=同步
-gui.railcraft.box.capacitor.rising.tips=在收到红石信号同时开始计时。
 gui.railcraft.box.capacitor.falling.name=延迟
 gui.railcraft.box.capacitor.falling.tips=在上一个红石信号结束时开始计时。
+gui.railcraft.box.capacitor.rising.name=同步
+gui.railcraft.box.capacitor.rising.tips=在收到红石信号同时开始计时。
 gui.railcraft.box.controller.aspect.default=默认信号域：
 gui.railcraft.box.controller.aspect.redstone=红石信号域：
 
@@ -479,9 +495,9 @@ gui.railcraft.cart.undercutter.transfer.stock.name=库存
 gui.railcraft.cart.undercutter.under=下方
 
 gui.railcraft.charge.meter.cart=矿车 -> 电力：%s c | 抽取：%s c/t | 损耗：%s c/t
-gui.railcraft.charge.meter.network=全网 -> 规模：%s | 电力：%s c | 抽取：%s c/t | 损耗：%s c/t
-gui.railcraft.charge.meter.producer=供应 -> 电力：%s c | 产出：%s c/t
+gui.railcraft.charge.meter.network=全网 -> 规模：%s | 电力：%s c | 抽取：%s c/t | 最高抽取：%s c/t | 损耗：%s c/t | 效率：%s%%
 gui.railcraft.charge.meter.node=节点 -> 抽取：%s c/t | 损耗：%s c/t
+gui.railcraft.charge.meter.producer=供应 -> 电力：%s c | 产出：%s c/t | 最高抽取：%s c/t | 损耗：%s c/t | 效率：%s%%
 gui.railcraft.charge.meter.start=正在记录%s秒内的数据...
 
 gui.railcraft.charge.network.usage=全网用量：{percent}
@@ -608,9 +624,9 @@ gui.railcraft.rolling.machine.tips.craft=§e§o-点击以合成-
 
 gui.railcraft.routing.logic.blank=空白列车时刻表
 gui.railcraft.routing.logic.constant.invalid=无效常量
-gui.railcraft.routing.logic.operand.invalid=无效操作符
 gui.railcraft.routing.logic.insufficient.operands=无效操作数
 gui.railcraft.routing.logic.malformed.syntax=不符规范语法
+gui.railcraft.routing.logic.operand.invalid=无效操作符
 gui.railcraft.routing.logic.regex.invalid=无效正则表达式
 gui.railcraft.routing.logic.regex.unsupported=未支持正则表达式
 gui.railcraft.routing.logic.unrecognized.keyword=未识别关键字
@@ -747,11 +763,11 @@ tile.goldenRail.name=推进轨道
 tile.rail.name=轨道
 
 tile.railcraft.actuator.lever.name=转辙致动器拉杆
-tile.railcraft.actuator.lever.tip=控制旁边一格的转辙轨道\n§o§9手动
+tile.railcraft.actuator.lever.tips=控制旁边一格的转辙轨道\n§o§9手动
 tile.railcraft.actuator.motor.name=转辙致动器马达
-tile.railcraft.actuator.motor.tip=控制旁边一格的转辙轨道\n§o§9远程连接: 1x 接收盒\n§o§9红石连接:\n§o§9-接收红石信号\n§o§c相关工具:\n§o§c-信号调谐器
+tile.railcraft.actuator.motor.tips=控制旁边一格的转辙轨道\n§o§9远程连接: 1x 接收盒\n§o§9红石连接:\n§o§9-接收红石信号\n§o§c相关工具:\n§o§c-信号调谐器
 tile.railcraft.actuator.routing.name=路由转辙致动器马达
-tile.railcraft.actuator.routing.tip=控制旁边一格的转辙轨道\n§o§9实行由脚本控制的逻辑操作\n§o§c相关工具:\n§o§c-路由表
+tile.railcraft.actuator.routing.tips=控制旁边一格的转辙轨道\n§o§9实行由脚本控制的逻辑操作\n§o§c相关工具:\n§o§c-路由表
 
 tile.railcraft.anvil.intact.name=钢砧
 tile.railcraft.anvil.slightlyDamaged.name=裂纹钢砧
@@ -850,6 +866,15 @@ tile.railcraft.brick.pearlized.etched.name=蚀刻末影方块
 tile.railcraft.brick.pearlized.fitted.name=匀称末影方块
 tile.railcraft.brick.pearlized.ornate.name=雕琢末影方块
 
+tile.railcraft.charge.battery.nickel.iron.name=镍铁充电电池
+tile.railcraft.charge.battery.nickel.iron.desc=可用于 Railcraft 电力网络的电池。适用于一般使用情景。
+tile.railcraft.charge.battery.nickel.zinc.name=镍锌充电电池
+tile.railcraft.charge.battery.nickel.zinc.desc=可用于 Railcraft 电力网络的电池。适用于低消耗，长时间存储的使用情景。
+tile.railcraft.charge.battery.tips.capacity=容量：%s c
+tile.railcraft.charge.battery.tips.efficiency=效率：%s%%
+tile.railcraft.charge.battery.tips.maxdraw=最大输出：%s c/t
+tile.railcraft.charge.battery.tips.loss=损耗：%s  c/t
+
 tile.railcraft.charge.feeder.admin.name=管理员电力供给单元
 tile.railcraft.charge.feeder.admin.tips=提供无限的RC电力\n§o§c- 需要红石信号 -
 tile.railcraft.charge.feeder.ic2.name=电力供给单元
@@ -922,6 +947,10 @@ tile.railcraft.lantern.stone.quarried.name=采掘石灯
 tile.railcraft.lantern.stone.sandstone.name=沙石灯
 tile.railcraft.lantern.stone.sandy.name=沙岩石灯
 tile.railcraft.lantern.stone.stone.name=石灯
+
+tile.railcraft.logbook.name=记录仪
+tile.railcraft.logbook.desc=这台记录仪可以记录经过其 16 格范围内的所有玩家的信息。只能由其所有者拆除。
+tile.railcraft.logbook.tips=已记录的过往者：
 
 tile.railcraft.machine.alpha.blast.furnace.name=高炉砖
 tile.railcraft.machine.alpha.blast.furnace.tips=多方块结构：3x4x3（中空）
@@ -1083,19 +1112,19 @@ tile.railcraft.post.wood.name=木桩
 tile.railcraft.post.wood.platform.name=木头平台
 
 tile.railcraft.signal.box.analog.name=模拟信号控制盒
-tile.railcraft.signal.box.analog.tip=向信号接收盒发送信号\n§o§9远程连接：1x 控制盒\n§o§9邻格连接：无\n§o§9红石连接：\n§o§9接收红石信号\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.signal.box.analog.tips=向信号接收盒发送信号\n§o§9远程连接：1x 控制盒\n§o§9邻格连接：无\n§o§9红石连接：\n§o§9接收红石信号\n§o§c相关工具：\n§o§c-信号调谐器
 tile.railcraft.signal.box.relay.name=信号中继盒
-tile.railcraft.signal.box.relay.tip=连接两个不在直线上的信号灯\n§o§9远程连接：2x 信号灯\n§o§9邻格连接：发出信号\n§o§9红石连接：\n§o§9发出红石信号\n§o§c相关工具：\n§o§c-信号域监测仪
+tile.railcraft.signal.box.relay.tips=连接两个不在直线上的信号灯\n§o§9远程连接：2x 信号灯\n§o§9邻格连接：发出信号\n§o§9红石连接：\n§o§9发出红石信号\n§o§c相关工具：\n§o§c-信号域监测仪
 tile.railcraft.signal.box.capacitor.name=信号计数盒
-tile.railcraft.signal.box.capacitor.tip=向信号接收盒发送信号\n§o§9远程连接：无\n§o§9邻格连接：接收信号，发出信号\n§o§9红石连接：\n§o§9- 监听红石中继器，发出红石信号
+tile.railcraft.signal.box.capacitor.tips=向信号接收盒发送信号\n§o§9远程连接：无\n§o§9邻格连接：接收信号，发出信号\n§o§9红石连接：\n§o§9- 监听红石中继器，发出红石信号
 tile.railcraft.signal.box.controller.name=信号控制盒
-tile.railcraft.signal.box.controller.tip=向信号接收盒发送信号\n§o§9远程连接：1x 控制盒\n§o§9邻格连接：接收信号\n§o§9红石连接：\n§o§9接收红石信号\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.signal.box.controller.tips=向信号接收盒发送信号\n§o§9远程连接：1x 控制盒\n§o§9邻格连接：接收信号\n§o§9红石连接：\n§o§9接收红石信号\n§o§c相关工具：\n§o§c-信号调谐器
 tile.railcraft.signal.box.interlock.name=信号互锁盒
-tile.railcraft.signal.box.interlock.tip=只允许一种信号通过\n§o§9远程连接：\n§o§9- 1x 控制盒\n§o§9- 1x 接收盒\n§o§9邻格连接：\n§o§9- 互锁盒\n§o§9- 接收信号 (限制输出)\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.signal.box.interlock.tips=只允许一种信号通过\n§o§9远程连接：\n§o§9- 1x 控制盒\n§o§9- 1x 接收盒\n§o§9邻格连接：\n§o§9- 互锁盒\n§o§9- 接收信号 (限制输出)\n§o§c相关工具：\n§o§c-信号调谐器
 tile.railcraft.signal.box.receiver.name=信号接收盒
-tile.railcraft.signal.box.receiver.tip=接收信号控制盒信号\n§o§9远程连接：1x 接收盒\n§o§9邻格连接：发出信号\n§o§9红石连接：\n§o§9发出红石信号\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.signal.box.receiver.tips=接收信号控制盒信号\n§o§9远程连接：1x 接收盒\n§o§9邻格连接：发出信号\n§o§9红石连接：\n§o§9发出红石信号\n§o§c相关工具：\n§o§c-信号调谐器
 tile.railcraft.signal.box.sequencer.name=信号记序盒
-tile.railcraft.signal.box.sequencer.tip=随计数接收不同邻格信号\n§o§9邻格连接：\n§o§9- 同步盒\n§o§9- 接收信号（计数）\n§o§9- 发出信号\n§o§9红石连接：\n§o§9- 监听红石中继器（计数）\n§o§9- 发出红石信号
+tile.railcraft.signal.box.sequencer.tips=随计数接收不同邻格信号\n§o§9邻格连接：\n§o§9- 同步盒\n§o§9- 接收信号（计数）\n§o§9- 发出信号\n§o§9红石连接：\n§o§9- 监听红石中继器（计数）\n§o§9- 发出红石信号
 
 tile.railcraft.slab.abyssal.block.name=深渊台阶
 tile.railcraft.slab.abyssal.brick.name=深渊砖台阶
@@ -1188,16 +1217,16 @@ tile.railcraft.stair.steel.name=钢楼梯
 tile.railcraft.stair.tin.name=锡楼梯
 
 tile.railcraft.wayobject.block.signal.dual.name=双头信号灯
-tile.railcraft.wayobject.block.signal.dual.tip=在信号区间中检测矿车\n显示连接的信号控制盒的信号\n§o§9远程连接：\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§9- 1x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器\n§o§c-信号域监测仪
+tile.railcraft.wayobject.block.signal.dual.tips=在信号区间中检测矿车\n显示连接的信号控制盒的信号\n§o§9远程连接：\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§9- 1x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器\n§o§c-信号域监测仪
 tile.railcraft.wayobject.block.signal.name=信号灯
-tile.railcraft.wayobject.block.signal.tip=在信号区间中检测矿车\n§o§9远程连接：\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§c相关工具：\n§o§c-信号域监测仪
+tile.railcraft.wayobject.block.signal.tips=在信号区间中检测矿车\n§o§9远程连接：\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§c相关工具：\n§o§c-信号域监测仪
 tile.railcraft.wayobject.distant.dual.name=双头远程信号灯
-tile.railcraft.wayobject.distant.dual.tip=显示连接的多个信号控制盒的信号\n§o§9远程连接：2x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.wayobject.distant.dual.tips=显示连接的多个信号控制盒的信号\n§o§9远程连接：2x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器
 tile.railcraft.wayobject.distant.name=远程信号灯
-tile.railcraft.wayobject.distant.tip=显示连接的信号控制盒的信号\n§o§9远程连接：1x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.wayobject.distant.tips=显示连接的信号控制盒的信号\n§o§9远程连接：1x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器
 
-tile.railcraft.machine.delta.wire.name=电力分路线缆
-tile.railcraft.machine.delta.wire.tips=跨距连接电轨\n配合线缆支撑框架可放置于轨道下方
+tile.railcraft.wire.name=电力分路线缆
+tile.railcraft.wire.tips=跨距连接电轨\n配合线缆支撑框架可放置于轨道下方
 
 #Old Tracks (to be deleted)
 tile.railcraft.track.buffer.stop.name=缓停轨道
@@ -1396,8 +1425,8 @@ track_kit.railcraft.railcraft_embarking.tips=使附近实体乘上车厢\n§o§9
 track_kit.railcraft.railcraft_gated.name=门控
 track_kit.railcraft.railcraft_gated.tips=内建门控装置的轨道\n§o§c- 使用红石信号开关门 -
 
-track_kit.railcraft.railcraft_gated.one.way.name=单向门控
-track_kit.railcraft.railcraft_gated.one.way.tips=内建单向门控装置的轨道\n§o§c- 使用红石信号激活 -
+track_kit.railcraft.railcraft_gated_one_way.name=单向门控
+track_kit.railcraft.railcraft_gated_one_way.tips=内建单向门控装置的轨道\n§o§c- 使用红石信号激活 -
 
 track_kit.railcraft.railcraft_junction.name=交接
 
@@ -1414,13 +1443,13 @@ track_kit.railcraft.railcraft_locomotive.name=机车调整
 track_kit.railcraft.railcraft_locomotive.tips=发动或停止机车\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
 
 track_kit.railcraft.railcraft_missing.name=???
-track_kit.railcraft.railcraft_missing.tips=只是拿来占位的，这说明这个轨道出问题了
+track_kit.railcraft.railcraft_missing.tips=只是拿来占位的\n若能看到这个，说明这个轨道出问题了
 
 track_kit.railcraft.railcraft_messenger.name=发信
 track_kit.railcraft.railcraft_messenger.tips=给经过车辆上的乘客发送一条信息\n§o§9- 使用指令 /rc track msg help 获得使用说明 -\n§o§c- 使用红石信号激活 -
 
-track_kit.railcraft.railcraft_one.way.name=单向
-track_kit.railcraft.railcraft_one.way.tips=只允许矿车通向箭头标定方向\n§o§9- 通过撬棍敲击来变向 -
+track_kit.railcraft.railcraft_one_way.name=单向
+track_kit.railcraft.railcraft_one_way.tips=只允许矿车通向箭头标定方向\n§o§9- 通过撬棍敲击来变向 -
 
 track_kit.railcraft.railcraft_priming.name=起爆
 track_kit.railcraft.railcraft_priming.tips=引爆TNT矿车,\n可调引信长度\n§o§9- 通过撬棍敲击来设定引信长度 -\n§o§c- 使用红石信号激活 -
@@ -1445,6 +1474,10 @@ track_type.railcraft.railcraft_reinforced.name=强化
 track_type.railcraft.railcraft_high_speed.name=高速
 track_type.railcraft.railcraft_high_speed_electric.name=高速电力
 track_type.railcraft.railcraft_electric.name=电力
+
+# remove these at some future point - Note for further zh_CN.lang translator: These have been included in Forestry, see https://github.com/ForestryMC/Forestry-Localization/commit/1ec60ca22e1b4a221fd1a1fd342718757f78f458 for details; while we shall still keep both entries below as they are until en_US.lang changes
+forestry.allele.true=是
+forestry.allele.false=否
 
 # Legacy header
 # zh_CN
