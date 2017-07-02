@@ -117,9 +117,9 @@ enchantment.railcraft.smack=推车
 enchantment.railcraft.wrecking=破击
 
 entity.railcraft.bore.name=隧道盾构车
-entity.railcraft.cart_worldspike_admin.name=管理员锚车
-entity.railcraft.cart_worldspike_standard.name=世界锚车
-entity.railcraft.cart_worldspike_personal.name=私用锚车
+entity.railcraft.cart_worldspike_admin.name=管理员界钉车
+entity.railcraft.cart_worldspike_standard.name=标准界钉车
+entity.railcraft.cart_worldspike_personal.name=私人界钉车
 entity.railcraft.cart_basic.name=矿车
 entity.railcraft.cart_cargo.name=货运车
 entity.railcraft.cart_chest.name=箱子车
@@ -205,13 +205,13 @@ item.railcraft.emblem.name=徽章
 item.railcraft.entity.bore.desc=专门用来挖隧道的机械设备，同时还有铺设铁轨的功能。
 item.railcraft.entity.bore.name=隧道盾构车
 item.railcraft.entity.cart.worldspike.admin.desc=加载其所在区块为中心的 5x5 的区块，并使其保持加载。不可合成；不需要燃料。
-item.railcraft.entity.cart.worldspike.admin.name=管理员锚车
+item.railcraft.entity.cart.worldspike.admin.name=管理员界钉车
 item.railcraft.entity.cart.worldspike.admin.tips=区块加载器\n§o§c- 可用激活铁轨关闭 -
 item.railcraft.entity.cart.worldspike.personal.desc=加载其所在区块为中心的 5x5 的区块，但在整个世界加载时不会主动生效。其主人处于离线状态时不会工作。根据配置文件的不同，其运行时可能需要燃料。
-item.railcraft.entity.cart.worldspike.personal.name=私人锚车
+item.railcraft.entity.cart.worldspike.personal.name=私人界钉车
 item.railcraft.entity.cart.worldspike.personal.tips=区块加载器\n§o§c- 可用激活铁轨关闭 -
 item.railcraft.entity.cart.worldspike.standard.desc=加载其所在区块为中心的 5x5 的区块，并使其保持加载。根据配置文件的不同，其运行时可能需要燃料。
-item.railcraft.entity.cart.worldspike.standard.name=世界锚车
+item.railcraft.entity.cart.worldspike.standard.name=标准界钉车
 item.railcraft.entity.cart.worldspike.standard.tips=区块加载器\n§o§c- 可用激活铁轨关闭 -
 item.railcraft.entity.cart.basic.name=矿车
 item.railcraft.entity.cart.cargo.name=货运车
@@ -450,7 +450,7 @@ gui.railcraft.actuator.motor.action=根据信号域来转辙轨道
 gui.railcraft.actuator.motor.redstone=忽略红石信号
 
 gui.railcraft.worldspike.fuel.remaining=%s小时
-gui.railcraft.worldspike.fuel=世界锚燃料
+gui.railcraft.worldspike.fuel=界钉燃料
 gui.railcraft.worldspike.pair.cancel=%s的配对已经取消
 gui.railcraft.worldspike.pair.fail.alignment=%1$s与%2$s不匹配
 gui.railcraft.worldspike.pair.fail.dimension=%1$s与目标在不同的世界维度
@@ -555,7 +555,7 @@ gui.railcraft.filter=过滤
 gui.railcraft.filters.carts=轨道车
 gui.railcraft.filters=过滤
 
-gui.railcraft.goggles.aura.worldspike=锚
+gui.railcraft.goggles.aura.worldspike=界钉
 gui.railcraft.goggles.aura.none=无
 gui.railcraft.goggles.aura.shunting=调车
 gui.railcraft.goggles.aura.signalling=信号
@@ -730,7 +730,7 @@ gui.railcraft.turbine=蒸汽涡轮机
 
 gui.railcraft.update.message=Railcraft %s 已经发布，欢迎前往 <http://railcraft.info> 下载。
 
-railcraft.keybind.aura.worldspike=锚光环
+railcraft.keybind.aura.worldspike=界钉光环
 railcraft.keybind.aura.surveying=检测光环
 railcraft.keybind.aura.tuning=调谐光环
 
@@ -1338,21 +1338,21 @@ tile.railcraft.wall.stone.brick.name=石砖墙
 
 tile.railcraft.worldlogic.name=硝石刷新器
 
-tile.railcraft.worldspike.admin.desc=加载其所在区块为中心的 3x3 的区块，并使其保持加载。不可合成；不需要燃料。
-tile.railcraft.worldspike.admin.name=管理员锚
+tile.railcraft.worldspike.admin.desc=加载其所在区块为中心的 3x3 的区块，并使其保持加载。不可合成，亦不需要燃料。
+tile.railcraft.worldspike.admin.name=管理员界钉
 tile.railcraft.worldspike.admin.tips=区块加载器\n§o§c- 通入红石信号可关闭 -
 tile.railcraft.worldspike.passive.desc=加载其所在区块为中心的 3x3 的区块，但在整个世界加载时不会主动生效。根据配置文件的不同，其运行时可能需要燃料。
-tile.railcraft.worldspike.passive.name=被动锚
+tile.railcraft.worldspike.passive.name=被动界钉
 tile.railcraft.worldspike.passive.tips=区块加载器\n§o§c- 通入红石信号可关闭 -
 tile.railcraft.worldspike.personal.desc=加载其所在区块为中心的 3x3 的区块，但在整个世界加载时不会主动生效。其主人处于离线状态时不会工作。根据配置文件的不同，其运行时可能需要燃料。
-tile.railcraft.worldspike.personal.name=个人锚
+tile.railcraft.worldspike.personal.name=私人界钉
 tile.railcraft.worldspike.personal.tips=区块加载器\n§o§c- 通入红石信号可关闭 -
 tile.railcraft.worldspike.standard.desc=加载其所在区块为中心的 3x3 的区块，并使其保持加载。根据配置文件的不同，其运行时可能需要燃料。
-tile.railcraft.worldspike.standard.name=世界锚
+tile.railcraft.worldspike.standard.name=标准界钉
 tile.railcraft.worldspike.standard.tips=区块加载器\n§o§c- 通入红石信号可关闭 -
-tile.railcraft.worldspike.point.desc=与世界锚搭配使用时，可加载一条直线上的区块。
-tile.railcraft.worldspike.point.name=拱卫之锚
-tile.railcraft.worldspike.point.tips=扩展世界锚的加载范围\n§o§9- 用撬棍来与世界锚进行配对 -
+tile.railcraft.worldspike.point.desc=与界钉搭配使用时，可加载一条直线上的区块。
+tile.railcraft.worldspike.point.name=界钉接点
+tile.railcraft.worldspike.point.tips=扩展界钉的加载范围\n§o§9- 用撬棍来与界钉进行配对 -
 
 tooltip.wawla.tooltype.crowbar=撬棍
 
