@@ -1204,14 +1204,14 @@ tile.railcraft.stair.snow.name=Schneetreppe
 tile.railcraft.stair.steel.name=Stahltreppe
 tile.railcraft.stair.tin.name=Zinntreppe
 
-tile.railcraft.wayobject.block.signal.dual.name=Doppelkopf-Blocksignal
-tile.railcraft.wayobject.block.signal.dual.tips=Erkennt Schienenfahrzeuge im Signalblock\nZeigt Zustand des verbundenen Controllers\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalblockvermesser
-tile.railcraft.wayobject.block.signal.name=Blocksignal
-tile.railcraft.wayobject.block.signal.tips=Erkennt Schienenfahrzeuge im Signalblock\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
-tile.railcraft.wayobject.distant.dual.name=Entferntes Doppelkopf-Blocksignal
-tile.railcraft.wayobject.distant.dual.tips=Zeigt Zustände verbundener Controller\n§o§9Fernverbindungen: 2x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.wayobject.distant.name=Entferntes Signal
-tile.railcraft.wayobject.distant.tips=Zeigt Zustand des verbundenen Controllers\n§o§9Fernverbindungen: 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.signal.block.dual.name=Doppelkopf-Blocksignal
+tile.railcraft.signal.block.dual.tips=Erkennt Schienenfahrzeuge im Signalblock\nZeigt Zustand des verbundenen Controllers\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalblockvermesser
+tile.railcraft.signal.block.name=Blocksignal
+tile.railcraft.signal.block.tips=Erkennt Schienenfahrzeuge im Signalblock\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
+tile.railcraft.signal.distant.dual.name=Entferntes Doppelkopf-Blocksignal
+tile.railcraft.signal.distant.dual.tips=Zeigt Zustände verbundener Controller\n§o§9Fernverbindungen: 2x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.signal.distant.name=Entferntes Signal
+tile.railcraft.signal.distant.tips=Zeigt Zustand des verbundenen Controllers\n§o§9Fernverbindungen: 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
 
 tile.railcraft.wire.name=Ladungsrangierkabel
 tile.railcraft.wire.tips=Transportiert Ladung über kurze Distanzen\n Platziere unterhalb von Gleisen,\n die Kabelstützrahmen verwenden\n Sehr verlustreich

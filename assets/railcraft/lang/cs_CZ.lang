@@ -824,8 +824,8 @@ tile.railcraft.post.wood.platform.name=Dřevěná platforma
 
 tile.railcraft.residual.heat.name=Zbytkové teplo
 
-tile.railcraft.wayobject.block.signal.dual.name=Dvojitý signální blok
-tile.railcraft.wayobject.block.signal.name=Signální blok
+tile.railcraft.signal.block.dual.name=Dvojitý signální blok
+tile.railcraft.signal.block.name=Signální blok
 tile.railcraft.signal.box.analog.name=Analogový signální kontroler
 tile.railcraft.signal.box.relay.name=Signální blok relé
 tile.railcraft.signal.box.capacitor.name=Signální kondenzátor
@@ -833,8 +833,8 @@ tile.railcraft.signal.box.controller.name=Signální kontroler
 tile.railcraft.signal.box.interlock.name=Signální blokátor
 tile.railcraft.signal.box.receiver.name=Signální přijímač
 tile.railcraft.signal.box.sequencer.name=Signální sekvencer
-tile.railcraft.wayobject.distant.dual.name=Dvojitý vzdálený signál
-tile.railcraft.wayobject.distant.name=Vzdálený signál
+tile.railcraft.signal.distant.dual.name=Dvojitý vzdálený signál
+tile.railcraft.signal.distant.name=Vzdálený signál
 tile.railcraft.actuator.lever.name=Přepínací páka
 tile.railcraft.actuator.motor.name=Přepínací motor
 tile.railcraft.actuator.routing.name=Routovací přepínací motor

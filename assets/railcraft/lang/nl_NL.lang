@@ -285,11 +285,11 @@ tile.railcraft.post.metal.unpainted.name=Metalen Paal
 tile.railcraft.post.stone.name=Stenen Paal
 tile.railcraft.post.wood.name=Houten Paal
 
-tile.railcraft.wayobject.block.signal.dual.name=Tweerichting Signaalblok
-tile.railcraft.wayobject.block.signal.name=Signaalblok
+tile.railcraft.signal.block.dual.name=Tweerichting Signaalblok
+tile.railcraft.signal.block.name=Signaalblok
 tile.railcraft.signal.box.controller.name=Signaal Controller
 tile.railcraft.signal.box.receiver.name=Signal Ontvanger
-tile.railcraft.wayobject.distant.name=Verrijkend Signaal
+tile.railcraft.signal.distant.name=Verrijkend Signaal
 tile.railcraft.actuator.lever.name=Schakel Hendel
 tile.railcraft.actuator.motor.name=Schakel Motor
 

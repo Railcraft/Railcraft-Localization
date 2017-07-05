@@ -201,9 +201,9 @@ tile.railcraft.post.wood.name=木の支柱
 
 tile.railcraft.signal.box.controller.name=信号制御ボックス
 tile.railcraft.signal.box.receiver.name=信号受信ボックス
-tile.railcraft.wayobject.block.signal.dual.name=二重信号機
-tile.railcraft.wayobject.block.signal.name=信号機
-tile.railcraft.wayobject.distant.name=遠方信号機
+tile.railcraft.signal.block.dual.name=二重信号機
+tile.railcraft.signal.block.name=信号機
+tile.railcraft.signal.distant.name=遠方信号機
 tile.railcraft.wayobject.switch.lever.name=手動転轍器
 tile.railcraft.wayobject.switch.motor.name=自動転轍器
 

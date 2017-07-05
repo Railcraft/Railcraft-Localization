@@ -1111,6 +1111,15 @@ tile.railcraft.post.stone.platform.name=Stone Platform
 tile.railcraft.post.wood.name=Wooden Post
 tile.railcraft.post.wood.platform.name=Wooden Platform
 
+tile.railcraft.signal.block.dual.name=Dual-Head Block Signal
+tile.railcraft.signal.block.dual.tips=Detects Carts in Signal Block\nDisplays aspect of linked Controller\n§o§9Aerial Linkages:\n§o§9- 1x Signal Blocks\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Block Surveyor
+tile.railcraft.signal.block.name=Block Signal
+tile.railcraft.signal.block.tips=Detects Carts in Signal Block\n§o§9Aerial Linkages:\n§o§9- 1x Signal Block\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
+tile.railcraft.signal.distant.dual.name=Dual-Head Distant Signal
+tile.railcraft.signal.distant.dual.tips=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.signal.distant.name=Distant Signal
+tile.railcraft.signal.distant.tips=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+
 tile.railcraft.signal.box.analog.name=Analog Signal Controller Box
 tile.railcraft.signal.box.analog.tips=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: None\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.signal.box.relay.name=Signal Block Relay Box
@@ -1215,15 +1224,6 @@ tile.railcraft.stair.sandy.fitted.name=Fitted Sandy Stone Stairs
 tile.railcraft.stair.snow.name=Snow Stairs
 tile.railcraft.stair.steel.name=Steel Stairs
 tile.railcraft.stair.tin.name=Tin Stairs
-
-tile.railcraft.wayobject.block.signal.dual.name=Dual-Head Block Signal
-tile.railcraft.wayobject.block.signal.dual.tips=Detects Carts in Signal Block\nDisplays aspect of linked Controller\n§o§9Aerial Linkages:\n§o§9- 1x Signal Blocks\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Block Surveyor
-tile.railcraft.wayobject.block.signal.name=Block Signal
-tile.railcraft.wayobject.block.signal.tips=Detects Carts in Signal Block\n§o§9Aerial Linkages:\n§o§9- 1x Signal Block\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
-tile.railcraft.wayobject.distant.dual.name=Dual-Head Distant Signal
-tile.railcraft.wayobject.distant.dual.tips=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.wayobject.distant.name=Distant Signal
-tile.railcraft.wayobject.distant.tips=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 
 tile.railcraft.wire.name=Charge Shunting Wire
 tile.railcraft.wire.tips=Transfers Charge over short distances\n Place under Track using Wire Support Frames\n High loss

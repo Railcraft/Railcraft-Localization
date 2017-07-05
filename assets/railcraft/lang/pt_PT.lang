@@ -199,9 +199,9 @@ tile.railcraft.post.wood.name=Poste em Madeira
 
 tile.railcraft.signal.box.controller.name=Caixa Controladora de Sinal
 tile.railcraft.signal.box.receiver.name=Caixa Receptora de Sinal
-tile.railcraft.wayobject.block.signal.name=Bloco de Sinal
-tile.railcraft.wayobject.block.signal.dual.name=Bloco de Sinal Duplo
-tile.railcraft.wayobject.distant.name=Sinal Monitorizador
+tile.railcraft.signal.block.name=Bloco de Sinal
+tile.railcraft.signal.block.dual.name=Bloco de Sinal Duplo
+tile.railcraft.signal.distant.name=Sinal Monitorizador
 tile.railcraft.actuator.lever.name=Agulha Manual
 tile.railcraft.actuator.motor.name=Agulha Motorizada
 
