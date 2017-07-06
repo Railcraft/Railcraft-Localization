@@ -344,14 +344,14 @@ tile.railcraft.post.metal.unpainted.name=Metalni Stub
 tile.railcraft.post.stone.name=Kameni Stub
 tile.railcraft.post.wood.name=Drveni Stub
 
-tile.railcraft.signal.block.dual.name=Dvostruki Signal
+tile.railcraft.signal.dual.block.name=Dvostruki Signal
 tile.railcraft.signal.block.name=Signal
 tile.railcraft.signal.box.relay.name=Signalna Relej Kutija
 tile.railcraft.signal.box.capacitor.name=Signalna Kapacitorska Kutija
 tile.railcraft.signal.box.controller.name=Signalna Kontrolerska Kutija
 tile.railcraft.signal.box.receiver.name=Signalna Prijemna Kutija
 tile.railcraft.signal.distant.name=Daleki Signal
-tile.railcraft.signal.distant.dual.name=Dvostruki Daleki Signal
+tile.railcraft.signal.dual.distant.name=Dvostruki Daleki Signal
 tile.railcraft.actuator.lever.name=Prekidačka Ručica
 tile.railcraft.actuator.motor.name=Prekidački Motor
 

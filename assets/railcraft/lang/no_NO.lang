@@ -591,7 +591,7 @@ gui.railcraft.routing.type.private=Private Railway
 gui.railcraft.routing.type.public.tips=Will route any Locomotive.
 gui.railcraft.routing.type.public=Public Railway
 
-tile.railcraft.signal.block.dual.name=Multihodet signal lampe
+tile.railcraft.signal.dual.block.name=Multihodet signal lampe
 tile.railcraft.signal.block.name=Signal lampe
 tile.railcraft.signal.box.relay.name=Signallampe videresender boks
 tile.railcraft.signal.box.capacitor.name=Signal kapasitatorboks
@@ -600,7 +600,7 @@ tile.railcraft.signal.box.interlock.name=Signal Interlock Box
 tile.railcraft.signal.box.sequencer.name=Signal Sequencer Box
 tile.railcraft.signal.box.receiver.name=Signal mottaker boks
 tile.railcraft.signal.distant.name=fjern Signal
-tile.railcraft.signal.distant.dual.name=Multihodet fjernsignal
+tile.railcraft.signal.dual.distant.name=Multihodet fjernsignal
 tile.railcraft.actuator.lever.name=Bryter spak
 tile.railcraft.actuator.motor.name=Bryter Motor
 tile.railcraft.actuator.routing.name=Routing Switch Motor

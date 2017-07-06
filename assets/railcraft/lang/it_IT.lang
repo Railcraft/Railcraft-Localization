@@ -480,14 +480,14 @@ gui.railcraft.routing.type.private=Ferrovia privata
 gui.railcraft.routing.type.public.tips=Avvierà ogni Locomotiva.
 gui.railcraft.routing.type.public=Ferrovia pubblica
 
-tile.railcraft.signal.block.dual.name=Blocco segnale a doppia testa
+tile.railcraft.signal.dual.block.name=Blocco segnale a doppia testa
 tile.railcraft.signal.block.name=Blocco segnale
 tile.railcraft.signal.box.relay.name=Blocco scatola di ritardo del segnale
 tile.railcraft.signal.box.capacitor.name=Scatola di contenimento del segnale
 tile.railcraft.signal.box.controller.name=Scatola di controllo del segnale
 tile.railcraft.signal.box.receiver.name=Scatola ricevente il segnale
 tile.railcraft.signal.distant.name=Segnale distante
-tile.railcraft.signal.distant.dual.name=Segnale distante a doppia testa
+tile.railcraft.signal.dual.distant.name=Segnale distante a doppia testa
 tile.railcraft.actuator.lever.name=Scambia-leve
 tile.railcraft.actuator.motor.name=Scambia-motori
 tile.railcraft.actuator.routing.name=Leva del motore d'avviamento

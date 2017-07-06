@@ -694,7 +694,7 @@ tile.railcraft.post.wood.platform.name=Plataforma de Madera
 
 tile.railcraft.residual.heat.name=Calor Residual
 
-tile.railcraft.signal.block.dual.name=Bloque de Señal Doble-Cabeza
+tile.railcraft.signal.dual.block.name=Bloque de Señal Doble-Cabeza
 tile.railcraft.signal.block.name=Bloque de Señal
 tile.railcraft.signal.box.relay.name=Caja Relay de Bloques de Señales
 tile.railcraft.signal.box.capacitor.name=Caja de Capacitor de Señal
@@ -702,7 +702,7 @@ tile.railcraft.signal.box.controller.name=Caja Controladora de Señales
 tile.railcraft.signal.box.interlock.name=Caja de bloqueo de Señales
 tile.railcraft.signal.box.receiver.name=Caja Receptora de Señal
 tile.railcraft.signal.box.sequencer.name=Caja Secuenciadora de Señal
-tile.railcraft.signal.distant.dual.name=Señal Distante Doble-Cabeza
+tile.railcraft.signal.dual.distant.name=Señal Distante Doble-Cabeza
 tile.railcraft.signal.distant.name=Señal Distante
 tile.railcraft.actuator.lever.name=Palanca Conmutadora
 tile.railcraft.actuator.motor.name=Motor Conmutador

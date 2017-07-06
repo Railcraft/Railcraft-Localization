@@ -1216,12 +1216,12 @@ tile.railcraft.stair.snow.name=雪楼梯
 tile.railcraft.stair.steel.name=钢楼梯
 tile.railcraft.stair.tin.name=锡楼梯
 
-tile.railcraft.signal.block.dual.name=双头信号灯
-tile.railcraft.signal.block.dual.tips=在信号区间中检测矿车\n显示连接的信号控制盒的信号\n§o§9远程连接：\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§9- 1x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器\n§o§c-信号域监测仪
+tile.railcraft.signal.dual.block.name=双头信号灯
+tile.railcraft.signal.dual.block.tips=在信号区间中检测矿车\n显示连接的信号控制盒的信号\n§o§9远程连接：\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§9- 1x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器\n§o§c-信号域监测仪
 tile.railcraft.signal.block.name=信号灯
 tile.railcraft.signal.block.tips=在信号区间中检测矿车\n§o§9远程连接：\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§c相关工具：\n§o§c-信号域监测仪
-tile.railcraft.signal.distant.dual.name=双头远程信号灯
-tile.railcraft.signal.distant.dual.tips=显示连接的多个信号控制盒的信号\n§o§9远程连接：2x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.signal.dual.distant.name=双头远程信号灯
+tile.railcraft.signal.dual.distant.tips=显示连接的多个信号控制盒的信号\n§o§9远程连接：2x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器
 tile.railcraft.signal.distant.name=远程信号灯
 tile.railcraft.signal.distant.tips=显示连接的信号控制盒的信号\n§o§9远程连接：1x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器
 

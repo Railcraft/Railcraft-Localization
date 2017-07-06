@@ -607,7 +607,7 @@ gui.railcraft.routing.type.private=Chemin de fer privé
 gui.railcraft.routing.type.public.tips=Acheminera une locomotive.
 gui.railcraft.routing.type.public=Chemin de fer publique
 
-tile.railcraft.signal.block.dual.name=Bloc de signal à double tête
+tile.railcraft.signal.dual.block.name=Bloc de signal à double tête
 tile.railcraft.signal.block.name=Bloc de signal
 tile.railcraft.signal.box.relay.name=Boîte relais de signal
 tile.railcraft.signal.box.capacitor.name=Boîte condensatrice de signal
@@ -616,7 +616,7 @@ tile.railcraft.signal.box.interlock.name=Boîte de signal de verrouillage
 tile.railcraft.signal.box.sequencer.name=Boîte de signal séquenceur
 tile.railcraft.signal.box.receiver.name=Boîte de réception de signal
 tile.railcraft.signal.distant.name=Récepteur de dignal éloigné
-tile.railcraft.signal.distant.dual.name=Récepteur de signal à double tête
+tile.railcraft.signal.dual.distant.name=Récepteur de signal à double tête
 tile.railcraft.actuator.lever.name=Levier changeur
 tile.railcraft.actuator.motor.name=Moteur changeur
 tile.railcraft.actuator.routing.name=Moteur changeur pour routeur
