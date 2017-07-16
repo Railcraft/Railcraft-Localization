@@ -179,6 +179,7 @@ item.railcraft.borehead.steel.name=Steel Bore Head
 item.railcraft.charge.coil.name=Charge Coil
 item.railcraft.charge.electrode.iron.name=Iron Electrode
 item.railcraft.charge.electrode.nickel.name=Nickel Electrode
+item.railcraft.charge.electrode.nickel.name=Zinc Electrode
 item.railcraft.charge.motor.name=Charge Motor
 item.railcraft.charge.terminal.name=Charge Terminal
 item.railcraft.charge.spool.large.name=Large Charge Wire Spool
