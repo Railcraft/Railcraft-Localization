@@ -130,6 +130,7 @@ entity.railcraft.cart_ic2_batbox.name=Batbox Cart
 entity.railcraft.cart_ic2_cesu.name=CESU Cart
 entity.railcraft.cart_ic2_mfe.name=MFE Cart
 entity.railcraft.cart_ic2_mfsu.name=MFSU Cart
+entity.railcraft.cart_jukebox.name=Jukebox Cart
 entity.railcraft.cart_pumpkin.name=Pumpkin Cart
 entity.railcraft.cart_redstone_flux.name=Redstone Flux Cart
 entity.railcraft.cart_tank.name=Tank Cart
