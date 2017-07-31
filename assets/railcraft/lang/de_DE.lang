@@ -358,7 +358,7 @@ item.railcraft.tool.charge.meter.tips=§oRechtsklicke auf Blöcke mit Ladung, um
 item.railcraft.tool.crowbar.iron.name=Brecheisen
 item.railcraft.tool.crowbar.magic.name=Thaumiumbrecheisen
 item.railcraft.tool.crowbar.steel.name=Stahlbrecheisen
-item.railcraft.tool.crowbar.tips=§oRechtsklicke schleichend, um Waggons zu verbinden
+item.railcraft.tool.crowbar.tips=§oRechtsklicke schleichend, um Waggons zu verkuppeln
 item.railcraft.tool.crowbar.void.name=Leermetallbrecheisen
 item.railcraft.tool.hoe.steel.name=Stahlhacke
 item.railcraft.tool.magnifying.glass.name=Lupe
@@ -383,10 +383,10 @@ item.railcraft.tool.shears.steel.name=Stahlschere
 item.railcraft.tool.shovel.steel.name=Stahlschaufel
 item.railcraft.tool.signal.label.name=Signal-Label
 item.railcraft.tool.signal.label.tips=§9- Im Amboss umzubenennen -\n§oRechtsklicke schleichend, um\n§oSignale oder Signalboxen umzubenennen
-item.railcraft.tool.signal.surveyor.name=Signalblockvermesser
-item.railcraft.tool.signal.surveyor.tips=Verbindet Signale zu Signalblöcken
+item.railcraft.tool.signal.surveyor.name=Signalvermesser
+item.railcraft.tool.signal.surveyor.tips=Koppelt Signale miteinander
 item.railcraft.tool.signal.tuner.name=Abstimmgerät
-item.railcraft.tool.signal.tuner.tips=Verbindet Signalsender und -empfänger
+item.railcraft.tool.signal.tuner.tips=Koppelt Signalsender und -empfänger
 item.railcraft.tool.spike.maul.iron.name=Eiserner Schienennagelhammer
 item.railcraft.tool.spike.maul.steel.name=Stählerner Schienennagelhammer
 item.railcraft.tool.spike.maul.tips=Zum Umbau von Gleisen zu Weichen und Schienenkreuzen
@@ -452,12 +452,12 @@ gui.railcraft.actuator.motor.redstone=Redstone ignorieren
 
 gui.railcraft.worldspike.fuel.remaining=%s Stunden
 gui.railcraft.worldspike.fuel=Weltennagel-Treibstoff
-gui.railcraft.worldspike.pair.cancel=Verbindung wurde abgebrochen: %s
+gui.railcraft.worldspike.pair.cancel=Kopplung wurde abgebrochen: %s
 gui.railcraft.worldspike.pair.fail.alignment=@1$s ist nicht auf der selben Achse wie @2$s
 gui.railcraft.worldspike.pair.fail.dimension=%s ist in einer anderen Dimension als das Ziel
 gui.railcraft.worldspike.pair.fail.distance=@1$s ist zu weit weg, um mit @2$s gekoppelt zu werden
-gui.railcraft.worldspike.pair.fail.invalid=Dies ist kein gültiges Ziel für eine Verbindung: %s
-gui.railcraft.worldspike.pair.fail.unloaded=Ziel ist nicht geladen, während versucht wurde, zu verbinden: %s
+gui.railcraft.worldspike.pair.fail.invalid=Dies ist kein gültiges Ziel für eine Kopplung: %s
+gui.railcraft.worldspike.pair.fail.unloaded=Ziel war während des Kopplungsversuchs nicht geladen: %s
 gui.railcraft.worldspike.pair.start=Kopplung eingeleitet: %s
 gui.railcraft.worldspike.pair.success=Erfolgreich gekoppelt: %s
 
@@ -572,10 +572,10 @@ gui.railcraft.ic2.energy.rate=Rate: %s EU
 
 gui.railcraft.jei.category.rolling=Walzen
 
-gui.railcraft.link.broken=Verbindung getrennt
-gui.railcraft.link.created=Verbindung hergestellt
-gui.railcraft.link.failed=Verbindung fehlgeschlagen
-gui.railcraft.link.started=Verbindung begonnen
+gui.railcraft.link.broken=Kupplung geöffnet
+gui.railcraft.link.created=Kupplung geschlossen
+gui.railcraft.link.failed=Kupplung fehlgeschlagen
+gui.railcraft.link.started=Kupplung begonnen
 
 gui.railcraft.liquid.capacity=Kapazität
 
@@ -615,7 +615,7 @@ gui.railcraft.manipulator.redstone.partial.tips=Arbeiten, bis Platz oder Gegenst
 gui.railcraft.manipulator.transfer.all.name=Alles
 gui.railcraft.manipulator.transfer.all.tips=Alle passenden Gegenstände bewegen
 gui.railcraft.manipulator.transfer.excess.name=Überschuss
-gui.railcraft.manipulator.transfer.excess.tips=Bewegen, bis der\n Waggon dem Filter entspricht
+gui.railcraft.manipulator.transfer.excess.tips=Bewegen, bis die\n Quelle dem Filter entspricht
 gui.railcraft.manipulator.transfer.stock.name=Vorrat
 gui.railcraft.manipulator.transfer.stock.tips=Bewegen, bis das Ziel\n dem Filter entspricht
 gui.railcraft.manipulator.transfer.transfer.name=Übertragen
@@ -673,14 +673,14 @@ gui.railcraft.slot.map.valid=Erlaubte Items:
 gui.railcraft.steam.boiler=Dampfkessel
 gui.railcraft.steam.oven=Dampfofen
 
-gui.railcraft.surveyor.abandon=Signalblock-Anfrage abgebrochen
-gui.railcraft.surveyor.begin=Starte Signalblock-Anfrage
-gui.railcraft.surveyor.invalid=Signalblock ist ungültig
-gui.railcraft.surveyor.lost=Erstes Signal ist nicht mehr vorhanden, Anfrage abgebrochen
-gui.railcraft.surveyor.success=Signalblock erfolgreich definiert
-gui.railcraft.surveyor.track=keine Gleise in der Nähe von %s
+gui.railcraft.surveyor.abandon=Vermessung abgebrochen
+gui.railcraft.surveyor.begin=Starte Vermessung
+gui.railcraft.surveyor.invalid=Kopplung ungültig; zu weit entfernt, kein Gleispfad, oder Kopplung mit sich selbst
+gui.railcraft.surveyor.lost=Erstes Signal ist nicht mehr vorhanden, Vermessung abgebrochen
+gui.railcraft.surveyor.success=Signale erfolgreich gekoppelt
+gui.railcraft.surveyor.track=Keine Gleise in der Nähe von %s
 gui.railcraft.surveyor.unloaded=das erste Signal befindet sich nicht in einem geladenen Chunk
-gui.railcraft.surveyor.wrong=Kein gültiger Signalblock
+gui.railcraft.surveyor.wrong=Kein gültiges Signal
 
 gui.railcraft.tank.iron=Eisentank
 gui.railcraft.tank.steel=Stahltank
@@ -718,12 +718,12 @@ gui.railcraft.track_kit.messenger.title.set=Titel geändert
 
 gui.railcraft.trade.station.dice.tips=Zufälliger Handel
 
-gui.railcraft.tuner.abandon.chunk=Controller befindet sich in einem nichtgeladenen Chunk, Verbindung abgebrochen
-gui.railcraft.tuner.abandon.gone=Controller existiert nicht mehr, Verbindung abgebrochen
-gui.railcraft.tuner.abandon.player=Controller-Verbindung abgebrochen
-gui.railcraft.tuner.start=%s: Starte Verbindung mit einem Empfänger
-gui.railcraft.tuner.stop=%s: Stoppe Verbindung mit einem Empfänger
-gui.railcraft.tuner.success=%1$s erfolgreich verbunden mit %2$s
+gui.railcraft.tuner.abandon.chunk=Controller befindet sich in einem nicht geladenen Chunk, Kopplung abgebrochen
+gui.railcraft.tuner.abandon.gone=Controller existiert nicht mehr, Kopplung abgebrochen
+gui.railcraft.tuner.abandon.player=Controller-Kopplung abgebrochen
+gui.railcraft.tuner.start=%s: Starte Kopplung mit einem Empfänger
+gui.railcraft.tuner.stop=%s: Stoppe Kopplung mit einem Empfänger
+gui.railcraft.tuner.success=%1$s erfolgreich gekoppelt mit %2$s
 
 gui.railcraft.turbine.output=Leistung: %s%%
 gui.railcraft.turbine.rotor=Rotor:
@@ -764,11 +764,11 @@ tile.goldenRail.name=Antriebsgleis
 tile.rail.name=Gleis
 
 tile.railcraft.actuator.lever.name=Manueller Stellantrieb
-tile.railcraft.actuator.lever.tips=Steuert verbundene Weichen\n§o§9Manuelle Steuerung
+tile.railcraft.actuator.lever.tips=Steuert anliegende Weichen\n§o§9Manuelle Steuerung
 tile.railcraft.actuator.motor.name=Motorisierter Stellantrieb
-tile.railcraft.actuator.motor.tips=Steuert verbundene Weichen\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.actuator.motor.tips=Steuert anliegende Weichen\n§o§9Fernverkopplungen: 1x Empfänger\n§o§9Redstone-Interaktion: Empfang\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät
 tile.railcraft.actuator.routing.name=Routender Stellantrieb
-tile.railcraft.actuator.routing.tips=Steuert verbundene Weichen\n§o§9Steuerung durch Logikskript\n§o§cWichtiges Werkzeug:\n§o§c- Streckenplan
+tile.railcraft.actuator.routing.tips=Steuert anliegende Weichen\n§o§9Steuerung durch Logikskript\n§o§cNötiges Werkzeug:\n§o§c- Streckenplan
 
 tile.railcraft.anvil.intact.name=Stahlamboss
 tile.railcraft.anvil.slightlyDamaged.name=Leicht beschädigter Stahlamboss
@@ -1025,7 +1025,7 @@ tile.railcraft.equipment.smoker.desc=Stößt Rauch aus. Kann mit einem Redstone-
 tile.railcraft.manipulator.dispenser.cart.name=Waggonspender
 tile.railcraft.manipulator.dispenser.cart.tips=Lädt Waggons direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Waggon mit einem Redstone-Signal auf ein Gleis -
 tile.railcraft.manipulator.dispenser.train.name=Zugspender
-tile.railcraft.manipulator.dispenser.train.tips=Lädt verbundene Züge direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Zug mit einem Redstone-Signal auf ein Gleis -
+tile.railcraft.manipulator.dispenser.train.tips=Lädt verkuppelte Züge direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Zug mit einem Redstone-Signal auf ein Gleis -
 tile.railcraft.manipulator.loader.ic2.name=IC2-Energielader
 tile.railcraft.manipulator.loader.ic2.tips=Lädt Energy in IC2-Energiewaggons\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Akzeptiert nur IC2-Energie
 tile.railcraft.manipulator.loader.rf.name=Redstone-Flux-Lader
@@ -1113,33 +1113,40 @@ tile.railcraft.post.wood.name=Holzpfosten
 tile.railcraft.post.wood.platform.name=Hölzerne Plattform
 
 tile.railcraft.signal.block.name=Blocksignal
-tile.railcraft.signal.block.tips=Erkennt Schienenfahrzeuge im Signalblock\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
+tile.railcraft.signal.block.tips=Erkennt Schienenfahrzeuge im Signalblock\n§o§9Fernverkopplungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§cNötiges Werkzeug:\n§o§c- Signalvermesser
 tile.railcraft.signal.block.desc=Dies ist das Standardsignal zum Erkennen von Waggons. Kann eins-zu-eins mit einem angrenzenden Blocksignal gekoppelt werden. Detektiert jegliche zwischen diesen beiden Geräten liegenden Waggons und sendet das resultierende Signal an einen gekoppelten Empfänger.
 tile.railcraft.signal.distant.name=Fernsignal
-tile.railcraft.signal.distant.tips=Zeigt Zustand des verbundenen Controllers\n§o§9Fernverbindungen: 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.signal.distant.tips=Zeigt Zustand des gekoppelten Controllers\n§o§9Fernverkopplungen: 1x Empfänger\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät
 tile.railcraft.signal.distant.desc=Dieser Signaltyp ist hauptsächlich für kosmetische Zwecke gedacht. Er interagiert in keiner Weise mit Waggons und zeigt lediglich das Signal an, welches ihm von einem gekoppelten Controller gesendet wird.
+tile.railcraft.signal.token.name=Tokensignal
+tile.railcraft.signal.token.tips=Erkennt Waggons, welche den Tokenbereich erreichen/verlassen\n§o§9Fernverkopplungen:\n§o§9- 1x Tokenbereich\n§o§9- 1x Controller\n§o§cNötiges Werkzeug:\n§o§c- Signalvermesser
+tile.railcraft.signal.token.desc=Dieses Signal kann zum Definieren eines Bereichs verwendet werden, in dem hinein- und herausfahrende Waggons und Züge beobachtet werden sollen. Es bindet in ein Netzwerk ein, welches aus beliebig vielen Signalen bestehen kann, die den Bereich definieren. Empfohlen für Eisenbahnknoten und Diagonalen. Sendet das Resultierende Signal an einen gekoppelten Empfänger.
 
 tile.railcraft.signal.dual.block.name=Doppelkopf-Blocksignal
-tile.railcraft.signal.dual.block.tips=Erkennt Schienenfahrzeuge im Signalblock\nZeigt Zustand des verbundenen Controllers\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalblockvermesser
+tile.railcraft.signal.dual.block.tips=Erkennt Schienenfahrzeuge im Signalblock\nZeigt Zustand des gekoppelten Controllers\n§o§9Fernverkopplungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalvermesser
 tile.railcraft.signal.dual.block.desc=Der obere Teil dieses Signals besteht aus einem Blocksignal, der untere aus einem Fernsignal. Agiert daher gleichzeitig als Controller und Empfänger.
 tile.railcraft.signal.dual.distant.name=Doppelkopf-Fernsignal
-tile.railcraft.signal.dual.distant.tips=Zeigt Zustände verbundener Controller\n§o§9Fernverbindungen: 2x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.signal.dual.distant.tips=Zeigt Zustände gekoppelter Controller\n§o§9Fernverkopplungen: 2x Empfänger\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät
 tile.railcraft.signal.dual.distant.desc=Dieses Signal besteht aus zwei Fernsignalen, die mit verschiedenen Controllern gekoppelt werden können.
+tile.railcraft.signal.dual.token.name=Doppelkopf-Tokensignal
+tile.railcraft.signal.dual.token.tips=Erkennt Waggons, welche den Tokenbereich erreichen/verlassen\n§o§9Fernverkopplungen:\n§o§9- 1x Tokenbereich\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalvermesser
+tile.railcraft.signal.dual.token.desc=Der obere Teil dieses Signals besteht aus einem Tokensignal, der untere aus einem Fernsignal. Agiert daher gleichzeitig als Controller und Empfänger.
+
 
 tile.railcraft.signal.box.analog.name=Analoge Signalsteuerbox
-tile.railcraft.signal.box.analog.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Keine\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.signal.box.analog.tips=Sendet Signale an Empfänger\n§o§9Fernverkopplungen: 1x Controller\n§o§9Direktverkopplungen: Keine\n§o§9Redstone-Interaktion: Empfang\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät
 tile.railcraft.signal.box.relay.name=Signalrelaisbox
-tile.railcraft.signal.box.relay.tips=Ermöglicht Verkettung von Signalblöcken\n§o§9Fernverbindungen: 2x Signalblock\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Signalblockvermesser
+tile.railcraft.signal.box.relay.tips=Ermöglicht Verkettung von Signalblöcken\n§o§9Fernverkopplungen: 2x Signalblock\n§o§9Direktverkopplungen: Senden\n§o§9Redstone-Interaktion: Senden\n§o§cNötiges Werkzeug:\n§o§c- Signalblockvermesser
 tile.railcraft.signal.box.capacitor.name=Signalkondensatorbox
-tile.railcraft.signal.box.capacitor.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: Keine\n§o§9Direktverbindungen: Empfang, Senden\n§o§9Redstone-Verbindung: Empfang von Verstärker, Senden
+tile.railcraft.signal.box.capacitor.tips=Sendet Signale an Empfänger\n§o§9Fernverkopplungen: Keine\n§o§9Direktverkopplungen: Empfang, Senden\n§o§9Redstone-Interaktion: Empfang von Verstärker, Senden
 tile.railcraft.signal.box.controller.name=Signalsteuerbox
-tile.railcraft.signal.box.controller.tips=Sendet Signale an Empfänger\n§o§9Fernverbindungen: 1x Controller\n§o§9Direktverbindungen: Empfang\n§o§9Redstone-Verbindung: Empfang\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.signal.box.controller.tips=Sendet Signale an Empfänger\n§o§9Fernverkopplungen: 1x Controller\n§o§9Direktverkopplungen: Empfang\n§o§9Redstone-Interaktion: Empfang\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät
 tile.railcraft.signal.box.interlock.name=Signalverriegelungsbox
-tile.railcraft.signal.box.interlock.tips=Erlaubt nur einem Signal auf einmal, durchzukommen\n§o§9Fernverbindungen:\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§9Direktverbindungen:\n§o§9- Verriegelung\n§o§9- Empfang (Durchgang sperren)\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.signal.box.interlock.tips=Erlaubt nur einem Signal auf einmal, durchzukommen\n§o§9Fernverkopplungen:\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§9Direktverkopplungen:\n§o§9- Verriegelung\n§o§9- Empfang (Durchgang sperren)\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät
 tile.railcraft.signal.box.receiver.name=Signalempfängerbox
-tile.railcraft.signal.box.receiver.tips=Empfängt Signale von Controllern\n§o§9Fernverbindungen: 1x Empfänger\n§o§9Direktverbindungen: Senden\n§o§9Redstone-Verbindung: Senden\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät
+tile.railcraft.signal.box.receiver.tips=Empfängt Signale von Controllern\n§o§9Fernverkopplungen: 1x Empfänger\n§o§9Direktverkopplungen: Senden\n§o§9Redstone-Interaktion: Senden\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät
 tile.railcraft.signal.box.sequencer.name=Signalsequenzerbox
-tile.railcraft.signal.box.sequencer.tips=Aktiviert direkt verbundene Blöcke nacheinander\n§o§9Direktverbindungen:\n§o§9- Sequenzer\n§o§9- Empfang (Taktsignal)\n§o§9- Senden\n§o§9Redstone-Verbindung:\n§o§9- Empfang von Verstärker (Taktsignal)\n§o§9- Senden
+tile.railcraft.signal.box.sequencer.tips=Aktiviert direkt angeschlossene Blöcke nacheinander\n§o§9Direktverkopplungen:\n§o§9- Sequenzer\n§o§9- Empfang (Taktsignal)\n§o§9- Senden\n§o§9Redstone-Interaktion:\n§o§9- Empfang von Verstärker (Taktsignal)\n§o§9- Senden
 
 tile.railcraft.slab.abyssal.block.name=Abyss-Blockstufe
 tile.railcraft.slab.abyssal.brick.name=Abyss-Ziegel-Stufe
