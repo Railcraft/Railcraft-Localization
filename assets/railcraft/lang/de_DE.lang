@@ -23,7 +23,7 @@ command.railcraft.railcraft.admin.kill.animals.help=Tötet alle Tiere in der akt
 command.railcraft.railcraft.admin.kill.animals.format=Format: /%s
 
 command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : Loren töten
-command.railcraft.railcraft.admin.kill.minecarts.help=Entfernt alle Loren und Waggons aus der aktuellen Welt.
+command.railcraft.railcraft.admin.kill.minecarts.help=Entfernt alle Loren und Schienenfahrzeuge aus der aktuellen Welt.
 command.railcraft.railcraft.admin.kill.minecarts.format=Format: /%s
 
 command.railcraft.railcraft.debug.desc=- %s : Debug-Befehle
@@ -358,7 +358,7 @@ item.railcraft.tool.charge.meter.tips=§oRechtsklicke auf Blöcke mit Ladung, um
 item.railcraft.tool.crowbar.iron.name=Brecheisen
 item.railcraft.tool.crowbar.magic.name=Thaumiumbrecheisen
 item.railcraft.tool.crowbar.steel.name=Stahlbrecheisen
-item.railcraft.tool.crowbar.tips=§oRechtsklicke schleichend, um Waggons zu verkuppeln
+item.railcraft.tool.crowbar.tips=§oRechtsklicke schleichend, um Schienenfahrzeuge zu verkuppeln
 item.railcraft.tool.crowbar.void.name=Leermetallbrecheisen
 item.railcraft.tool.hoe.steel.name=Stahlhacke
 item.railcraft.tool.magnifying.glass.name=Lupe
@@ -383,7 +383,7 @@ item.railcraft.tool.shears.steel.name=Stahlschere
 item.railcraft.tool.shovel.steel.name=Stahlschaufel
 item.railcraft.tool.signal.label.name=Signal-Label
 item.railcraft.tool.signal.label.tips=§9- Im Amboss umzubenennen -\n§oRechtsklicke schleichend, um\n§oSignale oder Signalboxen umzubenennen
-item.railcraft.tool.signal.surveyor.name=Signalvermesser
+item.railcraft.tool.signal.surveyor.name=Streckenvermesser
 item.railcraft.tool.signal.surveyor.tips=Koppelt Signale miteinander
 item.railcraft.tool.signal.tuner.name=Abstimmgerät
 item.railcraft.tool.signal.tuner.tips=Koppelt Signalsender und -empfänger
@@ -426,7 +426,7 @@ railcraft.color.white=Weiß
 railcraft.color.yellow=Gelb
 
 railcraft.gates.action.pause=Arbeit pausieren
-railcraft.gates.action.sendcart=Waggon schicken
+railcraft.gates.action.sendcart=Schienenfahrzeug losschicken
 
 railcraft.gates.trigger.aspect.green=Grünes Signal
 railcraft.gates.trigger.aspect.off=Signal ausgeschaltet
@@ -434,7 +434,7 @@ railcraft.gates.trigger.aspect.red.blink=Signal rot blinkend
 railcraft.gates.trigger.aspect.red=Rotes Signal
 railcraft.gates.trigger.aspect.yellow.blink=Signal gelb blinkend
 railcraft.gates.trigger.aspect.yellow=Gelbes Signal
-railcraft.gates.trigger.cart=Hat Waggon
+railcraft.gates.trigger.cart=Hat Schienenfahrzeug
 railcraft.gates.trigger.engine.blue=Motorträger blau
 railcraft.gates.trigger.engine.green=Motorträger grün
 railcraft.gates.trigger.engine.orange=Motorträger orange
@@ -495,7 +495,7 @@ gui.railcraft.cart.undercutter.sides=Seite
 gui.railcraft.cart.undercutter.transfer.stock.name=Vorrat
 gui.railcraft.cart.undercutter.under=Unten
 
-gui.railcraft.charge.meter.cart=Waggon -> Ladung: %s c | Verbrauch: %s c/t | Verlust: %s c/t
+gui.railcraft.charge.meter.cart=Schienenfahrzeug -> Ladung: %s c | Verbrauch: %s c/t | Verlust: %s c/t
 gui.railcraft.charge.meter.network=Netz -> Größe: %s | Ladung: %s c | Verbrauch: %s c/t  | Max. Verlust: %s c/t | Verlust: %s c/t | Eff: %s%%
 gui.railcraft.charge.meter.node=Knoten -> Verbrauch: %s c/t | Verlust: %s c/t
 gui.railcraft.charge.meter.producer=Versorgung -> Ladung: %s c | Produktion: %s c/t  | Max. Verlust: %s c/t | Verlust: %s c/t | Eff: %s%%
@@ -611,7 +611,7 @@ gui.railcraft.manipulator.redstone.immediate.tips=Arbeiten, bis Platz oder Gegen
 gui.railcraft.manipulator.redstone.manual.name=Manuell
 gui.railcraft.manipulator.redstone.manual.tips=Niemals Redstone aussenden
 gui.railcraft.manipulator.redstone.partial.name=Teilweise
-gui.railcraft.manipulator.redstone.partial.tips=Arbeiten, bis Platz oder Gegenstände ausgehen,\n aber unberührte Waggons halten
+gui.railcraft.manipulator.redstone.partial.tips=Arbeiten, bis Platz oder Gegenstände ausgehen,\n aber unberührte Schienenfahrzeuge halten
 gui.railcraft.manipulator.transfer.all.name=Alles
 gui.railcraft.manipulator.transfer.all.tips=Alle passenden Gegenstände bewegen
 gui.railcraft.manipulator.transfer.excess.name=Überschuss
@@ -639,7 +639,7 @@ gui.railcraft.routing.table.manual.numPages=12
 gui.railcraft.routing.table.manual.page1=Der Streckenplan, wenn in einem Richtungssensor oder Stellantrieb platziert, wird eine Sammlung von Regeln definieren, die bei jeder passierenden Lokomotive genutzt werden. Diese Regeln werden mit einer einfachen logischen Syntax definiert, die es dir erlaubt, Regeln zu erschaffen, so einfach oder komplex wie du willst. Die Syntax ist ein Präfix-Notationsscript, the Operatoren werden gefolgt von den Operanden. Nur ein Wort pro Zeile ist erlaubt. Wenn kein Operator spezifiziert wird, wird OR verwendet. Streckenpläne können kopiert werden, indem zwei oder mehr in ein Crafting-Gitter platziert werden.
 gui.railcraft.routing.table.manual.page2=Operator-Wörter:\n   AND - Zwei Operanden, beide müssen wahr sein.\n   OR - Zwei Operanden, einer muss wahr sein.\n   NOT - Kehrt den folgenden Operanden um.\n IF - Drei Operanden: cond, then, else.\n Wenn 'cond' wahr ist, wird 'then'\n verwendet, sonst 'else'.
 gui.railcraft.routing.table.manual.page3=Bedingungswörter:\n   Dest=<string>\n      Wenn das eingetragene Ziel der\n      Lokomotive mit diesem String startet,\n      ist die Bedingung wahr.\n      "Dest=null" wird Wagen ohne\n      Ziel entsprechen.\n   Owner=<Spielername>\n      Wahr, wenn die Lokomotive\n      dieser Person gehört.
-gui.railcraft.routing.table.manual.page4=Bedingungswörter:\n   Name=<entityname>\n      Wahr, wenn <entityname> dem Namen\n des Wagens entspricht.\n      "Name=null" wird zu Waggons\n      ohne speziellen Namen passen\n   Type=<modid:itemname>\n      Wahr, wenn dies zu dem\n      Item-Namen des\n      Waggons passt.
+gui.railcraft.routing.table.manual.page4=Bedingungswörter:\n   Name=<entityname>\n      Wahr, wenn <entityname> dem Namen\n des Wagens entspricht.\n      "Name=null" wird zu Schienenfahrzeugen\n      ohne speziellen Namen passen\n   Type=<modid:itemname>\n      Wahr, wenn dies zu dem\n      Item-Namen des\n      Schienenfahrzeugs passt.
 gui.railcraft.routing.table.manual.page5=Bedingungswörter:\n   Rider=<type>[:<qualifier>]\n      Wahr, wenn der Zug einen\n      passenden Passagier enthält.\n   Einfache Typen:\n        any, none, mob, animal, unnamed\n      Typen mit Qualifier:\n        player, named, entity\n      Typen mit Regex:\n        player, named\n      Siehe GitHub Issue #844 für Beispiele
 gui.railcraft.routing.table.manual.page6=Bedingungswörter:\n   Color=<primary>,<secondary>\n      Wahr, wenn die primäre und sekundäre\n       Farbe der Lokomotive passen.\n      Akzeptiert "Any" als eine Wildcard.\n      Farben: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White\n   NeedsRefuel=<true/false>\n      Wenn die Lokomotive wenig Treibstoff\n      oder Wasser hat, wird das sie umleiten.
 gui.railcraft.routing.table.manual.page7=Bedingungswörter:\n   Redstone=<true/false>\n      Wahr, wenn der routende Block\n      ein Redstone-Signal bekommt.
@@ -1023,7 +1023,7 @@ tile.railcraft.equipment.smoker.desc=Stößt Rauch aus. Kann mit einem Redstone-
 
 
 tile.railcraft.manipulator.dispenser.cart.name=Waggonspender
-tile.railcraft.manipulator.dispenser.cart.tips=Lädt Waggons direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Waggon mit einem Redstone-Signal auf ein Gleis -
+tile.railcraft.manipulator.dispenser.cart.tips=Lädt Schienenfahrzeuge direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Schienenfahrzeuge mit einem Redstone-Signal auf ein Gleis -
 tile.railcraft.manipulator.dispenser.train.name=Zugspender
 tile.railcraft.manipulator.dispenser.train.tips=Lädt verkuppelte Züge direkt auf Gleise\n§o§9- Gut in Verbindung mit Steuergleisen -\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Zug mit einem Redstone-Signal auf ein Gleis -
 tile.railcraft.manipulator.loader.ic2.name=IC2-Energielader
@@ -1031,21 +1031,21 @@ tile.railcraft.manipulator.loader.ic2.tips=Lädt Energy in IC2-Energiewaggons\n�
 tile.railcraft.manipulator.loader.rf.name=Redstone-Flux-Lader
 tile.railcraft.manipulator.loader.rf.tips=Lädt RF in RF-Waggons\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Akzeptiert nur RF-Energie
 tile.railcraft.manipulator.loader.item.advanced.name=Erw. Itemlader
-tile.railcraft.manipulator.loader.item.advanced.tips=Lädt Items in Waggons\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -
+tile.railcraft.manipulator.loader.item.advanced.tips=Lädt Items in Schienenfahrzeuge\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -
 tile.railcraft.manipulator.loader.item.name=Itemlader
-tile.railcraft.manipulator.loader.item.tips=Lädt Items in Waggons\n§o§c- Platziere oberhalb des Gleises -
+tile.railcraft.manipulator.loader.item.tips=Lädt Items in Schienenfahrzeuge\n§o§c- Platziere oberhalb des Gleises -
 tile.railcraft.manipulator.loader.fluid.name=Flüssigkeitslader
-tile.railcraft.manipulator.loader.fluid.tips=Lädt Flüssigkeiten in Waggons\n§o§c- Platziere 1-2 Blöcke oberhalb des Gleises -
+tile.railcraft.manipulator.loader.fluid.tips=Lädt Flüssigkeiten in Schienenfahrzeuge\n§o§c- Platziere 1-2 Blöcke oberhalb des Gleises -
 tile.railcraft.manipulator.unloader.ic2.name=IC2-Energieentlader
 tile.railcraft.manipulator.unloader.ic2.tips=Entlädt Energie aus IC2-Energiewaggons\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Sendet nur IC2-Energie
 tile.railcraft.manipulator.unloader.rf.name=Redstone-Flux-Entlader
 tile.railcraft.manipulator.unloader.rf.tips=Entlädt RF aus RF-Waggons\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Sendet nur RF-Energie
 tile.railcraft.manipulator.unloader.item.advanced.name=Erw. Itementlader
-tile.railcraft.manipulator.unloader.item.advanced.tips=Entlädt Items aus Waggons\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -
+tile.railcraft.manipulator.unloader.item.advanced.tips=Entlädt Items aus Schienenfahrzeugen\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -
 tile.railcraft.manipulator.unloader.item.name=Itementlader
-tile.railcraft.manipulator.unloader.item.tips=Entlädt Items aus Waggons\n§o§c- Platziere unterhalb des Gleises -
+tile.railcraft.manipulator.unloader.item.tips=Entlädt Items aus Schienenfahrzeugen\n§o§c- Platziere unterhalb des Gleises -
 tile.railcraft.manipulator.unloader.fluid.name=Flüssigkeitsentlader
-tile.railcraft.manipulator.unloader.fluid.tips=Entlädt Flüssigkeiten aus Waggons\n§o§c- Platziere unterhalb des Gleises -
+tile.railcraft.manipulator.unloader.fluid.tips=Entlädt Flüssigkeiten aus Schienenfahrzeugen\n§o§c- Platziere unterhalb des Gleises -
 
 tile.railcraft.ore.dark.diamond.name=Dunkles Diamanterz
 tile.railcraft.ore.dark.emerald.name=Dunkles Smaragderz
@@ -1113,30 +1113,30 @@ tile.railcraft.post.wood.name=Holzpfosten
 tile.railcraft.post.wood.platform.name=Hölzerne Plattform
 
 tile.railcraft.signal.block.name=Blocksignal
-tile.railcraft.signal.block.tips=Erkennt Schienenfahrzeuge im Signalblock\n§o§9Fernverkopplungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§cNötiges Werkzeug:\n§o§c- Signalvermesser
-tile.railcraft.signal.block.desc=Dies ist das Standardsignal zum Erkennen von Waggons. Kann eins-zu-eins mit einem angrenzenden Blocksignal gekoppelt werden. Detektiert jegliche zwischen diesen beiden Geräten liegenden Waggons und sendet das resultierende Signal an einen gekoppelten Empfänger.
+tile.railcraft.signal.block.tips=Erkennt Schienenfahrzeuge im Streckenblock\n§o§9Fernverkopplungen:\n§o§9- 1x Streckenblock\n§o§9- 1x Controller\n§o§cNötiges Werkzeug:\n§o§c- Streckenvermesser
+tile.railcraft.signal.block.desc=Dies ist das Standardsignal zum Erkennen von Schienenfahrzeugen. Kann eins-zu-eins mit einem angrenzenden Blocksignal gekoppelt werden. Detektiert jegliche zwischen diesen beiden Geräten liegenden Schienenfahrzeuge und sendet das resultierende Signal an einen gekoppelten Empfänger.
 tile.railcraft.signal.distant.name=Fernsignal
 tile.railcraft.signal.distant.tips=Zeigt Zustand des gekoppelten Controllers\n§o§9Fernverkopplungen: 1x Empfänger\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät
-tile.railcraft.signal.distant.desc=Dieser Signaltyp ist hauptsächlich für kosmetische Zwecke gedacht. Er interagiert in keiner Weise mit Waggons und zeigt lediglich das Signal an, welches ihm von einem gekoppelten Controller gesendet wird.
+tile.railcraft.signal.distant.desc=Dieser Signaltyp ist hauptsächlich für kosmetische Zwecke gedacht. Er interagiert in keiner Weise mit Schienenfahrzeugen und zeigt lediglich das Signal an, welches ihm von einem gekoppelten Controller gesendet wird.
 tile.railcraft.signal.token.name=Tokensignal
-tile.railcraft.signal.token.tips=Erkennt Waggons, welche den Tokenbereich erreichen/verlassen\n§o§9Fernverkopplungen:\n§o§9- 1x Tokenbereich\n§o§9- 1x Controller\n§o§cNötiges Werkzeug:\n§o§c- Signalvermesser
-tile.railcraft.signal.token.desc=Dieses Signal kann zum Definieren eines Bereichs verwendet werden, in dem hinein- und herausfahrende Waggons und Züge beobachtet werden sollen. Es bindet in ein Netzwerk ein, welches aus beliebig vielen Signalen bestehen kann, die den Bereich definieren. Empfohlen für Eisenbahnknoten und Diagonalen. Sendet das Resultierende Signal an einen gekoppelten Empfänger.
+tile.railcraft.signal.token.tips=Erkennt Schienenfahrzeuge, welche den Tokenbereich erreichen/verlassen\n§o§9Fernverkopplungen:\n§o§9- 1x Tokenbereich\n§o§9- 1x Controller\n§o§cNötiges Werkzeug:\n§o§c- Streckenvermesser
+tile.railcraft.signal.token.desc=Dieses Signal kann zum Definieren eines Bereichs verwendet werden, in dem hinein- und herausfahrende Schienenfahrzeuge und Züge beobachtet werden sollen. Es bindet in ein Netzwerk ein, welches aus beliebig vielen Signalen bestehen kann, die den Bereich definieren. Empfohlen für Eisenbahnknoten und Diagonalen. Sendet das Resultierende Signal an einen gekoppelten Empfänger.
 
 tile.railcraft.signal.dual.block.name=Doppelkopf-Blocksignal
-tile.railcraft.signal.dual.block.tips=Erkennt Schienenfahrzeuge im Signalblock\nZeigt Zustand des gekoppelten Controllers\n§o§9Fernverkopplungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalvermesser
+tile.railcraft.signal.dual.block.tips=Erkennt Schienenfahrzeuge im Streckenblock\nZeigt Zustand des gekoppelten Controllers\n§o§9Fernverkopplungen:\n§o§9- 1x Streckenblock\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Streckenvermesser
 tile.railcraft.signal.dual.block.desc=Der obere Teil dieses Signals besteht aus einem Blocksignal, der untere aus einem Fernsignal. Agiert daher gleichzeitig als Controller und Empfänger.
 tile.railcraft.signal.dual.distant.name=Doppelkopf-Fernsignal
 tile.railcraft.signal.dual.distant.tips=Zeigt Zustände gekoppelter Controller\n§o§9Fernverkopplungen: 2x Empfänger\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät
 tile.railcraft.signal.dual.distant.desc=Dieses Signal besteht aus zwei Fernsignalen, die mit verschiedenen Controllern gekoppelt werden können.
 tile.railcraft.signal.dual.token.name=Doppelkopf-Tokensignal
-tile.railcraft.signal.dual.token.tips=Erkennt Waggons, welche den Tokenbereich erreichen/verlassen\n§o§9Fernverkopplungen:\n§o§9- 1x Tokenbereich\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalvermesser
+tile.railcraft.signal.dual.token.tips=Erkennt Schienenfahrzeuge, welche den Tokenbereich erreichen/verlassen\n§o§9Fernverkopplungen:\n§o§9- 1x Tokenbereich\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Streckenvermesser
 tile.railcraft.signal.dual.token.desc=Der obere Teil dieses Signals besteht aus einem Tokensignal, der untere aus einem Fernsignal. Agiert daher gleichzeitig als Controller und Empfänger.
 
 
 tile.railcraft.signal.box.analog.name=Analoge Signalsteuerbox
 tile.railcraft.signal.box.analog.tips=Sendet Signale an Empfänger\n§o§9Fernverkopplungen: 1x Controller\n§o§9Direktverkopplungen: Keine\n§o§9Redstone-Interaktion: Empfang\n§o§cNötiges Werkzeug:\n§o§c- Abstimmgerät
 tile.railcraft.signal.box.relay.name=Signalrelaisbox
-tile.railcraft.signal.box.relay.tips=Ermöglicht Verkettung von Signalblöcken\n§o§9Fernverkopplungen: 2x Signalblock\n§o§9Direktverkopplungen: Senden\n§o§9Redstone-Interaktion: Senden\n§o§cNötiges Werkzeug:\n§o§c- Signalblockvermesser
+tile.railcraft.signal.box.relay.tips=Ermöglicht Verkettung von Signalblöcken\n§o§9Fernverkopplungen: 2x Streckenblock\n§o§9Direktverkopplungen: Senden\n§o§9Redstone-Interaktion: Senden\n§o§cNötiges Werkzeug:\n§o§c- Streckenvermesser
 tile.railcraft.signal.box.capacitor.name=Signalkondensatorbox
 tile.railcraft.signal.box.capacitor.tips=Sendet Signale an Empfänger\n§o§9Fernverkopplungen: Keine\n§o§9Direktverkopplungen: Empfang, Senden\n§o§9Redstone-Interaktion: Empfang von Verstärker, Senden
 tile.railcraft.signal.box.controller.name=Signalsteuerbox
@@ -1247,9 +1247,9 @@ tile.railcraft.track.buffer.stop.tips=Die Endstation\n§o§9- Verändere die Ric
 tile.railcraft.track.control.name=Steuergleis
 tile.railcraft.track.control.tips=Gibt einen kleinen, allseitigen Schub\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.coupler.name=Kopplungsgleis
-tile.railcraft.track.coupler.tips=Koppelt/Entkoppelt passierende Waggons\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
+tile.railcraft.track.coupler.tips=Koppelt/Entkoppelt passierende Schienenfahrzeuge\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.detector.direction.name=Fahrtrichtungssensorgleis
-tile.railcraft.track.detector.direction.tips=Sendet Redstone-Signal aus, wenn ein Waggon\n in der gewählten Richtung passiert\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Zur Detektion von Komparator-Signalen aus Waggons  -
+tile.railcraft.track.detector.direction.tips=Sendet Redstone-Signal aus, wenn ein Schienenfahrzeug\n in der gewählten Richtung passiert\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Zur Detektion von Komparator-Signalen aus Schienenfahrzeugen  -
 tile.railcraft.track.disembarking.name=Auswurfgleis
 tile.railcraft.track.disembarking.tips=Wirft fahrende Lebewesen aus dem Waggon, in Richtung des Pfeils\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.disposal.name=Entsorgungsgleis
@@ -1263,7 +1263,7 @@ tile.railcraft.track.electric.wye.tips=§9Vorsicht: Hochspannung\n §rWird mit S
 tile.railcraft.track.elevator.name=Aufzugsgleis
 tile.railcraft.track.elevator.tips=Ermöglicht vertikale Waggonbewegung\n§o§c- Um nach oben zu fahren, gib Redstone-Signal an der Oberkante -
 tile.railcraft.track.embarking.name=Aufnahmegleis
-tile.railcraft.track.embarking.tips=Lädt Lebewesen in Waggons hinein\n§o§9- Verändere die Reichweite mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
+tile.railcraft.track.embarking.tips=Lädt Lebewesen auf Waggons\n§o§9- Verändere die Reichweite mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.force.name=Kraftfeldgleis
 tile.railcraft.track.gated.name=Torgleis
 tile.railcraft.track.gated.oneway.name=Fahrtrichtungstorgleis
@@ -1279,11 +1279,11 @@ tile.railcraft.track.launcher.tips=Verleiht Waggons Flügel... Beinahe.\n§o§c-
 tile.railcraft.track.throttle.name=Drosselgleis
 tile.railcraft.track.throttle.tips=Verstellt die Geschwindigkeit\n passierender Lokomotiven\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.locking.name=Sperrgleis
-tile.railcraft.track.locking.tips=Stoppt und hält Waggons\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
+tile.railcraft.track.locking.tips=Stoppt und hält Schienenfahrzeuge\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.locomotive.name=Lokomotivsteuergleis
 tile.railcraft.track.locomotive.tips=Startet/Stoppt Lokomotiven\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.oneway.name=Einweggleis
-tile.railcraft.track.oneway.tips=Waggons können nur\n in Pfeilrichtung passieren\n§o§9- Verändere die Richtung mit einem Brecheisen -
+tile.railcraft.track.oneway.tips=Schienenfahrzeuge können nur\n in Pfeilrichtung passieren\n§o§9- Verändere die Richtung mit einem Brecheisen -
 tile.railcraft.track.priming.name=Zündgleis
 tile.railcraft.track.priming.tips=Entzündet TNT-Waggons\n Verstellbare Zünddauer\n§o§9- Verändere die Zünddauer mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 tile.railcraft.track.reinforced.boost.name=Verstärktes Antriebsgleis
@@ -1409,22 +1409,22 @@ item.railcraft.track_kit.name={track_kit}zubehör
 tile.railcraft.track_outfitted.name={track_type}{track_kit}
 
 track_kit.railcraft.railcraft_activator.name=Aktivierungsgleis
-track_kit.railcraft.railcraft_activator.tips=Aktiviert vorbeifahrende Waggons\n§o§c- Aktiviere mit einem Redstone-Signal -
+track_kit.railcraft.railcraft_activator.tips=Aktiviert vorbeifahrende Schienenfahrzeuge\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_booster.name=Antriebsgleis
-track_kit.railcraft.railcraft_booster.tips=Gibt Waggons einen Schub\nVerlangsamt, wenn deaktiviert\n§o§c- Aktiviere mit einem Redstone-Signal -
+track_kit.railcraft.railcraft_booster.tips=Gibt Schienenfahrzeugen einen Schub\nVerlangsamt, wenn deaktiviert\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_buffer.name=Prellbockgleis
 track_kit.railcraft.railcraft_buffer.tips=Endstation\n§o§9- Verändere die Richtung mit einem Brecheisen -
 
 track_kit.railcraft.railcraft_control.name=Steuergleis
-track_kit.railcraft.railcraft_control.tips=Gibt Waggons einen kleinen Schub\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Verändere die Richtung mit einem Redstone-Signal -
+track_kit.railcraft.railcraft_control.tips=Gibt Schienenfahrzeugen einen kleinen Schub\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Verändere die Richtung mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_coupler.name=Koppelgleis
-track_kit.railcraft.railcraft_coupler.tips=Koppelt/Entkoppelt passierende Waggons\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
+track_kit.railcraft.railcraft_coupler.tips=Koppelt/Entkoppelt passierende Schienenfahrzeuge\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_detector.name=Sensorgleis
-track_kit.railcraft.railcraft_detector.tips=Sendet Redstone-Signal aus, wenn ein Waggon\n in der angezeigten Richtung passiert\n§o§9- Verändere die Richtung mit einem Brecheisen -
+track_kit.railcraft.railcraft_detector.tips=Sendet Redstone-Signal aus, wenn ein Schienenfahrzeug\n in der angezeigten Richtung passiert\n§o§9- Verändere die Richtung mit einem Brecheisen -
 
 track_kit.railcraft.railcraft_disembarking.name=Auswurfgleis
 track_kit.railcraft.railcraft_disembarking.tips=Wirft fahrende Lebewesen in Richtung des Pfeils aus dem Waggon\n§o§9- Verändere die Richtung mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
@@ -1433,7 +1433,7 @@ track_kit.railcraft.railcraft_dumping.name=Entsorgungsgleis
 track_kit.railcraft.railcraft_dumping.tips=Hängendes Gleis\n Wirft fahrende Lebewesen oder Items durch das Gleis hindurch\n§o§c- Deaktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_embarking.name=Aufnahmegleis
-track_kit.railcraft.railcraft_embarking.tips=Lädt Lebewesen in Waggons hinein\n§o§9- Verändere die Reichweite mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
+track_kit.railcraft.railcraft_embarking.tips=Lädt Lebewesen auf Waggons\n§o§9- Verändere die Reichweite mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_gated.name=Torgleis
 track_kit.railcraft.railcraft_gated.tips=Mit eingebautem Tor\n§o§c- Öffne mit einem Redstone-Signal -
@@ -1450,7 +1450,7 @@ track_kit.railcraft.railcraft_throttle.name=Drosselgleis
 track_kit.railcraft.railcraft_throttle.tips=Verstellt die Geschwindigkeit\n passierender Lokomotiven\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_locking.name=Sperrgleis
-track_kit.railcraft.railcraft_locking.tips=Hält Waggons fest\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
+track_kit.railcraft.railcraft_locking.tips=Hält Schienenfahrzeuge fest\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_locomotive.name=Lokomotivsteuergleis
 track_kit.railcraft.railcraft_locomotive.tips=Startet/Stoppt Lokomotiven\n§o§9- Verändere den Modus mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
@@ -1459,10 +1459,10 @@ track_kit.railcraft.railcraft_missing.name=Ungültig
 track_kit.railcraft.railcraft_missing.tips=Platzhaltergleis
 
 track_kit.railcraft.railcraft_messenger.name=Botengleis
-track_kit.railcraft.railcraft_messenger.tips=Sendet eine Nachricht an Fahrer\n von passierenden Waggons\n§o§9- Siehe Befehl "/rc track msg help" für Verwendung -\n§o§c- Aktiviere mit einem Redstone-Signal -
+track_kit.railcraft.railcraft_messenger.tips=Sendet eine Nachricht an Fahrer\n von passierenden Schienenfahrzeugen\n§o§9- Siehe Befehl "/rc track msg help" für Verwendung -\n§o§c- Aktiviere mit einem Redstone-Signal -
 
 track_kit.railcraft.railcraft_one_way.name=Einbahngleis
-track_kit.railcraft.railcraft_one_way.tips=Waggons können nur\n in Pfeilrichtung passieren\n§o§9- Verändere die Richtung mit einem Brecheisen -
+track_kit.railcraft.railcraft_one_way.tips=Schienenfahrzeuge können nur\n in Pfeilrichtung passieren\n§o§9- Verändere die Richtung mit einem Brecheisen -
 
 track_kit.railcraft.railcraft_priming.name=Zündgleis
 track_kit.railcraft.railcraft_priming.tips=Entzündet TNT-Waggons\n Verstellbare Zünddauer\n§o§9- Verändere die Zündzeit mit einem Brecheisen -\n§o§c- Aktiviere mit einem Redstone-Signal -
