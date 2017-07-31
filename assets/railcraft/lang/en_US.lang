@@ -383,8 +383,8 @@ item.railcraft.tool.shears.steel.name=Steel Shears
 item.railcraft.tool.shovel.steel.name=Steel Shovel
 item.railcraft.tool.signal.label.name=Signal Label
 item.railcraft.tool.signal.label.tips=§9- rename in anvil -\n§oright click while sneaking\n§oto name a signal or signal box
-item.railcraft.tool.signal.surveyor.name=Signal Block Surveyor
-item.railcraft.tool.signal.surveyor.tips=Links Signals into Signal Blocks
+item.railcraft.tool.signal.surveyor.name=Signal Surveyor
+item.railcraft.tool.signal.surveyor.tips=Links Signals together
 item.railcraft.tool.signal.tuner.name=Signal Tuner
 item.railcraft.tool.signal.tuner.tips=Links Controllers to Receivers
 item.railcraft.tool.spike.maul.iron.name=Iron Spike Maul
@@ -673,14 +673,14 @@ gui.railcraft.slot.map.valid=Valid Items:
 gui.railcraft.steam.boiler=Steam Boiler
 gui.railcraft.steam.oven=Steam Oven
 
-gui.railcraft.surveyor.abandon=Signal Block Survey abandoned
-gui.railcraft.surveyor.begin=Beginning Signal Block Survey
-gui.railcraft.surveyor.invalid=Signal Block is not valid
+gui.railcraft.surveyor.abandon=Survey abandoned
+gui.railcraft.surveyor.begin=Beginning Survey
+gui.railcraft.surveyor.invalid=Pairing invalid: too far, no track path, or attempted to pair with self
 gui.railcraft.surveyor.lost=First Signal no longer exists, abandoning Survey
-gui.railcraft.surveyor.success=Successfully defined Signal Block
+gui.railcraft.surveyor.success=Successfully paired Signals
 gui.railcraft.surveyor.track=No track found near %s
 gui.railcraft.surveyor.unloaded=First Signal is not in a loaded Chunk
-gui.railcraft.surveyor.wrong=Not a valid Block Signal
+gui.railcraft.surveyor.wrong=Not a valid Signal
 
 gui.railcraft.tank.iron=Iron Tank
 gui.railcraft.tank.steel=Steel Tank
@@ -1113,18 +1113,25 @@ tile.railcraft.post.wood.name=Wooden Post
 tile.railcraft.post.wood.platform.name=Wooden Platform
 
 tile.railcraft.signal.block.name=Block Signal
-tile.railcraft.signal.block.tips=Detects Carts in Signal Block\n§o§9Aerial Linkages:\n§o§9- 1x Signal Block\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
+tile.railcraft.signal.block.tips=Detects Carts in Signal Block\n§o§9Aerial Linkages:\n§o§9- 1x Signal Block\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Surveyor
 tile.railcraft.signal.block.desc=This is the basic signal used for cart detection. It pairs one-to-one with an adjacent Block Signal and will detect any carts between the two and sends the resulting aspect to a paired Receiver.
 tile.railcraft.signal.distant.name=Distant Signal
 tile.railcraft.signal.distant.tips=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.signal.distant.desc=This type of signal is primarily intended for cosmetic usage. It doesn't interface with carts at all and simply displays the aspect sent to it from a paired Controller.
+tile.railcraft.signal.token.name=Token Signal
+tile.railcraft.signal.token.tips=Detects Carts entering/leaving Token Area\n§o§9Aerial Linkages:\n§o§9- 1x Token Area\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Surveyor
+tile.railcraft.signal.token.desc=This signal can be used to define an area to monitor for carts entering and leaving. It pairs into a net of signals, with no particular limit to the number of signals defining the area. Recommended for junctions and diagonals. It will send the resulting aspect to a paired Receiver.
 
 tile.railcraft.signal.dual.block.name=Dual-Head Block Signal
-tile.railcraft.signal.dual.block.tips=Detects Carts in Signal Block\nDisplays aspect of linked Controller\n§o§9Aerial Linkages:\n§o§9- 1x Signal Blocks\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Block Surveyor
-tile.railcraft.signal.dual.block.desc=This signal contains a standard Block Signal on the upper lamp and a Distant Signal signal on the lower. It is both a Controller and a Receiver.
+tile.railcraft.signal.dual.block.tips=Detects Carts in Signal Block\nDisplays aspect of linked Controller\n§o§9Aerial Linkages:\n§o§9- 1x Signal Blocks\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Surveyor
+tile.railcraft.signal.dual.block.desc=This signal contains a standard Block Signal on the upper lamp and a Distant Signal on the lower. It is both a Controller and a Receiver.
 tile.railcraft.signal.dual.distant.name=Dual-Head Distant Signal
 tile.railcraft.signal.dual.distant.tips=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.signal.dual.distant.desc=This signal contains two Distant Signals. They can be paired to different Controllers.
+tile.railcraft.signal.dual.token.name=Dual-Head Token Signal
+tile.railcraft.signal.dual.token.tips=Detects Carts entering/leaving Token Area\n§o§9Aerial Linkages:\n§o§9- 1x Token Area\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Surveyor
+tile.railcraft.signal.dual.token.desc=This signal a Token Signal on the upper lamp and Distant Signal on the lower. It is both a Controller and a Receiver.
+
 
 tile.railcraft.signal.box.analog.name=Analog Signal Controller Box
 tile.railcraft.signal.box.analog.tips=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: None\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
