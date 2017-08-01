@@ -226,6 +226,7 @@ item.railcraft.entity.cart.ic2.batbox.name=Batbox Cart
 item.railcraft.entity.cart.ic2.cesu.name=CESU Cart
 item.railcraft.entity.cart.ic2.mfe.name=MFE Cart
 item.railcraft.entity.cart.ic2.mfsu.name=MFSU Cart
+item.railcraft.entity.cart.jukebox.name=Jukebox Cart
 item.railcraft.entity.cart.pumpkin.name=Pumpkin Cart
 item.railcraft.entity.cart.pumpkin.tips=Trick or Treat
 item.railcraft.entity.cart.redstone.flux.name=Redstone Flux Cart
