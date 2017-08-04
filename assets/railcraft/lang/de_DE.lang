@@ -130,6 +130,7 @@ entity.railcraft.cart_ic2_batbox.name=Batbox-Waggon
 entity.railcraft.cart_ic2_cesu.name=CESU-Waggon
 entity.railcraft.cart_ic2_mfe.name=MFE-Waggon
 entity.railcraft.cart_ic2_mfsu.name=MFSU-Waggon
+entity.railcraft.cart_jukebox.name=Plattenspielwagen
 entity.railcraft.cart_pumpkin.name=Kürbiswagen
 entity.railcraft.cart_redstone_flux.name=Redstone-Flux-Waggon
 entity.railcraft.cart_tank.name=Tankwaggon
@@ -172,6 +173,7 @@ item.railcraft.backpack.trackman.t2.name=Gewebter Schienenwart-Rucksack
 
 item.railcraft.bleached.clay.name=Gebleichter Lehm
 
+item.railcraft.borehead.bronze.name=Bronzebohrkopf
 item.railcraft.borehead.diamond.name=Diamantbohrkopf
 item.railcraft.borehead.iron.name=Eisenbohrkopf
 item.railcraft.borehead.steel.name=Stahlbohrkopf
@@ -224,6 +226,7 @@ item.railcraft.entity.cart.ic2.batbox.name=Batbox-Waggon
 item.railcraft.entity.cart.ic2.cesu.name=CESU-Waggon
 item.railcraft.entity.cart.ic2.mfe.name=MFE-Waggon
 item.railcraft.entity.cart.ic2.mfsu.name=MFSU-Waggon
+item.railcraft.entity.cart.jukebox.name=Plattenspielwagen
 item.railcraft.entity.cart.pumpkin.name=Kürbiswagen
 item.railcraft.entity.cart.pumpkin.tips=Süßes, sonst gibt's Saures!
 item.railcraft.entity.cart.redstone.flux.name=Redstone-Flux-Waggon
