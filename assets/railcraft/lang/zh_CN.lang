@@ -130,6 +130,7 @@ entity.railcraft.cart_ic2_batbox.name=储电车
 entity.railcraft.cart_ic2_cesu.name=CESU储电车
 entity.railcraft.cart_ic2_mfe.name=MFE储电车
 entity.railcraft.cart_ic2_mfsu.name=MFSU储电车
+entity.railcraft.cart_jukebox.name=唱片机车
 entity.railcraft.cart_pumpkin.name=南瓜车
 entity.railcraft.cart_redstone_flux.name=RF储能车
 entity.railcraft.cart_tank.name=蓄水槽车
@@ -172,6 +173,7 @@ item.railcraft.backpack.trackman.t2.name=编织的铁路工背包
 
 item.railcraft.bleached.clay.name=漂白粘土
 
+item.railcraft.borehead.bronze.name=青铜钻头
 item.railcraft.borehead.diamond.name=钻石钻头
 item.railcraft.borehead.iron.name=铁钻头
 item.railcraft.borehead.steel.name=钢钻头
@@ -224,6 +226,7 @@ item.railcraft.entity.cart.ic2.batbox.name=储电车
 item.railcraft.entity.cart.ic2.cesu.name=CESU储电车
 item.railcraft.entity.cart.ic2.mfe.name=MFE储电车
 item.railcraft.entity.cart.ic2.mfsu.name=MFSU储电车
+item.railcraft.entity.cart.jukebox.name=唱片机车
 item.railcraft.entity.cart.pumpkin.name=南瓜车
 item.railcraft.entity.cart.pumpkin.tips=没礼物就捣蛋
 item.railcraft.entity.cart.redstone.flux.name=RF储能车
