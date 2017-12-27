@@ -360,6 +360,9 @@ item.railcraft.tool.charge.meter.name=电表
 item.railcraft.tool.charge.meter.tips=§o右击电力方块可获取其详细信息
 item.railcraft.tool.crowbar.iron.name=铁制撬棍
 item.railcraft.tool.crowbar.magic.name=奥法撬棍
+item.railcraft.tool.crowbar.seasons.name=节日撬棍
+item.railcraft.tool.crowbar.seasons.tips=感受假期的魅力吧～
+item.railcraft.tool.crowbar.seasons.tips.mode=当前节日：%s
 item.railcraft.tool.crowbar.steel.name=强化撬棍
 item.railcraft.tool.crowbar.tips=§o潜行时右键可链接车厢
 item.railcraft.tool.crowbar.void.name=虚空金属撬棍
@@ -670,6 +673,10 @@ gui.railcraft.routing.type.private.tips=将只导航\n属于{owner}的列车。
 gui.railcraft.routing.type.private=私人铁路
 gui.railcraft.routing.type.public.tips=将导航任意列车。
 gui.railcraft.routing.type.public=公用铁路
+
+gui.railcraft.season.none=无
+gui.railcraft.season.christmas=圣诞节
+gui.railcraft.season.halloween=万圣节前夜
 
 gui.railcraft.slot.map.valid=有效物品：
 
