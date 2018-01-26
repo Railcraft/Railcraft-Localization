@@ -360,6 +360,9 @@ item.railcraft.tool.charge.meter.name=Charge Meter
 item.railcraft.tool.charge.meter.tips=§oright click on Charge blocks to inspect
 item.railcraft.tool.crowbar.iron.name=Iron Crowbar
 item.railcraft.tool.crowbar.magic.name=Thaumium Crowbar
+item.railcraft.tool.crowbar.seasons.name=Crowbar of Seasons
+item.railcraft.tool.crowbar.seasons.tips=A touch of holiday magic
+item.railcraft.tool.crowbar.seasons.tips.mode=Season: %s
 item.railcraft.tool.crowbar.steel.name=Steel Crowbar
 item.railcraft.tool.crowbar.tips=§oright click while sneaking to link carts
 item.railcraft.tool.crowbar.void.name=Void Metal Crowbar
@@ -670,6 +673,10 @@ gui.railcraft.routing.type.private.tips=Will only route\n Locomotives\n that bel
 gui.railcraft.routing.type.private=Private Railway
 gui.railcraft.routing.type.public.tips=Will route any Locomotive.
 gui.railcraft.routing.type.public=Public Railway
+
+gui.railcraft.season.none=None
+gui.railcraft.season.christmas=Christmas
+gui.railcraft.season.halloween=Halloween
 
 gui.railcraft.slot.map.valid=Valid Items:
 

@@ -360,6 +360,9 @@ item.railcraft.tool.charge.meter.name=Ladungsmessgerät
 item.railcraft.tool.charge.meter.tips=§oRechtsklicke auf Blöcke mit Ladung, um diese zu untersuchen
 item.railcraft.tool.crowbar.iron.name=Brecheisen
 item.railcraft.tool.crowbar.magic.name=Thaumiumbrecheisen
+item.railcraft.tool.crowbar.seasons.name=Festliches Brecheisen
+item.railcraft.tool.crowbar.seasons.tips=Für die besondere Stimmung
+item.railcraft.tool.crowbar.seasons.tips.mode=Anlass: %s
 item.railcraft.tool.crowbar.steel.name=Stahlbrecheisen
 item.railcraft.tool.crowbar.tips=§oRechtsklicke schleichend, um Schienenfahrzeuge zu verkuppeln
 item.railcraft.tool.crowbar.void.name=Leermetallbrecheisen
@@ -670,6 +673,10 @@ gui.railcraft.routing.type.private.tips=Wird nur Lokomotiven\n steuern, die zu\n
 gui.railcraft.routing.type.private=Privates Gleis
 gui.railcraft.routing.type.public.tips=Kann von jedem Zug benutzt werden.
 gui.railcraft.routing.type.public=Öffentliches Gleis
+
+gui.railcraft.season.none=Keiner
+gui.railcraft.season.christmas=Weihnachten
+gui.railcraft.season.halloween=Halloween
 
 gui.railcraft.slot.map.valid=Erlaubte Items:
 
