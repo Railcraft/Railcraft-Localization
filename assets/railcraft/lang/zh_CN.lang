@@ -26,8 +26,27 @@ command.railcraft.railcraft.admin.kill.minecarts.desc=- %s：清理矿车
 command.railcraft.railcraft.admin.kill.minecarts.help=可“击杀”当前世界中的所有矿车
 command.railcraft.railcraft.admin.kill.minecarts.format=格式：/%s
 
+command.railcraft.railcraft.crafting.desc=- %s : 测试配方
+command.railcraft.railcraft.crafting.help=可以测试配方的输出和效果.
+command.railcraft.railcraft.crafting.format=格式: /%s
+
+command.railcraft.railcraft.crafting.blast.furnace.desc=- %s : 测试高炉配方输出
+command.railcraft.railcraft.crafting.blast.furnace.help=测试一个高炉配方输出。输入是主手持的物品。
+command.railcraft.railcraft.crafting.blast.furnace.format=格式: /%s
+command.railcraft.railcraft.crafting.blast.furnace.message=在高炉中，%s作为输入物品的输出是%s。
+
+command.railcraft.railcraft.crafting.blast.furnace.fuel.desc=- %s : 测试高炉燃料时间
+command.railcraft.railcraft.crafting.blast.furnace.fuel.help=测试一个高炉燃料持续时间。输入是主手持的物品。
+command.railcraft.railcraft.crafting.blast.furnace.fuel.format=格式: /%s
+command.railcraft.railcraft.crafting.blast.furnace.fuel.message=在高炉中，%s燃料的燃料值是%s。
+
+command.railcraft.railcraft.crafting.coke.oven.desc=- %s : 测试焦炉配方输出
+command.railcraft.railcraft.crafting.coke.oven.help=测试一个焦炉配方输出。输入是主手持的物品。
+command.railcraft.railcraft.crafting.coke.oven.format=格式: /%s
+command.railcraft.railcraft.crafting.coke.oven.message=在焦炉中，%s作为输入物品的输出是%s。
+
 command.railcraft.railcraft.debug.desc=-%s: 调试工具
-command.railcraft.railcraft.debug.help=用于调试困难问题的工具.
+command.railcraft.railcraft.debug.help=用于调试困难问题的工具。
 command.railcraft.railcraft.debug.format=格式: /%s
 
 command.railcraft.railcraft.debug.tile.desc=- %s：方块调试工具。
@@ -121,6 +140,7 @@ entity.railcraft.cart_worldspike_admin.name=管理员界钉车
 entity.railcraft.cart_worldspike_standard.name=标准界钉车
 entity.railcraft.cart_worldspike_personal.name=私人界钉车
 entity.railcraft.cart_basic.name=矿车
+entity.railcraft.cart_bed.name=床车
 entity.railcraft.cart_cargo.name=货运车
 entity.railcraft.cart_chest.name=箱子车
 entity.railcraft.cart_furnace.name=熔炉车
@@ -217,6 +237,7 @@ item.railcraft.entity.cart.worldspike.standard.desc=加载其所在区块为中�
 item.railcraft.entity.cart.worldspike.standard.name=标准界钉车
 item.railcraft.entity.cart.worldspike.standard.tips=区块加载器\n§o§c- 可用激活铁轨关闭 -
 item.railcraft.entity.cart.basic.name=矿车
+item.railcraft.entity.cart.bed.name=床车
 item.railcraft.entity.cart.cargo.name=货运车
 item.railcraft.entity.cart.chest.name=箱子车
 item.railcraft.entity.cart.furnace.name=熔炉车
@@ -1124,6 +1145,27 @@ tile.railcraft.post.stone.platform.name=石头平台
 tile.railcraft.post.wood.name=木桩
 tile.railcraft.post.wood.platform.name=木头平台
 
+tile.railcraft.signal.block.name=信号灯
+tile.railcraft.signal.block.tips=在信号区间中检测矿车\n§o§9远程连接：\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§c相关工具：\n§o§c-信号域监测仪
+tile.railcraft.signal.block.desc=This is the basic signal used for cart detection. It pairs one-to-one with an adjacent Block Signal and will detect any carts between the two and sends the resulting aspect to a paired Receiver.
+tile.railcraft.signal.distant.name=远程信号灯
+tile.railcraft.signal.distant.tips=显示连接的信号控制盒的信号\n§o§9远程连接：1x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.signal.distant.desc=This type of signal is primarily intended for cosmetic usage. It doesn't interface with carts at all and simply displays the aspect sent to it from a paired Controller.
+tile.railcraft.signal.token.name=Token Signal
+tile.railcraft.signal.token.tips=Detects Carts entering/leaving Token Area\n§o§9Aerial Linkages:\n§o§9- 1x Token Area\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Surveyor
+tile.railcraft.signal.token.desc=This signal can be used to define an area to monitor for carts entering and leaving. It pairs into a net of signals, with no particular limit to the number of signals defining the area. Recommended for junctions and diagonals. It will send the resulting aspect to a paired Receiver.
+
+tile.railcraft.signal.dual.block.name=双头信号灯
+tile.railcraft.signal.dual.block.tips=在信号区间中检测矿车\n显示连接的信号控制盒的信号\n§o§9远程连接：\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§9- 1x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器\n§o§c-信号域监测仪
+tile.railcraft.signal.dual.block.desc=This signal contains a standard Block Signal on the upper lamp and a Distant Signal on the lower. It is both a Controller and a Receiver.
+tile.railcraft.signal.dual.distant.name=双头远程信号灯
+tile.railcraft.signal.dual.distant.tips=显示连接的多个信号控制盒的信号\n§o§9远程连接：2x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.signal.dual.distant.desc=This signal contains two Distant Signals. They can be paired to different Controllers.
+tile.railcraft.signal.dual.token.name=Dual-Head Token Signal
+tile.railcraft.signal.dual.token.tips=Detects Carts entering/leaving Token Area\n§o§9Aerial Linkages:\n§o§9- 1x Token Area\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Surveyor
+tile.railcraft.signal.dual.token.desc=This signal a Token Signal on the upper lamp and Distant Signal on the lower. It is both a Controller and a Receiver.
+
+
 tile.railcraft.signal.box.analog.name=模拟信号控制盒
 tile.railcraft.signal.box.analog.tips=向信号接收盒发送信号\n§o§9远程连接：1x 控制盒\n§o§9邻格连接：无\n§o§9红石连接：\n§o§9接收红石信号\n§o§c相关工具：\n§o§c-信号调谐器
 tile.railcraft.signal.box.relay.name=信号中继盒
@@ -1229,19 +1271,10 @@ tile.railcraft.stair.snow.name=雪楼梯
 tile.railcraft.stair.steel.name=钢楼梯
 tile.railcraft.stair.tin.name=锡楼梯
 
-tile.railcraft.signal.dual.block.name=双头信号灯
-tile.railcraft.signal.dual.block.tips=在信号区间中检测矿车\n显示连接的信号控制盒的信号\n§o§9远程连接：\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§9- 1x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器\n§o§c-信号域监测仪
-tile.railcraft.signal.block.name=信号灯
-tile.railcraft.signal.block.tips=在信号区间中检测矿车\n§o§9远程连接：\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§c相关工具：\n§o§c-信号域监测仪
-tile.railcraft.signal.dual.distant.name=双头远程信号灯
-tile.railcraft.signal.dual.distant.tips=显示连接的多个信号控制盒的信号\n§o§9远程连接：2x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器
-tile.railcraft.signal.distant.name=远程信号灯
-tile.railcraft.signal.distant.tips=显示连接的信号控制盒的信号\n§o§9远程连接：1x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器
-
 tile.railcraft.wire.name=电力分路线缆
 tile.railcraft.wire.tips=跨距连接电轨\n配合线缆支撑框架可放置于轨道下方
 
-#Old Tracks (to be deleted)
+# Old Tracks (to be deleted)
 tile.railcraft.track.buffer.stop.name=缓停轨道
 tile.railcraft.track.buffer.stop.tips=用于轨道尽头\n§o§9- 通过撬棍敲击来变向 -
 tile.railcraft.track.control.name=控制轨道
@@ -1321,7 +1354,6 @@ tile.railcraft.track.wye.name=Y型轨道
 tile.railcraft.track.wye.tips=§o§c- 需要转辙马达/开关来进行转辙 -
 tile.railcraft.track.autolococoupler.name=Automatic Locomotive Coupler
 tile.railcraft.track.autolococoupler.tips=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- 使用红石信号激活 -
-#end old tracks
 
 tile.railcraft.wall.abyssal.brick.name=深渊砖墙
 tile.railcraft.wall.bleachedbone.brick.name=白骨砖墙
@@ -1370,9 +1402,6 @@ tile.railcraft.worldspike.point.tips=扩展界钉的加载范围\n§o§9- 用撬
 tooltip.wawla.tooltype.crowbar=撬棍
 
 
-######################################################################################
-#   Flex Tracks
-######################################################################################
 
 tile.railcraft.track.flex.abandoned.name=废弃轨道
 tile.railcraft.track.flex.abandoned.tips=§9有潜在脱轨风险\n可跨越沟壑
@@ -1393,17 +1422,6 @@ tile.railcraft.track.flex.strap.iron.name=镀铁轨道
 tile.railcraft.track.flex.strap.iron.tips=速度为一般铁轨道的30%
 
 
-######################################################################################
-#   Track Kits & Outfitted Tracks
-# --------------------------------------------
-#
-# If you wish finer control of the translation, you can use override tags as seen below.
-#
-# Override Tags:
-# item.railcraft.track_kit.railcraft_activator.name=Activator Track Kit
-# tile.railcraft.track_outfitted.railcraft_strap_iron.railcraft_activator.name=Strap Iron Activator Track
-#
-######################################################################################
 
 item.railcraft.track_kit.name=轨道功能套件：{track_kit}
 tile.railcraft.track_outfitted.name={track_type}{track_kit}轨道
@@ -1491,8 +1509,3 @@ track_type.railcraft.railcraft_electric.name=电力
 # remove these at some future point - Note for further zh_CN.lang translator: These have been included in Forestry, see https://github.com/ForestryMC/Forestry-Localization/commit/1ec60ca22e1b4a221fd1a1fd342718757f78f458 for details; while we shall still keep both entries below as they are until en_US.lang changes
 forestry.allele.true=是
 forestry.allele.false=否
-
-# Legacy header
-# zh_CN
-# Translated by crafteverywhere, et al
-# Parent Language: zh_TW

@@ -26,20 +26,24 @@ command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : Kill Minecarts
 command.railcraft.railcraft.admin.kill.minecarts.help=Kills all minecarts in the current world.
 command.railcraft.railcraft.admin.kill.minecarts.format=Format: /%s
 
+command.railcraft.railcraft.crafting.desc=- %s : Recipe Testings
+command.railcraft.railcraft.crafting.help=Tests recipes' outputs and effects.
+command.railcraft.railcraft.crafting.format=Format: /%s
+
 command.railcraft.railcraft.crafting.blast.furnace.desc=- %s : Test blast furnace recipe outputs
-command.railcraft.railcraft.crafting.blast.furnace.help=Tests a blast furnace recipe.
+command.railcraft.railcraft.crafting.blast.furnace.help=Tests a blast furnace recipe's output. The input is the item held in main hand.
 command.railcraft.railcraft.crafting.blast.furnace.format=Format: /%s
-command.railcraft.railcraft.crafting.blast.furnace.message=Output for input item stack %s is %s.
+command.railcraft.railcraft.crafting.blast.furnace.message=In a blast furnace, output for input item stack %s is %s.
 
 command.railcraft.railcraft.crafting.blast.furnace.fuel.desc=- %s : Test blast furnace fuel values
-command.railcraft.railcraft.crafting.blast.furnace.fuel.help=Tests a blast furnace fuel.
+command.railcraft.railcraft.crafting.blast.furnace.fuel.help=Tests a blast furnace fuel's value. The fuel is the item held in main hand.
 command.railcraft.railcraft.crafting.blast.furnace.fuel.format=Format: /%s
-command.railcraft.railcraft.crafting.blast.furnace.fuel.message=Burn time for input item stack %s is %s.
+command.railcraft.railcraft.crafting.blast.furnace.fuel.message=In a blast furnace, burn time for input item stack %s is %s.
 
 command.railcraft.railcraft.crafting.coke.oven.desc=- %s : Test coke oven recipe outputs
-command.railcraft.railcraft.crafting.coke.oven.help=Tests a coke oven recipe.
+command.railcraft.railcraft.crafting.coke.oven.help=Tests a coke oven recipe's output. The input is the item held in main hand.
 command.railcraft.railcraft.crafting.coke.oven.format=Format: /%s
-command.railcraft.railcraft.crafting.coke.oven.message=Output for input item stack %s is %s.
+command.railcraft.railcraft.crafting.coke.oven.message=In a coke oven, output for input item stack %s is %s.
 
 command.railcraft.railcraft.debug.desc=- %s : Debug Tools
 command.railcraft.railcraft.debug.help=Tools for debugging difficult issues.
@@ -136,6 +140,7 @@ entity.railcraft.cart_worldspike_admin.name=Admin Worldspike Cart
 entity.railcraft.cart_worldspike_standard.name=Standard Worldspike Cart
 entity.railcraft.cart_worldspike_personal.name=Personal Worldspike Cart
 entity.railcraft.cart_basic.name=Minecart
+entity.railcraft.cart_bed.name=Bed Cart
 entity.railcraft.cart_cargo.name=Cargo Cart
 entity.railcraft.cart_chest.name=Chest Cart
 entity.railcraft.cart_furnace.name=Furnace Cart
@@ -232,6 +237,7 @@ item.railcraft.entity.cart.worldspike.standard.desc=Loads a 5x5 area of chunks a
 item.railcraft.entity.cart.worldspike.standard.name=Standard Worldspike Cart
 item.railcraft.entity.cart.worldspike.standard.tips=Chunkloader\n§o§c- Activator Track will disable -
 item.railcraft.entity.cart.basic.name=Minecart
+item.railcraft.entity.cart.bed.name=Bed Cart
 item.railcraft.entity.cart.cargo.name=Cargo Cart
 item.railcraft.entity.cart.chest.name=Chest Cart
 item.railcraft.entity.cart.furnace.name=Furnace Cart
