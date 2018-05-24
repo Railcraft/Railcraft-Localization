@@ -26,6 +26,21 @@ command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : Kill Minecarts
 command.railcraft.railcraft.admin.kill.minecarts.help=Kills all minecarts in the current world.
 command.railcraft.railcraft.admin.kill.minecarts.format=Format: /%s
 
+command.railcraft.railcraft.crafting.blast.furnace.desc=- %s : Test blast furnace recipe outputs
+command.railcraft.railcraft.crafting.blast.furnace.help=Tests a blast furnace recipe.
+command.railcraft.railcraft.crafting.blast.furnace.format=Format: /%s
+command.railcraft.railcraft.crafting.blast.furnace.message=Output for input item stack %s is %s.
+
+command.railcraft.railcraft.crafting.blast.furnace.fuel.desc=- %s : Test blast furnace fuel values
+command.railcraft.railcraft.crafting.blast.furnace.fuel.help=Tests a blast furnace fuel.
+command.railcraft.railcraft.crafting.blast.furnace.fuel.format=Format: /%s
+command.railcraft.railcraft.crafting.blast.furnace.fuel.message=Burn time for input item stack %s is %s.
+
+command.railcraft.railcraft.crafting.coke.oven.desc=- %s : Test coke oven recipe outputs
+command.railcraft.railcraft.crafting.coke.oven.help=Tests a coke oven recipe.
+command.railcraft.railcraft.crafting.coke.oven.format=Format: /%s
+command.railcraft.railcraft.crafting.coke.oven.message=Output for input item stack %s is %s.
+
 command.railcraft.railcraft.debug.desc=- %s : Debug Tools
 command.railcraft.railcraft.debug.help=Tools for debugging difficult issues.
 command.railcraft.railcraft.debug.format=Format: /%s
