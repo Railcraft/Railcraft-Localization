@@ -767,6 +767,7 @@ railcraft.keybind.aura.worldspike=Worldspike Aura
 railcraft.keybind.aura.surveying=Surveying Aura
 railcraft.keybind.aura.tuning=Tuning Aura
 
+keybind.railcraft.cart.bed=Bed Cart Sleep Key
 keybind.railcraft.loco.faster=Locomotive Faster
 keybind.railcraft.loco.mode=Locomotive Mode
 keybind.railcraft.loco.reverse=Locomotive Reverse
