@@ -514,7 +514,8 @@ gui.railcraft.box.capacitor.rising.tips=Start timer as soon as the input signal 
 gui.railcraft.box.controller.aspect.default=Default Aspect:
 gui.railcraft.box.controller.aspect.redstone=Redstone Aspect:
 
-gui.railcraft.cart.bed.key=Press %s to sleep at night
+# Stuff after newline is hidden for hotbar messages
+gui.railcraft.cart.bed.key=Press %1$s to dismount - Press %2$s to sleep at night
 gui.railcraft.cart.tnt.fuse=Fuse
 gui.railcraft.cart.track.relayer.pattern=Pattern
 gui.railcraft.cart.track.relayer.stock=Stock
