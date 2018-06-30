@@ -581,6 +581,8 @@ gui.railcraft.engrave=Engrave
 
 gui.railcraft.feed.station.feed=Feed
 
+gui.railcraft.force.track.emitter.info=Currently has %d force tracks
+
 gui.railcraft.filter=Filter
 gui.railcraft.filters.carts=Carts
 gui.railcraft.filters=Filters
