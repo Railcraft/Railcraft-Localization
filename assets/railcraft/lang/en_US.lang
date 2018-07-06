@@ -212,7 +212,7 @@ item.railcraft.circuit.controller.name=Controller Circuit
 item.railcraft.circuit.receiver.name=Receiver Circuit
 item.railcraft.circuit.signal.name=Signal Circuit
 
-item.railcraft.concrete.name=Bag of Concrete
+item.railcraft.concrete.name=Bag of Cement
 
 item.railcraft.dust.charcoal.name=Charcoal Dust
 item.railcraft.dust.coal.name=Coal Dust
@@ -952,7 +952,6 @@ tile.railcraft.generic_brass.name=Block of Brass
 tile.railcraft.generic_bronze.name=Block of Bronze
 tile.railcraft.generic_coke.name=Block of Coal Coke
 tile.railcraft.generic_coke.tips=32,000 Fuel Units
-tile.railcraft.generic_concrete.name=Block of Concrete
 tile.railcraft.generic_copper.name=Block of Copper
 tile.railcraft.generic_creosote.name=Creosote Wood Block
 tile.railcraft.generic_crushed_obsidian.name=Crushed Obsidian
@@ -967,7 +966,39 @@ tile.railcraft.generic_stone_quarried.name=Quarried Stone
 tile.railcraft.generic_tin.name=Block of Tin
 tile.railcraft.generic_zinc.name=Block of Zinc
 
-tile.railcraft.glass.name=Strengthened Glass
+tile.railcraft.glass.black.name=Black Strengthened Glass
+tile.railcraft.glass.red.name=Red Strengthened Glass
+tile.railcraft.glass.green.name=Green Strengthened Glass
+tile.railcraft.glass.brown.name=Brown Strengthened Glass
+tile.railcraft.glass.blue.name=Blue Strengthened Glass
+tile.railcraft.glass.purple.name=Purple Strengthened Glass
+tile.railcraft.glass.cyan.name=Cyan Strengthened Glass
+tile.railcraft.glass.silver.name=Light Gray Strengthened Glass
+tile.railcraft.glass.gray.name=Gray Strengthened Glass
+tile.railcraft.glass.pink.name=Pink Strengthened Glass
+tile.railcraft.glass.lime.name=Lime Strengthened Glass
+tile.railcraft.glass.yellow.name=Yellow Strengthened Glass
+tile.railcraft.glass.lightBlue.name=Light Blue Strengthened Glass
+tile.railcraft.glass.magenta.name=Magenta Strengthened Glass
+tile.railcraft.glass.orange.name=Orange Strengthened Glass
+tile.railcraft.glass.white.name=Strengthened Glass
+
+tile.railcraft.reinforced.concrete.black.name=Black Reinforced Concrete
+tile.railcraft.reinforced.concrete.red.name=Red Reinforced Concrete
+tile.railcraft.reinforced.concrete.green.name=Green Reinforced Concrete
+tile.railcraft.reinforced.concrete.brown.name=Brown Reinforced Concrete
+tile.railcraft.reinforced.concrete.blue.name=Blue Reinforced Concrete
+tile.railcraft.reinforced.concrete.purple.name=Purple Reinforced Concrete
+tile.railcraft.reinforced.concrete.cyan.name=Cyan Reinforced Concrete
+tile.railcraft.reinforced.concrete.light.gray.name=Reinforced Concrete
+tile.railcraft.reinforced.concrete.gray.name=Gray Reinforced Concrete
+tile.railcraft.reinforced.concrete.pink.name=Pink Reinforced Concrete
+tile.railcraft.reinforced.concrete.lime.name=Lime Reinforced Concrete
+tile.railcraft.reinforced.concrete.yellow.name=Yellow Reinforced Concrete
+tile.railcraft.reinforced.concrete.lightBlue.name=Light Blue Reinforced Concrete
+tile.railcraft.reinforced.concrete.magenta.name=Magenta Reinforced Concrete
+tile.railcraft.reinforced.concrete.orange.name=Orange Reinforced Concrete
+tile.railcraft.reinforced.concrete.white.name=White Reinforced Concrete
 
 tile.railcraft.lantern.metal.copper.name=Copper Lantern
 tile.railcraft.lantern.metal.gold.name=Gold Lantern
