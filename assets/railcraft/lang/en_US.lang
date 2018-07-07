@@ -240,6 +240,7 @@ item.railcraft.entity.cart.basic.name=Minecart
 item.railcraft.entity.cart.bed.name=Bed Cart
 item.railcraft.entity.cart.cargo.name=Cargo Cart
 item.railcraft.entity.cart.chest.name=Chest Cart
+item.railcraft.entity.cart.void.name=Void Chest Cart
 item.railcraft.entity.cart.furnace.name=Furnace Cart
 item.railcraft.entity.cart.gift.name=Gift Cart
 item.railcraft.entity.cart.gift.tips=Merry Christmas
