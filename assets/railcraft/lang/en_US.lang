@@ -949,23 +949,13 @@ tile.railcraft.fluid.steam.name=Steam
 tile.railcraft.frame.name=Wire Support Frame
 tile.railcraft.frame.tips=Use to place Track on Shunting Wire
 
-tile.railcraft.generic_brass.name=Block of Brass
-tile.railcraft.generic_bronze.name=Block of Bronze
 tile.railcraft.generic_coke.name=Block of Coal Coke
 tile.railcraft.generic_coke.tips=32,000 Fuel Units
-tile.railcraft.generic_copper.name=Block of Copper
 tile.railcraft.generic_creosote.name=Creosote Wood Block
 tile.railcraft.generic_crushed_obsidian.name=Crushed Obsidian
 tile.railcraft.generic_crushed_obsidian.tips=Prevents Mob Spawns
-tile.railcraft.generic_invar.name=Block of Invar
-tile.railcraft.generic_lead.name=Block of Lead
-tile.railcraft.generic_nickel.name=Block of Nickel
-tile.railcraft.generic_silver.name=Block of Silver
-tile.railcraft.generic_steel.name=Block of Steel
 tile.railcraft.generic_stone_abyssal.name=Abyssal Stone
 tile.railcraft.generic_stone_quarried.name=Quarried Stone
-tile.railcraft.generic_tin.name=Block of Tin
-tile.railcraft.generic_zinc.name=Block of Zinc
 
 tile.railcraft.glass.black.name=Black Strengthened Glass
 tile.railcraft.glass.red.name=Red Strengthened Glass
@@ -1022,6 +1012,17 @@ tile.railcraft.lantern.stone.stone.name=Stone Lantern
 tile.railcraft.logbook.name=Logbook
 tile.railcraft.logbook.desc=The Logbook records any player that passes within a 16 block radius of the block and they day they visited. It can only be broken by the owner.
 tile.railcraft.logbook.tips=Records visitors
+
+tile.railcraft.metal_brass.name=Block of Brass
+tile.railcraft.metal_bronze.name=Block of Bronze
+tile.railcraft.metal_tin.name=Block of Tin
+tile.railcraft.metal_zinc.name=Block of Zinc
+tile.railcraft.metal_invar.name=Block of Invar
+tile.railcraft.metal_lead.name=Block of Lead
+tile.railcraft.metal_nickel.name=Block of Nickel
+tile.railcraft.metal_silver.name=Block of Silver
+tile.railcraft.metal_steel.name=Block of Steel
+tile.railcraft.metal_copper.name=Block of Copper
 
 tile.railcraft.blast.furnace.name=Blast Furnace Brick
 tile.railcraft.blast.furnace.tips=Multi-Block: 3x4x3 (Hollow)
