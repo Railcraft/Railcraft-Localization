@@ -434,6 +434,7 @@ item.synthetic=合成物
 
 itemGroup.railcraft.general=Railcraft
 itemGroup.railcraft.track=Railcraft|轨道
+itemGroup.railcraft.structure=Railcraft|装饰方块
 
 railcraft.color.black=黑色
 railcraft.color.blue=蓝色
