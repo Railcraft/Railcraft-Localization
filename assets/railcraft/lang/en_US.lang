@@ -435,6 +435,7 @@ item.synthetic=Synthetic
 
 itemGroup.railcraft.general=Railcraft
 itemGroup.railcraft.track=Railcraft Outfitted Tracks
+itemGroup.railcraft.structure=Railcraft Decorative Blocks
 
 railcraft.color.black=Black
 railcraft.color.blue=Blue
