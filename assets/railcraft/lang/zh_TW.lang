@@ -4,6 +4,7 @@
 chat.railcraft.api.error=錯誤: 過舊的API，請檢視您的遊戲紀錄檔取得更多訊息。
 
 command.railcraft.aliases=別稱: %s
+command.railcraft.block.notFound=目標座標不是個有效的方塊
 command.railcraft.help=輸入 '%s' 以取得幫助
 command.railcraft.list=可用的子指令:
 command.railcraft.permlevel=權限級別: %s
@@ -115,6 +116,7 @@ death.railcraft.train.6=%s 應該穿上他的工作服
 
 enchantment.railcraft.destruction=破壞
 enchantment.railcraft.implosion=爆裂
+enchantment.railcraft.smack=助力
 enchantment.railcraft.wrecking=揮擊
 
 entity.railcraft.bore.name=隧道鑽掘機
@@ -178,6 +180,16 @@ item.railcraft.borehead.bronze.name=青銅鑽頭
 item.railcraft.borehead.diamond.name=鑽石鑽頭
 item.railcraft.borehead.iron.name=鐵製鑽頭
 item.railcraft.borehead.steel.name=鋼製鑽頭
+
+item.railcraft.charge.coil.name=電線圈
+item.railcraft.charge.electrode.iron.name=鐵電極
+item.railcraft.charge.electrode.nickel.name=鎳電極
+item.railcraft.charge.electrode.zinc.name=鋅電極
+item.railcraft.charge.motor.name=電動馬達
+item.railcraft.charge.terminal.name=電極終端
+item.railcraft.charge.spool.large.name=大型電線線軸
+item.railcraft.charge.spool.medium.name=中型電線線軸
+item.railcraft.charge.spool.small.name=小型電線線軸
 
 item.railcraft.circuit.controller.name=控制電路
 item.railcraft.circuit.receiver.name=接收電路
@@ -251,6 +263,14 @@ item.railcraft.filter.bee.genome.tips.inactive=§a非活躍性狀: §7%s
 item.railcraft.filter.bee.genome.tips.wildcard=任何
 item.railcraft.filter.blank.desc=空白的篩選器
 item.railcraft.filter.blank.name=空白篩選器
+item.railcraft.filter.ore.dict.desc=可用在物品裝(卸)載機或物品偵測器上，配對任何礦物辭典與樣品一致的物品。與帶有礦物辭典的物品合成以設定樣品。
+item.railcraft.filter.ore.dict.name=礦物辭典篩選器
+item.railcraft.filter.ore.dict.tips=與帶有礦物辭典標籤的\n物品合成以設定樣本
+item.railcraft.filter.ore.dict.tips.tags=§a配對的標籤:
+item.railcraft.filter.type.desc=可用在物品裝(卸)載機或物品偵測器上， 配對任何與樣本相同類別（class）的物品。換句話說，它不管任何數據值與NBT標籤。與任意物品合成以設定樣本。
+item.railcraft.filter.type.name=物品類型篩選器
+item.railcraft.filter.type.tips=與任意物品合成以設定樣本
+item.railcraft.filter.tips.prototype=§a樣本:
 
 item.railcraft.firestone.cracked.name=破裂的火石
 item.railcraft.firestone.cracked.tips.charged=滲出微量熱能\n它還是能夠使用\n只要你夠小心...
@@ -343,6 +363,9 @@ item.railcraft.tool.charge.meter.name=電錶
 item.railcraft.tool.charge.meter.tips=§o右鍵電力設備可檢視詳細資訊
 item.railcraft.tool.crowbar.iron.name=鐵橇
 item.railcraft.tool.crowbar.magic.name=秘術鐵橇
+item.railcraft.tool.crowbar.seasons.name=節慶鐵橇
+item.railcraft.tool.crowbar.seasons.tips=感受假期的魔力~
+item.railcraft.tool.crowbar.seasons.tips.mode=節慶: %s
 item.railcraft.tool.crowbar.steel.name=強化鐵橇
 item.railcraft.tool.crowbar.tips=§o潛行時右鍵可連結車廂
 item.railcraft.tool.crowbar.void.name=虛無鐵橇
@@ -631,9 +654,9 @@ gui.railcraft.routing.table.manual.page6=狀況關鍵字:\n   Color=<車身顏�
 gui.railcraft.routing.table.manual.page7=狀況關鍵字:\n   Redstone=<true/false>\n      如果路由方塊正被紅石充能\n      則該狀況為「真」
 gui.railcraft.routing.table.manual.page8=狀況關鍵字:\n   Loco=<字串>\n      若火車頭吻合給予的參數字串，則為「真」\n      接受字串: electric(電力), steam(蒸氣), creative(創造), none(無).\n      參數 none 將只在列車\n      沒有火車頭時傳回「真」
 gui.railcraft.routing.table.manual.page9=舉例腳本:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
-gui.railcraft.routing.table.manual.page10=效果:\n   The script on the previous page will\n   match a Locomotive with a destination\n   of "TheFarLands/Milliways",\n   or that is painted black and red,\n   or that has a destination of\n   "SecretHideout/OceanEntrance",\n   but only if its not owned by RichardG.
+gui.railcraft.routing.table.manual.page10=效果:\n   上一頁的例子中將會偵測一台\n   以"TheFarLands/Milliways"為目的地\n   或是被漆成紅色和黑色，抑或是即將\n   開往"SecretHideout/OceanEntrance"的火車頭\n   但是都會忽略屬於RichardG的火車頭
 gui.railcraft.routing.table.manual.page11=正規表達式:\n   某些狀況支援使用正規表達式\n   要使用正規表達式，需要在'='之前加上一個'?'\n   其語法與Java正規表達式相同\n\n支援的關鍵字:\n   Dest, Name\n範例:\n   Dest?=.*Hill
-gui.railcraft.routing.table.manual.page12=類比輸出:\n   IF can be used with integer constants for\n   analog output. Ints and IF can only be\n   used at top level, or as then or else to\n   IF. TRUE and FALSE are usable anywhere.\nExample:\n   IF\n   Dest=Town\n   8\n   IF\n   Dest=City\n   4\n   FALSE
+gui.railcraft.routing.table.manual.page12=類比輸出:\n   IF 能夠搭配整數常數達成類比輸出\n   然而整數與 IF 只可放置在最上層\n   或其他 IF 的 then、eles 內部\n   TRUE 和 FALSE 則在任何地方皆可用\nExample:\n   IF\n   Dest=Town\n   8\n   IF\n   Dest=City\n   4\n   FALSE
 gui.railcraft.routing.table.manual.title=路由手冊
 gui.railcraft.routing.table.name=命名
 
@@ -653,6 +676,12 @@ gui.railcraft.routing.type.private.tips=只檢查屬於\n{owner} 的火車頭
 gui.railcraft.routing.type.private=私有鐵路
 gui.railcraft.routing.type.public.tips=檢查任何通過的火車頭
 gui.railcraft.routing.type.public=公共鐵路
+
+gui.railcraft.season.none=無
+gui.railcraft.season.christmas=聖誕節
+gui.railcraft.season.halloween=萬聖節
+
+gui.railcraft.slot.map.valid=有效的物品:
 
 gui.railcraft.steam.boiler=蒸氣鍋爐
 gui.railcraft.steam.oven=蒸氣爐
@@ -754,7 +783,7 @@ tile.railcraft.actuator.lever.tips=控制緊鄰的轉轍鐵軌\n§o§9手動運�
 tile.railcraft.actuator.motor.name=電動轉轍器
 tile.railcraft.actuator.motor.tips=控制緊鄰的轉轍鐵軌\n§o§9無線聯繫: 1x 接收器\n§o§9紅石聯繫: 傾聽\n§o§c對應工具:\n§o§c- 信號調頻器
 tile.railcraft.actuator.routing.name=路由轉轍器
-tile.railcraft.actuator.routing.tips=控制緊鄰的轉轍鐵軌\n§o§9S手撰邏輯運作\n§o§c對應工具:\n§o§c- 路由表
+tile.railcraft.actuator.routing.tips=控制緊鄰的轉轍鐵軌\n§o§9手撰邏輯運作\n§o§c對應工具:\n§o§c- 路由表
 
 tile.railcraft.anvil.intact.name=鋼鐵砧
 tile.railcraft.anvil.slightlyDamaged.name=輕微損耗的鋼鐵砧
@@ -846,6 +875,13 @@ tile.railcraft.brick.red.sandy.etched.name=蝕刻紅沙磚
 tile.railcraft.brick.red.sandy.fitted.name=紅沙石磚
 tile.railcraft.brick.red.sandy.ornate.name=浮雕紅沙磚
 
+tile.railcraft.brick.pearlized.block.name=終界方塊
+tile.railcraft.brick.pearlized.brick.name=終界磚
+tile.railcraft.brick.pearlized.cobble.name=終界鵝卵石
+tile.railcraft.brick.pearlized.etched.name=蝕刻終界磚
+tile.railcraft.brick.pearlized.fitted.name=終界石磚
+tile.railcraft.brick.pearlized.ornate.name=浮雕終界磚
+
 tile.railcraft.charge.battery.nickel.iron.name=鎳-鐵充電電池
 tile.railcraft.charge.battery.nickel.iron.desc=一顆設計來與 Railcraft 電力網路同用的電池。適用於一般用途。
 tile.railcraft.charge.battery.nickel.zinc.name=鎳-鋅充電電池
@@ -927,6 +963,10 @@ tile.railcraft.lantern.stone.quarried.name=石料製燈
 tile.railcraft.lantern.stone.sandstone.name=砂岩石燈
 tile.railcraft.lantern.stone.sandy.name=砂石製燈
 tile.railcraft.lantern.stone.stone.name=石燈
+
+tile.railcraft.logbook.name=拜訪日誌
+tile.railcraft.logbook.desc=拜訪日誌紀錄著任何通過周圍半徑16格內的玩家，以及他們路過的日期。它僅能夠被擁有者破壞。
+tile.railcraft.logbook.tips=紀錄拜訪者
 
 tile.railcraft.blast.furnace.name=鼓風爐磚
 tile.railcraft.blast.furnace.tips=多重方塊: 3x4x3 (中空)
@@ -1087,10 +1127,31 @@ tile.railcraft.post.stone.platform.name=混凝土平台
 tile.railcraft.post.wood.name=木頭支柱
 tile.railcraft.post.wood.platform.name=木頭平台
 
+tile.railcraft.signal.block.name=閉塞號誌燈
+tile.railcraft.signal.block.tips=偵測閉塞區間內的車輛\n§o§9無線聯繫:\n§o§9- 1x 閉塞區間\n§o§9- 1x 控制器\n§o§c對應工具:\n§o§c- 號誌測量器
+tile.railcraft.signal.block.desc=這是最基礎的號誌燈，作為車輛偵測之用。它與另外一個鄰近的閉塞號誌燈成對配對，能夠偵測任何位於兩者之間的車輛，並傳送其結果燈號到配對的接收器。
+tile.railcraft.signal.distant.name=遠程號誌燈
+tile.railcraft.signal.distant.tips=顯示連接的控制器狀態\n§o§9無線聯繫: 1x 接收器\n§o§c對應工具:\n§o§c- 信號調頻器
+tile.railcraft.signal.distant.desc=此類型的號誌燈主要預期能夠給予裝飾性的使用。它完全不與車輛互動，僅僅簡單地顯示出配對控制器的燈號。
+tile.railcraft.signal.token.name=路牌號誌燈
+tile.railcraft.signal.token.tips=偵測進入/離開標記區域的車輛\n§o§9無線聯繫:\n§o§9- 1x 標記區域\n§o§9- 1x 控制器\n§o§c對應工具:\n§o§c- 號誌測量器
+tile.railcraft.signal.token.desc=這個號誌燈可以用來定義一個區域並監控進出此區域的車輛。它由配對組成一個號誌網路，無特別的數量限制多少個號誌燈可定義此區域。推薦用在會合處與斜列鐵路。它能傳送其結果燈號到配對的接收器。
+
+tile.railcraft.signal.dual.block.name=雙頭閉塞號誌燈
+tile.railcraft.signal.dual.block.tips=偵測閉塞區間內的車輛\n顯示連接的控制器狀態\n§o§9無線聯繫:\n§o§9- 1x 閉塞區間\n§o§9- 1x 控制器\n§o§9- 1x 接收器\n§o§c對應工具:\n§o§c- 信號調頻器\n§o§c- 號誌測量器
+tile.railcraft.signal.dual.block.desc=這個號誌燈包含一顆標準閉塞號誌燈於上半部、一顆遠程號誌燈於下半部。它是個控制器也同時是個接收器。
+tile.railcraft.signal.dual.distant.name=雙頭遠程號誌燈
+tile.railcraft.signal.dual.distant.tips=顯示多個連接的控制器狀態\n§o§9無線聯繫: 2x 接收器\n§o§c對應工具:\n§o§c- 信號調頻器
+tile.railcraft.signal.dual.distant.desc=這個號誌燈包含兩顆遠程號誌燈。他們可以分別與不同的兩個控制器配對。
+tile.railcraft.signal.dual.token.name=雙頭路牌號誌燈
+tile.railcraft.signal.dual.token.tips=偵測進入/離開標記區域的車輛\n§o§9無線聯繫:\n§o§9- 1x 標記區域\n§o§9- 1x 控制器\n§o§9- 1x 接收器\n§o§c對應工具:\n§o§c- 信號調頻器\n§o§c- 號誌測量器
+tile.railcraft.signal.dual.token.desc=這個號誌燈包含一顆路牌號誌燈於上半部、一顆遠程號誌燈於下半部。它是個控制器也同時是個接收器。
+
+
 tile.railcraft.signal.box.analog.name=類比號誌控制箱
 tile.railcraft.signal.box.analog.tips=傳送信號至接收器\n§o§9無線聯繫: 1x 控制器\n§o§9相鄰聯繫: 無\n§o§9紅石聯繫: 傾聽\n§o§c對應工具:\n§o§c- 信號調頻器
 tile.railcraft.signal.box.relay.name=號誌中繼箱
-tile.railcraft.signal.box.relay.tips=建立多個號誌區間的連結\n§o§9無線聯繫: 2x 號誌方塊\n§o§9相鄰聯繫: 輸出\n§o§9紅石聯繫: 輸出\n§o§c對應工具:\n§o§c- Signal Surveyor
+tile.railcraft.signal.box.relay.tips=建立多個號誌區間的連結\n§o§9無線聯繫: 2x 號誌方塊\n§o§9相鄰聯繫: 輸出\n§o§9紅石聯繫: 輸出\n§o§c對應工具:\n§o§c- 號誌測量器
 tile.railcraft.signal.box.capacitor.name=號誌電容箱
 tile.railcraft.signal.box.capacitor.tips=傳送信號至接收器\n§o§9無線聯繫: 無\n§o§9相鄰聯繫: 傾聽, 輸出\n§o§9紅石聯繫: 傾聽中繼器, 輸出
 tile.railcraft.signal.box.controller.name=號誌控制箱
@@ -1191,15 +1252,6 @@ tile.railcraft.stair.sandy.fitted.name=砂石磚階梯
 tile.railcraft.stair.snow.name=雪階梯
 tile.railcraft.stair.steel.name=鋼鐵階梯
 tile.railcraft.stair.tin.name=錫階梯
-
-tile.railcraft.signal.dual.block.name=雙頭號誌燈
-tile.railcraft.signal.dual.block.tips=偵測號誌區間內的車輛\n顯示連接的控制器狀態\n§o§9無線聯繫:\n§o§9- 1x 號誌燈\n§o§9- 1x 控制器\n§o§9- 1x 接收器\n§o§c對應工具:\n§o§c- 信號調頻器\n§o§c- 號誌測量器
-tile.railcraft.signal.block.name=號誌區間燈
-tile.railcraft.signal.block.tips=偵測號誌區間內的車輛\n§o§9無線聯繫:\n§o§9- 1x 號誌燈\n§o§9- 1x 控制器\n§o§c對應工具:\n§o§c- 號誌測量器
-tile.railcraft.signal.dual.distant.name=雙頭遠程號誌燈
-tile.railcraft.signal.dual.distant.tips=顯示多個連接的控制器狀態\n§o§9無線聯繫: 2x 接收器\n§o§c對應工具:\n§o§c- 信號調頻器
-tile.railcraft.signal.distant.name=遠程號誌燈
-tile.railcraft.signal.distant.tips=顯示連接的控制器狀態\n§o§9無線聯繫: 1x 接收器\n§o§c對應工具:\n§o§c- 信號調頻器
 
 tile.railcraft.wire.name=電力分流導線
 tile.railcraft.wire.tips=近距離的電力輸送\n 放置於使用支撐框架的軌道下\n 高損耗
@@ -1329,7 +1381,6 @@ tile.railcraft.worldspike.point.name=世界釘標記
 tile.railcraft.worldspike.point.tips=延伸世界釘的區塊讀取區域\n§o§9- 使用鐵橇與世界釘配對 -
 
 tooltip.wawla.tooltype.crowbar=鐵橇
-
 
 
 tile.railcraft.track.flex.abandoned.name=廢棄鐵軌
