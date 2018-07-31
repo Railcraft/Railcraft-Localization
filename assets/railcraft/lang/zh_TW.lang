@@ -567,7 +567,7 @@ gui.railcraft.filters=篩選
 
 gui.railcraft.goggles.aura.worldspike=世界釘範圍
 gui.railcraft.goggles.aura.none=停用
-gui.railcraft.goggles.aura.shunting=Shunting
+gui.railcraft.goggles.aura.shunting=調車
 gui.railcraft.goggles.aura.signalling=信號途徑
 gui.railcraft.goggles.aura.surveying=號誌區間
 gui.railcraft.goggles.aura.tracking=移動路徑
@@ -679,7 +679,7 @@ gui.railcraft.routing.type.public=公共鐵路
 
 gui.railcraft.season.none=無
 gui.railcraft.season.christmas=聖誕節
-gui.railcraft.season.halloween=萬聖節
+gui.railcraft.season.halloween=萬聖夜
 
 gui.railcraft.slot.map.valid=有效的物品:
 
@@ -760,8 +760,8 @@ railcraft.locomotive.model.steam.solid.default.name=標準固體
 
 railcraft.multiblock.state.invalid.entity=實體佔住位置: %s
 railcraft.multiblock.state.invalid.pattern=不符合格式: %s
-railcraft.multiblock.state.master.true=This is the master block
-railcraft.multiblock.state.master.false=This is not the master block
+railcraft.multiblock.state.master.true=此為主宰方塊
+railcraft.multiblock.state.master.false=此非主宰方塊
 railcraft.multiblock.state.unknown.unloaded=結構未被完整讀取: %s
 railcraft.multiblock.state.valid=有效的結構
 
