@@ -115,7 +115,7 @@ death.railcraft.train.5=%s 買了一張前往來世的單行票
 death.railcraft.train.6=%s 應該穿上他的工作服
 
 enchantment.railcraft.destruction=破壞
-enchantment.railcraft.implosion=爆裂
+enchantment.railcraft.implosion=內爆
 enchantment.railcraft.smack=助力
 enchantment.railcraft.wrecking=揮擊
 
@@ -649,10 +649,10 @@ gui.railcraft.routing.table.manual.page1=當路由表被放在路由偵測器或
 gui.railcraft.routing.table.manual.page2=運算子關鍵字:\n   AND - 兩個運算元，兩者皆需為「真」\n   OR - 兩個運算元，只有一個需為「真」\n   NOT - 反轉在其之下的運算元\n   IF - 三個運算元: 條件、指令一、指令二\n         如果條件為「真」, 執行指令一;\n         否則執行指令二
 gui.railcraft.routing.table.manual.page3=狀況關鍵字:\n   Dest=<字串>\n      如果火車頭的目的地以此字串\n      開頭，則該狀況回傳「真」\n      "Dest=null" 將偵測未設定\n      目的地的車輛\n   Owner=<玩家名>\n      如果火車頭屬於該玩家的話\n      該狀況會判定為「真」\n
 gui.railcraft.routing.table.manual.page4=狀況關鍵字:\n   Name=<實體名稱>\n      當實體名稱與礦車的名稱相同\n      此狀況便為「真」\n      "Name=null" 將會偵測沒有\n      自定義名稱的礦車\n   Type=<模組ID:物品名稱>\n      若該名稱與礦車的物品相同\n      就會判定此狀況為「真」
-gui.railcraft.routing.table.manual.page5=狀況關鍵字:\n   Rider=<型別>[:<修飾>]\n      若列車承載著相應的乘客，便回傳「真」\n      簡易型別:\n        any(任意), none(無), mob(怪物),\n        animal(動物), unnamed(未命名)\n      支援修飾型別:\n        player(玩家), named(已命名), entity(實體)\n      支援表示式型別:\n        player(玩家), named(已命名)\n\n      範例請見 GitHub Issue #844
-gui.railcraft.routing.table.manual.page6=狀況關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身、底盤顏色與\n      指定顏色相符，該狀況為「真」\n      可用”Any”指定所有顏色\n      顏色: Black(黑), LightGray(淺灰), Gray(灰), Red(紅),\n      Brown(褐), Blue(藍), Purple(紫), Cyan(青), Green(綠),\n      Pink(粉紅), Lime(淺綠), Yellow(黃), LightBlue(淺藍),\n      Magenta(洋紅), Orange(橘), White(白)\n   NeedsRefuel=<true/false>\n      若火車頭缺水或燃料不足\n      將會使其改道
+gui.railcraft.routing.table.manual.page5=狀況關鍵字:\n   Rider=<型別>[:<修飾>]\n      若列車承載著相應的乘客，便回傳「真」\n      簡易型別:\n        any(任意), none(無), mob(怪物),\n        animal(動物), unnamed(未命名)\n      可修飾型別:\n        player(玩家), named(已命名), entity(實體)\n      支援表示式型別:\n        player(玩家), named(已命名)\n\n      範例請見 GitHub Issue #844
+gui.railcraft.routing.table.manual.page6=狀況關鍵字:\n   Color=<車身顏色>,<底盤顏色>\n      如果火車頭的車身、底盤顏色與\n      指定顏色相符，該狀況為「真」\n      可用”Any”指定所有顏色\n      顏色: Black(黑), LightGray(淺灰), Gray(灰), Red(紅),\n      Brown(褐), Blue(藍), Purple(紫), Cyan(青), Green(綠),\n      Pink(粉紅), Lime(淺綠), Yellow(黃), LightBlue(淺藍),\n      Magenta(洋紅), Orange(橙), White(白)\n   NeedsRefuel=<true/false>\n      若火車頭缺水或燃料不足\n      將會使其改道
 gui.railcraft.routing.table.manual.page7=狀況關鍵字:\n   Redstone=<true/false>\n      如果路由方塊正被紅石充能\n      則該狀況為「真」
-gui.railcraft.routing.table.manual.page8=狀況關鍵字:\n   Loco=<字串>\n      若火車頭吻合給予的參數字串，則為「真」\n      接受字串: electric(電力), steam(蒸氣), creative(創造), none(無).\n      參數 none 將只在列車\n      沒有火車頭時傳回「真」
+gui.railcraft.routing.table.manual.page8=狀況關鍵字:\n   Loco=<字串>\n      若火車頭吻合給予的參數字串，則為「真」\n      接受字串:\n        electric(電力), steam(蒸氣),creative(創造), none(無)\n      參數 none 將只在列車\n      沒有火車頭時傳回「真」
 gui.railcraft.routing.table.manual.page9=舉例腳本:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
 gui.railcraft.routing.table.manual.page10=效果:\n   上一頁的例子中將會偵測一台\n   以"TheFarLands/Milliways"為目的地\n   或是被漆成紅色和黑色，抑或是即將\n   開往"SecretHideout/OceanEntrance"的火車頭\n   但是都會忽略屬於RichardG的火車頭
 gui.railcraft.routing.table.manual.page11=正規表達式:\n   某些狀況支援使用正規表達式\n   要使用正規表達式，需要在'='之前加上一個'?'\n   其語法與Java正規表達式相同\n\n支援的關鍵字:\n   Dest, Name\n範例:\n   Dest?=.*Hill
@@ -766,7 +766,7 @@ railcraft.multiblock.state.unknown.unloaded=結構未被完整讀取: %s
 railcraft.multiblock.state.valid=有效的結構
 
 tc.research_category.RAILCRAFT=軌道秘術師
-thaumcraft.research.RC_Crowbar.name=祕術鐵橇
+thaumcraft.research.RC_Crowbar.name=秘術鐵橇
 thaumcraft.research.RC_Crowbar.page.1=藉由秘術取代鋼材、注入其秩序魔力，你終於發現如何創造一個更易於融入魔法的鐵橇
 thaumcraft.research.RC_Crowbar.text=[RC] 我想你掉了東西...
 thaumcraft.research.RC_Crowbar_Void.name=虛無鐵橇
@@ -830,11 +830,11 @@ tile.railcraft.brick.nether.etched.name=蝕刻地獄磚
 tile.railcraft.brick.nether.fitted.name=地獄石磚
 tile.railcraft.brick.nether.ornate.name=浮雕地獄磚
 
-tile.railcraft.brick.red.nether.block.name=赤地獄方塊
-tile.railcraft.brick.red.nether.cobble.name=赤地獄鵝卵石
-tile.railcraft.brick.red.nether.etched.name=蝕刻赤地獄磚
-tile.railcraft.brick.red.nether.fitted.name=赤地獄石磚
-tile.railcraft.brick.red.nether.ornate.name=浮雕赤地獄磚
+tile.railcraft.brick.red.nether.block.name=紅地獄方塊
+tile.railcraft.brick.red.nether.cobble.name=紅地獄鵝卵石
+tile.railcraft.brick.red.nether.etched.name=蝕刻紅地獄磚
+tile.railcraft.brick.red.nether.fitted.name=紅地獄石磚
+tile.railcraft.brick.red.nether.ornate.name=浮雕紅地獄磚
 
 tile.railcraft.brick.quarried.block.name=石料方塊
 tile.railcraft.brick.quarried.brick.name=石料磚
@@ -883,9 +883,9 @@ tile.railcraft.brick.pearlized.fitted.name=終界石磚
 tile.railcraft.brick.pearlized.ornate.name=浮雕終界磚
 
 tile.railcraft.charge.battery.nickel.iron.name=鎳-鐵充電電池
-tile.railcraft.charge.battery.nickel.iron.desc=一顆設計來與 Railcraft 電力網路同用的電池。適用於一般用途。
+tile.railcraft.charge.battery.nickel.iron.desc=設計來與Railcraft電力網路同用的電池。適用於一般用途。
 tile.railcraft.charge.battery.nickel.zinc.name=鎳-鋅充電電池
-tile.railcraft.charge.battery.nickel.zinc.desc=一顆設計來與 Railcraft 電力網路同用的電池。適用於微量輸出、長期儲存。
+tile.railcraft.charge.battery.nickel.zinc.desc=設計來與Railcraft電力網路同用的電池。適用於微量輸出、長期儲存。
 tile.railcraft.charge.battery.tips.capacity=容量: %s c
 tile.railcraft.charge.battery.tips.efficiency=效益: %s%%
 tile.railcraft.charge.battery.tips.maxdraw=最大輸出: %s c/t
@@ -1465,7 +1465,7 @@ track_kit.railcraft.railcraft_one_way.name=單向
 track_kit.railcraft.railcraft_one_way.tips=允許礦車依箭頭方向通過\n§o§9- 以鐵橇點擊改變方向 -
 
 track_kit.railcraft.railcraft_priming.name=引爆
-track_kit.railcraft.railcraft_priming.tips=點燃 TNT 礦車\n 可調節點燃秒數\n§o§9- 以鐵橇點擊改變燃燒秒數 -\n§o§c- 以紅石充能啟動 -
+track_kit.railcraft.railcraft_priming.tips=點燃 TNT 礦車\n可調節點燃秒數\n§o§9- 以鐵橇點擊改變燃燒秒數 -\n§o§c- 以紅石充能啟動 -
 
 track_kit.railcraft.railcraft_routing.name=路由
 track_kit.railcraft.railcraft_routing.tips=設定通過火車頭的車票\n§o§9- 以鐵橇點擊設定車票 -
