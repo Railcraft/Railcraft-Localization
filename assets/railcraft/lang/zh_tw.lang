@@ -29,6 +29,25 @@ command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : 清理礦車
 command.railcraft.railcraft.admin.kill.minecarts.help=刪除當前世界上的所有礦車
 command.railcraft.railcraft.admin.kill.minecarts.format=格式: /%s
 
+command.railcraft.railcraft.crafting.desc=- %s : 配方測試
+command.railcraft.railcraft.crafting.help=測試配方的輸出與效果
+command.railcraft.railcraft.crafting.format=格式: /%s
+
+command.railcraft.railcraft.crafting.blast.furnace.desc=- %s : 測試鼓風爐配方輸出
+command.railcraft.railcraft.crafting.blast.furnace.help=測試個別鼓風爐配方的輸出。輸入為慣用手正拿著的物品
+command.railcraft.railcraft.crafting.blast.furnace.format=格式: /%s
+command.railcraft.railcraft.crafting.blast.furnace.message=在鼓風爐中，輸入物品 %s 的輸出將會是 %s
+
+command.railcraft.railcraft.crafting.blast.furnace.fuel.desc=- %s : 測試鼓風爐燃料數值
+command.railcraft.railcraft.crafting.blast.furnace.fuel.help=測試個別鼓風爐燃料的數值。燃料為慣用手正拿著的物品
+command.railcraft.railcraft.crafting.blast.furnace.fuel.format=格式: /%s
+command.railcraft.railcraft.crafting.blast.furnace.fuel.message=在鼓風爐中，輸入物品 %s 的燃燒時間將會是 %s
+
+command.railcraft.railcraft.crafting.coke.oven.desc=- %s : 測試焦炭爐配方輸出
+command.railcraft.railcraft.crafting.coke.oven.help=測試個別焦炭爐配方的輸出。輸入為慣用手正拿著的物品
+command.railcraft.railcraft.crafting.coke.oven.format=格式: /%s
+command.railcraft.railcraft.crafting.coke.oven.message=在焦炭爐中，輸入物品 %s 的輸出將會是 %s
+
 command.railcraft.railcraft.debug.desc=- %s : 除錯工具
 command.railcraft.railcraft.debug.help=為棘手問題準備的工具
 command.railcraft.railcraft.debug.format=格式: /%s
@@ -124,6 +143,7 @@ entity.railcraft.cart_worldspike_admin.name=管理用世界釘車
 entity.railcraft.cart_worldspike_standard.name=標準世界釘車
 entity.railcraft.cart_worldspike_personal.name=私人世界釘車
 entity.railcraft.cart_basic.name=礦車
+entity.railcraft.cart_bed.name=床鋪車
 entity.railcraft.cart_cargo.name=貨物礦車
 entity.railcraft.cart_chest.name=運輸礦車
 entity.railcraft.cart_furnace.name=動力礦車
@@ -195,7 +215,7 @@ item.railcraft.circuit.controller.name=控制電路
 item.railcraft.circuit.receiver.name=接收電路
 item.railcraft.circuit.signal.name=信號電路
 
-item.railcraft.concrete.name=混凝土袋
+item.railcraft.concrete.name=水泥袋
 
 item.railcraft.dust.charcoal.name=木炭粉
 item.railcraft.dust.coal.name=炭粉
@@ -220,8 +240,10 @@ item.railcraft.entity.cart.worldspike.standard.desc=於讀取世界時載入5x5�
 item.railcraft.entity.cart.worldspike.standard.name=標準世界釘車
 item.railcraft.entity.cart.worldspike.standard.tips=區塊讀取器\n§o§c- 遇觸發鐵軌關閉 -
 item.railcraft.entity.cart.basic.name=礦車
+item.railcraft.entity.cart.bed.name=床鋪車
 item.railcraft.entity.cart.cargo.name=貨物礦車
 item.railcraft.entity.cart.chest.name=運輸礦車
+item.railcraft.entity.cart.void.name=虛無礦車
 item.railcraft.entity.cart.furnace.name=動力礦車
 item.railcraft.entity.cart.gift.name=禮物車
 item.railcraft.entity.cart.gift.tips=聖誕快樂
@@ -416,6 +438,7 @@ item.synthetic=人造
 
 itemGroup.railcraft.general=Railcraft
 itemGroup.railcraft.track=Railcraft 套裝軌道
+itemGroup.railcraft.structure=Railcraft 裝飾方塊
 
 railcraft.color.black=黑色
 railcraft.color.blue=藍色
@@ -496,6 +519,8 @@ gui.railcraft.box.capacitor.rising.tips=收到輸入訊號即開始計時
 gui.railcraft.box.controller.aspect.default=預設信號:
 gui.railcraft.box.controller.aspect.redstone=充能信號:
 
+# Stuff after newline is hidden for hotbar messages
+gui.railcraft.cart.bed.key=按 %1$s 取消乘坐 - 按 %2$s 在晚上入眠
 gui.railcraft.cart.tnt.fuse=導火線
 gui.railcraft.cart.track.relayer.pattern=樣式
 gui.railcraft.cart.track.relayer.stock=存量
@@ -560,6 +585,8 @@ gui.railcraft.engrave.unlock=解鎖!
 gui.railcraft.engrave=雕刻
 
 gui.railcraft.feed.station.feed=飼料
+
+gui.railcraft.force.track.emitter.info=當前存在 %d 個能量軌道
 
 gui.railcraft.filter=篩選
 gui.railcraft.filters.carts=車輛
@@ -748,6 +775,7 @@ railcraft.keybind.aura.worldspike=世界釘效果
 railcraft.keybind.aura.surveying=號誌區間效果
 railcraft.keybind.aura.tuning=號誌調諧效果
 
+keybind.railcraft.cart.bed=床舖車睡覺鍵
 keybind.railcraft.loco.faster=機車加速
 keybind.railcraft.loco.mode=機車模式
 keybind.railcraft.loco.reverse=機車反轉
@@ -925,26 +953,47 @@ tile.railcraft.fluid.steam.name=蒸氣
 tile.railcraft.frame.name=導線支撐框架
 tile.railcraft.frame.tips=用來將軌道放在分流導線上
 
-tile.railcraft.generic_brass.name=黃銅磚
-tile.railcraft.generic_bronze.name=青銅磚
 tile.railcraft.generic_coke.name=焦炭磚
 tile.railcraft.generic_coke.tips=32,000個燃料單位
-tile.railcraft.generic_concrete.name=混凝土塊
-tile.railcraft.generic_copper.name=銅磚
 tile.railcraft.generic_creosote.name=雜酚油木塊
 tile.railcraft.generic_crushed_obsidian.name=碎裂黑曜石
 tile.railcraft.generic_crushed_obsidian.tips=防止怪物生成
-tile.railcraft.generic_invar.name=殷鋼磚
-tile.railcraft.generic_lead.name=鉛磚
-tile.railcraft.generic_nickel.name=鎳磚
-tile.railcraft.generic_silver.name=銀磚
-tile.railcraft.generic_steel.name=鋼鐵磚
 tile.railcraft.generic_stone_abyssal.name=深淵石
 tile.railcraft.generic_stone_quarried.name=石料
-tile.railcraft.generic_tin.name=錫磚
-tile.railcraft.generic_zinc.name=鋅磚
 
-tile.railcraft.glass.name=強化玻璃
+tile.railcraft.glass.black.name=黑色強化玻璃
+tile.railcraft.glass.red.name=紅色強化玻璃
+tile.railcraft.glass.green.name=綠色強化玻璃
+tile.railcraft.glass.brown.name=棕色強化玻璃
+tile.railcraft.glass.blue.name=藍色強化玻璃
+tile.railcraft.glass.purple.name=紫色強化玻璃
+tile.railcraft.glass.cyan.name=青色強化玻璃
+tile.railcraft.glass.silver.name=淺灰色強化玻璃
+tile.railcraft.glass.gray.name=灰色強化玻璃
+tile.railcraft.glass.pink.name=粉紅色強化玻璃
+tile.railcraft.glass.lime.name=淺綠色強化玻璃
+tile.railcraft.glass.yellow.name=黃色強化玻璃
+tile.railcraft.glass.lightBlue.name=淺藍色強化玻璃
+tile.railcraft.glass.magenta.name=洋紅色強化玻璃
+tile.railcraft.glass.orange.name=橙色強化玻璃
+tile.railcraft.glass.white.name=強化玻璃
+
+tile.railcraft.reinforced.concrete.black.name=黑色鋼筋混凝土
+tile.railcraft.reinforced.concrete.red.name=紅色鋼筋混凝土
+tile.railcraft.reinforced.concrete.green.name=綠色鋼筋混凝土
+tile.railcraft.reinforced.concrete.brown.name=棕色鋼筋混凝土
+tile.railcraft.reinforced.concrete.blue.name=藍色鋼筋混凝土
+tile.railcraft.reinforced.concrete.purple.name=紫色鋼筋混凝土
+tile.railcraft.reinforced.concrete.cyan.name=青色鋼筋混凝土
+tile.railcraft.reinforced.concrete.light.gray.name=鋼筋混凝土
+tile.railcraft.reinforced.concrete.gray.name=灰色鋼筋混凝土
+tile.railcraft.reinforced.concrete.pink.name=粉紅色鋼筋混凝土
+tile.railcraft.reinforced.concrete.lime.name=淺綠色鋼筋混凝土
+tile.railcraft.reinforced.concrete.yellow.name=黃色鋼筋混凝土
+tile.railcraft.reinforced.concrete.lightBlue.name=淺藍色鋼筋混凝土
+tile.railcraft.reinforced.concrete.magenta.name=洋紅色鋼筋混凝土
+tile.railcraft.reinforced.concrete.orange.name=橙色鋼筋混凝土
+tile.railcraft.reinforced.concrete.white.name=白色鋼筋混凝土
 
 tile.railcraft.lantern.metal.copper.name=銅製燈
 tile.railcraft.lantern.metal.gold.name=黃金製燈
@@ -967,6 +1016,17 @@ tile.railcraft.lantern.stone.stone.name=石燈
 tile.railcraft.logbook.name=拜訪日誌
 tile.railcraft.logbook.desc=拜訪日誌紀錄著任何通過周圍半徑16格內的玩家，以及他們路過的日期。它僅能夠被擁有者破壞。
 tile.railcraft.logbook.tips=紀錄拜訪者
+
+tile.railcraft.metal_brass.name=黃銅磚
+tile.railcraft.metal_bronze.name=青銅磚
+tile.railcraft.metal_tin.name=錫磚
+tile.railcraft.metal_zinc.name=鋅磚
+tile.railcraft.metal_invar.name=殷鋼磚
+tile.railcraft.metal_lead.name=鉛磚
+tile.railcraft.metal_nickel.name=鎳磚
+tile.railcraft.metal_silver.name=銀磚
+tile.railcraft.metal_steel.name=鋼鐵磚
+tile.railcraft.metal_copper.name=銅磚
 
 tile.railcraft.blast.furnace.name=鼓風爐磚
 tile.railcraft.blast.furnace.tips=多重方塊: 3x4x3 (中空)
@@ -1256,6 +1316,7 @@ tile.railcraft.stair.tin.name=錫階梯
 tile.railcraft.wire.name=電力分流導線
 tile.railcraft.wire.tips=近距離的電力輸送\n 放置於使用支撐框架的軌道下\n 高損耗
 
+#Old Tracks (to be deleted)
 tile.railcraft.track.buffer.stop.name=止衝鐵軌
 tile.railcraft.track.buffer.stop.tips=鐵路的終點\n§o§9- 以鐵橇點擊改變方向 -
 tile.railcraft.track.control.name=控制鐵軌
@@ -1335,6 +1396,7 @@ tile.railcraft.track.wye.name=Ｙ型鐵軌
 tile.railcraft.track.wye.tips=§o§c- 以轉轍器控制方向 -
 tile.railcraft.track.autolococoupler.name=自動車頭連結鐵軌
 tile.railcraft.track.autolococoupler.tips=設定經過的火車頭連結第一個\n之後碰撞的車輛，並自動\n切換到調車速度\n§o§c- 以紅石充能啟動 -
+#end old tracks
 
 tile.railcraft.wall.abyssal.brick.name=深淵磚牆
 tile.railcraft.wall.bleachedbone.brick.name=白骨磚牆
@@ -1383,6 +1445,10 @@ tile.railcraft.worldspike.point.tips=延伸世界釘的區塊讀取區域\n§o§
 tooltip.wawla.tooltype.crowbar=鐵橇
 
 
+######################################################################################
+#   Flex Tracks
+######################################################################################
+
 tile.railcraft.track.flex.abandoned.name=廢棄鐵軌
 tile.railcraft.track.flex.abandoned.tips=§9危險: 潛在出軌可能\n可懸掛於鴻溝之上
 
@@ -1402,8 +1468,17 @@ tile.railcraft.track.flex.strap.iron.name=鍍鐵鐵軌
 tile.railcraft.track.flex.strap.iron.tips=鐵製軌道的30%速度
 
 
-# item.railcraft.track_kit.railcraft_activator.name=null
-# tile.railcraft.track_outfitted.railcraft_strap_iron.railcraft_activator.name=null
+######################################################################################
+#   Track Kits & Outfitted Tracks
+# --------------------------------------------
+#
+# If you wish finer control of the translation, you can use override tags as seen below.
+#
+# Override Tags:
+# item.railcraft.track_kit.railcraft_activator.name=Activator Track Kit
+# tile.railcraft.track_outfitted.railcraft_strap_iron.railcraft_activator.name=Strap Iron Activator Track
+#
+######################################################################################
 
 item.railcraft.track_kit.name={track_kit}軌道套件
 tile.railcraft.track_outfitted.name={track_type}{track_kit}鐵軌
@@ -1488,5 +1563,6 @@ track_type.railcraft.railcraft_high_speed.name=高速
 track_type.railcraft.railcraft_high_speed_electric.name=高速導電
 track_type.railcraft.railcraft_electric.name=導電
 
+# remove these at some future point
 forestry.allele.true=Yes
 forestry.allele.false=No
