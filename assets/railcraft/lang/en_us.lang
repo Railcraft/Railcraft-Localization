@@ -634,6 +634,7 @@ gui.railcraft.locomotive.tips.slot.ticket=Insert Ticket
 
 gui.railcraft.mag.glass.aspect.dual=The signal aspect is %1$s at top and %2$s at bottom
 gui.railcraft.mag.glass.aspect=The signal aspect is %s
+gui.railcraft.mag.glass.cart.number=Next cart number: %d
 gui.railcraft.mag.glass.placedby=%1$s was placed by %2$s
 
 gui.railcraft.manipulator.buffer=Buffer
