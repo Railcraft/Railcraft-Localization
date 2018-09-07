@@ -1,3 +1,10 @@
+advancements.railcraft.carts.link_carts.name=Linking carts
+advancements.railcraft.carts.link_carts.desc=Right click two carts close to each other while sneaking
+advancements.railcraft.carts.root.name=Carts
+advancements.railcraft.carts.root.desc=Vehicles and magic from Railcraft
+advancements.railcraft.tracks.root.name=Tracks
+advancements.railcraft.tracks.root.desc=What Railcraft is dedicated to
+
 chat.railcraft.api.error=Error: Outdated API, please check your log for more info.
 
 command.railcraft.aliases=Aliases: %s
