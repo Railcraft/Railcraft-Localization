@@ -130,7 +130,7 @@ tile.railcraft.turbine.name=蒸気タービンハウジング
 tile.railcraft.worldspike.standard.name=ワールドアンカー
 
 tile.railcraft.worldspike.point.name=アンカーセンチネル
-tile.railcraft.boiler.firebox.liquid.name=液体燃料用の火室
+tile.railcraft.boiler.firebox.fluid.name=液体燃料用の火室
 tile.railcraft.boiler.firebox.solid.name=固体燃料用の火室
 tile.railcraft.boiler.tank.pressure.high.name=高圧用のボイラー
 tile.railcraft.boiler.tank.pressure.low.name=低圧用のボイラー

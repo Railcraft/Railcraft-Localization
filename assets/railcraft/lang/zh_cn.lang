@@ -990,8 +990,8 @@ tile.railcraft.trade.station.name=贸易站
 tile.railcraft.turbine.name=蒸汽涡轮机壳
 tile.railcraft.turbine.tips=多方块结构：3x2x2\n用蒸汽发电\n从底部输出水\n需要一个涡轮机转子
 
-tile.railcraft.boiler.firebox.liquid.name=液态燃料燃烧室
-tile.railcraft.boiler.firebox.liquid.tips=多方块结构：尺寸可变\n底座规格可选：1x1, 2x2, 3x3
+tile.railcraft.boiler.firebox.fluid.name=流体燃料燃烧室
+tile.railcraft.boiler.firebox.fluid.tips=多方块结构：尺寸可变\n底座规格可选：1x1, 2x2, 3x3
 tile.railcraft.boiler.firebox.solid.name=固态燃料燃烧室
 tile.railcraft.boiler.firebox.solid.tips=多方块结构：尺寸可变\n底座规格可选：1x1, 2x2, 3x3
 tile.railcraft.boiler.tank.pressure.high.name=高压锅炉

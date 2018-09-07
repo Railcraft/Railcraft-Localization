@@ -598,8 +598,8 @@ tile.railcraft.turbine.name=Cubierta para Turbina a Vapor
 tile.railcraft.turbine.tips=Multi-Bloque: 3x2x2
 
 tile.railcraft.worldspike.point.name=Ancla Centinela
-tile.railcraft.boiler.firebox.liquid.name=Caldera de Combustión a Líquidos
-tile.railcraft.boiler.firebox.liquid.tips=Multi-Bloque: Tamaño Variable, Capa Inferior\n Dimensiones: 1x1, 2x2, 3x3
+tile.railcraft.boiler.firebox.fluid.name=Caldera de Combustión a Líquidos
+tile.railcraft.boiler.firebox.fluid.tips=Multi-Bloque: Tamaño Variable, Capa Inferior\n Dimensiones: 1x1, 2x2, 3x3
 tile.railcraft.boiler.firebox.solid.name=Caldera de Combustión
 tile.railcraft.boiler.firebox.solid.tips=Multi-Bloque: Tamaño Variable, Capa Inferior\n Dimensiones: 1x1, 2x2, 3x3
 tile.railcraft.boiler.tank.pressure.high.name=Placa para Caldera de Alta Presión

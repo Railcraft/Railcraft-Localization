@@ -800,8 +800,8 @@ tile.railcraft.turbine.name=stoomturbine Behuising
 tile.railcraft.turbine.tips=Multi-Blok: 3x2x2 \ N elektrisiteit opwek uit stoom \ nOutputs water aan die onderkant \ N Vereis 'n turbine rotor
 
 tile.railcraft.worldspike.point.name=Anker Sentinel
-tile.railcraft.boiler.firebox.liquid.name=vloeibare brandstof aangedrewe ketel Firebox
-tile.railcraft.boiler.firebox.liquid.tips=Multi-Blok Veranderlike grootte, Bottom Layer \ N Dimensies: 1x1, 2x2, 3x3
+tile.railcraft.boiler.firebox.fluid.name=vloeibare brandstof aangedrewe ketel Firebox
+tile.railcraft.boiler.firebox.fluid.tips=Multi-Blok Veranderlike grootte, Bottom Layer \ N Dimensies: 1x1, 2x2, 3x3
 tile.railcraft.boiler.firebox.solid.name=Solid aangevuur Boiler Firebox
 tile.railcraft.boiler.firebox.solid.tips=Multi-Blok Veranderlike grootte, Bottom Layer \ N Dimensies: 1x1, 2x2, 3x3
 tile.railcraft.boiler.tank.pressure.high.name=High druk ketel Tank

@@ -128,7 +128,7 @@ tile.railcraft.turbine.name=Central da Turbina a Vapor
 tile.railcraft.worldspike.standard.name=Ancorador
 
 tile.railcraft.worldspike.point.name=Ancorador Sentinela
-tile.railcraft.boiler.firebox.liquid.name=Caldeira de Líquidos
+tile.railcraft.boiler.firebox.fluid.name=Caldeira de Líquidos
 tile.railcraft.boiler.firebox.solid.name=Caldeira
 tile.railcraft.boiler.tank.pressure.high.name=Chapa de Alta-Pressão
 tile.railcraft.boiler.tank.pressure.low.name=Chapa de Baixa-Pressão

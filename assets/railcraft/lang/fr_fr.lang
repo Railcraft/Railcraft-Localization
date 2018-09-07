@@ -390,7 +390,7 @@ gui.railcraft.tank.steel=Réservoir d'acier
 gui.railcraft.tank.water=Réservoir d'eau
 gui.railcraft.ticks=tics
 tile.railcraft.blast.furnace.tips=Multi-Bloc: 3x4x3 (creux)
-tile.railcraft.boiler.firebox.liquid.tips=Multi-Bloc: Taille variable
+tile.railcraft.boiler.firebox.fluid.tips=Multi-Bloc: Taille variable
 tile.railcraft.boiler.firebox.solid.tips=Multi-Bloc: Taille variable
 tile.railcraft.boiler.tank.pressure.high.tips=Multi-Bloc: Taille variable
 tile.railcraft.boiler.tank.pressure.low.tips=Multi-Bloc: Taille variable
@@ -464,7 +464,7 @@ tile.railcraft.trade.station.name=Station de commerce
 tile.railcraft.turbine.name=Emplacement pour turbine à vapeur
 
 tile.railcraft.worldspike.point.name=Ancre sentinel
-tile.railcraft.boiler.firebox.liquid.name=Chambre à combustible liquide
+tile.railcraft.boiler.firebox.fluid.name=Chambre à combustible liquide
 tile.railcraft.boiler.firebox.solid.name=Chambre à combustible solide
 tile.railcraft.boiler.tank.pressure.high.name=Chaudière à haute pression
 tile.railcraft.boiler.tank.pressure.low.name=Chaudière à basse pression

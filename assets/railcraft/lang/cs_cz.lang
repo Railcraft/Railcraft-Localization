@@ -702,8 +702,8 @@ tile.railcraft.turbine.name=Kryt parní turbíny
 tile.railcraft.turbine.tips=-Steam Turbine Housing-\n Multi-blok: 3x2x2\n Generuje elektřinu z páry\n Výstupní materiál je voda\n Vyžaduje Rotor turbíny
 
 tile.railcraft.worldspike.point.name=Strážní kotva
-tile.railcraft.boiler.firebox.liquid.name=Hořák boileru na tekuté palivo
-tile.railcraft.boiler.firebox.liquid.tips=-Liquid Fueled Boiler Firebox-\n Multi-blok: Různé velikosti, spodní vrstva\n Rozměry: 1x1, 2x2, 3x3
+tile.railcraft.boiler.firebox.fluid.name=Hořák boileru na tekuté palivo
+tile.railcraft.boiler.firebox.fluid.tips=-Liquid Fueled Boiler Firebox-\n Multi-blok: Různé velikosti, spodní vrstva\n Rozměry: 1x1, 2x2, 3x3
 tile.railcraft.boiler.firebox.solid.name=Hořák boileru na pevné palivo
 tile.railcraft.boiler.firebox.solid.tips=-Solid Fueled Boiler Firebox-\n Multi-blok: Různé velikosti, spodní vrstva\n Rozměry: 1x1, 2x2, 3x3
 tile.railcraft.boiler.tank.pressure.high.name=Vysokotlaká nádrž boileru

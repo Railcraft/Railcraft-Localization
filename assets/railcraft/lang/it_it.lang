@@ -305,7 +305,7 @@ gui.railcraft.tank.steel=Tanica di Acciaio
 gui.railcraft.tank.water=Tanica d'Acqua
 gui.railcraft.ticks=ticks
 tile.railcraft.blast.furnace.tips=Multi-Blocco: 3x4x3 (Vuoto)
-tile.railcraft.boiler.firebox.liquid.tips=Multi-Blocco: Grandezza variabile, Ultimo livello\n Dimensioni: 1x1, 2x2, 3x3
+tile.railcraft.boiler.firebox.fluid.tips=Multi-Blocco: Grandezza variabile, Ultimo livello\n Dimensioni: 1x1, 2x2, 3x3
 tile.railcraft.boiler.firebox.solid.tips=Multi-Blocco: Grandezza variabile, Ultimo livello\n Dimensioni: 1x1, 2x2, 3x3
 tile.railcraft.boiler.tank.pressure.high.tips=Multi-Blocco: Grandezza variabile, Sopra Camera a combustibile\n Dimensioni: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3
 tile.railcraft.boiler.tank.pressure.low.tips=Multi-Blocco: Grandezza variabile, Sopra Camera a combustibile\n Dimensioni: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3
@@ -367,7 +367,7 @@ tile.railcraft.tank.water.name=Rivestimento per la tanica dell'Acqua
 tile.railcraft.turbine.name=Alloggio per la turbina a Vapore
 
 tile.railcraft.worldspike.point.name=Ancora sentinella
-tile.railcraft.boiler.firebox.liquid.name=Camera a combustibile liquido
+tile.railcraft.boiler.firebox.fluid.name=Camera a combustibile liquido
 tile.railcraft.boiler.firebox.solid.name=Camera a combustibile solido
 tile.railcraft.boiler.tank.pressure.high.name=Bollitore ad alta pressione
 tile.railcraft.boiler.tank.pressure.low.name=Bollitore a bassa pressione

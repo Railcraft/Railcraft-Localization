@@ -224,7 +224,7 @@ tile.railcraft.turbine.name=Obudowa Turbiny Parowej
 tile.railcraft.worldspike.standard.name=Kotwica Swiata
 
 tile.railcraft.worldspike.point.name=Słup Kotwica
-tile.railcraft.boiler.firebox.liquid.name=Palenisko Na Płyn
+tile.railcraft.boiler.firebox.fluid.name=Palenisko Na Płyn
 tile.railcraft.boiler.firebox.solid.name=Palenisko Na Paliwo Stałe
 tile.railcraft.boiler.tank.pressure.high.name=Bojler Wysokociśnieniowy
 tile.railcraft.boiler.tank.pressure.low.name=Bojler Niskociśnieniowy

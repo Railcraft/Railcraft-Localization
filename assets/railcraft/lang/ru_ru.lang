@@ -972,8 +972,8 @@ tile.railcraft.trade.station.name=Торговая станция
 tile.railcraft.turbine.name=Корпус паровой турбины
 tile.railcraft.turbine.tip=Мульти-блок: 3x2x2\n Генерирует электричество из пара\nВыводит воду вниз\n Требуется ротор турбины
 
-tile.railcraft.boiler.firebox.liquid.name=Жидкотопливная камера сгорания
-tile.railcraft.boiler.firebox.liquid.tip=Мульти-блок: Переменный размер, нижний слой\n Размеры: 1x1, 2x2, 3x3
+tile.railcraft.boiler.firebox.fluid.name=Жидкотопливная камера сгорания
+tile.railcraft.boiler.firebox.fluid.tip=Мульти-блок: Переменный размер, нижний слой\n Размеры: 1x1, 2x2, 3x3
 tile.railcraft.boiler.firebox.solid.name=Твёрдотопливная камера сгорания
 tile.railcraft.boiler.firebox.solid.tip=Мульти-блок: Переменный размер, нижний слой\n Размеры: 1x1, 2x2, 3x3
 tile.railcraft.boiler.tank.pressure.high.name=Котёл высокого давления

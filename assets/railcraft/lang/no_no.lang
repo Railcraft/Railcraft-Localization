@@ -386,7 +386,7 @@ gui.railcraft.tank.steel=Ståltank
 gui.railcraft.tank.water=Vanntank
 gui.railcraft.ticks=ticks
 tile.railcraft.blast.furnace.tips=Multi-Blokk: 3x4x3 (hul)
-tile.railcraft.boiler.firebox.liquid.tips=Multi-Blokk: Variabel størrelse, Bottom Layer\n Dimensions: 1x1, 2x2, 3x3
+tile.railcraft.boiler.firebox.fluid.tips=Multi-Blokk: Variabel størrelse, Bottom Layer\n Dimensions: 1x1, 2x2, 3x3
 tile.railcraft.boiler.firebox.solid.tips=Multi-Blokk: Variabel størrelse, Bottom Layer\n Dimensions: 1x1, 2x2, 3x3
 tile.railcraft.boiler.tank.pressure.high.tips=Multi-Blokk: Variabel størrelse, Above Firebox\n Dimensions: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Produces 20 mB of Steam per tick
 tile.railcraft.boiler.tank.pressure.low.tips=Multi-Blokk: Variabel størrelse, Above Firebox\n Dimensions: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Produces 10 mB of Steam per tick
@@ -448,7 +448,7 @@ tile.railcraft.tank.water.name=Vanntankvegg
 tile.railcraft.turbine.name=Dampturbinhus
 
 tile.railcraft.worldspike.point.name=Ankervokter
-tile.railcraft.boiler.firebox.liquid.name=Væskedrevet kjele
+tile.railcraft.boiler.firebox.fluid.name=Væskedrevet kjele
 tile.railcraft.boiler.firebox.solid.name=Solid brensels kjele
 tile.railcraft.boiler.tank.pressure.high.name=Høytrykkskoker
 tile.railcraft.boiler.tank.pressure.low.name=Lavstrykkskoker

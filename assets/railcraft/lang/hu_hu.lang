@@ -662,8 +662,8 @@ tile.railcraft.turbine.name=Steam Turbine Housing
 tile.railcraft.turbine.tips=Multi-Block: 3x2x2\n Generates Electricity from Steam\nOutputs water to the bottom\n Requires a Turbine Rotor
 
 tile.railcraft.worldspike.point.name=Anchor Sentinel
-tile.railcraft.boiler.firebox.liquid.name=Liquid Fueled Boiler Firebox
-tile.railcraft.boiler.firebox.liquid.tips=Multi-Block: Variable Size, Bottom Layer\n Dimensions: 1x1, 2x2, 3x3
+tile.railcraft.boiler.firebox.fluid.name=Liquid Fueled Boiler Firebox
+tile.railcraft.boiler.firebox.fluid.tips=Multi-Block: Variable Size, Bottom Layer\n Dimensions: 1x1, 2x2, 3x3
 tile.railcraft.boiler.firebox.solid.name=Solid Fueled Boiler Firebox
 tile.railcraft.boiler.firebox.solid.tips=Multi-Block: Variable Size, Bottom Layer\n Dimensions: 1x1, 2x2, 3x3
 tile.railcraft.boiler.tank.pressure.high.name=High Pressure Boiler Tank

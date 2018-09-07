@@ -122,7 +122,7 @@ tile.railcraft.equipment.rolling.powered.name=Máquina Roladora
 tile.railcraft.tank.water.name=Parede do Tanque de Água
 tile.railcraft.worldspike.standard.name=Âncora Mundial
 
-tile.railcraft.boiler.firebox.liquid.name=Forno para Liquidos
+tile.railcraft.boiler.firebox.fluid.name=Forno para Liquidos
 tile.railcraft.boiler.firebox.solid.name=Forno para Sólidos
 tile.railcraft.boiler.tank.pressure.high.name=Caldeira de Alta Pressão
 tile.railcraft.boiler.tank.pressure.low.name=Caldeira de Baixa Pressão

@@ -215,7 +215,7 @@ gui.railcraft.tank.iron=Gvozdeni Rezervoar
 gui.railcraft.tank.water=Rezervoar Vode
 gui.railcraft.ticks=otkucaja
 tile.railcraft.blast.furnace.tips=Multi-Blok: 3x4x3 (Šuplje)
-tile.railcraft.boiler.firebox.liquid.tips=Multi-Blok: Promjenjiva Veličina
+tile.railcraft.boiler.firebox.fluid.tips=Multi-Blok: Promjenjiva Veličina
 tile.railcraft.boiler.firebox.solid.tips=Multi-Blok: Promjenjiva Veličina
 tile.railcraft.boiler.tank.pressure.high.tips=Multi-Blok: Promjenjiva Veličina
 tile.railcraft.boiler.tank.pressure.low.tips=Multi-Blok: Promjenjiva Veličina
@@ -269,7 +269,7 @@ tile.railcraft.tank.water.name=Zid Vodenog Rezervoara
 tile.railcraft.turbine.name=Kućište Parne Turbine
 
 tile.railcraft.worldspike.point.name=Stražar Sidra
-tile.railcraft.boiler.firebox.liquid.name=Ložište na Likvidno Gorivo
+tile.railcraft.boiler.firebox.fluid.name=Ložište na Likvidno Gorivo
 tile.railcraft.boiler.firebox.solid.name=Ložište na Solidno Gorivo
 tile.railcraft.boiler.tank.pressure.high.name=Kotao Visokog Pritiska
 tile.railcraft.boiler.tank.pressure.low.name=Kotao Niskog Pritiska

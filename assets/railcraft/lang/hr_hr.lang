@@ -210,7 +210,7 @@ gui.railcraft.tank.iron=Željezni Spremnik
 gui.railcraft.tank.water=Spremnik za Vodu
 gui.railcraft.ticks=tikovi
 tile.railcraft.blast.furnace.tips=Više-Bločna Struktura: 3x4x3 (Šuplje)
-tile.railcraft.boiler.firebox.liquid.tips=Više-Bločna Struktura: Promjenjiva Veličina
+tile.railcraft.boiler.firebox.fluid.tips=Više-Bločna Struktura: Promjenjiva Veličina
 tile.railcraft.boiler.firebox.solid.tips=Više-Bločna Struktura: Promjenjiva Veličina
 tile.railcraft.boiler.tank.pressure.high.tips=Više-Bločna Struktura: Promjenjiva Veličina
 tile.railcraft.boiler.tank.pressure.low.tips=Više-Bločna Struktura: Promjenjiva Veličina
@@ -264,7 +264,7 @@ tile.railcraft.tank.water.name=Kućište Spremnika za Vodu
 tile.railcraft.turbine.name=Kućište Parne Turbine
 
 tile.railcraft.worldspike.point.name=Sidreni Stražar
-tile.railcraft.boiler.firebox.liquid.name=Ložište na Tekuće Gorivom
+tile.railcraft.boiler.firebox.fluid.name=Ložište na Tekuće Gorivom
 tile.railcraft.boiler.firebox.solid.name=Ložište na Kruto Gorivom
 tile.railcraft.boiler.tank.pressure.high.name=Bojler Visokog Pritiska
 tile.railcraft.boiler.tank.pressure.low.name=Bojler Niskog Pritiska

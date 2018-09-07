@@ -213,7 +213,7 @@ tile.railcraft.turbine.name=Stoomturbine Compartiment
 tile.railcraft.worldspike.standard.name=Wereldanker
 
 tile.railcraft.worldspike.point.name=Wereldanker Bewaker
-tile.railcraft.boiler.firebox.liquid.name=Vloeistof Gedreven Boiler
+tile.railcraft.boiler.firebox.fluid.name=Vloeistof Gedreven Boiler
 tile.railcraft.boiler.firebox.solid.name=Brandstof Gedreven Boiler
 tile.railcraft.boiler.tank.pressure.high.name=Hoge Druk Boiler
 tile.railcraft.boiler.tank.pressure.low.name=Lage Druk Boiler
