@@ -611,9 +611,9 @@ gui.railcraft.tuner.start =% s begin paring met 'n ontvanger
 gui.railcraft.tuner.stop% s=Gestop paring met 'n ontvanger
 gui.railcraft.tuner.success =% 1 $ s suksesvol saam met 2 $ s%
 
-gui.railcraft.turbine.output=Uitset:% s %%
-gui.railcraft.turbine.rotor=Rotor:
-gui.railcraft.turbine=stoomturbine
+gui.railcraft.steam.turbine.output=Uitset:% s %%
+gui.railcraft.steam.turbine.rotor=Rotor:
+gui.railcraft.steam.turbine=stoomturbine
 
 gui.railcraft.update.message=Railcraft% s is beskikbaar by <http://railcraft.info>
 
@@ -796,8 +796,8 @@ tile.railcraft.steam.trap.name=Handleiding stoom lokval
 tile.railcraft.tank.water.name=Water Tank Siding
 tile.railcraft.tank.water.tips=Multi-Blok: 3x3x3 (hol)
 tile.railcraft.trade.station.name=Handel Stasie
-tile.railcraft.turbine.name=stoomturbine Behuising
-tile.railcraft.turbine.tips=Multi-Blok: 3x2x2 \ N elektrisiteit opwek uit stoom \ nOutputs water aan die onderkant \ N Vereis 'n turbine rotor
+tile.railcraft.steam.turbine.name=stoomturbine Behuising
+tile.railcraft.steam.turbine.tips=Multi-Blok: 3x2x2 \ N elektrisiteit opwek uit stoom \ nOutputs water aan die onderkant \ N Vereis 'n turbine rotor
 
 tile.railcraft.worldspike.point.name=Anker Sentinel
 tile.railcraft.boiler.firebox.fluid.name=vloeibare brandstof aangedrewe ketel Firebox

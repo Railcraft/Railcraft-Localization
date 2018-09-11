@@ -228,7 +228,7 @@ tile.railcraft.tank.iron.gauge.tips=Multi-Blok: Promjenjiva Veličina
 tile.railcraft.tank.iron.valve.tips=Multi-Blok: Promjenjiva Veličina
 tile.railcraft.tank.iron.wall.tips=Multi-Block: Promjenjiva Veličina
 tile.railcraft.tank.water.tips=Multi-Block: 3x3x3 (Šuplje)
-tile.railcraft.turbine.tips=Multi-Blok: 3x2x2
+tile.railcraft.steam.turbine.tips=Multi-Blok: 3x2x2
 gui.railcraft.track.embarking.radius=Radius
 gui.railcraft.track.priming.fuse=Fuse = %s otkucaja
 gui.railcraft.tuner.start=Započeto vezivanje %s sa Primalcem
@@ -236,9 +236,9 @@ gui.railcraft.tuner.stop=Zaustavljeno vezivanje %s sa Primalcem
 gui.railcraft.tuner.success=%1$s uspesno vezan za %2$s
 gui.railcraft.tuner.abandon.chunk=Kontroler nije u učitanom čanku, napuštam vezu
 gui.railcraft.tuner.abandon.gone=Kontroler više ne postoji, napušatm vezu
-gui.railcraft.turbine=Parna Turbina
-gui.railcraft.turbine.output=Izlaz: %s%%
-gui.railcraft.turbine.rotor=Rotor:
+gui.railcraft.steam.turbine=Parna Turbina
+gui.railcraft.steam.turbine.output=Izlaz: %s%%
+gui.railcraft.steam.turbine.rotor=Rotor:
 
 item.railcraft.upgrade.lapotron=Lapotron Poboljšanje za Utorivač
 
@@ -266,7 +266,7 @@ tile.railcraft.equipment.rolling.powered.name=Mašina za Proizvodnju Šina
 tile.railcraft.equipment.smoker.name=Smoker
 tile.railcraft.steam.oven.name=Parna Peć
 tile.railcraft.tank.water.name=Zid Vodenog Rezervoara
-tile.railcraft.turbine.name=Kućište Parne Turbine
+tile.railcraft.steam.turbine.name=Kućište Parne Turbine
 
 tile.railcraft.worldspike.point.name=Stražar Sidra
 tile.railcraft.boiler.firebox.fluid.name=Ložište na Likvidno Gorivo

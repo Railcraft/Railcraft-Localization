@@ -183,9 +183,9 @@ gui.railcraft.tuner.stop=Koppeling van %s met het ontvanger gestopt
 gui.railcraft.tuner.success=%1$s succesvol gekoppeld met %2$s
 gui.railcraft.tuner.abandon.chunk=Controller is niet in een geladen werelddeel, koppeling gestopt
 gui.railcraft.tuner.abandon.gone=Controller bestaat niet meer, koppeling gestopt
-gui.railcraft.turbine=Stoomturbine
-gui.railcraft.turbine.output=Output: %s%%
-gui.railcraft.turbine.rotor=Rotor:
+gui.railcraft.steam.turbine=Stoomturbine
+gui.railcraft.steam.turbine.output=Output: %s%%
+gui.railcraft.steam.turbine.rotor=Rotor:
 
 item.railcraft.upgrade.lapotron=Lapotron Lader Upgrade
 
@@ -209,7 +209,7 @@ tile.railcraft.worldspike.personal.name=Persoonlijk wereldanker
 tile.railcraft.rock.crusher.name=Stenen Pers
 tile.railcraft.equipment.rolling.powered.name=Rollermachine
 tile.railcraft.tank.water.name=Watertank Versterking
-tile.railcraft.turbine.name=Stoomturbine Compartiment
+tile.railcraft.steam.turbine.name=Stoomturbine Compartiment
 tile.railcraft.worldspike.standard.name=Wereldanker
 
 tile.railcraft.worldspike.point.name=Wereldanker Bewaker

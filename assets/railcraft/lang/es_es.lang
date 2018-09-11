@@ -498,9 +498,9 @@ gui.railcraft.tuner.start=Empezó a acoplar %s con un Receptor
 gui.railcraft.tuner.stop=Dejó de acoplar %s con un Receptor
 gui.railcraft.tuner.success=%1$s acoplado con éxito con %2$s
 
-gui.railcraft.turbine.output=Salida: %s%%
-gui.railcraft.turbine.rotor=Rotor:
-gui.railcraft.turbine=Turbina a Vapor
+gui.railcraft.steam.turbine.output=Salida: %s%%
+gui.railcraft.steam.turbine.rotor=Rotor:
+gui.railcraft.steam.turbine=Turbina a Vapor
 
 railcraft.keybind.aura.worldspike=Aura de Anclaje
 railcraft.keybind.aura.tuning=Sintonizador de Aura
@@ -652,8 +652,8 @@ tile.railcraft.steam.trap.name=Deshumidificador Manual
 tile.railcraft.tank.water.name=Revestimiento para Tanque de Agua
 tile.railcraft.tank.water.tips=Multi-Bloque: 3x3x3 (Hueco)
 tile.railcraft.trade.station.name=Estación de Comercio
-tile.railcraft.turbine.name=Cubierta para Turbina a Vapor
-tile.railcraft.turbine.tips=Multi-Bloque: 3x2x2\n Genera electricidad con vapor\n Vierte agua por el fondo\n Requiere un Rotor de Turbina
+tile.railcraft.steam.turbine.name=Cubierta para Turbina a Vapor
+tile.railcraft.steam.turbine.tips=Multi-Bloque: 3x2x2\n Genera electricidad con vapor\n Vierte agua por el fondo\n Requiere un Rotor de Turbina
 
 tile.railcraft.worldspike.point.name=Ancla Centinela
 tile.railcraft.boiler.firebox.fluid.name=Caldera de Combustión - Líquidos

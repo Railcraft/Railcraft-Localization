@@ -806,9 +806,9 @@ gui.railcraft.tuner.start=Started pairing %s with a Receiver
 gui.railcraft.tuner.stop=Stopped pairing %s with a Receiver
 gui.railcraft.tuner.success=%1$s successfully paired with %2$s
 
-gui.railcraft.turbine.output=Output: %s%%
-gui.railcraft.turbine.rotor=Rotor:
-gui.railcraft.turbine=Steam Turbine
+gui.railcraft.steam.turbine.output=Output: %s%%
+gui.railcraft.steam.turbine.rotor=Rotor:
+gui.railcraft.steam.turbine=Steam Turbine
 
 gui.railcraft.update.message=Railcraft %s is available from <http://railcraft.info>
 
@@ -1088,8 +1088,8 @@ tile.railcraft.steam.trap.name=Manual Steam Trap
 tile.railcraft.tank.water.name=Water Tank Siding
 tile.railcraft.tank.water.tips=Multi-Block: 3x3x3 (Hollow)
 tile.railcraft.trade.station.name=Trade Station
-tile.railcraft.turbine.name=Steam Turbine Housing
-tile.railcraft.turbine.tips=Multi-Block: 3x2x2\n Generates Electricity from Steam\nOutputs water to the bottom\n Requires a Turbine Rotor
+tile.railcraft.steam.turbine.name=Steam Turbine Housing
+tile.railcraft.steam.turbine.tips=Multi-Block: 3x2x2\n Generates Electricity from Steam\nOutputs water to the bottom\n Requires a Turbine Rotor
 
 tile.railcraft.boiler.firebox.fluid.name=Fluid Fueled Boiler Firebox
 tile.railcraft.boiler.firebox.fluid.tips=Multi-Block: Variable Size, Bottom Layer\n Dimensions: 1x1, 2x2, 3x3

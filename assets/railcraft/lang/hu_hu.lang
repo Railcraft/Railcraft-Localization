@@ -504,9 +504,9 @@ gui.railcraft.tuner.start= %s megkezdte a kapcsolatot a vevővel
 gui.railcraft.tuner.stop= %s kapcsolata megszakadt a vevővel
 gui.railcraft.tuner.success=%1$s sikeresen összepárosítva a következővel %2$s
 
-gui.railcraft.turbine.output=Kimenet: %s%%
-gui.railcraft.turbine.rotor=Rotor:
-gui.railcraft.turbine=Gőzturbina
+gui.railcraft.steam.turbine.output=Kimenet: %s%%
+gui.railcraft.steam.turbine.rotor=Rotor:
+gui.railcraft.steam.turbine=Gőzturbina
 
 railcraft.keybind.aura.worldspike=Anchor Aura
 railcraft.keybind.aura.tuning=Tuning Aura
@@ -658,8 +658,8 @@ tile.railcraft.steam.trap.name=Manual Steam Trap
 tile.railcraft.tank.water.name=Water Tank Siding
 tile.railcraft.tank.water.tips=Multi-Block: 3x3x3 (Hollow)
 tile.railcraft.trade.station.name=Trade Station
-tile.railcraft.turbine.name=Steam Turbine Housing
-tile.railcraft.turbine.tips=Multi-Block: 3x2x2\n Generates Electricity from Steam\nOutputs water to the bottom\n Requires a Turbine Rotor
+tile.railcraft.steam.turbine.name=Steam Turbine Housing
+tile.railcraft.steam.turbine.tips=Multi-Block: 3x2x2\n Generates Electricity from Steam\nOutputs water to the bottom\n Requires a Turbine Rotor
 
 tile.railcraft.worldspike.point.name=Anchor Sentinel
 tile.railcraft.boiler.firebox.fluid.name=Liquid Fueled Boiler Firebox

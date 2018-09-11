@@ -194,9 +194,9 @@ gui.railcraft.tuner.stop=Zatrzymano łączenie %s z Odbiornikiem
 gui.railcraft.tuner.success=%1$s pomyślnie połączono z %2$s
 gui.railcraft.tuner.abandon.chunk=Kontroler nie jest w załadowanym Chunku, porzucam łączenie
 gui.railcraft.tuner.abandon.gone=Kontroler już nie istnieje, porzucam łączenie
-gui.railcraft.turbine=Turbina Parowa
-gui.railcraft.turbine.output=Wydajność: %s%%
-gui.railcraft.turbine.rotor=Wirnik:
+gui.railcraft.steam.turbine=Turbina Parowa
+gui.railcraft.steam.turbine.output=Wydajność: %s%%
+gui.railcraft.steam.turbine.rotor=Wirnik:
 
 item.railcraft.upgrade.lapotron=Lapotroniczne Ulepszenie Ładowarki 
 
@@ -220,7 +220,7 @@ tile.railcraft.worldspike.personal.name=Osobista Kotwica
 tile.railcraft.rock.crusher.name=Zgniatarka Skał
 tile.railcraft.equipment.rolling.powered.name=Maszyna do Walcowania
 tile.railcraft.tank.water.name=Deski Zbiornika Wody
-tile.railcraft.turbine.name=Obudowa Turbiny Parowej
+tile.railcraft.steam.turbine.name=Obudowa Turbiny Parowej
 tile.railcraft.worldspike.standard.name=Kotwica Swiata
 
 tile.railcraft.worldspike.point.name=Słup Kotwica

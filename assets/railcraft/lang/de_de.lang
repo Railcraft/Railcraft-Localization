@@ -735,9 +735,9 @@ gui.railcraft.tuner.start=%s: Starte Kopplung mit einem Empfänger
 gui.railcraft.tuner.stop=%s: Stoppe Kopplung mit einem Empfänger
 gui.railcraft.tuner.success=%1$s erfolgreich gekoppelt mit %2$s
 
-gui.railcraft.turbine.output=Leistung: %s%%
-gui.railcraft.turbine.rotor=Rotor:
-gui.railcraft.turbine=Dampfturbine
+gui.railcraft.steam.turbine.output=Leistung: %s%%
+gui.railcraft.steam.turbine.rotor=Rotor:
+gui.railcraft.steam.turbine=Dampfturbine
 
 gui.railcraft.update.message=Railcraft %s ist verfügbar auf <http://railcraft.info>
 
@@ -976,8 +976,8 @@ tile.railcraft.steam.trap.name=Manuelle Dampf-Falle
 tile.railcraft.tank.water.name=Wassertankwand
 tile.railcraft.tank.water.tips=Multiblock: 3x3x3 (Hohlraum)
 tile.railcraft.trade.station.name=Handelsstation
-tile.railcraft.turbine.name=Dampfturbinengehäuse
-tile.railcraft.turbine.tips=Multiblock: 3x2x2\n Generiert Elektrizität aus Dampf\nGibt unten Wasser ab\n Benötigt einen Turbinenrotor
+tile.railcraft.steam.turbine.name=Dampfturbinengehäuse
+tile.railcraft.steam.turbine.tips=Multiblock: 3x2x2\n Generiert Elektrizität aus Dampf\nGibt unten Wasser ab\n Benötigt einen Turbinenrotor
 
 tile.railcraft.boiler.firebox.fluid.name=Öl-Dampfkessel-Feuerbüchse
 tile.railcraft.boiler.firebox.fluid.tips=Multiblock: variable Größe, unterste Ebene\n Abmessung: 1x1, 2x2, 3x3

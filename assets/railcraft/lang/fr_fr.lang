@@ -409,7 +409,7 @@ tile.railcraft.tank.steel.gauge.tips=Multi-Bloc: Taille variable, creux\n hauteu
 tile.railcraft.tank.steel.valve.tips=Multi-Bloc: Doit être en bas\n deux couches pour sortir le liquide.
 tile.railcraft.tank.steel.wall.tips=Multi-Bloc: Taille variable, creux\n hauteur: 4, 5, 6, 7, 8\n diamètres: 3, 5, 7, 9
 tile.railcraft.tank.water.tips=Multi-Bloc: 3x3x3 (creux)
-tile.railcraft.turbine.tips=Multi-Bloc: 3x2x2
+tile.railcraft.steam.turbine.tips=Multi-Bloc: 3x2x2
 gui.railcraft.track.embarking.radius=Rayon
 gui.railcraft.track.mode.change=Changer de %s Mode
 gui.railcraft.track.locking.mode.lockdown=Verrouillez
@@ -425,9 +425,9 @@ gui.railcraft.tuner.stop=Arrêté le jumelage de %s avec un récepteur
 gui.railcraft.tuner.success=%1$s jumelé avec succès à %2$s
 gui.railcraft.tuner.abandon.chunk=Le contrôleur n'est pas sur un Chunk chargé, jumelage abandonné
 gui.railcraft.tuner.abandon.gone=Le contrôleur n'existe plus, jumelage abandonné
-gui.railcraft.turbine=Turbine à vapeur
-gui.railcraft.turbine.output=Sortie: %s%%
-gui.railcraft.turbine.rotor=Rotor:
+gui.railcraft.steam.turbine=Turbine à vapeur
+gui.railcraft.steam.turbine.output=Sortie: %s%%
+gui.railcraft.steam.turbine.rotor=Rotor:
 
 item.railcraft.upgrade.lapotron=Mise à niveau d'énergie lapotron
 
@@ -461,7 +461,7 @@ tile.railcraft.steam.trap.name=Purgeur de vapeur manuel
 tile.railcraft.steam.trap.auto.name=Purgeur de vapeur automatique
 tile.railcraft.tank.water.name=Revêtement de réservoir d'eau
 tile.railcraft.trade.station.name=Station de commerce
-tile.railcraft.turbine.name=Emplacement pour turbine à vapeur
+tile.railcraft.steam.turbine.name=Emplacement pour turbine à vapeur
 
 tile.railcraft.worldspike.point.name=Ancre sentinel
 tile.railcraft.boiler.firebox.fluid.name=Chambre à combustible liquide

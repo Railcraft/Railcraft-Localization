@@ -104,9 +104,9 @@ gui.railcraft.tank.iron=鉄タンク
 gui.railcraft.tank.water=水タンク
 gui.railcraft.ticks=ticks
 gui.railcraft.track.embarking.radius=半径
-gui.railcraft.turbine=蒸気タービン
-gui.railcraft.turbine.output=出力: %s%%
-gui.railcraft.turbine.rotor=ローター:
+gui.railcraft.steam.turbine=蒸気タービン
+gui.railcraft.steam.turbine.output=出力: %s%%
+gui.railcraft.steam.turbine.rotor=ローター:
 
 item.railcraft.upgrade.lapotron=ラポトロンローダーアップグレード
 
@@ -126,7 +126,7 @@ tile.railcraft.feed.station.name=フィードステーション
 tile.railcraft.rock.crusher.name=破砕機
 tile.railcraft.rolling.machine.name=圧延機
 tile.railcraft.tank.water.name=水タンクの羽目板
-tile.railcraft.turbine.name=蒸気タービンハウジング
+tile.railcraft.steam.turbine.name=蒸気タービンハウジング
 tile.railcraft.worldspike.standard.name=ワールドアンカー
 
 tile.railcraft.worldspike.point.name=アンカーセンチネル

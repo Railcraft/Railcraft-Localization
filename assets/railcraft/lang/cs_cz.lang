@@ -538,9 +538,9 @@ gui.railcraft.tuner.start=Párování odstartováno %s s přijímačem
 gui.railcraft.tuner.stop=Párování zastaveno %s s přijímačem
 gui.railcraft.tuner.success=%1$s úspěšně spárováno s %2$s
 
-gui.railcraft.turbine.output=Výstup: %s%%
-gui.railcraft.turbine.rotor=Rotor:
-gui.railcraft.turbine=Parní turbína:
+gui.railcraft.steam.turbine.output=Výstup: %s%%
+gui.railcraft.steam.turbine.rotor=Rotor:
+gui.railcraft.steam.turbine=Parní turbína:
 
 gui.railcraft.update.message=Railcraft %s je dostupný na <http://railcraft.info>
 
@@ -698,8 +698,8 @@ tile.railcraft.steam.trap.name=Manuální paromet
 tile.railcraft.tank.water.name=Plášť vodní nádrže
 tile.railcraft.tank.water.tips=-Water Tank Siding-\n Multi-blok: 3x3x3 (dutý)
 tile.railcraft.trade.station.name=Obchodní stanice
-tile.railcraft.turbine.name=Kryt parní turbíny
-tile.railcraft.turbine.tips=-Steam Turbine Housing-\n Multi-blok: 3x2x2\n Generuje elektřinu z páry\n Výstupní materiál je voda\n Vyžaduje Rotor turbíny
+tile.railcraft.steam.turbine.name=Kryt parní turbíny
+tile.railcraft.steam.turbine.tips=-Steam Turbine Housing-\n Multi-blok: 3x2x2\n Generuje elektřinu z páry\n Výstupní materiál je voda\n Vyžaduje Rotor turbíny
 
 tile.railcraft.worldspike.point.name=Strážní kotva
 tile.railcraft.boiler.firebox.fluid.name=Hořák boileru na tekuté palivo

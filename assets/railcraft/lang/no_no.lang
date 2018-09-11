@@ -405,7 +405,7 @@ tile.railcraft.tank.steel.gauge.tips=Multi-Block: Variable Size, Hollow\n Height
 tile.railcraft.tank.steel.valve.tips=Multi-Block: Must be in bottom\n two layers to output liquid.
 tile.railcraft.tank.steel.wall.tips=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
 tile.railcraft.tank.water.tips=MultiBlokk: 3x3x3 (Hul)
-tile.railcraft.turbine.tips=MultiBlokk: 3x2x2
+tile.railcraft.steam.turbine.tips=MultiBlokk: 3x2x2
 gui.railcraft.track.embarking.radius=Radius
 gui.railcraft.track.priming.fuse=Fuse = %s ticks
 gui.railcraft.tuner.start=Startet sammenkobling av %s til en mottaker.
@@ -413,9 +413,9 @@ gui.railcraft.tuner.stop=Stoppet sammenkobling av %s til en mottaker.
 gui.railcraft.tuner.success=%1$s ble koblet til %2$s
 gui.railcraft.tuner.abandon.chunk= Kontrolleren er ikke innlastet, avbryter tilkobling
 gui.railcraft.tuner.abandon.gone=Kontrolleren finnes ikke lengre, avbryter tilkobling
-gui.railcraft.turbine=Dampturbin
-gui.railcraft.turbine.output=Ut: %s%%
-gui.railcraft.turbine.rotor=Rotor:
+gui.railcraft.steam.turbine=Dampturbin
+gui.railcraft.steam.turbine.output=Ut: %s%%
+gui.railcraft.steam.turbine.rotor=Rotor:
 
 item.railcraft.upgrade.lapotron=Lapotron Laster oppgradering
 
@@ -445,7 +445,7 @@ tile.railcraft.steam.oven.name=Dampovn
 tile.railcraft.steam.trap.name=Manual Steam Trap
 tile.railcraft.steam.trap.auto.name=Automated Steam Trap
 tile.railcraft.tank.water.name=Vanntankvegg
-tile.railcraft.turbine.name=Dampturbinhus
+tile.railcraft.steam.turbine.name=Dampturbinhus
 
 tile.railcraft.worldspike.point.name=Ankervokter
 tile.railcraft.boiler.firebox.fluid.name=Væskedrevet kjele

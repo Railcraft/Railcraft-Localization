@@ -728,9 +728,9 @@ gui.railcraft.tuner.start=Начато соединение %s с приёмни
 gui.railcraft.tuner.stop=Остановлено соединение %s с приёмником
 gui.railcraft.tuner.success=%1$s Успешно соединено с %2$s
 
-gui.railcraft.turbine.output=Выход: %s%%
-gui.railcraft.turbine.rotor=Ротор:
-gui.railcraft.turbine=Паровая турбина
+gui.railcraft.steam.turbine.output=Выход: %s%%
+gui.railcraft.steam.turbine.rotor=Ротор:
+gui.railcraft.steam.turbine=Паровая турбина
 
 gui.railcraft.update.message=Railcraft %s доступен на <http://railcraft.info>
 
@@ -969,8 +969,8 @@ tile.railcraft.steam.trap.name=Ручная паровая ловушка
 tile.railcraft.tank.water.name=Обшивка водонапорной башни
 tile.railcraft.tank.water.tip=Мульти-блок: 3x3x3 (Полый)
 tile.railcraft.trade.station.name=Торговая станция
-tile.railcraft.turbine.name=Корпус паровой турбины
-tile.railcraft.turbine.tip=Мульти-блок: 3x2x2\n Генерирует электричество из пара\nВыводит воду вниз\n Требуется ротор турбины
+tile.railcraft.steam.turbine.name=Корпус паровой турбины
+tile.railcraft.steam.turbine.tip=Мульти-блок: 3x2x2\n Генерирует электричество из пара\nВыводит воду вниз\n Требуется ротор турбины
 
 tile.railcraft.boiler.firebox.fluid.name=Жидкотопливная камера сгорания
 tile.railcraft.boiler.firebox.fluid.tip=Мульти-блок: Переменный размер, нижний слой\n Размеры: 1x1, 2x2, 3x3

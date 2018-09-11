@@ -102,9 +102,9 @@ gui.railcraft.tank.iron=Tanque de Ferro
 gui.railcraft.tank.water=Tanque de Água
 gui.railcraft.ticks=ticks
 gui.railcraft.track.embarking.radius=Raio
-gui.railcraft.turbine=Turbina a Vapor
-gui.railcraft.turbine.output=Saída: %s%%
-gui.railcraft.turbine.rotor=Rotor:
+gui.railcraft.steam.turbine=Turbina a Vapor
+gui.railcraft.steam.turbine.output=Saída: %s%%
+gui.railcraft.steam.turbine.rotor=Rotor:
 
 item.railcraft.upgrade.lapotron=Lapotron Loader Upgrade
 
@@ -124,7 +124,7 @@ tile.railcraft.equipment.feed.station.name=Estação de Alimentação
 tile.railcraft.rock.crusher.name=Esmagador de Pedras
 tile.railcraft.equipment.rolling.powered.name=Máquina de Enrolar
 tile.railcraft.tank.water.name=Bloco de Tanque de Água
-tile.railcraft.turbine.name=Central da Turbina a Vapor
+tile.railcraft.steam.turbine.name=Central da Turbina a Vapor
 tile.railcraft.worldspike.standard.name=Ancorador
 
 tile.railcraft.worldspike.point.name=Ancorador Sentinela

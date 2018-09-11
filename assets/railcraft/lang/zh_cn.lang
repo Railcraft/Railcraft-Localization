@@ -802,9 +802,9 @@ gui.railcraft.tuner.start=开始配对%s到接收器
 gui.railcraft.tuner.stop=停止配对%s到接收器
 gui.railcraft.tuner.success=%1$s成功与%2$s配对
 
-gui.railcraft.turbine.output=输出：%s%%
-gui.railcraft.turbine.rotor=转子：
-gui.railcraft.turbine=蒸汽涡轮机
+gui.railcraft.steam.turbine.output=输出：%s%%
+gui.railcraft.steam.turbine.rotor=转子：
+gui.railcraft.steam.turbine=蒸汽涡轮机
 
 gui.railcraft.update.message=Railcraft %s 已经发布，欢迎前往 <http://railcraft.info> 下载。
 
@@ -1084,8 +1084,8 @@ tile.railcraft.steam.trap.name=手动蒸汽陷阱
 tile.railcraft.tank.water.name=蓄水器壁板
 tile.railcraft.tank.water.tips=多方块结构：3x3x3（中空）
 tile.railcraft.trade.station.name=贸易站
-tile.railcraft.turbine.name=蒸汽涡轮机壳
-tile.railcraft.turbine.tips=多方块结构：3x2x2\n用蒸汽发电\n从底部输出水\n需要一个涡轮机转子
+tile.railcraft.steam.turbine.name=蒸汽涡轮机壳
+tile.railcraft.steam.turbine.tips=多方块结构：3x2x2\n用蒸汽发电\n从底部输出水\n需要一个涡轮机转子
 
 tile.railcraft.boiler.firebox.fluid.name=流体燃料燃烧室
 tile.railcraft.boiler.firebox.fluid.tips=多方块结构：尺寸可变\n底座规格可选：1x1, 2x2, 3x3
