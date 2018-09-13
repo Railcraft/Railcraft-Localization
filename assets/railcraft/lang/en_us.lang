@@ -682,6 +682,7 @@ gui.railcraft.mag.glass.aspect.dual=The signal aspect is %1$s at top and %2$s at
 gui.railcraft.mag.glass.aspect=The signal aspect is %s
 gui.railcraft.mag.glass.cart.number=Next cart number: %d
 gui.railcraft.mag.glass.placedby=%1$s was placed by %2$s
+gui.railcraft.mag.glass.train=%1$s in a part of train %2$s
 
 gui.railcraft.manipulator.buffer=Buffer
 gui.railcraft.manipulator.redstone.complete.name=Complete
@@ -781,6 +782,7 @@ gui.railcraft.track.coupler.mode.coupler=Coupler
 gui.railcraft.track.coupler.mode.decoupler=Decoupler
 gui.railcraft.track.embarking.radius=Radius
 gui.railcraft.track.launcher.force=Force = %s
+gui.railcraft.track.locking.delay.delay=Delay = %s ticks
 gui.railcraft.track.locking.mode.boarding.train=Train Boarding
 gui.railcraft.track.locking.mode.boarding=Boarding
 gui.railcraft.track.locking.mode.holding.train=Train Holding
@@ -1553,6 +1555,9 @@ track_kit.railcraft.railcraft_control.tips=Applies a small force to the cart\n§
 
 track_kit.railcraft.railcraft_coupler.name=Coupler
 track_kit.railcraft.railcraft_coupler.tips=Couples/Decouples passing Carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+
+track_kit.railcraft.railcraft_delayed.name=Delayed Locking
+track_kit.railcraft.railcraft_delayed.tips=Locks a train for a few ticks before releasing it\n§o§9- Hit with Crowbar to change delay time -\n§o§c- Apply Redstone to enable -
 
 track_kit.railcraft.railcraft_detector.name=Detector
 track_kit.railcraft.railcraft_detector.tips=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Crowbar to change detection direction -\n§o§c- Can be used to get Comparator output from carts -
