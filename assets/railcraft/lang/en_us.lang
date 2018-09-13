@@ -207,6 +207,9 @@ entity.railcraft.mow_track_remover.name=Track Remover Cart
 entity.railcraft.mow_undercutter.name=Undercutter Cart
 
 entity.Villager.trackman=Trackman
+entity.Villager.cartman=Cartman
+entity.Villager.alloyer=Alloy Smith
+entity.Villager.steel_forger=Steel Forger
 
 fluid.creosote=Creosote Oil
 fluid.steam=Steam
