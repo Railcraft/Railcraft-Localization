@@ -253,6 +253,7 @@ item.railcraft.charge.spool.medium.name=Medium Charge Wire Spool
 item.railcraft.charge.spool.small.name=Small Charge Wire Spool
 
 item.railcraft.circuit.controller.name=Controller Circuit
+item.railcraft.circuit.radio.name=Radio Circuit
 item.railcraft.circuit.receiver.name=Receiver Circuit
 item.railcraft.circuit.signal.name=Signal Circuit
 
