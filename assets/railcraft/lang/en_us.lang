@@ -754,9 +754,10 @@ gui.railcraft.routing.type.private=Private Railway
 gui.railcraft.routing.type.public.tips=Will route any Locomotive.
 gui.railcraft.routing.type.public=Public Railway
 
-gui.railcraft.season.none=None
 gui.railcraft.season.christmas=Christmas
+gui.railcraft.season.default=Default
 gui.railcraft.season.halloween=Halloween
+gui.railcraft.season.none=None
 
 gui.railcraft.slot.map.valid=Valid Items:
 
