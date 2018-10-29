@@ -194,6 +194,7 @@ entity.railcraft.cart_ic2_mfsu.name=MFSU Cart
 entity.railcraft.cart_jukebox.name=Jukebox Cart
 entity.railcraft.cart_pumpkin.name=Pumpkin Cart
 entity.railcraft.cart_redstone_flux.name=Redstone Flux Cart
+entity.railcraft.cart_spawner.name=Spawner Cart
 entity.railcraft.cart_tank.name=Tank Cart
 entity.railcraft.cart_tnt.name=TNT Cart
 entity.railcraft.cart_tnt_wood.name=Wooden TNT Cart
@@ -298,6 +299,7 @@ item.railcraft.entity.cart.jukebox.name=Jukebox Cart
 item.railcraft.entity.cart.pumpkin.name=Pumpkin Cart
 item.railcraft.entity.cart.pumpkin.tips=Trick or Treat
 item.railcraft.entity.cart.redstone.flux.name=Redstone Flux Cart
+item.railcraft.entity.cart.spawner.name=Spawner Cart
 item.railcraft.entity.cart.tank.name=Tank Cart
 item.railcraft.entity.cart.tnt.name=TNT Cart
 item.railcraft.entity.cart.tnt.wood.name=Wooden TNT Cart
@@ -438,7 +440,7 @@ item.railcraft.tool.hoe.steel.name=Steel Hoe
 item.railcraft.tool.magnifying.glass.name=Magnifying Glass
 item.railcraft.tool.notepad.action.copy.fail=Nothing to copy. Not a valid target.
 item.railcraft.tool.notepad.action.copy=Copied settings from %s
-item.railcraft.tool.notepad.action.empty=Nothing to paste. Shift-click on a target to copy.
+item.railcraft.tool.notepad.action.empty=Nothing to paste. Click on a target while sneaking to copy.
 item.railcraft.tool.notepad.action.paste.fail=Nothing to paste. Not a valid target.
 item.railcraft.tool.notepad.action.paste=Pasted settings to %s
 item.railcraft.tool.notepad.name=Trackman's Notepad
@@ -684,10 +686,9 @@ gui.railcraft.locomotive.tips.slot.ticket=Insert Ticket
 
 gui.railcraft.mag.glass.aspect.dual=The signal aspect is %1$s at top and %2$s at bottom
 gui.railcraft.mag.glass.aspect=The signal aspect is %s
-gui.railcraft.mag.glass.cart.furnace=The burn time of this furnace cart is %1$s, pushX is %2$s, pushZ is %3$s.
+gui.railcraft.mag.glass.cart.furnace=This furnace cart has fuel left for %d ticks
 gui.railcraft.mag.glass.cart.number=Next cart number: %d
 gui.railcraft.mag.glass.placedby=%1$s was placed by %2$s
-gui.railcraft.mag.glass.train=%1$s in a part of train %2$s
 
 gui.railcraft.manipulator.buffer=Buffer
 gui.railcraft.manipulator.redstone.complete.name=Complete
@@ -1258,7 +1259,7 @@ tile.railcraft.signal.distant.name=Distant Signal
 tile.railcraft.signal.distant.tips=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.signal.distant.desc=This type of signal is primarily intended for cosmetic usage. It doesn't interface with carts at all and simply displays the aspect sent to it from a paired Controller.
 tile.railcraft.signal.token.name=Token Signal
-tile.railcraft.signal.token.tips=Detects Carts entering/leaving Token Area\n§o§9Aerial Linkages:\n§o§9- 1x Token Area\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Surveyor
+tile.railcraft.signal.token.tips=Detects Carts entering/leaving Token Area\n§o§9Aerial Linkages:\n§o§9- 1x Token Area\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Surveyor
 tile.railcraft.signal.token.desc=This signal can be used to define an area to monitor for carts entering and leaving. It pairs into a net of signals, with no particular limit to the number of signals defining the area. Recommended for junctions and diagonals. It will send the resulting aspect to a paired Receiver.
 
 tile.railcraft.signal.dual.block.name=Dual-Head Block Signal
@@ -1268,7 +1269,7 @@ tile.railcraft.signal.dual.distant.name=Dual-Head Distant Signal
 tile.railcraft.signal.dual.distant.tips=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.signal.dual.distant.desc=This signal contains two Distant Signals. They can be paired to different Controllers.
 tile.railcraft.signal.dual.token.name=Dual-Head Token Signal
-tile.railcraft.signal.dual.token.tips=Detects Carts entering/leaving Token Area\n§o§9Aerial Linkages:\n§o§9- 1x Token Area\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Surveyor
+tile.railcraft.signal.dual.token.tips=Detects Carts entering/leaving Token Area\nDisplays aspect of linked Controller\n§o§9Aerial Linkages:\n§o§9- 1x Token Area\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Surveyor
 tile.railcraft.signal.dual.token.desc=This signal a Token Signal on the upper lamp and Distant Signal on the lower. It is both a Controller and a Receiver.
 
 
@@ -1586,13 +1587,13 @@ track_kit.railcraft.railcraft_gated_one_way.tips=Track with built-in One-Way Gat
 track_kit.railcraft.railcraft_junction.name=Junction
 
 track_kit.railcraft.railcraft_launcher.name=Launcher
-track_kit.railcraft.railcraft_launcher.tips=Makes carts fly!\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_launcher.tips=Makes carts fly!\n§o§9- Hit with Crowbar to change force -\n§o§c- Apply Redstone to enable -
 
 track_kit.railcraft.railcraft_throttle.name=Throttle
 track_kit.railcraft.railcraft_throttle.tips=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
 
 track_kit.railcraft.railcraft_locking.name=Locking
-track_kit.railcraft.railcraft_locking.tips=Stops and holds carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+track_kit.railcraft.railcraft_locking.tips=Stops and holds carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to release carts -
 
 track_kit.railcraft.railcraft_locomotive.name=Locomotive
 track_kit.railcraft.railcraft_locomotive.tips=Starts/Stops Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -

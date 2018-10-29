@@ -194,6 +194,7 @@ entity.railcraft.cart_ic2_mfsu.name=MFSU储电车
 entity.railcraft.cart_jukebox.name=唱片机车
 entity.railcraft.cart_pumpkin.name=南瓜车
 entity.railcraft.cart_redstone_flux.name=RF储能车
+entity.railcraft.cart_spawner.name=刷怪箱车
 entity.railcraft.cart_tank.name=蓄水槽车
 entity.railcraft.cart_tnt.name=TNT车
 entity.railcraft.cart_tnt_wood.name=木质TNT矿车
@@ -207,6 +208,9 @@ entity.railcraft.mow_track_remover.name=轨道拆除车
 entity.railcraft.mow_undercutter.name=路基替换车
 
 entity.Villager.trackman=铁道工
+entity.Villager.cartman=车辆员
+entity.Villager.alloyer=冶金匠
+entity.Villager.steel_forger=锻钢师
 
 fluid.creosote=杂酚油
 fluid.steam=蒸汽
@@ -250,6 +254,7 @@ item.railcraft.charge.spool.medium.name=中号电线线轴
 item.railcraft.charge.spool.small.name=小号电线线轴
 
 item.railcraft.circuit.controller.name=控制器电路
+item.railcraft.circuit.radio.name=无线电电路
 item.railcraft.circuit.receiver.name=接收器电路
 item.railcraft.circuit.signal.name=信号电路
 
@@ -294,6 +299,7 @@ item.railcraft.entity.cart.jukebox.name=唱片机车
 item.railcraft.entity.cart.pumpkin.name=南瓜车
 item.railcraft.entity.cart.pumpkin.tips=没礼物就捣蛋
 item.railcraft.entity.cart.redstone.flux.name=RF储能车
+item.railcraft.entity.cart.spawner.name=刷怪箱车
 item.railcraft.entity.cart.tank.name=蓄水槽车
 item.railcraft.entity.cart.tnt.name=TNT车
 item.railcraft.entity.cart.tnt.wood.name=木质TNT矿车
@@ -434,7 +440,7 @@ item.railcraft.tool.hoe.steel.name=钢锄
 item.railcraft.tool.magnifying.glass.name=放大镜
 item.railcraft.tool.notepad.action.copy.fail=没有可复制内容：目标无效。
 item.railcraft.tool.notepad.action.copy=已从%s复制设定
-item.railcraft.tool.notepad.action.empty=没有可粘贴内容：按住Shift右击以复制。
+item.railcraft.tool.notepad.action.empty=没有可粘贴内容：蹲下右击以复制。
 item.railcraft.tool.notepad.action.paste.fail=没有可粘贴内容：目标无效。
 item.railcraft.tool.notepad.action.paste=将设定粘贴至%s
 item.railcraft.tool.notepad.name=铁路工笔记本
@@ -678,8 +684,9 @@ gui.railcraft.locomotive.tips.item.secondary=§o底盘颜色：§r %s
 gui.railcraft.locomotive.tips.item.whistle=§o鸣笛音高：§r %s
 gui.railcraft.locomotive.tips.slot.ticket=插入车票
 
-gui.railcraft.mag.glass.aspect.dual=信号灯顶部颜色为%1$s，底部颜色为%2$s。
-gui.railcraft.mag.glass.aspect=信号灯颜色是%s。
+gui.railcraft.mag.glass.aspect.dual=双头信号机顶灯颜色为%1$s，底灯颜色为%2$s。
+gui.railcraft.mag.glass.aspect=信号机颜色是%s。
+gui.railcraft.mag.glass.cart.furnace=该熔炉车剩余燃料还能运行 %d 刻。
 gui.railcraft.mag.glass.cart.number=下辆车的编号：%d
 gui.railcraft.mag.glass.placedby=%1$s被%2$s放置于此。
 
@@ -781,6 +788,7 @@ gui.railcraft.track.coupler.mode.coupler=耦合
 gui.railcraft.track.coupler.mode.decoupler=去耦
 gui.railcraft.track.embarking.radius=半径
 gui.railcraft.track.launcher.force=发射力度 = %s
+gui.railcraft.track.locking.delay.delay=Delay = %s ticks
 gui.railcraft.track.locking.mode.boarding.train=登入列车
 gui.railcraft.track.locking.mode.boarding=登入
 gui.railcraft.track.locking.mode.holding.train=列车扣留
@@ -843,11 +851,11 @@ railcraft.multiblock.state.master.false=此非主方块
 railcraft.multiblock.state.unknown.unloaded=结构的一部分未能加载：%s
 railcraft.multiblock.state.valid=结构无效
 
-subtitles.railcraft.locomotive.steam.whistle=Steam locomotive whistles
-subtitles.railcraft.locomotive.electric.whistle=Electric locomotive whistles
-subtitles.railcraft.machine.steamburst=Steam bursts
-subtitles.railcraft.machine.steamhiss=Steam hisses
-subtitles.railcraft.machine.zap=Machine zaps
+subtitles.railcraft.locomotive.steam.whistle=蒸汽机车：鸣笛
+subtitles.railcraft.locomotive.electric.whistle=电力机车：鸣笛
+subtitles.railcraft.machine.steamburst=大量蒸汽排出
+subtitles.railcraft.machine.steamhiss=少量蒸汽泄漏
+subtitles.railcraft.machine.zap=电火花
 
 tc.research_category.RAILCRAFT=神秘铁道工
 thaumcraft.research.RC_Crowbar.name=奥法撬棍
@@ -1243,39 +1251,39 @@ tile.railcraft.post.stone.platform.name=石头平台
 tile.railcraft.post.wood.name=木桩
 tile.railcraft.post.wood.platform.name=木头平台
 
-tile.railcraft.signal.block.name=信号灯
-tile.railcraft.signal.block.tips=在信号区间中检测矿车\n§o§9远程连接：\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§c相关工具：\n§o§c-信号域监测仪
-tile.railcraft.signal.block.desc=This is the basic signal used for cart detection. It pairs one-to-one with an adjacent Block Signal and will detect any carts between the two and sends the resulting aspect to a paired Receiver.
-tile.railcraft.signal.distant.name=远程信号灯
-tile.railcraft.signal.distant.tips=显示连接的信号控制盒的信号\n§o§9远程连接：1x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器
-tile.railcraft.signal.distant.desc=This type of signal is primarily intended for cosmetic usage. It doesn't interface with carts at all and simply displays the aspect sent to it from a paired Controller.
-tile.railcraft.signal.token.name=Token Signal
-tile.railcraft.signal.token.tips=Detects Carts entering/leaving Token Area\n§o§9Aerial Linkages:\n§o§9- 1x Token Area\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Surveyor
-tile.railcraft.signal.token.desc=This signal can be used to define an area to monitor for carts entering and leaving. It pairs into a net of signals, with no particular limit to the number of signals defining the area. Recommended for junctions and diagonals. It will send the resulting aspect to a paired Receiver.
+tile.railcraft.signal.block.name=信号机
+tile.railcraft.signal.block.tips=在区间中检测车辆\n§o§9远程连接：\n§o§9- 1x 信号机\n§o§9- 1x 控制器\n§o§c相关工具：\n§o§c-信号域监测仪
+tile.railcraft.signal.block.desc=检测车辆的基本信号。可以跟另一个信号机配对，检测区间内的车辆，并向信号接收器发送得出的信号。
+tile.railcraft.signal.distant.name=预告信号机
+tile.railcraft.signal.distant.tips=显示配对的控制器的信号\n§o§9远程连接：1x 接收器\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.signal.distant.desc=这种信号机主要作装饰用。作为信号接收器，它只显示控制器的信号，跟车辆无关。
+tile.railcraft.signal.token.name=路签信号机
+tile.railcraft.signal.token.tips=检测出入路签区域的车辆\n§o§9远程连接:\n§o§9- 1x 路签区域\n§o§9- 1x 接收器\n§o§c相关工具:\n§o§c-信号调谐器
+tile.railcraft.signal.token.desc=可以定义一个路签区域，监测出入的车辆。一个路签区域是可以有无限个路签信号机的信号网络。 推荐在岔道和斜角使用。会向信号接收器发送得出的信号。
 
-tile.railcraft.signal.dual.block.name=双头信号灯
-tile.railcraft.signal.dual.block.tips=在信号区间中检测矿车\n显示连接的信号控制盒的信号\n§o§9远程连接：\n§o§9- 1x 信号灯\n§o§9- 1x 控制盒\n§o§9- 1x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器\n§o§c-信号域监测仪
-tile.railcraft.signal.dual.block.desc=This signal contains a standard Block Signal on the upper lamp and a Distant Signal on the lower. It is both a Controller and a Receiver.
-tile.railcraft.signal.dual.distant.name=双头远程信号灯
-tile.railcraft.signal.dual.distant.tips=显示连接的多个信号控制盒的信号\n§o§9远程连接：2x 接收盒\n§o§c相关工具：\n§o§c-信号调谐器
-tile.railcraft.signal.dual.distant.desc=This signal contains two Distant Signals. They can be paired to different Controllers.
-tile.railcraft.signal.dual.token.name=Dual-Head Token Signal
-tile.railcraft.signal.dual.token.tips=Detects Carts entering/leaving Token Area\n§o§9Aerial Linkages:\n§o§9- 1x Token Area\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Surveyor
-tile.railcraft.signal.dual.token.desc=This signal a Token Signal on the upper lamp and Distant Signal on the lower. It is both a Controller and a Receiver.
+tile.railcraft.signal.dual.block.name=双灯信号机
+tile.railcraft.signal.dual.block.tips=在区间中检测车辆\n显示配对的控制器的信号\n§o§9远程连接：\n§o§9- 1x 信号机\n§o§9- 1x 控制器\n§o§9- 1x 接收器\n§o§c相关工具：\n§o§c-信号调谐器\n§o§c-信号域监测仪
+tile.railcraft.signal.dual.block.desc=此信号灯上灯是普通信号灯，下灯是预告信号灯。可以同时接收和发送信号。
+tile.railcraft.signal.dual.distant.name=双灯预告信号机
+tile.railcraft.signal.dual.distant.tips=显示配对的两个信号控制器的信号\n§o§9远程连接：2x 接收器\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.signal.dual.distant.desc=两个预告信号灯。上下灯可以与不同控制器配对。
+tile.railcraft.signal.dual.token.name=双灯路签信号机
+tile.railcraft.signal.dual.token.tips=检测出入路签区域的车辆\n显示配对的控制器的信号\n§o§9远程连接:\n§o§9- 1x 路签区域\n§o§9- 1x 控制器\n§o§9- 1x 接收器\n§o§c相关工具:\n§o§c-信号调谐器\n§o§c-信号域监测仪
+tile.railcraft.signal.dual.token.desc=此信号灯上灯是路签信号灯，下灯是预告信号灯。可以同时接收和发送信号。
 
 
 tile.railcraft.signal.box.analog.name=模拟信号控制盒
-tile.railcraft.signal.box.analog.tips=向信号接收盒发送信号\n§o§9远程连接：1x 控制盒\n§o§9邻格连接：无\n§o§9红石连接：\n§o§9接收红石信号\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.signal.box.analog.tips=向信号接收器发送信号\n§o§9远程连接：1x 控制器\n§o§9邻格连接：无\n§o§9红石连接：\n§o§9接收红石信号\n§o§c相关工具：\n§o§c-信号调谐器
 tile.railcraft.signal.box.relay.name=信号中继盒
-tile.railcraft.signal.box.relay.tips=连接两个不在直线上的信号灯\n§o§9远程连接：2x 信号灯\n§o§9邻格连接：发出信号\n§o§9红石连接：\n§o§9发出红石信号\n§o§c相关工具：\n§o§c-信号域监测仪
+tile.railcraft.signal.box.relay.tips=连接两个不在直线上的信号机\n§o§9远程连接：2x 信号灯\n§o§9邻格连接：发出信号\n§o§9红石连接：\n§o§9发出红石信号\n§o§c相关工具：\n§o§c-信号域监测仪
 tile.railcraft.signal.box.capacitor.name=信号计数盒
-tile.railcraft.signal.box.capacitor.tips=向信号接收盒发送信号\n§o§9远程连接：无\n§o§9邻格连接：接收信号，发出信号\n§o§9红石连接：\n§o§9- 监听红石中继器，发出红石信号
+tile.railcraft.signal.box.capacitor.tips=向信号接收器发送信号\n§o§9远程连接：无\n§o§9邻格连接：接收信号，发出信号\n§o§9红石连接：\n§o§9- 监听红石中继器，发出红石信号
 tile.railcraft.signal.box.controller.name=信号控制盒
-tile.railcraft.signal.box.controller.tips=向信号接收盒发送信号\n§o§9远程连接：1x 控制盒\n§o§9邻格连接：接收信号\n§o§9红石连接：\n§o§9接收红石信号\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.signal.box.controller.tips=向信号接收器发送信号\n§o§9远程连接：1x 控制器\n§o§9邻格连接：接收信号\n§o§9红石连接：\n§o§9接收红石信号\n§o§c相关工具：\n§o§c-信号调谐器
 tile.railcraft.signal.box.interlock.name=信号互锁盒
-tile.railcraft.signal.box.interlock.tips=只允许一种信号通过\n§o§9远程连接：\n§o§9- 1x 控制盒\n§o§9- 1x 接收盒\n§o§9邻格连接：\n§o§9- 互锁盒\n§o§9- 接收信号 (限制输出)\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.signal.box.interlock.tips=只允许一种信号通过\n§o§9远程连接：\n§o§9- 1x 控制器\n§o§9- 1x 接收器\n§o§9邻格连接：\n§o§9- 互锁盒\n§o§9- 接收信号 (限制输出)\n§o§c相关工具：\n§o§c-信号调谐器
 tile.railcraft.signal.box.receiver.name=信号接收盒
-tile.railcraft.signal.box.receiver.tips=接收信号控制盒信号\n§o§9远程连接：1x 接收盒\n§o§9邻格连接：发出信号\n§o§9红石连接：\n§o§9发出红石信号\n§o§c相关工具：\n§o§c-信号调谐器
+tile.railcraft.signal.box.receiver.tips=接收信号控制器信号\n§o§9远程连接：1x 接收器\n§o§9邻格连接：发出信号\n§o§9红石连接：\n§o§9发出红石信号\n§o§c相关工具：\n§o§c-信号调谐器
 tile.railcraft.signal.box.sequencer.name=信号记序盒
 tile.railcraft.signal.box.sequencer.tips=随计数接收不同邻格信号\n§o§9邻格连接：\n§o§9- 同步盒\n§o§9- 接收信号（计数）\n§o§9- 发出信号\n§o§9红石连接：\n§o§9- 监听红石中继器（计数）\n§o§9- 发出红石信号
 
@@ -1539,10 +1547,13 @@ track_kit.railcraft.railcraft_control.tips=提供轻微的多向加速.\n§o§9-
 track_kit.railcraft.railcraft_coupler.name=耦合
 track_kit.railcraft.railcraft_coupler.tips=将经过的车厢连接/分离\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
 
+track_kit.railcraft.railcraft_delayed.name=延迟锁停
+track_kit.railcraft.railcraft_delayed.tips=将列车短暂停下后放行\n§o§9- 通过撬棍敲击来更改延迟 -\n§o§c- 使用红石信号激活 -
+
 track_kit.railcraft.railcraft_detector.name=感应
 track_kit.railcraft.railcraft_detector.tips=车辆经过指定方向时\n发出红石信号。\n§o§9- 通过撬棍敲击来变向 -\n§o§c-可用于获取矿车的比较器输出-
 
-track_kit.railcraft.railcraft_disembarking.name=驻车
+track_kit.railcraft.railcraft_disembarking.name=下客
 track_kit.railcraft.railcraft_disembarking.tips=按箭头方向放下乘客.\n§o§9- 通过撬棍敲击来变向 -\n§o§c- 使用红石信号激活 -
 
 track_kit.railcraft.railcraft_dumping.name=倾倒
@@ -1560,13 +1571,13 @@ track_kit.railcraft.railcraft_gated_one_way.tips=内建单向门控装置的轨�
 track_kit.railcraft.railcraft_junction.name=交接
 
 track_kit.railcraft.railcraft_launcher.name=发射
-track_kit.railcraft.railcraft_launcher.tips=让矿车一飞冲天～\n§o§c- 使用红石信号激活 -
+track_kit.railcraft.railcraft_launcher.tips=让矿车一飞冲天～\n§o§9- 通过撬棍敲击来改变发射力度 -\n§o§c- 使用红石信号激活 -
 
 track_kit.railcraft.railcraft_throttle.name=机车限速
 track_kit.railcraft.railcraft_throttle.tips=调整经过机车的速度\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
 
-track_kit.railcraft.railcraft_locking.name=封锁
-track_kit.railcraft.railcraft_locking.tips=发动或驻留矿车\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
+track_kit.railcraft.railcraft_locking.name=锁停
+track_kit.railcraft.railcraft_locking.tips=发动或驻留矿车\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号放行车辆 -
 
 track_kit.railcraft.railcraft_locomotive.name=机车调整
 track_kit.railcraft.railcraft_locomotive.tips=发动或停止机车\n§o§9- 通过撬棍敲击来切换模式 -\n§o§c- 使用红石信号激活 -
