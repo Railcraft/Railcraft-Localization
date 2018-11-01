@@ -1579,10 +1579,7 @@ track_kit.railcraft.railcraft_embarking.name=Embarking
 track_kit.railcraft.railcraft_embarking.tips=Loads entities into Carts\n§o§9- Hit with Crowbar to change range -\n§o§c- Apply Redstone to enable -
 
 track_kit.railcraft.railcraft_gated.name=Gated
-track_kit.railcraft.railcraft_gated.tips=Track with built-in Gate\n§o§c- Apply Redstone to open -
-
-track_kit.railcraft.railcraft_gated_one_way.name=Gated One-Way
-track_kit.railcraft.railcraft_gated_one_way.tips=Track with built-in One-Way Gate\n§o§c- Apply Redstone to open -
+track_kit.railcraft.railcraft_gated.tips=Track with built-in Gate\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to open -
 
 track_kit.railcraft.railcraft_junction.name=Junction
 
