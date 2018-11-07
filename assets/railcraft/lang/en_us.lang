@@ -99,6 +99,15 @@ command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Receiver Debug Tools
 command.railcraft.railcraft.debug.tile.receiver.help=Tools for debugging Receiver tiles.
 command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s [<x> <y> <z>]
 
+
+command.railcraft.railcraft.debug.train.desc=- %s : Train Debug Tools
+command.railcraft.railcraft.debug.train.help=Tools for debugging trains.
+command.railcraft.railcraft.debug.train.format=Format: /%s
+
+command.railcraft.railcraft.debug.train.clear.desc=- %s : Clear trains
+command.railcraft.railcraft.debug.train.clear.help=Clears the train save data.
+command.railcraft.railcraft.debug.train.clear.format=Format: /%s
+
 command.railcraft.railcraft.track.desc=- %s : Track Tools
 command.railcraft.railcraft.track.help=Tools for tracks.
 command.railcraft.railcraft.track.format=Format: /%s
