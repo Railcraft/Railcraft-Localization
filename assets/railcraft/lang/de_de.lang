@@ -877,14 +877,14 @@ tile.railcraft.brick.pearlized.etched.name=Geätzter Perlstein
 tile.railcraft.brick.pearlized.fitted.name=Gemeißelter Perlstein
 tile.railcraft.brick.pearlized.ornate.name=Verzierter Perlstein
 
-tile.railcraft.charge.battery.nickel.iron.name=Nickel-Eisen-Ladungsbatterie
-tile.railcraft.charge.battery.nickel.iron.desc=Eine für das Ladungsnetwerk ausgelegte Batterie. Gut zur allgemeinen Speicherung.
-tile.railcraft.charge.battery.nickel.zinc.name=Nickel-Zink-Ladungsbatterie
-tile.railcraft.charge.battery.nickel.zinc.desc=Eine für das Ladungsnetwerk ausgelegte Batterie. Gut für Langzeitspeicherung bei niedrigem Verbrauch.
-tile.railcraft.charge.battery.tips.capacity=Kapazität: %s c
-tile.railcraft.charge.battery.tips.efficiency=Effizienz: %s%%
-tile.railcraft.charge.battery.tips.maxdraw=Max. Verbrauch: %s c/t
-tile.railcraft.charge.battery.tips.loss=Verlust: %s c/t
+tile.railcraft.battery.nickel.iron.name=Nickel-Eisen-Ladungsbatterie
+tile.railcraft.battery.nickel.iron.desc=Eine für das Ladungsnetwerk ausgelegte Batterie. Gut zur allgemeinen Speicherung.
+tile.railcraft.battery.nickel.zinc.name=Nickel-Zink-Ladungsbatterie
+tile.railcraft.battery.nickel.zinc.desc=Eine für das Ladungsnetwerk ausgelegte Batterie. Gut für Langzeitspeicherung bei niedrigem Verbrauch.
+tile.railcraft.battery.tips.capacity=Kapazität: %s c
+tile.railcraft.battery.tips.efficiency=Effizienz: %s%%
+tile.railcraft.battery.tips.maxdraw=Max. Verbrauch: %s c/t
+tile.railcraft.battery.tips.loss=Verlust: %s c/t
 
 tile.railcraft.charge.feeder.admin.name=Admin-Stromumformer
 tile.railcraft.charge.feeder.admin.tips=Eine endlose Quelle für Railcraft-Ladung\n§o§c- Erfordert Redstone-Signal -

@@ -891,6 +891,31 @@ tile.railcraft.anvil.intact.name=Steel Anvil
 tile.railcraft.anvil.slightlyDamaged.name=Slightly Damaged Steel Anvil
 tile.railcraft.anvil.veryDamaged.name=Very Damaged Steel Anvil
 
+tile.railcraft.battery.nickel.iron.name=Nickel-Iron Battery
+tile.railcraft.battery.nickel.iron.desc=A battery designed to work with the charge network. Good for general purpose usage. Can be recycled in the Rock Crusher.
+tile.railcraft.battery.nickel.iron.tips=§9Charge Network Battery
+tile.railcraft.battery.nickel.zinc.name=Nickel-Zinc Battery
+tile.railcraft.battery.nickel.zinc.desc=A battery designed to work with the charge network. Good for low draw, long term storage. Can be recycled in the Rock Crusher.
+tile.railcraft.battery.nickel.zinc.tips=§9Charge Network Battery
+tile.railcraft.battery.zinc.carbon.name=Zinc-Carbon Battery
+tile.railcraft.battery.zinc.carbon.desc=A battery designed to work with the charge network. Good for cheap, single use storage. Can be recycled in the Rock Crusher.
+tile.railcraft.battery.zinc.carbon.tips=§9Charge Network Battery
+tile.railcraft.battery.zinc.silver.name=Zinc-Silver Battery
+tile.railcraft.battery.zinc.silver.desc=A battery designed to work with the charge network. Good for large, single use storage. Can be recycled in the Rock Crusher.
+tile.railcraft.battery.zinc.silver.tips=§9Charge Network Battery
+
+tile.railcraft.battery.state.disabled=Disabled
+tile.railcraft.battery.state.disposable=Disposable
+tile.railcraft.battery.state.infinite=Infinite
+tile.railcraft.battery.state.rechargeable=Rechargeable
+tile.railcraft.battery.state.source=Source
+
+tile.railcraft.battery.tips.capacity=Capacity: %s c
+tile.railcraft.battery.tips.type=Type: %s
+tile.railcraft.battery.tips.efficiency=Efficiency: %s%%
+tile.railcraft.battery.tips.maxdraw=MaxDraw: %s c/t
+tile.railcraft.battery.tips.loss=Loss: %s  c/t
+
 tile.railcraft.brick.abyssal.block.name=Abyssal Block
 tile.railcraft.brick.abyssal.brick.name=Abyssal Brick
 tile.railcraft.brick.abyssal.cobble.name=Abyssal Cobblestone
@@ -983,15 +1008,6 @@ tile.railcraft.brick.pearlized.cobble.name=Pearlized Cobblestone
 tile.railcraft.brick.pearlized.etched.name=Etched Pearlized Stone
 tile.railcraft.brick.pearlized.fitted.name=Fitted Pearlized Stone
 tile.railcraft.brick.pearlized.ornate.name=Ornate Pearlized Stone
-
-tile.railcraft.charge.battery.nickel.iron.name=Nickel-Iron Charge Battery
-tile.railcraft.charge.battery.nickel.iron.desc=A battery designed to work with the charge network. Good for general purpose usage.
-tile.railcraft.charge.battery.nickel.zinc.name=Nickel-Zinc Charge Battery
-tile.railcraft.charge.battery.nickel.zinc.desc=A battery designed to work with the charge network. Good for low draw, long term storage.
-tile.railcraft.charge.battery.tips.capacity=Capacity: %s c
-tile.railcraft.charge.battery.tips.efficiency=Efficiency: %s%%
-tile.railcraft.charge.battery.tips.maxdraw=MaxDraw: %s c/t
-tile.railcraft.charge.battery.tips.loss=Loss: %s  c/t
 
 tile.railcraft.charge.feeder.admin.name=Admin Charge Feeder Unit
 tile.railcraft.charge.feeder.admin.tips=Provides Unlimited Railcraft Charge\n§o§c- Requires Redstone input -

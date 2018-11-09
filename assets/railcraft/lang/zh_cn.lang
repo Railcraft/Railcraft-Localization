@@ -974,14 +974,14 @@ tile.railcraft.brick.pearlized.etched.name=蚀刻末影方块
 tile.railcraft.brick.pearlized.fitted.name=匀称末影方块
 tile.railcraft.brick.pearlized.ornate.name=雕琢末影方块
 
-tile.railcraft.charge.battery.nickel.iron.name=镍铁充电电池
-tile.railcraft.charge.battery.nickel.iron.desc=可用于 Railcraft 电力网络的电池。适用于一般使用情景。
-tile.railcraft.charge.battery.nickel.zinc.name=镍锌充电电池
-tile.railcraft.charge.battery.nickel.zinc.desc=可用于 Railcraft 电力网络的电池。适用于低消耗，长时间存储的使用情景。
-tile.railcraft.charge.battery.tips.capacity=容量：%s c
-tile.railcraft.charge.battery.tips.efficiency=效率：%s%%
-tile.railcraft.charge.battery.tips.maxdraw=最大输出：%s c/t
-tile.railcraft.charge.battery.tips.loss=损耗：%s  c/t
+tile.railcraft.battery.nickel.iron.name=镍铁充电电池
+tile.railcraft.battery.nickel.iron.desc=可用于 Railcraft 电力网络的电池。适用于一般使用情景。
+tile.railcraft.battery.nickel.zinc.name=镍锌充电电池
+tile.railcraft.battery.nickel.zinc.desc=可用于 Railcraft 电力网络的电池。适用于低消耗，长时间存储的使用情景。
+tile.railcraft.battery.tips.capacity=容量：%s c
+tile.railcraft.battery.tips.efficiency=效率：%s%%
+tile.railcraft.battery.tips.maxdraw=最大输出：%s c/t
+tile.railcraft.battery.tips.loss=损耗：%s  c/t
 
 tile.railcraft.charge.feeder.admin.name=管理员电力供给单元
 tile.railcraft.charge.feeder.admin.tips=提供无限的RC电力\n§o§c- 需要红石信号 -

@@ -870,14 +870,14 @@ tile.railcraft.brick.pearlized.etched.name=Гравированный жемчу
 tile.railcraft.brick.pearlized.fitted.name=Крупный жемчужный камень
 tile.railcraft.brick.pearlized.ornate.name=Резной жемчужный камень
 
-tile.railcraft.charge.battery.nickel.iron.name=Никель-железный аккумулятор
-tile.railcraft.charge.battery.nickel.iron.desc=Батарея созданная для работы с сетью зарядки. Отлична для использования в основных целях.
-tile.railcraft.charge.battery.nickel.zinc.name=Никель цинковый аккумулятор
-tile.railcraft.charge.battery.nickel.zinc.desc=Батарея созданная для работы с сетью зарядки. Хороша для длительного вывода, долговременное хранилище.
-tile.railcraft.charge.battery.tips.capacity=Емкость: %s c
-tile.railcraft.charge.battery.tips.efficiency=Эффективность: %s%%
-tile.railcraft.charge.battery.tips.maxdraw=Максимальный вывод: %s c/t
-tile.railcraft.charge.battery.tips.loss=Потери: %s  c/t
+tile.railcraft.battery.nickel.iron.name=Никель-железный аккумулятор
+tile.railcraft.battery.nickel.iron.desc=Батарея созданная для работы с сетью зарядки. Отлична для использования в основных целях.
+tile.railcraft.battery.nickel.zinc.name=Никель цинковый аккумулятор
+tile.railcraft.battery.nickel.zinc.desc=Батарея созданная для работы с сетью зарядки. Хороша для длительного вывода, долговременное хранилище.
+tile.railcraft.battery.tips.capacity=Емкость: %s c
+tile.railcraft.battery.tips.efficiency=Эффективность: %s%%
+tile.railcraft.battery.tips.maxdraw=Максимальный вывод: %s c/t
+tile.railcraft.battery.tips.loss=Потери: %s  c/t
 
 tile.railcraft.charge.feeder.admin.name=Админсткий модуль питания
 tile.railcraft.charge.feeder.admin.tips=Предоставляет бесконечный Railcraft заряд

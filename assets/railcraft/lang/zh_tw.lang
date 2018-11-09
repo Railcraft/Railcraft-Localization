@@ -910,14 +910,14 @@ tile.railcraft.brick.pearlized.etched.name=蝕刻終界磚
 tile.railcraft.brick.pearlized.fitted.name=終界石磚
 tile.railcraft.brick.pearlized.ornate.name=浮雕終界磚
 
-tile.railcraft.charge.battery.nickel.iron.name=鎳-鐵充電電池
-tile.railcraft.charge.battery.nickel.iron.desc=設計來與Railcraft電力網路同用的電池。適用於一般用途。
-tile.railcraft.charge.battery.nickel.zinc.name=鎳-鋅充電電池
-tile.railcraft.charge.battery.nickel.zinc.desc=設計來與Railcraft電力網路同用的電池。適用於微量輸出、長期儲存。
-tile.railcraft.charge.battery.tips.capacity=容量: %s c
-tile.railcraft.charge.battery.tips.efficiency=效益: %s%%
-tile.railcraft.charge.battery.tips.maxdraw=最大輸出: %s c/t
-tile.railcraft.charge.battery.tips.loss=耗損: %s  c/t
+tile.railcraft.battery.nickel.iron.name=鎳-鐵充電電池
+tile.railcraft.battery.nickel.iron.desc=設計來與Railcraft電力網路同用的電池。適用於一般用途。
+tile.railcraft.battery.nickel.zinc.name=鎳-鋅充電電池
+tile.railcraft.battery.nickel.zinc.desc=設計來與Railcraft電力網路同用的電池。適用於微量輸出、長期儲存。
+tile.railcraft.battery.tips.capacity=容量: %s c
+tile.railcraft.battery.tips.efficiency=效益: %s%%
+tile.railcraft.battery.tips.maxdraw=最大輸出: %s c/t
+tile.railcraft.battery.tips.loss=耗損: %s  c/t
 
 tile.railcraft.charge.feeder.admin.name=管理用電力供給單位
 tile.railcraft.charge.feeder.admin.tips=產出無限量的Railcraft電力\n§o§c- 需要紅石輸入 -
