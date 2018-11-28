@@ -113,12 +113,16 @@ command.railcraft.railcraft.track.help=Tools for tracks.
 command.railcraft.railcraft.track.format=Format: /%s
 
 command.railcraft.railcraft.track.message.desc=- %s : Messenger Track Title
-command.railcraft.railcraft.track.message.help=Sets the Messenger Track title.
-command.railcraft.railcraft.track.message.format=Format: /%s [<x> <y> <z>] <raw json message>
+command.railcraft.railcraft.track.message.help=Sets the Messenger Track title. See vanilla '/title' command.
+command.railcraft.railcraft.track.message.format=Format: /%s [<x> <y> <z>] <json message or "string">
 
 command.railcraft.railcraft.track.message.subtitle.desc=- %s : Messenger Track Subtitle
-command.railcraft.railcraft.track.message.subtitle.help=Sets the Messenger Track subtitle.
-command.railcraft.railcraft.track.message.subtitle.format=Format: /%s [<x> <y> <z>] <raw json message>
+command.railcraft.railcraft.track.message.subtitle.help=Sets the Messenger Track subtitle. See vanilla '/title' command.
+command.railcraft.railcraft.track.message.subtitle.format=Format: /%s [<x> <y> <z>] <json message or "string">
+
+command.railcraft.railcraft.track.message.actionbar.desc=- %s : Messenger Track Actionbar
+command.railcraft.railcraft.track.message.actionbar.help=Sets the Messenger Track actionbar message. See vanilla '/title' command.
+command.railcraft.railcraft.track.message.actionbar.format=Format: /%s [<x> <y> <z>] <json message or "string">
 
 command.railcraft.railcraft.tile.desc=- %s : Tile Tools
 command.railcraft.railcraft.tile.help=Tools for tiles.
@@ -812,7 +816,9 @@ gui.railcraft.track_kit.item.invalid.curve=§c§oCannot be placed on curves
 gui.railcraft.track_kit.item.invalid.slope=§c§oCannot be placed on slopes
 gui.railcraft.track_kit.item.invalid.track=§c§oInvalid Track, not Flex Track or already outfitted
 gui.railcraft.track_kit.item.invalid.track_type=§c§oInvalid Track Type
-gui.railcraft.track_kit.messenger.subtitle.default=§o§7To change, use "/rc track msg"
+gui.railcraft.track_kit.messenger.actionbar.default=§o§7Optional actionbar message here
+gui.railcraft.track_kit.messenger.actionbar.set=Track actionbar message set
+gui.railcraft.track_kit.messenger.subtitle.default=§o§7To change, type "/rc track msg help" into chat
 gui.railcraft.track_kit.messenger.subtitle.set=Track subtitle set
 gui.railcraft.track_kit.messenger.subtitle.standard=§o§7Track Message
 gui.railcraft.track_kit.messenger.title.default=No message set
