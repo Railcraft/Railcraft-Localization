@@ -112,9 +112,13 @@ command.railcraft.railcraft.track.desc=- %s : Track Tools
 command.railcraft.railcraft.track.help=Tools for tracks.
 command.railcraft.railcraft.track.format=Format: /%s
 
-command.railcraft.railcraft.track.message.desc=- %s : Messenger Track Title
+command.railcraft.railcraft.track.message.desc=- %s : Messenger Track
 command.railcraft.railcraft.track.message.help=Sets the Messenger Track title. See vanilla '/title' command.
 command.railcraft.railcraft.track.message.format=Format: /%s [<x> <y> <z>] <json message or "string">
+
+command.railcraft.railcraft.track.message.title.desc=- %s : Messenger Track Title
+command.railcraft.railcraft.track.message.title.help=Sets the Messenger Track title. See vanilla '/title' command.
+command.railcraft.railcraft.track.message.title.format=Format: /%s [<x> <y> <z>] <json message or "string">
 
 command.railcraft.railcraft.track.message.subtitle.desc=- %s : Messenger Track Subtitle
 command.railcraft.railcraft.track.message.subtitle.help=Sets the Messenger Track subtitle. See vanilla '/title' command.
