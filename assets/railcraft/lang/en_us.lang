@@ -675,6 +675,11 @@ gui.railcraft.jei.category.blast_furnace=Blast Furnace Smelting
 gui.railcraft.jei.category.crushing=Rock Crushing
 gui.railcraft.jei.category.rolling=Metal Rolling
 gui.railcraft.jei.burntime=Cooking Time: %s ticks
+gui.railcraft.jei.recipe.copy=Copy NBT
+gui.railcraft.jei.recipe.paint=Paint
+gui.railcraft.jei.recipe.repair=Repair
+gui.railcraft.jei.recipe.setup=Setup
+gui.railcraft.jei.recipe.split=Split
 
 gui.railcraft.link.broken=Link Broken
 gui.railcraft.link.created=Link Created
