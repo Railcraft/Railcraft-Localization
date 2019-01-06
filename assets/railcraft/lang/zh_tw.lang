@@ -64,17 +64,33 @@ command.railcraft.railcraft.debug.tile.receiver.desc=- %s : 接收器除錯工�
 command.railcraft.railcraft.debug.tile.receiver.help=處理接收器錯誤的工具
 command.railcraft.railcraft.debug.tile.receiver.format=格式: /%s [<x> <y> <z>]
 
+command.railcraft.railcraft.debug.train.desc=- %s : 列車除錯工具
+command.railcraft.railcraft.debug.train.help=處理列車錯誤的工具
+command.railcraft.railcraft.debug.train.format=格式: /%s
+
+command.railcraft.railcraft.debug.train.clear.desc=- %s : 清理列車
+command.railcraft.railcraft.debug.train.clear.help=清理列車的保存資料
+command.railcraft.railcraft.debug.train.clear.format=格式: /%s
+
 command.railcraft.railcraft.track.desc=- %s : 軌道工具
 command.railcraft.railcraft.track.help=為軌道準備的工具
 command.railcraft.railcraft.track.format=格式: /%s
 
-command.railcraft.railcraft.track.message.desc=- %s : 通知鐵軌標題
-command.railcraft.railcraft.track.message.help=設定通知鐵軌顯示的標題
-command.railcraft.railcraft.track.message.format=格式: /%s [<x> <y> <z>] <原始 json 訊息>
+command.railcraft.railcraft.track.message.desc=- %s : 傳訊鐵軌
+command.railcraft.railcraft.track.message.help=設定傳訊鐵軌顯示的標題，詳見原版 '/title' 指令
+command.railcraft.railcraft.track.message.format=格式: /%s [<x> <y> <z>] <json訊息或"字串">
 
-command.railcraft.railcraft.track.message.subtitle.desc=- %s : 通知鐵軌副標題
-command.railcraft.railcraft.track.message.subtitle.help=設定通知鐵軌顯示的副標題
-command.railcraft.railcraft.track.message.subtitle.format=格式: /%s [<x> <y> <z>] <原始 json 訊息>
+command.railcraft.railcraft.track.message.title.desc=- %s : 傳訊鐵軌主標題
+command.railcraft.railcraft.track.message.title.help=設定傳訊鐵軌顯示的主標題，詳見原版 '/title' 指令
+command.railcraft.railcraft.track.message.title.format=格式: /%s [<x> <y> <z>] <json訊息或"字串">
+
+command.railcraft.railcraft.track.message.subtitle.desc=- %s : 傳訊鐵軌副標題
+command.railcraft.railcraft.track.message.subtitle.help=設定傳訊鐵軌顯示的副標題，詳見原版 '/title' 指令
+command.railcraft.railcraft.track.message.subtitle.format=格式: /%s [<x> <y> <z>] <json訊息或"字串">
+
+command.railcraft.railcraft.track.message.actionbar.desc=- %s : 傳訊鐵軌動作條
+command.railcraft.railcraft.track.message.actionbar.help=設定傳訊鐵軌顯示於快捷欄上方的標題，詳見原版 '/title' 指令
+command.railcraft.railcraft.track.message.actionbar.format=格式: /%s [<x> <y> <z>] <json訊息或"字串">
 
 command.railcraft.railcraft.tile.desc=- %s : 方塊實體工具
 command.railcraft.railcraft.tile.help=為方塊實體準備的工具
@@ -146,6 +162,9 @@ entity.railcraft.cart_basic.name=礦車
 entity.railcraft.cart_bed.name=床鋪車
 entity.railcraft.cart_cargo.name=貨物礦車
 entity.railcraft.cart_chest.name=運輸礦車
+entity.railcraft.cart_chest_metals.name=金屬箱車
+entity.railcraft.cart_chest_void.name=虛無箱車
+entity.railcraft.cart_command_block.name=指令方塊礦車
 entity.railcraft.cart_furnace.name=動力礦車
 entity.railcraft.cart_gift.name=禮物車
 entity.railcraft.cart_hopper.name=漏斗礦車
@@ -156,6 +175,7 @@ entity.railcraft.cart_ic2_mfsu.name=MFSU儲電車
 entity.railcraft.cart_jukebox.name=唱片機車
 entity.railcraft.cart_pumpkin.name=南瓜車
 entity.railcraft.cart_redstone_flux.name=Redstone Flux 儲能車
+entity.railcraft.cart_spawner.name=生怪磚礦車
 entity.railcraft.cart_tank.name=蓄水車
 entity.railcraft.cart_tnt.name=TNT礦車
 entity.railcraft.cart_tnt_wood.name=木製TNT礦車
@@ -168,7 +188,10 @@ entity.railcraft.mow_track_relayer.name=軌道替換車
 entity.railcraft.mow_track_remover.name=軌道拆除車
 entity.railcraft.mow_undercutter.name=地板施工車
 
-entity.Villager.trackman=鐵路工人
+entity.Villager.trackman=鐵路工
+entity.Villager.cartman=車輛技師
+entity.Villager.alloyer=合金鍛工
+entity.Villager.steel_forger=鍊鋼匠
 
 fluid.creosote=雜酚油
 fluid.steam=蒸氣
@@ -212,6 +235,7 @@ item.railcraft.charge.spool.medium.name=中型電線線軸
 item.railcraft.charge.spool.small.name=小型電線線軸
 
 item.railcraft.circuit.controller.name=控制電路
+item.railcraft.circuit.radio.name=無線電路
 item.railcraft.circuit.receiver.name=接收電路
 item.railcraft.circuit.signal.name=信號電路
 
@@ -243,7 +267,8 @@ item.railcraft.entity.cart.basic.name=礦車
 item.railcraft.entity.cart.bed.name=床鋪車
 item.railcraft.entity.cart.cargo.name=貨物礦車
 item.railcraft.entity.cart.chest.name=運輸礦車
-item.railcraft.entity.cart.void.name=虛無礦車
+item.railcraft.entity.cart.chest.metals.name=金屬箱礦車
+item.railcraft.entity.cart.chest.void.name=虛無箱礦車
 item.railcraft.entity.cart.furnace.name=動力礦車
 item.railcraft.entity.cart.gift.name=禮物車
 item.railcraft.entity.cart.gift.tips=聖誕快樂
@@ -255,6 +280,7 @@ item.railcraft.entity.cart.jukebox.name=唱片機車
 item.railcraft.entity.cart.pumpkin.name=南瓜車
 item.railcraft.entity.cart.pumpkin.tips=給糖或搗蛋
 item.railcraft.entity.cart.redstone.flux.name=Redstone Flux 儲能車
+item.railcraft.entity.cart.spawner.name=生怪磚礦車
 item.railcraft.entity.cart.tank.name=蓄水車
 item.railcraft.entity.cart.tnt.name=TNT礦車
 item.railcraft.entity.cart.tnt.wood.name=木製TNT礦車
@@ -606,7 +632,11 @@ gui.railcraft.help=幫助
 
 gui.railcraft.ic2.energy.rate=速率: %s EU
 
+gui.railcraft.jei.category.coke=焦炭爐冶煉
+gui.railcraft.jei.category.blast_furnace=鼓風爐冶煉
+gui.railcraft.jei.category.crushing=礦石粉碎
 gui.railcraft.jei.category.rolling=金屬滾製
+gui.railcraft.jei.burntime=煉製時間: %s ticks
 
 gui.railcraft.link.broken=連結解除
 gui.railcraft.link.created=連結成功
@@ -704,9 +734,10 @@ gui.railcraft.routing.type.private=私有鐵路
 gui.railcraft.routing.type.public.tips=檢查任何通過的火車頭
 gui.railcraft.routing.type.public=公共鐵路
 
-gui.railcraft.season.none=無
 gui.railcraft.season.christmas=聖誕節
+gui.railcraft.season.default=預設
 gui.railcraft.season.halloween=萬聖夜
+gui.railcraft.season.none=無
 
 gui.railcraft.slot.map.valid=有效的物品:
 
@@ -718,7 +749,7 @@ gui.railcraft.surveyor.begin=開始測量
 gui.railcraft.surveyor.invalid=配對無效: 過於遙遠, 無軌道路徑, 或企圖與自身配對
 gui.railcraft.surveyor.lost=第一個號誌不存在，終止測量
 gui.railcraft.surveyor.success=成功配對號誌
-gui.railcraft.surveyor.track= %s 的附近沒有鐵軌
+gui.railcraft.surveyor.track=%s 的附近沒有鐵軌
 gui.railcraft.surveyor.unloaded=第一個號誌方塊未被讀取
 gui.railcraft.surveyor.wrong=無效的號誌方塊
 
@@ -736,7 +767,8 @@ gui.railcraft.track.coupler.mode.auto.coupler=自動連結
 gui.railcraft.track.coupler.mode.coupler=連結
 gui.railcraft.track.coupler.mode.decoupler=解除連結
 gui.railcraft.track.embarking.radius=半徑
-gui.railcraft.track.launcher.force=彈跳強度=%s
+gui.railcraft.track.launcher.force=彈跳強度 = %s
+gui.railcraft.track.locking.delay.delay=延時 = %s ticks
 gui.railcraft.track.locking.mode.boarding.train=列車發車
 gui.railcraft.track.locking.mode.boarding=發車
 gui.railcraft.track.locking.mode.holding.train=列車臨停
@@ -744,12 +776,14 @@ gui.railcraft.track.locking.mode.holding=臨停
 gui.railcraft.track.locking.mode.lockdown.train=列車鎖定
 gui.railcraft.track.locking.mode.lockdown=鎖定
 gui.railcraft.track.mode.change=改變成 %s 模式
-gui.railcraft.track.priming.fuse=點燃秒數=%s ticks
+gui.railcraft.track.priming.fuse=點燃秒數 = %s ticks
 
 gui.railcraft.track_kit.item.invalid.curve=§c§o無法放置在彎道上
 gui.railcraft.track_kit.item.invalid.slope=§c§o無法放置在斜面上
 gui.railcraft.track_kit.item.invalid.track=§c§o無效的軌道，不屬於基礎鐵軌或已裝上套件
 gui.railcraft.track_kit.item.invalid.track_type=§c§o無效的軌道類型
+gui.railcraft.track_kit.messenger.actionbar.default=§o§7可選的動作條訊息
+gui.railcraft.track_kit.messenger.actionbar.set=已設定軌道的動作條
 gui.railcraft.track_kit.messenger.subtitle.default=§o§7更改請使用"/rc track msg"
 gui.railcraft.track_kit.messenger.subtitle.set=已設定軌道的副標題
 gui.railcraft.track_kit.messenger.subtitle.standard=§o§7軌道訊息
@@ -782,6 +816,12 @@ keybind.railcraft.loco.reverse=機車反轉
 keybind.railcraft.loco.slower=機車減速
 keybind.railcraft.loco.whistle=機車汽笛
 
+potion.railcraft.creosote=雜酚油
+potion.effect.railcraft.creosote=雜酚油藥水
+splash_potion.effect.railcraft.creosote=飛濺 雜酚油藥水
+lingering_potion.effect.railcraft.creosote=滯留 雜酚油藥水
+tipped_arrow.effect.railcraft.creosote= 雜酚油之箭
+
 railcraft.locomotive.model.electric.default.name=標準電力
 railcraft.locomotive.model.steam.magic.default.name=標準魔力
 railcraft.locomotive.model.steam.solid.default.name=標準固體
@@ -792,6 +832,12 @@ railcraft.multiblock.state.master.true=此為主宰方塊
 railcraft.multiblock.state.master.false=此非主宰方塊
 railcraft.multiblock.state.unknown.unloaded=結構未被完整讀取: %s
 railcraft.multiblock.state.valid=有效的結構
+
+subtitles.railcraft.locomotive.steam.whistle=蒸氣機車汽笛聲
+subtitles.railcraft.locomotive.electric.whistle=電力機車汽笛聲
+subtitles.railcraft.machine.steamburst=蒸氣洩出聲
+subtitles.railcraft.machine.steamhiss=蒸氣嘶嘶聲
+subtitles.railcraft.machine.zap=機器火花
 
 tc.research_category.RAILCRAFT=軌道秘術師
 thaumcraft.research.RC_Crowbar.name=秘術鐵橇
@@ -816,6 +862,25 @@ tile.railcraft.actuator.routing.tips=控制緊鄰的轉轍鐵軌\n§o§9手撰�
 tile.railcraft.anvil.intact.name=鋼鐵砧
 tile.railcraft.anvil.slightlyDamaged.name=輕微損耗的鋼鐵砧
 tile.railcraft.anvil.veryDamaged.name=嚴重損耗的鋼鐵砧
+
+tile.railcraft.battery.nickel.iron.name=鎳-鐵電池
+tile.railcraft.battery.nickel.iron.desc=設計來與Railcraft電力網路同用的電池。適用於一般用途。可被碎石機回收。
+tile.railcraft.battery.nickel.iron.tips=§9Railcraft電網電池
+tile.railcraft.battery.nickel.zinc.name=鎳-鋅電池
+tile.railcraft.battery.nickel.zinc.desc=設計來與Railcraft電力網路同用的電池。適用於微量輸出、長期儲存。可被碎石機回收。
+tile.railcraft.battery.nickel.zinc.tips=§9Railcraft電網電池
+tile.railcraft.battery.zinc.carbon.name=鋅-碳電池
+tile.railcraft.battery.zinc.carbon.desc=設計來與Railcraft電力網路同用的電池。適用於便宜、一次性的儲存。可被碎石機回收。
+tile.railcraft.battery.zinc.carbon.tips=§9Railcraft電網電池
+tile.railcraft.battery.zinc.silver.name=鋅-銀電池
+tile.railcraft.battery.zinc.silver.desc=設計來與Railcraft電力網路同用的電池。適用於大量、一次性的儲存。可被碎石機回收。
+tile.railcraft.battery.zinc.silver.tips=§9Railcraft電網電池
+
+tile.railcraft.battery.tips.capacity=容量: %s c
+tile.railcraft.battery.tips.type=類型: %s
+tile.railcraft.battery.tips.efficiency=效益: %s%%
+tile.railcraft.battery.tips.maxdraw=最大輸出: %s c/t
+tile.railcraft.battery.tips.loss=耗損: %s  c/t
 
 tile.railcraft.brick.abyssal.block.name=深淵方塊
 tile.railcraft.brick.abyssal.brick.name=深淵磚
@@ -909,15 +974,6 @@ tile.railcraft.brick.pearlized.cobble.name=終界鵝卵石
 tile.railcraft.brick.pearlized.etched.name=蝕刻終界磚
 tile.railcraft.brick.pearlized.fitted.name=終界石磚
 tile.railcraft.brick.pearlized.ornate.name=浮雕終界磚
-
-tile.railcraft.battery.nickel.iron.name=鎳-鐵充電電池
-tile.railcraft.battery.nickel.iron.desc=設計來與Railcraft電力網路同用的電池。適用於一般用途。
-tile.railcraft.battery.nickel.zinc.name=鎳-鋅充電電池
-tile.railcraft.battery.nickel.zinc.desc=設計來與Railcraft電力網路同用的電池。適用於微量輸出、長期儲存。
-tile.railcraft.battery.tips.capacity=容量: %s c
-tile.railcraft.battery.tips.efficiency=效益: %s%%
-tile.railcraft.battery.tips.maxdraw=最大輸出: %s c/t
-tile.railcraft.battery.tips.loss=耗損: %s  c/t
 
 tile.railcraft.charge.feeder.admin.name=管理用電力供給單位
 tile.railcraft.charge.feeder.admin.tips=產出無限量的Railcraft電力\n§o§c- 需要紅石輸入 -
@@ -1498,6 +1554,9 @@ track_kit.railcraft.railcraft_control.tips=施予一道微小力量給礦車\n§
 track_kit.railcraft.railcraft_coupler.name=連結
 track_kit.railcraft.railcraft_coupler.tips=連結/解除連結通過的礦車\n§o§9- 以鐵橇點擊改變模式 -\n§o§c- 以紅石充能啟動 -
 
+track_kit.railcraft.railcraft_delayed.name=延時鎖定
+track_kit.railcraft.railcraft_delayed.tips=鎖住列車數個 tick 後放行\n§o§9- 以鐵橇點擊改變時長 -\n§o§c- 以紅石充能啟動 -
+
 track_kit.railcraft.railcraft_detector.name=感測
 track_kit.railcraft.railcraft_detector.tips=當礦車經指定方向通過\n便輸出紅石訊號\n§o§9- 以鐵橇點擊改變偵測方向 -\n§o§c- 可取得礦車的比較器輸出 -
 
@@ -1512,9 +1571,6 @@ track_kit.railcraft.railcraft_embarking.tips=讓附近的實體坐上礦車\n§o
 
 track_kit.railcraft.railcraft_gated.name=閘門
 track_kit.railcraft.railcraft_gated.tips=內建閘門的軌道\n§o§c- 以紅石充能開啟 -
-
-track_kit.railcraft.railcraft_gated_one_way.name=單向閘門
-track_kit.railcraft.railcraft_gated_one_way.tips=內建單向閘門的軌道\n§o§c- 以紅石充能開啟 -
 
 track_kit.railcraft.railcraft_junction.name=交叉
 
@@ -1533,7 +1589,7 @@ track_kit.railcraft.railcraft_locomotive.tips=啟動/停止火車頭\n§o§9- �
 track_kit.railcraft.railcraft_missing.name=失效的
 track_kit.railcraft.railcraft_missing.tips=占位符
 
-track_kit.railcraft.railcraft_messenger.name=通知
+track_kit.railcraft.railcraft_messenger.name=傳訊
 track_kit.railcraft.railcraft_messenger.tips=發送訊息給通過礦車上的乘坐者\n§o§9- 詳見指令"/rc track msg help"了解使用方法 -\n§o§c- 以紅石充能啟動 -
 
 track_kit.railcraft.railcraft_one_way.name=單向
@@ -1546,7 +1602,7 @@ track_kit.railcraft.railcraft_routing.name=路由
 track_kit.railcraft.railcraft_routing.tips=設定通過火車頭的車票\n§o§9- 以鐵橇點擊設定車票 -
 
 track_kit.railcraft.railcraft_transition.name=過渡
-track_kit.railcraft.railcraft_transition.tips=用於高速與普通速度間的過渡\n§o§c- 以紅石充能啟動 -
+track_kit.railcraft.railcraft_transition.tips=用於高速與普通速度間的過渡段\n§o§c- 以紅石充能啟動 -
 
 track_kit.railcraft.railcraft_turnout.name=分支
 
