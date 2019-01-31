@@ -599,7 +599,7 @@ gui.railcraft.charge.meter.node=Node -> Подача: %s c/t | Потеря: %s 
 gui.railcraft.charge.meter.producer=Питание -> Заряд: %s c | Производство: %s c/t  | Макс.подача: %s c/t | Потеря: %s c/t | Эфф: %s%%
 gui.railcraft.charge.meter.start=Запись данных через %s секунд...
 
-gui.railcraft.charge.network.usage=Использование сети: {процент}
+gui.railcraft.charge.network.usage=Использование сети: {percent}
 
 gui.railcraft.coke.oven=Коксовая печь
 
