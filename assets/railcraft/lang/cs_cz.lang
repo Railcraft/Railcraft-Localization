@@ -579,60 +579,60 @@ tile.railcraft.anvil.intact.name=Ocelová kovadlina
 tile.railcraft.anvil.slightlyDamaged.name=Lehce poškozená kovadlina
 tile.railcraft.anvil.veryDamaged.name=Hodně poškozená kovadlina
 
-tile.railcraft.brick.abyssal.block.name=Abyssal blok
-tile.railcraft.brick.abyssal.brick.name=Abyssal cihla
+tile.railcraft.brick.abyssal.polished.name=Abyssal blok
+tile.railcraft.brick.abyssal.paver.name=Abyssal cihla
 tile.railcraft.brick.abyssal.cobble.name=Abyssal kamenní
 tile.railcraft.brick.abyssal.etched.name=Leptaný Abyssal kámen
-tile.railcraft.brick.abyssal.fitted.name=Řezaný Abyssal kámen
-tile.railcraft.brick.abyssal.ornate.name=Zdobený Abyssal kámen
+tile.railcraft.brick.abyssal.brick.name=Řezaný Abyssal kámen
+tile.railcraft.brick.abyssal.chiseled.name=Zdobený Abyssal kámen
 
-tile.railcraft.brick.bleachedbone.block.name=Blok z vybělených kostí
-tile.railcraft.brick.bleachedbone.brick.name=Cihla z vybělených kostí
+tile.railcraft.brick.bleachedbone.polished.name=Blok z vybělených kostí
+tile.railcraft.brick.bleachedbone.paver.name=Cihla z vybělených kostí
 tile.railcraft.brick.bleachedbone.cobble.name=Dlažební kostky z vybělených kostí
 tile.railcraft.brick.bleachedbone.etched.name=Leptané cihly z vybělených kostí
-tile.railcraft.brick.bleachedbone.fitted.name=Řezané cihly z vybělených kostí
-tile.railcraft.brick.bleachedbone.ornate.name=Zdobené cihly z vybělených kostí
+tile.railcraft.brick.bleachedbone.brick.name=Řezané cihly z vybělených kostí
+tile.railcraft.brick.bleachedbone.chiseled.name=Zdobené cihly z vybělených kostí
 
-tile.railcraft.brick.bloodstained.block.name=Krví potřísněný blok
-tile.railcraft.brick.bloodstained.brick.name=Krví potřísněná cihla
+tile.railcraft.brick.bloodstained.polished.name=Krví potřísněný blok
+tile.railcraft.brick.bloodstained.paver.name=Krví potřísněná cihla
 tile.railcraft.brick.bloodstained.cobble.name=Krví potřísněné dlažební kostky
 tile.railcraft.brick.bloodstained.etched.name=Leptaný krví potřísněný kámen
-tile.railcraft.brick.bloodstained.fitted.name=Řezaný krví potřísněný kámen
-tile.railcraft.brick.bloodstained.ornate.name=Zdobený krví potřísněný kámen
+tile.railcraft.brick.bloodstained.brick.name=Řezaný krví potřísněný kámen
+tile.railcraft.brick.bloodstained.chiseled.name=Zdobený krví potřísněný kámen
 
-tile.railcraft.brick.frostbound.block.name=Zmrzlý blok
-tile.railcraft.brick.frostbound.brick.name=Zmrzlá cihla
+tile.railcraft.brick.frostbound.polished.name=Zmrzlý blok
+tile.railcraft.brick.frostbound.paver.name=Zmrzlá cihla
 tile.railcraft.brick.frostbound.cobble.name=Zmrzlé dlažební kostky
 tile.railcraft.brick.frostbound.etched.name=Leptaný zmrzlý kámen
-tile.railcraft.brick.frostbound.fitted.name=Řezaný zmrzlý kámen
-tile.railcraft.brick.frostbound.ornate.name=Zdobený zmrzlý kámen
+tile.railcraft.brick.frostbound.brick.name=Řezaný zmrzlý kámen
+tile.railcraft.brick.frostbound.chiseled.name=Zdobený zmrzlý kámen
 
-tile.railcraft.brick.infernal.block.name=Pekelný blok
-tile.railcraft.brick.infernal.brick.name=Pekelná cihla
+tile.railcraft.brick.infernal.polished.name=Pekelný blok
+tile.railcraft.brick.infernal.paver.name=Pekelná cihla
 tile.railcraft.brick.infernal.cobble.name=Pekelné dlažební kostky
 tile.railcraft.brick.infernal.etched.name=Leptaný pekelný kámen
-tile.railcraft.brick.infernal.fitted.name=Řezaný pekelný kámen
-tile.railcraft.brick.infernal.ornate.name=Zdobený pekelný kámen
+tile.railcraft.brick.infernal.brick.name=Řezaný pekelný kámen
+tile.railcraft.brick.infernal.chiseled.name=Zdobený pekelný kámen
 
-tile.railcraft.brick.nether.block.name=Netheritový blok
+tile.railcraft.brick.nether.polished.name=Netheritový blok
 tile.railcraft.brick.nether.cobble.name=Netheritové dlažební kostky
 tile.railcraft.brick.nether.etched.name=Leptaný Netheritový kámen
-tile.railcraft.brick.nether.fitted.name=Řezaný Netheritový kámen
-tile.railcraft.brick.nether.ornate.name=Zdobený Netheritový kámen
+tile.railcraft.brick.nether.brick.name=Řezaný Netheritový kámen
+tile.railcraft.brick.nether.chiseled.name=Zdobený Netheritový kámen
 
-tile.railcraft.brick.quarried.block.name=Quarried blok
-tile.railcraft.brick.quarried.brick.name=Quarried cihla
+tile.railcraft.brick.quarried.polished.name=Quarried blok
+tile.railcraft.brick.quarried.paver.name=Quarried cihla
 tile.railcraft.brick.quarried.cobble.name=Quarried dlažební kostky
 tile.railcraft.brick.quarried.etched.name=Leptaný Quarried kámen
-tile.railcraft.brick.quarried.fitted.name=Řezaný Quarried kámen
-tile.railcraft.brick.quarried.ornate.name=Zdobený Quarried kámen
+tile.railcraft.brick.quarried.brick.name=Řezaný Quarried kámen
+tile.railcraft.brick.quarried.chiseled.name=Zdobený Quarried kámen
 
-tile.railcraft.brick.sandy.block.name=Pískový blok
-tile.railcraft.brick.sandy.brick.name=Písková cihla
+tile.railcraft.brick.sandy.polished.name=Pískový blok
+tile.railcraft.brick.sandy.paver.name=Písková cihla
 tile.railcraft.brick.sandy.cobble.name=Pískové dlažební kostky
 tile.railcraft.brick.sandy.etched.name=Leptaný pískový kámen
-tile.railcraft.brick.sandy.fitted.name=Řezaný pískový kámen
-tile.railcraft.brick.sandy.ornate.name=Zdobený pískový kámen
+tile.railcraft.brick.sandy.brick.name=Řezaný pískový kámen
+tile.railcraft.brick.sandy.chiseled.name=Zdobený pískový kámen
 
 tile.railcraft.generic_brick_infernal.name=Pekelná cihla (zastaralá)
 tile.railcraft.generic_brick_sandy.name=Písková cihla (zastaralá)

@@ -653,60 +653,60 @@ tile.railcraft.anvil.intact.name=Steel Anvil
 tile.railcraft.anvil.slightlyDamaged.name=Bietjie Damaged Anvil Steel
 tile.railcraft.anvil.veryDamaged.name=Baie Damaged Steel Anvil
 
-tile.railcraft.brick.abyssal.block.name=Abyssal Blok
-tile.railcraft.brick.abyssal.brick.name=Abyssal baksteen
+tile.railcraft.brick.abyssal.polished.name=Abyssal Blok
+tile.railcraft.brick.abyssal.paver.name=Abyssal baksteen
 tile.railcraft.brick.abyssal.cobble.name=Abyssal Cobblestone
 tile.railcraft.brick.abyssal.etched.name=Gegraveerde Abyssal Stone
-tile.railcraft.brick.abyssal.fitted.name=toegerus Abyssal Stone
-tile.railcraft.brick.abyssal.ornate.name=Versierde Abyssal Stone
+tile.railcraft.brick.abyssal.brick.name=toegerus Abyssal Stone
+tile.railcraft.brick.abyssal.chiseled.name=Versierde Abyssal Stone
 
-tile.railcraft.brick.bleachedbone.block.name=Gebleik been Blok
-tile.railcraft.brick.bleachedbone.brick.name=Gebleik been baksteen
+tile.railcraft.brick.bleachedbone.polished.name=Gebleik been Blok
+tile.railcraft.brick.bleachedbone.paver.name=Gebleik been baksteen
 tile.railcraft.brick.bleachedbone.cobble.name=Gebleik been Cobblestone
 tile.railcraft.brick.bleachedbone.etched.name=Gegraveerde Gebleik been Stone
-tile.railcraft.brick.bleachedbone.fitted.name=toegerus Gebleik been Stone
-tile.railcraft.brick.bleachedbone.ornate.name=Gebleik been Versierde Stone
+tile.railcraft.brick.bleachedbone.brick.name=toegerus Gebleik been Stone
+tile.railcraft.brick.bleachedbone.chiseled.name=Gebleik been Versierde Stone
 
-tile.railcraft.brick.bloodstained.block.name=bebloede Blok
-tile.railcraft.brick.bloodstained.brick.name=bebloede baksteen
+tile.railcraft.brick.bloodstained.polished.name=bebloede Blok
+tile.railcraft.brick.bloodstained.paver.name=bebloede baksteen
 tile.railcraft.brick.bloodstained.cobble.name=bebloede Cobblestone
 tile.railcraft.brick.bloodstained.etched.name=Gegraveerde bebloede Stone
-tile.railcraft.brick.bloodstained.fitted.name=toegerus bebloede Stone
-tile.railcraft.brick.bloodstained.ornate.name=Versierde bebloede Stone
+tile.railcraft.brick.bloodstained.brick.name=toegerus bebloede Stone
+tile.railcraft.brick.bloodstained.chiseled.name=Versierde bebloede Stone
 
-tile.railcraft.brick.frostbound.block.name=Frost Bound Blok
-tile.railcraft.brick.frostbound.brick.name=Frost Bound baksteen
+tile.railcraft.brick.frostbound.polished.name=Frost Bound Blok
+tile.railcraft.brick.frostbound.paver.name=Frost Bound baksteen
 Geplaveide tile.railcraft.brick.frostbound.cobble.name=Frost Bound
 tile.railcraft.brick.frostbound.etched.name=Gegraveerde Frost Stone Bound
-tile.railcraft.brick.frostbound.fitted.name=toegerus Frost Stone Bound
-tile.railcraft.brick.frostbound.ornate.name=Frost Bound Versierde Stone
+tile.railcraft.brick.frostbound.brick.name=toegerus Frost Stone Bound
+tile.railcraft.brick.frostbound.chiseled.name=Frost Bound Versierde Stone
 
-tile.railcraft.brick.infernal.block.name=Infernal Blok
-tile.railcraft.brick.infernal.brick.name=Infernal baksteen
+tile.railcraft.brick.infernal.polished.name=Infernal Blok
+tile.railcraft.brick.infernal.paver.name=Infernal baksteen
 tile.railcraft.brick.infernal.cobble.name=Infernal Cobblestone
 tile.railcraft.brick.infernal.etched.name=Gegraveerde Infernal Stone
-tile.railcraft.brick.infernal.fitted.name=toegerus Infernal Stone
-tile.railcraft.brick.infernal.ornate.name=Versierde Infernal Stone
+tile.railcraft.brick.infernal.brick.name=toegerus Infernal Stone
+tile.railcraft.brick.infernal.chiseled.name=Versierde Infernal Stone
 
-tile.railcraft.brick.nether.block.name=Nether Blok
+tile.railcraft.brick.nether.polished.name=Nether Blok
 tile.railcraft.brick.nether.cobble.name=Nether Cobblestone
 tile.railcraft.brick.nether.etched.name=Gegraveerde Nether Stone
-tile.railcraft.brick.nether.fitted.name=toegerus Nether Stone
-tile.railcraft.brick.nether.ornate.name=Versierde Nether Stone
+tile.railcraft.brick.nether.brick.name=toegerus Nether Stone
+tile.railcraft.brick.nether.chiseled.name=Versierde Nether Stone
 
-tile.railcraft.brick.quarried.block.name=ontgin Blok
-tile.railcraft.brick.quarried.brick.name=ontgin baksteen
+tile.railcraft.brick.quarried.polished.name=ontgin Blok
+tile.railcraft.brick.quarried.paver.name=ontgin baksteen
 tile.railcraft.brick.quarried.cobble.name=ontgin Cobblestone
-Geëts Stone ontgin tile.railcraft.brick.quarried.etched.name =
-Stone ontgin Fitted tile.railcraft.brick.quarried.fitted.name =
-Versierde Stone ontgin tile.railcraft.brick.quarried.ornate.name =
+tile.railcraft.brick.quarried.etched.name=Geëts Stone ontgin
+tile.railcraft.brick.quarried.brick.name=Stone ontgin Fitted
+tile.railcraft.brick.quarried.chiseled.name=Versierde Stone ontgin
 
-tile.railcraft.brick.sandy.block.name=Sandy Blok
-tile.railcraft.brick.sandy.brick.name=Sandy baksteen
+tile.railcraft.brick.sandy.polished.name=Sandy Blok
+tile.railcraft.brick.sandy.paver.name=Sandy baksteen
 tile.railcraft.brick.sandy.cobble.name=Sandy Cobblestone
 tile.railcraft.brick.sandy.etched.name=Gegraveerde Sandy Stone
-tile.railcraft.brick.sandy.fitted.name=toegerus Sandy Stone
-tile.railcraft.brick.sandy.ornate.name=Versierde Sandy Stone
+tile.railcraft.brick.sandy.brick.name=toegerus Sandy Stone
+tile.railcraft.brick.sandy.chiseled.name=Versierde Sandy Stone
 
 tile.railcraft.charge.feeder.admin.name=Admin Heffing Feeder Eenheid
 tile.railcraft.charge.feeder.admin.tips=bied onbeperkte Railcraft Klag

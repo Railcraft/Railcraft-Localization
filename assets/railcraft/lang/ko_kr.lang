@@ -17,46 +17,46 @@ item.railcraft.backpack.tips=Railcraft, Inc. 에서 디자인
 
 tile.railcraft.residual.heat.name=잔열
 
-tile.railcraft.brick.abyssal.brick.name=심해석 벽돌
-tile.railcraft.brick.abyssal.block.name=심해석
-tile.railcraft.brick.abyssal.fitted.name=심해석 큰 벽돌
-tile.railcraft.brick.abyssal.ornate.name=장식된 심해석
+tile.railcraft.brick.abyssal.paver.name=심해석 벽돌
+tile.railcraft.brick.abyssal.polished.name=심해석
+tile.railcraft.brick.abyssal.brick.name=심해석 큰 벽돌
+tile.railcraft.brick.abyssal.chiseled.name=장식된 심해석
 tile.railcraft.brick.abyssal.etched.name=조각된 심해석
 
-tile.railcraft.brick.bleachedbone.brick.name=백골석 벽돌
-tile.railcraft.brick.bleachedbone.block.name=백골석
-tile.railcraft.brick.bleachedbone.fitted.name=백골석 큰 벽돌
-tile.railcraft.brick.bleachedbone.ornate.name=장식된 백골석 
+tile.railcraft.brick.bleachedbone.paver.name=백골석 벽돌
+tile.railcraft.brick.bleachedbone.polished.name=백골석
+tile.railcraft.brick.bleachedbone.brick.name=백골석 큰 벽돌
+tile.railcraft.brick.bleachedbone.chiseled.name=장식된 백골석
 tile.railcraft.brick.bleachedbone.etched.name=조각된 백골석 
 
-tile.railcraft.brick.bloodstained.brick.name=혈석 벽돌
-tile.railcraft.brick.bloodstained.block.name=혈석
-tile.railcraft.brick.bloodstained.fitted.name=혈석 큰 벽돌
-tile.railcraft.brick.bloodstained.ornate.name=장식된 혈석
+tile.railcraft.brick.bloodstained.paver.name=혈석 벽돌
+tile.railcraft.brick.bloodstained.polished.name=혈석
+tile.railcraft.brick.bloodstained.brick.name=혈석 큰 벽돌
+tile.railcraft.brick.bloodstained.chiseled.name=장식된 혈석
 tile.railcraft.brick.bloodstained.etched.name=조각된 혈석
 
-tile.railcraft.brick.frostbound.brick.name=서릿돌 벽돌
-tile.railcraft.brick.frostbound.block.name=서릿돌
-tile.railcraft.brick.frostbound.fitted.name=서릿돌 큰 벽돌
-tile.railcraft.brick.frostbound.ornate.name=장식된 서릿돌
+tile.railcraft.brick.frostbound.paver.name=서릿돌 벽돌
+tile.railcraft.brick.frostbound.polished.name=서릿돌
+tile.railcraft.brick.frostbound.brick.name=서릿돌 큰 벽돌
+tile.railcraft.brick.frostbound.chiseled.name=장식된 서릿돌
 tile.railcraft.brick.frostbound.etched.name=조각된 서릿돌
 
-tile.railcraft.brick.infernal.brick.name=연옥석 벽돌
-tile.railcraft.brick.infernal.block.name=연옥석
-tile.railcraft.brick.infernal.fitted.name=연옥석 큰 벽돌
-tile.railcraft.brick.infernal.ornate.name=장식된 연옥석
+tile.railcraft.brick.infernal.paver.name=연옥석 벽돌
+tile.railcraft.brick.infernal.polished.name=연옥석
+tile.railcraft.brick.infernal.brick.name=연옥석 큰 벽돌
+tile.railcraft.brick.infernal.chiseled.name=장식된 연옥석
 tile.railcraft.brick.infernal.etched.name=조각된 연옥석
 
-tile.railcraft.brick.quarried.brick.name=정제석 벽돌
-tile.railcraft.brick.quarried.block.name=정제석
-tile.railcraft.brick.quarried.fitted.name=정제석 큰 벽돌
-tile.railcraft.brick.quarried.ornate.name=장식된 정제석
+tile.railcraft.brick.quarried.paver.name=정제석 벽돌
+tile.railcraft.brick.quarried.polished.name=정제석
+tile.railcraft.brick.quarried.brick.name=정제석 큰 벽돌
+tile.railcraft.brick.quarried.chiseled.name=장식된 정제석
 tile.railcraft.brick.quarried.etched.name=조각된 정제석
 
-tile.railcraft.brick.sandy.brick.name=샌디스톤 벽돌
-tile.railcraft.brick.sandy.block.name=샌디스톤
-tile.railcraft.brick.sandy.fitted.name=샌디스톤 큰 벽돌 
-tile.railcraft.brick.sandy.ornate.name=장식된 샌디스톤
+tile.railcraft.brick.sandy.paver.name=샌디스톤 벽돌
+tile.railcraft.brick.sandy.polished.name=샌디스톤
+tile.railcraft.brick.sandy.brick.name=샌디스톤 큰 벽돌
+tile.railcraft.brick.sandy.chiseled.name=장식된 샌디스톤
 tile.railcraft.brick.sandy.etched.name=조각된 샌디스톤
 
 item.railcraft.entity.cart.worldspike.standard.name=앵커 카트

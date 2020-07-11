@@ -539,60 +539,60 @@ tile.railcraft.anvil.intact.name=Acél üllő
 tile.railcraft.anvil.slightlyDamaged.name=Kicsit sérült üllő
 tile.railcraft.anvil.veryDamaged.name=Nagyon sérült üllő
 
-tile.railcraft.brick.abyssal.block.name=Mélységi tömb
-tile.railcraft.brick.abyssal.brick.name=Mélységi kőtégla
+tile.railcraft.brick.abyssal.polished.name=Mélységi tömb
+tile.railcraft.brick.abyssal.paver.name=Mélységi kőtégla
 tile.railcraft.brick.abyssal.cobble.name=Mélységi zúzottkő
 tile.railcraft.brick.abyssal.etched.name=Mélységi mart kő
-tile.railcraft.brick.abyssal.fitted.name=Mélységi illesztett kő
-tile.railcraft.brick.abyssal.ornate.name=Mélységi ékes kő
+tile.railcraft.brick.abyssal.brick.name=Mélységi illesztett kő
+tile.railcraft.brick.abyssal.chiseled.name=Mélységi ékes kő
 
-tile.railcraft.brick.bleachedbone.block.name=Fehérített tömb
-tile.railcraft.brick.bleachedbone.brick.name=Fehérített tégla
+tile.railcraft.brick.bleachedbone.polished.name=Fehérített tömb
+tile.railcraft.brick.bleachedbone.paver.name=Fehérített tégla
 tile.railcraft.brick.bleachedbone.cobble.name=Fehérített zúzottkő
 tile.railcraft.brick.bleachedbone.etched.name=Fehérített mart kő
-tile.railcraft.brick.bleachedbone.fitted.name=Fehérített illesztett kő
-tile.railcraft.brick.bleachedbone.ornate.name=Fehérített ékes kő
+tile.railcraft.brick.bleachedbone.brick.name=Fehérített illesztett kő
+tile.railcraft.brick.bleachedbone.chiseled.name=Fehérített ékes kő
 
-tile.railcraft.brick.bloodstained.block.name=Vérfoltos tömb
-tile.railcraft.brick.bloodstained.brick.name=Vérfoltos tégla
+tile.railcraft.brick.bloodstained.polished.name=Vérfoltos tömb
+tile.railcraft.brick.bloodstained.paver.name=Vérfoltos tégla
 tile.railcraft.brick.bloodstained.cobble.name=Vérfoltos zúzottkő
 tile.railcraft.brick.bloodstained.etched.name=Vérfoltos mart kő
-tile.railcraft.brick.bloodstained.fitted.name=Vérfoltos illesztett kő
-tile.railcraft.brick.bloodstained.ornate.name=Vérfoltos ékes kő
+tile.railcraft.brick.bloodstained.brick.name=Vérfoltos illesztett kő
+tile.railcraft.brick.bloodstained.chiseled.name=Vérfoltos ékes kő
 
-tile.railcraft.brick.frostbound.block.name=Megfagyott tömb
-tile.railcraft.brick.frostbound.brick.name=Fagyott tégla
+tile.railcraft.brick.frostbound.polished.name=Megfagyott tömb
+tile.railcraft.brick.frostbound.paver.name=Fagyott tégla
 tile.railcraft.brick.frostbound.cobble.name=Fagyott zúzottkő
 tile.railcraft.brick.frostbound.etched.name=Fagyott mart kő
-tile.railcraft.brick.frostbound.fitted.name=Fagyott illesztett kő
-tile.railcraft.brick.frostbound.ornate.name=Fagyott ékes kő
+tile.railcraft.brick.frostbound.brick.name=Fagyott illesztett kő
+tile.railcraft.brick.frostbound.chiseled.name=Fagyott ékes kő
 
-tile.railcraft.brick.infernal.block.name=Pokolbéli tömb
-tile.railcraft.brick.infernal.brick.name=Pokolbéli tégla
+tile.railcraft.brick.infernal.polished.name=Pokolbéli tömb
+tile.railcraft.brick.infernal.paver.name=Pokolbéli tégla
 tile.railcraft.brick.infernal.cobble.name=Pokolbéli zúzottkő
 tile.railcraft.brick.infernal.etched.name=Pokolbéli mart kő
-tile.railcraft.brick.infernal.fitted.name=Pokolbéli illesztett kő
-tile.railcraft.brick.infernal.ornate.name=Pokolbéli ékes kő
+tile.railcraft.brick.infernal.brick.name=Pokolbéli illesztett kő
+tile.railcraft.brick.infernal.chiseled.name=Pokolbéli ékes kő
 
-tile.railcraft.brick.nether.block.name=Alvilági tömb
+tile.railcraft.brick.nether.polished.name=Alvilági tömb
 tile.railcraft.brick.nether.cobble.name=Alvilági zúzottkő
 tile.railcraft.brick.nether.etched.name=Alvilági mart kő
-tile.railcraft.brick.nether.fitted.name=Alvilági illesztett kő
-tile.railcraft.brick.nether.ornate.name=Alvilági ékes kő
+tile.railcraft.brick.nether.brick.name=Alvilági illesztett kő
+tile.railcraft.brick.nether.chiseled.name=Alvilági ékes kő
 
-tile.railcraft.brick.quarried.block.name=Fejtett tömb
-tile.railcraft.brick.quarried.brick.name=Fejtett kőtégla
+tile.railcraft.brick.quarried.polished.name=Fejtett tömb
+tile.railcraft.brick.quarried.paver.name=Fejtett kőtégla
 tile.railcraft.brick.quarried.cobble.name=Fejtett zúzottkő
 tile.railcraft.brick.quarried.etched.name=Fejtett mart kő
-tile.railcraft.brick.quarried.fitted.name=Fejtett illesztett kő
-tile.railcraft.brick.quarried.ornate.name=Fejtett ékes kő
+tile.railcraft.brick.quarried.brick.name=Fejtett illesztett kő
+tile.railcraft.brick.quarried.chiseled.name=Fejtett ékes kő
 
-tile.railcraft.brick.sandy.block.name=Homokos tömb
-tile.railcraft.brick.sandy.brick.name=Homokos tégla
+tile.railcraft.brick.sandy.polished.name=Homokos tömb
+tile.railcraft.brick.sandy.paver.name=Homokos tégla
 tile.railcraft.brick.sandy.cobble.name=Homokos zúzottkő
 tile.railcraft.brick.sandy.etched.name=Homokos mart kő
-tile.railcraft.brick.sandy.fitted.name=Homokos illesztett kő
-tile.railcraft.brick.sandy.ornate.name=Homokos ékes kő
+tile.railcraft.brick.sandy.brick.name=Homokos illesztett kő
+tile.railcraft.brick.sandy.chiseled.name=Homokos ékes kő
 
 tile.railcraft.generic_brick_infernal.name=Pokolbéli tégla (Elavult)
 tile.railcraft.generic_brick_sandy.name=Homokos tégla (Elavult)

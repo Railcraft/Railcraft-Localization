@@ -928,98 +928,98 @@ tile.railcraft.battery.tips.efficiency=Эффективность: %s%%
 tile.railcraft.battery.tips.maxdraw=Макс.вывод: %s c/t
 tile.railcraft.battery.tips.loss=Потери: %s  c/t
 
-tile.railcraft.brick.abyssal.block.name=Блок бездны
-tile.railcraft.brick.abyssal.brick.name=Кирпич бездны
+tile.railcraft.brick.abyssal.polished.name=Блок бездны
+tile.railcraft.brick.abyssal.paver.name=Кирпич бездны
 tile.railcraft.brick.abyssal.cobble.name=Булыжник бездны
 tile.railcraft.brick.abyssal.etched.name=Гравированный камень бездны
-tile.railcraft.brick.abyssal.fitted.name=Крупный камень бездны
-tile.railcraft.brick.abyssal.ornate.name=Резной камень бездны
+tile.railcraft.brick.abyssal.brick.name=Крупный камень бездны
+tile.railcraft.brick.abyssal.chiseled.name=Резной камень бездны
 
-tile.railcraft.brick.bleachedbone.block.name=Костяной блок
-tile.railcraft.brick.bleachedbone.brick.name=Костяной кирпич
+tile.railcraft.brick.bleachedbone.polished.name=Костяной блок
+tile.railcraft.brick.bleachedbone.paver.name=Костяной кирпич
 tile.railcraft.brick.bleachedbone.cobble.name=Костяной булыжник
 tile.railcraft.brick.bleachedbone.etched.name=Костяной гравированный камень
-tile.railcraft.brick.bleachedbone.fitted.name=Костяной крупный камень
-tile.railcraft.brick.bleachedbone.ornate.name=Костяной резной камень
+tile.railcraft.brick.bleachedbone.brick.name=Костяной крупный камень
+tile.railcraft.brick.bleachedbone.chiseled.name=Костяной резной камень
 
-tile.railcraft.brick.bloodstained.block.name=Кровавый блок
-tile.railcraft.brick.bloodstained.brick.name=Кровавый кирпич
+tile.railcraft.brick.bloodstained.polished.name=Кровавый блок
+tile.railcraft.brick.bloodstained.paver.name=Кровавый кирпич
 tile.railcraft.brick.bloodstained.cobble.name=Кровавый булыжник
 tile.railcraft.brick.bloodstained.etched.name=Гравированный кровавый камень
-tile.railcraft.brick.bloodstained.fitted.name=Крупный кровавый камень
-tile.railcraft.brick.bloodstained.ornate.name=Резной кровавый камень
+tile.railcraft.brick.bloodstained.brick.name=Крупный кровавый камень
+tile.railcraft.brick.bloodstained.chiseled.name=Резной кровавый камень
 
-tile.railcraft.brick.frostbound.block.name=Заледеневший блок
-tile.railcraft.brick.frostbound.brick.name=Заледеневший кирпич
+tile.railcraft.brick.frostbound.polished.name=Заледеневший блок
+tile.railcraft.brick.frostbound.paver.name=Заледеневший кирпич
 tile.railcraft.brick.frostbound.cobble.name=Заледеневший булыжник
 tile.railcraft.brick.frostbound.etched.name=Заледеневший гравированный камень
-tile.railcraft.brick.frostbound.fitted.name=Крупный заледеневший камень
-tile.railcraft.brick.frostbound.ornate.name=Заледеневший резной камень
+tile.railcraft.brick.frostbound.brick.name=Крупный заледеневший камень
+tile.railcraft.brick.frostbound.chiseled.name=Заледеневший резной камень
 
-tile.railcraft.brick.infernal.block.name=Дьявольский блок
-tile.railcraft.brick.infernal.brick.name=Дьявольский кирпич
+tile.railcraft.brick.infernal.polished.name=Дьявольский блок
+tile.railcraft.brick.infernal.paver.name=Дьявольский кирпич
 tile.railcraft.brick.infernal.cobble.name=Дьявольский булыжник
 tile.railcraft.brick.infernal.etched.name=Гравированный дьявольский камень
-tile.railcraft.brick.infernal.fitted.name=Крупный дьявольский камень
-tile.railcraft.brick.infernal.ornate.name=Резной дьявольский камень
+tile.railcraft.brick.infernal.brick.name=Крупный дьявольский камень
+tile.railcraft.brick.infernal.chiseled.name=Резной дьявольский камень
 
-tile.railcraft.brick.nether.block.name=Блок нижнего мира
+tile.railcraft.brick.nether.polished.name=Блок нижнего мира
 tile.railcraft.brick.nether.cobble.name=Булыжник нижнего мира
 tile.railcraft.brick.nether.etched.name=Гравированный камень нижнего мира
-tile.railcraft.brick.nether.fitted.name=Крупный камень нижнего мира
-tile.railcraft.brick.nether.ornate.name=Резной камень нижнего мира
+tile.railcraft.brick.nether.brick.name=Крупный камень нижнего мира
+tile.railcraft.brick.nether.chiseled.name=Резной камень нижнего мира
 
-tile.railcraft.brick.red.nether.block.name=Красный блок нижнего мира
+tile.railcraft.brick.red.nether.polished.name=Красный блок нижнего мира
 tile.railcraft.brick.red.nether.cobble.name=Красный булыжник нижнего мира
 tile.railcraft.brick.red.nether.etched.name=Красный гравированный камень нижнего мира
-tile.railcraft.brick.red.nether.fitted.name=Красный крупный камень нижнего мира
-tile.railcraft.brick.red.nether.ornate.name=Красный резной камень нижнего мира
+tile.railcraft.brick.red.nether.brick.name=Красный крупный камень нижнего мира
+tile.railcraft.brick.red.nether.chiseled.name=Красный резной камень нижнего мира
 
-tile.railcraft.brick.quarried.block.name=Карьерный блок
-tile.railcraft.brick.quarried.brick.name=Карьерный кирпич
+tile.railcraft.brick.quarried.polished.name=Карьерный блок
+tile.railcraft.brick.quarried.paver.name=Карьерный кирпич
 tile.railcraft.brick.quarried.cobble.name=Карьерный булыжник
 tile.railcraft.brick.quarried.etched.name=Гравированный карьерный камень
-tile.railcraft.brick.quarried.fitted.name=Крупный карьерный камень
-tile.railcraft.brick.quarried.ornate.name=Резной карьерный камень
+tile.railcraft.brick.quarried.brick.name=Крупный карьерный камень
+tile.railcraft.brick.quarried.chiseled.name=Резной карьерный камень
 
-tile.railcraft.brick.granite.brick.name=Гранитный кирпич
+tile.railcraft.brick.granite.paver.name=Гранитный кирпич
 tile.railcraft.brick.granite.cobble.name=Гранитный булыжник
 tile.railcraft.brick.granite.etched.name=Гравированный гранитный камень
-tile.railcraft.brick.granite.fitted.name=Крупный гранитный камень
-tile.railcraft.brick.granite.ornate.name=Резной гранитный камень
+tile.railcraft.brick.granite.brick.name=Крупный гранитный камень
+tile.railcraft.brick.granite.chiseled.name=Резной гранитный камень
 
-tile.railcraft.brick.diorite.brick.name=Диоритовый кирпич
+tile.railcraft.brick.diorite.paver.name=Диоритовый кирпич
 tile.railcraft.brick.diorite.cobble.name=Диоритовый булыжник
 tile.railcraft.brick.diorite.etched.name=Гравированный диоритовый камень
-tile.railcraft.brick.diorite.fitted.name=Крупный диоритовый камень
-tile.railcraft.brick.diorite.ornate.name=Резной диоритовый камень
+tile.railcraft.brick.diorite.brick.name=Крупный диоритовый камень
+tile.railcraft.brick.diorite.chiseled.name=Резной диоритовый камень
 
-tile.railcraft.brick.andesite.brick.name=Андезитовый кирпич
+tile.railcraft.brick.andesite.paver.name=Андезитовый кирпич
 tile.railcraft.brick.andesite.cobble.name=Андезитовый булыжник
 tile.railcraft.brick.andesite.etched.name=Гравированный андезитовый камень
-tile.railcraft.brick.andesite.fitted.name=Крупный андезитовый камень
-tile.railcraft.brick.andesite.ornate.name=Резной андезитовый камень
+tile.railcraft.brick.andesite.brick.name=Крупный андезитовый камень
+tile.railcraft.brick.andesite.chiseled.name=Резной андезитовый камень
 
-tile.railcraft.brick.sandy.block.name=Песчаный блок
-tile.railcraft.brick.sandy.brick.name=Песчаный кирпич
+tile.railcraft.brick.sandy.polished.name=Песчаный блок
+tile.railcraft.brick.sandy.paver.name=Песчаный кирпич
 tile.railcraft.brick.sandy.cobble.name=Песчаный булыжник
 tile.railcraft.brick.sandy.etched.name=Гравированный песчаный камень
-tile.railcraft.brick.sandy.fitted.name=Крупный песчаный камень
-tile.railcraft.brick.sandy.ornate.name=Резной песчаный камень
+tile.railcraft.brick.sandy.brick.name=Крупный песчаный камень
+tile.railcraft.brick.sandy.chiseled.name=Резной песчаный камень
 
-tile.railcraft.brick.red.sandy.block.name=Красный песчаный блок
-tile.railcraft.brick.red.sandy.brick.name=Красный песчаный кирпич
+tile.railcraft.brick.red.sandy.polished.name=Красный песчаный блок
+tile.railcraft.brick.red.sandy.paver.name=Красный песчаный кирпич
 tile.railcraft.brick.red.sandy.cobble.name=Красный песчаный булыжник
 tile.railcraft.brick.red.sandy.etched.name=Красный гравированный песчаный камень
-tile.railcraft.brick.red.sandy.fitted.name=Красный крупный песчаный камень
-tile.railcraft.brick.red.sandy.ornate.name=Красный резной песчаный камень
+tile.railcraft.brick.red.sandy.brick.name=Красный крупный песчаный камень
+tile.railcraft.brick.red.sandy.chiseled.name=Красный резной песчаный камень
 
-tile.railcraft.brick.pearlized.block.name=Жемчужный блок
-tile.railcraft.brick.pearlized.brick.name=Жемчужный кирпич
+tile.railcraft.brick.pearlized.polished.name=Жемчужный блок
+tile.railcraft.brick.pearlized.paver.name=Жемчужный кирпич
 tile.railcraft.brick.pearlized.cobble.name=Жемчужный булыжник
 tile.railcraft.brick.pearlized.etched.name=Гравированный жемчужный камень
-tile.railcraft.brick.pearlized.fitted.name=Крупный жемчужный камень
-tile.railcraft.brick.pearlized.ornate.name=Резной жемчужный камень
+tile.railcraft.brick.pearlized.brick.name=Крупный жемчужный камень
+tile.railcraft.brick.pearlized.chiseled.name=Резной жемчужный камень
 
 tile.railcraft.charge.feeder.admin.name=Администраторский модуль питания
 tile.railcraft.charge.feeder.admin.tips=Предоставляет бесконечный Railcraft заряд\n§o§c- Требуется ввод красного камня -

@@ -533,60 +533,60 @@ tile.railcraft.anvil.intact.name=Yunque de Acero
 tile.railcraft.anvil.slightlyDamaged.name=Yunque Ligeramente Dañado
 tile.railcraft.anvil.veryDamaged.name=Yunque Muy Dañado
 
-tile.railcraft.brick.abyssal.block.name=Bloque Abisal
-tile.railcraft.brick.abyssal.brick.name=Ladrillos Abisales
+tile.railcraft.brick.abyssal.polished.name=Bloque Abisal
+tile.railcraft.brick.abyssal.paver.name=Ladrillos Abisales
 tile.railcraft.brick.abyssal.cobble.name=Adoquín Abisal
 tile.railcraft.brick.abyssal.etched.name=Piedra Abisal Grabada
-tile.railcraft.brick.abyssal.fitted.name=Piedra Abisal Entallada
-tile.railcraft.brick.abyssal.ornate.name=Piedra Abisal Ornamentada
+tile.railcraft.brick.abyssal.brick.name=Piedra Abisal Entallada
+tile.railcraft.brick.abyssal.chiseled.name=Piedra Abisal Ornamentada
 
-tile.railcraft.brick.bleachedbone.block.name=Bloque de Hueso Desteñido
-tile.railcraft.brick.bleachedbone.brick.name=Ladrillos de Hueso Desteñido
+tile.railcraft.brick.bleachedbone.polished.name=Bloque de Hueso Desteñido
+tile.railcraft.brick.bleachedbone.paver.name=Ladrillos de Hueso Desteñido
 tile.railcraft.brick.bleachedbone.cobble.name=Adoquín de Hueso Desteñido
 tile.railcraft.brick.bleachedbone.etched.name=Piedra de Hueso Desteñido Grabada
-tile.railcraft.brick.bleachedbone.fitted.name=Piedra de Hueso Desteñido Entallada
-tile.railcraft.brick.bleachedbone.ornate.name=Piedra de Hueso Desteñido Ornamentada
+tile.railcraft.brick.bleachedbone.brick.name=Piedra de Hueso Desteñido Entallada
+tile.railcraft.brick.bleachedbone.chiseled.name=Piedra de Hueso Desteñido Ornamentada
 
-tile.railcraft.brick.bloodstained.block.name=Bloque Manchado con Sangre
-tile.railcraft.brick.bloodstained.brick.name=Ladrillos Manchado con Sangre
+tile.railcraft.brick.bloodstained.polished.name=Bloque Manchado con Sangre
+tile.railcraft.brick.bloodstained.paver.name=Ladrillos Manchado con Sangre
 tile.railcraft.brick.bloodstained.cobble.name=Adoquín Manchado con Sangre
 tile.railcraft.brick.bloodstained.etched.name=Piedra Manchado con Sangre Grabada
-tile.railcraft.brick.bloodstained.fitted.name=Piedra Manchada con Sangre Entallada
-tile.railcraft.brick.bloodstained.ornate.name=Piedra Manchada con Sangre Ornamentada
+tile.railcraft.brick.bloodstained.brick.name=Piedra Manchada con Sangre Entallada
+tile.railcraft.brick.bloodstained.chiseled.name=Piedra Manchada con Sangre Ornamentada
 
-tile.railcraft.brick.frostbound.block.name=Bloque de Hielo atado
-tile.railcraft.brick.frostbound.brick.name=Ladrillos de Hielo atado
+tile.railcraft.brick.frostbound.polished.name=Bloque de Hielo atado
+tile.railcraft.brick.frostbound.paver.name=Ladrillos de Hielo atado
 tile.railcraft.brick.frostbound.cobble.name=Adoquín de Hielo atado
 tile.railcraft.brick.frostbound.etched.name=Piedra de Hielo atado Grabada
-tile.railcraft.brick.frostbound.fitted.name=Piedra de Hielo atado Entallada
-tile.railcraft.brick.frostbound.ornate.name=Piedra de Hielo atado Ornamentado
+tile.railcraft.brick.frostbound.brick.name=Piedra de Hielo atado Entallada
+tile.railcraft.brick.frostbound.chiseled.name=Piedra de Hielo atado Ornamentado
 
-tile.railcraft.brick.infernal.block.name=Bloque Infernal
-tile.railcraft.brick.infernal.brick.name=Ladrillos Infernales
+tile.railcraft.brick.infernal.polished.name=Bloque Infernal
+tile.railcraft.brick.infernal.paver.name=Ladrillos Infernales
 tile.railcraft.brick.infernal.cobble.name=Adoquín Infernal
 tile.railcraft.brick.infernal.etched.name=Piedra Infernal Grabada
-tile.railcraft.brick.infernal.fitted.name=Piedra Infernal Entallada
-tile.railcraft.brick.infernal.ornate.name=Piedra Infernal Ornamentada
+tile.railcraft.brick.infernal.brick.name=Piedra Infernal Entallada
+tile.railcraft.brick.infernal.chiseled.name=Piedra Infernal Ornamentada
 
-tile.railcraft.brick.nether.block.name=Bloque del Inframundo
+tile.railcraft.brick.nether.polished.name=Bloque del Inframundo
 tile.railcraft.brick.nether.cobble.name=Adoquín del Inframundo
 tile.railcraft.brick.nether.etched.name=Piedra del Inframundo Grabada
-tile.railcraft.brick.nether.fitted.name=Piedra del Inframundo Entallada
-tile.railcraft.brick.nether.ornate.name=Piedra del Inframundo Ornamentada
+tile.railcraft.brick.nether.brick.name=Piedra del Inframundo Entallada
+tile.railcraft.brick.nether.chiseled.name=Piedra del Inframundo Ornamentada
 
-tile.railcraft.brick.quarried.block.name=Bloque de Cantera
-tile.railcraft.brick.quarried.brick.name=Ladrillos de Cantera
+tile.railcraft.brick.quarried.polished.name=Bloque de Cantera
+tile.railcraft.brick.quarried.paver.name=Ladrillos de Cantera
 tile.railcraft.brick.quarried.cobble.name=Adoquín de Cantera
 tile.railcraft.brick.quarried.etched.name=Piedra de Cantera Grabada
-tile.railcraft.brick.quarried.fitted.name=Piedra de Cantera Entallada
-tile.railcraft.brick.quarried.ornate.name=Piedra de Cantera Ornamentada
+tile.railcraft.brick.quarried.brick.name=Piedra de Cantera Entallada
+tile.railcraft.brick.quarried.chiseled.name=Piedra de Cantera Ornamentada
 
-tile.railcraft.brick.sandy.block.name=Bloque Arenoso
-tile.railcraft.brick.sandy.brick.name=Ladrillo Arenoso
+tile.railcraft.brick.sandy.polished.name=Bloque Arenoso
+tile.railcraft.brick.sandy.paver.name=Ladrillo Arenoso
 tile.railcraft.brick.sandy.cobble.name=Adoquín Arenoso
 tile.railcraft.brick.sandy.etched.name=Piedra Arenosa Grabada
-tile.railcraft.brick.sandy.fitted.name=Piedra Arenosa Entallada
-tile.railcraft.brick.sandy.ornate.name=Piedra Arenosa Ornamentada
+tile.railcraft.brick.sandy.brick.name=Piedra Arenosa Entallada
+tile.railcraft.brick.sandy.chiseled.name=Piedra Arenosa Ornamentada
 
 tile.railcraft.generic_brick_infernal.name=Ladrillos Infernales (Obsoleto)
 tile.railcraft.generic_brick_sandy.name=Bloque Arenoso (Obsoleto)
