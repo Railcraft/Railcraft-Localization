@@ -803,6 +803,12 @@ gui.railcraft.surveyor.wrong=Not a valid Signal
 gui.railcraft.tank.iron=Iron Tank
 gui.railcraft.tank.steel=Steel Tank
 gui.railcraft.tank.water=Water Tank
+gui.railcraft.tank.sky=Can see sky: %s
+gui.railcraft.tank.base=Base Rate: %s mB / sec
+gui.railcraft.tank.humidity=Humidity Mulitplier: %s
+gui.railcraft.tank.precipitation=Precipitation Mulitplier: %s
+gui.railcraft.tank.temp=Temp Modifier: %s mB
+gui.railcraft.tank.final=Final Rate: %s mB / sec
 
 gui.railcraft.ticks=ticks
 
