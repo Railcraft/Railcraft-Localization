@@ -1,7 +1,0 @@
-parent.sourceSets {
-    main {
-        resources {
-            srcDir project.projectDir.path
-        }
-    }
-}
