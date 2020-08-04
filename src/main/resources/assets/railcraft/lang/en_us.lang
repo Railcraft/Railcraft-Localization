@@ -852,7 +852,9 @@ gui.railcraft.tuner.start=Started pairing %s with a Receiver
 gui.railcraft.tuner.stop=Stopped pairing %s with a Receiver
 gui.railcraft.tuner.success=%1$s successfully paired with %2$s
 
-gui.railcraft.steam.turbine.output=Output: %s%%
+gui.railcraft.steam.turbine.gauge=Turbine Output: {percent}
+gui.railcraft.steam.turbine.production=Output:
+gui.railcraft.steam.turbine.network=Grid:
 gui.railcraft.steam.turbine.rotor=Rotor:
 gui.railcraft.steam.turbine=Steam Turbine
 
