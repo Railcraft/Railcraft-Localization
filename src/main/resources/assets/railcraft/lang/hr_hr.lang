@@ -350,11 +350,11 @@ tile.railcraft.signal.dual.distant.name=Dvoglavi Udaljeni Signal
 tile.railcraft.actuator.lever.name=Polužni Prekidač
 tile.railcraft.actuator.motor.name=Motorni Prekidač
 
-tile.railcraft.stair.concrete.name=Betonske Stepenice
-tile.railcraft.stair.ice.name=Ledene Stepenice
-tile.railcraft.stair.infernal.name=Stepenice od Paklenih Cigli
-tile.railcraft.stair.sandy.name=Stepenice od Piješćanih Cigli
-tile.railcraft.stair.snow.name=Sniježne Stepenice
+tile.railcraft.concrete.stairs.name=Betonske Stepenice
+tile.railcraft.ice.stairs.name=Ledene Stepenice
+tile.railcraft.infernal.stairs.name=Stepenice od Paklenih Cigli
+tile.railcraft.sandy.stairs.name=Stepenice od Piješćanih Cigli
+tile.railcraft.snow.stairs.name=Sniježne Stepenice
 
 item.railcraft.borehead.diamond.name=Dijamantna Kopačka Glava
 item.railcraft.borehead.iron.name=Željezna Kopačka Glava

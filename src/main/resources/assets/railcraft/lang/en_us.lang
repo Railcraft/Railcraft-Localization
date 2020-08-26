@@ -1036,26 +1036,6 @@ tile.railcraft.brick.pearlized.etched.name=Etched Pearlized Stone
 tile.railcraft.brick.pearlized.brick.name=Pearlized Stone Brick
 tile.railcraft.brick.pearlized.chiseled.name=Chiseled Pearlized Stone
 
-tile.railcraft.stair.abyssal.brick.name=Abyssal Brick Stair
-tile.railcraft.stair.bleachedbone.brick.name=Bleached Bone Brick Stair
-tile.railcraft.stair.bloodstained.brick.name=Bloodstained Brick Stair
-tile.railcraft.stair.frostbound.brick.name=Frost Bound Brick Stair
-tile.railcraft.stair.infernal.brick.name=Infernsl Brick Stair
-tile.railcraft.stair.pearlized.brick.name=Pearlized Brick Stair
-tile.railcraft.stair.quarried.brick.name=Quarried Brick Stair
-tile.railcraft.stair.badlands.brick.name=Badlands Brick Stair
-tile.railcraft.stair.sandy.brick.name=Sandy Brick Stair
-
-tile.railcraft.stair.abyssal.paver.name=Abyssal Paver Stair
-tile.railcraft.stair.bleachedbone.paver.name=Bleached Bone Paver Stair
-tile.railcraft.stair.bloodstained.paver.name=Bloodstained Paver Stair
-tile.railcraft.stair.frostbound.paver.name=Frost Bound Paver Stair
-tile.railcraft.stair.infernal.paver.name=Infernsl Paver Stair
-tile.railcraft.stair.pearlized.paver.name=Pearlized Paver Stair
-tile.railcraft.stair.quarried.paver.name=Quarried Paver Stair
-tile.railcraft.stair.badlands.paver.name=Badlands Paver Stair
-tile.railcraft.stair.sandy.paver.name=Sandy Paver Stair
-
 tile.railcraft.charge.feeder.admin.name=Admin Charge Feeder Unit
 tile.railcraft.charge.feeder.admin.tips=Provides Unlimited Railcraft Charge\n§o§c- Requires Redstone input -
 tile.railcraft.charge.feeder.ic2.name=IC2 Charge Feeder Unit
@@ -1090,9 +1070,9 @@ tile.railcraft.fluid.steam.name=Steam
 tile.railcraft.frame.name=Wire Support Frame
 tile.railcraft.frame.tips=Use to place Track on Shunting Wire
 
-tile.railcraft.generic_coke.name=Block of Coal Coke
-tile.railcraft.generic_coke.tips=32,000 Fuel Units
-tile.railcraft.generic_creosote.name=Creosote Wood Block
+tile.railcraft.coke.block.name=Block of Coal Coke
+tile.railcraft.coke.block.tips=32,000 Fuel Units
+tile.railcraft.creosote.block.name=Creosote Wood Block
 tile.railcraft.generic_crushed_obsidian.name=Crushed Obsidian
 tile.railcraft.generic_crushed_obsidian.tips=Prevents Mob Spawns
 tile.railcraft.generic_stone_abyssal.name=Abyssal Stone
@@ -1362,159 +1342,93 @@ tile.railcraft.signal.box.receiver.tips=Listens to Controller signals\n§o§9Aer
 tile.railcraft.signal.box.sequencer.name=Signal Sequencer Box
 tile.railcraft.signal.box.sequencer.tips=Loops through adjacent blocks\n§o§9Adjacent Linkages:\n§o§9- Sequencer\n§o§9- Listen (Clock)\n§o§9- Emit\n§o§9Redstone Linkages:\n§o§9- Listen to Repeater (Clock)\n§o§9- Emit
 
+
+######################################################################################
+#   Stairs
+######################################################################################
+
+tile.railcraft.creosote.stairs.name=Creosote Wood Stairs
+
+tile.railcraft.abyssal.brick.stairs.name=Abyssal Brick Stairs
+tile.railcraft.abyssal.paver.stairs.name=Abyssal Paver Stairs
+
+tile.railcraft.badlands.brick.stairs.name=Badlands Brick Stairs
+tile.railcraft.badlands.paver.stairs.name=Badlands Paver Stairs
+
+tile.railcraft.bleachedbone.brick.stairs.name=Bleached Bone Brick Stairs
+tile.railcraft.bleachedbone.paver.stairs.name=Bleached Bone Paver Stairs
+
+tile.railcraft.bloodstained.brick.stairs.name=Bloodstained Brick Stairs
+tile.railcraft.bloodstained.paver.stairs.name=Bloodstained Paver Stairs
+
+tile.railcraft.frostbound.brick.stairs.name=Frost Bound Brick Stairs
+tile.railcraft.frostbound.paver.stairs.name=Frost Bound Paver Stairs
+
+tile.railcraft.infernal.brick.stairs.name=Infernsl Brick Stairs
+tile.railcraft.infernal.paver.stairs.name=Infernsl Paver Stairs
+
+tile.railcraft.pearlized.brick.stairs.name=Pearlized Brick Stairs
+tile.railcraft.pearlized.paver.stairs.name=Pearlized Paver Stairs
+
+tile.railcraft.quarried.brick.stairs.name=Quarried Brick Stairs
+tile.railcraft.quarried.paver.stairs.name=Quarried Paver Stairs
+
+tile.railcraft.sandy.brick.stairs.name=Sandy Brick Stairs
+tile.railcraft.sandy.paver.stairs.name=Sandy Paver Stairs
+
 ######################################################################################
 #   Slabs
 ######################################################################################
 
-tile.railcraft.slab.abyssal.block.name=Abyssal Block Slab
-tile.railcraft.slab.abyssal.brick.name=Abyssal Brick Slab
-tile.railcraft.slab.abyssal.cobble.name=Abyssal Cobble Slab
-tile.railcraft.slab.abyssal.paver.name=Abyssal Paver Slab
+tile.railcraft.creosote.slab.name=Creosote Wood Slab
 
-tile.railcraft.slab.badlands.block.name=Badlands Block Slab
-tile.railcraft.slab.badlands.brick.name=Badlands Brick Slab
-tile.railcraft.slab.badlands.cobble.name=Badlands Cobble Slab
-tile.railcraft.slab.badlands.paver.name=Badlands Paver Slab
+tile.railcraft.abyssal.slab.block.name=Abyssal Block Slab
+tile.railcraft.abyssal.slab.brick.name=Abyssal Brick Slab
+tile.railcraft.abyssal.slab.cobble.name=Abyssal Cobble Slab
+tile.railcraft.abyssal.slab.paver.name=Abyssal Paver Slab
 
-tile.railcraft.slab.bleachedbone.block.name=Bleached Bone Block Slab
-tile.railcraft.slab.bleachedbone.brick.name=Bleached Bone Brick Slab
-tile.railcraft.slab.bleachedbone.cobble.name=Bleached Bone Cobble Slab
-tile.railcraft.slab.bleachedbone.paver.name=Bleached Bone Paver Slab
+tile.railcraft.badlands.slab.block.name=Badlands Block Slab
+tile.railcraft.badlands.slab.brick.name=Badlands Brick Slab
+tile.railcraft.badlands.slab.cobble.name=Badlands Cobble Slab
+tile.railcraft.badlands.slab.paver.name=Badlands Paver Slab
 
-tile.railcraft.slab.bloodstained.block.name=Blood Stained Block Slab
-tile.railcraft.slab.bloodstained.brick.name=Blood Stained Brick Slab
-tile.railcraft.slab.bloodstained.cobble.name=Blood Stained Cobble Slab
-tile.railcraft.slab.bloodstained.paver.name=Blood Stained Paver Slab
+tile.railcraft.bleachedbone.slab.block.name=Bleached Bone Block Slab
+tile.railcraft.bleachedbone.slab.brick.name=Bleached Bone Brick Slab
+tile.railcraft.bleachedbone.slab.cobble.name=Bleached Bone Cobble Slab
+tile.railcraft.bleachedbone.slab.paver.name=Bleached Bone Paver Slab
 
-tile.railcraft.slab.frostbound.block.name=Frost Bound Block Slab
-tile.railcraft.slab.frostbound.brick.name=Frost Bound Brick Slab
-tile.railcraft.slab.frostbound.cobble.name=Frost Bound Cobble Slab
-tile.railcraft.slab.frostbound.fitted.name=Fitted Frost Bound Stone Slab
-tile.railcraft.slab.frostbound.paver.name=Frost Bound Paver Slab
+tile.railcraft.bloodstained.slab.block.name=Blood Stained Block Slab
+tile.railcraft.bloodstained.slab.brick.name=Blood Stained Brick Slab
+tile.railcraft.bloodstained.slab.cobble.name=Blood Stained Cobble Slab
+tile.railcraft.bloodstained.slab.paver.name=Blood Stained Paver Slab
 
-tile.railcraft.slab.infernal.block.name=Infernal Block Slab
-tile.railcraft.slab.infernal.brick.name=Infernal Brick Slab
-tile.railcraft.slab.infernal.cobble.name=Infernal Cobble Slab
-tile.railcraft.slab.infernal.fitted.name=Fitted Infernal Stone Slab
-tile.railcraft.slab.infernal.paver.name=Infernal Paver Slab
+tile.railcraft.frostbound.slab.block.name=Frost Bound Block Slab
+tile.railcraft.frostbound.slab.brick.name=Frost Bound Brick Slab
+tile.railcraft.frostbound.slab.cobble.name=Frost Bound Cobble Slab
+tile.railcraft.frostbound.slab.paver.name=Frost Bound Paver Slab
 
+tile.railcraft.infernal.slab.block.name=Infernal Block Slab
+tile.railcraft.infernal.slab.brick.name=Infernal Brick Slab
+tile.railcraft.infernal.slab.cobble.name=Infernal Cobble Slab
+tile.railcraft.infernal.slab.paver.name=Infernal Paver Slab
 
-tile.railcraft.slab.pearlized.block.name=Pearlized Block Slab
-tile.railcraft.slab.pearlized.brick.name=Pearlized Brick Slab
-tile.railcraft.slab.pearlized.cobble.name=Pearlized Cobble Slab
-tile.railcraft.slab.pearlized.paver.name=Pearlized Paver Slab
+tile.railcraft.pearlized.slab.block.name=Pearlized Block Slab
+tile.railcraft.pearlized.slab.brick.name=Pearlized Brick Slab
+tile.railcraft.pearlized.slab.cobble.name=Pearlized Cobble Slab
+tile.railcraft.pearlized.slab.paver.name=Pearlized Paver Slab
 
-tile.railcraft.slab.quarried.block.name=Quarried Block Slab
-tile.railcraft.slab.quarried.brick.name=Quarried Brick Slab
-tile.railcraft.slab.quarried.cobble.name=Quarried Cobble Slab
-tile.railcraft.slab.quarried.paver.name=Quarried Paver Slab
+tile.railcraft.quarried.slab.block.name=Quarried Block Slab
+tile.railcraft.quarried.slab.brick.name=Quarried Brick Slab
+tile.railcraft.quarried.slab.cobble.name=Quarried Cobble Slab
+tile.railcraft.quarried.slab.paver.name=Quarried Paver Slab
 
-tile.railcraft.slab.sandy.block.name=Sandy Block Slab
-tile.railcraft.slab.sandy.brick.name=Sandy Brick Slab
-tile.railcraft.slab.sandy.cobble.name=Sandy Cobble Slab
-tile.railcraft.slab.sandy.paver.name=Sandy Paver Slab
-
-# old slabs
-tile.railcraft.slab.nether.block.name=Nether Block Slab
-tile.railcraft.slab.nether.cobble.name=Nether Cobble Slab
-tile.railcraft.slab.gold.name=Gold Slab
-tile.railcraft.slab.ice.name=Ice Slab
-tile.railcraft.slab.iron.name=Iron Slab
-tile.railcraft.slab.lead.name=Lead Slab
-tile.railcraft.slab.obsidian.name=Obsidian Slab
-tile.railcraft.slab.packed.ice.name=Packed Ice Slab
-tile.railcraft.slab.snow.name=Snow Slab
-tile.railcraft.slab.steel.name=Steel Slab
-tile.railcraft.slab.tin.name=Tin Slab
-tile.railcraft.slab.concrete.name=Concrete Slab
-tile.railcraft.slab.copper.name=Copper Slab
-tile.railcraft.slab.creosote.name=Creosote Block Slab
-tile.railcraft.slab.diamond.name=Diamond Slab
+tile.railcraft.sandy.slab.block.name=Sandy Block Slab
+tile.railcraft.sandy.slab.brick.name=Sandy Brick Slab
+tile.railcraft.sandy.slab.cobble.name=Sandy Cobble Slab
+tile.railcraft.sandy.slab.paver.name=Sandy Paver Slab
 
 tile.railcraft.wire.name=Charge Shunting Wire
 tile.railcraft.wire.tips=Transfers Charge over short distances\n Place under Track using Wire Support Frames\n High loss
-
-#Old Tracks (to be deleted)
-tile.railcraft.track.buffer.stop.name=Buffer Stop Track
-tile.railcraft.track.buffer.stop.tips=End of the Line\n§o§9- Hit with Crowbar to change direction -
-tile.railcraft.track.control.name=Control Track
-tile.railcraft.track.control.tips=Applies a small omni-directional boost\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to change direction -
-tile.railcraft.track.coupler.name=Coupler Track
-tile.railcraft.track.coupler.tips=Couples/Decouples passing Carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
-tile.railcraft.track.detector.direction.name=Directional Detector Track
-tile.railcraft.track.detector.direction.tips=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Crowbar to change direction -
-tile.railcraft.track.disembarking.name=Disembarking Track
-tile.railcraft.track.disembarking.tips=Dismounts riding Entities in direction of arrow\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to enable -
-tile.railcraft.track.disposal.name=Disposal Track
-tile.railcraft.track.disposal.tips=Suspended track\n Dismounts riding Entities
-tile.railcraft.track.electric.junction.name=Electric Junction Track
-tile.railcraft.track.electric.junction.tips=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps
-tile.railcraft.track.electric.switch.name=Electric Switch Track
-tile.railcraft.track.electric.switch.tips=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps\n§o§c- Requires Switch Motor/Lever to switch -
-tile.railcraft.track.electric.wye.name=Electric Wye Track
-tile.railcraft.track.electric.wye.tips=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps\n§o§c- Requires Switch Motor/Lever to switch -
-tile.railcraft.track.elevator.name=Elevator Track
-tile.railcraft.track.elevator.tips=Allows vertical Minecart movement\n§o§c- Apply Redstone at top to go up -
-tile.railcraft.track.embarking.name=Embarking Track
-tile.railcraft.track.embarking.tips=Loads entities into Carts\n§o§9- Hit with Crowbar to change range -\n§o§c- Apply Redstone to enable -
-tile.railcraft.track.force.name=Force Track
-tile.railcraft.track.gated.name=Gated Track
-tile.railcraft.track.gated.oneway.name=Gated One-Way Track
-tile.railcraft.track.gated.oneway.tips=Its a one-way gate\n§o§c- Apply Redstone to open -
-tile.railcraft.track.gated.tips=Its a gate\n§o§c- Apply Redstone to open -
-tile.railcraft.track.holding.name=Holding Track
-tile.railcraft.track.holding.tips=Replaced by Locking Track
-tile.railcraft.track.holding.train.name=Train Holding Track
-tile.railcraft.track.holding.train.tips=Replaced by Locking Track
-tile.railcraft.track.junction.name=Junction Track
-tile.railcraft.track.launcher.name=Launcher Track
-tile.railcraft.track.launcher.tips=Makes carts fly\n§o§c- Apply Redstone to enable -
-tile.railcraft.track.throttle.name=Throttle Track
-tile.railcraft.track.throttle.tips=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
-tile.railcraft.track.locking.name=Locking Track
-tile.railcraft.track.locking.tips=Stops and holds carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
-tile.railcraft.track.locomotive.name=Locomotive Track
-tile.railcraft.track.locomotive.tips=Starts/Stops Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
-tile.railcraft.track.oneway.name=One-Way Track
-tile.railcraft.track.oneway.tips=Carts can only pass\n in the direction of the arrow\n§o§9- Hit with Crowbar to change direction -
-tile.railcraft.track.priming.name=Priming Track
-tile.railcraft.track.priming.tips=Ignites TNT Carts\n Adjustable Fuse\n§o§9- Hit with Crowbar to change fuse -\n§o§c- Apply Redstone to enable -
-tile.railcraft.track.reinforced.boost.name=Reinforced Booster Track
-tile.railcraft.track.reinforced.boost.tips=125% of the speed of normal track\n Explosion resistant\n§o§c- Apply Redstone to enable -
-tile.railcraft.track.reinforced.junction.name=Reinforced Junction Track
-tile.railcraft.track.reinforced.junction.tips=125% of the speed of normal track\n Explosion resistant
-tile.railcraft.track.reinforced.switch.name=Reinforced Switch Track
-tile.railcraft.track.reinforced.switch.tips=125% of the speed of normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
-tile.railcraft.track.reinforced.wye.name=Reinforced Wye Track
-tile.railcraft.track.reinforced.wye.tips=125% of the speed of normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
-tile.railcraft.track.routing.name=Routing Track
-tile.railcraft.track.routing.tips=Sets a passing Locomotive's Ticket\n§o§9- Hit with Crowbar to change ticket -
-tile.railcraft.track.slow.boost.name=Wooden Booster Track
-tile.railcraft.track.slow.junction.name=Wooden Junction Track
-tile.railcraft.track.slow.junction.tips=30% of the speed of normal track
-tile.railcraft.track.slow.switch.name=Wooden Switch Track
-tile.railcraft.track.slow.switch.tips=30% of the speed of normal track\n §o§c- Requires Switch Motor/Lever to switch -
-tile.railcraft.track.slow.wye.name=Wooden Wye Track
-tile.railcraft.track.slow.wye.tips=30% of the speed of normal track\n §o§c- Requires Switch Motor/Lever to switch -
-tile.railcraft.track.speed.boost.name=H.S. Booster Track
-tile.railcraft.track.speed.boost.tips=§9Dangerous\n §rMore than twice as fast as normal track\n Maintains High Speed\n§o§c- Apply Redstone to boost -
-tile.railcraft.track.speed.switch.name=H.S. Switch Track
-tile.railcraft.track.speed.switch.tips=§9Dangerous\n Do not attempt to diverge at High Speed\n §o§c- Requires Switch Motor/Lever to switch -
-tile.railcraft.track.speed.transition.name=H.S. Transition Track
-tile.railcraft.track.speed.transition.tips=§9Dangerous\n §rMore than twice as fast as normal track\n Transitions to/from High Speed\n§o§c- Apply Redstone to boost -
-tile.railcraft.track.speed.wye.name=H.S. Wye Track
-tile.railcraft.track.speed.wye.tips=§9Dangerous\n Do not attempt to traverse at High Speed\n §o§c- Requires Switch Motor/Lever to switch -
-tile.railcraft.track.suspended.name=Suspended Track
-tile.railcraft.track.suspended.tips=Does not require support below\n Can cross gaps
-tile.railcraft.track.switch.name=Switch Track
-tile.railcraft.track.switch.tips=§o§c- Requires Switch Motor/Lever to switch -
-tile.railcraft.track.whistle.name=Whistle Track
-tile.railcraft.track.whistle.tips=Passing Locomotives\n will blow their Whistle\n§o§c- Apply Redstone to enable -
-tile.railcraft.track.wye.name=Wye Track
-tile.railcraft.track.wye.tips=§o§c- Requires Switch Motor/Lever to switch -
-tile.railcraft.track.autolococoupler.name=Automatic Locomotive Coupler
-tile.railcraft.track.autolococoupler.tips=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- Apply Redstone to enable -
-#end old tracks
 
 tile.railcraft.wall.abyssal.brick.name=Abyssal Brick Wall
 tile.railcraft.wall.bleachedbone.brick.name=Bleached Bone Brick Wall
