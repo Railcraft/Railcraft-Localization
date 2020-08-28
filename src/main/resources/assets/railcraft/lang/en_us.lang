@@ -1075,8 +1075,8 @@ tile.railcraft.coke.block.tips=32,000 Fuel Units
 tile.railcraft.creosote.block.name=Creosote Wood Block
 tile.railcraft.generic_crushed_obsidian.name=Crushed Obsidian
 tile.railcraft.generic_crushed_obsidian.tips=Prevents Mob Spawns
-tile.railcraft.generic_stone_abyssal.name=Abyssal Stone
-tile.railcraft.generic_stone_quarried.name=Quarried Stone
+tile.railcraft.abyssal.stone.name=Abyssal Stone
+tile.railcraft.quarried.stone.name=Quarried Stone
 
 tile.railcraft.glass.black.name=Black Strengthened Glass
 tile.railcraft.glass.red.name=Red Strengthened Glass
