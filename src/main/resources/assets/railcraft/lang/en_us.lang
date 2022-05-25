@@ -943,99 +943,6 @@ tile.railcraft.battery.tips.efficiency=Efficiency: %s%%
 tile.railcraft.battery.tips.maxdraw=MaxDraw: %s c/t
 tile.railcraft.battery.tips.loss=Loss: %s  c/t
 
-tile.railcraft.brick.abyssal.polished.name=Polished Abyssal Stone
-tile.railcraft.brick.abyssal.paver.name=Abyssal Stone Paver
-tile.railcraft.brick.abyssal.cobble.name=Abyssal Cobblestone
-tile.railcraft.brick.abyssal.etched.name=Etched Abyssal Stone
-tile.railcraft.brick.abyssal.brick.name=Abyssal Stone Brick
-tile.railcraft.brick.abyssal.chiseled.name=Chiseled Abyssal Stone
-
-tile.railcraft.brick.bleachedbone.polished.name=Polished Bleached Bone Stone
-tile.railcraft.brick.bleachedbone.paver.name=Bleached Bone Stone Paver
-tile.railcraft.brick.bleachedbone.cobble.name=Bleached Bone Cobblestone
-tile.railcraft.brick.bleachedbone.etched.name=Etched Bleached Bone Stone
-tile.railcraft.brick.bleachedbone.brick.name=Bleached Bone Stone Brick
-tile.railcraft.brick.bleachedbone.chiseled.name=Chiseled Bleached Bone Stone
-
-tile.railcraft.brick.bloodstained.polished.name=Polished Blood Stained Stone
-tile.railcraft.brick.bloodstained.paver.name=Blood Stained Stone Paver
-tile.railcraft.brick.bloodstained.cobble.name=Blood Stained Cobblestone
-tile.railcraft.brick.bloodstained.etched.name=Etched Blood Stained Stone
-tile.railcraft.brick.bloodstained.brick.name=Blood Stained Stone Brick
-tile.railcraft.brick.bloodstained.chiseled.name=Chiseled Blood Stained Stone
-
-tile.railcraft.brick.frostbound.polished.name=Polished Frost Bound Stone
-tile.railcraft.brick.frostbound.paver.name=Frost Bound Stone Paver
-tile.railcraft.brick.frostbound.cobble.name=Frost Bound Cobblestone
-tile.railcraft.brick.frostbound.etched.name=Etched Frost Bound Stone
-tile.railcraft.brick.frostbound.brick.name=Frost Bound Stone Brick
-tile.railcraft.brick.frostbound.chiseled.name=Chiseled Frost Bound Stone
-
-tile.railcraft.brick.infernal.polished.name=Polished Infernal Stone
-tile.railcraft.brick.infernal.paver.name=Infernal Stone Paver
-tile.railcraft.brick.infernal.cobble.name=Infernal Cobblestone
-tile.railcraft.brick.infernal.etched.name=Etched Infernal Stone
-tile.railcraft.brick.infernal.brick.name=Infernal Stone Brick
-tile.railcraft.brick.infernal.chiseled.name=Chiseled Infernal Stone
-
-tile.railcraft.brick.nether.polished.name=Polished Nether Stone
-tile.railcraft.brick.nether.cobble.name=Nether Cobblestone
-tile.railcraft.brick.nether.etched.name=Etched Nether Stone
-tile.railcraft.brick.nether.brick.name=Fitted Nether Brick
-tile.railcraft.brick.nether.chiseled.name=Chiseled Nether Stone
-
-tile.railcraft.brick.red.nether.polished.name=Polished Red Nether Stone
-tile.railcraft.brick.red.nether.cobble.name=Red Nether Cobblestone
-tile.railcraft.brick.red.nether.etched.name=Etched Red Nether Stone
-tile.railcraft.brick.red.nether.brick.name=Red Nether Brick
-tile.railcraft.brick.red.nether.chiseled.name=Chiseled Red Nether Stone
-
-tile.railcraft.brick.quarried.polished.name=Polished Quarried Stone
-tile.railcraft.brick.quarried.paver.name=Quarried Paver
-tile.railcraft.brick.quarried.cobble.name=Quarried Cobblestone
-tile.railcraft.brick.quarried.etched.name=Etched Quarried Stone
-tile.railcraft.brick.quarried.brick.name=Quarried Brick
-tile.railcraft.brick.quarried.chiseled.name=Chiseled Quarried Stone
-
-tile.railcraft.brick.granite.paver.name=Granite Paver
-tile.railcraft.brick.granite.cobble.name=Granite Cobblestone
-tile.railcraft.brick.granite.etched.name=Etched Granite
-tile.railcraft.brick.granite.brick.name=Granite Brick
-tile.railcraft.brick.granite.chiseled.name=Chiseled Granite
-
-tile.railcraft.brick.diorite.paver.name=Diorite Paver
-tile.railcraft.brick.diorite.cobble.name=Diorite Cobblestone
-tile.railcraft.brick.diorite.etched.name=Etched Diorite
-tile.railcraft.brick.diorite.brick.name=Diorite Brick
-tile.railcraft.brick.diorite.chiseled.name=Chiseled Diorite
-
-tile.railcraft.brick.andesite.paver.name=Andesite Paver
-tile.railcraft.brick.andesite.cobble.name=Andesite Cobblestone
-tile.railcraft.brick.andesite.etched.name=Etched Andesite
-tile.railcraft.brick.andesite.brick.name=Andesite Brick
-tile.railcraft.brick.andesite.chiseled.name=Chiseled Andesite
-
-tile.railcraft.brick.sandy.polished.name=Polished Sandy Stone
-tile.railcraft.brick.sandy.paver.name=Sandy Stone Paver
-tile.railcraft.brick.sandy.cobble.name=Sandy Cobblestone
-tile.railcraft.brick.sandy.etched.name=Etched Sandy Stone
-tile.railcraft.brick.sandy.brick.name=Sandy Stone Brick
-tile.railcraft.brick.sandy.chiseled.name=Chiseled Sandy Stone
-
-tile.railcraft.brick.badlands.polished.name=Polished Badlands Stone
-tile.railcraft.brick.badlands.paver.name=Badlands Stone Paver
-tile.railcraft.brick.badlands.cobble.name=Badlands Cobblestone
-tile.railcraft.brick.badlands.etched.name=Etched Badlands Stone
-tile.railcraft.brick.badlands.brick.name=Badlands Stone Brick
-tile.railcraft.brick.badlands.chiseled.name=Chiseled Badlands Stone
-
-tile.railcraft.brick.pearlized.polished.name=Polished Pearlized Stone
-tile.railcraft.brick.pearlized.paver.name=Pearlized Paver
-tile.railcraft.brick.pearlized.cobble.name=Pearlized Cobblestone
-tile.railcraft.brick.pearlized.etched.name=Etched Pearlized Stone
-tile.railcraft.brick.pearlized.brick.name=Pearlized Stone Brick
-tile.railcraft.brick.pearlized.chiseled.name=Chiseled Pearlized Stone
-
 tile.railcraft.charge.feeder.admin.name=Admin Charge Feeder Unit
 tile.railcraft.charge.feeder.admin.tips=Provides Unlimited Railcraft Charge\n§o§c- Requires Redstone input -
 tile.railcraft.charge.feeder.ic2.name=IC2 Charge Feeder Unit
@@ -1342,6 +1249,103 @@ tile.railcraft.signal.box.receiver.tips=Listens to Controller signals\n§o§9Aer
 tile.railcraft.signal.box.sequencer.name=Signal Sequencer Box
 tile.railcraft.signal.box.sequencer.tips=Loops through adjacent blocks\n§o§9Adjacent Linkages:\n§o§9- Sequencer\n§o§9- Listen (Clock)\n§o§9- Emit\n§o§9Redstone Linkages:\n§o§9- Listen to Repeater (Clock)\n§o§9- Emit
 
+
+######################################################################################
+#   Bricks
+######################################################################################
+
+tile.railcraft.abyssal.polished.name=Polished Abyssal Stone
+tile.railcraft.abyssal.paver.name=Abyssal Stone Paver
+tile.railcraft.abyssal.cobble.name=Abyssal Cobblestone
+tile.railcraft.abyssal.etched.name=Etched Abyssal Stone
+tile.railcraft.abyssal.brick.name=Abyssal Stone Brick
+tile.railcraft.abyssal.chiseled.name=Chiseled Abyssal Stone
+
+tile.railcraft.bleachedbone.polished.name=Polished Bleached Bone Stone
+tile.railcraft.bleachedbone.paver.name=Bleached Bone Stone Paver
+tile.railcraft.bleachedbone.cobble.name=Bleached Bone Cobblestone
+tile.railcraft.bleachedbone.etched.name=Etched Bleached Bone Stone
+tile.railcraft.bleachedbone.brick.name=Bleached Bone Stone Brick
+tile.railcraft.bleachedbone.chiseled.name=Chiseled Bleached Bone Stone
+
+tile.railcraft.bloodstained.polished.name=Polished Blood Stained Stone
+tile.railcraft.bloodstained.paver.name=Blood Stained Stone Paver
+tile.railcraft.bloodstained.cobble.name=Blood Stained Cobblestone
+tile.railcraft.bloodstained.etched.name=Etched Blood Stained Stone
+tile.railcraft.bloodstained.brick.name=Blood Stained Stone Brick
+tile.railcraft.bloodstained.chiseled.name=Chiseled Blood Stained Stone
+
+tile.railcraft.frostbound.polished.name=Polished Frost Bound Stone
+tile.railcraft.frostbound.paver.name=Frost Bound Stone Paver
+tile.railcraft.frostbound.cobble.name=Frost Bound Cobblestone
+tile.railcraft.frostbound.etched.name=Etched Frost Bound Stone
+tile.railcraft.frostbound.brick.name=Frost Bound Stone Brick
+tile.railcraft.frostbound.chiseled.name=Chiseled Frost Bound Stone
+
+tile.railcraft.infernal.polished.name=Polished Infernal Stone
+tile.railcraft.infernal.paver.name=Infernal Stone Paver
+tile.railcraft.infernal.cobble.name=Infernal Cobblestone
+tile.railcraft.infernal.etched.name=Etched Infernal Stone
+tile.railcraft.infernal.brick.name=Infernal Stone Brick
+tile.railcraft.infernal.chiseled.name=Chiseled Infernal Stone
+
+tile.railcraft.nether.polished.name=Polished Nether Stone
+tile.railcraft.nether.cobble.name=Nether Cobblestone
+tile.railcraft.nether.etched.name=Etched Nether Stone
+tile.railcraft.nether.brick.name=Fitted Nether Brick
+tile.railcraft.nether.chiseled.name=Chiseled Nether Stone
+
+tile.railcraft.red.nether.polished.name=Polished Red Nether Stone
+tile.railcraft.red.nether.cobble.name=Red Nether Cobblestone
+tile.railcraft.red.nether.etched.name=Etched Red Nether Stone
+tile.railcraft.red.nether.brick.name=Red Nether Brick
+tile.railcraft.red.nether.chiseled.name=Chiseled Red Nether Stone
+
+tile.railcraft.quarried.polished.name=Polished Quarried Stone
+tile.railcraft.quarried.paver.name=Quarried Paver
+tile.railcraft.quarried.cobble.name=Quarried Cobblestone
+tile.railcraft.quarried.etched.name=Etched Quarried Stone
+tile.railcraft.quarried.brick.name=Quarried Brick
+tile.railcraft.quarried.chiseled.name=Chiseled Quarried Stone
+
+tile.railcraft.granite.paver.name=Granite Paver
+tile.railcraft.granite.cobble.name=Granite Cobblestone
+tile.railcraft.granite.etched.name=Etched Granite
+tile.railcraft.granite.brick.name=Granite Brick
+tile.railcraft.granite.chiseled.name=Chiseled Granite
+
+tile.railcraft.diorite.paver.name=Diorite Paver
+tile.railcraft.diorite.cobble.name=Diorite Cobblestone
+tile.railcraft.diorite.etched.name=Etched Diorite
+tile.railcraft.diorite.brick.name=Diorite Brick
+tile.railcraft.diorite.chiseled.name=Chiseled Diorite
+
+tile.railcraft.andesite.paver.name=Andesite Paver
+tile.railcraft.andesite.cobble.name=Andesite Cobblestone
+tile.railcraft.andesite.etched.name=Etched Andesite
+tile.railcraft.andesite.brick.name=Andesite Brick
+tile.railcraft.andesite.chiseled.name=Chiseled Andesite
+
+tile.railcraft.sandy.polished.name=Polished Sandy Stone
+tile.railcraft.sandy.paver.name=Sandy Stone Paver
+tile.railcraft.sandy.cobble.name=Sandy Cobblestone
+tile.railcraft.sandy.etched.name=Etched Sandy Stone
+tile.railcraft.sandy.brick.name=Sandy Stone Brick
+tile.railcraft.sandy.chiseled.name=Chiseled Sandy Stone
+
+tile.railcraft.badlands.polished.name=Polished Badlands Stone
+tile.railcraft.badlands.paver.name=Badlands Stone Paver
+tile.railcraft.badlands.cobble.name=Badlands Cobblestone
+tile.railcraft.badlands.etched.name=Etched Badlands Stone
+tile.railcraft.badlands.brick.name=Badlands Stone Brick
+tile.railcraft.badlands.chiseled.name=Chiseled Badlands Stone
+
+tile.railcraft.pearlized.polished.name=Polished Pearlized Stone
+tile.railcraft.pearlized.paver.name=Pearlized Paver
+tile.railcraft.pearlized.cobble.name=Pearlized Cobblestone
+tile.railcraft.pearlized.etched.name=Etched Pearlized Stone
+tile.railcraft.pearlized.brick.name=Pearlized Stone Brick
+tile.railcraft.pearlized.chiseled.name=Chiseled Pearlized Stone
 
 ######################################################################################
 #   Stairs

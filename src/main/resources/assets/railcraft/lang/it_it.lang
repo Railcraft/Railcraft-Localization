@@ -18,47 +18,47 @@ item.railcraft.backpack.tips=Progettato da Railcraft, Inc.
 
 tile.railcraft.residual.heat.name=Calore residuo
 
-tile.railcraft.brick.abyssal.paver.name=Mattone abissale
-tile.railcraft.brick.abyssal.polished.name=Blocco abissale
-tile.railcraft.brick.abyssal.brick.name=Pietra abissale da muro
-tile.railcraft.brick.abyssal.chiseled.name=Pietra abissale ornata
-tile.railcraft.brick.abyssal.etched.name=Pietra abissale incisa
+tile.railcraft.abyssal.paver.name=Mattone abissale
+tile.railcraft.abyssal.polished.name=Blocco abissale
+tile.railcraft.abyssal.brick.name=Pietra abissale da muro
+tile.railcraft.abyssal.chiseled.name=Pietra abissale ornata
+tile.railcraft.abyssal.etched.name=Pietra abissale incisa
 
-tile.railcraft.brick.bleachedbone.paver.name=Mattone d'Osso scolorito
-tile.railcraft.brick.bleachedbone.polished.name=Blocco d'Osso scolorito
-tile.railcraft.brick.bleachedbone.brick.name=Pietra d'Osso scolorito da muro
-tile.railcraft.brick.bleachedbone.chiseled.name=Pietra d'Osso scolorito ornata
-tile.railcraft.brick.bleachedbone.etched.name=Pietra d'Osso scolorito incisa
+tile.railcraft.bleachedbone.paver.name=Mattone d'Osso scolorito
+tile.railcraft.bleachedbone.polished.name=Blocco d'Osso scolorito
+tile.railcraft.bleachedbone.brick.name=Pietra d'Osso scolorito da muro
+tile.railcraft.bleachedbone.chiseled.name=Pietra d'Osso scolorito ornata
+tile.railcraft.bleachedbone.etched.name=Pietra d'Osso scolorito incisa
 
-tile.railcraft.brick.bloodstained.paver.name=Mattone macchiato di sangue
-tile.railcraft.brick.bloodstained.polished.name=Blocco macchiato di sangue
-tile.railcraft.brick.bloodstained.brick.name=Pietra macchiata di sangue da muro
-tile.railcraft.brick.bloodstained.chiseled.name=Pietra macchiata di sangue ornata
-tile.railcraft.brick.bloodstained.etched.name=Pietra macchiata di sangue incisa
+tile.railcraft.bloodstained.paver.name=Mattone macchiato di sangue
+tile.railcraft.bloodstained.polished.name=Blocco macchiato di sangue
+tile.railcraft.bloodstained.brick.name=Pietra macchiata di sangue da muro
+tile.railcraft.bloodstained.chiseled.name=Pietra macchiata di sangue ornata
+tile.railcraft.bloodstained.etched.name=Pietra macchiata di sangue incisa
 
-tile.railcraft.brick.frostbound.paver.name=Mattone legato al gelo
-tile.railcraft.brick.frostbound.polished.name=Blocco legatao al gelo
-tile.railcraft.brick.frostbound.brick.name=Pietra legata al gelo da muro
-tile.railcraft.brick.frostbound.chiseled.name=Pietra legata al gelo ornata
-tile.railcraft.brick.frostbound.etched.name=Pietra legata al gelo incisa
+tile.railcraft.frostbound.paver.name=Mattone legato al gelo
+tile.railcraft.frostbound.polished.name=Blocco legatao al gelo
+tile.railcraft.frostbound.brick.name=Pietra legata al gelo da muro
+tile.railcraft.frostbound.chiseled.name=Pietra legata al gelo ornata
+tile.railcraft.frostbound.etched.name=Pietra legata al gelo incisa
 
-tile.railcraft.brick.infernal.paver.name=Mattone infernale
-tile.railcraft.brick.infernal.polished.name=Blocco infernale
-tile.railcraft.brick.infernal.brick.name=Pietra infernale da muro
-tile.railcraft.brick.infernal.chiseled.name=Pietra infernale ornata
-tile.railcraft.brick.infernal.etched.name=Pietra infernale incisa
+tile.railcraft.infernal.paver.name=Mattone infernale
+tile.railcraft.infernal.polished.name=Blocco infernale
+tile.railcraft.infernal.brick.name=Pietra infernale da muro
+tile.railcraft.infernal.chiseled.name=Pietra infernale ornata
+tile.railcraft.infernal.etched.name=Pietra infernale incisa
 
-tile.railcraft.brick.quarried.paver.name=Mattone cavo
-tile.railcraft.brick.quarried.polished.name=Blocco cavo
-tile.railcraft.brick.quarried.brick.name=Pietra cava da muro
-tile.railcraft.brick.quarried.chiseled.name=Pietra cava ornata
-tile.railcraft.brick.quarried.etched.name=Pietra cava incisa
+tile.railcraft.quarried.paver.name=Mattone cavo
+tile.railcraft.quarried.polished.name=Blocco cavo
+tile.railcraft.quarried.brick.name=Pietra cava da muro
+tile.railcraft.quarried.chiseled.name=Pietra cava ornata
+tile.railcraft.quarried.etched.name=Pietra cava incisa
 
-tile.railcraft.brick.sandy.paver.name=Mattone sabbioso
-tile.railcraft.brick.sandy.polished.name=Blocco sabbioso
-tile.railcraft.brick.sandy.brick.name=Pietra sabbiosa da muro
-tile.railcraft.brick.sandy.chiseled.name=Pietra sabbiosa ornata
-tile.railcraft.brick.sandy.etched.name=Pietra sabbiosa incisa
+tile.railcraft.sandy.paver.name=Mattone sabbioso
+tile.railcraft.sandy.polished.name=Blocco sabbioso
+tile.railcraft.sandy.brick.name=Pietra sabbiosa da muro
+tile.railcraft.sandy.chiseled.name=Pietra sabbiosa ornata
+tile.railcraft.sandy.etched.name=Pietra sabbiosa incisa
 
 item.railcraft.entity.cart.worldspike.standard.name=Minecart con Ancora
 entity.railcraft.cart_worldspike_standard.name=Minecart con Ancora
