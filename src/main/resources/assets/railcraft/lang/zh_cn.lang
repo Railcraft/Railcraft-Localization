@@ -586,8 +586,8 @@ gui.railcraft.box.controller.aspect.redstone=红石信号域：
 # Stuff after newline is hidden for hotbar messages
 gui.railcraft.cart.bed.key=按下 %1$s 来脱离 - 按下 %2$s 在晚上睡觉
 gui.railcraft.cart.tnt.fuse=导火线
-gui.railcraft.cart.track.relayer.pattern=模式
-gui.railcraft.cart.track.relayer.stock=库存
+gui.railcraft.cart.maintenance.pattern=模式
+gui.railcraft.cart.maintenance.stock=库存
 gui.railcraft.cart.undercutter.pattern=模式
 gui.railcraft.cart.undercutter.sides=侧边
 gui.railcraft.cart.undercutter.transfer.stock.name=库存

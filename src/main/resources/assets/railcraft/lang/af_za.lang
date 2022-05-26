@@ -394,8 +394,8 @@ gui.railcraft.box.controller.aspect.default=Standaard aspek:
 gui.railcraft.box.controller.aspect.redstone=Redstone aspek:
 
 gui.railcraft.cart.tnt.fuse=Fuse
-gui.railcraft.cart.track.relayer.pattern=Patroon
-gui.railcraft.cart.track.relayer.stock=Stock
+gui.railcraft.cart.maintenance.pattern=Patroon
+gui.railcraft.cart.maintenance.stock=Stock
 gui.railcraft.cart.undercutter.pattern=Patrone
 gui.railcraft.cart.undercutter.sides=kante
 gui.railcraft.cart.undercutter.transfer.stock.name=Stock

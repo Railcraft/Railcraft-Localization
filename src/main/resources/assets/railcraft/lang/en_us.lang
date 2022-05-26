@@ -588,8 +588,12 @@ gui.railcraft.box.controller.aspect.redstone=Redstone Aspect:
 # Stuff after newline is hidden for hotbar messages
 gui.railcraft.cart.bed.key=Press %1$s to dismount - Press %2$s to sleep at night
 gui.railcraft.cart.tnt.fuse=Fuse
-gui.railcraft.cart.track.relayer.pattern=Pattern
-gui.railcraft.cart.track.relayer.stock=Stock
+gui.railcraft.cart.maintenance.pattern=Pattern
+gui.railcraft.cart.maintenance.stock=Stock
+gui.railcraft.cart.maintenance.mode.on=On
+gui.railcraft.cart.maintenance.mode.on.tip=While On, will actively\nperform maintenance functions
+gui.railcraft.cart.maintenance.mode.off=Off
+gui.railcraft.cart.maintenance.mode.off.tip=While Off, will not\nperform maintenance functions\nand will have higher max speed
 gui.railcraft.cart.undercutter.pattern=Patterns
 gui.railcraft.cart.undercutter.sides=Sides
 gui.railcraft.cart.undercutter.transfer.stock.name=Stock

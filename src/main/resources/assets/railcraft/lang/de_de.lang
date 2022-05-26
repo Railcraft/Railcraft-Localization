@@ -529,8 +529,8 @@ gui.railcraft.box.controller.aspect.redstone=Zustand bei Redstonesignal:
 # Stuff after newline is hidden for hotbar messages
 gui.railcraft.cart.bed.key=Drücke %1$s zum Aussteigen - Drücke %2$s zum Schlafen
 gui.railcraft.cart.tnt.fuse=Zündung
-gui.railcraft.cart.track.relayer.pattern=Muster
-gui.railcraft.cart.track.relayer.stock=Vorrat
+gui.railcraft.cart.maintenance.pattern=Muster
+gui.railcraft.cart.maintenance.stock=Vorrat
 gui.railcraft.cart.undercutter.pattern=Muster
 gui.railcraft.cart.undercutter.sides=Seite
 gui.railcraft.cart.undercutter.transfer.stock.name=Vorrat

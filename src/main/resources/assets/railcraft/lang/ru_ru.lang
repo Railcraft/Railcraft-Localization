@@ -586,8 +586,8 @@ gui.railcraft.box.controller.aspect.redstone=Аспект на сигнал кр
 # Stuff after newline is hidden for hotbar messages
 gui.railcraft.cart.bed.key=Нажмите %1$s, чтобы демонтировать - Нажмите %2$s, чтобы спать ночью
 gui.railcraft.cart.tnt.fuse=Запал
-gui.railcraft.cart.track.relayer.pattern=Шаблон
-gui.railcraft.cart.track.relayer.stock=Инвентарь
+gui.railcraft.cart.maintenance.pattern=Шаблон
+gui.railcraft.cart.maintenance.stock=Инвентарь
 gui.railcraft.cart.undercutter.pattern=Шаблоны
 gui.railcraft.cart.undercutter.sides=Стороны
 gui.railcraft.cart.undercutter.stock=Инвентарь

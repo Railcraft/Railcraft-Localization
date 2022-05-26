@@ -319,8 +319,8 @@ gui.railcraft.box.controller.aspect.default=Defaultní Aspect:
 gui.railcraft.box.controller.aspect.redstone=Ruditový Aspect:
 
 gui.railcraft.cart.tnt.fuse=Pojistka
-gui.railcraft.cart.track.relayer.pattern=Vzor
-gui.railcraft.cart.track.relayer.stock=Sklad
+gui.railcraft.cart.maintenance.pattern=Vzor
+gui.railcraft.cart.maintenance.stock=Sklad
 gui.railcraft.cart.undercutter.pattern=Vzory
 gui.railcraft.cart.undercutter.sides=Strany
 gui.railcraft.cart.undercutter.transfer.stock.name=Sklad

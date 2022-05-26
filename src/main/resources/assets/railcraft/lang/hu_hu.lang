@@ -294,8 +294,8 @@ gui.railcraft.box.controller.aspect.default=Alapértelmezett aspektus:
 gui.railcraft.box.controller.aspect.redstone=Vöröskö aspektus:
 
 gui.railcraft.cart.tnt.fuse=Biztosíték
-gui.railcraft.cart.track.relayer.pattern=Mintázat
-gui.railcraft.cart.track.relayer.stock=Készlet
+gui.railcraft.cart.maintenance.pattern=Mintázat
+gui.railcraft.cart.maintenance.stock=Készlet
 gui.railcraft.cart.undercutter.pattern=Mintázat
 gui.railcraft.cart.undercutter.sides=Oldalsó elemek
 gui.railcraft.cart.undercutter.transfer.stock.name=Készlet
