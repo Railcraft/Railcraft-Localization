@@ -719,6 +719,7 @@ gui.railcraft.mag.glass.aspect=The signal aspect is %s
 gui.railcraft.mag.glass.cart.furnace=This furnace cart has fuel left for %d ticks
 gui.railcraft.mag.glass.cart.number=Next cart number: %d
 gui.railcraft.mag.glass.placedby=%1$s was placed by %2$s
+gui.railcraft.mag.glass.battery=Battery Level: %d / %d
 
 gui.railcraft.manipulator.buffer=Buffer
 gui.railcraft.manipulator.redstone.complete.name=Complete
@@ -931,9 +932,15 @@ tile.railcraft.battery.nickel.zinc.tips=§9Charge Network Battery
 tile.railcraft.battery.zinc.carbon.name=Zinc-Carbon Battery
 tile.railcraft.battery.zinc.carbon.desc=A battery designed to work with the charge network. Good for cheap, single use storage. Can be recycled in the Rock Crusher.
 tile.railcraft.battery.zinc.carbon.tips=§9Charge Network Battery
+tile.railcraft.battery.zinc.carbon.empty.name=Expended Zinc-Carbon Battery
+tile.railcraft.battery.zinc.carbon.empty.desc=A battery designed to work with the charge network. Good for cheap, single use storage. This one is expended and can be recycled in the Rock Crusher.
+tile.railcraft.battery.zinc.carbon.empty.tips=§9Expended Charge Network Battery
 tile.railcraft.battery.zinc.silver.name=Zinc-Silver Battery
 tile.railcraft.battery.zinc.silver.desc=A battery designed to work with the charge network. Good for large, single use storage. Can be recycled in the Rock Crusher.
 tile.railcraft.battery.zinc.silver.tips=§9Charge Network Battery
+tile.railcraft.battery.zinc.silver.empty.name=Expended Zinc-Silver Battery
+tile.railcraft.battery.zinc.silver.empty.desc=A battery designed to work with the charge network. Good for large, single use storage. This one is expended and can be recycled in the Rock Crusher.
+tile.railcraft.battery.zinc.silver.empty.tips=§9Expended Charge Network Battery
 
 tile.railcraft.battery.state.disabled=Disabled
 tile.railcraft.battery.state.disposable=Disposable
