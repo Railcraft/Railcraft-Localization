@@ -908,8 +908,7 @@ tile.railcraft.anvil.intact.name=钢砧
 tile.railcraft.anvil.slightlyDamaged.name=裂纹钢砧
 tile.railcraft.anvil.veryDamaged.name=碎裂钢砧
 
-tile.railcraft.battery.nickel.iron.name=镍铁充电
-
+tile.railcraft.battery.nickel.iron.name=镍铁充电电池
 tile.railcraft.battery.nickel.iron.desc=可用于 Railcraft 电力网络的电池。适用于一般使用情景。可使用碎石机回收利用。
 tile.railcraft.battery.nickel.iron.tips=§9给电力网络电池充电
 tile.railcraft.battery.nickel.zinc.name=镍锌充电电池
