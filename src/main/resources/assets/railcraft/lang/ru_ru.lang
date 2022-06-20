@@ -387,7 +387,7 @@ item.railcraft.gear.invar.name=Инваровая шестерня
 item.railcraft.gear.iron.name=Железная шестерня
 item.railcraft.gear.steel.name=Стальная шестерня
 
-item.railcraft.ingot.brass.name=Латунный слитор
+item.railcraft.ingot.brass.name=Латунный слиток
 item.railcraft.ingot.bronze.name=Бронзовый слиток
 item.railcraft.ingot.copper.name=Медный слиток
 item.railcraft.ingot.invar.name=Инваровый слиток
@@ -482,7 +482,7 @@ item.railcraft.tool.signal.surveyor.name=Инспектор сигналов
 item.railcraft.tool.signal.surveyor.tips=Соединяет сигналы с сигнальными блоками
 item.railcraft.tool.signal.tuner.name=Настройщик сигнала
 item.railcraft.tool.signal.tuner.tips=Соединяет контроллеры с приёмниками
-item.railcraft.tool.spike.maul.iron.name=Жезелная шипастая кувалда
+item.railcraft.tool.spike.maul.iron.name=Железная шипастая кувалда
 item.railcraft.tool.spike.maul.steel.name=Стальная шипастая кувалда
 item.railcraft.tool.spike.maul.tips=Превращает пути в стрелки и соединения
 item.railcraft.tool.stone.carver.name=Каменный резчик
