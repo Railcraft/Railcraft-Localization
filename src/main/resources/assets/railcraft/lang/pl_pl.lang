@@ -83,9 +83,16 @@ death.railcraft.bore.5=%s utkwił pomiędzy skałą a twardym miejscem
 
 death.railcraft.train.1=%s został rozjechany 
 death.railcraft.train.2=%s bawił się na torach
-death.railcraft.train.3=%s bawil się w kurczka z pociągiem; pociąg wygrał
+death.railcraft.train.3=%s bawił się w kurczka z pociągiem; pociąg wygrał
 death.railcraft.train.4=%s złapał nie ten pociąg
 death.railcraft.train.5=%s kupił bilet w jedną stronę do zaświatów
+
+death.railcraft.electric.1=%s wita się z Nicolą Tesla
+death.railcraft.electric.2=%s odkrył znaczenie "Uwaga, wysokie napięcie!"
+death.railcraft.electric.3=%s został olśniony przez cuda elektryczności
+death.railcraft.electric.4=%s powinien był przeczytać tabliczkę ostrzegawczą
+death.railcraft.electric.5=%s doznał szokującego objawienia
+death.railcraft.electric.6=%s nauczył się czegoś o elektryczności. ONA BOLI!
 
 tile.railcraft.detector.advanced.name=Wykrywacz - Zaawansowany
 tile.railcraft.detector.age.name=Wykrywacz - Wiek
