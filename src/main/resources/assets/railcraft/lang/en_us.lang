@@ -994,6 +994,7 @@ tile.railcraft.creosote.block.name=Creosote Wood Block
 tile.railcraft.generic_crushed_obsidian.name=Crushed Obsidian
 tile.railcraft.generic_crushed_obsidian.tips=Prevents Mob Spawns
 tile.railcraft.abyssal.stone.name=Abyssal Stone
+tile.railcraft.jaded.stone.name=Jaded Stone
 tile.railcraft.quarried.stone.name=Quarried Stone
 
 tile.railcraft.glass.black.name=Black Strengthened Glass
@@ -1315,6 +1316,13 @@ tile.railcraft.infernal.etched.name=Etched Infernal Stone
 tile.railcraft.infernal.brick.name=Infernal Stone Brick
 tile.railcraft.infernal.chiseled.name=Chiseled Infernal Stone
 
+tile.railcraft.jaded.polished.name=Polished Jaded Stone
+tile.railcraft.jaded.paver.name=Jaded Stone Paver
+tile.railcraft.jaded.cobble.name=Jaded Cobblestone
+tile.railcraft.jaded.etched.name=Etched Jaded Stone
+tile.railcraft.jaded.brick.name=Jaded Stone Brick
+tile.railcraft.jaded.chiseled.name=Chiseled Jaded Stone
+
 tile.railcraft.nether.polished.name=Polished Nether Stone
 tile.railcraft.nether.cobble.name=Nether Cobblestone
 tile.railcraft.nether.etched.name=Etched Nether Stone
@@ -1394,8 +1402,11 @@ tile.railcraft.bloodstained.paver.stairs.name=Bloodstained Paver Stairs
 tile.railcraft.frostbound.brick.stairs.name=Frost Bound Brick Stairs
 tile.railcraft.frostbound.paver.stairs.name=Frost Bound Paver Stairs
 
-tile.railcraft.infernal.brick.stairs.name=Infernsl Brick Stairs
-tile.railcraft.infernal.paver.stairs.name=Infernsl Paver Stairs
+tile.railcraft.infernal.brick.stairs.name=Infernal Brick Stairs
+tile.railcraft.infernal.paver.stairs.name=Infernal Paver Stairs
+
+tile.railcraft.jaded.brick.stairs.name=Jaded Brick Stairs
+tile.railcraft.jaded.paver.stairs.name=Jaded Paver Stairs
 
 tile.railcraft.pearlized.brick.stairs.name=Pearlized Brick Stairs
 tile.railcraft.pearlized.paver.stairs.name=Pearlized Paver Stairs
@@ -1442,6 +1453,11 @@ tile.railcraft.infernal.slab.brick.name=Infernal Brick Slab
 tile.railcraft.infernal.slab.cobble.name=Infernal Cobble Slab
 tile.railcraft.infernal.slab.paver.name=Infernal Paver Slab
 
+tile.railcraft.jaded.slab.block.name=Jaded Block Slab
+tile.railcraft.jaded.slab.brick.name=Jaded Brick Slab
+tile.railcraft.jaded.slab.cobble.name=Jaded Cobble Slab
+tile.railcraft.jaded.slab.paver.name=Jaded Paver Slab
+
 tile.railcraft.pearlized.slab.block.name=Pearlized Block Slab
 tile.railcraft.pearlized.slab.brick.name=Pearlized Brick Slab
 tile.railcraft.pearlized.slab.cobble.name=Pearlized Cobble Slab
@@ -1470,6 +1486,7 @@ tile.railcraft.wall.frost.bound.brick.name=Frost Bound Brick Wall
 tile.railcraft.wall.gold.name=Gold Wall
 tile.railcraft.wall.ice.name=Ice Wall
 tile.railcraft.wall.infernal.brick.name=Infernal Brick Wall
+tile.railcraft.wall.jaded.brick.name=Jaded Brick Wall
 tile.railcraft.wall.iron.name=Iron Wall
 tile.railcraft.wall.nether.brick.name=Nether Brick Wall
 tile.railcraft.wall.obsidian.name=Obsidian Wall
