@@ -1184,8 +1184,8 @@ tile.railcraft.ore.dark.lapis.name=Тёмная лазуритовая руда
 tile.railcraft.ore.saltpeter.name=Селитровая руда
 tile.railcraft.ore.sulfur.name=Серная руда
 
-tile.railcraft.ore.magic.firestone.name=Руда огненного камня
-tile.railcraft.ore.magic.firestone.tips.name=Поджигает всё, кроме плоти,\n Вы можете чувствовать изменение воздуха\n вокруг себя, когда держите это...
+tile.railcraft.ore.magic.name=Руда огненного камня
+tile.railcraft.ore.magic.tips.name=Поджигает всё, кроме плоти,\nвы можете почувствовать, как меняется воздух вокруг вас,\nкогда вы держите его...
 
 tile.railcraft.ore.metal.copper.name=Медная руда
 tile.railcraft.ore.metal.lead.name=Свинцовая руда
