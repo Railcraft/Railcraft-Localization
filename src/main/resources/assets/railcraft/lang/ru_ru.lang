@@ -676,7 +676,7 @@ gui.railcraft.goggles.tips=Используйте панель быстрого 
 
 gui.railcraft.help=Помощь
 
-gui.railcraft.ic2.energy.rate=Коэффициент: %s EU
+gui.railcraft.ic2.energy.rate=Скорость: %s EU
 gui.railcraft.ic2.energy.level=Уровень энергии:
 
 gui.railcraft.jei.category.coke=Плавление коксовой печи
