@@ -1508,21 +1508,21 @@ tile.railcraft.wall.stone.brick.name=Стена из каменного кирп
 
 tile.railcraft.worldlogic.name=Генератор селитровой руды
 
-tile.railcraft.worldspike.admin.desc=Загружает область 3x3 чанков и поддерживает их загруженными. Не может быть создан и не требует топлива.
+tile.railcraft.worldspike.admin.desc=Загружает область 3x3 чанков. Не может быть создан и не требует топлива.
 tile.railcraft.worldspike.admin.name=Якорь администратора
 tile.railcraft.worldspike.admin.tips=Загрузчик чанков\n§o§c- Выключается редстоун-сигналом -
-tile.railcraft.worldspike.passive.desc=Загружает область 3x3 чанков. Не может быть создан и не требует топлива.
+tile.railcraft.worldspike.passive.desc=Загружает область 3x3 чанков. Начинает загружать чанки только тогда, когда игрок находится в пределах самого якоря. Может требовать топливо в зависимости от настроек сервера.
 tile.railcraft.worldspike.passive.name=Пассивный якорь
 tile.railcraft.worldspike.passive.tips=Загрузчик чанков\n§o§c- Выключается редстоун-сигналом -
-tile.railcraft.worldspike.personal.desc=Загружает область 3x3 чанков и поддерживает их загруженными. Прекращает поддержание загрузки когда владелец выходит из мира. Может требовать топлива в зависимости от настроек.
-tile.railcraft.worldspike.personal.name=Личный якорь
+tile.railcraft.worldspike.personal.desc=Загружает область 3x3 чанков. Работает, только пока его владелец на сервере. Может требовать топливо в зависимости от настроек сервера.
+tile.railcraft.worldspike.personal.name=Персональный якорь
 tile.railcraft.worldspike.personal.tips=Загрузчик чанков\n§o§c- Выключается редстоун-сигналом -
-tile.railcraft.worldspike.standard.desc=Загружает область 3x3 чанков и поддерживает их загруженными. Может требовать топлива в зависимости от настроек.
+tile.railcraft.worldspike.standard.desc=Загружает область 3x3 чанков. Может требовать топливо в зависимости от настроек сервера.
 tile.railcraft.worldspike.standard.name=Мировой якорь
 tile.railcraft.worldspike.standard.tips=Загрузчик чанков\n§o§c- Выключается редстоун-сигналом -
-tile.railcraft.worldspike.point.desc=Точка мирового якоря может быть спарена с иировам якорем для загрузки линии чанков на протяжении большой дистанции.
-tile.railcraft.worldspike.point.name=Точка мирового якоря
-tile.railcraft.worldspike.point.tips=Увеличивает зону загрузки мирового якоря\n§o§9- Спаривается с якорем с помощью монтировки -
+tile.railcraft.worldspike.point.desc=Мировой страж может быть соединена с любым якорем чтобы увеличить размер загружаемой области.
+tile.railcraft.worldspike.point.name=Мировой страж
+tile.railcraft.worldspike.point.tips=Увеличивает зону загрузки якоря\n§o§9- Соединяется с якорем с помощью монтировки -
 
 tooltip.wawla.tooltype.crowbar=Монтировка
 
