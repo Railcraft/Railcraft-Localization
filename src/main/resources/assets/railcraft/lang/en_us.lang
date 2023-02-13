@@ -253,6 +253,8 @@ item.railcraft.backpack.iceman.t2.name=Woven Iceman's Backpack
 item.railcraft.backpack.tips=Designed by Railcraft, Inc.
 item.railcraft.backpack.trackman.t1.name=Trackman's Backpack
 item.railcraft.backpack.trackman.t2.name=Woven Trackman's Backpack
+item.railcraft.backpack.signalman.t1.name=Signalman's Backpack
+item.railcraft.backpack.signalman.t2.name=Woven Signalman's Backpack
 
 item.railcraft.bleached.clay.name=Bleached Clay
 
@@ -675,6 +677,7 @@ gui.railcraft.goggles.tips=Use from hotbar to change Auras
 gui.railcraft.help=Help
 
 gui.railcraft.ic2.energy.rate=Rate: %s EU
+gui.railcraft.ic2.energy.level=Power Level:
 
 gui.railcraft.jei.category.coke=Coke Oven Smelting
 gui.railcraft.jei.category.blast_furnace=Blast Furnace Smelting
@@ -1181,8 +1184,8 @@ tile.railcraft.ore.dark.lapis.name=Dark Lapis Lazuli Ore
 tile.railcraft.ore.saltpeter.name=Saltpeter Ore
 tile.railcraft.ore.sulfur.name=Sulfur Ore
 
-tile.railcraft.ore.magic.firestone.name=Firestone Ore
-tile.railcraft.ore.magic.firestone.tips.name=Burning everything except flesh,\n you can feel the air change\n around you as you hold it...
+tile.railcraft.ore.magic.name=Firestone Ore
+tile.railcraft.ore.magic.tips.name=Burning everything except flesh,\n you can feel the air change\n around you as you hold it...
 
 tile.railcraft.ore.metal.copper.name=Copper Ore
 tile.railcraft.ore.metal.lead.name=Lead Ore
